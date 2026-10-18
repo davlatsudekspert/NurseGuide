@@ -58,3 +58,4 @@ app.*.map.json
 
 # Generated slide decks (tool/slides/make_topic_decks.py) are not committed
 *.pptx
+test/screenshots/goldens/

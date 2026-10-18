@@ -1,0 +1,868 @@
+import 'package:flutter/rendering.dart';
+import 'package:go_router/go_router.dart';
+import 'package:material_ui/material_ui.dart';
+
+import '../../design/brand.dart';
+import '../../design/tokens.dart';
+import '../../design/widgets/collapse_hysteresis.dart';
+import '../../features/settings/settings_controller.dart';
+import '../../l10n/gen/app_localizations.dart';
+import '../app_scope.dart';
+import '../shell.dart';
+
+/// Ilovadagi har bir ekran skeleti.
+///
+/// * Yuqori panel: brend (yoki orqaga tugmasi), til, profil.
+/// * Katta sarlavha bloki: kontent pastga surilganda ixcham toolbar
+///   holatiga o'tadi, yuqoriga qaytganda kengayadi ([CollapseHysteresis],
+///   14 px). Animatsiya 200 ms; reduced motion'da darhol.
+/// * Kontent: planshetda 640 px dan kengaymaydi, telefonda 24/18 px gutter.
+class LgPage extends StatefulWidget {
+  const LgPage({
+    super.key,
+    required this.title,
+    required this.children,
+    this.subtitle,
+    this.eyebrow,
+    this.showBrand = false,
+    this.showProfile = true,
+    this.leadingHero,
+    this.compactTitle = false,
+    this.titleMaxLines,
+  });
+
+  /// Katta sarlavha qatorlari chegarasi (masalan, uzun topshiriq nomi
+  /// tugmalarni pastga surmasin): oshsa “…”, bosilganda to'liq nom.
+  final int? titleMaxLines;
+
+  final String title;
+  final String? subtitle;
+  final String? eyebrow;
+  final List<Widget> children;
+
+  /// Kichikroq katta sarlavha (masalan, bosh sahifa shiori): ish
+  /// tugmalari birinchi ekranda ko'rinsin.
+  final bool compactTitle;
+
+  /// Tab ildiz ekranlarida: kengaytirilgan holatda brend ko'rinadi.
+  final bool showBrand;
+  final bool showProfile;
+
+  /// Sarlavhadan oldingi dekorativ blok (masalan, welcome rasmi).
+  final Widget? leadingHero;
+
+  @override
+  State<LgPage> createState() => _LgPageState();
+}
+
+class _LgPageState extends State<LgPage> {
+  final _logic = CollapseHysteresis();
+  final _scroll = ScrollController();
+  ScrollDirection _userDirection = ScrollDirection.idle;
+  double _largeTitleExtent = 120;
+
+  /// Oxirgi joylashuv qarori. Klaviatura ochiq paytda qayta hisoblanmaydi:
+  /// balandlik kamayib sarlavha ro'yxatga ko'chsa, fokus va kiritilayotgan
+  /// matn boshqa maydonga o'tib ketardi.
+  bool? _pinned;
+
+  /// Katta sarlavha o'lchandi; balandlik o'zgarsa (shrift, kenglik) —
+  /// joylashuv qarori (ustida qotirilganmi yoki ro'yxat ichidami) qayta
+  /// ko'riladi.
+  void _measured(double height) {
+    if ((height - _largeTitleExtent).abs() < 0.5) return;
+    _largeTitleExtent = height;
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (mounted) setState(() {});
+    });
+  }
+
+  /// Kontent o'lchami o'zgardi (masalan, qidiruv natijasi bo'shab qoldi):
+  /// endi scroll qilib bo'lmasa yoki tepada bo'lsa, ixcham sarlavha
+  /// kengaytiriladi — aks holda Android'da u “qotib” qolardi.
+  bool _onMetrics(ScrollMetricsNotification n) {
+    if (n.depth != 0 || n.metrics.axis != Axis.vertical) return false;
+    final m = n.metrics;
+    if (_logic.collapsed &&
+        (m.maxScrollExtent <= 0 || m.pixels <= _logic.topSnap) &&
+        _logic.reset()) {
+      setState(() {});
+    }
+    return false;
+  }
+
+  TabMemory? _tabs;
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final tabs = TabMemoryScope.maybeOf(context);
+    if (!identical(tabs, _tabs)) {
+      _tabs?.removeListener(_onReselect);
+      _tabs = tabs?..addListener(_onReselect);
+    }
+  }
+
+  /// Faol tab qayta bosildi: shu sahifa ko'rinib turgan tab ildizi bo'lsa,
+  /// ro'yxat tepaga suriladi va sarlavha kengayadi.
+  void _onReselect() {
+    if (!mounted || !_scroll.hasClients || _scroll.offset <= 0) return;
+    if (!TickerMode.valuesOf(context).enabled) return;
+    if (!(ModalRoute.of(context)?.isCurrent ?? false)) return;
+    final duration = LgMotion.of(context, LgMotion.header) * 2;
+    if (duration == Duration.zero) {
+      _scroll.jumpTo(0);
+    } else {
+      _scroll.animateTo(0, duration: duration, curve: Curves.easeOutCubic);
+    }
+    if (_logic.reset()) setState(() {});
+  }
+
+  @override
+  void dispose() {
+    _tabs?.removeListener(_onReselect);
+    _scroll.dispose();
+    super.dispose();
+  }
+
+  bool _onScroll(ScrollNotification n) {
+    if (n.depth != 0 || n.metrics.axis != Axis.vertical) return false;
+    if (n is UserScrollNotification) {
+      _userDirection = n.direction;
+      return false;
+    }
+    if (n is ScrollUpdateNotification) {
+      final userDriven =
+          n.dragDetails != null || _userDirection != ScrollDirection.idle;
+      final metrics = n.metrics;
+      bool changed;
+      if (userDriven) {
+        changed = _logic.onScroll(
+          pixels: metrics.pixels,
+          delta: n.scrollDelta ?? 0,
+          minScrollExtent: metrics.minScrollExtent,
+          maxScrollExtent: metrics.maxScrollExtent,
+          collapsibleExtent: _largeTitleExtent,
+        );
+      } else {
+        // Dasturiy scroll (masalan, tepaga qaytish) — faqat tepada kengaytirish.
+        changed = metrics.pixels <= _logic.topSnap && _logic.reset();
+      }
+      if (changed) setState(() {});
+    }
+    return false;
+  }
+
+  @override
+  Widget build(BuildContext context) {
+    final collapsed = _logic.collapsed;
+    final duration = LgMotion.of(context, LgMotion.header);
+    final media = MediaQuery.of(context);
+    // Shell ichida bu — shaffof pastki panelning to'liq balandligi (Ish joyi
+    // tugmasi va xavfsiz hudud bilan): ro'yxat oxirgi karta panel ostida
+    // qolmasligi uchun shuncha bo'sh joy qoldiradi. Shelldan tashqarida —
+    // oddiy xavfsiz hudud.
+    final bottomInset = media.padding.bottom;
+    final insideShell = StatefulNavigationShell.maybeOf(context) != null;
+    // Sahifaning o'z marshruti bo'yicha (ModalRoute — o'zgarsa qayta
+    // chiziladi). Navigator.canPop yopiq sahifa ustida boshqa sahifa
+    // turganda qayta chizilsa, keyin ham “orqaga” tugmasi qolib ketardi.
+    final canPop =
+        ModalRoute.of(context)?.canPop ?? Navigator.of(context).canPop();
+
+    final largeTitle = _LargeTitle(
+      eyebrow: widget.eyebrow,
+      title: widget.title,
+      subtitle: widget.subtitle,
+      leadingHero: widget.leadingHero,
+      compact: widget.compactTitle,
+      maxLines: widget.titleMaxLines,
+      showLogo: widget.showBrand,
+    );
+
+    return Scaffold(
+      body: SafeArea(
+        bottom: false,
+        child: LayoutBuilder(
+          builder: (context, constraints) {
+            final gutter = LgSpace.gutter(constraints.maxWidth);
+            final side = (constraints.maxWidth - LgSpace.maxContentWidth) / 2;
+            final horizontal = side > gutter ? side : gutter;
+            // Rasmli (welcome) sahifada sarlavha kontent bilan birga
+            // suriladi. Qolgan sahifalarda katta sarlavha ro'yxat ustida
+            // turadi va scroll yo'nalishiga qarab ixchamlashadi — lekin
+            // past ekranda (landshaft telefon, katta shrift) u joyning katta
+            // qismini egallab, kontentni ko'rinmas qilardi: bunda sarlavha
+            // ham ro'yxat ichiga o'tadi.
+            // Klaviatura ochilganda qaror o'zgarmaydi (yuqoridagi [_pinned]).
+            // Shell Scaffold'i ichida MediaQuery.viewInsets allaqachon
+            // olib tashlangan — klaviatura oynaning o'zidan aniqlanadi.
+            final keyboardOpen = View.of(context).viewInsets.bottom > 0;
+            // Shell ichida body panel ostigacha cho'ziladi: joy hisobida
+            // panel egallagan pastki qism chiqarib tashlanadi.
+            final available =
+                constraints.maxHeight - (insideShell ? bottomInset : 0);
+            if (!keyboardOpen || _pinned == null) {
+              _pinned =
+                  widget.leadingHero == null &&
+                  available >= 420 &&
+                  _largeTitleExtent <= available * 0.4;
+            }
+            final pinned = _pinned!;
+            if (!pinned && _logic.collapsed) _logic.reset();
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                _TopBar(
+                  horizontal: horizontal,
+                  title: widget.title,
+                  collapsed: pinned && collapsed,
+                  showBack: canPop,
+                  showBrand: widget.showBrand,
+                  showProfile: widget.showProfile,
+                  duration: duration,
+                ),
+                if (pinned)
+                  Padding(
+                    padding: EdgeInsets.symmetric(horizontal: horizontal),
+                    child: _CollapsibleTitle(
+                      collapsed: collapsed,
+                      duration: duration,
+                      onMeasured: _measured,
+                      child: largeTitle,
+                    ),
+                  ),
+                Expanded(
+                  child: NotificationListener<ScrollMetricsNotification>(
+                    onNotification: pinned ? _onMetrics : null,
+                    child: NotificationListener<ScrollNotification>(
+                      onNotification: pinned ? _onScroll : null,
+                      child: Scrollbar(
+                        controller: _scroll,
+                        child: ListView(
+                          controller: _scroll,
+                          keyboardDismissBehavior:
+                              ScrollViewKeyboardDismissBehavior.onDrag,
+                          padding: EdgeInsets.fromLTRB(
+                            horizontal,
+                            pinned ? 4 : 0,
+                            horizontal,
+                            // Shell ichida: panel (Ish joyi tugmasi bilan) ustida
+                            // 24 px bo'sh joy — oxirgi tugma panelga
+                            // "yopishib" turmaydi.
+                            (insideShell ? 24 : 32) + bottomInset,
+                          ),
+                          // Birinchi o'rin doim band: qaror o'zgarganda
+                          // kontent elementlarining indeksi (va holati —
+                          // fokus, kiritilgan matn) siljimaydi.
+                          children: [
+                            if (!pinned)
+                              largeTitle
+                            else
+                              const SizedBox.shrink(),
+                            ...widget.children,
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ],
+            );
+          },
+        ),
+      ),
+    );
+  }
+}
+
+class _LargeTitle extends StatelessWidget {
+  const _LargeTitle({
+    required this.title,
+    this.eyebrow,
+    this.subtitle,
+    this.leadingHero,
+    this.compact = false,
+    this.maxLines,
+    this.showLogo = false,
+  });
+
+  final String title;
+  final String? eyebrow;
+  final String? subtitle;
+  final Widget? leadingHero;
+  final bool compact;
+  final int? maxLines;
+
+  /// Tab ildizida: sarlavha yonida katta logotip. Sahifa scroll bo'lib
+  /// sarlavha yig'ilganda u yuqori panelda kichik logotipga aylanadi.
+  final bool showLogo;
+
+  @override
+  Widget build(BuildContext context) {
+    final p = LgPalette.of(context);
+    final text = Theme.of(context).textTheme;
+    final narrow = MediaQuery.sizeOf(context).width <= 360;
+    // Sarlavha allaqachon katta: juda katta shrift sozlamasida 1.3 dan
+    // ortiq kattalashmaydi, qolgan matn to'liq masshtablanadi.
+    final scaler = MediaQuery.textScalerOf(context).clamp(maxScaleFactor: 1.3);
+    final column = Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        if (eyebrow != null)
+          Padding(
+            padding: const EdgeInsets.only(bottom: 6),
+            child: Text(
+              eyebrow!.toUpperCase(),
+              style: text.labelSmall!.copyWith(
+                color: p.accentInk,
+                letterSpacing: 1.6,
+              ),
+            ),
+          ),
+        ?leadingHero,
+        Semantics(
+          header: true,
+          child: FitLongWordText(
+            title,
+            textScaler: scaler,
+            maxLines: maxLines,
+            minFontSize: compact ? 20 : 24,
+            // Telefonda ixcham: sarlavha ekranning katta qismini egallamaydi.
+            // O'lcham mavzu shkalasiga nisbatan (39 — bazaviy displaySmall):
+            // Ivory'ning tor serif shrifti biroz kattaroq chiqadi (D-64).
+            style: text.displaySmall!.copyWith(
+              fontSize:
+                  text.displaySmall!.fontSize! /
+                  39 *
+                  (compact ? (narrow ? 22 : 24) : (narrow ? 28 : 32)),
+            ),
+          ),
+        ),
+        if (subtitle != null) ...[
+          const SizedBox(height: 6),
+          Text(subtitle!, style: text.bodyMedium),
+        ],
+      ],
+    );
+    return Padding(
+      padding: const EdgeInsets.only(top: 2, bottom: 10),
+      child: showLogo && leadingHero == null
+          ? Row(
+              crossAxisAlignment: CrossAxisAlignment.center,
+              children: [
+                LgLogoMark(size: narrow ? 56 : kBigLogo, shadow: true),
+                const SizedBox(width: 14),
+                Expanded(child: column),
+              ],
+            )
+          : column,
+    );
+  }
+}
+
+/// Tab ildizidagi katta logotip o'lchami (yig'ilganda [kSmallLogo] ga
+/// kichrayadi).
+const kBigLogo = 68.0;
+const kSmallLogo = 42.0;
+
+/// Katta sarlavhani balandligi bo'yicha yig'adi (Align.heightFactor) va
+/// xiralashtiradi. Yig'ilganda semantik daraxtdan chiqariladi — sarlavha
+/// toolbarda qoladi.
+class _CollapsibleTitle extends StatelessWidget {
+  const _CollapsibleTitle({
+    required this.collapsed,
+    required this.duration,
+    required this.onMeasured,
+    required this.child,
+  });
+
+  final bool collapsed;
+  final Duration duration;
+  final ValueChanged<double> onMeasured;
+  final Widget child;
+
+  @override
+  Widget build(BuildContext context) {
+    return TweenAnimationBuilder<double>(
+      tween: Tween(end: collapsed ? 0 : 1),
+      duration: duration,
+      curve: Curves.easeOutCubic,
+      builder: (context, t, child) => ExcludeSemantics(
+        excluding: collapsed,
+        child: IgnorePointer(
+          ignoring: collapsed,
+          child: ClipRect(
+            child: Align(
+              alignment: Alignment.bottomLeft,
+              heightFactor: t,
+              child: Opacity(opacity: t.clamp(0, 1), child: child),
+            ),
+          ),
+        ),
+      ),
+      child: _MeasureHeight(onMeasured: onMeasured, child: child),
+    );
+  }
+}
+
+class _MeasureHeight extends SingleChildRenderObjectWidget {
+  const _MeasureHeight({required this.onMeasured, super.child});
+
+  final ValueChanged<double> onMeasured;
+
+  @override
+  RenderObject createRenderObject(BuildContext context) =>
+      _RenderMeasureHeight(onMeasured);
+
+  @override
+  void updateRenderObject(BuildContext context, _RenderMeasureHeight r) {
+    r.onMeasured = onMeasured;
+  }
+}
+
+class _RenderMeasureHeight extends RenderProxyBox {
+  _RenderMeasureHeight(this.onMeasured);
+
+  ValueChanged<double> onMeasured;
+
+  @override
+  void performLayout() {
+    super.performLayout();
+    onMeasured(size.height);
+  }
+}
+
+class _TopBar extends StatelessWidget {
+  const _TopBar({
+    required this.horizontal,
+    required this.title,
+    required this.collapsed,
+    required this.showBack,
+    required this.showBrand,
+    required this.showProfile,
+    required this.duration,
+  });
+
+  /// Kontent bilan bir xil gorizontal chegara (planshetda markazlashadi).
+  final double horizontal;
+  final String title;
+  final bool collapsed;
+  final bool showBack;
+  final bool showBrand;
+  final bool showProfile;
+  final Duration duration;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context);
+    final p = LgPalette.of(context);
+    final text = Theme.of(context).textTheme;
+    // Ildiz sahifada (orqaga tugmasi ham, brend ham yo'q — masalan Profil)
+    // katta sarlavha o'zi ko'rinib turadi: sarlavhani tepada takrorlamaymiz.
+    final showTitle = collapsed;
+
+    final Widget leading = showBack
+        ? _IconCircle(
+            icon: Icons.arrow_back_rounded,
+            tooltip: l.actionBack,
+            onTap: () => Navigator.of(context).maybePop(),
+            filled: false,
+          )
+        : _BrandMark(shrunk: !showBrand || collapsed);
+
+    final Widget middle;
+    if (showTitle) {
+      middle = Semantics(
+        header: collapsed,
+        child: _FitTitle(title, style: text.titleLarge!),
+      );
+    } else if (!showBack) {
+      middle = const _BrandText();
+    } else {
+      middle = const SizedBox.shrink();
+    }
+
+    return ColoredBox(
+      color: p.bg,
+      child: Padding(
+        padding: EdgeInsets.fromLTRB(horizontal - 6, 10, horizontal - 8, 8),
+        child: Row(
+          children: [
+            leading,
+            const SizedBox(width: 10),
+            Expanded(
+              child: AnimatedSwitcher(
+                duration: duration,
+                layoutBuilder: (current, previous) => Stack(
+                  alignment: Alignment.centerLeft,
+                  children: [...previous, ?current],
+                ),
+                child: KeyedSubtree(
+                  key: ValueKey('$showTitle-$showBack'),
+                  child: middle,
+                ),
+              ),
+            ),
+            // Yig'ilgan uzun sarlavha til tugmasiga "yopishmasin".
+            const SizedBox(width: 8),
+            const _LanguageButton(),
+            if (showProfile)
+              _IconCircle(
+                icon: Icons.person_outline_rounded,
+                tooltip: l.actionProfile,
+                onTap: () => context.push('/profile'),
+                filled: false,
+              ),
+          ],
+        ),
+      ),
+    );
+  }
+}
+
+/// Yuqori paneldagi kichik logotip. Brend sahifalarida katta logotip sarlavha
+/// yonida turadi; sarlavha yig'ilganda (`shrunk`) u shu yerda kichik holda
+/// paydo bo'ladi (katta → kichik masshtab animatsiyasi bilan). Panel eni
+/// o'zgarmaydi — sarlavha sakramaydi.
+class _BrandMark extends StatelessWidget {
+  const _BrandMark({required this.shrunk});
+
+  final bool shrunk;
+
+  @override
+  Widget build(BuildContext context) {
+    final reduced = LgMotion.reduced(context);
+    return SizedBox(
+      width: kSmallLogo + 6,
+      height: kSmallLogo,
+      child: Padding(
+        padding: const EdgeInsets.only(left: 6),
+        child: TweenAnimationBuilder<double>(
+          tween: Tween(end: shrunk ? 1 : 0),
+          duration: reduced
+              ? Duration.zero
+              : LgMotion.of(context, LgMotion.header),
+          curve: Curves.easeOutCubic,
+          builder: (context, t, child) => Opacity(
+            opacity: t,
+            child: Transform.scale(
+              scale:
+                  (kBigLogo / kSmallLogo) - ((kBigLogo / kSmallLogo) - 1) * t,
+              alignment: Alignment.bottomLeft,
+              child: child,
+            ),
+          ),
+          child: const LgLogoMark(size: kSmallLogo),
+        ),
+      ),
+    );
+  }
+}
+
+class _BrandText extends StatelessWidget {
+  const _BrandText();
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context);
+    final text = Theme.of(context).textTheme;
+    final p = LgPalette.of(context);
+    final taglineStyle = text.labelSmall!.copyWith(letterSpacing: 1.1);
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        // Tagline bir qatorga sig'masa ko'rsatilmaydi (11 px dan kichraytirish
+        // yoki kesish o'rniga).
+        final painter = TextPainter(
+          text: TextSpan(text: l.appTagline, style: taglineStyle),
+          textDirection: Directionality.of(context),
+          textScaler: MediaQuery.textScalerOf(context),
+          maxLines: 1,
+        )..layout(maxWidth: constraints.maxWidth);
+        final fits = !painter.didExceedMaxLines;
+        painter.dispose();
+        // Brend sarlavha emas (sahifa sarlavhasi bitta bo'lsin); juda katta
+        // shriftda 1.3 dan oshmaydi va sig'masa kichrayadi — kesilmaydi.
+        return Column(
+          mainAxisSize: MainAxisSize.min,
+          crossAxisAlignment: CrossAxisAlignment.start,
+          children: [
+            FittedBox(
+              fit: BoxFit.scaleDown,
+              alignment: Alignment.centerLeft,
+              child: Text(
+                'NurseGuide',
+                maxLines: 1,
+                textScaler: MediaQuery.textScalerOf(context)
+                    .clamp(maxScaleFactor: 1.3),
+                style: text.headlineSmall!.copyWith(
+                  fontSize: text.headlineSmall!.fontSize! / 25 * 23,
+                  letterSpacing: -1,
+                  height: 1.1,
+                  color: p.ink,
+                ),
+              ),
+            ),
+            if (fits) Text(l.appTagline, maxLines: 1, style: taglineStyle),
+          ],
+        );
+      },
+    );
+  }
+}
+
+class _IconCircle extends StatelessWidget {
+  const _IconCircle({
+    required this.icon,
+    required this.tooltip,
+    required this.onTap,
+    this.filled = true,
+  });
+
+  final IconData icon;
+  final String tooltip;
+  final VoidCallback onTap;
+  final bool filled;
+
+  @override
+  Widget build(BuildContext context) {
+    final p = LgPalette.of(context);
+    return Tooltip(
+      message: tooltip,
+      // onTap Semantics'da ham — excludeSemantics tap amalini olib tashlaydi.
+      child: Semantics(
+        button: true,
+        label: tooltip,
+        onTap: onTap,
+        excludeSemantics: true,
+        child: InkResponse(
+          onTap: onTap,
+          radius: 24,
+          child: Container(
+            width: kMinTap + 4,
+            height: kMinTap + 4,
+            alignment: Alignment.center,
+            child: Container(
+              width: 40,
+              height: 40,
+              decoration: BoxDecoration(
+                color: filled ? p.soft : Colors.transparent,
+                shape: BoxShape.circle,
+              ),
+              child: Icon(icon, color: p.ink, size: 23),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Yuqoridagi UZ/RU/EN tanlovchi. Til nomlari o'z tilida ko'rsatiladi.
+class _LanguageButton extends StatelessWidget {
+  const _LanguageButton();
+
+  static const _native = {
+    AppLanguage.uz: 'O‘zbekcha',
+    AppLanguage.ru: 'Русский',
+    AppLanguage.en: 'English',
+  };
+
+  @override
+  Widget build(BuildContext context) {
+    final settings = context.services.settings;
+    final l = AppLocalizations.of(context);
+    final p = LgPalette.of(context);
+    final text = Theme.of(context).textTheme;
+    return ListenableBuilder(
+      listenable: settings,
+      builder: (context, _) => PopupMenuButton<AppLanguage>(
+        tooltip: l.actionLanguage,
+        initialValue: settings.language,
+        onSelected: settings.setLanguage,
+        position: PopupMenuPosition.under,
+        itemBuilder: (context) => [
+          for (final lang in AppLanguage.values)
+            CheckedPopupMenuItem<AppLanguage>(
+              value: lang,
+              checked: lang == settings.language,
+              child: Text(_native[lang]!),
+            ),
+        ],
+        child: Semantics(
+          label: '${l.actionLanguage}: ${_native[settings.language]}',
+          excludeSemantics: true,
+          child: ConstrainedBox(
+            constraints: const BoxConstraints(
+              minHeight: kMinTap + 4,
+              minWidth: kMinTap + 4,
+            ),
+            child: Row(
+              mainAxisSize: MainAxisSize.min,
+              mainAxisAlignment: MainAxisAlignment.center,
+              children: [
+                Text(
+                  settings.language.shortLabel,
+                  style: text.labelMedium!.copyWith(
+                    fontSize: 13,
+                    fontWeight: FontWeight.w600,
+                  ),
+                ),
+                Icon(Icons.expand_more_rounded, size: 18, color: p.sub),
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Katta sarlavha: eng uzun so'z bir qatorga sig'maydigan bo'lsa (masalan,
+/// "Аланинаминотрансфераза"), shrift [minFontSize] gacha kichrayadi — so'z
+/// o'rtasidan bo'linmaydi. Qisqa so'zli matnga ta'sir qilmaydi.
+class FitLongWordText extends StatelessWidget {
+  const FitLongWordText(
+    this.text, {
+    super.key,
+    required this.style,
+    required this.minFontSize,
+    this.textScaler,
+    this.maxLines,
+  });
+
+  final String text;
+  final TextStyle style;
+  final double minFontSize;
+  final TextScaler? textScaler;
+
+  /// Qatorlar chegarasi: oshsa “…” va bosilganda to'liq matn (dialog).
+  final int? maxLines;
+
+  @override
+  Widget build(BuildContext context) {
+    final scaler = textScaler ?? MediaQuery.textScalerOf(context);
+    return LayoutBuilder(
+      builder: (context, constraints) {
+        final base = style.fontSize!;
+        var widest = 0.0;
+        for (final word in text.split(RegExp(r'\s+'))) {
+          if (word.isEmpty) continue;
+          final painter = TextPainter(
+            text: TextSpan(text: word, style: style),
+            textDirection: Directionality.of(context),
+            textScaler: scaler,
+            maxLines: 1,
+          )..layout();
+          if (painter.width > widest) widest = painter.width;
+          painter.dispose();
+        }
+        var size = base;
+        if (widest > constraints.maxWidth && widest > 0) {
+          size = (base * constraints.maxWidth / widest).floorToDouble();
+          // Pastki chegara — ekranda ko'rinadigan o'lcham (masshtabdan
+          // keyin): ×1.3 da [minFontSize] masshtabdan oldin qo'llansa, uzun
+          // so'z ("Конфиденциальность") baribir o'rtasidan bo'linardi
+          // (audit 2026-10-18, tablar).
+          final floor = minFontSize * minFontSize / scaler.scale(minFontSize);
+          if (size < floor) size = floor;
+        }
+        final shown = size == base
+            ? style
+            : style.copyWith(
+                fontSize: size,
+                letterSpacing: (style.letterSpacing ?? 0) * size / base,
+              );
+        final lines = maxLines;
+        if (lines == null) {
+          return Text(text, textScaler: scaler, style: shown);
+        }
+        final painter = TextPainter(
+          text: TextSpan(text: text, style: shown),
+          textDirection: Directionality.of(context),
+          textScaler: scaler,
+          maxLines: lines,
+        )..layout(maxWidth: constraints.maxWidth);
+        final cut = painter.didExceedMaxLines;
+        painter.dispose();
+        final label = Text(
+          text,
+          textScaler: scaler,
+          style: shown,
+          maxLines: lines,
+          overflow: TextOverflow.ellipsis,
+        );
+        if (!cut) return label;
+        return Semantics(
+          label: text,
+          button: true,
+          excludeSemantics: true,
+          onTap: () => _showFull(context),
+          child: GestureDetector(
+            key: const ValueKey('lg-title-full'),
+            behavior: HitTestBehavior.opaque,
+            onTap: () => _showFull(context),
+            child: label,
+          ),
+        );
+      },
+    );
+  }
+}
+
+extension on FitLongWordText {
+  void _showFull(BuildContext context) => showDialog<void>(
+    context: context,
+    builder: (context) => AlertDialog(
+      content: SelectableText(
+        text,
+        style: Theme.of(context).textTheme.titleLarge,
+      ),
+      actions: [
+        TextButton(
+          onPressed: () => Navigator.of(context).pop(),
+          child: Text(MaterialLocalizations.of(context).closeButtonLabel),
+        ),
+      ],
+    ),
+  );
+}
+
+/// Yig'ilgan sarlavha: tor ekranda 80% gacha kichrayib sig'sa — to'liq
+/// ko'rsatiladi; undan uzun bo'lsa "…" bilan qirqiladi.
+class _FitTitle extends StatelessWidget {
+  const _FitTitle(this.title, {required this.style});
+
+  final String title;
+  final TextStyle style;
+
+  static const _minScale = 0.8;
+
+  @override
+  Widget build(BuildContext context) => LayoutBuilder(
+    builder: (context, constraints) {
+      final painter = TextPainter(
+        text: TextSpan(text: title, style: style),
+        textDirection: Directionality.of(context),
+        textScaler: MediaQuery.textScalerOf(context),
+        maxLines: 1,
+      )..layout();
+      final natural = painter.width;
+      painter.dispose();
+      final max = constraints.maxWidth;
+      if (natural > max && natural * _minScale <= max) {
+        return FittedBox(
+          fit: BoxFit.scaleDown,
+          alignment: AlignmentDirectional.centerStart,
+          child: Text(title, maxLines: 1, style: style),
+        );
+      }
+      return Text(
+        title,
+        maxLines: 1,
+        overflow: TextOverflow.ellipsis,
+        style: style,
+      );
+    },
+  );
+}

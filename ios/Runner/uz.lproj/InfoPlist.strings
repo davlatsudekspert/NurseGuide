@@ -1,0 +1,3 @@
+/* Ruxsat so'rovlari matnlari (Info.plist kalitlari). */
+"NSCameraUsageDescription" = "NurseGuide kameradan faqat ustoz bergan guruh yoki test QR kodini skanerlashni (qurilmada o‘qiladi, rasm saqlanmaydi va yuborilmaydi) yoki murojaat uchun suratga olishni tanlasangiz foydalanadi.";
+"NSPhotoLibraryUsageDescription" = "NurseGuide rasmlaringizni faqat murojaatga ekran rasmini biriktirganingizda ochadi.";

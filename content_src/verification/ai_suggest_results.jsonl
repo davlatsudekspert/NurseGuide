@@ -1,0 +1,176 @@
+{"id": "ng-h-013", "ai_key": 0, "confidence": "high", "why": "Florens Naytingel medalini Xalqaro Qizil Xoch qo'mitasi ta'sis etgan va beradi.", "flags": []}
+{"id": "ng-h-034", "ai_key": 0, "confidence": "low", "why": "SEM, dispanser, sud-ekspertiza BTSY emas; lekin statsionar (3) ham BTSY emas, ikki variant mumkin.", "flags": ["ambiguous", "value_dependent"]}
+{"id": "ng-h-044", "ai_key": 0, "confidence": "low", "why": "Antibiotiklarni noto'g'ri qo'llash chidamli shtammlarni keltiradi; 1 va 3 ham mumkin, savol noaniq.", "flags": ["ambiguous"]}
+{"id": "ng-h-048", "ai_key": 1, "confidence": "medium", "why": "Qo'l gigiyenasi me'yoriy hujjat bo'yicha 6 bosqichli texnika bilan o'tkaziladi; variantlar noaniq.", "flags": ["ambiguous"]}
+{"id": "ng-h-050", "ai_key": 0, "confidence": "medium", "why": "0 eng to'liq: shamollatiladigan xona, kiyim, qo'lqop, ko'zoynak, niqob; 1 va 3 ham to'g'ri, bitta javob emas.", "flags": ["ambiguous"]}
+{"id": "ng-h-056", "ai_key": 1, "confidence": "low", "why": "Infeksion nazorat epidemiyaga qarshi chora-tadbirlar tizimi; 0 variant noto'g'ri tuzilgan, javoblar noaniq.", "flags": ["ambiguous"]}
+{"id": "ng-h-069", "ai_key": 0, "confidence": "medium", "why": "Kattalarda nafas soni 16-20/daq. 1-variant buzilgan (sana formatiga aylangan, 12-20 bo'lishi mumkin).", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-h-070", "ai_key": 0, "confidence": "medium", "why": "Kattalarda puls o'quv adabiyotida 60-80/daq; 90-100 ham 60-100 oralig'ida, shu bois me'yor qiymatiga bog'liq.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-h-071", "ai_key": 0, "confidence": "medium", "why": "Normal sistolik bosim yuqori chegarasi o'quv adabiyotida 140 mm sim.ust (120-130 optimal); qiymatga bog'liq.", "flags": ["value_dependent"]}
+{"id": "ng-h-072", "ai_key": 0, "confidence": "medium", "why": "Diastolik bosim yuqori chegarasi o'quv adabiyotida 90 mm sim.ust; zamonaviy me'yor 80, qiymatga bog'liq.", "flags": ["value_dependent", "outdated_risk"]}
+{"id": "ng-h-085", "ai_key": 0, "confidence": "medium", "why": "Puls: ritm, chastota, to'liqlik, shakl (tezlik), taranglik; 0 eng to'liq ro'yxat.", "flags": []}
+{"id": "ng-h-091", "ai_key": 0, "confidence": "high", "why": "Nafas olishning tezlashishi taxipnoe; bradipnoe - sekinlashishi, apnoe - to'xtashi.", "flags": []}
+{"id": "ng-h-098", "ai_key": 0, "confidence": "medium", "why": "Yurak qisqarishidan tomir devorining ritmik tebranishi puls; 'arterial puls' ham mos, ikki variant.", "flags": ["ambiguous"]}
+{"id": "ng-h-122", "ai_key": 0, "confidence": "high", "why": "Ko'fe quyqasi rangli qusuq oshqozon yoki 12 barmoqli ichakdan qon ketishini bildiradi.", "flags": []}
+{"id": "ng-h-137", "ai_key": 0, "confidence": "medium", "why": "Xantal qog'ozi yallig'lanish va og'riqda ishlatiladi; teri kasalligi, sil, isitma - qarshi ko'rsatma.", "flags": ["ambiguous"]}
+{"id": "ng-h-141", "ai_key": 0, "confidence": "medium", "why": "Og'riq, tomir spazmi, yallig'lanishda ko'rsatma; teri kasalligi, o'pka sili va raki - qarshi ko'rsatma.", "flags": []}
+{"id": "ng-h-144", "ai_key": 1, "confidence": "low", "why": "Yuvishda oqar suv qo'llaniladi ('Oqava' bu yerda 'oqar suv' ma'nosida deb taxmin); distillangan - yakuniy chayish.", "flags": ["ambiguous"]}
+{"id": "ng-h-153", "ai_key": 0, "confidence": "medium", "why": "Eritilgan antibiotik odatda shu kunning o'zida (24 soat ichida) ishlatiladi; muddat preparatga bog'liq.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-h-166", "ai_key": 0, "confidence": "low", "why": "Nechiporenko bo'yicha 1 ml siydikda leykositlar taxminan 2000 gacha; variantlar ichida 1200-1800 yaqin.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-h-192", "ai_key": 0, "confidence": "medium", "why": "Muloqot elementlari: jo'natuvchi, axborot, kanal, qabul qiluvchi (auditoriya); 0 eng mos.", "flags": []}
+{"id": "ng-h-194", "ai_key": 0, "confidence": "high", "why": "Muloqotning uch tomoni: kommunikativ, interaktiv, perseptiv.", "flags": []}
+{"id": "ng-h-207", "ai_key": 0, "confidence": "medium", "why": "Mexanik antiseptika: jarohatni tozalash, birlamchi jarrohlik ishlov; yuvish (2) ham mos, ikki variant.", "flags": ["ambiguous"]}
+{"id": "ng-h-208", "ai_key": 3, "confidence": "medium", "why": "To'qimani ajratuvchi/kesuvchi asbob qaychi (Kuper); pinset va kornsang ushlovchi, Koxer qisqichi qon to'xtatuvchi.", "flags": []}
+{"id": "ng-h-210", "ai_key": 2, "confidence": "high", "why": "Deontologiya yunoncha deon (burch, zarur) va logos (ta'limot) so'zlaridan.", "flags": []}
+{"id": "ng-h-211", "ai_key": 0, "confidence": "medium", "why": "Nonushta kunlik ratsionning taxminan 25-30% ini tashkil etadi; taomlanish rejimiga bog'liq.", "flags": ["value_dependent"]}
+{"id": "ng-h-215", "ai_key": 1, "confidence": "medium", "why": "Yotoq yara xavfini Braden va Norton shkalasi baholaydi; Waterlow ham ishlatiladi, ammo Glasgow/Apgar emas.", "flags": ["ambiguous"]}
+{"id": "ng-h-230", "ai_key": 0, "confidence": "low", "why": "Birinchi tomchi doku suyuqligi/antiseptik aralashgani uchun artiladi; yagona mazmunli variant 0, izoh noaniq.", "flags": ["ambiguous"]}
+{"id": "ng-h-236", "ai_key": 0, "confidence": "high", "why": "Kapillyar qonda glyukoza me'yori 3,3-5,5 mmol/l.", "flags": ["value_dependent"]}
+{"id": "ng-h-248", "ai_key": 0, "confidence": "high", "why": "BTSY qishloq vrachlik punkti, oilaviy poliklinika, shahar poliklinikalarida ko'rsatiladi.", "flags": ["value_dependent"]}
+{"id": "ng-h-249", "ai_key": 1, "confidence": "high", "why": "Sanitariya-profilaktika muassasalari - davlat sanitariya-epidemiologiya markazlari.", "flags": []}
+{"id": "ng-h-267", "ai_key": 0, "confidence": "medium", "why": "Qo'lqoplar steril va steril bo'lmagan (tekshiruv) turlarga bo'linadi; 'nostril' so'zi xato yozilgan.", "flags": ["ambiguous"]}
+{"id": "ng-h-268", "ai_key": 0, "confidence": "low", "why": "Najas va qusuq massasi uchun odatda quruq xlorli ohak ishlatiladi; xloramin/gipoxlorit ham ishlatiladi, norma aniqlasin.", "flags": ["ambiguous", "value_dependent"]}
+{"id": "ng-h-269", "ai_key": 0, "confidence": "medium", "why": "Normal sistolik bosimning yuqori chegarasi o'quv adabiyotida 140 mm sim.ust; qiymatga bog'liq.", "flags": ["value_dependent"]}
+{"id": "ng-h-270", "ai_key": 0, "confidence": "medium", "why": "Simobli termometr qo'ltiqda 10 daqiqa ushlanadi; elektron termometrda signalgacha, norma qiymatiga bog'liq.", "flags": ["value_dependent"]}
+{"id": "ng-h-271", "ai_key": 0, "confidence": "medium", "why": "Inspirator xansirash - nafas olishning qiyinlashishi; variant 0 qisqa yozilgan, 3 (tezlashish) noto'g'ri.", "flags": ["ambiguous"]}
+{"id": "ng-h-275", "ai_key": 0, "confidence": "high", "why": "Infeksiya - organizmga patogen mikroorganizmlar kirib, kasallik jarayonini keltirib chiqarishi.", "flags": []}
+{"id": "ng-h-276", "ai_key": 0, "confidence": "high", "why": "Ekzogen infeksiya - qo'zg'atuvchining tashqi muhitdan kirishi.", "flags": []}
+{"id": "ng-h-282", "ai_key": 1, "confidence": "medium", "why": "Harorat balandligi bo'yicha: subfebril, o'rtacha, yuqori, o'ta yuqori; 1 variant eng mos.", "flags": ["ambiguous"]}
+{"id": "ng-h-283", "ai_key": 1, "confidence": "low", "why": "Kritik isitma - haroratning keskin tushishi (krizis); atama noaniq, 40 C dan oshishi ham deyilishi mumkin.", "flags": ["ambiguous"]}
+{"id": "ng-h-293", "ai_key": 3, "confidence": "high", "why": "Patogenlik - mikroorganizmning kasallik keltirib chiqarish qobiliyati.", "flags": []}
+{"id": "ng-h-303", "ai_key": 0, "confidence": "medium", "why": "Variant 0 (100-139/60-90) mahalliy darslikdagi me'yorga mos; boshqalarda diastolik chegarasi noto'g'ri.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-h-327", "ai_key": 2, "confidence": "low", "why": "Yutinganda ko'rinadigan buqoq II daraja (I - faqat paypaslanadi); tasnifga (Nikolaev/JSST) bog'liq.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-h-335", "ai_key": 1, "confidence": "high", "why": "Hamshiralik jarayoni 2-bosqichi - hamshiralik tashxisi (1 - tekshirish).", "flags": []}
+{"id": "ng-h-344", "ai_key": 0, "confidence": "high", "why": "Verlgof kasalligi (immun trombotsitopenik purpura) - trombotsitopeniya.", "flags": []}
+{"id": "ng-h-361", "ai_key": 0, "confidence": "high", "why": "Nafas olishning tezlashuvi taxipnoe.", "flags": []}
+{"id": "ng-h-362", "ai_key": 0, "confidence": "medium", "why": "Qusish markaziy va periferik (reflektor) turlarga bo'linadi; boshqa variantlar nomuvofiq.", "flags": []}
+{"id": "ng-h-373", "ai_key": 0, "confidence": "high", "why": "Yarim o'tirgan holat Fauler holati.", "flags": []}
+{"id": "ng-h-397", "ai_key": 0, "confidence": "high", "why": "Glargin (Lantus) uzoq ta'sirli insulin; oddiy insulin qisqa, butamid va maninil tabletka.", "flags": []}
+{"id": "ng-h-400", "ai_key": 1, "confidence": "high", "why": "Yallig'lanishning klassik belgilari: og'riq, qizarish, shish, issiqlik.", "flags": []}
+{"id": "ng-h-401", "ai_key": 2, "confidence": "high", "why": "Yaralarga noto'g'ri ishlov berish infeksiya va sepsis xavfini oshiradi.", "flags": []}
+{"id": "ng-h-402", "ai_key": 1, "confidence": "medium", "why": "Ichki qon ketishda bosim pasayishi, hushdan ketish xos; boshqalar xos emas.", "flags": []}
+{"id": "ng-h-403", "ai_key": 2, "confidence": "high", "why": "Yotoq yaralarining oldini olish uchun har 2 soatda holat o'zgartiriladi.", "flags": []}
+{"id": "ng-h-404", "ai_key": 1, "confidence": "high", "why": "Kislorodni eritrotsitlar (gemoglobin) tashiydi.", "flags": []}
+{"id": "ng-h-405", "ai_key": 1, "confidence": "high", "why": "Nafas tezlashishi taxipnoe.", "flags": []}
+{"id": "ng-h-425", "ai_key": 0, "confidence": "medium", "why": "O'z-o'zini parvarishga bosimni o'lchash, simptomlarni kuzatish va parhez kiradi; 0 eng to'liq.", "flags": ["ambiguous"]}
+{"id": "ng-h-427", "ai_key": 1, "confidence": "high", "why": "Puls sekinlashuvi bradikardiya (taxikardiya - tezlashuvi).", "flags": []}
+{"id": "ng-h-429", "ai_key": 2, "confidence": "high", "why": "Tugun, vazn yo'qotish, qon ketish onkologik kasallikka xos; qolganlari nospetsifik.", "flags": []}
+{"id": "ng-h-430", "ai_key": 2, "confidence": "high", "why": "Antibiotiklar saraton davosi usuli emas; kimyo, nur, jarrohlik - usullar.", "flags": []}
+{"id": "ng-h-432", "ai_key": 0, "confidence": "low", "why": "Saraton og'rig'i odatda doimiy va zo'rayib boradi; 0 eng yaqin, savol yomon tuzilgan.", "flags": ["ambiguous"]}
+{"id": "ng-h-433", "ai_key": 0, "confidence": "high", "why": "Onkologiyada rentgenografiya va biopsiya asosiy diagnostik usullar; biopsiya tasdiqlaydi.", "flags": []}
+{"id": "ng-h-435", "ai_key": 1, "confidence": "high", "why": "Kimyoterapiya o'sma hujayralarini yo'qotadi, sog'lom hujayralarga ham zarar yetkazishi mumkin.", "flags": []}
+{"id": "ng-h-436", "ai_key": 1, "confidence": "high", "why": "Onkologik bemor parvarishida og'riqni boshqarish va ruhiy qo'llab-quvvatlash asosiy.", "flags": []}
+{"id": "ng-h-437", "ai_key": 2, "confidence": "high", "why": "Hamshiralik jarayoni: tekshirish, tashxis, rejalashtirish (3-bosqich), bajarish, baholash.", "flags": []}
+{"id": "ng-h-439", "ai_key": 1, "confidence": "high", "why": "Diabetda glyukoza darajasi va ovqatlanish nazorati asosiy.", "flags": []}
+{"id": "ng-h-441", "ai_key": 1, "confidence": "high", "why": "Operatsiyadan keyingi parvarishning asosiy maqsadi asoratlarning oldini olish.", "flags": []}
+{"id": "ng-h-463", "ai_key": 0, "confidence": "medium", "why": "Buyrak AB ni renin ishlab chiqarish bilan boshqaradi; suv-tuz chiqarish (2) ham mos, ikki variant.", "flags": ["ambiguous"]}
+{"id": "ng-h-464", "ai_key": 0, "confidence": "low", "why": "Siydik cho'kmasida ko'ruv maydonida eritrotsit odatda 0-1 (ayollarda 3 gacha); manbaga bog'liq.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-h-467", "ai_key": 0, "confidence": "low", "why": "Birlamchi profilaktika - sog'lom turmush tarzi; variantda 'bitsillin' xato ko'rinadi, boshqalari davolash/dispanser.", "flags": ["ambiguous"]}
+{"id": "ng-h-468", "ai_key": 2, "confidence": "low", "why": "Ikkilamchi profilaktika - aniqlangan bemorlarni dispanser nazoratiga olish; variantlar aralash va buzilgan.", "flags": ["ambiguous"]}
+{"id": "ng-h-478", "ai_key": 1, "confidence": "medium", "why": "Me'dani yuvishda iliq suv (taxminan 18-20 C) ishlatiladi; 15-20 C eng yaqin, manbalar farq qiladi.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-h-489", "ai_key": 1, "confidence": "high", "why": "Antiseptika mikroblarni yo'qotishga, aseptika ularning kirishini oldini olishga qaratilgan.", "flags": []}
+{"id": "ng-h-490", "ai_key": 2, "confidence": "high", "why": "Sanitar-epidemiologik tartib buzilsa yuqumli kasalliklar tarqaladi.", "flags": []}
+{"id": "ng-h-492", "ai_key": 2, "confidence": "low", "why": "Kattalarda odatiy tezlik 60-80 tomchi/daq; yagona maksimal qiymat dori va holatga bog'liq.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-h-493", "ai_key": null, "confidence": "low", "why": "Savol buzilgan, 1 va 2 variant bir xil, to'g'ri javob ko'rinmaydi; qayta tahrirlash kerak.", "flags": ["ambiguous"]}
+{"id": "ng-h-495", "ai_key": 3, "confidence": "medium", "why": "180/110 gipertonik kriz darajasi, darhol nazorat va yordam kerak; 90/60 past bosim ham kuzatuv talab qiladi.", "flags": ["value_dependent"]}
+{"id": "ng-h-499", "ai_key": 1, "confidence": "medium", "why": "Variantlardan allergik reaksiya xavfliroq; aslida asosiy xavf infeksiya va asoratlar, ro'yxatda yo'q.", "flags": ["ambiguous"]}
+{"id": "ng-p-003", "ai_key": 2, "confidence": "low", "why": "2 va 0 deyarli bir xil; 2 bo'y o'lchagich bilan, 0 noutbuk bilan. Buyruq ro'yxatiga qarab tekshirilsin.", "flags": ["ambiguous"]}
+{"id": "ng-p-005", "ai_key": 0, "confidence": "low", "why": "Amaliyot hamshirasi shifokor oldi xonasida ishlab, patronaj hamshiralar va doyani boshqaradi; boshqalari mantiqsiz.", "flags": ["ambiguous"]}
+{"id": "ng-p-011", "ai_key": 0, "confidence": "low", "why": "OIV belgisiz tashuvchilikdan immun tizim zararlanishigacha; ARVT bilan boshqariladi. 'Muqarrar o'lim' eskirgan.", "flags": ["ambiguous", "outdated_risk"]}
+{"id": "ng-p-013", "ai_key": 0, "confidence": "low", "why": "Patronaj hamshirasi vazifasi aholi sog'ligini saqlash va mustahkamlash; boshqa variantlar qisman, savol noaniq.", "flags": ["ambiguous"]}
+{"id": "ng-p-029", "ai_key": 1, "confidence": "low", "why": "Reproduktiv xavf omillari: erta/kech tug'ish, qisqa oraliq, ko'p tug'ish, kasallik; 3 variant ham yaqin.", "flags": ["ambiguous"]}
+{"id": "ng-p-036", "ai_key": 0, "confidence": "low", "why": "Harorat krizisida terlagan oqliq almashtiriladi va isitiladi; 0 va 3 ham mos, muz qo'yish xato.", "flags": ["ambiguous"]}
+{"id": "ng-p-049", "ai_key": 3, "confidence": "medium", "why": "Qon bosimi tonometr (sfigmomanometr) bilan o'lchanadi; manometr uning qismi.", "flags": ["ambiguous"]}
+{"id": "ng-p-077", "ai_key": 0, "confidence": "low", "why": "Maqsadli guruhlar: homilador, tug'ruqdan keyingi ayol, ilk yoshdagi bolalar; 1 ham mumkin.", "flags": ["ambiguous"]}
+{"id": "ng-p-096", "ai_key": 1, "confidence": "low", "why": "Hamshiralik tashxisi bemor shikoyati va muammolariga asoslanadi; 3 (funksional holat) ham mumkin, noaniq.", "flags": ["ambiguous"]}
+{"id": "ng-p-107", "ai_key": 3, "confidence": "medium", "why": "Elektron termometr signalgacha taxminan 1 daqiqa yoki kamroq; 5-20 daqiqa noto'g'ri.", "flags": ["value_dependent"]}
+{"id": "ng-p-114", "ai_key": 1, "confidence": "medium", "why": "O'rtacha suvsizlanish taxminan 4-6% vazn yo'qotish, siydik to'q sariq; boshqa variantlarda foizlar noto'g'ri.", "flags": ["value_dependent"]}
+{"id": "ng-p-153", "ai_key": 3, "confidence": "medium", "why": "Yotoq yara bosim ostidagi suyak do'ngliklarida chiqadi; qorin, son, yelka odatiy joy emas.", "flags": ["ambiguous"]}
+{"id": "ng-p-157", "ai_key": 1, "confidence": "low", "why": "Keksalarda puls sekin va qattiq bo'lishi mumkin; yagona to'g'ri javob emas, bradikardiya eng yaqin.", "flags": ["ambiguous", "value_dependent"]}
+{"id": "ng-p-180", "ai_key": 3, "confidence": "low", "why": "Nonushta taxminan 25-30%; variantlar buzilgan va 1-2 takrorlangan, 3-variant '30-25%' shu oraliqqa mos.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-p-193", "ai_key": 1, "confidence": "low", "why": "Burun qonashi sababi: shikastlanish asosiy; variantlar noaniq tuzilgan (bronxit, gastrit, diabet sabab emas).", "flags": ["ambiguous"]}
+{"id": "ng-p-205", "ai_key": 3, "confidence": "low", "why": "O'zaro muomalani yengillashtiruvchi omil - qayg'udoshlik, hurmat, samimiylik; 1 variant ham mumkin.", "flags": ["ambiguous"]}
+{"id": "ng-p-223", "ai_key": 2, "confidence": "medium", "why": "Bemor shikoyatlari asosiy va qo'shimcha deb bo'linadi; savol 'jamoada' so'zi bilan noaniq.", "flags": ["ambiguous"]}
+{"id": "ng-p-239", "ai_key": 0, "confidence": "low", "why": "To'g'ri turish: orqa tik, qorin mushaklari tarang; oyoqlar yelka kengligida (2) ham to'g'ri, bir necha variant mos.", "flags": ["ambiguous"]}
+{"id": "ng-p-242", "ai_key": 1, "confidence": "medium", "why": "Fauler holatida bosh tomon odatda 45-60 gradus ko'tariladi; manbalarda 30-90 farq qiladi. Variantlarda 'C' xato.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-p-244", "ai_key": 1, "confidence": "low", "why": "Fauler holati ovqatlantirish, gigiyena va nafasni yengillatish uchun; 3 (qulaylik) ham umumiy to'g'ri.", "flags": ["ambiguous"]}
+{"id": "ng-p-252", "ai_key": 1, "confidence": "low", "why": "Sims holatida yuqoridagi qo'l taxminan 90 gradus buklanadi deb olinadi; son qiymat manbaga bog'liq.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-p-261", "ai_key": null, "confidence": "low", "why": "Zambil yoki aravacha bemor holatiga bog'liq; bir nechta variant to'g'ri, yagona javob yo'q.", "flags": ["ambiguous"]}
+{"id": "ng-p-264", "ai_key": 2, "confidence": "medium", "why": "90 gradus o'tirish yuqori Fauler holati; majburiy holat (ortopnoe) ham aytilishi mumkin.", "flags": ["ambiguous"]}
+{"id": "ng-p-284", "ai_key": null, "confidence": "low", "why": "Pedikulitsid ta'sir vaqti preparatga bog'liq (10-40 daq); yagona me'yor yo'q, buyruqqa qarang.", "flags": ["value_dependent"]}
+{"id": "ng-p-294", "ai_key": null, "confidence": "low", "why": "Braden, Norton va Waterlow barchasi to'g'ri; savol bitta shkala so'raydi, variantlar noaniq.", "flags": ["ambiguous"]}
+{"id": "ng-p-298", "ai_key": null, "confidence": "low", "why": "Tirnoq uchun barmoqlarni ivitish vaqti manbaga bog'liq; ishonchli son aniqlanmadi.", "flags": ["value_dependent"]}
+{"id": "ng-p-320", "ai_key": 2, "confidence": "low", "why": "Tashrifdan oldin bemor bilan kelishiladi (vaqt, tayyorgarlik); shifokor/bosh hamshira ham mumkin.", "flags": ["ambiguous"]}
+{"id": "ng-p-324", "ai_key": 2, "confidence": "low", "why": "Sog'lom odam uchun ratsional rejim kuniga 4 mahal deb o'qitiladi; 3 mahal ham uchraydi.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-p-325", "ai_key": 1, "confidence": "low", "why": "O'rtacha kattalarning sutkalik energiya ehtiyoji taxminan 2500-2800 kkal; jinsi va faolligiga bog'liq.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-p-331", "ai_key": 0, "confidence": "low", "why": "Ovqat ingichka ichakda taxminan 5-6 soatda so'riladi deb o'qitiladi; manbalarda farq bor.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-p-332", "ai_key": 2, "confidence": "low", "why": "Dietoterapiya - davo maqsadida ovqatlantirish; 1-variant deyarli bir xil, 2-variant to'liqroq.", "flags": ["ambiguous"]}
+{"id": "ng-p-345", "ai_key": 1, "confidence": "low", "why": "Rektal oziqlantirish asosan suyuqlik va tuz (fiziologik eritma) ehtiyoji uchun; glyukoza ham ishlatiladi.", "flags": ["ambiguous", "value_dependent"]}
+{"id": "ng-p-354", "ai_key": null, "confidence": "low", "why": "Sun'iy ovqatlantirish turlari soni darslikka bog'liq (zond, gastrostoma, parenteral, rektal).", "flags": ["value_dependent"]}
+{"id": "ng-p-355", "ai_key": 1, "confidence": "medium", "why": "Irrigoskopiya uchun 1 litr suvga taxminan 200-250 g bariy sulfat; qolgan variantlar mantiqsiz.", "flags": ["value_dependent"]}
+{"id": "ng-p-358", "ai_key": 1, "confidence": "low", "why": "O'rtacha kattalarning sutkalik energiya ehtiyoji taxminan 2500-2800 kkal; qiymat manbaga bog'liq.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-p-362", "ai_key": 3, "confidence": "low", "why": "Ovqatlanish oralig'i odatda 4 soat (3-5 soat); manbaga bog'liq.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-p-364", "ai_key": null, "confidence": "low", "why": "Bolalar uchun sut hajmi yoshga bog'liq; yagona javob aniqlanmaydi.", "flags": ["value_dependent"]}
+{"id": "ng-p-367", "ai_key": 2, "confidence": "low", "why": "Kattalar tana vaznining taxminan 60% suv (50-70% oraliq); darslikka bog'liq.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-p-372", "ai_key": 3, "confidence": "medium", "why": "Fosfor ATF tarkibiga kiradi va hujayra energiyasida ishtirok etadi; magniy ham kofaktor.", "flags": ["ambiguous"]}
+{"id": "ng-p-378", "ai_key": 0, "confidence": "low", "why": "Kasalxonadagi bemor ko'pincha ruhan ezilgan bo'ladi; subyektiv savol, bir necha variant mumkin.", "flags": ["ambiguous"]}
+{"id": "ng-p-379", "ai_key": 1, "confidence": "high", "why": "Sutkada 3000 ml dan ortiq siydik ajralishi poliuriya.", "flags": []}
+{"id": "ng-p-386", "ai_key": null, "confidence": "low", "why": "Savol va variantlar mazmunan noaniq (shaxs/guruh), to'g'ri javobni aniqlab bo'lmaydi.", "flags": ["ambiguous"]}
+{"id": "ng-p-387", "ai_key": null, "confidence": "low", "why": "Muzli xalta odatda isitmaning 2-davrida qo'llanadi; bu yakka variant yo'q, 3 (I-II) esa qisman.", "flags": ["ambiguous"]}
+{"id": "ng-p-393", "ai_key": 2, "confidence": "medium", "why": "Bo'y va vazn ertalab nahorda o'lchanadi (kun davomida bo'y o'zgaradi).", "flags": []}
+{"id": "ng-p-440", "ai_key": 1, "confidence": "low", "why": "Nekroz in'eksiya/venepunksiya asorati (dori teri ostiga ketishi) sifatida berilgan; 3 (tomir tiqilishi) ham sabab bo'ladi.", "flags": ["ambiguous"]}
+{"id": "ng-p-461", "ai_key": 1, "confidence": "low", "why": "Hamshiralik kasallik tarixi hamshiraning mustaqil kasbiy, yuridik ahamiyatli hujjati; tibbiy hujjat (2) ham aytilishi mumkin.", "flags": ["ambiguous"]}
+{"id": "ng-p-478", "ai_key": 0, "confidence": "low", "why": "Limfa tugunlarining tez kattalashuvi ko'pincha infeksiyaga xos; metastaz sekinroq, lekin onkologiyani inkor etmaydi.", "flags": ["ambiguous"]}
+{"id": "ng-p-479", "ai_key": 1, "confidence": "medium", "why": "Paraanesteziya - ikkala oyoqda sezgining yo'qolishi; 3-variant (sezgi oshishi) giperesteziyaga to'g'ri keladi.", "flags": []}
+{"id": "ng-p-482", "ai_key": 1, "confidence": "high", "why": "Sub'ektiv tekshiruv - shikoyat, kasallik va hayot anamnezi; ko'rik, perkussiya, o'lchash obyektiv.", "flags": []}
+{"id": "ng-p-484", "ai_key": 1, "confidence": "low", "why": "Ko'z furatsilin eritmasi bilan yuviladi (darslik); fiziologik eritma ham ishlatiladi, ikki variant mos.", "flags": ["ambiguous"]}
+{"id": "ng-o-007", "ai_key": 0, "confidence": "low", "why": "Tibbiy aralashuvga rozilik odatda yozma shaklda rasmiylashtiriladi; ba'zi holatlarda og'zaki, norma tekshirilsin.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-o-009", "ai_key": 2, "confidence": "medium", "why": "Kasallanishni o'rganish: tibbiy yordamga murojaat, tibbiy ko'riklar, o'lim sabablari; ro'yxatga olish aholi soniga oid.", "flags": ["ambiguous"]}
+{"id": "ng-o-017", "ai_key": 0, "confidence": "medium", "why": "Surunkali NCD profilaktikasining ilmiy asosi - xavf omillarini aniqlash va kamaytirish; sog'lom turmush (1) ham mumkin.", "flags": ["ambiguous"]}
+{"id": "ng-o-054", "ai_key": null, "confidence": "low", "why": "Baholash bosqichlari soni manbaga bog'liq; ishonchli javob aniqlanmadi.", "flags": ["value_dependent"]}
+{"id": "ng-o-058", "ai_key": 2, "confidence": "high", "why": "Naytingeyl: atrof-muhit, ovqatlanish, tabiiy tuzalish imkoniyatiga e'tibor.", "flags": []}
+{"id": "ng-o-061", "ai_key": 0, "confidence": "high", "why": "Tibbiyot xodimi xatti-harakatidan kelib chiqadigan bemor holati - yatrogeniya.", "flags": []}
+{"id": "ng-o-062", "ai_key": 0, "confidence": "medium", "why": "Mehnat shartnomasi odatda imzolangan kundan kuchga kiradi, boshqacha kelishilmagan bo'lsa; normaga bog'liq.", "flags": ["value_dependent"]}
+{"id": "ng-o-065", "ai_key": 0, "confidence": "low", "why": "Bekor qilish tarafi: ish beruvchi va xodim (ba'zan kasaba uyushmasi roziligi); boshqa variantlar mantiqsiz.", "flags": ["ambiguous", "value_dependent"]}
+{"id": "ng-o-071", "ai_key": 0, "confidence": "medium", "why": "Reproduktiv salomatlik to'g'risidagi qonun 2019-yilda qabul qilingan deb hisoblanadi; sanani tekshirish kerak.", "flags": ["value_dependent"]}
+{"id": "ng-o-072", "ai_key": 1, "confidence": "low", "why": "Samaradorlik monitoring tahlili bilan aniqlanadi; boshqa variantlar ham ishlatilishi mumkin.", "flags": ["ambiguous"]}
+{"id": "ng-o-084", "ai_key": 1, "confidence": "low", "why": "Shaxsiy ishi bor inson tadbirkor; biznesmen ham sinonim sifatida ishlatilgan, savol noaniq.", "flags": ["ambiguous"]}
+{"id": "ng-o-091", "ai_key": 2, "confidence": "medium", "why": "Yil davomida birinchi marta aniqlangan kasallik - birlamchi kasallanish (incidence).", "flags": []}
+{"id": "ng-o-093", "ai_key": 0, "confidence": "low", "why": "Dalilga asoslanganlik - asoslilik va shubhasizlik; variantlar boshqa tushunchalar ta'rifi, savol noaniq.", "flags": ["ambiguous"]}
+{"id": "ng-o-103", "ai_key": null, "confidence": "low", "why": "Tashqi muhit laboratoriya nazorati davriyligi buyruqqa bog'liq; yagona javob aniqlanmadi.", "flags": ["value_dependent"]}
+{"id": "ng-o-109", "ai_key": 0, "confidence": "medium", "why": "OIV - odam immunitet tanqisligi virusi (aniqlama); 2-variant ham to'g'ri (retrovirus), ikki variant.", "flags": ["ambiguous"]}
+{"id": "ng-o-110", "ai_key": 0, "confidence": "medium", "why": "OITS - OIV infeksiyasining oxirgi bosqichi; 1-variant deyarli bir xil, 'terminal' eskirgan.", "flags": ["ambiguous", "outdated_risk"]}
+{"id": "ng-o-114", "ai_key": 0, "confidence": "low", "why": "TYKBI - tibbiy yordam bilan bog'liq, klinik taniqli yuqumli kasallik; ta'rif noaniq, 2 (xodimlar) ham qisman.", "flags": ["ambiguous"]}
+{"id": "ng-o-125", "ai_key": 0, "confidence": "medium", "why": "Parenteral gepatitdan himoya: jarohatni yopish, qo'lqop, niqob; 1 ham qisman mos, to'liqligi bilan 0 ustun.", "flags": ["ambiguous"]}
+{"id": "ng-o-144", "ai_key": 1, "confidence": "low", "why": "Quruq issiqlik: 180 C - 60 daq klassik rejim; 200 C - 30 daq ham eski normada bor, ikki variant.", "flags": ["value_dependent", "ambiguous", "outdated_risk"]}
+{"id": "ng-o-150", "ai_key": 0, "confidence": "low", "why": "180 C da klassik 60 daq, variantlarda yo'q; 40 daq yangi normadagi qiymat bo'lishi mumkin. Buyruq tekshirilsin.", "flags": ["value_dependent", "ambiguous", "outdated_risk"]}
+{"id": "ng-o-146", "ai_key": 1, "confidence": "low", "why": "2 atm uchun variantlar eski normaga bog'liq va bir-biriga yaqin; 45 daq taxminiy, buyruqdan tekshiring.", "flags": ["value_dependent", "ambiguous", "outdated_risk"]}
+{"id": "ng-o-151", "ai_key": 0, "confidence": "low", "why": "Bosim oshgan sari vaqt kamayadi (60/45/40); faqat 0-variant shu mantiqda. Rejim eski normaga bog'liq.", "flags": ["value_dependent", "outdated_risk"]}
+{"id": "ng-o-167", "ai_key": 1, "confidence": "medium", "why": "Ko'rik xonasi harorati odatda 20-22 C; 16-18 C kasalxona palatasi uchun emas, 27+ juda issiq.", "flags": ["value_dependent"]}
+{"id": "ng-o-240", "ai_key": 0, "confidence": "high", "why": "Chegaralangan yiringli yallig'lanish - abssess; flegmona diffuz.", "flags": []}
+{"id": "ng-o-244", "ai_key": 1, "confidence": "medium", "why": "Diterixs shinasi son va boldir suyaklari sinishida ishlatiladi; yelka/bilakka boshqa shina qo'llanadi.", "flags": []}
+{"id": "ng-o-259", "ai_key": 1, "confidence": "low", "why": "Platsentatsiya taxminan 12-16 haftada tugaydi; manbalarda turlicha, 12-14 hafta eng yaqin.", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-o-263", "ai_key": 3, "confidence": "medium", "why": "Pozitsiya - homila orqasining (kurak) bachadon o'ng yoki chap yon devoriga nisbati; 1 'ko'rinish' ta'rifi.", "flags": ["ambiguous"]}
+{"id": "ng-o-268", "ai_key": 2, "confidence": "low", "why": "Gumonli belgilar: ta'm buzilishi, hayz to'xtashi, pigmentatsiya; 3-variant ham mos, bachadon kattalashishi ehtimoliy belgi.", "flags": ["ambiguous"]}
+{"id": "ng-o-270", "ai_key": 2, "confidence": "low", "why": "Ikkilamchi plasentar yetishmovchilik 2-trimestrdan boshlab ko'p uchraydi; savol noaniq tuzilgan.", "flags": ["ambiguous"]}
+{"id": "ng-o-273", "ai_key": 3, "confidence": "medium", "why": "Zamonaviy usullar: to'siq, BIV, jarrohlik (IJK) va gormonal; 3-variant eng to'liq.", "flags": ["ambiguous"]}
+{"id": "ng-o-277", "ai_key": 2, "confidence": "high", "why": "Oilaviy nizo - oila hayotidagi psixologik va ijtimoiy keskin vaziyat (umumiy ta'rif).", "flags": []}
+{"id": "ng-o-293", "ai_key": 3, "confidence": "high", "why": "Qiz bolalarda vulvit va vulvovaginit ko'p uchraydi; endometrit/metrit kam.", "flags": []}
+{"id": "ng-o-299", "ai_key": 3, "confidence": "high", "why": "Naylar o'tkazuvchanligi: salpingografiya (GSG), pertubatsiya, gidrotubatsiya.", "flags": []}
+{"id": "ng-o-301", "ai_key": 1, "confidence": "low", "why": "Bo'yin yumshoq, markazda, 2 sm, kanal 1 barmoq; ball bo'yicha yetilgan/yetilmoqda oralig'i, variantlar noaniq.", "flags": ["ambiguous"]}
+{"id": "ng-o-303", "ai_key": 2, "confidence": "high", "why": "Anesteziya - og'riqsizlantirish.", "flags": []}
+{"id": "ng-o-305", "ai_key": 0, "confidence": "low", "why": "Spirtli zaharlanishda yuz giperemiyasi, yopishqoq teri xos; 1 og'ir (koma) bosqichga xos, bosqichga bog'liq.", "flags": ["ambiguous"]}
+{"id": "ng-o-311", "ai_key": 2, "confidence": "high", "why": "30 daqiqadan uzoq, nitroglitserin yordam bermaydigan to'sh orqasi og'rig'i - o'tkir miokard infarkti.", "flags": []}
+{"id": "ng-o-314", "ai_key": 0, "confidence": "medium", "why": "Dispanserizatsiya - aholi sog'ligini uzluksiz faol nazorat qilish tizimi.", "flags": []}
+{"id": "ng-o-315", "ai_key": null, "confidence": "low", "why": "Reyting ustamasi foizi ichki tartibga bog'liq; manbasiz javob berib bo'lmaydi.", "flags": ["value_dependent"]}
+{"id": "ng-o-325", "ai_key": 2, "confidence": "low", "why": "Xavf omili: bel aylanasi ayollarda >80, erkaklarda >90 sm; chegara manbada farq qiladi (94/102 ham uchraydi).", "flags": ["value_dependent", "ambiguous"]}
+{"id": "ng-o-327", "ai_key": 0, "confidence": "medium", "why": "BTSY: KTMP, oilaviy poliklinika (OP, QOP) va QVP; statsionar/dispanser kiritilgan variantlar noto'g'ri.", "flags": ["value_dependent", "outdated_risk"]}
+{"id": "ng-o-348", "ai_key": 1, "confidence": "medium", "why": "Tibbiy saralashni tibbiy saralash brigadasi o'tkazadi (shifokor va hamshiralar).", "flags": ["ambiguous"]}
+{"id": "ng-o-350", "ai_key": 1, "confidence": "medium", "why": "Shaxsiy himoya vositalari: respirator, gazniqob, niqob, individual bog'lov paketi; panagoh jamoaviy himoya.", "flags": ["ambiguous"]}
+{"id": "ng-o-351", "ai_key": 1, "confidence": "medium", "why": "Kuyish shokining o'ziga xosligi - uzoq davom etuvchi erektil bosqich; bosim erta pasaymaydi.", "flags": ["ambiguous"]}
+{"id": "ng-o-352", "ai_key": 2, "confidence": "medium", "why": "Ochiq pnevmotoraksda okklyuzion (germetik) bog'lam asosiy; kordiamin eskirgan, lekin 2-variant eng to'g'ri.", "flags": ["ambiguous", "outdated_risk"]}
+{"id": "ng-o-358", "ai_key": 0, "confidence": "medium", "why": "Biologik usul: qon, plazma, antigemofil zardob quyish va mahalliy gemostatik vositalar.", "flags": ["ambiguous"]}
+{"id": "ng-o-370", "ai_key": null, "confidence": "low", "why": "Mutaxassisni qayta tayyorlash soatlari (288/432) buyruqqa bog'liq; manbasiz javob berib bo'lmaydi.", "flags": ["value_dependent"]}
+{"id": "ng-o-387", "ai_key": 1, "confidence": "high", "why": "Hamshira bemor manfaatini himoya qilsa, parvarish bemorga yo'naltirilgan bo'ladi.", "flags": []}
+{"id": "ng-o-406", "ai_key": 0, "confidence": "low", "why": "A va E gepatitlari kontakt-maishiy (fekal-oral) yo'l bilan yuqadi; B, C, D parenteral. Atama noaniq.", "flags": ["ambiguous"]}
+{"id": "ng-o-425", "ai_key": 0, "confidence": "low", "why": "Uchlamchi profilaktika - asoratlarni oldini olish va reabilitatsiya; 0 va 1 variant bo'lib kesilgan.", "flags": ["ambiguous"]}

@@ -1,0 +1,1769 @@
+{
+ "version": 1,
+ "topics": [
+  "general"
+ ],
+ "audit_checked_at": "2026-10-18",
+ "categories": [
+  "3-2",
+  "1",
+  "oliy"
+ ],
+ "questions": [
+  {
+   "id": "bl-h-1-01-1",
+   "q": "It tishlagandagi klinik belgilar va birinchi yordam ko'rsatish.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Klinik belgilar: bemorda qo'rquv, yengil stress; jarohatdan qon ketishi, og'riq; tishlangan qo'l yoki oyoqda harakat cheklanadi.",
+    "Jarohatlangan joy oqar suvda yuviladi, qon ketishi to'xtatiladi.",
+    "Og'riq qoldiruvchi qilinadi; jarohat chuqur yoki yuzakiligiga qarab jarrohlik amaliyoti bilan tikiladi.",
+    "SESga it tishlagani haqida xabar beriladi; it 10 kun nazoratga olinadi.",
+    "Bemorga quturishga qarshi vaksina qilinadi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 33-bet"
+  },
+  {
+   "id": "bl-h-1-01-2",
+   "q": "Sil kasalligining belgilari va profilaktikasi",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Harorat 37-37,5 °C gacha ko'tariladi, holsizlik va tez charchash, hech narsaga kuch qolmaydi.",
+    "Vazn yo'qotish, ishtahasizlik; bolalarda o'sishning sekinlashishi ham sil belgisi bo'lishi mumkin.",
+    "Kuchli terlash, ayniqsa tunda; ko'krak qafasida og'riq turishi.",
+    "Haftalab ketmaydigan yo'tal; kasallik avj olganda balg'amda qon ko'rinadi.",
+    "Profilaktika: kasallik rivoji immunitetga bog'liq, shuning uchun asosiysi sog'lom turmush tarzi.",
+    "Bolalarni emlash, dastlabki bosqichda aniqlash uchun muntazam sinov va testlar o'tkazish."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 57-bet"
+  },
+  {
+   "id": "bl-h-1-01-3",
+   "q": "Tepki o'chog'ida olib boradigan epidemiyaga qarshi profilaktika tadbirlarini ayting.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Epidemik parotit (tepki) - paramiksovirus qo'zg'atadigan o'tkir yuqumli kasallik; so'lak bezlari, oshqozon osti bezi, moyaklar va MAT zararlanadi.",
+    "Tepkiga qarshi emlash - kasallikni oldini olishning xavfsiz usuli.",
+    "Epidemiyaga qarshi chora-tadbirlar majmuasiga terapevtik va profilaktik tadbirlar kiradi.",
+    "Asosiy tadbirlar viruslarni zararsizlantirish, epidemiologik nazorat va tibbiy yordam sifatini oshirishga qaratilgan."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 38-bet"
+  },
+  {
+   "id": "bl-h-1-01-4",
+   "q": "5 yoshgacha bo'lgan bolalarning o'sish va rivojlanish monitoringini patronaj hamshira tomonidan olib borilishi.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Yangi tug'ilgan chaqaloq patronaji hayotning 1-oyida umumiy amaliyot shifokori va hamshira tomonidan olib boriladi.",
+    "Shifokor dastlabki 3 kun ichida, keyin 21 va 28-kunlari chaqaloqni ko'rikdan o'tkazadi.",
+    "Patronaj hamshira 30-kungacha har hafta uyga borib tekshiradi; bir oylikda ona va bola poliklinikaga taklif etiladi.",
+    "Shifokor hudud aholisi bazasini tuzib \"oila pasporti\"ga yozadi va yillik \"Patronaj va profilaktik ko'riklar rejasi\"ni tuzadi.",
+    "Yolg'iz qariya, nogiron, 1 yoshgacha bolalar va homilador ayollar patronaji oyiga 1 marta; emlashdan keyin 3 kun nazorat.",
+    "Xonadonlarning tibbiy-ijtimoiy holati yiliga 2 marta o'rganiladi; hamshira hududidagi aholini to'liq bilishi kerak."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 57-bet"
+  },
+  {
+   "id": "bl-h-1-01-5r",
+   "q": "Zotiljam kasalligi sababi, belgilari va unda hamshiralik parvarishi.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Zotiljam (pnevmoniya) - o'pkaning yallig'lanishi, infeksion kasallik; mustaqil kasallik yoki boshqa kasalliklar asorati bo'lishi mumkin.",
+    "Qo'zg'atuvchilar: turli bakteriyalar (pnevmokokk, streptokokk, stafilokokk) va viruslar.",
+    "Omillar: qattiq sovuq qotish, jismoniy va ruhiy o'ta toliqish, intoksikatsiya, organizm qarshiligini susaytiruvchi sabablar.",
+    "Parvarish: xonani tez-tez shamollatish; ichimlik va suyuq ovqatni tez-tez berish; terlaganda quruq sochiq bilan artish; ich va siydikni kuzatish.",
+    "Harsillashda boshni baland qilib yotqizish; kislorod bilan nafas oldirish; zo'riqqan holda bemor kasalxonada davolanadi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 27-bet"
+  },
+  {
+   "id": "bl-h-1-02-1",
+   "q": "Orqa miya suyuqligini olish texnikasini ayting. Punktsiya uchun kerakli jihozlar to'plamini aytib bering.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Lomber ponksiyonni maxsus tayyorlangan shifokor bajaradi, odatda 30 daqiqadan kam vaqt oladi; suyuqlik bel sohasidan olinadi.",
+    "Bemor butunlay harakatsiz turadi: oldinga egilib o'tiradi yoki tizzalarini ko'kragiga olib yonboshlab yotadi.",
+    "Orqa steril eritma (ko'pincha yod) bilan tozalanadi, steril maydon saqlanadi, mahalliy og'riqsizlantirish qilinadi.",
+    "Ingichka igna ikki umurtqa orasiga kiritiladi; avval bosim manometrda o'lchanadi, so'ng suyuqlik namunalari olinadi.",
+    "Tugagach igna olinadi, joy tozalanadi, bandaj qo'yiladi; bemor taxminan bir soat yotadi (bosh og'rig'i xavfini kamaytiradi).",
+    "To'plam: steril qo'lqop, kornsang, teri antiseptigi (70% spirt yoki 0,5% xlorheksidin), steril to'plar, 5 ml shpris, 10-12 sm Bira ignasi, steril naychalar."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 52-bet"
+  },
+  {
+   "id": "bl-h-1-02-2",
+   "q": "Klinik va biologik o'limning farqini ayting.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Biologik (haqiqiy) o'lim - hujayra va to'qimalardagi fiziologik jarayonlarning qaytmas to'xtashi.",
+    "Yurak urishi va nafas to'xtaganda biologik o'lim paydo bo'ladi.",
+    "Klinik o'lim - yurak va nafas to'xtagandan keyingi 4-6 daqiqalik davr, hayot va o'lim oralig'i.",
+    "Klinik o'limda jarayonlar hali qaytar; yetarli chora ko'rilsa, odamni hayotga qaytarish mumkin."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 34-bet"
+  },
+  {
+   "id": "bl-h-1-02-3",
+   "q": "Operatsiya maydonini zararsizlantirish uchun ishlatiladigan antiseptik moddalarni sanab bering.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Antiseptiklar: yod, yodanat, xlorgeksidin, 70% spirt, pervomur, AXD, brilyant ko'ki.",
+    "Operatsiya maydonini zararsizlantirish 4 bosqichdan iborat.",
+    "1-bosqich: maydon antiseptik bilan markazdan periferiyaga qarab artiladi.",
+    "2-bosqich: steril choyshablar yozilgach yana antiseptik bilan artiladi.",
+    "3-bosqich: jarohatni tikishdan oldin yana artiladi; 4-bosqich: tikib bo'lingach artilib, yara bog'lanadi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 66-bet"
+  },
+  {
+   "id": "bl-h-1-02-4",
+   "q": "Yurakning ishemik kasalliklarida patronaj hamshira taktikasi.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Yurakning ishemik kasalligi - miokard ishemiyasi va koronar qon aylanishi buzilishi bilan kechadigan keng tarqalgan kasallik.",
+    "Asosiy sabab - toj arteriyalar aterosklerozi; stenokardiya, miokard infarkti, kardioskleroz, yurak yetishmovchiligi kiradi.",
+    "Parhezga rioya qilish, ovqat miqdori va kaloriyasini cheklash, vaznni me'yorda saqlash, badan tarbiya, mehnat va dam olishni uyg'unlashtirish.",
+    "Chekishni tashlash shart; oldini olish uchun gipertoniya va qandli diabetni davolash zarur.",
+    "Bemor kardiolog nazoratida bo'ladi va shifokor ko'rsatmalariga to'liq amal qiladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 36-bet"
+  },
+  {
+   "id": "bl-h-1-02-5",
+   "q": "Sitomegalovirus kasalligining kelib chiqishi va homilaga ta'siri.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Sitomegalovirus kasallangan odamning tana suyuqligi bilan bevosita aloqa orqali sog'lom odamga o'tadi.",
+    "Sog'lom bola va kattalarda odatda alomat bo'lmaydi; immuniteti zaiflarda (OIV/OITS) og'ir kasallik beradi.",
+    "Og'ir shakllar: retinit, og'riqli yutish, pnevmoniya, kolit, oyoqlarda zaiflik yoki uvushish.",
+    "Homiladorlikda infektsiya faol bo'lsa, ona virusni bolaga o'tkazishi mumkin.",
+    "Tug'ma SMV: taxminan 10-15% chaqaloqda tug'ilganda patologiya bor; 60% bolada keyinchalik og'ir asoratlar.",
+    "Belgisiz tug'ilgan ba'zi chaqaloqlar bir necha oy ichida karlikka duchor bo'lishi mumkin."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 62-bet"
+  },
+  {
+   "id": "bl-h-1-03-1",
+   "q": "Ishlatilgan tibbiy instrumentlarni dezinfektsiya qilish tartibini ayting.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Bemor bilan aloqada bo'lgan barcha buyum va tibbiy asboblar dezinfeksiyadan o'tishi kerak.",
+    "Fizikaviy usul: ultrabinafsha nur, yuqori yoki past harorat; harorat va ta'sir vaqti qat'iy bajarilishi shart.",
+    "Kimyoviy usul: kimyoviy eritmaga botirish, artish yoki sepish - eng keng tarqalgan va samarali usul.",
+    "Biologik usul: yo'q qilinadigan mikroorganizm antagonisti ishlatiladi (ko'pincha bakteriologik stantsiyalarda).",
+    "Birlashtirilgan usul bir nechta dezinfektsiya usulini birlashtiradi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 40-bet"
+  },
+  {
+   "id": "bl-h-1-03-2r",
+   "q": "Ochiq yaralarda birlamchi ishlov berish va shokni oldini olish chora –tadbirlarini sanab bering.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Birlamchi ishlov: yarani kiyim va begona narsalardan ozod qilish, vodorod peroksidi bilan yuvish, yara atrofi terisini antiseptik bilan artish.",
+    "Yarani antiseptik eritma bilan yuvib, steril bog'lam (steril salfetka) qo'yiladi va bint bilan mahkamlanadi.",
+    "Shokda birinchi navbatda sababni bartaraf etish; qon ketsa shikast joyidan yuqoridagi arteriyani siqish.",
+    "Kardiogen shokdan tashqari oyoqlarni boshdan yuqoriga ko'tarish - miyaga qon oqimi yaxshilanadi.",
+    "Katta shikast yoki umurtqa sinishi shubhasida bemorni ko'chirmaslik; suyuqlik yo'qotganda iliq suv ichirish; sedativ berilmaydi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 9-bet"
+  },
+  {
+   "id": "bl-h-1-03-3",
+   "q": "Terminal holatlarning fazalarini sanab bering.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Terminal holat - organizm hayotining oxirgi so'nish davri, biologik o'limdan oldingi holat.",
+    "1) Preagoniya: umumiy karaxtlik, xushi chigal, A/Q aniqlanmaydi.",
+    "2) Agoniya: xush yo'q, ko'z reflekslari aniqlanmaydi, puls yo'q, yurak tonlari susayadi.",
+    "3) Klinik o'lim: yurak va nafas to'xtaganda MNT faoliyati aniqlanmaydi; anaerob glikoliz tufayli almashinuv to'xtamaydi; jarayon qaytar.",
+    "4) Biologik o'lim: qaytmas holat; belgilari - gipostatik dog'lar, tana haroratining pasayishi, murdaning qotishi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 13-bet"
+  },
+  {
+   "id": "bl-h-1-03-4",
+   "q": "Klinik va biologik o'limni farqi. Klinik o'lim ro'y berganda birinchi yordam aytib bering.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Biologik o'lim - qaytmas. Klinik o'lim - yurak va nafas to'xtagach 4-6 daqiqa, jarayonlar hali qaytar, o'z vaqtida choralar bilan hayotga qaytarish mumkin.",
+    "Birinchi yordam: odam behush bo'lsa, 10 soniya ichida uyqu arteriyasida pulsni tekshiring.",
+    "Puls yo'q bo'lsa prekordial zarba (sternumga kuchli zarba) beriladi, tez yordam chaqiriladi; mutaxassislar kelguncha reanimatsiya qilinadi.",
+    "Jabrlanuvchi qattiq yuzaga yotqiziladi (yumshoq yuzada reanimatsiya samarasiz); pastki jag' itariladi, olinadigan protez olib tashlanadi.",
+    "Sun'iy nafas: burun mahkam yopiladi, havo og'izga juda tez bo'lmagan holda puflanadi (qusmaslik uchun).",
+    "Massaj: bir kaft ko'krak pastki qismiga, ikkinchisi ustiga, qo'llar to'g'ri; chuqurlik 3-4 sm (bolada 5-6 sm); bir kishi bo'lsa 15:2."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 53-bet"
+  },
+  {
+   "id": "bl-h-1-03-5r",
+   "q": "Talvasa (sudorogi sindromi) kelib chiqish sabablari, turlari, shoshilich yordam ko'rsatish.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Talvasa - tashqi va ichki ta'sirotlarga nospetsifik reaksiya: muskullarning birdaniga, ixtiyorsiz qisqarishi (miya neyronlarining sinxron faolligi).",
+    "Turlari: klonik (ritmik, tez-tez qisqarish), tonik (uzoq, sekin qisqarish, tishlar qisilishi), klonik-tonik (aralash; koma va shokda).",
+    "Yordam: darhol tez yordam chaqirish; toza havo oqimi, tor kiyimni bo'shatish, yoqani qaytarish.",
+    "Boshni yonboshga burish (qusuq nafas yo'liga tiqilmasin); xavfli buyumlarni olib tashlash; boshi ostiga yumshoq narsa qo'yish.",
+    "Til va tishlar shikastlanmasligi uchun og'ziga buklangan sochiq yoki ro'molcha qo'yiladi (manba bo'yicha)."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 2-bet"
+  },
+  {
+   "id": "bl-h-1-04-1",
+   "q": "Premedikatsiya haqida tushuncha bering.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Premedikatsiya - bemorni umumiy behushlik va jarrohlik aralashuvga oldindan tibbiy tayyorlash.",
+    "Maqsadi: bemorning tashvish darajasini pasaytirish.",
+    "Maqsadi: bezlar sekretsiyasini kamaytirish va behushlik dorilari ta'sirini kuchaytirish.",
+    "Dorilar kombinatsiyasi bilan o'tkaziladi; ko'pincha giyohvand analjezik, sedativ va antigistamin kiradi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 34-bet"
+  },
+  {
+   "id": "bl-h-1-04-2r",
+   "q": "Apnoe va dispnoe tushunchasi. Nafas yetishmovchiliklarini nechta bosqichi bor.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Apnoe - qonda karbonat angidrid ortishi natijasida nafasning vaqtincha to'xtab qolishi.",
+    "Dispnoe - nafas ritmining buzilishi: halloslash, tez-tez nafas olish (giperpnoe) yoki nafas to'xtashi (apnoe).",
+    "Dispnoe sababi: karbonat angidrid ko'payishi (giperkapniya) va kislorod kamayishi (gipoksemiya).",
+    "Nafas yetishmovchiligi 3 darajali: I - nafas qisilishi faqat jismoniy kuchda.",
+    "II daraja - yengil jismoniy mashqda nafas qisilishi; III daraja - dam olishda ham nafas qisilishi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 56-bet"
+  },
+  {
+   "id": "bl-h-1-04-3",
+   "q": "Nikohlanuvchi shaxslarni tibbiy ko'rikdan o'tkazish va yosh oilalar bilan olib boriladigan tadbirlarda hamshiraning vazifalari.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Asos: Oila kodeksi 17-modda va VM 2003 yil 26 avgustdagi 365-sonli Nizom; kasallik turlari, ko'rik hajmi va tartibi belgilangan.",
+    "Ruhiy (shizofreniya, epilepsiya, oligofreniya) va narkologik kasalliklar bo'yicha anamnestik, klinik, psixopatologik, laboratoriya tekshiruvlari.",
+    "Zaxm: shubhali yara yoki toshmada material olinadi; qon presipitatsiya mikroreaksiyasi va serologik usulda tekshiriladi.",
+    "Sil: anamnez, ko'krak qafasi rentgenoskopiya/flyuorogramma/rentgenografiya, balg'am va boshqa materiallar bakterioskopiyasi.",
+    "OIV/OITS: anamnez, klinik tekshiruv, immunoferment va immunoblot usulida qon tekshiruvi.",
+    "50 yoshdan oshganlar va alohida hollarda (homiladorlik, bola tug'ilishi, bir tarafning kasalligi) ko'rik o'z roziligi bilan o'tkaziladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 42-bet"
+  },
+  {
+   "id": "bl-h-1-04-4",
+   "q": "Metall tibbiy asboblarning sterillanganlik sifatini tekshirish usullari. Optik tibbiy asboblardan: bronxoskop, traxeoskop, gastroskop, rektoskop, sistoskop, uretroskoplarni sterillash usullari.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Sterilizatsiyadan oldingi tozalash sifati namunalar bilan nazorat qilinadi.",
+    "Qon qoldig'i uchun amidopirin sinovi; benzidin va ortotoluidin namunalari ham ishlatilishi mumkin.",
+    "Yuvish vositasi qoldig'ini aniqlash uchun fenolftalein namunasi; azopiram sinovi asbob va vositada qonni aniqlaydi.",
+    "Metall asboblar avtoklavda yoki quruq pechda sterillanadi; kesuvchi asboblar kimyoviy usulda.",
+    "Optik asboblar (gastroskop, bronxoskop, sistoskop, kolonoskop) gazli sterilizatorda yoki kimyoviy antiseptik (xlorgeksidin glyukonat) bilan sterillanadi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 53-bet"
+  },
+  {
+   "id": "bl-h-1-04-5r",
+   "q": "Glomerulonefrit sabablari, belgilari va hamshiralik parvarishi.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Glomerulonefrit - buyrak koptokchalari shikastlanishi bilan kechadigan immunoyallig'lanishli buyrak kasalligi.",
+    "Sabab: ko'pincha o'tkir yoki surunkali streptokokk infeksiyasi (angina, tonzillit, skarlatina, pioderma); qizamiq, suvchechak, O'RVI asorati ham bo'lishi mumkin.",
+    "Xavfni oshiradi: uzoq vaqt namlik yuqori sovuqda qolish. O'tkir shakl infeksiyadan 1-3 hafta o'tgach boshlanadi.",
+    "Klinik tasvir: siydik sindromi (oliguriya, gematuriya), shish va gipertonik sindrom.",
+    "O'tkir shaklda kasalxonada davolanadi: yotoq tartibi, №7 parhez; tahlillar - siydik tahlili, Zimnitskiy, Reberg, buyrak UTT."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 30-bet"
+  },
+  {
+   "id": "bl-h-1-05-1",
+   "q": "Tug'ruqgacha bo'lgan akusherlik shoshilinch holatlarida hamshiraning taktikasi nimadan iborat?",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Shoshilinch akusherlik holatida ayolning ahvolini tezkor va to'g'ri baholash juda muhim.",
+    "Avvalo xavf tug'diruvchi omillarga e'tibor qaratiladi.",
+    "Xavf omillari va alomatlar bo'lsa, zudlik bilan tibbiy yordam ko'rsatiladi va ayol bo'limga yo'naltiriladi.",
+    "Tibbiy hujjatlarni to'g'ri to'ldirish muhim: birlamchi baholagan xodim yozuvlari keyingi birinchi yordamga asos bo'ladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 8-bet"
+  },
+  {
+   "id": "bl-h-1-05-2",
+   "q": "O'smir qizlar gigiyenasi va ular orasida sog'lom turmush tarzini targ'ibot qilishda akusherkaning vazifasi.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Shaxsiy gigiyena faqat har kuni tish yuvish va yuvinishdan iborat emas; o'z-o'zini har kuni parvarishlash zarur.",
+    "O'smir qizga yaxshi tashqi ko'rinish, o'ziga ishonch va salomatlik uchun qator qoida va tavsiyalarga rioya qilishni tushuntirish.",
+    "O'smir qiz organizmida keskin o'zgarish bo'ladi - hayz boshlanadi.",
+    "Qizni hayzga oldindan tayyorlash va har oyda ajralmalar kelish mexanizmini tushuntirib berish."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 59-bet"
+  },
+  {
+   "id": "bl-h-1-05-3",
+   "q": "Chaqaloqlarda talvasa kuzatilganda birinchi yordam ko'rsatish va hamshiralik parvarishini ko'rsatish.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Sabablari: tug'ruq jarohati, gipoksiya, metabolik buzilishlar, AVO-konflikt, ona toksikomaniyasi.",
+    "Belgilar tug'ilishdan yoki 1-haftada chiqadi; tonik talvasa ko'proq muddatidan oldin tug'ilganlarda uchraydi.",
+    "Tonik talvasada bola boshi orqaga tirishadi, qo'llar tanaga yig'iladi, ko'z olmasi yuqoriga ketadi, nafas buzilishi mumkin.",
+    "Davo shifoxona reanimatsiya bo'limida, doimiy shifokor nazoratida, nafasni rag'batlantirish bilan olib boriladi.",
+    "Simptomatik davo - talvasaga qarshi preparatlar; etiotrop davo - antibiotik, virusga qarshi dorilar, jarrohlik, metabolik vositalar.",
+    "Xurujlar qancha ko'p bo'lsa, asorat xavfi shuncha oshadi; oldini olish uchun ona va homiladagi kasallikni davolash kerak."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 21-bet"
+  },
+  {
+   "id": "bl-h-1-05-4",
+   "q": "Cho'kishda tez tibbiy yordam ko'rsatish algaritmini sanab bering.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Avval o'pkadagi suv chiqariladi: cho'kkan odam tizza ustiga osiltirib qo'yiladi va kuraklari orasiga bosiladi.",
+    "Foyda bermasa, ikki barmoq og'izga tiqib, til ildiziga bosiladi. Suv chiqsa, bosh yonga burilib, qarama-qarshi yelka ko'tariladi.",
+    "Sun'iy nafas \"og'izdan og'izga\": chalqancha yotqiziladi, bosh orqaga tashlanadi, burun barmoqlar bilan yopiladi.",
+    "Mustaqil nafas boshlanguncha daqiqasiga 12-14 marta nafas beriladi.",
+    "Bilvosita massaj: qo'llar ustma-ust ko'krak pastki qismiga qo'yilib, daqiqada 50-70 marta ritmik bosiladi; bir kishi bo'lsa 5 bosishga 1 nafas.",
+    "Jabrlanuvchi nafas ola boshlagach, darhol tez yordam chaqiriladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 11-bet"
+  },
+  {
+   "id": "bl-h-1-05-5",
+   "q": "Bronxial astma xuruji sabablari, belgilari, tez tibbiy yordam ko'rsatish.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Astma - bronxlar to'satdan torayishi yoki yurak kasalliklari natijasida tutadigan bo'g'ilish xuruji; nafas yo'llarining surunkali kasalligi.",
+    "Belgilar: nafas qiyinligi, o'tkir havo yetishmasligi, tunda tez-tez yo'tal, nafas olganda hushtak, ko'krakda siqilish hissi.",
+    "Birinchi yordam: bemorga dam berish, oyoqlarini osiltirib o'tqazish, xona havosini yangilash, ko'krakni siqqan kiyimni yechish.",
+    "Bronxlarni tozalovchi inhaler beriladi; dori faqat shifokor ruxsati bilan; atrofdagi allergenlar bartaraf etiladi.",
+    "Ahvol og'ir bo'lsa shifoxonaga qo'ng'iroq qilinadi, barqaror bo'lsa shifokor chaqiriladi.",
+    "Yaxshilanish bo'lmasa astma maqomi xavfi bor (xush yo'qolishi mumkin) - shoshilinch kasalxonaga yotqiziladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 7-bet"
+  },
+  {
+   "id": "bl-h-1-06-1",
+   "q": "Qizamiq o'chog'ida olib boriladigan profilaktik tadbirlarni ayting.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Qizamiq - o'tkir yuqumli virusli kasallik: harorat ko'tarilishi, ko'p toshma va shamollash alomatlari.",
+    "Epidemiyaga qarshi tadbirlar majmuasiga terapevtik va profilaktik tadbirlar kiradi.",
+    "Asosiy tadbirlar zararsizlantirish, epidemiologik nazorat va tibbiy yordam sifatini oshirishga qaratilgan.",
+    "Bolalar bog'chalari va maktablarda ko'pincha karantin e'lon qilinadi: kasallar va kontaktlar aloqasi cheklanadi.",
+    "Maxsus profilaktika - aholini muntazam emlash."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 37-bet"
+  },
+  {
+   "id": "bl-h-1-06-2",
+   "q": "Yurak-o'pka-miya reanimatsiyasi(YuO'RM)ni o'tkazish texnikasi. Yurak-o'pka-miya reanimatsiyasida massaj va suniy nafas nisbatlari - agar yordam ko'rsatuvchi 2 ta bo'lsa?",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "YO'R - klinik o'limdan chiqarishga qaratilgan shoshilinch choralar; maqsad miya va yurakka kislorodli qon oqimini qisman tiklash.",
+    "Boshlash uchun ong, nafas va puls yo'qligidan ikkitasi bo'lishi yetarli; massajni iloji boricha tezroq boshlang.",
+    "Ko'krak qafasi daqiqada 100-120 marta, 5-6 sm chuqurlikda siqiladi.",
+    "Siqish va sun'iy nafas nisbati kattalar uchun 30:2; mutaxassis bo'lmaganlarga faqat siqish tavsiya etiladi.",
+    "YO'R odatda yurakni o'zi tiklamaydi; normal ritm uchun defibrilatsiya kerak."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 13-bet"
+  },
+  {
+   "id": "bl-h-1-06-3",
+   "q": "Skrining markazlarini tashkil etishdan maqsad va unda hamshirasining vazifalari nimadan iborat?",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Ona va bola Skrining markazi 1998 yilda tashkil etilgan.",
+    "Maqsad: tug'ma nuqsonli yoki nogironlikka olib keladigan kasallikli bola tug'ilishining oldini olish.",
+    "Homilador ayollar va chaqaloqlarda yashirin kasalliklarni erta aniqlash; irsiy kasal bolalarga maxsus tibbiy-genetik xizmat.",
+    "Yo'nalish 1: tug'ruqqacha homilada rivojlanish nuqsonining oldini olish tadbirlari.",
+    "Yo'nalish 2: chaqaloqlarni tug'ma gipotireoz va fenilketonuriyaga ommaviy skrining qilish.",
+    "Yo'nalish 3: irsiy va tug'ma kasallikli kishilar va oilalarga tibbiy-genetik maslahat berish."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 43-bet"
+  },
+  {
+   "id": "bl-h-1-06-4",
+   "q": "Kapillyar qon ketishi sabablari, belgilari, tez tibbiy yordam ko'rsatish.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Kapillyar - teri va shilliq qavatdagi eng mayda qon tomirlari; mexanik zararga oson uchraydi (yoriq, jarohat).",
+    "Qon ketish kam miqdorda, lekin zararlangan sirt infektsiyaga olib kelishi mumkin.",
+    "Belgilar: qon yorqin qizil, oqim minimal, pulsatsiya yo'q, qon butun yuza bo'ylab ajraladi.",
+    "Yordam: yara qaynatilgan suv yoki antiseptik eritma bilan yuviladi, so'ng dezinfektsiyalovchi bilan ishlanadi.",
+    "Yaraga steril doka yoki bandaj qo'yiladi; chuqur bo'lsa va tikuv kerak bo'lsa shifokorga murojaat qilinadi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 4-bet"
+  },
+  {
+   "id": "bl-h-1-06-5",
+   "q": "Steril stolni tayyorlash va yaroqlilik muddati ayting.",
+   "categories": [
+    "1"
+   ],
+   "topic": "general",
+   "plan": [
+    "Biks sterilizatsiya xonasidan keltirilib stendga qo'yiladi; etiketka va sterilligi tekshiriladi, u mahkam yopilgan va bog'langan bo'lishi kerak.",
+    "Biks pedal yoki yordamchi yordamida ochiladi; har bir biksda materialdan oldin salfetka yotqiziladi.",
+    "Stol qo'yishdan oldin dezinfektsiyali eritma (masalan, xloraminning 1% eritmasi) bilan ikki marta artiladi.",
+    "Steril varaq ikki qatlam qilib ochilib stolga tashlanadi; ikkinchi varaq ham ikki qatlam holida birinchisi ustiga tashlanadi.",
+    "Stoldan osilgan choyshab chetlari steril emas; ular har tomondan 30 sm osilib turishi kerak.",
+    "Steril stol yaroqlilik muddati - 3 soat."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun birinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 41-bet"
+  },
+  {
+   "id": "bl-h-2-01-1",
+   "q": "Zararsizlantiruvchi moddallar bilan zaharlanganda birinchi yordam ko'rsatish.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Qoidalar buzilganda xodimlarda umumiy zaharlanish yoki teri, ko'z shilliq pardasi va nafas yo'llarining mahalliy tirnashi bo'lishi mumkin.",
+    "Teriga tegsa, birinchi yordam - darhol joyni toza suv bilan yuvish.",
+    "Nafas yo'llari tirnalsa, jabrlanuvchi toza havoga olib chiqiladi; og'iz va burun-halqum suv bilan chayiladi.",
+    "Ko'zga tushsa, darhol bir necha daqiqa oqar suv bilan yuviladi.",
+    "Ichga tushsa, oshqozon yuviladi; yuvishdan keyin xom tuxum, oqsilli suv yoki sut beriladi.",
+    "Ko'rsatmaga qarab yurak, sedativ, yo'talga qarshi dorilar, kislorod ingalyatsiyasi; og'ir holatda kasalxonaga yotqiziladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 12-bet"
+  },
+  {
+   "id": "bl-h-2-01-2",
+   "q": "Dori vositalarini rektal qo'llash uchun ko'rsatma va mone'liklarni aytib bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Rektal yo'lda dori tez so'riladi, faol moddaning maksimal terapevtik konsentratsiyasi qisqa vaqtda erishiladi.",
+    "Dorilar jigar fermentlari va ovqat hazm qilish sharbati tomonidan yo'q qilinmaydi.",
+    "Bemor yuta olmasa, hushsiz bo'lsa, qusayotgan yoki oshqozon-ichak shikastlangan bo'lsa - yordam berishning yagona usuli.",
+    "Allergik reaktsiya yoki nojo'ya ta'sir yo'q yoki minimal; bolalar, qariyalar, homiladorlarda samarali.",
+    "Kamchiliklari: rektum shilliq qavati tirnaladi, qo'llash noqulay, psixologik jihatdan hamma bemor foydalana olmaydi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 14-bet"
+  },
+  {
+   "id": "bl-h-2-01-3",
+   "q": "Cho'kishda tez tibbiy yordam ko'rsatishni aytib bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Avval jabrlanuvchi yotqiziladi, og'zidan qusuq massasi, qum chiqariladi, nafas va puls tekshiriladi.",
+    "Nafas, puls bor va hushida bo'lsa: boshi oyoqdan pastroq, ho'l kiyim yechiladi, issiq choyshabga o'raladi, issiq ichimlik; tez yordam chaqiriladi.",
+    "Nafas, puls bor, lekin behush bo'lsa: ammiakli spirt bilan hushiga keltirilib, yuqoridagi harakatlar bajariladi.",
+    "Nafas va puls bo'lmasa: avval suv chiqariladi - tizza ustiga osiltirib kuraklar orasiga bosiladi; foyda bermasa til ildiziga bosiladi.",
+    "Og'izdan og'izga nafas: chalqancha, bosh orqaga, burun yopiladi; mustaqil nafas boshlanguncha daqiqasiga 12-14 marta.",
+    "Bilvosita massaj: qo'llar ustma-ust ko'krak pastki qismiga, daqiqada 50-70 marta; bir kishi bo'lsa 5 bosishga 1 nafas."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 23-bet"
+  },
+  {
+   "id": "bl-h-2-01-4",
+   "q": "Lat yeyishda birinchi yordamni aytib bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Lat yeyish - teri butunligi buzilmasdan yumshoq to'qimalarning mexanik shikastlanishi (zarba yoki qattiq joyga yiqilishda).",
+    "Asosiy belgilari: shikastlangan joyda og'riq va shish; shish kattalashsa og'riq kuchayishi mumkin.",
+    "Qon quyilishining oldini olish uchun lat yegan joyga sovuq narsa qo'yiladi (muz xalta yoki sovuq suvli mato).",
+    "Shikastlangan a'zo qimirlatilmay, mahkam bog'lanadi.",
+    "Qattiq lat yeganda (bosh, ko'krak, qorin) kuchli og'riq, umumiy ahvol og'irlashishi, bosh og'rig'i, ko'ngil aynishi, qayt bo'ladi.",
+    "Bunday holda shikastlangan kishi darhol vrachga ko'rsatiladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 28-bet"
+  },
+  {
+   "id": "bl-h-2-01-5",
+   "q": "Elektr toki urishida hamshira taktikasi nimadan iborat?",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Avvalo jabrlanuvchiga tok ta'sirini to'xtatish kerak; qutqaruvchi qo'llarini izolyatsion material bilan o'rab, so'ng uni manbadan uzoqlashtiradi.",
+    "Tez yordam guruhi chaqiriladi; mutaxassislar kelguncha birinchi yordam ko'rsatiladi.",
+    "Jabrlanuvchi sovuqqa toqat qilmaydi, shuning uchun issiq, quruq yuzaga o'tkaziladi.",
+    "Maqsad nafas va qon aylanishini tiklash: kardiopulmoner reanimatsiya qattiq yuzada o'tkaziladi.",
+    "Massajdan boshlanadi: kaftlar ustma-ust, tekis qo'llar, ko'krak suyagi pastki qismi; daqiqada 100 marta, 5 sm; nisbat 2 nafas va 30 bosish.",
+    "Og'iz tozalangach sun'iy nafas (ro'molcha orqali); ikki qutqaruvchi bo'lsa 2:15; nafasda ko'krak qafasi ko'tarilishi kerak."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 23-bet"
+  },
+  {
+   "id": "bl-h-2-02-1",
+   "q": "Burundagi yot jismlarni olib tashlash usullarini sanab bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Begona jism ko'pincha ambulatoriya sharoitida olib tashlanadi.",
+    "Avval mahalliy behushlik qilinadi, so'ng vazokonstriktor tomchilar kiritiladi.",
+    "Tomchilar ishlaguncha 15 daqiqa kutiladi.",
+    "Burun yo'llari ko'rilib, jism ilgak yoki qisqich yordamida chiqariladi.",
+    "Bola juda kichik bo'lsa yoki mahalliy anesteziyaga javob bermasa, umumiy behushlik beriladi.",
+    "Olingach shifokor yallig'lanishga qarshi terapiya buyuradi; davo jismning burunda turish muddatiga bog'liq."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 29-bet"
+  },
+  {
+   "id": "bl-h-2-02-2",
+   "q": "O'tkir nafas yetishmovchiligida birinchi yordam ko'rsatishni sanab bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Shifokorlar guruhi chaqiriladi, kasallik belgilari va jabrlanuvchi ahvoli batafsil aytiladi.",
+    "Siqib turgan kiyim va tugmalar yechiladi.",
+    "Jabrlanuvchi gorizontal holatda, boshi biroz ko'tarilgan va yonboshga yotqiziladi.",
+    "Og'iz bo'shlig'i shilliqdan tozalanadi: steril bintga o'ralgan barmoq yoki toza ro'mol bilan; imkon bo'lsa, burun nok bilan tozalanadi.",
+    "Toza havo maksimal kirishini ta'minlashga e'tibor beriladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 5-bet"
+  },
+  {
+   "id": "bl-h-2-02-3",
+   "q": "Ko'z ichiga yot jismlar tushganda birinchi yordamni sanab bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Ko'zga kimyoviy modda tushsa, qo'l sovun va suv bilan yuviladi, so'ng ko'z suv ostida yuviladi.",
+    "Shikastlangan ko'z muslukka yaqin bo'lishi uchun bosh yuvinish joyi ustiga qo'yiladi.",
+    "Qovoq ochilib barmoqlar bilan ushlanadi, ko'z 15 daqiqa davomida salqin suv bilan yuviladi.",
+    "Qilmang: ko'zni ishqalash, qo'l bilan bosish; ko'zga kirgan jismni mustaqil olib tashlash.",
+    "Shifokor buyurmagan dori va malhamlarni qo'llamang - bu muammoni murakkablashtirishi mumkin.",
+    "Har holda tezda shifokor bilan maslahatlashish kerak."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 28-bet"
+  },
+  {
+   "id": "bl-h-2-02-4",
+   "q": "OIV, OIV infektsiyasi va OITSning farqini aytib bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "OIV-infektsiyasi - organizmdagi virus bo'lib, kasallik alomatlari hali namoyon bo'lmagan davr.",
+    "Bu davrda odam virus tashuvchisi hisoblanadi.",
+    "OITS - kasallikning so'nggi bosqichi: organizm har qanday kasallikka bardosh berish xususiyatini yo'qotadi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 1-bet"
+  },
+  {
+   "id": "bl-h-2-02-5",
+   "q": "Antiseptika turlarini sanab bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Antiseptika turlari qo'llaniladigan usullarning tabiati va qo'llash usuliga ko'ra shartli ajratiladi.",
+    "Turlari: mexanik, jismoniy, kimyoviy antiseptika.",
+    "Turlari: biologik va aralash antiseptika."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 20-bet"
+  },
+  {
+   "id": "bl-h-2-03-1",
+   "q": "Qo'l yuvish texnikasi nechta bosqichdan iborat?",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "1) Kaftlar bir-biriga ishqalanadi.",
+    "2) O'ng kaft chap kaftning ustki tomoniga, chap kaft o'ng kaftning ustki tomoniga ishqalanadi.",
+    "3) Ikkala kaft bir-biriga, barmoqlar bir-birini changallagan va bo'sh qo'ygan holda ishqalanadi.",
+    "4) Bir qo'l barmoqlari yig'ilgan holatda ikkinchi qo'l kafti tozalanadi.",
+    "5) O'ng qo'l bosh barmog'i chap kaft bilan, chap qo'l bosh barmog'i o'ng kaft bilan aylanma harakatda tozalanadi.",
+    "6) Barmoq uchlari qarama-qarshi kaftga aylanma harakatlar bilan ishqalab tozalanadi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 2-bet"
+  },
+  {
+   "id": "bl-h-2-03-2r",
+   "q": "Ingalyatorlarni qo'llash texnikasi aytib bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Qo'llashdan oldin ingalyatorning yaroqlilik muddati va saqlanish sharoitini tekshirish.",
+    "Muolaja maqsadini bemorga tushuntirish - bemor ingalyatordan mustaqil foydalana olishi uchun.",
+    "Ingalyatorni yaxshilab chayqatish.",
+    "Bemor chuqur nafas chiqaradi, so'ng ingalyatorni lablari bilan o'rab chuqur nafas oladi va nafasni 5 soniya ushlab turadi.",
+    "Shu amal 2-3 marta takrorlanadi; bronxlar kengayib, nafas olish yengillashadi. Doza faqat shifokor ko'rsatmasi bilan."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 14-bet"
+  },
+  {
+   "id": "bl-h-2-03-3",
+   "q": "OIV infektsiyasining etiologiyasi aytib bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Qo'zg'atuvchi: retroviruslar oilasi, lentiviruslar kenja oilasiga mansub OIV-1 virusi - sekin viruslar.",
+    "Tuzilishi: qobiq, matritsa, genomik RNK; tashqi membrana virusning o'z oqsillaridan iborat.",
+    "Yadro ichida ikkita RNK molekulasi (virus genomi), oqsil va fermentlar: RNaza, proteaza, transkriptaza.",
+    "Genom boshqa retroviruslarga o'xshash: uchta strukturaviy gen - gag, pol, env (virion oqsillari sintezi).",
+    "Oltita tartibga soluvchi gen: tat, rev, nef, vpr, vpu (OIV-1 uchun), vpx (OIV-2 uchun).",
+    "Rev virus tarkibiy oqsillarini ishlab chiqarishni tanlab faollashtiradi; nef organizm va virus o'rtasidagi muvozanatni ta'minlaydi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 1-bet"
+  },
+  {
+   "id": "bl-h-2-03-4",
+   "q": "O'pkadan qon ketishning tashqi belgilariga nimalar kiradi?",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Gemoptizi (qon tupurish), nafas qisilishi va zaiflik.",
+    "Ko'krak sohasida noqulaylik va og'riq; isitma paydo bo'lishi.",
+    "Terida rangparlik va ebru, markaziy siyanoz rivojlanishi.",
+    "Yurak urishining ko'rinishi, hirrillash, gipotenziya, qo'rqib ketgan ko'rinish va bosh aylanishi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 6-bet"
+  },
+  {
+   "id": "bl-h-2-03-5",
+   "q": "Gipertermiyada hamshiraning taktikasi nimadan iborat?",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Subfebril isitmada anamnezida febril titrash, yurak, MNS kasalligi bo'lmasa, dori bilan davolash o'tkazilmaydi.",
+    "Febril isitmada dori terapiyasi shart: 3 yoshgacha bolalarda va anamnezida febril titrash, yurak yoki MNS kasalligi bor kattaroq bolalarda.",
+    "Yuqori isitmada dori terapiyasi har qanday holatda o'tkaziladi.",
+    "Fizik sovutish: badanni 40% spirt, suv, sirka (1:1:1) bilan artish; ventilator; nam choyshabga o'rash.",
+    "Bosh soch qismi, bo'yin, chov va yirik tomirlar sohasiga muzli xalta yoki nam mato qo'yiladi.",
+    "Isitma tushiruvchilar ichga beriladi; 35-40 daqiqada effekt bo'lmasa, litik eritma mushak ichiga yuboriladi (doza tushirildi)."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 8-bet"
+  },
+  {
+   "id": "bl-h-2-04-1",
+   "q": "OIV infektsiyasining yuqish yo'llarini aytib bering?",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Kasallik yuqtirgan onadan homilaga (vertikal yo'l) o'tishi mumkin.",
+    "Qon orqali (parenteral): giyohvandlar umumiy foydalangan zararsizlantirilmagan shpris va ignalar orqali.",
+    "Virus bilan zararlangan qon va uning tarkibiy qismlari quyilganda.",
+    "Zararsizlantirilmagan jarrohlik, doyalik, stomatologik va boshqa tibbiy asboblar orqali tibbiy muolajalar olganda.",
+    "Yetarlicha zararsizlantirilmagan maishiy asbob-uskunalar orqali."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 1-bet"
+  },
+  {
+   "id": "bl-h-2-04-2",
+   "q": "Me'dani yuvish texnikasini aytib bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Ko'rsatmalar: o'tkir ovqatdan zaharlanish, zaharli qo'ziqorin, spirtli ichimlik, kimyoviy moddalar, maishiy kimyo va dorilar bilan zaharlanish.",
+    "Bemor ahvoliga qarab o'tirgan yoki yotgan holda yuviladi; muolajani tibbiyot xodimi bajaradi.",
+    "Zond bilan: 600-800 ml iliq suvga natriy gidrokarbonat yoki kaliy permanganat eritmasi qo'shilib yuboriladi va qayta so'rib olinadi.",
+    "Suv toza bo'lib qaytmaguncha yuvish takrorlanadi; taxminan 8-10 l suyuqlik sarflanadi.",
+    "Zond mumkin bo'lmasa yoki uyda vrach kelguncha: ketma-ket 5-6 stakan iliq suv ichirib qustiriladi, bir necha marta takrorlanadi.",
+    "Yuvilgach bemor issiq o'ringa yotqiziladi, og'zi chayiladi, 1-2 qultum issiq choy beriladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 15-bet"
+  },
+  {
+   "id": "bl-h-2-04-3",
+   "q": "Pedikulyoz nima?",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Pedikulyoz - bitlar yuqtirishi bilan bog'liq kasallik.",
+    "Bitlar boshda (maktab yoshidagi bolalarda tez-tez), pubik soha sochlarida, kipriklar yoki qoshlarda uchraydi.",
+    "Zararlangan joyda qattiq qichishish bo'ladi, qashish natijasida mayda yaralar paydo bo'lishi mumkin."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 10-bet"
+  },
+  {
+   "id": "bl-h-2-04-4",
+   "q": "Burundan qon ketishda shoshilinch yordamni qanday amalga oshiriladi?",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Faqat og'iz bilan nafas olinadi, qon yutilmaydi.",
+    "Burun teshigi 5-10 daqiqa chimchilab turiladi.",
+    "Burunga va boshning orqa tomoniga sovuq kompres qo'yiladi.",
+    "Vodorod peroksid bilan namlangan paxta novdasi muloyimlik bilan qo'yiladi (konsentratsiya tushirildi).",
+    "Qon tomoqqa emas, burundan oqib chiqishi uchun biroz oldinga egilib turiladi.",
+    "Qon 15 daqiqa ichida to'xtamasa, tez yordam chaqiriladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 29-bet"
+  },
+  {
+   "id": "bl-h-2-04-5r",
+   "q": "Ko'zga tomchi tomizish texnikasini aytib bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Tayyorgarlik: ko'z tomchisi shishasi va ortiqcha suyuqlikni artish uchun mato tayyorlash; qo'lni sovun bilan yuvib quritish.",
+    "Zarur bo'lsa shishani muloyim silkitish, qopqog'ini ochib toza yuzaga qo'yish; tomizgich uchi toza ekanini tekshirish (iflos bo'lsa yangisini olish).",
+    "Boshni orqaga burish yoki orqaga yotish; pastki qovoqni pastga tortib 'cho'ntak' hosil qilish.",
+    "Tomizgich uchi ko'zga tegmasin; shishani siqib, pastki qovoq cho'ntagiga bitta tomchi tomizish.",
+    "Ko'zni yumshoq yumib 2-3 daqiqa yuzni pastga burish; ichki burchakka yengil bosim; miltillamaslik; ortiqcha suyuqlikni artish.",
+    "Ikkinchi tomchi kerak bo'lsa 5-10 minut kutish; qopqoqni yopish, uchiga tegmaslik, qo'lni yuvish."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 13-bet"
+  },
+  {
+   "id": "bl-h-2-05-1",
+   "q": "Anafilaktik shokning sabablari va belgilarini sanab bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Oziq-ovqat: asal, sut, yong'oq, tuxum, dengiz mahsulotlari, shokolad, sitrus.",
+    "Dorilar: gormonlar, kontrast moddalar, vaksina va zardoblar, anestetiklar.",
+    "O'simlik va hayvon: gul changi, qo'ziqorin, hayvon mo'ynasi, chang oqadilari; atrof-muhit harorati (sovuq/issiq).",
+    "Astma, vazomotor rinit, ekzemasi borlarda allergiya ehtimoli ortadi.",
+    "Belgilar: bosh og'rig'i, holsizlik, letargiya, uyquchanlik; ko'ngil aynishi, qusish, diareya yoki ich qotishi, qorinda kramp og'rig'i.",
+    "Og'ir belgilar: yurak ritmi buzilishi, bosim pasayishi, hushdan ketish, kollaps, shok."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 7-bet"
+  },
+  {
+   "id": "bl-h-2-05-2",
+   "q": "Qon bosimini o'lchashni aytib bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "O'lchashdan 1 soat oldin bemor chekmaydi, spirtli ichimlik va kofeinli mahsulot iste'mol qilmaydi.",
+    "Hojatxonaga borish istagi bo'lsa o'lchanmaydi: to'la siydik pufagi bosimni taxminan 10 mm sim. ust. oshiradi.",
+    "O'lchash tinch sharoitda, xona haroratida, bemor o'tirgan va bo'shashgan holatda; kamida 5 daqiqa dam olgandan keyin boshlanadi.",
+    "Manjeta taqilgan qo'l tirsagi yurak darajasida bo'ladi; qo'l butunlay bo'shashgan.",
+    "O'lchash vaqtida gaplashish va harakat qilish mumkin emas.",
+    "Ikki o'lchov orasida 3-5 daqiqa pauza qilinadi - manjeta qisgan tomirlarda bosim normallashadi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 20-bet"
+  },
+  {
+   "id": "bl-h-2-05-3",
+   "q": "Gipertoniya krizida birinchi yordam ko'rsatishni aytib bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Bemor qulay joylashtiriladi, tananing yuqori qismi biroz ko'tariladi, jismoniy harakat cheklanadi, qimirlatilmaydi.",
+    "Tor kiyimlar (bo'yin tugmalari, kamar) bo'shatiladi.",
+    "Toza havo uchun oyna ochiladi, zarur bo'lsa shabada qilinadi.",
+    "Bosim tushiruvchi dori avvaldan yozilgan bo'lsa, navbatdan tashqari qabul qildiriladi; tez ta'sirli tabletka shifokor tavsiyasi bilan til ostiga beriladi.",
+    "Ko'krak va ko'krak orti og'riqda nitroglitserin tabletkasi, sedativ vositalar beriladi.",
+    "Oyoqqa iliq muolajalar (xantal, grelka) qo'yiladi. Tez yordam chaqiriladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 5-bet"
+  },
+  {
+   "id": "bl-h-2-05-4",
+   "q": "Karantin va o'tkir xavfli yuqumli kasalliklarda o'rnatilgan karantin muddati qancha?",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "O'ta xavfli va karantin infektsiyalarida shoshilinch epidemiyaga qarshi komissiyalar (EPK) o'choqda karantinni tashkil qiladi; qarorlari hamma uchun majburiy.",
+    "Choralar: odamlar va yuklar harakatiga cheklov; bemorlar va kontaktdagilarni shoshilinch kasalxonaga yotqizish.",
+    "Aholini ommaviy emlash, hududni dezinfeksiya qilish, manbani epidemiologik tekshirish, ommaviy tadbirlarni taqiqlash, kirish-chiqish talonlari.",
+    "O'choq perimetri bo'ylab Ichki ishlar yoki Mudofaa vazirligi qo'shinlari kordon o'rnatadi.",
+    "Karantinni tugatish qarori faqat oxirgi aniqlangan bemorning inkubatsiya davri tugaganidan keyin qabul qilinadi.",
+    "Izolyatsiya vaqti va ta'sir shakli kasallik turiga qarab farq qilishi mumkin."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 22-bet"
+  },
+  {
+   "id": "bl-h-2-05-5",
+   "q": "Tashqi qon ketish holatlarida yordamni tushintirib bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Arteriyani bosish: uyqu arteriyasi - kaft bo'yin orqasiga, boshqa qo'l barmoqlari bilan arteriya ustiga; yelka arteriyasi - yelka suyagiga bosiladi.",
+    "O'mrov osti arteriyasi: qo'l orqaga olinib, arteriya birinchi qovurg'aga bosiladi; qo'ltiq osti - barmoqlar bilan qattiq bosiladi.",
+    "Son arteriyasi musht bilan son suyagiga bosiladi (bajarilmasa 2-3 daqiqada hayot xavfi); taqim arteriyasi taqim chuqurchasiga.",
+    "Vena qon ketishida: teri jarohatdan tashqariga qarab tozalanadi, chuqur jarohat steril tampon bilan yopilib, steril bint bilan o'raladi.",
+    "Bosim uchun ustiga ochilmagan bint qo'yilib qattiq bintlanadi; sizsa salfetka qo'yib yana bintlanadi; a'zo ko'tarib qo'yiladi.",
+    "Kuchli qon ketsa bosuvchi bog'lam; juda kuchli bo'lsa a'zo maksimal bukiladi; yordam bermasa jgut qo'yiladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 25-bet"
+  },
+  {
+   "id": "bl-h-2-06-1",
+   "q": "Yotoq yaralar nima va ularni oldini olishda hamshiraning o'rni nimadan iborat?",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Yotoq yara - terining uzoq vaqt bosilib qolishi, mahalliy qon aylanishi buzilishi va yumshoq to'qimalarning o'lishi.",
+    "Oldini olishda asosiy vazifa - bosimni bartaraf qilish.",
+    "Og'ir yotgan bemorning holati o'zgartirib turiladi.",
+    "Moslamalar bosim kuchini ko'proq maydonga yoyadi: maxsus va gidrostatik karavotlar, katta shishiriladigan qoplar, maxsus to'shak (gidrostatik, penomaterial).",
+    "Yostiqlar yoki qo'y yungidan to'shak; havo, suv yoki gel bilan to'ldirilgan yostiqlar; rezinali chambarlar."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 10-bet"
+  },
+  {
+   "id": "bl-h-2-06-2",
+   "q": "Stenozlovchi laringitda tez tibbiy yordam ko'rsatishni aytib bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Stenozlovchi laringit (krup sindromi) - halqumning o'tkir yallig'lanishi, ko'pincha traxeya va bronxlarga o'tadi; odatda OREVI boshida uchraydi.",
+    "Havoga keng kirish ta'minlanadi.",
+    "Chalg'ituvchi terapiya: 38-39 °C suvli issiq vannalar, xantal plasterlari.",
+    "Mo'l-ko'l, tez-tez iliq ichimlik beriladi (choy, Borjomi, sodali sut).",
+    "Bug' gidroksidi ingalyatsiya, antispastik terapiya, sedativ, gipotsensibilizatsiya vositalari va vitaminlar qo'llanadi (nomlari va dozalari tushirildi)."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 26-bet"
+  },
+  {
+   "id": "bl-h-2-06-3",
+   "q": "Oshqozon-ichak yarasidan qon ketish simptomlarini sanab bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Umumiy belgilar: zaiflik, nafas qisilishi, bosh aylanishi, tez puls, siydik oqimining kamayishi.",
+    "Sovuq qo'l-oyoqlar, xiralik, chalkashlik, yo'nalishni buzish, uyquchanlik.",
+    "Qorinda kramp og'rig'i, diareya.",
+    "Najas: yorqin qizil qon bilan qoplangan, qora qon aralash yoki qora, uzoq muddatli najas.",
+    "Qusuqda yorqin qizil qon yoki qahva quyqasiga o'xshash ko'rinish."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 17-bet"
+  },
+  {
+   "id": "bl-h-2-06-4r",
+   "q": "Gemorragik shok belgilarini sanab bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Shokning barcha belgilari hayot uchun xavfli - shoshilinch tibbiy yordam sifatida davolanadi; belgilar darhol paydo bo'lmasligi mumkin.",
+    "Asab-ruhiy: tashvish, chalkashlik, bosh aylanishi, ongni yo'qotish.",
+    "Teri va nafas: ko'k lablar va tirnoqlar, ko'p terlash, sayoz nafas olish.",
+    "Yurak-qon tomir: past qon bosimi, tez yurak urishi, zaif puls, ko'krak og'rig'i.",
+    "Siydik miqdori kam yoki umuman yo'q."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 25-bet"
+  },
+  {
+   "id": "bl-h-2-06-5",
+   "q": "Yuqori nafas yo'llariga yot jism tushganda birinchi yordam ko'rsatishni aytib bering.",
+   "categories": [
+    "3-2"
+   ],
+   "topic": "general",
+   "plan": [
+    "Har soniya muhim: patologik holat tez rivojlanadi, yordam sifati bemor hayoti bilan baholanadi.",
+    "Bemordan \"nima bo'ldi?\" deb so'rab, uning nafas olayotgan yoki olmayotganini aniqlang.",
+    "Nafas olmasa, \"kuchliroq yo'tal\" deb buyurib himoya reflekslarini uyg'oting; kichik jismlar ko'pincha shunda chiqadi.",
+    "Jism 30 soniyada chiqmasa yoki xuruj boshida bemor nafas olmasa, Xeymlix usuli qo'llanadi.",
+    "Xeymlix: orqasidan quchoqlab, bir qo'l musht, ikkinchisi bilan ushlab, qorin yuqori sohasiga qo'yib, yuqoriga va o'zingizga torting.",
+    "Nafas olish sezilsa - jism nafas yo'lidan chiqqan."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun ikkinchi malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 4-bet"
+  },
+  {
+   "id": "bl-h-oliy-01-1",
+   "q": "Etil spirti va surrogatlar bilan zaharlanishning belgillari tez tibbiy yordam ko'rsarishni asoslab bering.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Spirtli ichimliklar kichik miqdorda ham MATga toksik ta'sir qiladi; zaharlanishning 3 bosqichi: engil, o'rtacha, og'ir.",
+    "Jigar zararsizlantirish qobiliyatidan oshganda zahar miyaga o'tadi: eyforiya, ong xiralashishi, muvofiqlashuv buzilishi, qusish, ongni yo'qotish.",
+    "Surrogatlar bilan zaharlanishda mastlik yengil bo'ladi yoki bo'lmaydi; ko'rish buzilishi, konvulsiya, so'lak oqishi, terlash, qusish, qorin va bo'g'imlarda og'riq.",
+    "Surrogat zaharlanishi uyda davolanmaydi - darhol malakali yordam kerak; kechikish hayotga xavf (jabrlanganlarning 90% dan ortig'i kasalxonagacha vafot etadi).",
+    "Birinchi yordam: oshqozondan qoldiqni chiqarish - qusishni qo'zg'atish, 2-3 stakan sho'r suv ichirish, deyarli toza suv chiqquncha takrorlash.",
+    "Ongni yo'qotganda qusishni qo'zg'atish mumkin emas; tez yordam chaqiriladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 82-bet"
+  },
+  {
+   "id": "bl-h-oliy-01-2r",
+   "q": "Sovuq urishi ta'rifi, tasnifi, bemor muammolari, birinchi yordam. Sovuq bilan og'rigan bemorlarga hamshiralik yordami.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Sovuq urish - uzoq vaqt sovuqda qolishdan: yengil darajada sezuvchanlik pasayadi, ko'karish va pufakchalar; og'irida nekroz (suyakkacha).",
+    "Darajalar: 1 - oqarish, shish, sezgirlik kamayishi; 2 - yorqin suyuqlikli pufaklar; 3 - teri o'limi, qonli pufaklar; 4 - barcha yumshoq to'qimalar o'limi.",
+    "1-darajada shikastlangan joy toza yumshoq mato bilan qizarguncha ishqalanadi, so'ng steril bog'lam qo'yiladi; qor bilan ishqalash mumkin emas.",
+    "Bemorni issiq joyga olib chiqib o'rash; hushida bo'lsa issiq choy berish, hayotiy funksiyalarni nazorat qilish.",
+    "Sovuq urgan joy xona haroratidagi suvga tushirilib, suv harorati asta 37 C gacha ko'tariladi; hayot alomati bo'lmasa sun'iy nafas.",
+    "Pufakchalar hosil bo'lgach kompress va malham qo'llanmaydi (ikkilamchi infeksiya); nekroz jarrohlik yo'li bilan davolanadi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 134-bet"
+  },
+  {
+   "id": "bl-h-oliy-01-3",
+   "q": "Apgar shkalasi ko'rsatkichlari, shkala bo'yicha yangi tug'ilgan chaqaloqni baholashda hamshiraning vazifalari.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "APGAR shkalasi (V. Apgar, 1952) bo'yicha baho 0 dan 10 ballgacha; 5 ko'rsatkich yig'indisi, har biri 0-2 ball.",
+    "Ko'rsatkichlar: teri rangi, puls (yurak urishi), yuz harakatlari/reflekslar, mushak tonusi, nafas olish.",
+    "Chaqaloq tug'ilgach 1-daqiqada va 5-daqiqada baholanadi.",
+    "5-daqiqadagi baho 7 dan past bo'lsa, keyingi 20 daqiqa davomida har 5 daqiqada qayta baholanadi, jiddiy nazorat qilinadi.",
+    "7-10 ball - normal sog'lom bola, maxsus nazorat talab etilmaydi; 1-daqiqada odatda 7-8, 5-daqiqada 8-10.",
+    "Past ko'rsatkichli bolalarda dinamika kuzatiladi; o'ta past bo'lsa, maxsus tekshiruvlar kerak bo'lishi mumkin."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 161-bet"
+  },
+  {
+   "id": "bl-h-oliy-01-4r",
+   "q": "Chaqaloqlar gipotermiyasining sabablari, belgilari birinchi yordam va hamshira taktikasini asoslab bering.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Yangi tug'ilgan chaqaloq gipotermiyasi moslashuvga, o'lim ko'rsatkichi va perinatal kasallanishga sezilarli ta'sir qiladi.",
+    "Gipotermiya qon ketishlar, respirator distress sindromi, yarali nekrotik enterokolit, DVS-sindrom kabi holatlar bilan bog'liq.",
+    "Eng samarali usul - ona va chaqaloq o'rtasida teri-teri kontakti, tug'ilgandan ko'p o'tmay boshlanadi.",
+    "Chaqaloq onaning ko'kragiga yotqizilib, ustidan oddiy adyol bilan yopiladi.",
+    "Javob: tana harorati tez ko'tariladi, ayniqsa oyoqlarda (distal qismlarda qon oqimi ko'payishi tufayli)."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 76-bet"
+  },
+  {
+   "id": "bl-h-oliy-01-5",
+   "q": "Jarrohlik sepsisi: ta'rifi, tasnifi, belgilari, bemor muammolari. Sepsisli bemorlarni parvarish qilishda hamshiralik jarayonining xususiyatlari.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Jarrohlik sepsisi jarrohlik kasalliklari (yiringli peritonit, plevrit, appenditsit, o'pka absessi, kuyish) asorati sifatida uchraydi.",
+    "Davo maqsadi: qo'zg'atuvchiga ta'sir, himoya qobiliyatini ko'tarish, moddalar almashinuvini korreksiya, yiringli o'choqlarga qarshi kurash.",
+    "Davo qanchalik erta va kompleks boshlansa, natija shuncha yaxshi.",
+    "Keng ta'sirli antibiotiklar qo'llanadi, mikrob sezuvchanligi albatta aniqlanadi; dezbakteriozning oldini olish uchun zamburug'ga qarshi vositalar birga beriladi.",
+    "Simptomatik davo va maxsus parvarish: teri, tabiiy burmalar va mahalliy yiringli o'choqlar doimiy nazorat qilinadi.",
+    "Chiqarilgach kamida 1-3 oy dispanser kuzatuv; patronajda hamshira o'zgarishlarni aniqlab, shifokor bilan birga choralar ko'radi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 133-bet"
+  },
+  {
+   "id": "bl-h-oliy-02-1",
+   "q": "Depressiya, stress orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari haqida ma'lumot bering.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Depressiya - ruhiy kasallik: umidsizlik, ishonchsizlik, tushkunlik, yolg'izlik, to'xtovsiz xavotir kabi salbiy his-tuyg'ular.",
+    "Asosiy (klinik) depressiya: kuchli alomatlar ikki haftadan ortiq davom etadi va kundalik hayotga xalaqit beradi.",
+    "Turlari: bipolyar, perinatal/tug'ruqdan keyingi, doimiy depressiv buzuqlik (2 yil va undan ko'p), premenstrual disforik, psixotik, mavsumiy.",
+    "Stress - kuchli ta'sirotlar natijasidagi o'ta hayajonlanish, asabiylik holati; gomeostazni buzuvchi omillarga organizmning nospetsifik reaktsiyasi.",
+    "\"Stress\" terminini G. Selye kiritgan (1936); omil - stressor, organizmdagi o'zgarishlar - moslashish (adaptatsiya) sindromi.",
+    "Stressorlar fizik (issiq, sovuq, shikastlanish) va psixik (qo'rquv, qattiq tovush, o'ta xursandchilik) bo'ladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 61-bet"
+  },
+  {
+   "id": "bl-h-oliy-02-2",
+   "q": "Soxta va chin bo'g'ma kasalligi orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari haqida ma'lumot bering.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Difteriya (bo'g'ma) - difteriya tayoqchasi qo'zg'atadigan o'tkir infektsion kasallik; tomoq, burun, hiqildoq, ko'z, teri va jinsiy a'zolar difteriyasi bo'ladi.",
+    "Tomoq difteriyasi: holsizlik, harorat 38-39°, tomoq og'rig'i; murtak va yumshoq tanglay oq yoki kulrang parda bilan qoplanadi.",
+    "Hiqildoq difteriyasi (chin bo'g'ma) 3 davrga bo'linadi: kataral (1-2 kun: o'rtacha isitma, dag'al tovush, yo'tal), stenotik, asfiksiya.",
+    "Stenotik davr: shovqinli nafas va yuqori nafas yo'llari stenozi belgilari kuchayadi; asfiksiyada terlash, sianoz, ipsimon puls, hushsizlik.",
+    "Soxta bo'g'ma - o'tkir laringit (hiqildoq shilliq qavati yallig'lanishi) ning soxta krup shakli; ko'pincha 6-8 yoshgacha, ekssudativ diatezli bolalarda.",
+    "Laringit sabablari: gripp, qizamiq, skarlatina, ko'kyo'tal, sovqotish, ovoz boylamlariga zo'r kelishi; tomoq qurishi, yo'tal, bo'g'iq tovush."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 68-bet"
+  },
+  {
+   "id": "bl-h-oliy-02-3",
+   "q": "Hiqildoqga, kekirdakga, qizilo'ngachga yot jismlar tushganda tez tibbiy yordam ko'rsatish.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Yosh bolalar og'izga solish mumkin narsalarni yutadi: ignabandlar, tugma, tanga, o'yinchoq, kalit, batareyka, baliq yoki jo'ja suyagi.",
+    "Jismning qizilo'ngachda qolishi yoki oshqozonga o'tishi uning o'lchami, shakli va anatomik toraymalarga bog'liq.",
+    "Qizilo'ngachda alomatlar: og'riq, so'lak ko'p ajralishi, ovqat yuta olmaslik; sezilmasa - aspiratsion pnevmoniya, isitma, yo'tal, qizilo'ngach teshilishi.",
+    "Tashxis: rentgenografiya ikki proyeksiyada; rentgenda ko'rinmaydigan jismda bariy bilan tekshiruv; oshqozonga o'tganini qorin rentgenogrammasi aniqlaydi.",
+    "Yaqinda yutilgan o'tkir bo'lmagan jism (tanga, tugma) sedatsiyadan so'ng ekran nazoratida Foley kateteri bilan olinishi mumkin.",
+    "Boshqa hollarda ezofagoskopiya umumiy narkoz ostida, intubatsiya bilan, to'g'ridan-to'g'ri ko'z nazoratida o'tkaziladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 137-bet"
+  },
+  {
+   "id": "bl-h-oliy-02-4",
+   "q": "Epilepsiya (tutqanoq) kasalligi va talvasa sindromlarini klinik belgilari, farqlash, hamshira taktikasi nimadan iborat?",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Talvasa sindromi - muskullarning birdaniga, ixtiyorsiz qisqarishi; miya neyronlari guruhining sinxron patologik faolligi fonida rivojlanadi.",
+    "Klonik talvasa: muskul qisqarishlari ritmik va tez-tez bo'ladi.",
+    "Tonik talvasa: muskullar uzoq, sekin qisqaradi - tana rostlanadi, qo'llar bukiladi, tishlar qisiladi, bosh orqaga tashlanadi.",
+    "Klonik-tonik talvasa - aralash tur, koma va shok holatlarida kuzatiladi.",
+    "Yordam: tez yordam chaqiriladi; toza havo ta'minlanadi, tor kiyim bo'shatiladi; bosh yoki tana yonboshga buriladi (qusuq nafas yo'liga tushmasligi uchun).",
+    "Tilni tishlamaslik uchun og'ziga buklangan sochiq/ro'molcha tiqiladi; xavfli buyumlar olib tashlanadi, boshi ostiga yumshoq narsa qo'yiladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 57-bet"
+  },
+  {
+   "id": "bl-h-oliy-02-5r",
+   "q": "Uyqu keltiradigan (snotvorniy) ta'sirga ega bo'lgan dorilar bilan zaharlanish belgilari, shoshilinch yordam ko'rsatish, hamshiralik parvarishini tashkil qilish.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Katta dozada ichilganda: holsizlik, mudrash, bosh og'irlashishi; so'ng bemor uxlab qoladi, hushidan ketishi mumkin.",
+    "Burun va og'izda ko'p shilliq, so'lak yig'iladi; nafas avval tez, keyin siyrak va yuza bo'ladi; tomir qo'lga unnamaydi.",
+    "Zaharlanish ba'zan hayot uchun xavfli; shubhada darhol vrach yoki tez yordam chaqirish yoki yaqin shifoxonaga olib borish.",
+    "Vrach kelguncha: bemorni yotqizish, yoqa va kamarni bo'shatish, boshini ko'tarish.",
+    "Manba bo'yicha 1-2 l iliq suv ichirib oshqozonni yuvish, qoshiq bilan qustirish; so'ng achchiq choy yoki kofe.",
+    "Hamshira birinchi bo'lib dori nomini va necha dona yoki pachka ichilganini so'raydi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 91-bet"
+  },
+  {
+   "id": "bl-h-oliy-03-1",
+   "q": "Salmonelyoz va dezenteriya kasalligi orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari haqida ma'lumot bering.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Salmonellyoz - Salmonella bakteriyalari qo'zg'atadigan, fekal-oral yo'l bilan yuqadigan o'tkir yuqumli kasallik, asosan oshqozon-ichak zararlanadi (KXT: A02).",
+    "Manba: uy hayvonlari va parrandalar; odam (bemor, tashuvchi) qo'shimcha manba; sut va sut mahsulotlari ham.",
+    "Yuqish yo'llari: zararlangan mahsulotlar, kontakt-maishiy yo'l, ba'zan suv va chang-havo yo'li.",
+    "Bahor va yoz oxirida xavf oshadi; kasalxonada (ayniqsa bolalar) palata to'lib ketishi, qayta ishlov qoidalariga amal qilmaslik tarqatadi.",
+    "Ko'p uchraydigan gastroenteritik shakl: suvsizlanish, intoksikatsiya, isitma, bosh va mushak og'rig'i, zaiflik, qorinda spastik og'riq.",
+    "Takroriy qayt; diareya - suvli, badbo'y, ko'pikli, yashil najas; suvsizlanishda rangparlik, quruq og'iz, taxikardiya, oyoqlarda talvasa."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 64-bet"
+  },
+  {
+   "id": "bl-h-oliy-03-2",
+   "q": "Stenokardiya. Stenokardiya va miokard infarkti kasalligini orasida taqqoslama diagnostikasi nimadan iborat?",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Stenokardiya (ko'krak qisishi) - yurak mushagining kislorodga ehtiyoji va qon bilan ta'minlanishi orasidagi buzilish.",
+    "Sabablari: giperxolesterinemiya, gipertoniya, kam harakatlilik, semizlik, qandli diabet, stress, irsiyat.",
+    "Stenokardiya og'rig'i: ko'krak chap yarmi va to'sh orqasida, chap kurak, qo'l va bo'yinga o'tadi; qisadigan, sanchadigan; soniyalardan 20 daqiqagacha.",
+    "Miokard infarkti - toj arteriyalardan birining birdan tiqilishi, yurak muskuli nekrozi; og'riq chap yelka, kurak, pastki jagga o'tadi.",
+    "Farq: infarktda og'riq uzoqroq (soatlargacha) va toj arteriyalarni kengaytiruvchi vositalar (validol, nitroglitserin) bilan bosilmaydi.",
+    "Infarkt xillari: tipik (og'riqli); atipik - gastralgik, astmatik, aritmik, serebrovaskulyar; belgisiz xili."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 3-bet"
+  },
+  {
+   "id": "bl-h-oliy-03-3",
+   "q": "Gastroenterokolit. Gastroenterokolit va appenditsit kasalligini orasida taqqoslama diagnostika",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Gastroenterokolit - me'da va ichaklar yallig'lanishi (enterit - ingichka, kolit - yo'g'on ichak).",
+    "Sabablari: og'ir metallar, ishqor, spirt bilan zaharlanish, virus va bakteriyalar, ovqatlanish rejimi buzilishi, allergiya; ko'pincha bakterial zaharlanish.",
+    "Klinika: to'satdan ko'ngil aynishi, to'xtovsiz qayt, ich ketishi, qorin og'rig'i, ishtahasizlik; bosh og'rig'i, harorat; og'irida yurak-tomir faoliyati buziladi.",
+    "Davo: qo'zigan davrda kasalxonaga yotqizish, parhez, antibakterial vositalar, fermentlar, vitaminlar, fizioterapiya, dispanser kuzatuv.",
+    "Appenditsit - ko'richak qo'shimchasi (appendiks) yallig'lanishi, o'tkir yoki surunkali; 10-30 yoshda ko'proq, erkak va ayollarda bir xil.",
+    "Oddiy o'tkir (kataral) appenditsitda shoshilinch jarrohlik yordami ko'rsatilmasa, kasallik halokatli shaklga o'tishi mumkin."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 12-bet"
+  },
+  {
+   "id": "bl-h-oliy-03-4",
+   "q": "O'tkir obstruktiv bronxitning klinik belgilari. Kasallikni parvarishini aytib bering.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Obstruktiv shakl maktabgacha yoshdagi bolalar uchun ayniqsa xavfli (tor yo'llar, bronxospazmga moyillik); yallig'lanish o'rta va kichik bronxlarda.",
+    "Birinchi alomatlar: tinch holatda ham hansirash, uzoq og'ir samarasiz yo'tal, nafas olganda ko'krakda xirillash.",
+    "O'rta va og'ir yetishmovchilikda bemor suyangan, o'tirgan yoki yarim o'tirgan holatni egallaydi; yordamchi muskullar ishlaydi, burun qanotlari kengayadi.",
+    "Gipoksiyada burun-lab uchburchagi va tirnoq ostida sianoz; har qanday harakat, hatto gapirish hansirashga olib keladi.",
+    "Bolalarda: nafas chiqarish qiyinlashadi, qovurg'alararo tortilish; yo'tal doim bo'lmaydi; harorat odatda subfebril (38 °C dan yuqori emas).",
+    "To'g'ri davo bilan 5-6 kunda yengillik va balg'am ko'chishi boshlanadi; davo 4 haftagacha davom etishi mumkin."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 111-bet"
+  },
+  {
+   "id": "bl-h-oliy-03-5",
+   "q": "Bosh suyagi va miya jarohatining klinik belgilari, shifoxonagacha bo'lgan bosqichdagi jonlashtirish tadbirlarini ayting.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Bosh miya jarohati (BMJ) - bosh suyagi va miya, parda, qon tomir, kranial nervlarning mexanik shikastlanishi; barcha jarohatlarning 25-30%.",
+    "Og'irligi: yengil, o'rtacha, og'ir; Glazgo koma shkalasi 3-15 ball: yengil 13-15, o'rtacha 9-12, og'ir 3-8.",
+    "Ochiq jarohatda teri va aponevroz shikastlanadi; dura mater shikastlansa - penetratsion. Bosh suyagi asosi sinishida likvor burun yoki quloqdan chiqadi.",
+    "Miya chayqalishi: ongni yo'qotish bo'lishi yoki bo'lmasligi mumkin; ko'ngil aynishi, qusish, rangparlik; alomatlar odatda 7-10 kunda yo'qoladi.",
+    "Miya kontuziyasi (yengil, o'rtacha, og'ir): ruhiy holat o'zgarishi, uyquchanlik, chalkashlik va qo'zg'alish.",
+    "Simptomlarning doimiy davom etishi miyaning jiddiy shikastlanishi belgisi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 139-bet"
+  },
+  {
+   "id": "bl-h-oliy-04-1r",
+   "q": "Kasalxona va poliklinikalarda bolalarga yordam berishda hamshiraning roli. Bolalarga tibbiy-profilaktika yordami tizimida klinik tekshiruvni tashkil etish (vazifalar, maqsadlar, tadbirlar).",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Bolalar poliklinikasi - 14 yoshgacha bolalarga tibbiy yordam ko'rsatadigan davolash-profilaktika muassasasi; kasalxona tarkibida yoki mustaqil bo'ladi.",
+    "Tarkibida ixtisoslashgan xonalar (jarroh, logoped, ko'z, LOR va b.), uyda yordam, sog'lom bolalar bo'limi, sut oshxonasi bor.",
+    "Shifokorlar uchastkalarga biriktiriladi; har bir shifokorga 1-2 hamshira yordam beradi.",
+    "Sog'lom bolalarning asabiy-ruhiy va jismoniy rivojlanishini muntazam kuzatish, maslahat berish, ota-onalarni sanitariya-gigiyena jihatidan o'qitish.",
+    "Tez-tez qo'zib turadigan kasalliklarda bemorlar dispanser kuzatuvida; gavda vazni (antropometriya) qayd etiladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 128-bet"
+  },
+  {
+   "id": "bl-h-oliy-04-2",
+   "q": "Chala tug'ilgan chaqaloqlarning anatomo-fiziologik xususiyatlarini sanab bering va hamshiralik parvarishini amalga oshiring.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Chala tug'ilgan - gestatsiya 37 haftadan kam, vazn 2500 g dan 500 g gacha, bo'y 47 (46) sm dan kichik. Etuk - 37-42 hafta (260-294 kun).",
+    "Vazn bo'yicha: kichik 2499-1500 g, juda kichik 1499-1000 g, ekstremal kichik 999-500 g; tasnifda gestatsiya muddati va vazn ko'rsatiladi.",
+    "Fiziologik vazn yo'qotish hayotning 4-7-kuni (5-12%), tiklanishi 2-3-haftada; fiziologik sariqlik 3-4 haftagacha davom etadi.",
+    "Jinsiy krizlar xarakterli emas; toksik eritema 35-37 haftada aniqlanishi mumkin. Rivojlanish tempi juda yuqori.",
+    "Vazn-bo'y ko'pchiligida 1 yil oxirida, vazni 1500 g dan kamlarda 2-3 yoshda etuklarnikiga tenglashadi; yaxshi parvarishda nerv-psixik rivoj 1,5 yoshda yetadi.",
+    "Parvarish maxsus muassasada, 2 bosqichli; vazni 2300 (2200) g dan yuqori, ahvoli qoniqarli, vaznga qo'shilsa, harorati normal chaqaloq 2-bosqichga o'tadi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 81-bet"
+  },
+  {
+   "id": "bl-h-oliy-04-3",
+   "q": "DOTS dasturi haqida tushuncha, uning maqsadi, vazifalari va undan kutilayotgan natijalar.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "DOTS (qisqa standart kimyoterapiyani bevosita nazorat ostida o'tkazish) - JSST va Sil va o'pka kasalliklariga qarshi kurash ittifoqi tavsiya qilgan strategiya.",
+    "Tibbiy va ma'muriy tadbirlar majmuasi: aholigacha yetib boruvchi silni aniqlash va davolash dasturi.",
+    "Maqsad: infektsiya tarqalishini va doriga chidamli sil rivojlanishini oldini olish.",
+    "Jadal bosqich (2-3 oy): 4-5 silga qarshi dori, qabul bevosita nazorat qilinadi; mikobakteriya tez nobud bo'ladi, bemor yuqumsiz bo'ladi; ko'pincha kasalxonada.",
+    "Quvvatlovchi bosqich: dorilar soni kamayadi, persist shakllarga ta'sir qilinadi; bemor ambulator davolanadi.",
+    "Bemor tayinlangan dorilarni to'liq qabul qilishi muhim; quvvatlovchi bosqichda kursning uzilish xavfi ko'p."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 157-bet"
+  },
+  {
+   "id": "bl-h-oliy-04-4r",
+   "q": "Buyrak-tosh kasalligida shoshilinch yordam. Buyrak-tosh kasalligining klinik ko'rinishini aytib bering.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Buyrak-tosh kasalligi - siydik ajratish faoliyati buzilishi tufayli buyrak kosa-jom tizimida tosh paydo bo'ladigan surunkali kasallik.",
+    "Sabablar: asosan modda almashinuvi buzilishi (ko'p go'sht va oqsilli ovqat); buyrak va siydik yo'llaridagi infeksion yallig'lanish kuchaytiradi.",
+    "Belgilar: siydik achishib, og'riqli va xira keladi; tosh to'siq hosil qilsa buyrak sanchig'i - bel og'rig'i chov bo'ylab qovuqqa tortadi.",
+    "Xuruj vaqtida va keyin siydik qonli bo'ladi; ko'ngil aynishi, qayt qilish, ishtaha pasayishi, uyqu buzilishi.",
+    "Bemor urolog va nefrolog ko'rigiga yuboriladi; profilaktika - sog'lom turmush tarzi va qat'iy parhez (tuz, jigar, shokolad, qahva va b. taqiqlanadi)."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 110-bet"
+  },
+  {
+   "id": "bl-h-oliy-04-5",
+   "q": "O'pkadan qon ketishining sabablari, belgilari va shoshilich yordam ko'rsatishni asoslab bering.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Sabablari: o'pka saratoni (eng ko'p), pnevmoniya (ikkinchi), o'pka xo'ppozi, bronxoektaz, sil, o'pka emboliyasi, begona jism, qo'ziqorin infektsiyalari va b.",
+    "Tashxis: bronxofiberskopiya (qon ketish manbasi, namuna olish), kompyuter tomografiyasi, ko'krak qafasi rentgenogrammasi.",
+    "Farqlash: oshqozon-ichak, burun-halqum va og'iz bo'shlig'idan qon ketishidan ajratiladi.",
+    "Uyda birinchi yordam: tezda shifokor chaqirish; bemor yarim o'tirgan yoki o'tirgan holatda; tinchlik, gapirish va chekish taqiqlanadi.",
+    "Ko'krak suyagi va oldingi ko'krak devoriga sovuq kompress; kichik qultumlarda sovuq suv; kislorod; yo'talni bosuvchi dori (shifokor bilan).",
+    "Davo: umumiy ahvol baholangach sababiy davo; operatsiya imkoni bo'lmasa - tomirlar embolizatsiyasi yoki shoshilinch farmakologik davo."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 77-bet"
+  },
+  {
+   "id": "bl-h-oliy-05-1",
+   "q": "Elektrokardiogramma nima? Elektrokardiogramma qilish texnikasi, muolajani bajarishda hamshiraning vazifalari.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "EKG - miokard tolalarining ichki elektr faolligini qayd etuvchi tekshiruv; oson takrorlanadigan va arzon usul.",
+    "Aniqlaydi: aritmiyalar (yurak tartibsiz, juda sekin yoki tez uradi), ishemiya va infarkt.",
+    "Yurak bo'shliqlaridagi o'zgarishlar (valvulopatiya, qorincha gipertrofiyasi, kardiomiopatiya), elektrolitlar buzilishi, ba'zi dorilarning toksik ta'siri.",
+    "Yurak stimulyatori va implantatsiyali defibrilator ishini baholashga imkon beradi.",
+    "Ko'rsatma: ko'krak og'rig'i, oson charchash, nafas qisilishi, yurak urishi, tartibsiz urish hissi, hushdan ketish, oyoq shishi; oilaviy xavf omillari.",
+    "Shuningdek operatsiyadan oldin, sportchilar sertifikati uchun, kasallik rivoji yoki davo samaradorligini baholash uchun o'tkaziladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 163-bet"
+  },
+  {
+   "id": "bl-h-oliy-05-2",
+   "q": "Zotiljam. Krupoz zotiljam va sil kasalligini orasida taqqoslama diagnostika.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Krupoz pnevmoniya - o'pkaning butun bo'lagi yoki segmentlariga yoyiluvchi o'tkir yallig'lanish.",
+    "U shu qadar to'satdan boshlanadiki, bemor kasallik boshlangan soatni ham biladi.",
+    "Sil - surunkali yuqumli kasallik: o'pka va boshqa a'zolarda o'ziga xos o'zgarishlar bilan kechadi.",
+    "Kasallikning zimdan boshlanib, uzoq davom etib zo'rayib borishi o'pka raki va sili uchun xarakterli.",
+    "Sildagi yo'tal quruq yoki balg'amli bo'lishi mumkin (yallig'lanish, shilliq, yiring, qon to'planishi, limfa tugunlari bosimi).",
+    "Silda qon tufash yoki o'pkadan qon ketishi mumkin, ko'pincha destruktiv turlarida (kavernoz, sirrozli)."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 2-bet"
+  },
+  {
+   "id": "bl-h-oliy-05-3",
+   "q": "Distrofiya bilan og'rigan bolalarga hamshiralik parvarishi. Distrofiyalarning turlari (turi): gipotrofiya (to'yib ovqatlanmaslik), paratrofiya.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Distrofiya belgilari: to'qima turgori pasayadi, teri osti yog' qavati yo'qoladi yoki notekis to'planadi, vazn bo'yga nisbatan orqada, qarshilik pasayadi.",
+    "Tashxisda distrofiya turi va paydo bo'lish vaqti (prenatal, postnatal); gipotrofiyada daraja, etiologiya va davr ko'rsatiladi.",
+    "Davo: etiologik omillarni bartaraf qilish, kun tartibi, optimal sharoit; dietoterapiya, surunkali infektsiya o'choqlarini sanatsiya qilish.",
+    "Yo'ldosh kasalliklarni davolash, ikkilamchi infektsiyaning oldini olish, gipodinamiyaga qarshi kurash muhim.",
+    "I daraja gipotrofiyada bola uyda mahalla shifokori kuzatuvida davolanadi; II-III darajada shifoxonada, yengil kun tartibi, ortiqcha qo'zg'atuvchilardan cheklash.",
+    "Alohida boks: havo 27-30 °C, namlik 60-70%, tez-tez shamollatish; ona bola bilan yotadi; sayrda ko'tarib yuriladi, qo'l-oyoqlar issiq tutiladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 129-bet"
+  },
+  {
+   "id": "bl-h-oliy-05-4",
+   "q": "Nafas shovqinlari. Bronxial shovqin va vezikulyar shovqin orasidagi faqrni toping",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Vezikulyar shovqin o'pka to'qimasi proyeksiyasida eshitiladi: kuraklar orasi, o'mrov usti va osti, ko'krak ostidan.",
+    "U «F» harfi talaffuz etilganda chiqadigan tovushga o'xshaydi.",
+    "Bronxiolalardan alveolalarga o'tadigan havo kuchi bilan alveolalarning yozilishidan paydo bo'ladi.",
+    "Bronxial shovqin me'yorda traxeya ustida eshitiladi va «X» harfini talaffuz qilgandagi tovushga o'xshaydi.",
+    "Patologiyada o'pka ustida turli xirillashlar eshitilishi mumkin."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 2-bet"
+  },
+  {
+   "id": "bl-h-oliy-05-5",
+   "q": "Gipertaniya va gipertermiya orasida taqqoslama diagnostikasi, hamshira hatti- harakatlari haqida ma'lumot bering.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Gipertoniya - qon tomirlarining nerv-funksional faoliyati buzilishidan kelib chiqadigan kasallik; asosan 40 yoshdan oshganlarda, ayol va erkaklarda teng.",
+    "Yurak-qon tomir kasalliklaridan o'limning asosiy sabablaridan biri.",
+    "Gipertermiya (manbaga ko'ra) - issiqlikni tartibga soluvchi mexanizm buzilib, tananing ichki harorati sezilarli ko'tarilishi.",
+    "Sabablari: issiq va nam ob-havo, quyoshda ko'p bo'lish, kam suyuqlik ichish, kondisionersiz turar-joy, issiqda qattiq mashq; ter bug'lanmaydi.",
+    "Xavf omillari: keksalik, yurak-qon tomir kasalliklari, diabet, semizlik, suvsizlanish, alkogol, chekish; ayrim dorilar (diuretik, antigistamin, beta-bloker).",
+    "Gipertermiya holatlari: issiqlik charchog'i, hushdan ketish, kramplar; issiq kunlarda tushdan keyin salqin joyda bo'lish ma'qul."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 54-bet"
+  },
+  {
+   "id": "bl-h-oliy-06-1",
+   "q": "Giperglikemik koma va gipoglikemik koma orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari nimadan iborat?",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Giperglikemik koma - insulin yetishmovchiligidan: glyukoza hujayraga kirmaydi, keton tanalari hosil bo'ladi, atsidoz va MAT intoksikatsiyasi rivojlanadi.",
+    "80% holatda ketoasidotik koma; ko'pincha 1-toifa diabetli, odatda 20 yoshgacha bo'lganlarda.",
+    "Soatlar yoki kunlar ichida rivojlanadi; prekoma: chanqoq, og'iz va teri qurishi, poliuriya, qorin og'rig'i, qusish, ishtahasizlik, uyquchanlik.",
+    "Og'izdan atseton yoki chirigan hid; nafas chuqur va shovqinli; ba'zan psevdoperitonit (qorin old devori kuchlanishi va og'riq).",
+    "Yordam: tez yordam chaqirish; ongli bemor yonboshiga yotqiziladi, issiq adyol yopiladi, siqib turgan kiyim bo'shatiladi.",
+    "Puls va nafas kuzatiladi, suv beriladi, bosim o'lchanadi; nafas to'xtasa reanimatsiya qilinadi (insulin yuborish tafsiloti tushirildi)."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 52-bet"
+  },
+  {
+   "id": "bl-h-oliy-06-2s",
+   "q": "Gipoglikemiya, giperglikemiya – uning yuzaga kelishi, belgilari, davolashda qo'llaniladigan dori vositalari haqida tushuncha.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Gipoglikemiya - qonda qand miqdorining normadan (manbada 70 mg%) kamayishi.",
+    "Sabablari: ko'p uglevod qabul qilish, kuchli jismoniy ish, laktatsiya davri, me'da osti bezi, jigar va buyrak kasalliklari.",
+    "Insulin ortiqcha berilsa gipoglikemik shok kuzatiladi; bunda venaga glyukoza yuboriladi.",
+    "Qand 40 mg% dan kamayganda hushdan ketish, tirishish va o'lim xavfi bor.",
+    "Giperglikemiya - qand normadan ko'p (manbada 120 mg% yoki 6 mmol/l dan yuqori); qandli diabetning asosiy belgisi.",
+    "Vaqtincha giperglikemiya ko'p shirinlik, og'riq, ruhiy zo'riqishda ham bo'ladi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 177-bet"
+  },
+  {
+   "id": "bl-h-oliy-06-3",
+   "q": "ABO tizimi va Rh omiliga ko'ra, qon guruhlari haqida tushunchalarni aytib bering. Qon quyish va uning tarkibiy qismlarini tayyorlash va o'tkazishda hamshiraning roli. Qon quyishda talab qilinadigan amaldagi hujjatlarni ayting.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Qon guruhi - eritrositlarning individual antigen xususiyatlari; eritrosit membranasidagi maxsus uglevod va oqsillar bilan aniqlanadi.",
+    "Eritrosit membranasida 300 dan ortiq turli antigen determinantlar bor.",
+    "Ikki muhim tasnif: AB0 tizimi va rezus-tizim; boshqa antigenlarning 46 sinfi ham bor, ko'pchiligi kam uchraydi.",
+    "AB0 tizimini 1900 yilda K. Landshteyner taklif qilgan; asosiy allellar: A1, A2, B va 0.",
+    "A yoki B glikoziltransferaza eritrosit sirt antigenlarini (agglyutinogenlarni) glikozilatsiyalab A yoki B agglyutinogenni hosil qiladi.",
+    "Qon quyishda talab qilinadigan hujjat: OIV va boshqa yuqumli kasalliklar bilan og'rimagani haqida ma'lumot."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 92-bet"
+  },
+  {
+   "id": "bl-h-oliy-06-4",
+   "q": "Kvinki shishininng sabablari, belgilari, shoshilinch yordam ko'rsatish va hamshiralik parvarishi haqida ma'lumot bering.",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Kvinke shishi - o'tkir, hayot uchun xavfli allergik reaktsiya: teri, teri osti to'qima va shilliq qavatda to'satdan tarqalgan shish.",
+    "Sabablari: oziq-ovqat, gul changi, dorilar (ko'pincha antibiotiklar), kosmetika, maishiy kimyo, hasharot chaqishi, hayvon juni, infektsiyalar, sovuq, quyosh.",
+    "Belgilar: yuz, qovoq, lab, bo'yin qizarib shishadi; qichishish, og'riq, tortilish, rang oqarishi; shish 1 dan 60 daqiqagacha rivojlanadi.",
+    "Hiqildoq shishsa: nafas qisilishi, taxikardiya, kuchli terlash; eng katta xavf - anafilaktik shok va nafas qiyinlashuvi.",
+    "Yordam: tez yordam (103) chaqirish; imkon bo'lsa allergiyaga qarshi dori berish; allergen ma'lum bo'lsa olib tashlash.",
+    "Dori, chaqish yoki inyeksiyadan keyin joy yuqorisiga bosuvchi bog'lam yoki sovuq; toza havo, yoqani bo'shatish; tinchlantirish."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 77-bet"
+  },
+  {
+   "id": "bl-h-oliy-06-5",
+   "q": "Tibbiyot statistikasining asosiy vazifalari nimalardan iborat? Stat. talonni to'ldirishda hamshiraning vazifasi qanday?",
+   "categories": [
+    "oliy"
+   ],
+   "topic": "general",
+   "plan": [
+    "Statistika - jamiyatdagi hodisalarning miqdor o'zgarishlarini sifat o'zgarishlari bilan bog'lab o'rganadigan fan.",
+    "Tibbiyot statistikasi inson salomatligini uning ijtimoiy hayoti bilan bog'lab o'rganadi.",
+    "1-vazifa: aholi salomatligini o'rganish - soni, tarkibi, tabiiy harakati, jismoniy rivojlanishi, kasalliklar tarqalganligi va o'rtacha umr.",
+    "2-vazifa: kasallanish va o'lim ko'rsatkichlarini turmush tarzi, tashqi muhit, ijtimoiy-iqtisodiy sharoit bilan bog'lab o'rganish.",
+    "3-4-vazifa: sog'liqni saqlashni rejalashtirish, muassasalar ishini tashkil etish, xizmat sifatini tahlil qilish, davolash-profilaktika ishini baholash.",
+    "5-vazifa: klinik va laboratoriya ilmiy tadqiqotlarni rejalashtirish. General majmua - barcha kuzatish birligi, tanlab olingan majmua - uning bir qismi."
+   ],
+   "source": "Manba: Quliyev B.D., «O'rta tibbiyot xodimlari uchun oliy malaka toifasi savol javoblari», Viloyat ruxiy-asab kasalliklar shifoxonasi, 2023, 173-bet"
+  }
+ ],
+ "tickets": [
+  {
+   "id": "bl-h-1-01",
+   "n": 1,
+   "categories": [
+    "1"
+   ],
+   "questions": [
+    "bl-h-1-01-1",
+    "bl-h-1-01-2",
+    "bl-h-1-01-3",
+    "bl-h-1-01-4",
+    "bl-h-1-01-5r"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-1-02",
+   "n": 2,
+   "categories": [
+    "1"
+   ],
+   "questions": [
+    "bl-h-1-02-1",
+    "bl-h-1-02-2",
+    "bl-h-1-02-3",
+    "bl-h-1-02-4",
+    "bl-h-1-02-5"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-1-03",
+   "n": 3,
+   "categories": [
+    "1"
+   ],
+   "questions": [
+    "bl-h-1-03-1",
+    "bl-h-1-03-2r",
+    "bl-h-1-03-3",
+    "bl-h-1-03-4",
+    "bl-h-1-03-5r"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-1-04",
+   "n": 4,
+   "categories": [
+    "1"
+   ],
+   "questions": [
+    "bl-h-1-04-1",
+    "bl-h-1-04-2r",
+    "bl-h-1-04-3",
+    "bl-h-1-04-4",
+    "bl-h-1-04-5r"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-1-05",
+   "n": 5,
+   "categories": [
+    "1"
+   ],
+   "questions": [
+    "bl-h-1-05-1",
+    "bl-h-1-05-2",
+    "bl-h-1-05-3",
+    "bl-h-1-05-4",
+    "bl-h-1-05-5"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-1-06",
+   "n": 6,
+   "categories": [
+    "1"
+   ],
+   "questions": [
+    "bl-h-1-06-1",
+    "bl-h-1-06-2",
+    "bl-h-1-06-3",
+    "bl-h-1-06-4",
+    "bl-h-1-06-5"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-2-01",
+   "n": 1,
+   "categories": [
+    "3-2"
+   ],
+   "questions": [
+    "bl-h-2-01-1",
+    "bl-h-2-01-2",
+    "bl-h-2-01-3",
+    "bl-h-2-01-4",
+    "bl-h-2-01-5"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-2-02",
+   "n": 2,
+   "categories": [
+    "3-2"
+   ],
+   "questions": [
+    "bl-h-2-02-1",
+    "bl-h-2-02-2",
+    "bl-h-2-02-3",
+    "bl-h-2-02-4",
+    "bl-h-2-02-5"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-2-03",
+   "n": 3,
+   "categories": [
+    "3-2"
+   ],
+   "questions": [
+    "bl-h-2-03-1",
+    "bl-h-2-03-2r",
+    "bl-h-2-03-3",
+    "bl-h-2-03-4",
+    "bl-h-2-03-5"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-2-04",
+   "n": 4,
+   "categories": [
+    "3-2"
+   ],
+   "questions": [
+    "bl-h-2-04-1",
+    "bl-h-2-04-2",
+    "bl-h-2-04-3",
+    "bl-h-2-04-4",
+    "bl-h-2-04-5r"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-2-05",
+   "n": 5,
+   "categories": [
+    "3-2"
+   ],
+   "questions": [
+    "bl-h-2-05-1",
+    "bl-h-2-05-2",
+    "bl-h-2-05-3",
+    "bl-h-2-05-4",
+    "bl-h-2-05-5"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-2-06",
+   "n": 6,
+   "categories": [
+    "3-2"
+   ],
+   "questions": [
+    "bl-h-2-06-1",
+    "bl-h-2-06-2",
+    "bl-h-2-06-3",
+    "bl-h-2-06-4r",
+    "bl-h-2-06-5"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-oliy-01",
+   "n": 1,
+   "categories": [
+    "oliy"
+   ],
+   "questions": [
+    "bl-h-oliy-01-1",
+    "bl-h-oliy-01-2r",
+    "bl-h-oliy-01-3",
+    "bl-h-oliy-01-4r",
+    "bl-h-oliy-01-5"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-oliy-02",
+   "n": 2,
+   "categories": [
+    "oliy"
+   ],
+   "questions": [
+    "bl-h-oliy-02-1",
+    "bl-h-oliy-02-2",
+    "bl-h-oliy-02-3",
+    "bl-h-oliy-02-4",
+    "bl-h-oliy-02-5r"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-oliy-03",
+   "n": 3,
+   "categories": [
+    "oliy"
+   ],
+   "questions": [
+    "bl-h-oliy-03-1",
+    "bl-h-oliy-03-2",
+    "bl-h-oliy-03-3",
+    "bl-h-oliy-03-4",
+    "bl-h-oliy-03-5"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-oliy-04",
+   "n": 4,
+   "categories": [
+    "oliy"
+   ],
+   "questions": [
+    "bl-h-oliy-04-1r",
+    "bl-h-oliy-04-2",
+    "bl-h-oliy-04-3",
+    "bl-h-oliy-04-4r",
+    "bl-h-oliy-04-5"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-oliy-05",
+   "n": 5,
+   "categories": [
+    "oliy"
+   ],
+   "questions": [
+    "bl-h-oliy-05-1",
+    "bl-h-oliy-05-2",
+    "bl-h-oliy-05-3",
+    "bl-h-oliy-05-4",
+    "bl-h-oliy-05-5"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  },
+  {
+   "id": "bl-h-oliy-06",
+   "n": 6,
+   "categories": [
+    "oliy"
+   ],
+   "questions": [
+    "bl-h-oliy-06-1",
+    "bl-h-oliy-06-2s",
+    "bl-h-oliy-06-3",
+    "bl-h-oliy-06-4",
+    "bl-h-oliy-06-5"
+   ],
+   "source": "Manba: Quliyev B.D., malaka toifasi savol javoblari, 2023"
+  }
+ ]
+}

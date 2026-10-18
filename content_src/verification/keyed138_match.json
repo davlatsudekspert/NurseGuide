@@ -1,0 +1,3959 @@
+[
+{
+"n": 1,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "161. “Etika” so’zi qanday ma’noni bildiradi:"
+},
+{
+"n": 2,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "162. Deontologiya tushunchasi qanday ma’noni bildiradi:"
+},
+{
+"n": 3,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "163. Valeologiya qanday ta’limot:"
+},
+{
+"n": 4,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "164. Salomatlikka salbiy ta’sir etuvchi omillar:"
+},
+{
+"n": 5,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "165. Katta yoshdagi aholinnng ovqatlanish normasi nimaga bog’liq emas:"
+},
+{
+"n": 6,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "166. Majburiy davriy tibbiy ko’rikdan o’tishdan bosh tortgan tibbiyot xodimlariga qanday chora ko’ri"
+},
+{
+"n": 7,
+"matched": true,
+"score": 86,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "167. Bemorning har qanday tibbiy aralashuvga ixtiyoriy roziligi qanday"
+},
+{
+"n": 8,
+"matched": true,
+"score": 99,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "168. Bemorlarni kasalxonaga qabul qilish va yotqizishni rad etish jurnali qaerda yuritiladi:"
+},
+{
+"n": 9,
+"matched": true,
+"score": 100,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "169. Aholining kasallanish darajasini o’rganish usullariga nima kiradi:"
+},
+{
+"n": 10,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "170. Irsiy moyillikka ega bo’lgan kasalliklarga nima kiradi:"
+},
+{
+"n": 11,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "171. Axoli salomatligi darajasini tavsiflovchi asosiy miqdoriy mezonga nima kiradi:"
+},
+{
+"n": 12,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "172. Tibbiy muassasaga murojaat qilganlarning kasallanishni o’rganish qaysi manba orqali o’rganiladi"
+},
+{
+"n": 13,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "173. Tibbiy skrining tomonidan xavf omillar ta’sirini kamaytirish va kasalliklarni erta aniqlash uch"
+},
+{
+"n": 14,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "174. Yuqumli bo’lmagan kasalliklar xavf omillarini baxolashni birinchi bosqichiga nima kiradi:"
+},
+{
+"n": 15,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "154. Tibbiy profilaktika aholiga nisbatan qanday belgilanadi:"
+},
+{
+"n": 16,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "3. Reproduktiv tizim kasalliklarida birlamchi profilaktikaga nima kiradi:"
+},
+{
+"n": 17,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "4. Surunkali yuqumli bo’lmagan kasalliklar oldini olishning ilmiy asosi nima:"
+},
+{
+"n": 18,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "5. Agar manfaatlar to’qnashuvi yuzaga kelsa, tibbiyot xodimi bu haqida yozma ravishda kimga xabar qi"
+},
+{
+"n": 19,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "9. Tibbiyot xodimi o’z vazifalarini bajarish paytida axloqiy me’yorlari, xulqatvor tamoyillari to’pl"
+},
+{
+"n": 20,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "303. Hamshiraning xulq-atvorini o’rganuvchi fan:"
+},
+{
+"n": 21,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "6. Konfidensiallik (maxfiylik) qoidasini bajarish quyidagini o’z ichiga oladi:"
+},
+{
+"n": 22,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "175. Hamshira va bemor o’rtasida ma’lumot uzatish jarayoni nima deyiladi:"
+},
+{
+"n": 23,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "176. Hamshiralik faoliyatini sifat darajasini aniqlash mumkin bo’lgan asosiy qoida:"
+},
+{
+"n": 24,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "177. Birinchi marta \"hamshiralik tashxisi\" tushunchasi qachon paydo bo’lgan:"
+},
+{
+"n": 25,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "178. Bolalar orasida sog’lom turmush tarzini shakllantirish qanday ta’minlanadi:"
+},
+{
+"n": 26,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "179. O’z-o’zini parvarish qilish - bu nima:"
+},
+{
+"n": 27,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "180. Inson sog’lig’i uchun kim ma’sul:"
+},
+{
+"n": 28,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "181. Shoshilinch tibbiy yordam qaysi xolatlarda ko’rsatiladi:"
+},
+{
+"n": 29,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "182. Tibbiy muassasa ishini tashkil etishning asosiy hujjati qaysi javobda to’g’ri ko’rsatilgan:"
+},
+{
+"n": 30,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "183. JSST bo’yicha «salomatlik» tushunchasini ko’rsating:"
+},
+{
+"n": 31,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "184. Salomatlikka qanday omillar ta’sir etadi:"
+},
+{
+"n": 32,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "185. Ovqatlanish nima:"
+},
+{
+"n": 33,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "186. Me’yorda sog’lom odam kuniga nechi marta ovqatlanishi lozim:"
+},
+{
+"n": 34,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "187. Valeologiya atamasini fanga kiritgan olim-.... :"
+},
+{
+"n": 35,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "188. Valeologiya fan sifatida qachon shakllangan:"
+},
+{
+"n": 36,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "189. Salomatlik uchun meva va sabzavotlarni faslga qarab, kuniga qanchadan iste’mol qilish kerak: (1"
+},
+{
+"n": 37,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "190. Hamshiralik ishi fani o’rgatadi:"
+},
+{
+"n": 38,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "191. Hamshiralik ishining asoschisi F.Naytingeyl qachon tavallud topgan:"
+},
+{
+"n": 39,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "192. Halqaro Hamshiralar kuni qachon nishonlanadi:"
+},
+{
+"n": 40,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "193. Florens Naytingeyl medali qachon ta’sis etilgan:"
+},
+{
+"n": 41,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "194. Insonning 14 ta asosiy extiyojlari muallifi kim:"
+},
+{
+"n": 42,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "195. Qadimda shifoxonalarda o’lim sonining ko’pligi nimaga bog’liq bo’lgan:"
+},
+{
+"n": 43,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "«Kitob al -xoviy» asari qaysi alloma tomonidan yozilgan:"
+},
+{
+"n": 44,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "Abu Ali ibn Sinoning “Tib qonunlari” asari nechta kitobdan iborat:"
+},
+{
+"n": 45,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "198. Hamshiralik jarayoni- bu:"
+},
+{
+"n": 46,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "199. Hamshiralik jarayonining maqsadi birinchidan….:"
+},
+{
+"n": 47,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "200. Xendersonning modelining asosiy mezonlari nimalardan iborat:"
+},
+{
+"n": 48,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "201. Hamshiralik jarayoni nechta bosqichdan iborat:"
+},
+{
+"n": 49,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "202. Bemorlarni tekshirish hamshiralik jarayonining nechanchi bosqichda amalga oshiriladi:"
+},
+{
+"n": 50,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "203. Hamshiralik jarayonining 2 – bosqichi nimadan iborat:"
+},
+{
+"n": 51,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "204. Inson extiyojlari necha turga bo’linadi:"
+},
+{
+"n": 52,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "205. Hamshiralik jarayonining 3 – bosqichi nimadan iborat:"
+},
+{
+"n": 53,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "206. Parvarish rejasini amalga oshirish nechanchi bosqichda amalga oshiriladi:"
+},
+{
+"n": 54,
+"matched": true,
+"score": 91,
+"options_ok": false,
+"stars": 0,
+"key": null,
+"doc_stem": "207. Hamshiralik parvarishi samaradorligini baholash necha bosqichda: - 5- bosqichda *"
+},
+{
+"n": 55,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "208. Hamshiraning majburiyatlari nimalardan iborat:"
+},
+{
+"n": 56,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "209. Hamshiralik ishiga F. Naytingeyl bergan ta’rifni ko’rsating:"
+},
+{
+"n": 57,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "210. F. Naytingeylning eng mashhur kitobi qanday nomlanadi:"
+},
+{
+"n": 58,
+"matched": true,
+"score": 88,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "211. F. Naytingeyl fikricha hamshiralik ishida nimalar katta ahamiyatga ega: - Bemor yoshi, jinsi"
+},
+{
+"n": 59,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "212. Verbal muloqot deb nimaga aytiladi:"
+},
+{
+"n": 60,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "213. Noverbal muloqot bu-:"
+},
+{
+"n": 61,
+"matched": true,
+"score": 96,
+"options_ok": false,
+"stars": 0,
+"key": null,
+"doc_stem": "214. Tibbiyot hodimlarining xatti-xarakatlari va munosabatlaridagi nuqsonlar natijasida kelib chiqad"
+},
+{
+"n": 62,
+"matched": true,
+"score": 70,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "Mehnat shartnomasi kimlar tomonidan bekor qilinadi:"
+},
+{
+"n": 63,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "11. Ishga qabul qilishda sinov muddatisiz kimlar ishga qabul qilinadi:"
+},
+{
+"n": 64,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "Sterilizatsiya bo’limi katta hamshirasi tomonidan sterilizatsiyadan oldingi tozalash sifatini o’z-o’"
+},
+{
+"n": 65,
+"matched": false,
+"score": 64
+},
+{
+"n": 66,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "51. Necha yoshdan mehnat shartnomasi mustaqil tuziladi:"
+},
+{
+"n": 67,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "52. Mehnat davomiyligi xaftasiga kimlar uchun 34 soatdan oshmasligi lozim:"
+},
+{
+"n": 68,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "53. Xodimning asosiy mexnat xukuklari qaysi javobda to’liq aks etgan:"
+},
+{
+"n": 69,
+"matched": true,
+"score": 99,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "54. Mexnat shartnomasi kanday muddatlarda rasmiylashtiriladi:"
+},
+{
+"n": 70,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "55. Lavozimni suiste’mol qilish qaysi javobda to’g’ri keltirilgan:"
+},
+{
+"n": 71,
+"matched": true,
+"score": 100,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "56. “Fuqarolarning reproduktiv salomatligini saqlash to’g’risida”gi qonun qachon qabul qilingan:"
+},
+{
+"n": 72,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 0,
+"key": null,
+"doc_stem": "57. Onalik va bolalikni muxofaza kilish bosh boshqarmasi tomonidan tug’ruk va bolalar DPMlarning xod"
+},
+{
+"n": 73,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "58. Menejment - bu:"
+},
+{
+"n": 74,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "59. Avtokratik rahbarlar qanday ish yuritadilar:"
+},
+{
+"n": 75,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "60. Demokratik rahbarlarning bilimga bo’lgan munosabati:"
+},
+{
+"n": 76,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "61. Demokratik rahbarlar muomalada:"
+},
+{
+"n": 77,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "62. Liberal raxbarlar rag’batlantirishga kelganda:"
+},
+{
+"n": 78,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "63. Avtokratik rahbarlar mas’uliyatni taqsimlashda:"
+},
+{
+"n": 79,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "64. Qaror bu - :"
+},
+{
+"n": 80,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "65. Boshqaruv qarorlariga qo’yiladigan talab:"
+},
+{
+"n": 81,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "66. Kommunikatsiya-bu:"
+},
+{
+"n": 82,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "67. Kommunikatsiya tushunchasiga to’g’ri berilgan ta’rifni toping:"
+},
+{
+"n": 83,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "68. Shaxslararo axborot almashuv jarayonida qanday muammolar tug’ilishi mumkin:"
+},
+{
+"n": 84,
+"matched": true,
+"score": 89,
+"options_ok": false,
+"stars": 0,
+"key": null,
+"doc_stem": "1. O’zining shaxsiy ishiga ega bo’lgan inson bu-: - - Biznesmen*"
+},
+{
+"n": 85,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "156. Ilmiy izlanishda annotatsiya bu- ...:"
+},
+{
+"n": 86,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "2. Ilmiy tadqiqotning muhim vazifalaridan biri bu-...:"
+},
+{
+"n": 87,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "158. Tezis – bu- ...:"
+},
+{
+"n": 88,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "160. Tibbiy muassasada nurlanish manbalariga nima kiradi:"
+},
+{
+"n": 89,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "7. Isitma nechta davrda kechadi:"
+},
+{
+"n": 90,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "69. Giyohvandlik vositalari yoki psixotrop moddalarni olish uchun retseptlar yoki huquq beruvchi bos"
+},
+{
+"n": 91,
+"matched": true,
+"score": 100,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "Aholi tibbiy yordam olish uchun murojaat qilganda qayd etilgan holat, ilgari hech qaerda qayd etilma"
+},
+{
+"n": 92,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "Populyatsiyani takror sonining uzluksiz o’zgarish jarayoni sifatida va bir avlodning ikkinchi avlodg"
+},
+{
+"n": 93,
+"matched": true,
+"score": 80,
+"options_ok": false,
+"stars": 0,
+"key": null,
+"doc_stem": "72. Ilmiy tadqiqotning dalillarga asoslanganligi nima deyiladi: - -asoslilik, shubhasizlik, bilim"
+},
+{
+"n": 94,
+"matched": true,
+"score": 74,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "73. Jarohatlar, nuqsonlar yoki kasallik oqibatida insonning doimiy"
+},
+{
+"n": 95,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "74. O’zbekiston Respublikasining “Aholining sanitariya-epidemiologik osoyishtaligi to’g’risida”gi Qo"
+},
+{
+"n": 96,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "75. Kasallanish ko’rsatkichi bo’yicha asosiy ma’lumot manbai:"
+},
+{
+"n": 97,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "Yaroqsiz, muddati o’tgan dori vositalar (shu jumladan sitostatiklar), diagnostik, dezinfeksiyalovchi"
+},
+{
+"n": 98,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "Tibbiy muassasaga kelib tushgan va qabul qilingan hujjat nima deyiladi:"
+},
+{
+"n": 99,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "424. Puls bosim nima:"
+},
+{
+"n": 100,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "78. Asosiy va operativ vazifalarni hal qilish maqsadida rahbar tomonidan chiqarilgan huquqiy hujjat "
+},
+{
+"n": 101,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "79. Davolash profilaktika muassasalarida infeksion nazorat komissiyasi tashkil etiladi:"
+},
+{
+"n": 102,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "80. Shifoxonaning jarrohlik bo’limi katta xamshirasi bo’limdagi 1 nafar shifokor va 2 nafar operatsi"
+},
+{
+"n": 103,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 0,
+"key": null,
+"doc_stem": "81. Davlat sanitariya-epidemiologiya nazorati xizmati mutaxassislari tomonidan tashqi muhit laborato"
+},
+{
+"n": 104,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "Fuqarolarga OIV ga nisbatan antitelolarga tekshiruv natijalarining manfiyligini tasdiqlovchi ma’lumo"
+},
+{
+"n": 105,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "Tibbiyot xodimlarining xatoliklari yuzasidan kelib chiqadigan holat qanday nomlanadi:"
+},
+{
+"n": 106,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "84. Yatrogeniya kelib chiqishiga sababchi emas:"
+},
+{
+"n": 107,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "85. Muloqotning qanday usullari mavjud:"
+},
+{
+"n": 108,
+"matched": true,
+"score": 98,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "86. Gerogigiena nimani o’rganadi:"
+},
+{
+"n": 109,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "426. OIV – bu nima"
+},
+{
+"n": 110,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "87. OITS – bu nima:"
+},
+{
+"n": 111,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "88. OIV infeksiyasi bu...:"
+},
+{
+"n": 112,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "Tibbiyot xodimi OIVni yuqtirishi mumkin:"
+},
+{
+"n": 113,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "OITS qo’zg’atuvchisi viruslarning quyidagi oilasiga mansub:"
+},
+{
+"n": 114,
+"matched": true,
+"score": 69,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "har qanday tibbiy yordam ko’rsatish bilan bog’liq tibbiyot xodimlari"
+},
+{
+"n": 115,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "92. OIV infeksiyasini/OITSni laboratoriyada tasdiqlash usullari:"
+},
+{
+"n": 116,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "93. Serologik oyna davrining davomiyligi:"
+},
+{
+"n": 117,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "94. 16 yosh o’smir, ximoyalanmagan jinsiy aloqadan so’ng OIV bor yo’qligiga tekshirtirmoqchi. Tekshi"
+},
+{
+"n": 118,
+"matched": true,
+"score": 78,
+"options_ok": false,
+"stars": 0,
+"key": null,
+"doc_stem": "95. OIV infeksiyasini davolash quyidagilarni o’z ichiga oladi: - Retrovirusga qarshi preparatlar*"
+},
+{
+"n": 119,
+"matched": true,
+"score": 100,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "96. Tarkibida OIV saqlanadigan potentsial xavfli biologik suyuqliklarni belgilang:"
+},
+{
+"n": 120,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "97. OIV infeksiyasini skrining tekshiruvidan o’tkazish:"
+},
+{
+"n": 121,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "98. Dezinfeksiya nima:"
+},
+{
+"n": 122,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "99. Zararsizlantiruvchi moddalar ko’zga tushganda qanday chora ko’riladi:"
+},
+{
+"n": 123,
+"matched": true,
+"score": 100,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "100. Sterilizatsiya deganda nimani tushunasiz:"
+},
+{
+"n": 124,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "101. Dorixonalarda tayyorlanadigan steril eritmalarni saqlanish muddati necha kun:"
+},
+{
+"n": 125,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "102. Tibbiyot hodimlari o’zini parenteral gepatitlar yuqishidan qanday himoya qiladi:"
+},
+{
+"n": 126,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "157. Biksda materialarning sterilligi qancha vaqt saqlanadi:"
+},
+{
+"n": 127,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "159. Ochiq biksning sterilligi qancha vaqt saqlanadi:"
+},
+{
+"n": 128,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "12. Keltirilgan tibbiy muolajalardan qay biri OIV-infeksiya yuqishida havfsiz:"
+},
+{
+"n": 129,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "13. OIV infeksiyasi mavjudigi aniqlangan 30 yoshli homilador ayol tug’ish vaqti kelganda o’zi tabiiy"
+},
+{
+"n": 130,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "14. OIVni yuqishida qaysi biologik suyuqliklari havfsiz hisoblanadi:"
+},
+{
+"n": 131,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "15. Tibbiy muolajalarni bajarishda qon va boshqa biologik suyuqliklar bilan kasbiy muloqatda bo’lgan"
+},
+{
+"n": 132,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "16. OIVni onadan bolaga o’tganligini aniqlash uchun hozirgi kunda qaysi usullardan foydalaniladi:"
+},
+{
+"n": 133,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "17. OIV infeksiyasini chaqiruvchisi:"
+},
+{
+"n": 134,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "18. Eng ko’p epidemiologik havf tug’diruvchi suyuqliklar:"
+},
+{
+"n": 135,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "19. OIVni yuqish yo’llari:"
+},
+{
+"n": 136,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "20. OIV infeksiyasida asosan qaysi hujayralar zararlanadi:"
+},
+{
+"n": 137,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "21. OIV infeksiyali onadan tug’ilgan bolada klinik tekshiruvlar musbat natijani ko’rsatdi, tashxisga"
+},
+{
+"n": 138,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "22. Shifoxona ichi infeksiyasining tarqalish sabablari:"
+},
+{
+"n": 139,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "23. Oqliklarni sterilligini tekshirishning eng samarali usuli bu-...:"
+},
+{
+"n": 140,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "24. Biksga hiliga qarab bog’lov materiallari qanday joylashtiriladi:"
+},
+{
+"n": 141,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "25. UFO va UVCh dan foydalanish antiseptikaning qaysi usuliga kiradi:"
+},
+{
+"n": 142,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "26. Yiringli jarohatga ishlatiladigan asboblar qanday eritmalarda yuqumsizlantiriladi:"
+},
+{
+"n": 143,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "27. Xlorgeksidin-diglyukonat eritmasi qanday antiseptik moddalardan iborat:"
+},
+{
+"n": 144,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "28. Quruq issiqlik bilan sterilizatsiya qiluvchi shkaflarda qanday rejimga amal qilinadi:"
+},
+{
+"n": 145,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "29. Oksidlovchilarga nimalar kiradi:"
+},
+{
+"n": 146,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "30. Avtoklavda 2atm bosimda xirurgik asboblar sterilizatsiya qilinadi:"
+},
+{
+"n": 147,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "31. Mexanik antiseptikaga qaysi usul tegishli:"
+},
+{
+"n": 148,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "32. Mexanik antiseptikani asosiy maqsadi:"
+},
+{
+"n": 149,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "33. Immun tizimini xolatini oshirish uchun nimadan foydalaniladi:"
+},
+{
+"n": 150,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "34. Quruq issiqlik bilan sterilizatsiya qilishda instrumentlar 180S necha daqiqa sterilizatsiya qili"
+},
+{
+"n": 151,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 0,
+"key": null,
+"doc_stem": "35. Bosim ostida bug’ bilan operatsion materiallar sterilizatsiya qilinadi:"
+},
+{
+"n": 152,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "36. Instrumentlar yiringdan ifloslanganda1%li 1litr xloramin eritmasi qanday nisbatda tayyorlanadi:"
+},
+{
+"n": 153,
+"matched": true,
+"score": 83,
+"options_ok": false,
+"stars": 0,
+"key": null,
+"doc_stem": "37. Pol va devorlarni dezinfeksiya qilishda qaysi gurux vositalari qo’llaniladi: - Xlorsaqlovchi dez"
+},
+{
+"n": 154,
+"matched": true,
+"score": 87,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "38. Pol va devorlarni dezinfeksiya qilishda xlorsaqlovchi vositalardan qancha"
+},
+{
+"n": 155,
+"matched": true,
+"score": 78,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "39. Ultrafiolet lampalari yordamida xona havosini dezinfeksiya qilish vaqti"
+},
+{
+"n": 156,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "40. Bemorning qusuq massalari, najasi qanday tartibda dezinfeksiya qilinadi:"
+},
+{
+"n": 157,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "41. B sinfga oid chiqindilarni utilizatsiya qilish qoidalari:"
+},
+{
+"n": 158,
+"matched": true,
+"score": 99,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "Elektrokardiografiya kanday tekshirish usuli:"
+},
+{
+"n": 159,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "Elektroensefalografiya kanday tekshirish usuli:"
+},
+{
+"n": 160,
+"matched": true,
+"score": 99,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "44. MRT - magnit - rezonans tomografiyasida kanday fizik faktordan foydalaniladi:"
+},
+{
+"n": 161,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "45. Siydik yig’ish qoidalarini ko’rsating:"
+},
+{
+"n": 162,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "46. Balg’amni yig’ish qoidalarini aniqlang:"
+},
+{
+"n": 163,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "280. Nechiporenko usuli bo’yicha tekshirish uchun siydik qanday yig’iladi:"
+},
+{
+"n": 164,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "Bolalik davrining o’ziga xos xususiyatlari nimalar kiradi:"
+},
+{
+"n": 165,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "Bola bilan kommunikatsion muloqat qilish necha bosqichdan iborat:"
+},
+{
+"n": 166,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "283. Bolalar shifoxonasi qanday yoshdagi bolalarga mo’jallangan:"
+},
+{
+"n": 167,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "284. Bemorni ko’rayotgan xonada harorat nechiga teng bo’lishi kerak:"
+},
+{
+"n": 168,
+"matched": true,
+"score": 87,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "285. Yuqumli kasallikga shubxa qilinganda bola qayerga joylashtiriladi: - Xonada qoldiriladi"
+},
+{
+"n": 169,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "286. Bolalarda xamshiralik pavarishi bu:"
+},
+{
+"n": 170,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "287. Tibbiyot xamshirasi bo’limda qanday nazoratni amalga oshiradi:"
+},
+{
+"n": 171,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "288. Bolalarda xamshiralik parvarishining maqsadi nima:"
+},
+{
+"n": 172,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "289. Birinchi sut tishlari qaysi yoshdan chiqa boshlaydi:"
+},
+{
+"n": 173,
+"matched": true,
+"score": 99,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "290. Vitamin D organizmda qaerda sintezlanadi:"
+},
+{
+"n": 174,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "291. Bolalarda ter bezlari qachon ishlay boshlaydi:"
+},
+{
+"n": 175,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "292. Bola qaysi yoshda o’zi mustaqil turishi mumkin:"
+},
+{
+"n": 176,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "293. Hayotning qaysi oyida bola boshini o’zi ushlab turadi:"
+},
+{
+"n": 177,
+"matched": true,
+"score": 89,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "294. Yangi tug’ilgan chaqaloqning yuragi 1 daqiqada necha marta uradi: - 90-100 marotaba"
+},
+{
+"n": 178,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "295. Tanadagi oq qon hujayralarining faoliyati qanday:"
+},
+{
+"n": 179,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "296. Qaysi yoshgacha bolalarda suyak eng tez o’sadi:"
+},
+{
+"n": 180,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "297. Yangi tug’ilgan chaqaloqlarda qaysi haftadan boshlab shartli reflekslar paydo bo’ladi:"
+},
+{
+"n": 181,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "298. Yangi tug’ilgan chaqaloqlarda suyak yumshoqligining sababi nimada:"
+},
+{
+"n": 182,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "299. Umurtqa pog’onasining ko’krak qismi egriligi turi:"
+},
+{
+"n": 183,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "300. Raxit rivojlanishii necha bosqichga bo’linadi:"
+},
+{
+"n": 184,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "301. Raxitning qaysi bosqichida simptomlar pasayadi:"
+},
+{
+"n": 185,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "302. Spazmofiliyaga olib keladigan sabablar:"
+},
+{
+"n": 186,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "47. Spazmofiliya asoratlariga kiradi:"
+},
+{
+"n": 187,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "8. Eksudativ- kataral diatezga nima sabab bo’ladi:"
+},
+{
+"n": 188,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "48. Eksudativ diatezlarning nechta turi bor:"
+},
+{
+"n": 189,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "215. Sizga 1yoshga to’layotgan bolaning onasi quydagi shikoyatlar bilan murojat qildi: Bola oxirgi v"
+},
+{
+"n": 190,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "216. Laringitda qanday yutal kuzatiladi:"
+},
+{
+"n": 191,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "217. Keksalarni kandli diabet kasalligida parvarish kilishda quyidagiarni qaysi birining axamiyati y"
+},
+{
+"n": 192,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "218. Keksalarda kuyidagi tayanch - xarakat tizimi kasalliklarning kaysilari xarakterli emas:"
+},
+{
+"n": 193,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "219. Depressiya nimani anglatadi:"
+},
+{
+"n": 194,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "220. Gastrostoma nima:"
+},
+{
+"n": 195,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "221. Parenteral ovkatlanish nima:"
+},
+{
+"n": 196,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "222. Yotoq yaralar kimlarda kuzatiladi:"
+},
+{
+"n": 197,
+"matched": true,
+"score": 99,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "223. Yotoq yaralarni birinchi darajasida kanday uzgarishlar bo’ladi:"
+},
+{
+"n": 198,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "224. Yotoq yaraning 2-bosqichida terida qanday o’zgarishlar kuzatiladi:"
+},
+{
+"n": 199,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "225. Yotoq yaraning 3-bosqichida terida qanday o’zgarishlar kuzatiladi:"
+},
+{
+"n": 200,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "226. Yotoq yaraning 4-bosqichida terida qanday o’zgarishlar kuzatiladi:"
+},
+{
+"n": 201,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "227. Rektal sun’iy ovqatlanish nima:"
+},
+{
+"n": 202,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "228. Palliativ parvarish bu:"
+},
+{
+"n": 203,
+"matched": true,
+"score": 99,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "229. Xospis deb kanday muassasaga aytiladi:"
+},
+{
+"n": 204,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "230. Atrofiya –nima:"
+},
+{
+"n": 205,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "231. Qo’lni yuqumsizlantirish sifatini nazorat qilish usulini aniqlang:"
+},
+{
+"n": 206,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "232. Qanday operatsiya diagnostik operatsiyaga hisoblanadi:"
+},
+{
+"n": 207,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "233. Qaysi asorat operatsiyadan keyingi kech asorat hisoblanadi:"
+},
+{
+"n": 208,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "234. Qaysi belgi arterial qon ketishiga xos:"
+},
+{
+"n": 209,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "155. Qaysi belgi venoz qon ketishiga xos:"
+},
+{
+"n": 210,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "235. Konning kaysi shakliy elementlarida agglyutinogenlar bor:"
+},
+{
+"n": 211,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "236. Immobilizatsiya maqsadida Dezo bog’lami qaysi shikastda qo’llash mumkin:"
+},
+{
+"n": 212,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "237. Pnevmotoraks ta’rifini aniqlang:"
+},
+{
+"n": 213,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "238. Qaysi xolatda okklyuziyalovchi bog’lam qo’yiladi:"
+},
+{
+"n": 214,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "239. Qorin bo’shlig’ida erkin havo qaysi kasallikda aniqlanadi:"
+},
+{
+"n": 215,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "240. Me’da yarasi perforatsiyasida og’riqni xarakteri va lokalizatsiyasi toping:"
+},
+{
+"n": 216,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "241. «Kofe quyqasi » ko’rinishidagi qusish qachon kuzatiladi:"
+},
+{
+"n": 217,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "242. Appenditsitda og’riqning xarakteri va lokalizatsiyasini aniqlang:"
+},
+{
+"n": 218,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "243. O’tkir peritonitda qanday operatsiya qo’llaniladi:"
+},
+{
+"n": 219,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "244. Laparotomiya nima:"
+},
+{
+"n": 220,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "245. Burun va quloqdan qon va likvor oqishi qaysi kalla-miya shikastiga xos:"
+},
+{
+"n": 221,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "246. Qaysi simptom bosh miya chayqalishining asosiy simptomi hisoblanadi:"
+},
+{
+"n": 222,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "247. Miya shishini oldini olish va kurashish maqsadida nima qo’llaniladi:"
+},
+{
+"n": 223,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "248. “Ko’zoynak simptomi” qaysi shikastda kuzatiladi:"
+},
+{
+"n": 224,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "249. “Prujinali fiksatsiya” qanday shikast simptomi:"
+},
+{
+"n": 225,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "250. Qaysi belgi suyak sinishining absolyut belgisi hisoblanadi:"
+},
+{
+"n": 226,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "251. Krepitatsiya qaysi shikast belgisi:"
+},
+{
+"n": 227,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "252. Furunkulni ta’rifini aniqlang:"
+},
+{
+"n": 228,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "253. Yiringli jarohatni mexanik davolash usulini aniqlang:"
+},
+{
+"n": 229,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "254. Limfadenit ta’rifini aniqlang:"
+},
+{
+"n": 230,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "255. Yiringli xirurgiyada operativ davolash uchun ko’rsatmani aniqlang:"
+},
+{
+"n": 231,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "256. Yiringli jarohatni kimyoviy davolash usulini aniqlang:"
+},
+{
+"n": 232,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "257. Yiringli jarohatni biologik davolash usulini aniqlang:"
+},
+{
+"n": 233,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "258. Jarohatga nima uchun drenaj qo’yiladi:"
+},
+{
+"n": 234,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "259. Narkozning nechta bosqichi bor:"
+},
+{
+"n": 235,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "260. Operatsiyadan keyin siydik ajiratish tizimida uchraydigan asorat:"
+},
+{
+"n": 236,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "261. Chuvalchangsimon o’simtaning yallig’lanishiga nima deyiladi:"
+},
+{
+"n": 237,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "262. Operatsion blok derazalari qaysi tomonga qaragan bo’lishi kerak:"
+},
+{
+"n": 238,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "263. Operatsiya xonalari qaysi antiseptik vositalar bilan tozalanadi:"
+},
+{
+"n": 239,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "264. Qon tekkan jixozlarni artish uchun xloramin va gipoxlorid kalsiyning necha % eritmasidan foydal"
+},
+{
+"n": 240,
+"matched": true,
+"score": 94,
+"options_ok": true,
+"stars": 1,
+"key": null,
+"doc_stem": "265. To’qimalardagi chegaralangan yiringli yallig’lanish bu:  - Absess *"
+},
+{
+"n": 241,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "266. To’qimalarni chegaralanmagan yiringli yallig’lanishi bu:"
+},
+{
+"n": 242,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "267. Jarohatlangan suyak va bo’g’imlar yuzasini xarakatsizlantirish nima deb ataladi:"
+},
+{
+"n": 243,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "268. Lat yeganda birinchi amalga oshiriladigan harakаt:"
+},
+{
+"n": 244,
+"matched": true,
+"score": 87,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "269. Qaysi suyaklar singanda Diterixs shinasi bilan immobilizatsiya qilinadi: - Yelka, bilak suyalar"
+},
+{
+"n": 245,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "270. Teri va shilliq qavatlar butunligi buzilmasdan yuzaga kelgan shikastlarga qanday shikastlar dey"
+},
+{
+"n": 246,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "271. Qattiq bog’lamlarning qanday turlari bor:"
+},
+{
+"n": 247,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "272. Parenximatoz qon okishi qanday to’xtatiladi:"
+},
+{
+"n": 248,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "273. Sterilizatsiyadan oldin barcha tibbiy buyumlarni nima maqsadda tozalovdan o’tkazish zarur:"
+},
+{
+"n": 249,
+"matched": true,
+"score": 92,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "274. Oilaviy shifokorlik poliklinikasida homiladorlar uchun qanday hujjat"
+},
+{
+"n": 250,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "275. Tashqi jinsiy a’zolarga nimalar kiradi:"
+},
+{
+"n": 251,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "276. “Qinni o’z-o’zini tozalash” qanday ro’y beradi:"
+},
+{
+"n": 252,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "277. Ayollar ichki jinsiy a’zolariga qaysi a’zolar kiradi:"
+},
+{
+"n": 253,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "Bachadon naylari qanday bo’limlardan iborat:"
+},
+{
+"n": 254,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "Hayz siklini o’rtacha davomiyligi necha kun:"
+},
+{
+"n": 255,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "105. Chanoq qaysi suyaklardan tashkil topgan:"
+},
+{
+"n": 256,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "106. Normal chanoq o’lchamlarini aniqlang:"
+},
+{
+"n": 257,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "107. Kichik chanoq qanday tekisliklarga bo’linadi:"
+},
+{
+"n": 258,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "108. Tuxum hujayra implantatsiyasi nima:"
+},
+{
+"n": 259,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "109. Plasentani to’liq shakllanishi homiladorlikning qaysi muddatiga to’g’ri keladi:"
+},
+{
+"n": 260,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "110. Homiladorlikning aniq belgilariga qaysi belgilar kiradi:"
+},
+{
+"n": 261,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "111. Homiladorlikning qaysi haftasida bachadon tubi xanjarsimon o’siq ostida joylashadi:"
+},
+{
+"n": 262,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "112. Tug’ruqning taxminiy muddati qanday aniqlanadi:"
+},
+{
+"n": 263,
+"matched": true,
+"score": 100,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "113. Homila pozitsiyasi deb nimaga aytiladi:"
+},
+{
+"n": 264,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "114. Tashqi akusherlik tekshiruvini 2 amalida nima aniqlanadi:"
+},
+{
+"n": 265,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "115. Homiladorlikni ehtimolga yaqin belgilariga qaysi belgilar kiradi:"
+},
+{
+"n": 266,
+"matched": true,
+"score": 98,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "116. 32xaftalik homiladorlikda bachadon tubi qaerda joylashadi:"
+},
+{
+"n": 267,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "40 xaftalik homiladorlikda qorin aylanasi necha sm.ga teng:"
+},
+{
+"n": 268,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "Homiladorlikning gumonli belgilariga qaysi belgilar kiradi:"
+},
+{
+"n": 269,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "427. Homiladorlikdagi havfli belgilarga kiradi:"
+},
+{
+"n": 270,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "120. Xomiladorlikning ikkinchi trimestrida ko’p uchraydigan asorat bu-:"
+},
+{
+"n": 271,
+"matched": true,
+"score": 84,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "3yildan beri qabul qiladi. Lekin hozirda samarali va doimiy usulni qo’llashni xoxlaydi. (boshqa tug’"
+},
+{
+"n": 272,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "124. Madina-20 yoshdTurmushga chiqmagan bo’lib, lekin jinsiy hayot kechiradi. Homilador bo’lishni va"
+},
+{
+"n": 273,
+"matched": true,
+"score": 100,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "125. Kontrasepsiyaning zamonaviy usullariga nimalar kiradi:"
+},
+{
+"n": 274,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "126. Ayollar ixtiyoriy jarroxlik kontrasepsiyasi kimlarda o’tkaziladi:"
+},
+{
+"n": 275,
+"matched": true,
+"score": 92,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "127. Homiladorlikni aniqlashda quyidagi qaysi maxsus tekshiruvlar"
+},
+{
+"n": 276,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "128. Oilaga to’g’ri ta’rif berilgan qatorni toping:"
+},
+{
+"n": 277,
+"matched": true,
+"score": 100,
+"options_ok": false,
+"stars": 0,
+"key": null,
+"doc_stem": "425. Oilaviy nizo nima:"
+},
+{
+"n": 278,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "129. Homiladorlik normal kechganda tug’ruqqacha birlamchi tibbiy xizmat muassasalariga necha marta t"
+},
+{
+"n": 279,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "130. Oilada onalikni muhofaza qilish bu:"
+},
+{
+"n": 280,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "131. Xomila boshining konfiguratsiyasi deb nimaga aytiladi:"
+},
+{
+"n": 281,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "132. Tug’ruqning 1 davrini tugallanganlik belgisini aniqlang:"
+},
+{
+"n": 282,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "133. Ensa oldidan yotishning oldingi turida homila boshi qaysi o’lchamda yotadi:"
+},
+{
+"n": 283,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "134. Tug’ruq qachon tugaydi:"
+},
+{
+"n": 284,
+"matched": true,
+"score": 99,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "135. Homila tug’ilgandan keyin bachadon tubi balandligi qaerda joylashadi:"
+},
+{
+"n": 285,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "136. Tug’ruqdan keyingi bachadonni o’z holiga qaytishi qachon yakunlanadi:"
+},
+{
+"n": 286,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "137. Sog’lom tuqqan ayollarda sut qachon ajrala boshlaydi:"
+},
+{
+"n": 287,
+"matched": true,
+"score": 76,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "138. Chaqaloqning muddatiga yetmay tug’ilganlik belgilariga kiradi: - Yirik homila, terisining buris"
+},
+{
+"n": 288,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "139. Chilla davrida tuqqan ayol parvarishida nimalarga e’tibor berish kerak:"
+},
+{
+"n": 289,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "140. Chilla davrida ayolda uchrashi mumkin bo’lgan havfli belgilar"
+},
+{
+"n": 290,
+"matched": true,
+"score": 82,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "141. Muddatli tug’ruq. 28 yoshli tug’uvchi ayol vazni 3900 g, uzunligi 53sm tirik,faol, yetilgan cha"
+},
+{
+"n": 291,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "142. Tug’ruqdan keyingi erta chilla davri. Qon ketishi 250 ml, qon ketishi davom qilayapti. Bachadon"
+},
+{
+"n": 292,
+"matched": true,
+"score": 92,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "143. 14 yoshli qiz ginekologiya bo’limiga quyidagi shikoyatlar bilan keldi: jinsiy a’zolardan ko’p m"
+},
+{
+"n": 293,
+"matched": true,
+"score": 88,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "144. Qiz bolalarda jinsiy a’zolarining qaysi kasalliklari ko’proq uchraydi: - Vulvit, endometrit"
+},
+{
+"n": 294,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "145. Qizlarning ichki jinsiy a’zolarini tekshirishda qaysi tekshirish usullari o’tkaziladi:"
+},
+{
+"n": 295,
+"matched": true,
+"score": 99,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "146. Ginekologik bemorlarni tekshirishda qo’llanishi shart bo’lgan ob’ektiv usullarni aniqlang:"
+},
+{
+"n": 296,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "147. Ginekologik bemorlarni asosiy shikoyatlarni belgilang:"
+},
+{
+"n": 297,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "148. Amenoreya ta’rifini aniqlang:"
+},
+{
+"n": 298,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "149. Algodismenoreya ta’rifini aniqlang:"
+},
+{
+"n": 299,
+"matched": true,
+"score": 100,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "150. Bachadon naylari o’tkazuvchanligini tekshirish uchun qanday usullardan foydalaniladi:"
+},
+{
+"n": 300,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "278. Birinchi marta ko’rikka kelgan homilador ayol xonaga kirib vrach asbob-anjomlarini ko’rib, bird"
+},
+{
+"n": 301,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 0,
+"key": null,
+"doc_stem": "279. Birinchi tug’uvchi ayol qorinni pasti va bel sohasida dardsimon og’riqlar,jinsiy a’zolardan shi"
+},
+{
+"n": 302,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "428. Bepushtlik-bu …:"
+},
+{
+"n": 303,
+"matched": true,
+"score": 72,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "461. Dispanserizasiya nima:"
+},
+{
+"n": 304,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "430. Anafilaktik shokda qanday shoshilinch yordam ko’rsatiladi:"
+},
+{
+"n": 305,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "431. Alkogoldan zaharlanish belgilarini ko’rsating:"
+},
+{
+"n": 306,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "435. Shifoxonaga umumiy ahvoli to’satdan yomonlashgani tufayli 10 yil davomida qandli diabet bilan k"
+},
+{
+"n": 307,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "436. Diabetik komaning klinik belgilari:"
+},
+{
+"n": 308,
+"matched": true,
+"score": 78,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "tunda to’satdan qattiq qo’rquv va vaximadan uyg’onib ketdti. Bemorning es- xushi chalkashgan, qattiq"
+},
+{
+"n": 309,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "455. Miokard infarktini tipik formasini aniqlang:"
+},
+{
+"n": 310,
+"matched": true,
+"score": 72,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "456. 60 yoshli bemor erkak kishi to’sh ostidagi og’riqqa shikoyat qilyapti. Bu og’riqlar chap qo’l, "
+},
+{
+"n": 311,
+"matched": true,
+"score": 97,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "457. 65 yoshli bemor to’sh ostidagi “hanjarsimon” og’riq va bu og’riqning chap qo’l, kurak, jag’ning"
+},
+{
+"n": 312,
+"matched": true,
+"score": 78,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "tunda to’satdan qattiq qo’rquv va vaximadan uyg’onib ketdti. Bemorning es- xushi chalkashgan, qattiq"
+},
+{
+"n": 313,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "460. Patronaj hamshirasini asosiy prinsiplarini aniqlang:"
+},
+{
+"n": 314,
+"matched": true,
+"score": 77,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "Dispanserizatsiya o’tkazish"
+},
+{
+"n": 315,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 0,
+"key": null,
+"doc_stem": "462. Reyting ballning eng ko’p miqdorining 96 foizidan 100 foizigacha yig’ilsa nechi foiz ustama haq"
+},
+{
+"n": 316,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "463. Xonadoning tibbiy ijtimoiy holatini o’rganish bir yilda necha marotaba amalga oshiriladi:"
+},
+{
+"n": 317,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "464. Qariyalarni uy sharoitida patronajini amalga oshirish jarayonida quyidagilar bajarilmaydi:"
+},
+{
+"n": 318,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "465. Yurak-qon tomir kasalliklari havfining o’rta darajasi bo’lgan patsientlarni QVP/OP vrach ko’rig"
+},
+{
+"n": 319,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "151. Chilla davridagi ayol patronaji necha marta o’tkaziladi:"
+},
+{
+"n": 320,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "152. Chilla davridagi chaqaloqlar birinchi patronaji qachon o’tkaziladi:"
+},
+{
+"n": 321,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "304. “D” nazoratidagi bemorlarni tibbiy ko’rikka chaqirish qanday muddatlarda o’tkaziladi:"
+},
+{
+"n": 322,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "305. Tug’ish yoshidagi ayolni tibbiy ko’rikka chaqirish qanday muddatlarda o’tkaziladi:"
+},
+{
+"n": 323,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "306. Kariyalar patronaji qanday muddatlarda o’tkaziladi:"
+},
+{
+"n": 324,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "307. Nogironlar patronaji qanday muddatlarda o’tkaziladi:"
+},
+{
+"n": 325,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": null,
+"doc_stem": "308. Surunkali yuqumsiz kasalliklarni havf omillarini belgilang:"
+},
+{
+"n": 326,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "309. Aholini patronaj bilan qamrab olish bo’yicha ma’lumotlarni hamshira qaysi jurnalda qayd qiladi:"
+},
+{
+"n": 327,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "Birlamchi tibbiy sanitariya muassasalariga qaysi muassasalar kiradi:"
+},
+{
+"n": 328,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "Bolalarni emlashdan keyingi nazorati necha kun davom etadi:"
+},
+{
+"n": 329,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "312. 064 hujjat shakli kim tomonidan yuritiladi:"
+},
+{
+"n": 330,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "313. Patronaj hamshirasi tomonidan yuritiladigan hujjatni ko’rsating:"
+},
+{
+"n": 331,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "432. Maktab yoshidagi bolalarni bir yilda nechi marta tibbiy ko’rikdan o’tkaziladi:"
+},
+{
+"n": 332,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "433. Bolalarda antrapometrik ko’rsatkichlarga nimalar kiradi:"
+},
+{
+"n": 333,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "434. Jamoada chekadigan o’smirlarda qanday o’zgarishlar kuzatiladi:"
+},
+{
+"n": 334,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "314. Bolani necha yoshidan boshlab sut tishlari tushib, o’rniga doimiy tishlar chiqa boshlaydi:"
+},
+{
+"n": 335,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "315. Temiryo’l, avtomobil, metropoliten, transportda yuz bergan halokatlar qaysi xarakterli favqulot"
+},
+{
+"n": 336,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "316. Kasallikni qisqa muddatda juda keng miqyosda tarqalib ketishi nima deyiladi:"
+},
+{
+"n": 337,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "317. Tibbiy evakuatsiya-bu:"
+},
+{
+"n": 338,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "318. Yong’in-nima:"
+},
+{
+"n": 339,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "319. Tibbiy saralash- nima:"
+},
+{
+"n": 340,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "320. Immobilizatsiya nima:"
+},
+{
+"n": 341,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "321. O’simliklarning ommaviy nobud bo’lishi:"
+},
+{
+"n": 342,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "322. Texnogen tusdagi favqulotda vaziyatga kirmaydi:"
+},
+{
+"n": 343,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "323. Dezinseksiya bu-:"
+},
+{
+"n": 344,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "324. Ko’krak qafasining teshib o’tuvchi jarohatlarida ko’p uchraydigan asorat:"
+},
+{
+"n": 345,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "325. ”Terrorizm” so’zining ma’nosi:"
+},
+{
+"n": 346,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "326. Favqulodda vaziyatlar turlarini aniqlang:"
+},
+{
+"n": 347,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "327. Favqulodda vaziyatlar o’chog’ida og’ir darajali shikastlanganlar qanday rangli saralash markasi"
+},
+{
+"n": 348,
+"matched": true,
+"score": 72,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "328. Tibbiy saralashni kim o’tkazadi: - Kasalxonadagi shifokor"
+},
+{
+"n": 349,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "329. Aholini muhofazalash vositalariga nimalar kiradi:"
+},
+{
+"n": 350,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "330. Shaxsiy muhofaza vositalariga nimalar kiradi:"
+},
+{
+"n": 351,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "331. Kuyish shokiga xos belgini aniqlang:"
+},
+{
+"n": 352,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "332. Ochiq pnevmotoraksda 1-yordam ko’rsatish qanday muolajadan boshlanadi:"
+},
+{
+"n": 353,
+"matched": true,
+"score": 93,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "333. O’ta xavfli yuqumli kasalliklarga qanday kasalliklar kiradi: - Sil, OITS"
+},
+{
+"n": 354,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "334. Topologik tabiiy halokatlarga quyidagilar kiradi:"
+},
+{
+"n": 355,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "335. Kislotalarni neytrallash uchun nima ishlatiladi:"
+},
+{
+"n": 356,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "336. Meteorologik halokatlarga kiradi:"
+},
+{
+"n": 357,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "337. Ishqor bilan kuyganda neytrallash uchun nima ishlatiladi:"
+},
+{
+"n": 358,
+"matched": false,
+"score": 57
+},
+{
+"n": 359,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "339. Qonni vaqtincha to’xtatish usuli qanday:"
+},
+{
+"n": 360,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "340. Parenximatoz qon ketishiga xos belgi qanday:"
+},
+{
+"n": 361,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "341. Transport immobilizatsiyasi uchun nima ishlatiladi:"
+},
+{
+"n": 362,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "342. Immobilizatsiyaning asosiy qoidasi:"
+},
+{
+"n": 363,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "343. Tabiiy tusdagi favqulotda vaziyatga kiradi:"
+},
+{
+"n": 364,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "344. Jaroxat nima:"
+},
+{
+"n": 365,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "345. Jabrlanganlarni davolash muassasasiga olib borish:"
+},
+{
+"n": 366,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "346. Tez shoshilinch tibbiy yordam ko’rsatish xizmat turi qaysi xizmat turiga kiradi:"
+},
+{
+"n": 367,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "348. Xodimning asosiy mexnat xuquqlariga nimalar kiradi:"
+},
+{
+"n": 368,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "349. Mehnat shartnomasining muddati:"
+},
+{
+"n": 369,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "350. Davolash-profilaktika muassasasi bosh hamshira lavozimiga kimlar tavsiya etiladi:"
+},
+{
+"n": 370,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 0,
+"key": null,
+"doc_stem": "351. Tibbiyot kollejida o’qituvchi lavozimida 5 yil faoliyat yuritgan mutaxassis, shifohonaga hamshi"
+},
+{
+"n": 371,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "352. Sterilizatsiya va avtoklav hamshirasi lavozimini egallash uchun necha soat ixtisoslashtirish ku"
+},
+{
+"n": 372,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "353. Davolash-profilaktika muassasalarida o’rta tibbiyot xodimlarini uzluksiz malakasini oshirish ma"
+},
+{
+"n": 373,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "354. “Ustoz” - shogirdga nisbatan qanday bo’lishi lozim:"
+},
+{
+"n": 374,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "355. Shifoxonada hamshiralar kengashining raisi kim:"
+},
+{
+"n": 375,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "363. Patronajning yangi modeli an’anaviydan farqi:"
+},
+{
+"n": 376,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "364. Universal-progressiv modelga asosan aholining qaysi qismi bilan ishlaydi:"
+},
+{
+"n": 377,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "365. Universal-progressiv model bo’yicha xomilador ayollar patronaji qaysi xaftalarda amalga oshiril"
+},
+{
+"n": 378,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "366. Unversal modeli bo’yicha barcha 5 yoshgacha bolalar uchun nechta tashrif amalga oshiriladi:"
+},
+{
+"n": 379,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "367. Unversal modeli bo’yicha chilla davridagi ayol patronaji necha marta o’tkaziladi:"
+},
+{
+"n": 380,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "368. Boshqaruvning demokratik uslubi ifodalanadi:"
+},
+{
+"n": 381,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "369. Rahbarning ish vaqtini «yutuvchilar» bu:"
+},
+{
+"n": 382,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "370. Bemorga yo’naltirilgan parvarishni amalga oshiradigan hamshirada qanday hislatlar va sifatlar m"
+},
+{
+"n": 383,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "371. Shifokor ko’rsatmalari bemorga to’g’ri kelmasa, hamshira shifokor bilan maslahatlashishi kerakm"
+},
+{
+"n": 384,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "372. Umumiy amaliyot hamshirasi vazifasiga kirmaydigan qatorni toping:"
+},
+{
+"n": 385,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "373. Xamshiralik jarayonida parvarishlash bemorni qaysi extiyojlariga asoslanadi:"
+},
+{
+"n": 386,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "374. Og’ir bemorlarni parvarish qilishda hamshiraning jismoniy zo’riqishiga duchor bo’lishida asosan"
+},
+{
+"n": 387,
+"matched": true,
+"score": 97,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "375. Agar kimdir bemorning qizikishlariga zarar yetkazishga harakat qilsa, hamshira esa o’z bilimlar"
+},
+{
+"n": 388,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "376. 1.5 yil ish stajiga ega bo’lgan hamshira 10 yil davomida o’z mutaxassisligi bo’yicha ishlamagan"
+},
+{
+"n": 389,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "377. Menedjerning asosiy vazifalari nimalardan iborat:"
+},
+{
+"n": 390,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "378. Boshqaruv faoliyatini asosini quyidagilar tashkil qiladi:"
+},
+{
+"n": 391,
+"matched": true,
+"score": 99,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "379. Har qanday ob’ektni boshqarish quyidagi qaysi pog’onalarni o’z ichiga oladi:"
+},
+{
+"n": 392,
+"matched": true,
+"score": 99,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "380. Sog’liqni saqlash tizimi o’rta zveno boshqaruvi rag’barlariga quyidagilar kiradi:"
+},
+{
+"n": 393,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "381. Boshqaruv mexanizmi tarkibi o’z ichiga quyidagilarni kiritadi:"
+},
+{
+"n": 394,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "382. Xodimlar tarkibi qiskartirilayotgan davrda ish beruvchi ishchini qancha vaqt oldin menhnat kont"
+},
+{
+"n": 395,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "383. Ishga kabul kilishda eng kichik yosh:"
+},
+{
+"n": 396,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "384. Qaysi vitamin yetishmasligi raxitga olib keladi:"
+},
+{
+"n": 397,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "385. Tibbiy hujjatlar qanday hujjat hisoblanadi:"
+},
+{
+"n": 398,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "386. O’n ikki barmoq ichak yarasida og’riq qachon bo’ladi:"
+},
+{
+"n": 399,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "387. Sog’lom oilani shakllantirish-bu ...:"
+},
+{
+"n": 400,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "388. Antropometrik tekshiruvlarni kunning qaysi vaqtida o’tkaziladi:"
+},
+{
+"n": 401,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "473. Kontrasepsiya- nima:"
+},
+{
+"n": 402,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "389. Sog’lom homiladorlarda uchrashi mumkin bo’lgan belgilar:"
+},
+{
+"n": 403,
+"matched": false,
+"score": 57
+},
+{
+"n": 404,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "391. Ayollar ekstragenital kasalliklar deb nimaga aytiladi:"
+},
+{
+"n": 405,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "392. Infeksion gepatitlar ko’zg’atuvchisi ...:"
+},
+{
+"n": 406,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "393. Qaysi gepatitlar kontakt yo’l orqali yuqadi:"
+},
+{
+"n": 407,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "394. Qaysi gepatitlar gematogen yo’l orkali yukadi:"
+},
+{
+"n": 408,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "395. “Gerontologiyaga ”to’g’ri ta’rif bering:"
+},
+{
+"n": 409,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "396. Qarilik shartli ravishda necha yoshdan boshlanadi:"
+},
+{
+"n": 410,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "397. Me’dadan qon ketishining asosiy belgisi:"
+},
+{
+"n": 411,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "398. Gipogalaktiya nima:"
+},
+{
+"n": 412,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "399. Hazm a’zolari kasalliklariga kirmaydi:"
+},
+{
+"n": 413,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "400. Buyrak jomlarining yallig’lanishi:"
+},
+{
+"n": 414,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "401. Og’riq bilan siydik ajralishiga nima deyiladi:"
+},
+{
+"n": 415,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "402. Diffuz toksik buqoqning klinik belgilarini toping:"
+},
+{
+"n": 416,
+"matched": true,
+"score": 99,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "403. Xamshiralik tekshiruvining sub’ektiv usuliga kiradi:"
+},
+{
+"n": 417,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "404. Siydik kopini kateterizatsiyalashda ko’p uchraydigan asoratlar:"
+},
+{
+"n": 418,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "405. Ambulator tibbiy kartaning saqlanish muddati ...:"
+},
+{
+"n": 419,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "406. Profilaktik emlashlar kartasining shakli qaysi javobda to’g’ri berilgan:"
+},
+{
+"n": 420,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "407. Nikturiya bu …:"
+},
+{
+"n": 421,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "408. Qandli diabetga hos simtomni toping:"
+},
+{
+"n": 422,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "409. Sindrom nima:"
+},
+{
+"n": 423,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "410. Residiv nima:"
+},
+{
+"n": 424,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "411. Remissiya nima:"
+},
+{
+"n": 425,
+"matched": true,
+"score": 100,
+"options_ok": false,
+"stars": 1,
+"key": null,
+"doc_stem": "412. Uchlamchi profilaktikadan maqsad nima:"
+},
+{
+"n": 426,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "413. Yosh oila patronaji qachon amalga oshiriladi:"
+},
+{
+"n": 427,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "414. Yotoq yara bu …:"
+},
+{
+"n": 428,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "416. Bronxial astmaning yurak astmasidan farqi nimadan iborat:"
+},
+{
+"n": 429,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "417. Krupoz zotiljam nima:"
+},
+{
+"n": 430,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "418. Gipertermiya nima:"
+},
+{
+"n": 431,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "419. Qandli diabetning rivojlanish mexanizmi qanday:"
+},
+{
+"n": 432,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "420. Sil kasalligiga tashxis qo’yishda qo’llaniladigan qo’shimcha tekshirish usuli bu ...:"
+},
+{
+"n": 433,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "421. Dispanserizatsiya samaradorligi baholanadi:"
+},
+{
+"n": 434,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "422. Kasalliklarni oldini olish (profilaktika) kuyidagi kaysi muassasalarning asosiy vazifasiga kira"
+},
+{
+"n": 435,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "423. Fertil yoshidagi ayollarni sog’lomlashtirish» tushunchasiga nimalar kirmaydi:"
+},
+{
+"n": 436,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 3,
+"doc_stem": "466. Reproduktiv salomatlik nima:"
+},
+{
+"n": 437,
+"matched": true,
+"score": 99,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "467. JSSTning kriteriylari buyicha fertil yoshidagi ayollarning yosh kursatkichi kanday:"
+},
+{
+"n": 438,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 2,
+"doc_stem": "468. Oila salomatligini saqlashga qaratilgan chora-tadbirlarning maqsadi nima:"
+},
+{
+"n": 439,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 1,
+"doc_stem": "469. Sog’lom turmush tarzini shakllantirish ishining maqsadi nima:"
+},
+{
+"n": 440,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "470. Kollapsning kelib chiqishiga nima sababi bo’lishi mumkin:"
+},
+{
+"n": 441,
+"matched": true,
+"score": 100,
+"options_ok": true,
+"stars": 1,
+"key": 0,
+"doc_stem": "471. Profilaktik dezinfeksiya nima:"
+}
+]

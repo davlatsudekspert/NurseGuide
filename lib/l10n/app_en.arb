@@ -1,0 +1,3020 @@
+{
+  "@@locale": "en",
+  "appTagline": "FOR NURSES",
+  "navHome": "Home",
+  "navLibrary": "Library",
+  "navLearn": "Learn",
+  "actionBack": "Back",
+  "actionProfile": "Profile and settings",
+  "actionLanguage": "Language",
+  "actionRetry": "Try again",
+  "actionContinue": "Continue",
+  "actionCancel": "Cancel",
+  "actionDelete": "Delete",
+  "linkCopied": "Link copied",
+  "notAvailableYet": "Not available yet",
+  "debugBuildBadge": "DEBUG · DEMO ADAPTERS",
+  "welcomeEyebrow": "Your nursing companion",
+  "welcomeTitle": "Nursing.\nClear and practical.",
+  "welcomeSubtitle": "Certification, procedures and learning in one place.",
+  "welcomeGetStarted": "Get started / sign up",
+  "welcomeGuest": "Explore as guest",
+  "welcomeSignIn": "Sign in",
+  "welcomeGuestNote": "No account is needed to read content. Sign-in is used for sync and classes.",
+  "stateLoading": "Loading…",
+  "homeTileTests": "Topic tests with explanations",
+  "homeTileSaved": "Quick access to bookmarks",
+  "homeTileExam": "Timed practice exam",
+  "homeTileClasses": "Students and assignments",
+  "homeTileLecture": "Slides and screen casting",
+  "authTitle": "Welcome",
+  "authSubtitle": "Sign in or create an account with email.",
+  "authEmailLabel": "Email",
+  "authEmailHint": "name@example.com",
+  "authEmailInvalid": "Enter a valid email address.",
+  "authConsent": "I accept the terms of use and privacy policy.",
+  "authConsentRequired": "Accept the terms to continue.",
+  "authGetCode": "Get code",
+  "authViewTerms": "View terms",
+  "authDemoNotice": "Debug build: demo sign-in. No email is sent; the code is shown on the next screen.",
+  "authUnavailableTitle": "Email sign-in isn't connected yet",
+  "authUnavailableBody": "All reading content is available to guests. Sign-in will be enabled once the email service is configured.",
+  "authContinueGuest": "Continue as guest",
+  "authRateLimited": "Too many requests. Try again in {seconds} s.",
+  "@authRateLimited": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "authGenericError": "Something went wrong. Check the connection and try again.",
+  "otpTitle": "Verify your email",
+  "otpCodeLabel": "6-digit code",
+  "otpVerify": "Verify",
+  "otpDemoCode": "Demo code: {code}. No email was sent (debug build only).",
+  "@otpDemoCode": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "otpInvalid": "Incorrect code. Attempts left: {attempts}.",
+  "@otpInvalid": {
+    "placeholders": {
+      "attempts": {
+        "type": "int"
+      }
+    }
+  },
+  "otpExpired": "The code has expired. Request a new one.",
+  "otpTooManyAttempts": "Too many attempts. Request a new code.",
+  "otpNoActiveCode": "No active code. Request a new one.",
+  "otpFormat": "Enter the 6-digit code.",
+  "otpResend": "Resend code",
+  "otpResendIn": "Resend in {seconds} s",
+  "@otpResendIn": {
+    "placeholders": {
+      "seconds": {
+        "type": "int"
+      }
+    }
+  },
+  "otpValidFor": "The code is valid for {minutes} min.",
+  "@otpValidFor": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "otpResent": "A new code was issued.",
+  "rolesTitle": "Your workspace",
+  "rolesSubtitle": "Choose your main role. You can change it later.",
+  "rolesNote": "The role only adapts the home screen. It doesn't grant access to other people's classes or data.",
+  "roleStudent": "Student",
+  "roleStudentDesc": "Learn, practice and prepare",
+  "roleTeacher": "Teacher",
+  "roleTeacherDesc": "Groups and assignments",
+  "homeTitle": "Knowledge. Confidence. Practice.",
+  "homeHeroStudentTitle": "Learn lessons with understanding",
+  "homeHeroStudentBody": "Topic → test → review.",
+  "homeHeroStudentCta": "Start daily questions",
+  "homeHeroTeacherTitle": "Turn knowledge into teaching",
+  "homeHeroTeacherBody": "Groups, explained questions and timed assignments.",
+  "homeHeroTeacherCta": "Open classes",
+  "featureTests": "Tests",
+  "featureSaved": "Saved",
+  "featureExam": "Exam",
+  "featureClasses": "Classes",
+  "testsFilterAll": "All",
+  "testsEmptyTitle": "No results",
+  "testsClearSearch": "Clear search",
+  "contentLoading": "Loading content…",
+  "contentErrorTitle": "Content couldn't be loaded",
+  "contentErrorBody": "The content pack failed verification. Unverified data is never shown.",
+  "sourceNoInterpretation": "NurseGuide doesn't interpret individual results or suggest diagnoses or doses.",
+  "sourceAccessed": "Accessed {date}",
+  "@sourceAccessed": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "sourceReuseRightsVerify": "Reuse rights: verify before distribution",
+  "sourceReuseCitationOnly": "Book: cited as a source only, no text copied",
+  "libTitle": "Library",
+  "libSubtitle": "Your knowledge in one place.",
+  "libBooks": "Books and guides",
+  "libBooksSub": "Catalog of books, manuals and websites",
+  "libSavedSub": "Saved materials",
+  "libSources": "Sources and licences",
+  "libSourcesSub": "Review and reuse conditions",
+  "booksEmptyTitle": "No books yet",
+  "booksEmptyBody": "Books are added only with confirmed distribution rights. A PDF you add yourself stays for personal study and isn't shared.",
+  "booksCatalogNote": "Catalog items link to their official pages. Full text is added to the app only under an open licence or with confirmed distribution rights.",
+  "booksResetFilters": "Clear filters",
+  "savedEmptyTitle": "No bookmarks yet",
+  "savedEmptyBody": "Select Save on a material page to keep it here.",
+  "sourcesTitle": "Sources and licences",
+  "sourcesContent": "Content sources",
+  "sourcesBody": "Every published claim links to its original source, access date, scope and review status.",
+  "learnTitle": "Learn with insight",
+  "learnHeroTag": "Topics and practice",
+  "learnHeroTitle": "From knowledge to practice",
+  "learnHeroBody": "Pick a topic and check your knowledge with questions.",
+  "learnHeroCta": "Choose a topic",
+  "learnClassesSub": "Teacher → assignment → student → results",
+  "learnQuiz": "Explained quiz",
+  "learnQuizSub": "{count, plural, one{{count} practice question} other{{count} practice questions}}",
+  "@learnQuizSub": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "learnExam": "Exam mode",
+  "learnExamSub": "Time, topic and questions",
+  "toifaTitle": "Qualification category exam prep",
+  "toifaSubtitle": "Nursing qualification category",
+  "toifaEyebrow": "Nurse · category",
+  "toifaEntryBody": "Questions from the official certification list: a 50-question test, topic practice, oral ticket and mistake review.",
+  "toifaEntryBodyShort": "Test, oral ticket and mistake review — based on the official list.",
+  "toifaEntryTagTest": "Test · 50 questions",
+  "toifaEntryTagOral": "Oral · 5 questions",
+  "toifaEntryTestActive": "Test in progress: {done} / {total} answered",
+  "@toifaEntryTestActive": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaEntryTicketActive": "Oral ticket in progress: {done} / {total}",
+  "@toifaEntryTicketActive": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaOpen": "Start preparing",
+  "toifaContinue": "Continue",
+  "toifaUzbekOnly": "Official text — Uzbek",
+  "toifaUzbekNotice": "The official text of the certification questions is Uzbek. With a Russian or English interface an auxiliary translation is shown; the original can be opened at any time. Scoring follows the official Uzbek text and key.",
+  "toifaShowOriginal": "Show original text",
+  "toifaHideOriginal": "Hide original text",
+  "toifaOriginalTitle": "Official text (Uzbek)",
+  "toifaTranslationAux": "The translation is auxiliary; scoring follows the official Uzbek text.",
+  "toifaLoadError": "Could not open the question bank",
+  "toifaYourCategory": "Your category",
+  "toifaCatSecond": "Second category",
+  "toifaCatFirst": "First category",
+  "toifaCatHighest": "Highest category",
+  "toifaTransitionNote": "The category test prepares you for the qualification-category system that applies until 2030. State registration of medical staff starts on 1 July 2027; categories granted before 2030 stay valid until they expire (Presidential Decree PF-192, 10.09.2026).",
+  "toifaCategoryHint": "The oral ticket is drawn from this category’s list. Test questions are shared by all categories.",
+  "toifaReadyTest": "Test",
+  "toifaReadyOral": "Oral",
+  "toifaPrepare": "Preparation",
+  "toifaTestTitle": "Category test",
+  "toifaTestRowSub": "{count} random questions · {bank} in the bank",
+  "@toifaTestRowSub": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "bank": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaPracticeTitle": "Topic practice",
+  "toifaPracticeRowSub": "{count} topics · key and note right after answering",
+  "@toifaPracticeRowSub": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaOralTitle": "Oral ticket",
+  "toifaOralRowSub": "{category}: 5 of {count} questions",
+  "@toifaOralRowSub": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaOralRowPick": "Choose your category first",
+  "toifaOralRowActive": "In progress: {done} / {total} rated",
+  "@toifaOralRowActive": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaMistakesTitle": "Mistake review",
+  "toifaMistakesRowSub": "Test mistakes: {tests} · oral “didn’t know”: {oral}",
+  "@toifaMistakesRowSub": {
+    "placeholders": {
+      "tests": {
+        "type": "int"
+      },
+      "oral": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaMistakesRowEmpty": "No mistakes yet",
+  "toifaProgressTitle": "Progress",
+  "toifaProgressRowSub": "Results by topic and readiness",
+  "toifaAboutTitle": "Source and review",
+  "toifaListSource": "Source: official certification question list",
+  "toifaAboutList": "The list has {tests} test and {oral} oral questions (duplicates across categories merged).",
+  "@toifaAboutList": {
+    "placeholders": {
+      "tests": {
+        "type": "int"
+      },
+      "oral": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaAboutKeys": "The key is the answer marked in the list, and scoring follows it. NurseGuide found the key disputed in {disputed} questions and ambiguous in {ambiguous} — those show a note and source.",
+  "@toifaAboutKeys": {
+    "placeholders": {
+      "disputed": {
+        "type": "int"
+      },
+      "ambiguous": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaAboutKeyless": "{count} questions have no key marked in the list — they are left out of tests and practice.",
+  "@toifaAboutKeyless": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaAboutOral": "Oral answer plans are a study aid prepared by NurseGuide ({ready} / {total} plans with sources).",
+  "@toifaAboutOral": {
+    "placeholders": {
+      "ready": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaTestSubtitle": "{count} questions · drawn from the official list",
+  "@toifaTestSubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaFormatTitle": "Format",
+  "toifaFormatStep1": "{count} random questions out of {bank} in the bank.",
+  "@toifaFormatStep1": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "bank": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaFormatStep2": "One answer per question; options in list order.",
+  "toifaFormatStep3": "At the end: mistake review with the official key and NurseGuide note.",
+  "toifaTimeLabel": "Time, minutes",
+  "toifaNoTime": "No time limit",
+  "toifaTimeHelper": "No official time limit is set in the app — choose your own or leave empty.",
+  "toifaTimeError": "Enter 1 to 240 minutes or leave empty",
+  "toifaPassLabel": "Pass mark, %",
+  "toifaNoPass": "Not set",
+  "toifaPassHelper": "This is your own threshold, not the official pass mark.",
+  "toifaPassError": "Enter 1 to 100 % or leave empty",
+  "toifaScoringNotice": "Scoring follows the official key — that is what the exam expects. Where the key is disputed, the results also show a NurseGuide note.",
+  "toifaTestStart": "Start test",
+  "toifaTodayEyebrow": "Today",
+  "toifaTodayGoal": "Goal: {count} questions or 1 ticket",
+  "@toifaTodayGoal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaTodayDone": "Today’s goal is done",
+  "toifaTodayProgress": "{answered}/{goal} questions",
+  "@toifaTodayProgress": {
+    "placeholders": {
+      "answered": {
+        "type": "int"
+      },
+      "goal": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaTodayCorrect": "{percent}% correct",
+  "@toifaTodayCorrect": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaTodayTickets": "tickets: {count}",
+  "@toifaTodayTickets": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaStreakDays": "{count}-day streak",
+  "@toifaStreakDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaTodayNone": "No practice yet today.",
+  "toifaTodayTomorrow": "Come back tomorrow to keep your streak.",
+  "toifaWeekLabel": "Last 7 days: {values}",
+  "@toifaWeekLabel": {
+    "placeholders": {
+      "values": {
+        "type": "String"
+      }
+    }
+  },
+  "toifaGoalLabel": "Daily goal",
+  "toifaGoalOption": "{count} questions",
+  "@toifaGoalOption": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaGoalHint": "Or 1 oral ticket — whichever comes first.",
+  "toifaReminderTitle": "NurseGuide · Qualification",
+  "toifaReminderBody": "Today’s qualification practice is waiting — {count} questions or 1 ticket",
+  "@toifaReminderBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaReminderChannel": "Qualification reminder",
+  "toifaOfferTitle": "Continue tomorrow?",
+  "toifaOfferBody": "Pick a reminder time. There’s no reminder on days you’ve met the goal.",
+  "toifaOfferOn": "We’ll remind you tomorrow at {time}.",
+  "@toifaOfferOn": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "toifaModeTitle": "Mode",
+  "toifaModeExam": "Exam mode",
+  "toifaModeExamSub": "Timed; score and mistakes at the end — like the real exam.",
+  "toifaModePractice": "Practice mode — mistakes shown right away",
+  "toifaModePracticeSub": "After each answer: the correct option and note; no timer.",
+  "toifaDrillStep2": "Right after answering you see if it’s correct: the official key and (if any) a note and source.",
+  "toifaDrillStep3": "Resume where you left off even after closing the app; rework your mistakes at the end.",
+  "toifaDrillStart": "Start practice",
+  "toifaDrillActive": "Practice in progress: {answered}/{total}",
+  "@toifaDrillActive": {
+    "placeholders": {
+      "answered": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaDrillTitle": "Practice mode",
+  "toifaDrillRework": "Rework mistakes",
+  "toifaDrillScore": "Correct: {right} · wrong: {wrong}",
+  "@toifaDrillScore": {
+    "placeholders": {
+      "right": {
+        "type": "int"
+      },
+      "wrong": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaDrillFinishEarly": "Finish now",
+  "toifaDrillFinishBody": "Unanswered questions count as wrong. Your answers stay in the mistakes list.",
+  "toifaDrillDiscardTitle": "Abandon this practice?",
+  "toifaDrillNone": "No practice in progress",
+  "toifaDrillNew": "New test",
+  "toifaDrillUnanswered": "Unanswered: {count}",
+  "@toifaDrillUnanswered": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaThinkHint": "Think through your answer: say it out loud or jot it on paper. Then open the plan and compare.",
+  "toifaThinkTimer": "{minutes}-min think timer",
+  "@toifaThinkTimer": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaThinkLeft": "Think time: {time}",
+  "@toifaThinkLeft": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "toifaThinkUp": "Time’s up — open the plan and compare.",
+  "toifaThinkStop": "Stop timer",
+  "toifaChecklistToggle": "Key points to compare with the plan",
+  "toifaChecklistHint": "Tick what your answer covered (on this device only, no typing).",
+  "toifaChecklistCount": "{done}/{total} ticked",
+  "@toifaChecklistCount": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaRepeatTitle": "To repeat",
+  "toifaRepeatNote": "“Partly” and “Didn’t know” questions come back first in your next tickets.",
+  "toifaRepeatNone": "You knew them all — new questions in the next ticket.",
+  "toifaPracticeSubtitle": "Key right after each answer",
+  "toifaPracticeMixed": "Mixed: {count} questions",
+  "@toifaPracticeMixed": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaPracticeMistakes": "Redo mistakes",
+  "toifaBackToTopics": "Topics",
+  "toifaPracticeRight": "Your answer matches the official key.",
+  "toifaPracticeWrong": "Your answer does not match the official key.",
+  "toifaListNumber": "No. {number}",
+  "@toifaListNumber": {
+    "placeholders": {
+      "number": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaOfficialKey": "Official key",
+  "toifaNurseGuideNote": "NurseGuide note",
+  "toifaVerdictDisputed": "Key disputed",
+  "toifaVerdictAmbiguous": "Ambiguous question",
+  "toifaSuggested": "NurseGuide suggests: {options}",
+  "@toifaSuggested": {
+    "placeholders": {
+      "options": {
+        "type": "String"
+      }
+    }
+  },
+  "toifaScoredByOfficial": "Scoring follows the official key — that answer is what the exam expects.",
+  "toifaNoOfficialKey": "No key is marked in the list — this question is not scored.",
+  "toifaNoteNoSource": "No source is given for this note.",
+  "toifaOralSubtitle": "{count} questions · prepare and self-assess",
+  "@toifaOralSubtitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaOralPool": "{category}: {count} questions in the list",
+  "@toifaOralPool": {
+    "placeholders": {
+      "category": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaOralHowTitle": "How it works",
+  "toifaOralStep1": "{count} random questions from your category list.",
+  "@toifaOralStep1": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaOralStep2": "Prepare your answers — in your head or on paper.",
+  "toifaOralStep3": "Check the answer plan and rate yourself: knew, partly or didn’t know.",
+  "toifaPlanDisclaimer": "Answer plans are a study aid prepared by NurseGuide. They are not official answers.",
+  "toifaPickCategoryFirst": "Choose a category first",
+  "toifaDrawTicket": "Draw a ticket",
+  "toifaTicketTitle": "Your ticket",
+  "toifaPrepHint": "No typing needed. Think through each answer — say it out loud or jot it on paper. Then compare with the answer plan and rate yourself.",
+  "toifaShowPlans": "Answer one by one",
+  "toifaShowPlan": "View answer plan",
+  "toifaNewTicket": "New ticket",
+  "toifaNewTicketBody": "Five new questions replace the current ticket. Ratings you gave are kept.",
+  "toifaPlanTitle": "Answer plan",
+  "toifaPlanPending": "Prepared by NurseGuide",
+  "toifaPlanMissing": "The plan for this question is not ready yet.",
+  "toifaPlanNotChecked": "No source is attached to this plan yet.",
+  "toifaReferenceTitle": "Reference values",
+  "toifaCutoffTitle": "Diagnostic cut-off (guideline)",
+  "toifaWrongLabel": "Wrong",
+  "toifaRightLabel": "Right",
+  "toifaNeedsSource": "Source needed — being checked with a teacher",
+  "toifaUnverifiedNote": "The note is not confirmed by a source — no answer is suggested.",
+  "toifaAgentChecked": "Compared with sources: {date}",
+  "@toifaAgentChecked": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "toifaHeld": "Being clarified",
+  "toifaHeldBody": "Until the wording is clarified, this question is left out of tickets and scoring.",
+  "toifaAboutHeld": "{count} question(s) are left out of tickets and tests until clarified.",
+  "@toifaAboutHeld": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaPitfallsTitle": "Outdated / common mistake",
+  "toifaRateTitle": "Rate yourself",
+  "toifaRateHint": "The rating stays on this device and appears in Mistake review.",
+  "toifaRateKnew": "Knew it",
+  "toifaRatePartial": "Partly",
+  "toifaRateUnknown": "Didn’t know",
+  "toifaTicketDone": "Ticket complete",
+  "toifaTicketSummary": "Knew: {knew} · partly: {partial} · didn’t know: {unknown}",
+  "@toifaTicketSummary": {
+    "placeholders": {
+      "knew": {
+        "type": "int"
+      },
+      "partial": {
+        "type": "int"
+      },
+      "unknown": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaRatingsSaved": "Ratings saved. Tap a question to reopen the plan and change the rating.",
+  "toifaRatingSaved": "Rating saved",
+  "toifaMistakesSubtitle": "Test mistakes and oral questions",
+  "toifaMistakesEmpty": "No mistakes yet",
+  "toifaMistakesEmptyBody": "Questions you got wrong in tests or practice and oral questions rated “didn’t know” collect here.",
+  "toifaMistakesTests": "Test mistakes · {count}",
+  "@toifaMistakesTests": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaMistakesOralUnknown": "Oral: didn’t know · {count}",
+  "@toifaMistakesOralUnknown": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaMistakesOralPartial": "Oral: partly · {count}",
+  "@toifaMistakesOralPartial": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaMoreMistakes": "{count} more mistakes — practise them via Redo mistakes.",
+  "@toifaMoreMistakes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaNothingHere": "Nothing here yet.",
+  "toifaProgressSubtitle": "Results by topic and readiness",
+  "toifaReadyTitle": "Estimated readiness",
+  "toifaReadyCaption": "Average of test and oral results. A NurseGuide estimate, not an official grade.",
+  "toifaReadyTestDetail": "Test: {done} / {total} questions mastered",
+  "@toifaReadyTestDetail": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaReadyOralDetail": "Oral: {done} / {total} “knew it”",
+  "@toifaReadyOralDetail": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaProgressPickCategory": "Oral results use your category list — choose a category:",
+  "toifaRecentTests": "Recent tests",
+  "toifaPassedShort": "Passed",
+  "toifaNotPassedShort": "Below mark",
+  "toifaByTopicNote": "Weakest topics first. Test — questions last answered correctly; oral — rated “knew it”.",
+  "toifaBarTest": "Test: {done} / {total}",
+  "@toifaBarTest": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "toifaBarOral": "Oral: {done} / {total}",
+  "@toifaBarOral": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "examPassMet": "Mark reached (≥{percent}%)",
+  "@examPassMet": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "examPassMissed": "Below your mark ({percent}%)",
+  "@examPassMissed": {
+    "placeholders": {
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "quizProgress": "Question {current} of {total}",
+  "@quizProgress": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "quizCorrect": "Correct.",
+  "quizIncorrect": "This answer is incorrect.",
+  "quizNext": "Next",
+  "quizFinish": "See result",
+  "quizDoneTitle": "Practice complete",
+  "quizScore": "{correct} of {total} correct",
+  "@quizScore": {
+    "placeholders": {
+      "correct": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "quizRestart": "Try again",
+  "quizBasis": "Basis: {basis}",
+  "@quizBasis": {
+    "placeholders": {
+      "basis": {
+        "type": "String"
+      }
+    }
+  },
+  "quizSources": "Source",
+  "quizReviewNote": "Practice questions are for learning; the result is not an official grade.",
+  "quizMistakes": "Review your mistakes",
+  "quizNoMistakes": "No mistakes — well done.",
+  "quizYourAnswer": "Your answer",
+  "quizCorrectAnswer": "Correct answer",
+  "quizChooseTopic": "Choose a topic",
+  "quizTopicMixed": "{count, plural, =1{Mixed: 1 random question} other{Mixed: {count} random questions}}",
+  "@quizTopicMixed": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "quizTopicGeneral": "General questions",
+  "quizQuestionCount": "{count, plural, =1{1 question} other{{count} questions}}",
+  "@quizQuestionCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "quizOtherTopic": "Another topic",
+  "dailyTitle": "Daily questions",
+  "dailyCardStart": "Today’s 5 questions",
+  "dailyCardStartSub": "2–3 minutes. New questions every day, with an explanation and source after each answer.",
+  "dailyCardProgress": "{count} of {total} answered",
+  "@dailyCardProgress": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "dailyCardDone": "Done for today: {correct} of {total} correct",
+  "@dailyCardDone": {
+    "placeholders": {
+      "correct": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "dailyCardDoneSub": "Five new questions tomorrow.",
+  "dailyStart": "Start",
+  "dailyContinue": "Continue",
+  "dailyShowResult": "See result",
+  "dailyStreakDays": "{count, plural, one{{count} day in a row} other{{count} days in a row}}",
+  "@dailyStreakDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dailyStreakTitle": "Streak",
+  "dailyStreakCurrent": "Current streak",
+  "dailyStreakBest": "Longest streak",
+  "dailyDaysShort": "{count, plural, one{{count} day} other{{count} days}}",
+  "@dailyDaysShort": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dailyFreezeAvailable": "This week’s freeze is available",
+  "dailyFreezeUsed": "This week’s freeze is used",
+  "dailyFreezeRule": "Miss one day and your streak survives — once a week (a freeze). The frozen day doesn’t count towards the streak; miss two days in a row and it starts over.",
+  "dailyFreezeSaved": "You missed yesterday — a freeze kept your streak.",
+  "dailyKeepStreak": "Answer today’s questions to keep your streak.",
+  "dailyEmpty": "No questions for today",
+  "dailyReviewTitle": "Today’s questions",
+  "dailySourceToifa": "Questions come from the official certification list — only those whose key passed the NurseGuide check.",
+  "dailyReminderTitle": "NurseGuide: daily questions",
+  "dailyReminderBody": "Today’s 5 questions are ready — 2–3 minutes.",
+  "dailyReminderChannel": "Daily reminder",
+  "dailyReminderSetting": "Daily reminder",
+  "dailyReminderAt": "Every day at {time}",
+  "@dailyReminderAt": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyReminderOff": "Off",
+  "dailyReminderTime": "Reminder time",
+  "dailyOfferTitle": "Want a daily reminder?",
+  "dailyOfferBody": "One notification at the time you choose. No reminder on days you’ve already answered. Turn it off any time.",
+  "dailyOfferYes": "Turn on reminder",
+  "dailyOfferNo": "No thanks",
+  "dailyReminderDenied": "Notification permission wasn’t granted, so the reminder stays off. Allow notifications for NurseGuide in your phone settings and try again.",
+  "dailyReminderUnavailable": "Couldn’t turn on reminders on this device.",
+  "dailyReminderOnSnack": "Reminder on: every day at {time}",
+  "@dailyReminderOnSnack": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "dailyReminderNote": "The reminder is scheduled on this device only (no server). Your phone may delay it by a few minutes to save battery. If you don’t open the app for 7 days, reminders stop.",
+  "shareResult": "Share result",
+  "shareSheetTitle": "Result card",
+  "shareSheetBody": "The image has no name or other personal data.",
+  "shareFailed": "Couldn’t open the share sheet. Please try again.",
+  "shareKindDaily": "Daily questions",
+  "shareKindExam": "Practice exam",
+  "shareKindToifa": "Category test practice",
+  "shareCorrectCaption": "correct answers",
+  "shareFooter": "Nursing reference and practice",
+  "shareToifaNote": "Not official — NurseGuide practice result",
+  "shareText": "NurseGuide · {kind}: {correct}/{total} ({percent}%)",
+  "@shareText": {
+    "placeholders": {
+      "kind": {
+        "type": "String"
+      },
+      "correct": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "percent": {
+        "type": "int"
+      }
+    }
+  },
+  "quizTopicMistakes": "Review my mistakes",
+  "quizMastered": "{correct} of {total} correct last time",
+  "@quizMastered": {
+    "placeholders": {
+      "correct": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "examTitle": "Exam mode",
+  "classesTitle": "Classes and assignments",
+  "classesSignInTitle": "Sign in to use classes",
+  "classesSignInBody": "Creating, joining and submitting assignments is tied to an account. Reading content stays open without sign-in.",
+  "classesSignIn": "Sign in",
+  "classesUnavailableTitle": "The class server isn't connected yet",
+  "classesUnavailableBody": "Nothing is sent or stored. When it's connected, teachers see only their own classes and students see only their own results — checked on the server.",
+  "examSubtitle": "A timed test: pick topics, number of questions and time. Works offline.",
+  "examActiveTitle": "Unfinished exam",
+  "examActiveBody": "{answered}/{total} answered · {time} left",
+  "@examActiveBody": {
+    "placeholders": {
+      "answered": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "examResume": "Resume",
+  "examDiscard": "Abandon exam",
+  "examDiscardTitle": "Abandon this exam?",
+  "examDiscardBody": "Your answers will be deleted and no result will be saved.",
+  "examDiscardAction": "Abandon",
+  "examTopics": "Topics",
+  "examAllTopics": "All",
+  "examPoolCount": "{count, plural, =1{1 question in the selected topics} other{{count} questions in the selected topics}}",
+  "@examPoolCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "examSettings": "Settings",
+  "examCount": "Number of questions",
+  "examCountHint": "From 1 to {max}",
+  "@examCountHint": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "examCountError": "Enter a number from 1 to {max}",
+  "@examCountError": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "examCountAll": "All {count}",
+  "@examCountAll": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "examTime": "Time, minutes",
+  "examTimeHint": "1–180 min · usually 1 min per question",
+  "examTimeError": "Enter 1 to 180 minutes",
+  "examMinutes": "{count} min",
+  "@examMinutes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "examRulesNotice": "Questions and options are shuffled. Until you finish you can change answers and bookmark questions to revisit. The clock keeps running even if the app is closed; when time is up, the exam ends by itself.",
+  "examStart": "Start exam",
+  "examReplaceTitle": "You have an unfinished exam",
+  "examReplaceBody": "Starting a new one deletes the previous exam and its answers.",
+  "examHistory": "Result history",
+  "examHistoryEmpty": "No exams yet. Your first result will appear here — it’s stored only on this device.",
+  "examHistoryStats": "Last {count}: average {avg}% · best {best}%",
+  "@examHistoryStats": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      },
+      "avg": {
+        "type": "int"
+      },
+      "best": {
+        "type": "int"
+      }
+    }
+  },
+  "examHistoryRow": "{date} · {correct}/{total} · {time}",
+  "@examHistoryRow": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "correct": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "examHistoryClear": "Clear history",
+  "examHistoryClearBody": "All exam results will be deleted from this device.",
+  "examProgressLabel": "Recent results: {values}",
+  "@examProgressLabel": {
+    "placeholders": {
+      "values": {
+        "type": "String"
+      }
+    }
+  },
+  "examProgressOld": "Older → newer",
+  "examProgressLast": "Latest",
+  "examSettled": "Your previous exam ended because time ran out",
+  "examOpenResult": "Result",
+  "examTitleAll": "All topics",
+  "examTitleTopics": "{first} + {more} more",
+  "@examTitleTopics": {
+    "placeholders": {
+      "first": {
+        "type": "String"
+      },
+      "more": {
+        "type": "int"
+      }
+    }
+  },
+  "examReworkTitle": "Practise your mistakes",
+  "examQuestionMissing": "This question isn’t in the current content pack.",
+  "examMap": "Question map",
+  "examFinish": "Finish",
+  "examFinishTitle": "Finish the exam?",
+  "examFinishBody": "Unanswered: {unanswered}, bookmarked: {flagged}. You can’t change answers after finishing.",
+  "@examFinishBody": {
+    "placeholders": {
+      "unanswered": {
+        "type": "int"
+      },
+      "flagged": {
+        "type": "int"
+      }
+    }
+  },
+  "examFinishBodyAll": "All questions are answered. You can’t change answers after finishing.",
+  "examFinishClassTitle": "Finish the test?",
+  "examFinishClassBody": "Your answers will be sent to your teacher.",
+  "examFlag": "Bookmark",
+  "examFlagged": "Bookmarked",
+  "examLegendAnswered": "Answered",
+  "examLegendEmpty": "Unanswered",
+  "examLegendFlagged": "Bookmarked",
+  "examQuestionN": "Question {n}",
+  "@examQuestionN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "examAnsweredOf": "{answered}/{total} answered",
+  "@examAnsweredOf": {
+    "placeholders": {
+      "answered": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "examPrev": "Previous",
+  "examNext": "Next",
+  "examTimeLeft": "Time left: {time}",
+  "@examTimeLeft": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "examElapsed": "Elapsed: {time}",
+  "@examElapsed": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "examNoActive": "No active exam",
+  "examNoActiveBody": "It was finished or abandoned. Set up and start a new one.",
+  "examNew": "New exam",
+  "examSaving": "Saving the result…",
+  "examResultTitle": "Result",
+  "examResultMissing": "Result not found",
+  "examBand90": "Excellent!",
+  "examBand70": "Good result!",
+  "examBand50": "Not bad — review your mistakes",
+  "examBand0": "Keep practising — you’ve got this",
+  "examCorrectN": "Correct",
+  "examWrongN": "Wrong",
+  "examSkippedN": "Unanswered",
+  "examSpent": "Time",
+  "examTimedOut": "Time ran out — finished automatically",
+  "examDeltaUp": "+{n}% vs last attempt",
+  "@examDeltaUp": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "examDeltaDown": "−{n}% vs last attempt",
+  "@examDeltaDown": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "examDeltaSame": "Same as last attempt",
+  "examReworkMistakes": "Practise mistakes · {count}",
+  "@examReworkMistakes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "examAnalysis": "Mistake analysis",
+  "examFilterMistakes": "Mistakes · {count}",
+  "@examFilterMistakes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "examFilterAll": "All · {count}",
+  "@examFilterAll": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "examNoAnswer": "Not answered",
+  "examWrongTag": "Wrong",
+  "examWhyWrong": "Why not this answer",
+  "examNoSource": "No source is given for this question.",
+  "examSourceMissing": "This exam’s question bank isn’t available in the app",
+  "examMultiHint": "Several correct answers — select all",
+  "examNoExplanation": "No explanation has been written for this question yet.",
+  "examByTopic": "By topic",
+  "examByTopicNote": "Weakest topic first — start there.",
+  "classesSubtitle": "A teacher creates a class and sets assignments; students join with a code and solve them.",
+  "classesTryExam": "Open the offline exam",
+  "classesLoading": "Loading…",
+  "classesInvalid": "The server didn’t accept this — check the fields.",
+  "classesCodeNotFound": "No class found with this code. Check the code with your teacher.",
+  "classesCreate": "Create a class",
+  "classesCreateSub": "For teachers: get a code and set assignments",
+  "classesJoin": "Join with a code",
+  "classesJoinSub": "For students: the 8-character code from your teacher",
+  "classesRoleNote": "Your role in the app grants no server rights: only an account registered as a teacher can open a class, and only manages its own classes.",
+  "classesMine": "My classes",
+  "classesEmpty": "No classes yet",
+  "classesEmptyBody": "Create a class or join one with the code from your teacher.",
+  "classesRoleTeacher": "Teacher",
+  "classesRoleStudent": "Student",
+  "classesMembers": "{count, plural, =1{1 member} other{{count} members}}",
+  "@classesMembers": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "classesCreateIntro": "The teacher who opens a class manages only that class. Students join with your code or QR.",
+  "classesGroupName": "Class name",
+  "classesGroupNameHint": "e.g. Nursing year 2",
+  "classesLengthError": "Enter {min}–{max} characters",
+  "@classesLengthError": {
+    "placeholders": {
+      "min": {
+        "type": "int"
+      },
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "classesDisplayName": "Nickname (optional)",
+  "classesDisplayNameHint": "e.g. Star — leave empty to use a number",
+  "classesDisplayNameNote": "Names aren’t stored on the server: students appear by nickname or number. You can note a real name only as a label on your own device.",
+  "classesCreateAction": "Create class",
+  "classesCreated": "Class created — send the code to your students",
+  "classesJoinIntro": "Enter the code your teacher gave you.",
+  "classesCode": "Invite code",
+  "classesCodeError": "The code has 8 letters and digits",
+  "classesJoinNote": "Don’t use your real name. The teacher sees only your nickname (or number) and your results; other students don’t see you. Your email isn’t shown.",
+  "classesJoinAction": "Join",
+  "classesJoined": "You joined the class",
+  "classesYouTeacher": "{count, plural, =1{You’re the teacher · 1 member} other{You’re the teacher · {count} members}}",
+  "@classesYouTeacher": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "classesYouStudent": "You’re a student",
+  "classesGroupMissing": "Class not found, or you’re no longer a member",
+  "classesBackToList": "Back to classes",
+  "classesAssignments": "Assignments",
+  "classesNoAssignmentsTeacher": "No assignments yet. Pick topics and a number of questions from the bank to set one.",
+  "classesNoAssignmentsStudent": "No assignments yet",
+  "classesNoAssignmentsStudentBody": "When your teacher sets one, it will appear here.",
+  "classesNoDue": "no due date",
+  "classesDue": "due {date}",
+  "@classesDue": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "classesSubmittedOf": "{done}/{total} submitted",
+  "@classesSubmittedOf": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "classesMembersTitle": "Students · {count}",
+  "@classesMembersTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "classesNoStudents": "No students yet — share the code.",
+  "classesMemberNoWork": "Nothing submitted yet",
+  "classesMemberSummary": "{done}/{total} assignments · average {avg}%",
+  "@classesMemberSummary": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      },
+      "avg": {
+        "type": "int"
+      }
+    }
+  },
+  "classesRemove": "Remove from class",
+  "classesRemoveTitle": "Remove {name} from the class?",
+  "@classesRemoveTitle": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      }
+    }
+  },
+  "classesRemoveBody": "They’ll no longer see the class or new assignments. Submitted results are kept.",
+  "classesRemoveAction": "Remove",
+  "classesStatusDone": "Submitted · {score}/{total}",
+  "@classesStatusDone": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "classesStatusInProgress": "In progress",
+  "classesStatusPending": "Not sent",
+  "classesStatusOverdue": "Past due",
+  "classesStatusNew": "New",
+  "classesStudentNote": "Your teacher sees only your name in the class and your assignment results.",
+  "classesLeave": "Leave class",
+  "classesLeaveTitle": "Leave the class?",
+  "classesLeaveBody": "To rejoin you’ll need the teacher’s code. Results you’ve submitted stay with the teacher.",
+  "classesLeaveAction": "Leave",
+  "classesInviteTitle": "Invite code",
+  "classesInviteBody": "Students scan the QR with the phone camera and tap “Open in app” — or: Learn → Classes and assignments → Join with a code.",
+  "classesCopyCode": "Copy code",
+  "classesCopyInvite": "Copy invitation text",
+  "classesCopied": "Copied",
+  "classesInviteText": "Join the class “{name}” in the NurseGuide app: Learn → Classes and assignments → Join with a code. Code: {code}",
+  "@classesInviteText": {
+    "placeholders": {
+      "name": {
+        "type": "String"
+      },
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "classesAssignmentTitle": "Assignment title",
+  "classesTimeLimit": "Time limit, minutes",
+  "classesNoLimit": "No limit",
+  "classesDueNone": "No due date",
+  "classesDueDays": "{count, plural, =1{1 day} other{{count} days}}",
+  "@classesDueDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "classesDuePick": "Pick a date",
+  "classesDueNoneBody": "No due date — students can submit any time.",
+  "classesDueAt": "Due by {date}",
+  "@classesDueAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "classesPreview": "Selected questions · {count}",
+  "@classesPreview": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "classesReshuffle": "Reshuffle",
+  "classesKeyNotice": "Students can’t see the answer key in advance — the server does the scoring. Each student submits once.",
+  "classesSendAssignment": "Set assignment",
+  "classesSubmitted": "Answers submitted",
+  "classesSubmitNetwork": "No connection — answers are saved on this device. Send them again later.",
+  "classesSubmitRejected": "The server didn’t accept the answers: time or the due date ran out, or it was already submitted.",
+  "classesAssignmentMissing": "Assignment not found",
+  "classesMetricQuestions": "Questions",
+  "classesMetricLimit": "Time limit",
+  "classesMetricDue": "Due",
+  "classesMetricSubmitted": "Submitted",
+  "classesMetricAverage": "Average score",
+  "classesPendingTitle": "Answers not sent yet",
+  "classesPendingBody": "They’re saved on this device. Send them once you’re online — the server accepts them within the time limit.",
+  "classesResend": "Send again",
+  "classesOverdueTitle": "Past due",
+  "classesOverdueBody": "This assignment can no longer be submitted.",
+  "classesOutdatedPack": "{count, plural, =1{1 question in this assignment isn’t in your app’s content. Update the app.} other{{count} questions in this assignment aren’t in your app’s content. Update the app.}}",
+  "@classesOutdatedPack": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "classesStartNotice": "Once you start you have {minutes} min — the clock doesn’t stop, and answers are sent automatically when time is up. One submission only; sending needs internet.",
+  "@classesStartNotice": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "classesStartNoticeNoLimit": "No time limit. Answers are sent once and can’t be resubmitted; sending needs internet.",
+  "classesStart": "Start",
+  "classesSubmittedAt": "Submitted {date}",
+  "@classesSubmittedAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "classesServerScore": "Scored by the server",
+  "classesResults": "Results",
+  "classesColStudent": "Student",
+  "classesColScore": "Score · %",
+  "classesNotSubmitted": "Not submitted",
+  "classesByQuestion": "By question",
+  "classesByQuestionEmpty": "No one has submitted yet.",
+  "classesWrongOf": "{wrong}/{total} wrong",
+  "@classesWrongOf": {
+    "placeholders": {
+      "wrong": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "classesSending": "Sending answers…",
+  "classesMyProgress": "My progress",
+  "classesDoneOf": "{done}/{total} assignments done",
+  "@classesDoneOf": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "classesAverage": "Average score: {avg}%",
+  "@classesAverage": {
+    "placeholders": {
+      "avg": {
+        "type": "int"
+      }
+    }
+  },
+  "classesStudentResultTitle": "Student’s result",
+  "classesStudentAnswer": "Student’s answer",
+  "classesInviteMore": "Invite more students",
+  "profileTitle": "Profile and settings",
+  "profileGuest": "Guest",
+  "profileGuestSub": "Content is open without an account",
+  "profileGuestLocal": "Data stays on this device only",
+  "profileDemoSession": "Demo session · debug build",
+  "profileRole": "Role",
+  "profileRoleSub": "Home adapts to your role",
+  "profileLanguage": "Language",
+  "profileAppearance": "Appearance",
+  "themeSystem": "System",
+  "themeLight": "Light",
+  "themeDark": "Dark",
+  "themeTitle": "Theme",
+  "themeRowSub": "App colours and title type",
+  "themeCurrent": "Current theme",
+  "themeClassicName": "Classic",
+  "themeClassicDesc": "NurseGuide's signature green",
+  "themeIvoryName": "Ivory",
+  "themeIvoryDesc": "Ivory, ink and gold with elegant serif titles",
+  "themeModeSection": "Light or dark",
+  "profilePrivacy": "Privacy and data",
+  "profilePrivacySub": "Data and account controls",
+  "supportTitle": "Feedback & help",
+  "supportSub": "Suggestion, bug or question — replies arrive here",
+  "supportNew": "New request",
+  "supportEmptyTitle": "No requests yet",
+  "supportEmptyBody": "Send a suggestion, report a bug or ask a question — the reply appears here.",
+  "supportKind": "Type",
+  "supportKindSuggestion": "Suggestion",
+  "supportKindBug": "Bug",
+  "supportKindQuestion": "Question",
+  "supportSubject": "Subject",
+  "supportSubjectHint": "In short: what is it about?",
+  "supportMessage": "Message",
+  "supportMessageHint": "Details: which screen, what you did and what you expected",
+  "supportAttach": "Attach a screenshot (optional)",
+  "supportAttachRemove": "Remove image",
+  "supportAttachTooLarge": "The image is larger than 5 MB. Choose a smaller one.",
+  "supportAttachType": "PNG or JPEG only.",
+  "supportPhiNotice": "Make sure the screenshot shows no patient name, date of birth, record number or other personal data.",
+  "supportSend": "Send",
+  "supportSent": "Request sent",
+  "supportReplyHint": "Write a reply…",
+  "supportTeam": "NurseGuide team",
+  "supportYou": "You",
+  "supportUser": "User",
+  "supportHumanReplies": "Replies are written by the NurseGuide team; nothing is sent automatically.",
+  "supportStatusNew": "New",
+  "supportStatusInReview": "In review",
+  "supportStatusAnswered": "Answered",
+  "supportStatusClosed": "Closed",
+  "supportUnread": "New reply",
+  "supportUnreadCount": "{count} new {count, plural, =1{reply} other{replies}}",
+  "@supportUnreadCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "supportSignInTitle": "Sign in to send a request",
+  "supportSignInBody": "Signing in with email lets us deliver the reply to you. Data on this device stays as it is.",
+  "supportUnavailableTitle": "Server not connected yet",
+  "supportUnavailableBody": "This build has no account, feedback or groups server yet. Once connected, it works right here.",
+  "errNetwork": "Couldn’t connect. Check the internet and try again.",
+  "errRateLimited": "Too many requests. Try again a bit later.",
+  "errInvalidSupport": "The subject needs at least 3 characters and the message can’t be empty.",
+  "errForbidden": "You don’t have access to this.",
+  "errSessionExpired": "Your session has expired. Please sign in again.",
+  "errGeneric": "That didn’t work. Please try again.",
+  "accountDelete": "Delete account",
+  "accountDeleteSub": "Removes your server account, requests and group memberships",
+  "accountDeleteTitle": "Delete your account?",
+  "accountDeleteBody": "Your account, sign-in methods (Google/Apple links), group memberships and results and “Feedback & help” requests are permanently removed from the server. If you are a teacher, the groups you created are deleted too. This can’t be undone. The text of complaints you sent in the app stays, no longer linked to the account. Data on this device is cleared as well.",
+  "accountDeleted": "Account deleted",
+  "adminTitle": "Admin panel",
+  "adminSub": "Moderation, support, content, admins",
+  "adminMfaTitle": "Two-step protection",
+  "adminMfaEnrollBody": "The admin panel needs an authenticator app (Google Authenticator, Microsoft Authenticator, 1Password…). Add the key to the app and enter the 6-digit code it shows.",
+  "adminMfaVerifyBody": "Enter the 6-digit code from your authenticator app.",
+  "adminMfaSecret": "Key",
+  "adminMfaCopy": "Copy key",
+  "adminMfaOpen": "Open in authenticator",
+  "adminMfaCode": "6-digit code",
+  "adminMfaVerify": "Verify",
+  "adminMfaWrong": "The code is wrong or expired. Enter the current code from the app.",
+  "adminCopied": "Copied",
+  "adminForbiddenTitle": "Admins only",
+  "adminForbiddenBody": "Admin access is granted by the server — the role or email in the app can’t change that.",
+  "adminStats": "Statistics",
+  "adminRegistered": "Registered",
+  "adminNewToday": "New today",
+  "adminNew7": "New, 7 days",
+  "adminNew30": "New, 30 days",
+  "adminActiveToday": "Active today",
+  "adminActive7": "Active, 7 days",
+  "adminActive30": "Active, 30 days",
+  "adminDefinitions": "Registered — an account whose email was confirmed with a code; guests and unconfirmed sign-ups aren’t counted. New — the day the email was first confirmed. Active — opened the app while signed in at least once in the period. Days use Tashkent time; “7 days” includes today.",
+  "adminByRole": "By role",
+  "adminByLanguage": "By language",
+  "adminNoProfile": "No profile yet: {count}",
+  "@adminNoProfile": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "adminInbox": "Requests",
+  "adminAwaiting": "Awaiting reply: {count}",
+  "@adminAwaiting": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "adminAllStatuses": "All",
+  "adminUsers": "Users",
+  "adminAudit": "Action log",
+  "adminAuditEmpty": "No actions yet",
+  "adminSearchHint": "Search by email",
+  "adminAllRoles": "All roles",
+  "adminAllLanguages": "All languages",
+  "adminShowEmail": "Show email (logged)",
+  "adminPage": "{from}–{to} of {total}",
+  "@adminPage": {
+    "placeholders": {
+      "from": {
+        "type": "int"
+      },
+      "to": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "adminPrev": "Previous",
+  "adminNext": "Next",
+  "adminRegisteredOn": "Registered: {date}",
+  "@adminRegisteredOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "adminLastSeen": "Last active: {date}",
+  "@adminLastSeen": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "adminNoUsers": "No users found",
+  "adminReplyHint": "Write your reply",
+  "adminSendReply": "Send reply",
+  "adminStatus": "Status",
+  "adminActionSupportReply": "Replied to request",
+  "adminActionSupportStatus": "Request status changed",
+  "adminActionRevealEmail": "Email viewed",
+  "adminActionAdminGranted": "Admin access granted",
+  "adminActionAdminRevoked": "Admin access revoked",
+  "profileSignIn": "Sign in with email",
+  "profileSignOut": "Sign out",
+  "profileRestartSetup": "Restart setup",
+  "profileSignOutTitle": "Sign out?",
+  "profileSignOutBody": "Bookmarks, notes and practice progress stay on this device. If someone else will use it, delete them too.",
+  "profileSignOutDelete": "Sign out and delete",
+  "profileVersion": "Version {version}",
+  "@profileVersion": {
+    "placeholders": {
+      "version": {
+        "type": "String"
+      }
+    }
+  },
+  "privacyTitle": "Privacy and data",
+  "privacyBody": "The core features work without an account (guest mode): settings, bookmarks and practice results stay on this device. An account is optional (email code, Google or Apple) and is needed for groups and “Feedback & help”. Then data is stored on a Cloudflare server (Eastern Europe, outside Uzbekistan): your email only as a hash and a masked form, sign-in method, role, language, last activity time (to the minute); in a group — your nickname or sequence number, test answers and scores; the text of requests and complaints. From Google/Apple only the account identifier and email are used; the token is not stored. A teacher sees only their own group. No ads, analytics or tracking. You can delete your account at any time with the “Delete account” button. Full text: the “Privacy policy” link.",
+  "privacyBodyLocal": "This build has no server connected: the app sends nothing to a server. Settings, bookmarks and practice results stay on this device (they may be included in the device backup). No ads or tracking.",
+  "privacyTerms": "Terms of use",
+  "privacyTermsSub": "Final text to be prepared",
+  "privacyDeleteLocal": "Delete local data",
+  "privacyDeleteLocalSub": "Settings, bookmarks, unfinished tests and practice progress",
+  "privacyDeleteConfirmTitle": "Delete local data?",
+  "privacyDeleteConfirmBody": "Settings, bookmarks, unfinished tests and practice progress on this device will be removed. This can’t be undone.",
+  "privacyDeleted": "Local data deleted",
+  "termsTitle": "Terms of use",
+  "termsBody": "NurseGuide is a free reference and learning app for nurses. By using the app you agree to these terms.\n\n1. Medical limitation. NurseGuide does not diagnose, prescribe treatment or medicines, and does not replace your institution's approved procedures, medicine instructions or a physician's orders. Every item shows its source; when making decisions, rely on the original source and your institution's rules.\n\n2. Account. Some features (groups, tests, support requests) require signing up with email. You are responsible for your account's security and for actions taken through it. You can delete your account at any time: Profile → Privacy and data → Delete account.\n\n3. Teacher and student groups. When a student joins a group, the teacher sees their nickname (or seat number) and test results. Teachers use groups for educational purposes only.\n\n4. User content. You are responsible for what you write in support requests. Abuse, illegal content, advertising, other people's personal data and non-consensual intimate images are strictly prohibited. Such content is removed, and the offending account may be restricted or deleted.\n\n5. Copyright. The app's texts, slides, tests and design belong to the NurseGuide authors; external sources are shown with their own licences. They may not be copied or distributed for commercial purposes.\n\n6. Service. The app is provided “as is”; outages and errors may occur, and we fix them as quickly as we can. We will notify you in the app if these terms change.\n\n7. Privacy. How your data is used is described in the privacy policy: nurseguide.nfcstore.uz/privacy\n\n8. Contact: nurseguide@nfcstore.uz",
+  "rightsUnknown": "Distribution rights not confirmed",
+  "rightsPersonal": "Personal study only — not distributed",
+  "rightsPermitted": "Distribution permission recorded",
+  "rightsDenied": "Distribution not permitted",
+  "kindBook": "Book",
+  "kindManual": "Manual",
+  "kindMethod": "Method",
+  "kindArticle": "Article",
+  "kindQuestionSet": "Question set",
+  "kindWebsite": "Website",
+  "libAccessOpen": "Open licence · {licence}",
+  "@libAccessOpen": {
+    "placeholders": {
+      "licence": {
+        "type": "String"
+      }
+    }
+  },
+  "libAccessFree": "Free to read · link only",
+  "libAccessCatalog": "Catalogue record only",
+  "libOpenSource": "Open the official page",
+  "libChecked": "Page and licence checked: {date}",
+  "@libChecked": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "libItemPack": "Offline pack · {size}",
+  "@libItemPack": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "libItemSupersedes": "Newer edition of: {title}",
+  "@libItemSupersedes": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "libSearchEntry": "Search books, authors, topics",
+  "libBooksCount": "{count} sources · search and filters",
+  "@libBooksCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "libContinueReading": "Continue reading",
+  "libSearchLabel": "Search the library",
+  "libSearchHint": "Title, author, topic…",
+  "libFilterLanguage": "Language",
+  "libFilterTopic": "Topic",
+  "libFilterType": "Type",
+  "libFilterSectionField": "Field",
+  "libFilterSectionGroup": "Topic",
+  "libFilterSectionKind": "Material type",
+  "libFilterSectionOpen": "How it opens",
+  "libResultCount": "{shown} of {total} materials",
+  "@libResultCount": {
+    "placeholders": {
+      "shown": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "libClearFilters": "Clear",
+  "libFilteredEmptyTitle": "No materials match these filters",
+  "libFilteredEmptyBody": "Remove one filter or try another word — for example an author’s surname.",
+  "libOpenLink": "Link · external website",
+  "libOpenLinkHint": "Opens in your browser: {host}",
+  "@libOpenLinkHint": {
+    "placeholders": {
+      "host": {
+        "type": "String"
+      }
+    }
+  },
+  "libOpenInApp": "In-app file",
+  "libOpenInAppHint": "Read inside the app — no internet needed",
+  "libOpenDownload": "Downloadable book",
+  "libOpenDownloadHint": "Read in the app after download · {size}",
+  "@libOpenDownloadHint": {
+    "placeholders": {
+      "size": {
+        "type": "String"
+      }
+    }
+  },
+  "libOpenPending": "Pending",
+  "libOpenPendingHint": "Not received yet — cannot be opened",
+  "libOpenReceivedHint": "File received and being checked — not available yet",
+  "libOpenRecordHint": "No distribution rights recorded — not opened in the app",
+  "libOpenLinkShort": "Link",
+  "libOpenInAppShort": "In the app",
+  "libOpenDownloadShort": "Download",
+  "libOpenRecordShort": "Record only",
+  "libItemRead": "Read",
+  "libItemContinue": "Continue from page {page}",
+  "@libItemContinue": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      }
+    }
+  },
+  "libItemCannotOpen": "Cannot be opened",
+  "libDownloadUnavailable": "The download server is not connected yet — the book can’t be downloaded for now.",
+  "libDetailsTitle": "Details",
+  "libFieldAuthors": "Author",
+  "libFieldYear": "Year",
+  "libFieldEdition": "Edition",
+  "libFieldPublisher": "Publisher",
+  "libFieldAccess": "Access",
+  "libFieldStatus": "Status",
+  "libFieldRights": "Distribution rights",
+  "libFieldRightsRecorded": "Recorded: {date} · {by}",
+  "@libFieldRightsRecorded": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "by": {
+        "type": "String"
+      }
+    }
+  },
+  "libFieldTopics": "Topics",
+  "libFieldPages": "Pages",
+  "libStateNotReceived": "Not received yet",
+  "libStateReceived": "Received, being checked",
+  "libStateCataloged": "Catalogued",
+  "libStateLinked": "Linked to cards",
+  "libStateReviewed": "Approved by a teacher",
+  "libProvidedByTeacher": "Provided by a teacher",
+  "libItemNotFound": "Material not found",
+  "libItemNotFoundBody": "The content pack may have been updated. Go back to the catalog.",
+  "libItemUnavailable": "This material is not available in your language",
+  "libItemUnavailableBody": "This material is currently available only in another language. Change the interface language or go back to the catalog.",
+  "libBackToCatalog": "Back to catalog",
+  "readerTitle": "Reader",
+  "readerPageOf": "{page} of {total}",
+  "@readerPageOf": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "readerToc": "Contents",
+  "readerTocEmpty": "This file has no table of contents",
+  "readerTocEmptyBody": "Go to a page or bookmark the place you need.",
+  "readerBookmarks": "Bookmarks",
+  "readerAddBookmark": "Bookmark this page",
+  "readerBookmarkName": "Bookmark name",
+  "readerBookmarkNameHint": "For example: key table",
+  "readerBookmarkSaved": "Bookmark saved: page {page}",
+  "@readerBookmarkSaved": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      }
+    }
+  },
+  "readerBookmarkRemoved": "Bookmark removed",
+  "readerBookmarkRemove": "Remove bookmark",
+  "readerBookmarksEmpty": "No bookmarks yet",
+  "readerBookmarksEmptyBody": "On the page you need, tap “Bookmark this page” — then return with one tap.",
+  "readerPageLabel": "Page {page}",
+  "@readerPageLabel": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      }
+    }
+  },
+  "readerGoTo": "Go to page",
+  "readerGoToShort": "Page",
+  "readerGoToHint": "1 to {total}",
+  "@readerGoToHint": {
+    "placeholders": {
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "readerGoToError": "Enter a number from 1 to {total}",
+  "@readerGoToError": {
+    "placeholders": {
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "readerGo": "Go",
+  "readerSave": "Save",
+  "readerRenameBookmark": "Rename bookmark",
+  "libFieldProvidedBy": "Provided by",
+  "libQueryEmptyBody": "Try another word — for example an author’s surname or a topic name.",
+  "readerZoomIn": "Zoom in",
+  "readerZoomOut": "Zoom out",
+  "readerResumed": "Resumed at page {page}",
+  "@readerResumed": {
+    "placeholders": {
+      "page": {
+        "type": "int"
+      }
+    }
+  },
+  "readerFromStart": "From start",
+  "readerLoading": "Opening the file…",
+  "readerFileMissing": "File not found",
+  "readerFileMissingBody": "This file isn’t in the app. Try updating the app.",
+  "readerFileCorrupted": "The file failed verification",
+  "readerFileCorruptedBody": "The file size or checksum doesn’t match the catalog — it may be damaged or replaced, so it wasn’t opened.",
+  "readerOpenFailed": "Couldn’t open the PDF",
+  "readerBlockedTitle": "Not available in the app",
+  "readerBlockedRights": "Only files with fully recorded distribution rights open in the app. This material has no such file.",
+  "readerBookmarkedPage": "This page is bookmarked",
+  "lessonsTitle": "Lesson topics",
+  "classesSeat": "Student {n}",
+  "@classesSeat": {
+    "placeholders": {
+      "n": {
+        "type": "String"
+      }
+    }
+  },
+  "classesQrLabel": "Invite code QR: {code}",
+  "@classesQrLabel": {
+    "placeholders": {
+      "code": {
+        "type": "String"
+      }
+    }
+  },
+  "classesTeacherRegisterEyebrow": "Teacher",
+  "classesTeacherRegisterTitle": "Register as a teacher",
+  "classesTeacherRegisterBody": "A teacher opens their own class and sees only their students’ results. This isn’t admin access and doesn’t affect other classes.",
+  "classesTeacherRegister": "Register as a teacher",
+  "classesLocalNameTitle": "Label (this device only)",
+  "classesLocalNameBody": "For example, the student’s name. It isn’t sent to the server and the student can’t see it.",
+  "classesLocalNameHint": "Empty — remove the label",
+  "classesLocalNameSave": "Save",
+  "classroomPlanTitle": "Course plan",
+  "classroomPlanSub": "Topics by day: lecture, oral questions, test",
+  "classroomTopicsTitle": "Topics",
+  "classroomTopicsSub": "Topics and tests your teacher has opened",
+  "classroomProgramEyebrow": "Curriculum",
+  "classroomPlanProgress": "{done}/{total} topic tests finished",
+  "@classroomPlanProgress": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "classroomStartNone": "No start date — the plan is shown by day number",
+  "classroomStartAt": "Day 1: {date}",
+  "@classroomStartAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "classroomStartNote": "Dates are approximate (Sundays skipped, holidays not counted) and stored only on this device.",
+  "classroomStartPick": "Set the start date",
+  "classroomDayN": "Day {n}",
+  "@classroomDayN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "classroomWeekN": "Week {n}",
+  "@classroomWeekN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "classroomHours": "{n} h",
+  "@classroomHours": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "classroomTypeLecture": "Lecture",
+  "classroomTypePractical": "Practical",
+  "classroomTypeSeminar": "Seminar",
+  "classroomTypeAttestation": "Assessment",
+  "classroomTypeOther": "Session",
+  "classroomStatusClosed": "Not opened",
+  "classroomStatusOpened": "Opened",
+  "classroomStatusLectured": "Taught",
+  "classroomStatusOral": "Oral round done",
+  "classroomStatusTestRunning": "Test in progress",
+  "classroomStatusTestDone": "Test finished",
+  "classroomNoCurriculumTitle": "The curriculum hasn’t been added yet",
+  "classroomNoCurriculumBody": "The course plan (module → topic → materials) will come in a later app version. For now, use class assignments.",
+  "classroomCurriculumError": "Couldn’t read the curriculum",
+  "classroomNoTopicsStudent": "Your teacher hasn’t opened any topics yet",
+  "classroomNoTopicsStudentBody": "When a topic opens, its materials and test will appear here.",
+  "classroomTopicTitle": "Topic",
+  "classroomTopicMissing": "Topic not found in the curriculum",
+  "classroomTopicNotOpened": "This topic isn’t open yet",
+  "classroomOpenNote": "Once opened, students see the topic materials.",
+  "classroomOpenTopic": "Open to students",
+  "classroomStep": "Step {n}",
+  "@classroomStep": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "classroomStageLecture": "Lecture",
+  "classroomStageLectureBody": "Present the topic as slides on a big screen (works offline too).",
+  "classroomStageOral": "Oral questions",
+  "classroomStageOralBody": "Question list with answer outlines. Asked: {count}.",
+  "@classroomStageOralBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "classroomStageTest": "Class test",
+  "classroomStageTestBody": "Pick questions and start the test — it opens for students right away.",
+  "classroomStageDone": "Done",
+  "classroomMarkDone": "Mark as done",
+  "classroomOralOpen": "Question list",
+  "classroomTestPrepare": "Prepare the test",
+  "classroomTestResults": "Results panel",
+  "classroomTestFinish": "Finish the test",
+  "classroomTestFinishTitle": "Finish the test?",
+  "classroomTestFinishBody": "No new attempts are accepted. Those who already started get 2 minutes to send their answers.",
+  "classroomTestSubmitted": "{done}/{total} students submitted",
+  "@classroomTestSubmitted": {
+    "placeholders": {
+      "done": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "classroomTestNotStarted": "Your teacher hasn’t started the test yet.",
+  "classroomTestOpenStudent": "Test open — take it",
+  "classroomMaterials": "Topic materials",
+  "classroomNoMaterials": "The app has no linked materials for this topic yet.",
+  "classroomGapNote": "The app has little material on this topic — the teacher adds their own sources.",
+  "classroomPlanRecommended": "NurseGuide recommended practical plan",
+  "@classroomPlanRecommended": {
+    "description": "Shown next to M9 practical-day topics whose title is a NurseGuide recommendation (the timetable gives only a generic title); the teacher may change it."
+  },
+  "classroomOralNotice": "Questions are auto-picked candidates; answer outlines are a study aid. “Asked” marks and grades stay on this device only.",
+  "classroomOralEmpty": "No oral questions for this topic",
+  "classroomCandidate": "Candidate question {n}",
+  "@classroomCandidate": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "classroomOralPlan": "Short answer outline",
+  "classroomOralNoPlan": "No answer outline yet.",
+  "classroomOralAsked": "Asked",
+  "classroomOralGrade": "Grade students ({count})",
+  "@classroomOralGrade": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "classroomOralGradeTitle": "How each student answered",
+  "classroomOralGradeNote": "This device only; not sent to the server.",
+  "classroomGradeKnew": "Knew",
+  "classroomGradePartial": "Partly",
+  "classroomGradeDidNot": "Didn’t know",
+  "classroomCandidatesNotice": "Candidate questions were auto-picked. Look through each one and its key: the score is computed on the server using the key shown.",
+  "classroomCandidatesTitle": "Candidates · picked {picked}/{total}",
+  "@classroomCandidatesTitle": {
+    "placeholders": {
+      "picked": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "classroomPickAll": "All",
+  "classroomPickNone": "None",
+  "classroomKeyShown": "Key: {answer}",
+  "@classroomKeyShown": {
+    "placeholders": {
+      "answer": {
+        "type": "String"
+      }
+    }
+  },
+  "classroomKeyFlagged": "Disputed key",
+  "classroomPickAtLeastOne": "Pick at least one question",
+  "classroomPickMax": "At most 50 questions",
+  "classroomTestStart": "Start the test · {count} questions",
+  "@classroomTestStart": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "classroomTestStarted": "Test started — open for students",
+  "classroomTestTitle": "Test: {topic}",
+  "@classroomTestTitle": {
+    "placeholders": {
+      "topic": {
+        "type": "String"
+      }
+    }
+  },
+  "classroomTestAlready": "This topic’s test has already started",
+  "classroomTestNoCandidates": "No test questions for this topic",
+  "classroomTestNoCandidatesBody": "You can build an assignment by hand (New assignment).",
+  "lectureTitle": "Lecture",
+  "lectureListTitle": "Lecture mode",
+  "lectureListSub": "Pick a topic — slides on a big screen, offline",
+  "lectureStart": "Start the lecture",
+  "lectureClose": "Close the lecture",
+  "lectureCounter": "{current} / {total}",
+  "@lectureCounter": {
+    "placeholders": {
+      "current": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "lecturePrev": "Back",
+  "lectureNext": "Next",
+  "lectureGoals": "Goals",
+  "lectureKeyPoints": "Key concepts",
+  "lectureQuestionN": "Question {n}",
+  "@lectureQuestionN": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "lectureEndEyebrow": "Next step",
+  "lectureEndTitle": "Questions and test",
+  "lectureEndOral": "Oral questions — asked by the teacher",
+  "lectureEndTest": "Class test — in the app, timed",
+  "lectureUzOnly": "This presentation is in Uzbek only for now",
+  "lectureNotesShow": "Show teacher notes",
+  "lectureNotesHide": "Hide teacher notes",
+  "lectureTeacherNote": "Teacher note",
+  "cmAdminDone": "Done",
+  "admYouSuper": "You are the owner (super admin)",
+  "admYouAdmin": "You are an admin",
+  "adm2faOn": "Two-step protection (2FA) is confirmed. It is required for every admin action.",
+  "admNotConnected": "Not connected on this server yet",
+  "admTeam": "Admin management",
+  "admTeamCount": "Admins: {count}",
+  "@admTeamCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "admTeamSubManage": "Add by email and remove",
+  "admTeamSubView": "List (only the owner can change it)",
+  "admLegacyNote": "Statistics, users and action history are not on this server yet — they will appear here when ready.",
+  "admOther": "Other sections",
+  "admTeamIntro": "An admin gets full access to every admin section: support threads, users, complaints. Only the server grants this, and every action needs a 2FA code.",
+  "admTeamOwnerOnly": "Only the owner (super admin) can add and remove admins.",
+  "admAddTitle": "Add an admin",
+  "admAddEmail": "Email (e.g. Gmail)",
+  "admAddHint": "Access takes effect once they sign in with this email and set up 2FA; if the account exists — right away.",
+  "admAddButton": "Make admin",
+  "admAddConfirmTitle": "Make this person an admin?",
+  "admAddConfirmBody": "{email} will get full access to every admin section. You can remove them at any time.",
+  "@admAddConfirmBody": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "admAdded": "Added: {email}",
+  "@admAdded": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "admInvalidEmail": "Invalid email. For example: name@gmail.com",
+  "admErrAlready": "This email is already an admin.",
+  "admErrSuper": "This is the owner’s email (super admin) — already an admin.",
+  "admErrTooMany": "Admin limit: {max}. Remove someone first.",
+  "@admErrTooMany": {
+    "placeholders": {
+      "max": {
+        "type": "int"
+      }
+    }
+  },
+  "admListTitle": "Admins ({count})",
+  "@admListTitle": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "admKindSuper": "Owner · super admin",
+  "admKindGranted": "Admin · added {date}",
+  "@admKindGranted": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "admNotSignedIn": "Not signed in yet — access starts at first sign-in",
+  "admYou": "You",
+  "admRemove": "Remove",
+  "admRemoveTitle": "Remove this admin?",
+  "admRemoveBody": "{email} loses admin access immediately — on every device. Their account and data are not deleted.",
+  "@admRemoveBody": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "admRemoved": "Removed: {email}",
+  "@admRemoved": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "admSuperNote": "The owner is set in a secret server setting (LG_ADMIN_EMAILS) and cannot be removed from the app.",
+  "admNoGranted": "No admins added yet.",
+  "adminActionGrantAdded": "Admin added",
+  "adminActionGrantRemoved": "Admin removed",
+  "contactPrivacyPolicy": "Privacy Policy",
+  "autoPresTitle": "Automatic presentation",
+  "autoPresEntrySub": "Slides built from the app’s sourced content",
+  "autoPresShowAnswer": "Show answer",
+  "autoPresHideAnswer": "Hide answer",
+  "contactRowTitle": "Contact & reports",
+  "contactRowSub": "Questions, complaints, report a problem",
+  "contactTitle": "Contact",
+  "contactIntro": "Works without internet or an account: the message is sent from your mail app.",
+  "contactEmailLabel": "Email",
+  "contactCopy": "Copy address",
+  "contactCopied": "Address copied",
+  "contactNoMailApp": "Could not open a mail app. The address was copied: send your message from any mail service.",
+  "contactQuestionTitle": "Questions and suggestions",
+  "contactQuestionBody": "Ask about the app, suggest a topic or an improvement.",
+  "contactQuestionAction": "Write an email",
+  "contactReportTitle": "Report a problem",
+  "contactReportBody": "Tell us about wrong medical content or inappropriate user content.",
+  "contactReportHint": "Please name the section or card so we can find it quickly.",
+  "contactReportAction": "Send a report",
+  "contactResponseNote": "We read every report and fix confirmed errors, but we cannot promise a reply time. This address is not for medical emergencies.",
+  "contactPrivacyNote": "If you write to us, we see your email address and what you write.",
+  "contactMailBodyQuestion": "Your question or suggestion:\n\n\n---\nApp: NurseGuide {version}\nPlatform: {platform}",
+  "@contactMailBodyQuestion": {
+    "description": "Prefilled email body (no personal data)",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  },
+  "contactMailBodyReport": "Section / card name:\nWhat is wrong:\n(Please do not include patient data.)\n\n\n---\nApp: NurseGuide {version}\nPlatform: {platform}",
+  "@contactMailBodyReport": {
+    "description": "Prefilled email body (no personal data)",
+    "placeholders": {
+      "version": {
+        "type": "String"
+      },
+      "platform": {
+        "type": "String"
+      }
+    }
+  },
+  "authOr": "or",
+  "authSignInApple": "Sign in with Apple",
+  "authSignInGoogle": "Sign in with Google",
+  "authSocialFailed": "Couldn’t sign in. Check the connection and try again, or use the email code.",
+  "authSocialEmailUnverified": "This account’s email isn’t verified, so it can’t be used to sign in. Use the email code instead.",
+  "authSocialEmailRequired": "This account didn’t share an email address. Use the email code instead.",
+  "accountDeleteAppleNote": "You signed in with Apple, so Apple will ask you to confirm before the account is deleted. This also disconnects NurseGuide from your Apple ID.",
+  "accountDeleteAppleCancelled": "Nothing was deleted: Apple confirmation was cancelled.",
+  "@authOr": {
+    "description": "Divider text between the email form and the Google/Apple sign-in buttons"
+  },
+  "@authSignInApple": {
+    "description": "Apple button label (Apple HIG wording)"
+  },
+  "@authSignInGoogle": {
+    "description": "Google button label (Google branding wording)"
+  },
+  "@authSocialFailed": {
+    "description": "Shown when Google/Apple sign-in fails (not when the user cancels)"
+  },
+  "@authSocialEmailUnverified": {
+    "description": "Shown when the provider reports the email as unverified"
+  },
+  "@authSocialEmailRequired": {
+    "description": "Shown when the provider gave no email on first sign-in"
+  },
+  "@accountDeleteAppleNote": {
+    "description": "Added to the delete-account dialog for accounts linked to Apple"
+  },
+  "@accountDeleteAppleCancelled": {
+    "description": "Snackbar when the user cancels the Apple confirmation during account deletion"
+  },
+  "admPanelAccess": "Access: the owner email (ADMIN_EMAILS) and an email code. The server re-checks every request.",
+  "admOverview": "Overview",
+  "admOverviewSub": "Registered: {total} · online: {online} · new in 7 days: {week}",
+  "@admOverviewSub": {
+    "placeholders": {
+      "total": {
+        "type": "int"
+      },
+      "online": {
+        "type": "int"
+      },
+      "week": {
+        "type": "int"
+      }
+    }
+  },
+  "admComplaintsRow": "In-app complaints",
+  "admComplaintsRowSub": "Open: {count}",
+  "@admComplaintsRowSub": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "admEmailNote": "Complaints and questions sent by email arrive at {email} — check them in the mailbox (they do not reach the app).",
+  "@admEmailNote": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "admUsersSub": "Search by email or nickname, role, suspension",
+  "admAuditSub": "Every admin action is recorded",
+  "admStoreTitle": "Downloads and sales",
+  "admStoreBody": "The server cannot see store downloads — App Store Connect and Google Play Console show them. The app has no analytics SDK (privacy policy). Numbers in this panel are accounts that confirmed their email.",
+  "admSales": "Sales: 0 (no payments yet)",
+  "admAppStoreConnect": "App Store Connect",
+  "admPlayConsole": "Google Play Console",
+  "admStatsAccounts": "Accounts",
+  "admOnlineNow": "Online now (5 minutes)",
+  "admSuspendedAccounts": "Suspended accounts",
+  "admStatsActiveNote": "Online and active — accounts that made a request to the server. Only the minute and day are stored; no IP or device.",
+  "admChartTitle": "New accounts — last 14 days",
+  "admChartBar": "{date}: {count} new accounts",
+  "@admChartBar": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      },
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "admChartTotal": "Total in 14 days: {count}",
+  "@admChartTotal": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "admStatsObjects": "Main objects",
+  "admStatsGroupsCount": "Groups",
+  "admStatsTeachers": "Registered teachers",
+  "admStatsStudents": "Students in groups",
+  "admStatsAssignments": "Test sessions",
+  "admStatsResults": "Test results",
+  "admStatsComplaintsOpen": "Open complaints",
+  "admStatsComplaintsResolved": "Resolved complaints",
+  "admStatsAwaiting": "Messages: awaiting reply",
+  "admStatsUpdated": "Updated: {time}",
+  "@admStatsUpdated": {
+    "placeholders": {
+      "time": {
+        "type": "String"
+      }
+    }
+  },
+  "admComplaintsTitle": "In-app complaints",
+  "admApple12Note": "Handle reports of objectionable content promptly (Apple 1.2 requires timely action; target — 24 hours).",
+  "admFilterOpen": "Open",
+  "admFilterResolved": "Resolved",
+  "admAllKinds": "All types",
+  "complaintKindComplaint": "Complaint",
+  "complaintKindInappropriate": "Inappropriate content",
+  "complaintKindBug": "Bug",
+  "complaintKindAd": "Advertising",
+  "complaintKindOther": "Other",
+  "admComplaintsEmpty": "No complaints in this list",
+  "admComplaintAnon": "Guest (no account)",
+  "admComplaintFrom": "From: {email}",
+  "@admComplaintFrom": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "admComplaintTarget": "Reference: {ref}",
+  "@admComplaintTarget": {
+    "placeholders": {
+      "ref": {
+        "type": "String"
+      }
+    }
+  },
+  "admComplaintNote": "Admin note",
+  "admComplaintNoteHint": "What was done? (admins only)",
+  "admComplaintSaveNote": "Save note",
+  "admComplaintResolve": "Mark resolved",
+  "admComplaintReopen": "Reopen",
+  "admComplaintResolvedOn": "Resolved: {date}",
+  "@admComplaintResolvedOn": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "admSaved": "Saved",
+  "admSearchModeEmail": "Email",
+  "admSearchModeName": "Nickname",
+  "admSearchEmail": "Full email (exact match)",
+  "admSearchName": "Group nickname (at least 2 characters)",
+  "admUsersSearchNote": "Emails are not stored in plain text: an account is found only by its full email and is shown masked.",
+  "admSearch": "Search",
+  "admStatusActive": "Active",
+  "admStatusSuspended": "Suspended",
+  "admUserAdminTag": "Admin",
+  "admUserTitle": "User",
+  "admUserRole": "Role",
+  "admRoleChanged": "Role changed",
+  "admRoleSelfNote": "You cannot change your own role or status here.",
+  "admUserFacts": "Groups: {owned} (teacher) · {joined} (student) · messages: {threads} · complaints: {complaints}",
+  "@admUserFacts": {
+    "placeholders": {
+      "owned": {
+        "type": "int"
+      },
+      "joined": {
+        "type": "int"
+      },
+      "threads": {
+        "type": "int"
+      },
+      "complaints": {
+        "type": "int"
+      }
+    }
+  },
+  "admAccountTitle": "Account status",
+  "admAccountSuspend": "Suspend account",
+  "admAccountSuspendTitle": "Suspend the account?",
+  "admAccountSuspendBody": "The user is signed out on all devices and cannot sign in again (email code, Google, Apple). The app shows them the contact address. The action is logged.",
+  "admAccountReactivate": "Reactivate",
+  "admAccountReactivateTitle": "Reactivate the account?",
+  "admAccountReactivateBody": "The user can sign in again. The action is logged.",
+  "admAccountAdminNote": "An admin account cannot be suspended.",
+  "admErrOwner": "The owner account cannot be suspended.",
+  "admErrSelf": "You cannot apply this action to yourself.",
+  "admErrName": "Nickname must be 2–40 characters.",
+  "admAuditBy": "By: {actor}",
+  "@admAuditBy": {
+    "placeholders": {
+      "actor": {
+        "type": "String"
+      }
+    }
+  },
+  "admAuditSystem": "System",
+  "adminActionAccountDeleted": "Account deleted",
+  "adminActionMfa": "2FA enabled",
+  "adminActionTeacher": "Teacher registered",
+  "adminActionRoleChanged": "Role changed",
+  "adminActionAccountSuspended": "Account suspended",
+  "adminActionAccountReactivated": "Account reactivated",
+  "adminActionComplaintNote": "Complaint note added",
+  "adminActionComplaintResolved": "Complaint resolved",
+  "adminActionComplaintReopened": "Complaint reopened",
+  "adminActionIdentityLinked": "Sign-in method linked",
+  "complaintFormTitle": "Send a complaint in the app",
+  "complaintFormBody": "Tell us about objectionable content, a bug or another problem — the NurseGuide team will review it (usually within 24 hours).",
+  "complaintKindLabel": "Type",
+  "complaintText": "Text",
+  "complaintTextHint": "What happened? Which screen or post?",
+  "complaintTarget": "Reference: {ref}",
+  "@complaintTarget": {
+    "placeholders": {
+      "ref": {
+        "type": "String"
+      }
+    }
+  },
+  "complaintSend": "Send complaint",
+  "complaintSent": "Sent. Thank you — we will review it.",
+  "complaintTooShort": "Write at least 5 characters.",
+  "complaintRateLimited": "Too many complaints: up to 5 per hour. Try again in {minutes} min.",
+  "@complaintRateLimited": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "complaintAnonNote": "Without an account we cannot reply to you. If you need a reply, sign in or send an email.",
+  "complaintPhiNote": "Do not include patient names or other personal data.",
+  "complaintFailed": "Not sent. Check your connection and try again.",
+  "authAccountSuspended": "Your account has been suspended. If you have questions, write to: {email}",
+  "@authAccountSuspended": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "admSectionComplaints": "Complaints",
+  "lectureSearchLabel": "Search presentations",
+  "lectureSearchHint": "Topic or slide title",
+  "lectureFilterAll": "All",
+  "lectureFilterProtocols": "Practical protocols",
+  "lectureFilterModule": "Module {n}",
+  "@lectureFilterModule": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "lectureLangAll": "All languages",
+  "lectureDecksCount": "{count, plural, one{{count} presentation} other{{count} presentations}}",
+  "@lectureDecksCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lectureSlidesCount": "{count, plural, one{{count} slide} other{{count} slides}}",
+  "@lectureSlidesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lectureSlidesMatch": "{count, plural, one{{count} slide matches} other{{count} slides match}}",
+  "@lectureSlidesMatch": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lectureMoreSlides": "+{count} more",
+  "@lectureMoreSlides": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lectureResultsFound": "{count, plural, one{{count} presentation found} other{{count} presentations found}}",
+  "@lectureResultsFound": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lectureNoResultsTitle": "Nothing found",
+  "lectureNoResultsBody": "Try another word or filter. Search works in Uzbek (Latin or Cyrillic), Russian and English.",
+  "lectureClearFilters": "Clear search and filters",
+  "lectureLangFallback": "This presentation is not available in {wanted}; shown in {shown}",
+  "@lectureLangFallback": {
+    "placeholders": {
+      "wanted": {
+        "type": "String"
+      },
+      "shown": {
+        "type": "String"
+      }
+    }
+  },
+  "lectureDeckLoadFailed": "Could not open the presentation",
+  "lectureFullscreen": "Full screen",
+  "lectureFullscreenExit": "Exit full screen",
+  "lectureSourcesTitle": "Slide sources",
+  "lectureSourcesOpen": "Show full sources",
+  "lectureSourcesCount": "Sources: {count}",
+  "@lectureSourcesCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "lectureSourceLocator": "Section/page: {loc}",
+  "@lectureSourceLocator": {
+    "placeholders": {
+      "loc": {
+        "type": "String"
+      }
+    }
+  },
+  "lectureSourcesHint": "The full list is on the last “References” slide.",
+  "lectureRotateTitle": "Rotate the screen to landscape?",
+  "lectureRotateBody": "In landscape the slide fills the whole screen. “No” keeps the current orientation.",
+  "lectureRotateCastBody": "TVs and monitors are landscape, so landscape is recommended when casting.",
+  "lectureRotateYes": "Yes",
+  "lectureRotateNo": "No",
+  "lectureRotateRemember": "Don’t ask again",
+  "lectureOrientationMenu": "Screen orientation when presenting",
+  "lectureOrientationAsk": "Always ask",
+  "lectureOrientationLandscape": "Always landscape",
+  "lectureOrientationKeep": "Don’t rotate",
+  "lectureMore": "More actions",
+  "lectureCast": "Show on TV",
+  "lectureCastTitle": "Show on a TV or monitor",
+  "lectureCastHow": "Casting uses your phone’s built-in screen mirroring: the TV shows the phone screen. In presentation mode the screen shows only the slide (no buttons) and stays on.",
+  "lectureCastStepsAndroid": "1. Connect the phone and the TV to the same Wi‑Fi network.\n2. Open “Cast screen” (Cast, Smart View, Miracast — the name depends on the phone) and pick the TV.\n3. Come back to the app and tap “Start presentation”.",
+  "lectureCastStepsIos": "1. Connect the iPhone/iPad and the TV (Apple TV or AirPlay-compatible) to the same Wi‑Fi network.\n2. Open Control Center (swipe down from the top-right corner) → Screen Mirroring → pick the TV.\n3. Come back to the app and tap “Start presentation”.",
+  "lectureCastOpenSettings": "Open cast settings",
+  "lectureCastSettingsFailed": "Could not open the settings — find “Cast screen” in Settings or in the quick settings panel.",
+  "lectureCastStart": "Start presentation",
+  "lecturePresenter": "Presenter view",
+  "lecturePresenterNext": "Next slide",
+  "lecturePresenterLast": "This is the last slide",
+  "lecturePresenterTimer": "Time",
+  "lecturePresenterReset": "Reset timer",
+  "lecturePresenterNote": "Presenter view is on this device only. When mirroring, the TV shows the same view — use “Full screen” for the audience.",
+  "topicTestAction": "Topic test",
+  "topicTestPreparing": "Questions for this topic are being prepared",
+  "topicTestPreparingShort": "Questions in preparation",
+  "topicTestPreparingBody": "Only verified questions go into the test. This topic has {count} so far — at least 3 are needed.",
+  "@topicTestPreparingBody": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "topicTestIntro": "{count} questions · the correct answer and explanation after each one",
+  "@topicTestIntro": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "topicTestSavedNote": "If you leave, your answers are kept — you will continue from the same place.",
+  "topicTestSourcesNote": "Questions come only from verified sources: official certification questions with a confirmed key and practice questions with a cited source.",
+  "topicTestStart": "Start the test",
+  "topicTestBest": "Best score: {score}/{total}",
+  "@topicTestBest": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "topicTestBadgeLabel": "Topic test, best score {score} of {total}",
+  "@topicTestBadgeLabel": {
+    "placeholders": {
+      "score": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "topicTestRetake": "Retake",
+  "topicTestNextTopic": "Next topic",
+  "topicTestOpenSlide": "View slide",
+  "topicTestOpenDeckStart": "Open the presentation from the start",
+  "topicTestHistory": "Result history",
+  "topicTestAssign": "Assign to a group",
+  "topicTestLimitBody": "Each student gets {minutes} min from the moment they start. When time runs out, answers are submitted automatically.",
+  "@topicTestLimitBody": {
+    "placeholders": {
+      "minutes": {
+        "type": "int"
+      }
+    }
+  },
+  "topicTestLimitNoneBody": "No time limit — students can take the test any time before the deadline.",
+  "topicTestOpenFor": "How long the test stays open",
+  "topicTestAssignSub": "Students join by QR or code; you see the results",
+  "topicTestSelf": "Try it myself",
+  "topicTestSelfSub": "Saved only on your device; not sent to students",
+  "topicTestAssignIntro": "Students take the test on their own phones before the deadline; the score is calculated on the server.",
+  "topicTestGroups": "Groups",
+  "topicTestNoGroups": "You have no groups yet",
+  "topicTestNoGroupsBody": "Create a group and invite students first — then assign the test from here.",
+  "topicTestPickGroup": "Pick at least one group",
+  "topicTestReveal": "Correct answers shown to students",
+  "topicTestRevealNow": "Right after submitting",
+  "topicTestRevealAfterDue": "After the deadline",
+  "topicTestRevealNeedsDue": "Choose a deadline to use “After the deadline”",
+  "topicTestSent": "Test sent to groups: {count}",
+  "@topicTestSent": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "topicTestTitle": "Topic test: {title}",
+  "@topicTestTitle": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "topicTestSentList": "Sent tests",
+  "topicTestAnswersLater": "Correct answers open after the deadline ({date}) or when the teacher closes the test",
+  "@topicTestAnswersLater": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "topicTestDistribution": "Score distribution",
+  "topicTestHardest": "Hardest questions",
+  "topicTestAssignedTitle": "Assigned tests",
+  "topicTestMenu": "Actions",
+  "topicTestOpenLecture": "Open the presentation",
+  "topicTestCreateGroup": "Create a group",
+  "topicTestStudents": "Students: {count}",
+  "@topicTestStudents": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "topicTestReworkMistakes": "Review mistakes · {count}",
+  "@topicTestReworkMistakes": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "admDeleteTitle": "Delete account",
+  "admDeleteNote": "For deletion requests received by email (completed within 30 days). To confirm, enter the user's full email — the server checks that it belongs to exactly this account. The account, group memberships, support threads and sign-in methods are deleted permanently; for Sign in with Apple users the server attempts to revoke the Apple token. This cannot be undone; the action is logged.",
+  "admDeleteEmail": "User's full email",
+  "admDeleteButton": "Delete account permanently",
+  "admDeleteConfirmTitle": "Delete this account permanently?",
+  "admDeleteConfirmBody": "The account {email} and all data linked to it will be deleted. This cannot be undone.",
+  "@admDeleteConfirmBody": {
+    "placeholders": {
+      "email": {
+        "type": "String"
+      }
+    }
+  },
+  "admDeleteDone": "Account deleted",
+  "admDeleteMismatch": "This email does not belong to this account — check it and try again.",
+  "examPracticeNotice": "The result is for internal practice, not an official grade.",
+  "@examPracticeNotice": {
+    "description": "Exam: the result is internal practice, not an official grade."
+  },
+  "classesPasteLink": "Paste link",
+  "classesPasteNoCode": "No invite code in the copied text. Copy the link or code your teacher sent.",
+  "classesScanTip": "Scan the QR code with your phone camera and tap “Open in app” on the page that opens — the code fills in by itself.",
+  "qrScanAction": "Scan QR code",
+  "qrScanHint": "Fit the group or test QR code from your teacher inside the frame",
+  "qrScanTorchOn": "Turn on flashlight",
+  "qrScanTorchOff": "Turn off flashlight",
+  "qrScanTypeCode": "Type or paste the code",
+  "qrScanNotInvite": "This QR code is not a NurseGuide group invite",
+  "qrScanDeniedTitle": "Camera access is off",
+  "qrScanDeniedBody": "To read the QR code, allow NurseGuide to use the camera in Settings. The camera image is read on the phone only — it is not saved or sent. Or type the code yourself or paste the link.",
+  "qrScanOpenSettings": "Open settings",
+  "qrScanFailedTitle": "Couldn’t open the camera",
+  "qrScanFailedBody": "Type the code yourself or paste the link from your teacher.",
+  "qrScanStarting": "Opening camera…",
+  "classesJoinOpensTest": "After joining, your teacher’s test opens right away.",
+  "classesJoinSignInTitle": "Sign in to join the group",
+  "classesJoinSignInBody": "With Google, Apple or an email code — it takes a minute. Your result reaches the teacher through this account; the invite code is kept.",
+  "classesNicknameTaken": "This nickname is taken in the group — choose another.",
+  "classesNicknameAbusive": "The nickname contains an inappropriate word — choose another.",
+  "classesTestQr": "Test QR",
+  "classesTestQrBody": "Students scan → sign in → nickname → this test opens. Results on this page update by themselves.",
+  "classesInviteLink": "Copy link",
+  "classesLiveNote": "Results refresh every 10 seconds. Pull down to refresh now.",
+  "boardOpen": "Big screen",
+  "boardJoined": "In group",
+  "boardStarted": "Solving",
+  "boardSubmitted": "Submitted",
+  "boardStatusWaiting": "Waiting",
+  "boardStatusSolving": "Solving…",
+  "boardScan": "Scan to join",
+  "boardAnswersAfterClose": "Correct answers appear after the test is closed.",
+  "boardEmpty": "Nobody yet — scan the QR.",
+  "boardClose": "Exit big screen",
+  "actionClose": "Close",
+  "variantToggle": "Different questions for each student",
+  "variantOnBody": "Each student gets {n} of the topic’s {pool} questions, balanced across sub-topics.",
+  "@variantOnBody": {
+    "placeholders": {
+      "pool": {
+        "type": "int"
+      },
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "variantOffBody": "Everyone gets the same questions (in shuffled order).",
+  "variantDisabledBody": "This topic has {pool} questions — different sets need at least {need} (twice the question count). Lower the question count.",
+  "@variantDisabledBody": {
+    "placeholders": {
+      "pool": {
+        "type": "int"
+      },
+      "need": {
+        "type": "int"
+      }
+    }
+  },
+  "variantUnsupported": "Variant tests are not supported by this server.",
+  "variantPoolTitle": "Question pool ({pool})",
+  "@variantPoolTitle": {
+    "placeholders": {
+      "pool": {
+        "type": "int"
+      }
+    }
+  },
+  "variantLabel": "Variant test",
+  "variantPerStudent": "{n} questions per student from a pool of {pool}",
+  "@variantPerStudent": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      },
+      "pool": {
+        "type": "int"
+      }
+    }
+  },
+  "variantReceived": "Given to {n} students",
+  "@variantReceived": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "homeResumeCta": "Continue",
+  "homeResumeBody": "Last opened: {title}",
+  "@homeResumeBody": {
+    "placeholders": {
+      "title": {
+        "type": "String"
+      }
+    }
+  },
+  "helpTitle": "Help & contact",
+  "helpSub": "In the app or by email — question, suggestion, complaint",
+  "helpIntro": "Choose what suits you: an in-app message thread (the reply arrives here) or email (complaint, privacy request).",
+  "classesNicknameInvalid": "A nickname may contain only letters, digits, spaces and . _ ' -, and must start and end with a letter or digit (no emoji or symbols like !?@).",
+  "classesGroupFull": "The group is full (200 people) — tell your teacher.",
+  "classesCodeAmbiguous": "Codes never contain 0, O, 1 or I. Check the code with your teacher or scan the QR.",
+  "classesOwnGroupTitle": "You are this group's teacher",
+  "classesOwnGroupBody": "This account created the group, so it can't join it as a student (switching the role in Profile doesn't change that). To try it as a student, sign in with another account or take the test in student view.",
+  "classesOwnGroupOpen": "Open as teacher",
+  "classesSwitchAccount": "Sign in with another account",
+  "classesPreviewAsStudent": "Try as a student",
+  "classesPreviewNote": "Trial mode: answers are not sent to the server and don't appear in the results.",
+  "classesPreviewResult": "Trial finished: {correct} / {total} correct. Nothing was submitted.",
+  "@classesPreviewResult": {
+    "placeholders": {
+      "correct": {
+        "type": "int"
+      },
+      "total": {
+        "type": "int"
+      }
+    }
+  },
+  "classesGiveTopicTest": "Give a topic test",
+  "classesGiveTopicTestSub": "Pick a topic — the next page sets the number of questions, variants, due date and when answers open.",
+  "classesTopicSearchHint": "Search topics (e.g. anaemia)",
+  "classesTopicNoMatch": "No topic with a ready test found",
+  "classesTopicQuestions": "{count} questions",
+  "@classesTopicQuestions": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "examDeadlineAt": "Due: {date}",
+  "@examDeadlineAt": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "classesScanAskNick": "Before joining, enter a nickname — your teacher sees your result under it (optional: leave empty to show your seat number). Then tap “Join”.",
+  "classesMyNickname": "My nickname",
+  "classesNoNickname": "None — your teacher sees your seat number",
+  "classesNicknameSaved": "Nickname saved",
+  "classesNicknameNote": "Don't use your real name. Leave empty to show your seat number.",
+  "rolesTeacherRegisterNote": "“Continue” registers your account as a teacher: you manage only the groups you create and see their results (not admin rights).",
+  "rolesTeacherSignInNote": "The teacher role is for signed-in accounts only. Sign in (email, Google or Apple), then choose the role in Profile.",
+  "classesGiveGeneralTest": "Give a general test",
+  "generalTestSub": "From several topics — up to 50 questions",
+  "generalTestIntro": "Pick topics — questions are spread evenly across them. Students take the test on their phones; the server scores it.",
+  "generalTestSources": "Where questions come from",
+  "generalTestSearchHint": "Search topics (e.g. anaemia)",
+  "generalSourceToifa": "Category exam questions",
+  "generalSourceToifaSub": "Official list, keys checked",
+  "generalSourceLecture": "Lecture topics",
+  "generalSourceLectureSub": "A whole module or single days",
+  "generalSourcePack": "By practice questions",
+  "generalSourcePackSub": "Questions from topic groups",
+  "generalSourceToifaShort": "Category",
+  "generalSourceLectureShort": "Lectures",
+  "generalSourcePackShort": "Practice",
+  "generalSelectAll": "Select all",
+  "generalAllShort": "all",
+  "generalDays": "Days · {count}",
+  "@generalDays": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "generalSelected": "Selected: {topics} topics · {questions} questions",
+  "@generalSelected": {
+    "placeholders": {
+      "topics": {
+        "type": "int"
+      },
+      "questions": {
+        "type": "int"
+      }
+    }
+  },
+  "generalPickTopic": "Pick at least one topic",
+  "generalTestTitle": "General test: {topics}",
+  "@generalTestTitle": {
+    "placeholders": {
+      "topics": {
+        "type": "String"
+      }
+    }
+  },
+  "generalTestNameHint": "E.g. Midterm 1",
+  "navProcedures": "Procedures",
+  "navWorkplace": "Workplace",
+  "roleNurse": "Nurse",
+  "roleNurseDesc": "Certification and procedures",
+  "procTitle": "Procedures",
+  "procSub": "Step-by-step practical guides",
+  "procEmptyTitle": "Coming soon",
+  "procEmptyBody": "The procedures section is being prepared. Verified, sourced guides will appear in an upcoming update.",
+  "workTitle": "Workplace",
+  "workSub": "Quick reference for your shift",
+  "workEmptyTitle": "Coming soon",
+  "workEmptyBody": "The workplace section is being prepared: dosing, calculators and a quick reference will live here.",
+  "hubGoLearn": "Go to Learn",
+  "homeHeroNurseTitle": "Prepare for certification with confidence",
+  "homeHeroNurseBody": "Certification questions, oral answers and daily practice in one place.",
+  "homeHeroNurseCta": "Certification prep",
+  "homeTileToifa": "Test, oral ticket and mistakes",
+  "homeTileProcedures": "Step-by-step guides",
+  "homeTileWorkplace": "Quick reference for your shift",
+  "featureLessons": "Lessons",
+  "homeTileLessons": "Lecture decks",
+  "catFundamentals": "Fundamentals",
+  "catClinicalNursing": "Clinical nursing",
+  "catProcedures": "Procedures",
+  "catPharmacology": "Pharmacology",
+  "catExams": "Exams and certification",
+  "kindGuideline": "Guideline",
+  "rolesTeacherLocked": "For signed-in accounts only",
+  "rolesTeacherFailed": "The server did not confirm the teacher role. Check your connection and try again.",
+  "toifaTopicOther": "Other",
+  "lectureUnverifiedNotice": "This deck has not been verified yet — review the content before class",
+  "classroomKindProtocol": "Deck",
+  "lectureProtocols": "Ready decks",
+  "quizEmptyTitle": "Questions are coming soon",
+  "quizEmptyBody": "Practice questions will appear here once they are verified.",
+  "profileFontSize": "Text size",
+  "fontSizeSmall": "Small",
+  "fontSizeNormal": "Normal",
+  "fontSizeLarge": "Large",
+  "fontSizeXLarge": "Extra large",
+  "profileFeedback": "Sound and haptics",
+  "profileHaptics": "Haptic feedback",
+  "profileSounds": "Sounds",
+  "welcomeBenefitNurseTitle": "For nurses",
+  "welcomeBenefitNurseBody": "Certification tests, oral tickets and procedures",
+  "welcomeBenefitStudentTitle": "For students",
+  "welcomeBenefitStudentBody": "Lessons, explained tests and exams",
+  "welcomeBenefitTeacherTitle": "For teachers",
+  "welcomeBenefitTeacherBody": "Groups, assignments and big screen",
+  "actionSave": "Save",
+  "actionUnsave": "Remove from saved",
+  "toifaEmptyTitle": "Certification questions are coming soon",
+  "toifaEmptyBody": "Official list questions will appear here once verified: test, oral ticket and mistakes review."
+}

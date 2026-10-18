@@ -1,0 +1,18 @@
+{
+  "pack_id": "core",
+  "version": "0.0.1-placeholder",
+  "min_schema": 1,
+  "languages": [
+    "uz",
+    "ru",
+    "en"
+  ],
+  "licence": "NurseGuide content pack — verified sources only",
+  "files": [
+    {
+      "path": "pack.json",
+      "size": 170,
+      "sha256": "c56fa39e894e868d619aa4defa8fe07270750fee530d647402e67cc1cd1db77d"
+    }
+  ]
+}

@@ -1,0 +1,682 @@
+import 'package:flutter/foundation.dart';
+
+import 'variant_draw.dart';
+
+/// Server bilan ishlashda yuz beradigan xato turlari — UI shu bo'yicha
+/// tushunarli xabar tanlaydi.
+enum BackendFailure {
+  /// Server sozlanmagan (bu buildda backend ulanmagan).
+  unavailable,
+
+  /// Internet yo'q yoki server javob bermadi.
+  network,
+
+  /// Kirilmagan yoki sessiya tugagan.
+  unauthorized,
+
+  /// Ruxsat yo'q (masalan, admin emas yoki 2FA tasdiqlanmagan).
+  forbidden,
+
+  /// Spamga qarshi cheklov.
+  rateLimited,
+
+  /// Kiritilgan ma'lumot qabul qilinmadi (juda qisqa, noto'g'ri kod...).
+  invalid,
+
+  notFound,
+  unknown,
+}
+
+class BackendException implements Exception {
+  const BackendException(this.failure, [this.detail, this.code]);
+
+  final BackendFailure failure;
+
+  /// Faqat log uchun.
+  final String? detail;
+
+  /// Server xato kodi (masalan, `nickname_taken`) — aniq matn ko'rsatish
+  /// uchun; bo'lmasa null.
+  final String? code;
+
+  @override
+  String toString() => 'BackendException(${failure.name}: $detail)';
+}
+
+/// Server bergan vakolatlar (faqat ko'rinish uchun — har amal serverda
+/// qayta tekshiriladi).
+@immutable
+class AccessInfo {
+  const AccessInfo({
+    required this.adminAccount,
+    required this.aal2,
+    this.teacher = false,
+    this.superAdmin = false,
+    this.panelAdmin = false,
+  });
+
+  factory AccessInfo.fromJson(Map<String, Object?> json) => AccessInfo(
+    adminAccount: json['admin_account'] == true,
+    aal2: json['aal'] == 'aal2',
+    teacher: json['teacher'] == true,
+    superAdmin: json['super_admin'] == true,
+    panelAdmin: json['panel_admin'] == true,
+  );
+
+  static const none = AccessInfo(adminAccount: false, aal2: false);
+
+  final bool adminAccount;
+  final bool aal2;
+
+  /// O'zini ustoz sifatida ro'yxatdan o'tkazgan (faqat o'z guruhlarini
+  /// ochadi; admin vakolati emas).
+  final bool teacher;
+
+  /// Egasi (serverdagi maxfiy ro'yxat, D-44): faqat u adminlarni qo'shadi
+  /// va olib tashlaydi. Faqat ko'rinish — server har amalda tekshiradi.
+  final bool superAdmin;
+
+  /// Egasi admin paneli (Cloudflare): email kodi bilan kirgan va emaili
+  /// maxfiy `ADMIN_EMAILS` da — TOTP talab qilinmaydi (egasi qarori). Faqat
+  /// ko'rinish: server har so'rovda qayta tekshiradi.
+  final bool panelAdmin;
+
+  /// Admin panelni ochish mumkin (hisob + ikki bosqichli tasdiq).
+  bool get admin => adminAccount && aal2;
+}
+
+enum SupportKind { suggestion, bug, question }
+
+enum SupportStatus { newThread, inReview, answered, closed }
+
+SupportStatus supportStatusFromWire(String raw) => switch (raw) {
+  'new' => SupportStatus.newThread,
+  'in_review' => SupportStatus.inReview,
+  'answered' => SupportStatus.answered,
+  'closed' => SupportStatus.closed,
+  _ => throw FormatException('unknown status $raw'),
+};
+
+String supportStatusToWire(SupportStatus s) => switch (s) {
+  SupportStatus.newThread => 'new',
+  SupportStatus.inReview => 'in_review',
+  SupportStatus.answered => 'answered',
+  SupportStatus.closed => 'closed',
+};
+
+@immutable
+class SupportThread {
+  const SupportThread({
+    required this.id,
+    required this.userId,
+    required this.kind,
+    required this.subject,
+    required this.status,
+    required this.createdAt,
+    required this.updatedAt,
+    required this.lastUserMessageAt,
+    required this.lastAdminMessageAt,
+    required this.userReadAt,
+    required this.adminReadAt,
+  });
+
+  factory SupportThread.fromJson(Map<String, Object?> j) => SupportThread(
+    id: j['id']! as String,
+    userId: j['user_id']! as String,
+    kind: SupportKind.values.byName(j['kind']! as String),
+    subject: j['subject']! as String,
+    status: supportStatusFromWire(j['status']! as String),
+    createdAt: DateTime.parse(j['created_at']! as String),
+    updatedAt: DateTime.parse(j['updated_at']! as String),
+    lastUserMessageAt: DateTime.parse(j['last_user_message_at']! as String),
+    lastAdminMessageAt: _date(j['last_admin_message_at']),
+    userReadAt: DateTime.parse(j['user_read_at']! as String),
+    adminReadAt: _date(j['admin_read_at']),
+  );
+
+  final String id;
+  final String userId;
+  final SupportKind kind;
+  final String subject;
+  final SupportStatus status;
+  final DateTime createdAt;
+  final DateTime updatedAt;
+  final DateTime lastUserMessageAt;
+  final DateTime? lastAdminMessageAt;
+  final DateTime userReadAt;
+  final DateTime? adminReadAt;
+
+  /// Foydalanuvchi hali ko'rmagan admin javobi bor.
+  bool get unreadForUser =>
+      lastAdminMessageAt != null && lastAdminMessageAt!.isAfter(userReadAt);
+
+  /// Admin hali o'qimagan foydalanuvchi xabari bor.
+  bool get unreadForAdmin =>
+      adminReadAt == null || lastUserMessageAt.isAfter(adminReadAt!);
+}
+
+@immutable
+class SupportMessage {
+  const SupportMessage({
+    required this.id,
+    required this.threadId,
+    required this.fromAdmin,
+    required this.body,
+    required this.attachmentPath,
+    required this.createdAt,
+  });
+
+  factory SupportMessage.fromJson(Map<String, Object?> j) => SupportMessage(
+    id: j['id']! as String,
+    threadId: j['thread_id']! as String,
+    fromAdmin: j['from_admin'] == true,
+    body: j['body']! as String,
+    attachmentPath: j['attachment_path'] as String?,
+    createdAt: DateTime.parse(j['created_at']! as String),
+  );
+
+  final String id;
+  final String threadId;
+  final bool fromAdmin;
+  final String body;
+  final String? attachmentPath;
+  final DateTime createdAt;
+}
+
+/// Murojaatga biriktiriladigan rasm (yuborishdan oldin tekshiriladi).
+@immutable
+class SupportAttachment {
+  const SupportAttachment({required this.bytes, required this.mimeType});
+
+  /// Server bucket chegarasi bilan bir xil.
+  static const maxBytes = 5 * 1024 * 1024;
+  static const allowedTypes = {'image/png', 'image/jpeg'};
+
+  final Uint8List bytes;
+  final String mimeType;
+
+  String get extension => mimeType == 'image/png' ? 'png' : 'jpg';
+}
+
+@immutable
+class AdminStats {
+  const AdminStats(this.json);
+
+  final Map<String, Object?> json;
+
+  int _int(String k) => (json[k] as num?)?.toInt() ?? 0;
+
+  int get registered => _int('registered');
+  int get newToday => _int('new_today');
+  int get new7d => _int('new_7d');
+  int get new30d => _int('new_30d');
+  int get activeToday => _int('active_today');
+  int get active7d => _int('active_7d');
+  int get active30d => _int('active_30d');
+  int get withoutProfile => _int('without_profile');
+
+  Map<String, int> _map(String k) => {
+    for (final e in ((json[k] as Map?) ?? const {}).entries)
+      e.key as String: (e.value as num).toInt(),
+  };
+
+  Map<String, int> get byRole => _map('by_role');
+  Map<String, int> get byLanguage => _map('by_language');
+  Map<String, int> get support => _map('support');
+}
+
+@immutable
+class AdminUserRow {
+  const AdminUserRow({
+    required this.userId,
+    required this.emailMasked,
+    required this.role,
+    required this.language,
+    required this.registeredOn,
+    required this.lastSeenOn,
+  });
+
+  factory AdminUserRow.fromJson(Map<String, Object?> j) => AdminUserRow(
+    userId: j['user_id']! as String,
+    emailMasked: (j['email_masked'] as String?) ?? '—',
+    role: j['role'] as String?,
+    language: j['language'] as String?,
+    registeredOn: DateTime.parse(j['registered_on']! as String),
+    lastSeenOn: _date(j['last_seen_on']),
+  );
+
+  final String userId;
+  final String emailMasked;
+  final String? role;
+  final String? language;
+  final DateTime registeredOn;
+  final DateTime? lastSeenOn;
+}
+
+@immutable
+class AdminUserPage {
+  const AdminUserPage(this.rows, this.total);
+
+  final List<AdminUserRow> rows;
+  final int total;
+}
+
+@immutable
+class AuditEntry {
+  const AuditEntry({
+    required this.at,
+    required this.action,
+    required this.target,
+    required this.details,
+    this.actorMasked,
+  });
+
+  factory AuditEntry.fromJson(Map<String, Object?> j) => AuditEntry(
+    at: DateTime.parse(j['at']! as String),
+    action: j['action']! as String,
+    target: j['target'] as String?,
+    details: ((j['details'] as Map?) ?? const {}).cast<String, Object?>(),
+    actorMasked: j['actor_masked'] as String?,
+  );
+
+  final DateTime at;
+  final String action;
+  final String? target;
+  final Map<String, Object?> details;
+
+  /// Bajaruvchi (niqoblangan email; tizim amali — `null`). Faqat Cloudflare.
+  final String? actorMasked;
+}
+
+@immutable
+class TotpEnrollment {
+  const TotpEnrollment({
+    required this.factorId,
+    required this.secret,
+    required this.uri,
+  });
+
+  final String factorId;
+  final String secret;
+  final String uri;
+}
+
+/// Admin ikki bosqichli himoyasi holati.
+@immutable
+class MfaStatus {
+  const MfaStatus({required this.verifiedFactorId, required this.aal2});
+
+  /// Tasdiqlangan TOTP faktori (yo'q bo'lsa — ro'yxatdan o'tkazish kerak).
+  final String? verifiedFactorId;
+  final bool aal2;
+}
+
+@immutable
+class StudyGroup {
+  const StudyGroup({
+    required this.id,
+    required this.name,
+    required this.joinCode,
+    required this.isTeacher,
+    required this.memberCount,
+    this.myNickname,
+  });
+
+  final String id;
+  final String name;
+
+  /// Faqat ustozga ko'rsatiladi.
+  final String? joinCode;
+  final bool isTeacher;
+  final int memberCount;
+
+  /// Shu guruhdagi o'z taxallusim (yo'q — null): yangi guruhga qo'shilishda
+  /// taxallus maydonini oldindan to'ldirish uchun.
+  final String? myNickname;
+}
+
+@immutable
+class GroupAssignment {
+  const GroupAssignment({
+    required this.id,
+    required this.groupId,
+    required this.title,
+    required this.questionIds,
+    required this.dueAt,
+    required this.timeLimitMinutes,
+    required this.createdAt,
+    this.topicId,
+    this.deckId,
+    this.revealAfterDue = false,
+    this.closed = false,
+    this.perStudent,
+    this.poolTopics,
+  });
+
+  factory GroupAssignment.fromJson(Map<String, Object?> j) => GroupAssignment(
+    id: j['id']! as String,
+    groupId: j['group_id']! as String,
+    title: j['title']! as String,
+    questionIds: (j['question_ids']! as List).cast<String>(),
+    dueAt: _date(j['due_at']),
+    timeLimitMinutes: (j['time_limit_minutes'] as num?)?.toInt(),
+    createdAt: DateTime.parse(j['created_at']! as String),
+    topicId: j['topic_id'] as String?,
+    deckId: j['deck_id'] as String?,
+    revealAfterDue: j['reveal'] == 'after_due',
+    closed: j['status'] == 'closed',
+    perStudent: (j['per_student'] as num?)?.toInt(),
+    poolTopics: (j['pool_topics'] as List?)?.cast<String?>(),
+  );
+
+  /// Variantli test (D-66): har talabaga hovuzdan shuncha savol; null —
+  /// oddiy test (hammaga [questionIds] to'liq).
+  final int? perStudent;
+
+  /// Variantli testda hovuz savollarining mavzu id lari ([questionIds] bilan
+  /// parallel; null — bitta qatlam).
+  final List<String?>? poolTopics;
+
+  bool get isVariant => perStudent != null;
+
+  /// Bitta talabaga tushadigan savollar soni.
+  int get questionCount => perStudent ?? questionIds.length;
+
+  /// [userId] talabaga tushgan savollar (server bilan bir xil tanlov).
+  List<String> questionIdsFor(String? userId) {
+    final n = perStudent;
+    if (n == null || userId == null) return questionIds;
+    return drawVariant(
+      assignmentId: id,
+      userId: userId,
+      pool: questionIds,
+      poolTopics: poolTopics,
+      count: n,
+    );
+  }
+
+  /// Topshirilgan javoblar qaysi savollarga ([GroupSubmission.answers]
+  /// tartibida).
+  List<String> questionIdsOf(GroupSubmission s) =>
+      s.questionIds ?? questionIdsFor(s.userId);
+
+  final String id;
+  final String groupId;
+  final String title;
+
+  /// O'quv dasturi mavzusi testi bo'lsa — mavzu id si.
+  final String? topicId;
+
+  /// Taqdimotdan topshirilgan mavzu testi — deck id si (natijada “slaydni
+  /// ko'rish” havolasi uchun).
+  final String? deckId;
+
+  /// To'g'ri javoblar talabaga muddat tugagach (yoki ustoz yakunlagach)
+  /// ko'rsatiladi; aks holda — topshirilgandan keyin darhol.
+  final bool revealAfterDue;
+
+  /// Ustoz testni yakunlagan (yangi urinish yo'q).
+  final bool closed;
+
+  /// Talabaga to'g'ri javoblar ochiqmi ([now] — server bilan taqqoslanadigan
+  /// qurilma vaqti).
+  bool answersOpen(DateTime now) {
+    if (!revealAfterDue || closed) return true;
+    final due = dueAt;
+    return due != null && !now.isBefore(due);
+  }
+
+  final List<String> questionIds;
+  final DateTime? dueAt;
+  final int? timeLimitMinutes;
+  final DateTime createdAt;
+}
+
+@immutable
+/// Katta ekran: talaba testni boshlagan vaqt (javoblar topshirilguncha
+/// serverda yo'q).
+@immutable
+class AssignmentAttempt {
+  const AssignmentAttempt({required this.userId, required this.startedAt});
+
+  factory AssignmentAttempt.fromJson(Map<String, Object?> j) =>
+      AssignmentAttempt(
+        userId: j['user_id']! as String,
+        startedAt: DateTime.parse(j['started_at']! as String),
+      );
+
+  final String userId;
+  final DateTime startedAt;
+}
+
+@immutable
+class GroupSubmission {
+  const GroupSubmission({
+    required this.assignmentId,
+    required this.userId,
+    required this.score,
+    required this.total,
+    required this.submittedAt,
+    this.answers = const [],
+    this.correct,
+    this.questionIds,
+  });
+
+  factory GroupSubmission.fromJson(Map<String, Object?> j) => GroupSubmission(
+    assignmentId: j['assignment_id']! as String,
+    userId: j['user_id']! as String,
+    score: (j['score']! as num).toInt(),
+    total: (j['total']! as num).toInt(),
+    submittedAt: DateTime.parse(j['submitted_at']! as String),
+    answers: [
+      for (final a in (j['answers'] as List? ?? const []))
+        (a as num?)?.toInt() ?? -1,
+    ],
+    correct: (j['correct'] as List?)?.map((c) => c == true).toList(),
+    questionIds: (j['question_ids'] as List?)?.cast<String>(),
+  );
+
+  /// Variantli testda talabaga tushgan savollar ([answers] shu tartibda);
+  /// oddiy testda null — topshiriq tartibi.
+  final List<String>? questionIds;
+
+  final String assignmentId;
+  final String userId;
+  final int score;
+  final int total;
+  final DateTime submittedAt;
+
+  /// Talaba javoblari topshiriq tartibida (javobsiz — -1).
+  final List<int> answers;
+
+  /// Har savol bo'yicha server hisoblagan natija (eski yozuvlarda yo'q).
+  final List<bool>? correct;
+
+  int get percent => total == 0 ? 0 : (score * 100 / total).round();
+}
+
+/// Savol bo'yicha yig'ma: [index] — topshiriq (hovuz) tartibi; [received] —
+/// savol tushgan (topshirgan) talabalar; [wrong] — ulardan xato qilganlar.
+@immutable
+class QuestionTally {
+  const QuestionTally({
+    required this.index,
+    required this.questionId,
+    required this.received,
+    required this.wrong,
+  });
+
+  final int index;
+  final String questionId;
+  final int received;
+  final int wrong;
+
+  /// To'g'ri javob ulushi (savol hech kimga tushmagan — 1).
+  double get rate => received == 0 ? 1 : 1 - wrong / received;
+}
+
+/// Har savol bo'yicha natija — faqat shu savol tushgan talabalar orasida
+/// (variantli testda har talaba o'z to'plamini oladi, D-66). [key] —
+/// ustozdagi kalit (hovuz tartibida); server `correct` bermagan eski
+/// yozuvlarda shu bilan solishtiriladi.
+List<QuestionTally> tallyQuestions(
+  GroupAssignment a,
+  Iterable<GroupSubmission> subs,
+  List<int>? key,
+) {
+  final at = {for (final (i, q) in a.questionIds.indexed) q: i};
+  final got = List.filled(a.questionIds.length, 0);
+  final wrong = List.filled(a.questionIds.length, 0);
+  for (final s in subs) {
+    final ids = a.questionIdsOf(s);
+    for (var j = 0; j < ids.length; j++) {
+      final i = at[ids[j]];
+      if (i == null) continue;
+      got[i]++;
+      final c = s.correct;
+      final right = c != null && j < c.length
+          ? c[j]
+          : key != null &&
+                i < key.length &&
+                j < s.answers.length &&
+                s.answers[j] == key[i];
+      if (!right) wrong[i]++;
+    }
+  }
+  return [
+    for (var i = 0; i < a.questionIds.length; i++)
+      QuestionTally(
+        index: i,
+        questionId: a.questionIds[i],
+        received: got[i],
+        wrong: wrong[i],
+      ),
+  ];
+}
+
+/// Eng qiyin savollar: xato ulushi bo'yicha (teng — xatolar soni, keyin
+/// tartib); xatosiz savollar kirmaydi.
+List<QuestionTally> hardestTallies(List<QuestionTally> t) =>
+    [
+      for (final x in t)
+        if (x.wrong > 0) x,
+    ]..sort((x, y) {
+      final r = x.rate.compareTo(y.rate);
+      if (r != 0) return r;
+      if (x.wrong != y.wrong) return y.wrong.compareTo(x.wrong);
+      return x.index.compareTo(y.index);
+    });
+
+/// Guruh a'zosi. Ism-familiya serverda saqlanmaydi: ko'rinadigan nom —
+/// talaba o'zi tanlagan taxallus ([alias], ixtiyoriy) yoki guruhdagi tartib
+/// raqami ([seatNo], “Talaba 07”). Email ko'rsatilmaydi.
+@immutable
+class GroupMember {
+  const GroupMember({
+    required this.userId,
+    required this.isTeacher,
+    required this.joinedAt,
+    this.alias,
+    this.seatNo,
+  });
+
+  factory GroupMember.fromJson(Map<String, Object?> j) => GroupMember(
+    userId: j['user_id']! as String,
+    alias: switch (j['display_name']) {
+      final String s when s.trim().isNotEmpty => s.trim(),
+      _ => null,
+    },
+    seatNo: (j['seat_no'] as num?)?.toInt(),
+    isTeacher: j['member_role'] == 'teacher',
+    joinedAt: DateTime.parse(j['joined_at']! as String),
+  );
+
+  final String userId;
+  final String? alias;
+
+  /// Talabaning guruhdagi tartib raqami (ustozda — null).
+  final int? seatNo;
+  final bool isTeacher;
+  final DateTime joinedAt;
+}
+
+/// Mavzu dars bosqichi: ma'ruza va og'zaki savol-javob (test — alohida).
+enum TopicStage {
+  lecture('lecture'),
+  oral('oral');
+
+  const TopicStage(this.wire);
+  final String wire;
+}
+
+/// Guruhga ochilgan o'quv dasturi mavzusi va dars holati.
+@immutable
+class GroupTopic {
+  const GroupTopic({
+    required this.groupId,
+    required this.topicId,
+    required this.openedAt,
+    this.lectureDoneAt,
+    this.oralDoneAt,
+    this.testAssignmentId,
+  });
+
+  factory GroupTopic.fromJson(Map<String, Object?> j) => GroupTopic(
+    groupId: j['group_id']! as String,
+    topicId: j['topic_id']! as String,
+    openedAt: DateTime.parse(j['opened_at']! as String),
+    lectureDoneAt: _date(j['lecture_done_at']),
+    oralDoneAt: _date(j['oral_done_at']),
+    testAssignmentId: j['test_assignment_id'] as String?,
+  );
+
+  final String groupId;
+  final String topicId;
+  final DateTime openedAt;
+  final DateTime? lectureDoneAt;
+  final DateTime? oralDoneAt;
+
+  /// “Testni boshlash” bosilgan bo'lsa — topshiriq id si.
+  final String? testAssignmentId;
+
+  GroupTopic copyWith({
+    DateTime? lectureDoneAt,
+    DateTime? oralDoneAt,
+    String? testAssignmentId,
+  }) => GroupTopic(
+    groupId: groupId,
+    topicId: topicId,
+    openedAt: openedAt,
+    lectureDoneAt: lectureDoneAt ?? this.lectureDoneAt,
+    oralDoneAt: oralDoneAt ?? this.oralDoneAt,
+    testAssignmentId: testAssignmentId ?? this.testAssignmentId,
+  );
+}
+
+/// Topshiriq boshlangan vaqt (server soati) — vaqt chegarasi shundan.
+@immutable
+class AssignmentStart {
+  const AssignmentStart({
+    required this.startedAt,
+    required this.serverNow,
+    this.questionIds,
+  });
+
+  factory AssignmentStart.fromJson(Map<String, Object?> j) => AssignmentStart(
+    startedAt: DateTime.parse(j['started_at']! as String),
+    serverNow: DateTime.parse(j['server_now']! as String),
+    questionIds: (j['question_ids'] as List?)?.cast<String>(),
+  );
+
+  /// Variantli testda server hisoblagan shu talaba to'plami (ilova ham
+  /// aynan shuni hisoblaydi); oddiy testda null.
+  final List<String>? questionIds;
+
+  final DateTime startedAt;
+
+  /// Server hozirgi vaqti: qurilma soati farq qilsa ham taymer to'g'ri.
+  final DateTime serverNow;
+}
+
+DateTime? _date(Object? raw) =>
+    raw == null ? null : DateTime.parse(raw as String);

@@ -1,0 +1,1079 @@
+# NurseGuide CI: testlar, Android sinov APK, iOS build (Mac'siz) va TestFlight.
+#
+# Android sinov APK'lari debug kalit bilan imzolanadi — do'kon uchun emas
+# (ANDROID_* secretlari berilsa — release imzo va Google Play uchun AAB).
+#
+# Rejimlar (workflow_dispatch -> mode):
+#   build      — Linux'da analyze + test, macOS'da imzosiz iOS release build
+#                (loyiha iOS SDK bilan kompilyatsiya bo'lishini tekshiradi).
+#                main'ga har push va PR'da ham shu rejim ishlaydi.
+#   testflight — yuqoridagi + imzolangan IPA va TestFlight'ga YUKLASH,
+#                ichki (Internal) guruhlarga biriktirish va "What to Test".
+#                App Store review'ga YUBORILMAYDI, reliz QILINMAYDI.
+#   play_internal — testlar + release imzoli AAB va Google Play'ning
+#                `internal` trekiga yuklash (play_status: draft|completed).
+#                iOS job ishlamaydi. Production/yopiq trekka TEGMAYDI.
+#                Secret GOOGLE_PLAY_SERVICE_ACCOUNT_JSON yoki ANDROID_* imzo
+#                kaliti bo'lmasa — xatosiz, aniq xabar bilan o'tkaziladi.
+#                Play Console'da ilova bo'lmasa / birinchi AAB qo'lda
+#                yuklanmagan bo'lsa — yuklash ogohlantirish bilan o'tadi.
+#                Versiya kodi = run_number (har ishga tushishda oshadi).
+#   deploy_api — FAQAT server: Cloudflare Worker testlari, D1 migratsiyalari
+#                (`nurseguide-db`, id — secret CLOUDFLARE_D1_DATABASE_ID), Worker secretlari va `nurseguide-api` deploy.
+#                Ilova buildlari ishlamaydi. Hisobdagi boshqa Workerlarga
+#                tegilmaydi. CLOUDFLARE_API_TOKEN, CLOUDFLARE_ACCOUNT_ID,
+#                CLOUDFLARE_D1_DATABASE_ID, (RESEND_API_KEY yoki BREVO_API_KEY
+#                dan biri), LG_SERVER_SECRET bo'lmasa —
+#                xatosiz o'tkazib yuboriladi (docs/BACKEND_CLOUDFLARE.md).
+#
+# apple_setup=true (faqat testflight bilan): App Store Connect API orqali
+#   bundle ID ro'yxatdan o'tkaziladi (yo'q bo'lsa) va shu jamoa
+#   sertifikati bilan App Store profili yaratiladi (yo'q bo'lsa).
+#   App Store Connect'dagi ILOVA YOZUVINI API yaratib bera olmaydi —
+#   uni egasi qo'lda yaratadi (docs/IOS_TESTFLIGHT.md).
+#
+# Secretlar (Settings -> Secrets and variables -> Actions):
+#   ASC_KEY_ID, ASC_ISSUER_ID, ASC_KEY_P8_BASE64 — App Store Connect API kaliti
+#   (Admin). Shu yetarli: imzo Apple'ning bulutdagi Distribution sertifikati
+#   bilan, profilni Xcode o'zi yaratadi. Ixtiyoriy: IOS_CERTIFICATE_P12_BASE64
+#   va IOS_CERTIFICATE_PASSWORD (o'z .p12 sertifikati — qo'lda imzo),
+#   IOS_TEAM_ID (bo'lmasa bundle ID dan olinadi).
+name: NurseGuide CI
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "build — imzosiz tekshiruv; testflight — imzo + TestFlight'ga yuklash; play_internal — imzoli AAB + Google Play ichki test; deploy_api — Cloudflare server"
+        type: choice
+        options: [build, testflight, play_internal, deploy_api, play_listing]
+        default: build
+      play_status:
+        description: "play_internal uchun reliz holati: draft (yangi/qoralama ilova uchun shart) yoki completed"
+        type: choice
+        options: [draft, completed]
+        default: draft
+      apple_setup:
+        description: "testflight uchun: bundle ID va App Store profilini API orqali yaratish (yo'q bo'lsa)"
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+    paths-ignore: ['docs/**', '**.md']
+  pull_request:
+    branches: [main]
+    paths-ignore: ['docs/**', '**.md']
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: read
+
+env:
+  FLUTTER_VERSION: 3.47.6
+  MODE: ${{ inputs.mode || 'build' }}
+  APPLE_SETUP: ${{ inputs.apple_setup || false }}
+  # Cloudflare Worker API (sir emas; secret yoki repo variable). Ilova shu
+  # serverga ulanadi; berilmasa — workers.dev dagi standart manzil.
+  LG_API_URL: ${{ secrets.LG_API_URL || vars.LG_API_URL || 'https://nurseguide-api.davlatsudekspert.workers.dev' }}
+  # Google / Apple bilan kirish (D-56, docs/AUTH_SOCIAL_LOGIN.md). OAuth client
+  # ID lar sir emas (ochiq identifikator): repo variables. Bo'sh bo'lsa
+  # tegishli tugma ilovada ko'rinmaydi. LG_APPLE_SIGNIN=true FAQAT egasi
+  # Apple Developer'da App ID uchun "Sign in with Apple" imkoniyatini yoqqach
+  # qo'yiladi: shunda testflight rejimi entitlement'ni IPA'ga qo'shadi.
+  LG_GOOGLE_CLIENT_ID: ${{ vars.LG_GOOGLE_CLIENT_ID }}
+  LG_GOOGLE_IOS_CLIENT_ID: ${{ vars.LG_GOOGLE_IOS_CLIENT_ID }}
+  LG_APPLE_SERVICE_ID: ${{ vars.LG_APPLE_SERVICE_ID }}
+  LG_APPLE_SIGNIN: ${{ vars.LG_APPLE_SIGNIN || 'false' }}
+
+jobs:
+  tests:
+    if: inputs.mode != 'deploy_api' && inputs.mode != 'play_listing'
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v5
+      # Qorovul (guard) qatlamlari — docs/GUARDS.md, lokal: tool/run_guards.sh.
+      # Python qatlami tez va flutter'dan oldin: xato bo'lsa darhol.
+      - uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405 # v6.2.0
+        with:
+          python-version: "3.12"
+      - name: Python qorovullari (sayt va ixtiyoriy tool/ testlari)
+        run: |
+          set -euo pipefail
+          python .github/scripts/check_site.py
+          # tool/ dagi Python testlari — papka bo'lsagina (kontent vositalari).
+          for d in tool/slides tool/site tool/ai/tests; do
+            if [ -d "$d" ] && ls "$d"/test_*.py > /dev/null 2>&1; then
+              python -m unittest discover -s "$d" -p 'test_*.py'
+            fi
+          done
+          echo "- Python qorovullari (sayt): o'tdi" >> "$GITHUB_STEP_SUMMARY"
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      - name: Analyze va testlar
+        run: |
+          set -euo pipefail
+          flutter pub get --enforce-lockfile
+          flutter analyze
+          flutter test > "$RUNNER_TEMP/test.log" 2>&1 || {
+            grep -B4 -A40 -E "EXCEPTION CAUGHT|Expected:|\[E\]" "$RUNNER_TEMP/test.log" | head -200
+            tail -5 "$RUNNER_TEMP/test.log"; exit 1; }
+          tail -1 "$RUNNER_TEMP/test.log"
+          echo "- Linux testlar: $(tail -1 "$RUNNER_TEMP/test.log")" >> "$GITHUB_STEP_SUMMARY"
+
+  # Cloudflare Worker (cloudflare/): tiplar va vitest (workerd + lokal D1).
+  worker:
+    if: inputs.mode != 'play_listing'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    defaults:
+      run:
+        working-directory: cloudflare
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: cloudflare/package-lock.json
+      - name: Worker testlari
+        run: |
+          set -euo pipefail
+          npm ci --no-audit --no-fund
+          npm run typecheck
+          npm test 2>&1 | tee "$RUNNER_TEMP/worker.log" | tail -15
+          RESULT=$(sed 's/\x1b\[[0-9;]*m//g' "$RUNNER_TEMP/worker.log" | grep -E '^ +Tests ' | tail -1 | xargs)
+          echo "- Worker (Cloudflare) testlari: $RESULT" >> "$GITHUB_STEP_SUMMARY"
+
+  # play_listing: faqat do'kon sahifasi RASMLARI (ikonka, feature graphic,
+  # skrinshotlar) — docs/store dan. Matn, reliz va Production'ga tegmaydi.
+  # Service account'ga NurseGuide uchun "Ilova sahifasini boshqarish" ruxsati kerak.
+  play_listing:
+    if: inputs.mode == 'play_listing'
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - run: pip install --quiet google-api-python-client==2.151.0 google-auth==2.35.0
+      - name: Play do'kon sahifasi rasmlari
+        env:
+          GOOGLE_PLAY_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
+        run: |
+          if [ ! -f tool/store/play_listing_images.py ]; then
+            echo "::notice::tool/store/play_listing_images.py yo'q — play_listing o'tkazib yuborildi"; exit 0
+          fi
+          python3 tool/store/play_listing_images.py
+
+  # deploy_api: D1 migratsiyalari + deploy (faqat `nurseguide-api`) + Worker
+  # secretlari. Secret qiymatlari hech qayerga yozilmaydi va chiqarilmaydi:
+  # wrangler'ga faqat stdin orqali beriladi.
+  deploy_api:
+    needs: worker
+    if: inputs.mode == 'deploy_api'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    concurrency:
+      group: deploy-api
+      cancel-in-progress: false
+    defaults:
+      run:
+        working-directory: cloudflare
+    env:
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v5
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: cloudflare/package-lock.json
+      - name: Tayyorlik (secretlar bormi)
+        id: ready
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          LG_SERVER_SECRET: ${{ secrets.LG_SERVER_SECRET }}
+          CLOUDFLARE_D1_DATABASE_ID: ${{ secrets.CLOUDFLARE_D1_DATABASE_ID }}
+        run: |
+          missing=""
+          for v in CLOUDFLARE_API_TOKEN CLOUDFLARE_ACCOUNT_ID LG_SERVER_SECRET CLOUDFLARE_D1_DATABASE_ID; do
+            [ -n "${!v}" ] || missing="$missing $v"
+          done
+          if [ -z "$RESEND_API_KEY" ] && [ -z "$BREVO_API_KEY" ]; then
+            missing="$missing RESEND_API_KEY|BREVO_API_KEY"
+          fi
+          if [ -n "$missing" ]; then
+            echo "ready=false" >> "$GITHUB_OUTPUT"
+            echo "::notice::deploy_api o'tkazib yuborildi — secret yo'q:$missing"
+            {
+              echo "## Cloudflare API: deploy o'tkazib yuborildi"
+              echo "GitHub secretlari yo'q:$missing (docs/BACKEND_CLOUDFLARE.md, “Egasi uchun qadamlar”)."
+            } >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          if [ "${#LG_SERVER_SECRET}" -lt 32 ]; then
+            echo "::error::LG_SERVER_SECRET kamida 32 belgi bo'lsin (openssl rand -hex 32)"; exit 1
+          fi
+          if ! printf '%s' "$CLOUDFLARE_D1_DATABASE_ID" | grep -Eq '^[0-9a-fA-F]{8}(-[0-9a-fA-F]{4}){3}-[0-9a-fA-F]{12}$'; then
+            echo "::error::CLOUDFLARE_D1_DATABASE_ID UUID emas (wrangler d1 create nurseguide-db natijasidagi database_id)"; exit 1
+          fi
+          echo "ready=true" >> "$GITHUB_OUTPUT"
+      - name: D1 migratsiyalari (nurseguide-db)
+        if: steps.ready.outputs.ready == 'true'
+        env:
+          D1_ID: ${{ secrets.CLOUDFLARE_D1_DATABASE_ID }}
+        run: |
+          set -euo pipefail
+          npm ci --no-audit --no-fund
+          # wrangler.toml da faqat nol UUID; haqiqiy id secretdan (repoda saqlanmaydi).
+          sed -i -E "s/^database_id = \".*\"/database_id = \"$D1_ID\"/" wrangler.toml
+          npx wrangler d1 migrations apply nurseguide-db --remote
+      - name: Worker deploy (nurseguide-api)
+        if: steps.ready.outputs.ready == 'true'
+        env:
+          EMAIL_PROVIDER: ${{ vars.EMAIL_PROVIDER }}
+        run: |
+          set -euo pipefail
+          # EMAIL_PROVIDER: repo variable (resend | brevo); bo'sh bo'lsa wrangler.toml'dagi "resend".
+          VARS=()
+          if [ -n "$EMAIL_PROVIDER" ]; then VARS=(--var "EMAIL_PROVIDER:$EMAIL_PROVIDER"); fi
+          npx wrangler deploy "${VARS[@]}" 2>&1 | tee "$RUNNER_TEMP/deploy.log"
+          URL=$(grep -oE 'https://nurseguide-api\.[a-z0-9-]+\.workers\.dev' "$RUNNER_TEMP/deploy.log" | head -1 || true)
+          echo "API_URL=$URL" >> "$GITHUB_ENV"
+      - name: Worker secretlari
+        if: steps.ready.outputs.ready == 'true'
+        env:
+          RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+          BREVO_API_KEY: ${{ secrets.BREVO_API_KEY }}
+          LG_SENDER_EMAIL: ${{ secrets.LG_SENDER_EMAIL }}
+          LG_SERVER_SECRET: ${{ secrets.LG_SERVER_SECRET }}
+          # Admin panel egasi (docs/ADMIN_PANEL_GUIDE.md): ADMIN_EMAILS, eski nom —
+          # LG_ADMIN_EMAILS. Ikkalasi ham bo'lmasa server standart egasi emailini oladi.
+          ADMIN_EMAILS: ${{ secrets.ADMIN_EMAILS }}
+          LG_ADMIN_EMAILS: ${{ secrets.LG_ADMIN_EMAILS }}
+          # Google / Apple bilan kirish (D-56, docs/AUTH_SOCIAL_LOGIN.md).
+          # Ixtiyoriy: bo'lmasa tegishli endpoint `503 not_configured`, ilova
+          # tugmani ko'rsatmaydi.
+          GOOGLE_CLIENT_IDS: ${{ secrets.GOOGLE_CLIENT_IDS }}
+          APPLE_SIGNIN_TEAM_ID: ${{ secrets.APPLE_SIGNIN_TEAM_ID }}
+          APPLE_SIGNIN_KEY_ID: ${{ secrets.APPLE_SIGNIN_KEY_ID }}
+          APPLE_SIGNIN_PRIVATE_KEY: ${{ secrets.APPLE_SIGNIN_PRIVATE_KEY }}
+          APPLE_SIGNIN_CLIENT_ID: ${{ secrets.APPLE_SIGNIN_CLIENT_ID }}
+          APPLE_SIGNIN_SERVICE_ID: ${{ secrets.APPLE_SIGNIN_SERVICE_ID }}
+        run: |
+          set -euo pipefail
+          put() {
+            printf '%s' "${!1}" | npx wrangler secret put "$1" > /dev/null
+            echo "- secret $1: o'rnatildi" >> "$GITHUB_STEP_SUMMARY"
+          }
+          # Stdin orqali; qiymatlar argv/logga chiqmaydi. Bo'sh bo'lsa o'tkazib yuboriladi.
+          for k in RESEND_API_KEY BREVO_API_KEY LG_SENDER_EMAIL; do
+            if [ -n "${!k}" ]; then put "$k"; else echo "- secret $k: berilmagan" >> "$GITHUB_STEP_SUMMARY"; fi
+          done
+          put LG_SERVER_SECRET
+          for k in ADMIN_EMAILS LG_ADMIN_EMAILS; do
+            if [ -n "${!k}" ]; then put "$k"; else echo "- secret $k: berilmagan" >> "$GITHUB_STEP_SUMMARY"; fi
+          done
+          if [ -z "$ADMIN_EMAILS$LG_ADMIN_EMAILS" ]; then
+            echo "- admin emaili berilmagan: server standart egasi emailini ishlatadi (docs/ADMIN_PANEL_GUIDE.md)" >> "$GITHUB_STEP_SUMMARY"
+          fi
+          # Google bilan kirish: client ID lar ro'yxati.
+          if [ -n "$GOOGLE_CLIENT_IDS" ]; then
+            put GOOGLE_CLIENT_IDS
+          else
+            echo "- GOOGLE_CLIENT_IDS berilmagan: Google bilan kirish o'chiq" >> "$GITHUB_STEP_SUMMARY"
+          fi
+          # Apple bilan kirish: Developer kaliti uchala qiymat bilan birga ishlaydi
+          # (hisobni o'chirishda tokenni bekor qilish uchun shart). CLIENT_ID va
+          # SERVICE_ID ixtiyoriy.
+          asi=0
+          for k in APPLE_SIGNIN_TEAM_ID APPLE_SIGNIN_KEY_ID APPLE_SIGNIN_PRIVATE_KEY; do
+            if [ -n "${!k}" ]; then asi=$((asi + 1)); fi
+          done
+          if [ "$asi" -eq 3 ]; then
+            for k in APPLE_SIGNIN_TEAM_ID APPLE_SIGNIN_KEY_ID APPLE_SIGNIN_PRIVATE_KEY; do put "$k"; done
+            for k in APPLE_SIGNIN_CLIENT_ID APPLE_SIGNIN_SERVICE_ID; do
+              if [ -n "${!k}" ]; then put "$k"; else echo "- secret $k: berilmagan (ixtiyoriy)" >> "$GITHUB_STEP_SUMMARY"; fi
+            done
+          elif [ "$asi" -gt 0 ]; then
+            echo "::warning::APPLE_SIGNIN_* secretlaridan faqat $asi tasi berilgan — Apple bilan kirish o'chiq qoladi"
+            echo "- APPLE_SIGNIN_*: to'liq emas ($asi/3) — o'rnatilmadi" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "- APPLE_SIGNIN_*: berilmagan — Apple bilan kirish o'chiq" >> "$GITHUB_STEP_SUMMARY"
+          fi
+      - name: Tekshiruv (health)
+        if: steps.ready.outputs.ready == 'true'
+        run: |
+          set -euo pipefail
+          if [ -z "${API_URL:-}" ]; then
+            echo "::warning::Worker URL deploy chiqishida topilmadi (workers.dev subdomeni yoqilmaganmi?)"
+            exit 0
+          fi
+          sleep 5
+          curl -fsS --retry 3 "$API_URL/v1/health"
+          {
+            echo "## Cloudflare API deploy qilindi"
+            echo "- URL: $API_URL"
+            echo "- Ilovani ulash: repo variable \`LG_API_URL\` = shu URL (keyingi build'da)."
+          } >> "$GITHUB_STEP_SUMMARY"
+
+  android:
+    needs: tests
+    if: inputs.mode != 'deploy_api'
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-java@v5
+        with:
+          distribution: temurin
+          java-version: '17'
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+      # Ixtiyoriy: do'kon (upload) kaliti secretlarda bo'lsa — release imzo va
+      # Google Play uchun AAB. Bo'lmasa APK debug kalit bilan (faqat sinov).
+      # Reliz kaliti faqat qo'lda ishga tushirilganda (workflow_dispatch):
+      # oddiy push/PR buildlari va ularning artefaktlari debug kalit bilan.
+      - name: Android imzo kaliti (ixtiyoriy)
+        if: github.event_name == 'workflow_dispatch'
+        env:
+          KEYSTORE_BASE64: ${{ secrets.ANDROID_KEYSTORE_BASE64 }}
+          KEYSTORE_PASSWORD: ${{ secrets.ANDROID_KEYSTORE_PASSWORD }}
+          KEY_ALIAS: ${{ secrets.ANDROID_KEY_ALIAS }}
+          KEY_PASSWORD: ${{ secrets.ANDROID_KEY_PASSWORD }}
+        run: |
+          set -euo pipefail
+          if [ -z "$KEYSTORE_BASE64" ]; then
+            echo "ANDROID_SIGNED=false" >> "$GITHUB_ENV"; exit 0
+          fi
+          for v in KEYSTORE_PASSWORD KEY_ALIAS KEY_PASSWORD; do
+            [ -n "${!v}" ] || { echo "::error::ANDROID_$v secret yo'q"; exit 1; }
+          done
+          umask 077
+          printf '%s' "$KEYSTORE_BASE64" | base64 --decode > "$RUNNER_TEMP/upload.jks"
+          {
+            echo "storeFile=$RUNNER_TEMP/upload.jks"
+            echo "storePassword=$KEYSTORE_PASSWORD"
+            echo "keyAlias=$KEY_ALIAS"
+            echo "keyPassword=$KEY_PASSWORD"
+          } > android/key.properties
+          echo "ANDROID_SIGNED=true" >> "$GITHUB_ENV"
+      - name: Android release APK
+        run: |
+          set -euo pipefail
+          flutter pub get --enforce-lockfile
+          flutter build apk --release --split-per-abi \
+            --build-number="${{ github.run_number }}" \
+            --dart-define=LG_API_URL="$LG_API_URL" \
+            --dart-define=LG_GOOGLE_CLIENT_ID="$LG_GOOGLE_CLIENT_ID" --dart-define=LG_GOOGLE_IOS_CLIENT_ID="$LG_GOOGLE_IOS_CLIENT_ID" \
+            --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN"
+          if [ "${ANDROID_SIGNED:-false}" = true ]; then
+            flutter build appbundle --release --build-number="${{ github.run_number }}" \
+              --dart-define=LG_API_URL="$LG_API_URL" \
+              --dart-define=LG_GOOGLE_CLIENT_ID="$LG_GOOGLE_CLIENT_ID" --dart-define=LG_GOOGLE_IOS_CLIENT_ID="$LG_GOOGLE_IOS_CLIENT_ID" \
+              --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN"
+          fi
+          cd build/app/outputs/flutter-apk
+          VERSION=$(grep '^version:' "$GITHUB_WORKSPACE/pubspec.yaml" | sed 's/version: *//; s/+.*//')
+          for f in app-*-release.apk; do mv "$f" "NurseGuide-$VERSION-${f#app-}"; done
+          sha256sum NurseGuide-*.apk | tee SHA256SUMS.txt
+          {
+            if [ "${ANDROID_SIGNED:-false}" = true ]; then
+              echo "## Android: release imzoli APK va AAB (Google Play uchun)"
+            else
+              echo "## Android: sinov APK'lari (debug kalit bilan imzolangan)"
+            fi
+            ls -la NurseGuide-*.apk | awk '{print "- " $9 " — " $5 " bayt"}'
+            if [ "${ANDROID_SIGNED:-false}" = true ]; then
+              echo "- AAB: \`app-release.aab\` · versionCode **${{ github.run_number }}** (artifact ichida)"
+            else
+              echo "- AAB yasalmadi: ANDROID_KEYSTORE_BASE64 va boshqa ANDROID_* secretlari yo'q"
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: nurseguide-android-${{ github.run_number }}
+          path: |
+            build/app/outputs/flutter-apk/NurseGuide-*.apk
+            build/app/outputs/flutter-apk/SHA256SUMS.txt
+            build/app/outputs/bundle/release/*.aab
+          if-no-files-found: warn
+          retention-days: 30
+
+      # ---------- GOOGLE PLAY: FAQAT ICHKI TEST ----------
+      - name: Google Play — tayyorlik
+        if: env.MODE == 'play_internal'
+        env:
+          PLAY_JSON: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
+        run: |
+          set -euo pipefail
+          WHY=""
+          [ "${ANDROID_SIGNED:-false}" = true ] || WHY="$WHY ANDROID_KEYSTORE_BASE64/ANDROID_KEYSTORE_PASSWORD/ANDROID_KEY_ALIAS/ANDROID_KEY_PASSWORD (release imzo);"
+          [ -n "$PLAY_JSON" ] || WHY="$WHY GOOGLE_PLAY_SERVICE_ACCOUNT_JSON (Play Console API);"
+          if [ -n "$WHY" ]; then
+            echo "PLAY_READY=false" >> "$GITHUB_ENV"
+            echo "::notice::Google Play'ga yuklash o'tkazib yuborildi — secret(lar) yo'q:$WHY"
+            {
+              echo "## Google Play: yuklash o'tkazib yuborildi"
+              echo "- Yetishmaydi:$WHY"
+              echo "- Egasi uchun ro'yxat: docs/store/APP_STORE.md (13-bo'lim)"
+            } >> "$GITHUB_STEP_SUMMARY"
+          else
+            test -f build/app/outputs/bundle/release/app-release.aab
+            echo "PLAY_READY=true" >> "$GITHUB_ENV"
+          fi
+
+      - name: Google Play — internal trekka yuklash
+        id: play
+        if: env.MODE == 'play_internal' && env.PLAY_READY == 'true'
+        continue-on-error: true
+        uses: r0adkll/upload-google-play@v1
+        with:
+          serviceAccountJsonPlainText: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
+          packageName: uz.nurseguide.app
+          releaseFiles: build/app/outputs/bundle/release/app-release.aab
+          tracks: internal
+          status: ${{ inputs.play_status || 'draft' }}
+          releaseName: "${{ github.run_number }} (draft kontent)"
+
+      - name: Google Play — natija
+        if: env.MODE == 'play_internal' && env.PLAY_READY == 'true'
+        run: |
+          if [ "${{ steps.play.outcome }}" = success ]; then
+            echo "## Google Play: internal trekka yuklandi · versionCode ${{ github.run_number }} · holat ${{ inputs.play_status || 'draft' }}" >> "$GITHUB_STEP_SUMMARY"
+          else
+            echo "::warning::Google Play'ga yuklab bo'lmadi. Ko'p sabab: Play Console'da uz.nurseguide.app ilovasi yo'q, birinchi AAB hali qo'lda yuklanmagan, service account'ga ilova ruxsati berilmagan yoki qoralama ilova uchun play_status=completed tanlangan. AAB artifact ichida — qo'lda yuklash mumkin."
+            {
+              echo "## Google Play: yuklash amalga oshmadi (build muvaffaqiyatli)"
+              echo "- AAB artifact \`nurseguide-android-${{ github.run_number }}\` ichida — Play Console -> Testing -> Internal testing -> Create new release orqali qo'lda yuklang"
+              echo "- Tekshiring: ilova yaratilganmi, birinchi AAB qo'lda yuklanganmi, service account ruxsatlari, play_status=draft"
+            } >> "$GITHUB_STEP_SUMMARY"
+          fi
+
+  ios:
+    needs: tests
+    if: inputs.mode != 'play_internal' && inputs.mode != 'deploy_api'
+    runs-on: macos-15
+    timeout-minutes: 75
+    defaults:
+      run:
+        shell: bash
+    steps:
+      - uses: actions/checkout@v5
+
+      # App Store Connect Xcode 26 / iOS 26 SDK bilan qurilgan buildni
+      # talab qiladi — eng yangi barqaror Xcode tanlanadi.
+      - name: Xcode tanlash
+        run: |
+          set -euo pipefail
+          XCODE=$(printf '%s\n' /Applications/Xcode_*.app | grep -vi beta | sort -V | tail -1)
+          sudo xcode-select -s "$XCODE/Contents/Developer"
+          # Bir marta o'qiladi: `xcodebuild -version | head` SIGPIPE bilan
+          # qulashi mumkin (pipefail, run #15).
+          XCODE_VERSION="$(xcodebuild -version)"
+          echo "$XCODE_VERSION"
+          XCODE_LINE="$(printf '%s\n' "$XCODE_VERSION" | sed -n 1p)"
+          MAJOR=$(printf '%s\n' "$XCODE_LINE" | awk '{print $2}' | cut -d. -f1)
+          [ "$MAJOR" -ge 26 ] || echo "::warning::Xcode $MAJOR — App Store Connect Xcode 26+ talab qilishi mumkin"
+          echo "- Xcode: $XCODE_LINE" >> "$GITHUB_STEP_SUMMARY"
+
+      - uses: subosito/flutter-action@v2
+        with:
+          flutter-version: ${{ env.FLUTTER_VERSION }}
+          channel: stable
+          cache: true
+
+      - name: Loyiha ma'lumotlari
+        run: |
+          set -euo pipefail
+          flutter pub get --enforce-lockfile
+          IDS=$(grep -o 'PRODUCT_BUNDLE_IDENTIFIER = [^;]*' ios/Runner.xcodeproj/project.pbxproj \
+            | sed 's/.*= //; s/"//g' | grep -v 'RunnerTests' | sort -u)
+          [ "$(echo "$IDS" | wc -l | tr -d ' ')" = 1 ] || { echo "::error::Runner bundle ID bitta emas: $IDS"; exit 1; }
+          NAME=$(/usr/libexec/PlistBuddy -c 'Print :CFBundleDisplayName' ios/Runner/Info.plist)
+          [ "$NAME" = "NurseGuide" ] || { echo "::error::Ilova nomi '$NAME'"; exit 1; }
+          VERSION=$(grep '^version:' pubspec.yaml | sed 's/version: *//; s/+.*//')
+          echo "IOS_BUNDLE_ID=$IDS" >> "$GITHUB_ENV"
+          echo "IOS_VERSION=$VERSION" >> "$GITHUB_ENV"
+          echo "IOS_BUILD_NUMBER=${{ github.run_number }}" >> "$GITHUB_ENV"
+          echo "- Ilova: **NurseGuide** \`$IDS\` v$VERSION · rejim: **$MODE**" >> "$GITHUB_STEP_SUMMARY"
+
+      # Google (iOS) OAuth qaytish sxemasi (reversed client ID) — repoda yo'q,
+      # faqat runner'dagi nusxaga yoziladi. Variable yo'q yoki formati noto'g'ri
+      # bo'lsa: Google iOS'da o'chiq (Dart tomoni ham tugmani ko'rsatmaydi).
+      - name: Google kirishi (iOS) sozlamasi
+        run: |
+          set -euo pipefail
+          if [ -z "${LG_GOOGLE_IOS_CLIENT_ID:-}" ]; then
+            echo "- Google (iOS): LG_GOOGLE_IOS_CLIENT_ID berilmagan — iOS'da Google tugmasi yo'q" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          if ! printf '%s' "$LG_GOOGLE_IOS_CLIENT_ID" | grep -Eq '^[0-9]+-[a-z0-9]+\.apps\.googleusercontent\.com$'; then
+            echo "::warning::LG_GOOGLE_IOS_CLIENT_ID formati noto'g'ri — Google (iOS) o'chiq"
+            echo "LG_GOOGLE_IOS_CLIENT_ID=" >> "$GITHUB_ENV"
+            exit 0
+          fi
+          REV="com.googleusercontent.apps.${LG_GOOGLE_IOS_CLIENT_ID%.apps.googleusercontent.com}"
+          PB=/usr/libexec/PlistBuddy
+          P=ios/Runner/Info.plist
+          # Info.plist'da allaqachon URL turlari bo'lishi mumkin (guruhga qo'shilish
+          # sxemasi "nurseguide") — massiv yo'q bo'lsagina yaratiladi, Google sxemasi
+          # oxiriga yangi element sifatida qo'shiladi.
+          $PB -c 'Print :CFBundleURLTypes' "$P" >/dev/null 2>&1 || $PB -c 'Add :CFBundleURLTypes array' "$P"
+          N=$($PB -c 'Print :CFBundleURLTypes' "$P" | grep -c '^    Dict {' || true)
+          $PB -c "Add :CFBundleURLTypes:$N dict" "$P"
+          $PB -c "Add :CFBundleURLTypes:$N:CFBundleURLSchemes array" "$P"
+          $PB -c "Add :CFBundleURLTypes:$N:CFBundleURLSchemes:0 string $REV" "$P"
+          $PB -c 'Print :CFBundleURLTypes' "$P" | grep -q "$REV"
+          $PB -c 'Print :CFBundleURLTypes' "$P" | grep -q 'nurseguide'
+          echo "- Google (iOS): URL sxemasi qo'shildi" >> "$GITHUB_STEP_SUMMARY"
+
+      # ---------- IMZOSIZ TEKSHIRUV ----------
+      - name: iOS release build (imzosiz)
+        if: env.MODE == 'build'
+        run: |
+          set -euo pipefail
+          flutter build ios --release --no-codesign \
+            --build-name="$IOS_VERSION" --build-number="$IOS_BUILD_NUMBER" \
+            --dart-define=LG_API_URL="$LG_API_URL" \
+            --dart-define=LG_GOOGLE_CLIENT_ID="$LG_GOOGLE_CLIENT_ID" --dart-define=LG_GOOGLE_IOS_CLIENT_ID="$LG_GOOGLE_IOS_CLIENT_ID" \
+            --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN=false
+          APP=build/ios/iphoneos/Runner.app
+          PB=/usr/libexec/PlistBuddy
+          ID=$($PB -c 'Print :CFBundleIdentifier' "$APP/Info.plist")
+          MIN=$($PB -c 'Print :MinimumOSVersion' "$APP/Info.plist")
+          SDK=$($PB -c 'Print :DTSDKName' "$APP/Info.plist")
+          LOC=$($PB -c 'Print :CFBundleLocalizations' "$APP/Info.plist" | tr -d ' \n{}' | sed 's/Array//')
+          test -f "$APP/Frameworks/App.framework/App"
+          {
+            echo "## iOS: imzosiz release build muvaffaqiyatli"
+            echo "- \`$ID\` · MinimumOSVersion $MIN · SDK $SDK · tillar: $LOC"
+            echo "- Hajmi (Runner.app): $(du -sh "$APP" | cut -f1)"
+          } >> "$GITHUB_STEP_SUMMARY"
+
+      # ---------- TESTFLIGHT ----------
+      - name: Secretlar
+        if: env.MODE == 'testflight'
+        env:
+          CERTIFICATE_BASE64: ${{ secrets.IOS_CERTIFICATE_P12_BASE64 }}
+          CERTIFICATE_PASSWORD: ${{ secrets.IOS_CERTIFICATE_PASSWORD }}
+          API_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          API_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+          API_PRIVATE_KEY: ${{ secrets.ASC_KEY_P8_BASE64 }}
+          EXPECTED_TEAM: ${{ secrets.IOS_TEAM_ID }}
+        run: |
+          set -euo pipefail
+          MISSING=""
+          [ -n "$API_KEY_ID" ]           || MISSING="$MISSING ASC_KEY_ID"
+          [ -n "$API_ISSUER_ID" ]        || MISSING="$MISSING ASC_ISSUER_ID"
+          [ -n "$API_PRIVATE_KEY" ]      || MISSING="$MISSING ASC_KEY_P8_BASE64"
+          [ -z "$MISSING" ] || { echo "::error::Yetishmayotgan secret(lar):$MISSING"; exit 1; }
+
+          umask 077
+          W="$RUNNER_TEMP/lg-signing"; mkdir -p "$W"
+          echo "SIGN_DIR=$W" >> "$GITHUB_ENV"
+          if [ -z "$CERTIFICATE_BASE64" ]; then
+            # .p12 berilmagan: Apple'ning bulutdagi (cloud-managed) Distribution
+            # sertifikati bilan imzolanadi — maxfiy kalit Apple'da qoladi.
+            # API kaliti Admin huquqli bo'lishi kerak.
+            echo "SIGNING=cloud" >> "$GITHUB_ENV"
+            [ -z "$EXPECTED_TEAM" ] || echo "IOS_TEAM_ID=$EXPECTED_TEAM" >> "$GITHUB_ENV"
+            echo "- Imzo: Apple bulut sertifikati (IOS_CERTIFICATE_* secretlari yo'q)" >> "$GITHUB_STEP_SUMMARY"
+          else
+          [ -n "$CERTIFICATE_PASSWORD" ] || { echo "::error::IOS_CERTIFICATE_PASSWORD secret yo'q"; exit 1; }
+          echo "SIGNING=manual" >> "$GITHUB_ENV"
+          printf '%s' "$CERTIFICATE_BASE64" | base64 --decode > "$W/distribution.p12"
+          CERT_PEM=$( (openssl pkcs12 -in "$W/distribution.p12" -nokeys -clcerts -passin env:CERTIFICATE_PASSWORD 2>/dev/null \
+                     || openssl pkcs12 -legacy -in "$W/distribution.p12" -nokeys -clcerts -passin env:CERTIFICATE_PASSWORD) )
+          SERIAL=$(printf '%s' "$CERT_PEM" | openssl x509 -noout -serial | cut -d= -f2)
+          TEAM=$(printf '%s' "$CERT_PEM" | openssl x509 -noout -subject -nameopt multiline | awk -F' = ' '/organizationalUnitName/{print $2; exit}')
+          [ -n "$TEAM" ] || { echo "::error::Sertifikatdan Team ID o'qilmadi"; exit 1; }
+          if [ -n "${EXPECTED_TEAM:-}" ] && [ "$EXPECTED_TEAM" != "$TEAM" ]; then
+            echo "::error::Sertifikat jamoasi ($TEAM) IOS_TEAM_ID secret bilan mos emas"; exit 1
+          fi
+          echo "CERT_SERIAL=$SERIAL" >> "$GITHUB_ENV"
+          echo "IOS_TEAM_ID=$TEAM" >> "$GITHUB_ENV"
+          echo "Team: $TEAM"
+          fi
+
+          KEYDIR="$HOME/.appstoreconnect/private_keys"; mkdir -p "$KEYDIR"
+          KEYFILE="$KEYDIR/AuthKey_$API_KEY_ID.p8"
+          if printf '%s' "$API_PRIVATE_KEY" | grep -q 'BEGIN PRIVATE KEY'; then
+            printf '%s\n' "$API_PRIVATE_KEY" > "$KEYFILE"
+          else
+            BODY=$(printf '%s' "$API_PRIVATE_KEY" | tr -d ' \r\n')
+            if printf '%s' "$BODY" | base64 --decode | grep -aq 'BEGIN PRIVATE KEY'; then
+              printf '%s' "$BODY" | base64 --decode > "$KEYFILE"
+            else
+              { echo '-----BEGIN PRIVATE KEY-----'; printf '%s\n' "$BODY" | fold -w 64; echo '-----END PRIVATE KEY-----'; } > "$KEYFILE"
+            fi
+          fi
+          openssl pkey -in "$KEYFILE" -noout || { echo "::error::ASC_KEY_P8_BASE64 yaroqli .p8 emas"; exit 1; }
+          echo "ASC_KEY_FILE=$KEYFILE" >> "$GITHUB_ENV"
+
+          python3 -m venv "$W/venv"
+          "$W/venv/bin/pip" install --quiet pyjwt cryptography
+          echo "ASC_PY=$W/venv/bin/python" >> "$GITHUB_ENV"
+          cat > "$W/asc.py" <<'PY'
+          import base64, json, os, sys, time, urllib.error, urllib.parse, urllib.request
+          import jwt
+          PKEY = open(os.environ['ASC_KEY_FILE']).read()
+          BUNDLE = os.environ['IOS_BUNDLE_ID']
+          PROFILE_NAME = 'NurseGuide AppStore CI'
+          def token():
+              now = int(time.time())
+              return jwt.encode({'iss': os.environ['API_ISSUER_ID'], 'iat': now, 'exp': now + 1100,
+                                 'aud': 'appstoreconnect-v1'}, PKEY, algorithm='ES256',
+                                headers={'kid': os.environ['API_KEY_ID'], 'typ': 'JWT'})
+          def call(method, path, params=None, body=None, soft=False):
+              url = 'https://api.appstoreconnect.apple.com' + path
+              if params:
+                  url += '?' + urllib.parse.urlencode(params)
+              data = json.dumps(body).encode() if body is not None else None
+              req = urllib.request.Request(url, data=data, method=method, headers={
+                  'Authorization': 'Bearer ' + token(), 'Content-Type': 'application/json'})
+              try:
+                  with urllib.request.urlopen(req, timeout=60) as r:
+                      raw = r.read()
+                      return json.loads(raw) if raw else {}
+              except urllib.error.HTTPError as e:
+                  level = 'warning' if soft else 'error'
+                  print(f'::{level}::App Store Connect {method} {path} -> {e.code}: {e.read().decode()[:500]}')
+                  if soft:
+                      return None
+                  sys.exit(1)
+          def env_out(**kv):
+              with open(os.environ['GITHUB_ENV'], 'a') as f:
+                  for k, v in kv.items():
+                      f.write(f'{k}={v}\n')
+          def summary(line):
+              open(os.environ['GITHUB_STEP_SUMMARY'], 'a').write(line + '\n')
+          def bundle_ids():
+              return [b for b in call('GET', '/v1/bundleIds', {'filter[identifier]': BUNDLE, 'limit': 50})['data']
+                      if b['attributes']['identifier'] == BUNDLE]
+          def our_cert():
+              serial = os.environ['CERT_SERIAL'].upper().lstrip('0')
+              certs = call('GET', '/v1/certificates', {'limit': 200})['data']
+              m = [c for c in certs if c['attributes'].get('serialNumber', '').upper().lstrip('0') == serial]
+              if not m:
+                  print("::error::CI sertifikati App Store Connect ro'yxatida yo'q"); sys.exit(1)
+              return m[0]
+          def active_profiles(bid, cert_id):
+              out = []
+              for p in call('GET', f'/v1/bundleIds/{bid}/profiles', {'limit': 50})['data']:
+                  a = p['attributes']
+                  if a.get('profileState') != 'ACTIVE' or a.get('profileType') != 'IOS_APP_STORE':
+                      continue
+                  pc = call('GET', f"/v1/profiles/{p['id']}/certificates", {'limit': 50})['data']
+                  if any(c['id'] == cert_id for c in pc):
+                      out.append(p)
+              return out
+          cmd = sys.argv[1]
+          if cmd == 'setup':
+              ids = bundle_ids()
+              if ids:
+                  bid = ids[0]['id']
+                  summary(f'- Bundle ID `{BUNDLE}`: allaqachon bor')
+              else:
+                  bid = call('POST', '/v1/bundleIds', body={'data': {'type': 'bundleIds', 'attributes': {
+                      'identifier': BUNDLE, 'name': 'NurseGuide', 'platform': 'IOS'}}})['data']['id']
+                  summary(f'- Bundle ID `{BUNDLE}`: **ro\'yxatdan o\'tkazildi**')
+              if os.environ.get('SIGNING') == 'cloud':
+                  summary('- App Store profili: Xcode avtomatik yaratadi (bulut imzo)')
+                  sys.exit(0)
+              cert = our_cert()
+              if active_profiles(bid, cert['id']):
+                  summary('- App Store profili: allaqachon bor (ACTIVE)')
+              else:
+                  p = call('POST', '/v1/profiles', body={'data': {
+                      'type': 'profiles', 'attributes': {'name': PROFILE_NAME, 'profileType': 'IOS_APP_STORE'},
+                      'relationships': {'bundleId': {'data': {'type': 'bundleIds', 'id': bid}},
+                                        'certificates': {'data': [{'type': 'certificates', 'id': cert['id']}]}}}})['data']
+                  summary(f"- App Store profili **yaratildi**: {p['attributes']['name']}")
+          elif cmd == 'precheck':
+              apps = [a for a in call('GET', '/v1/apps', {'filter[bundleId]': BUNDLE})['data']
+                      if a['attributes']['bundleId'] == BUNDLE]
+              if not apps:
+                  # Diagnostika: kalit qaysi ilovalarni ko'radi (boshqa jamoa yoki
+                  # boshqa bundle ID bilan yaratilgan bo'lsa, shu yerda bilinadi).
+                  seen = call('GET', '/v1/apps', {'limit': 50, 'fields[apps]': 'name,bundleId'})['data']
+                  listing = '; '.join(f"{x['attributes']['name']} ({x['attributes']['bundleId']})" for x in seen) or "hech biri"
+                  summary(f"- API kaliti ko'radigan ilovalar: {listing}")
+                  print(f"API kaliti ko'radigan ilovalar: {listing}")
+                  print(f"::error::App Store Connect'da {BUNDLE} uchun ilova yozuvi yo'q (jamoa {os.environ.get('IOS_TEAM_ID', '?')}). "
+                        "App Store Connect -> Apps -> + -> New App, Bundle ID ro'yxatidan aynan shu ID ni tanlang "
+                        "(docs/IOS_TESTFLIGHT.md).")
+                  sys.exit(1)
+              app = apps[0]
+              if not os.environ.get('IOS_TEAM_ID'):
+                  ids = bundle_ids()
+                  seed = ids[0]['attributes'].get('seedId') if ids else None
+                  if not seed:
+                      print("::error::Jamoa ID aniqlanmadi: IOS_TEAM_ID secret qo'ying yoki apple_setup=true bilan ishga tushiring")
+                      sys.exit(1)
+                  env_out(IOS_TEAM_ID=seed)
+                  print(f'Jamoa (bundle ID dan): {seed}')
+              builds = call('GET', '/v1/builds', {'filter[app]': app['id'], 'limit': 200,
+                                                  'sort': '-uploadedDate', 'fields[builds]': 'version'})['data']
+              nums = sorted(int(b['attributes']['version']) for b in builds if b['attributes']['version'].isdigit())
+              nxt = max(nums + [0]) + 1
+              print(f"App: {app['attributes']['name']} ({app['id']}), oxirgi buildlar: {nums[-5:]}, yangi: {nxt}")
+              env_out(ASC_APP_ID=app['id'], IOS_BUILD_NUMBER=nxt)
+              summary(f"- App Store Connect ilovasi: **{app['attributes']['name']}** · build {nxt}")
+          elif cmd == 'profile':
+              ids = bundle_ids()
+              if not ids:
+                  print(f"::error::Bundle ID {BUNDLE} ro'yxatdan o'tmagan (apple_setup=true bilan ishga tushiring)"); sys.exit(1)
+              profs = active_profiles(ids[0]['id'], our_cert()['id'])
+              if not profs:
+                  print("::error::ACTIVE App Store profili yo'q (apple_setup=true bilan ishga tushiring)"); sys.exit(1)
+              profs.sort(key=lambda p: p['attributes'].get('expirationDate', ''), reverse=True)
+              a = profs[0]['attributes']
+              open(sys.argv[2], 'wb').write(base64.b64decode(a['profileContent']))
+              print(f"Profil: {a['name']} {a['uuid']} muddati {a['expirationDate'][:10]}")
+          elif cmd == 'status':
+              app, num, ver = os.environ['ASC_APP_ID'], os.environ['IOS_BUILD_NUMBER'], os.environ['IOS_VERSION']
+              deadline, state, build = time.time() + 1800, 'NOT_VISIBLE_YET', None
+              while time.time() < deadline:
+                  data = call('GET', '/v1/builds', {'filter[app]': app, 'filter[version]': num,
+                                                    'filter[preReleaseVersion.version]': ver})['data']
+                  if data:
+                      build = data[0]; state = build['attributes']['processingState']
+                      print('processingState:', state)
+                      if state != 'PROCESSING':
+                          break
+                  time.sleep(30)
+              summary(f'- TestFlight build {ver} ({num}): processingState **{state}**')
+              if state in ('INVALID', 'FAILED'):
+                  sys.exit(1)
+          elif cmd == 'beta':
+              # Faqat ICHKI test: eksport javobi, "What to Test", ichki guruhlarga
+              # biriktirish. Tashqi guruh / Beta App Review / reliz — YO'Q.
+              app, num, ver = os.environ['ASC_APP_ID'], os.environ['IOS_BUILD_NUMBER'], os.environ['IOS_VERSION']
+              data = call('GET', '/v1/builds', {'filter[app]': app, 'filter[version]': num,
+                                                'filter[preReleaseVersion.version]': ver})['data']
+              if not data:
+                  print('::warning::Build hali ko\'rinmayapti — guruhga biriktirish o\'tkazib yuborildi'); sys.exit(0)
+              build = data[0]; bid = build['id']
+              enc = build['attributes'].get('usesNonExemptEncryption')
+              if enc is None:
+                  r = call('PATCH', f'/v1/builds/{bid}', body={'data': {'type': 'builds', 'id': bid,
+                           'attributes': {'usesNonExemptEncryption': False}}}, soft=True)
+                  enc = False if r is not None else None
+              summary(f'- Eksport muvofiqligi (usesNonExemptEncryption): **{enc}**')
+              notes = {
+                  'en-US': ("Test build for internal testing. Content is an educational reference based on the cited "
+                            "sources - not a substitute for official orders or clinical judgement; do not use it for "
+                            "patient care decisions.\n"
+                            "Please check: open the app -> pick role and language -> study a topic and its source -> "
+                            "practice test -> exam simulator -> sign in with the e-mail code -> join a group with a code or "
+                            "QR. Switch language and theme. Send any error, crash or unclear text with a screenshot."),
+                  'ru': ("Тестовая сборка для внутреннего тестирования. Материалы — учебный справочник на основе "
+                         "указанных источников; не заменяют официальные приказы и клиническое суждение; не используйте их "
+                         "для решений по пациентам.\n"
+                         "Проверьте: открыть приложение -> выбрать роль и язык -> изучить тему и её источник -> "
+                         "тренировочный тест -> симулятор экзамена -> войти по коду из e-mail -> вступить в группу по коду "
+                         "или QR. Смените язык и тему. Ошибки, сбои и неточности присылайте со скриншотом."),
+              }
+              existing = {l['attributes']['locale']: l['id'] for l in
+                          (call('GET', f'/v1/builds/{bid}/betaBuildLocalizations', soft=True) or {'data': []})['data']}
+              for loc, text in notes.items():
+                  if loc in existing:
+                      call('PATCH', f'/v1/betaBuildLocalizations/{existing[loc]}', body={'data': {
+                          'type': 'betaBuildLocalizations', 'id': existing[loc], 'attributes': {'whatsNew': text}}}, soft=True)
+                  else:
+                      call('POST', '/v1/betaBuildLocalizations', body={'data': {
+                          'type': 'betaBuildLocalizations', 'attributes': {'locale': loc, 'whatsNew': text},
+                          'relationships': {'build': {'data': {'type': 'builds', 'id': bid}}}}}, soft=True)
+              groups = (call('GET', f'/v1/apps/{app}/betaGroups', {'limit': 50}, soft=True) or {'data': []})['data']
+              internal = [g for g in groups if g['attributes'].get('isInternalGroup')]
+              if not internal:
+                  summary('- Ichki test guruhi **yo\'q**: App Store Connect -> TestFlight -> Internal Testing -> "+" '
+                          '(guruh yarating, testerlarni qo\'shing, "Automatic distribution" yoqing)')
+                  print('::warning::Ichki (Internal) TestFlight guruhi topilmadi')
+              for g in internal:
+                  a = g['attributes']
+                  if a.get('hasAccessToAllBuilds'):
+                      summary(f"- Ichki guruh **{a['name']}**: barcha buildlar avtomatik (Automatic distribution)")
+                      continue
+                  r = call('POST', f"/v1/betaGroups/{g['id']}/relationships/builds",
+                           body={'data': [{'type': 'builds', 'id': bid}]}, soft=True)
+                  summary(f"- Ichki guruh **{a['name']}**: build {num} " + ("**biriktirildi**" if r is not None
+                          else "biriktirib bo'lmadi — App Store Connect'da qo'lda qo'shing"))
+              ext = [g['attributes']['name'] for g in groups if not g['attributes'].get('isInternalGroup')]
+              if ext:
+                  summary(f"- Tashqi guruhlar ({', '.join(ext)}): tegilmadi (Beta App Review talab qiladi)")
+              d = call('GET', f'/v1/builds/{bid}/buildBetaDetail', soft=True)
+              if d:
+                  summary(f"- Ichki test holati (internalBuildState): **{d['data']['attributes'].get('internalBuildState')}**")
+          PY
+          echo "ASC_SCRIPT=$W/asc.py" >> "$GITHUB_ENV"
+
+      - name: App Store Connect — sozlash (ixtiyoriy)
+        if: env.MODE == 'testflight' && env.APPLE_SETUP == 'true'
+        env:
+          API_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          API_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+        run: '"$ASC_PY" "$ASC_SCRIPT" setup'
+
+      - name: App Store Connect — tekshiruv va profil
+        if: env.MODE == 'testflight'
+        env:
+          API_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          API_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+        run: |
+          set -euo pipefail
+          "$ASC_PY" "$ASC_SCRIPT" precheck
+          if [ "$SIGNING" = manual ]; then
+            "$ASC_PY" "$ASC_SCRIPT" profile "$SIGN_DIR/profile.mobileprovision"
+          fi
+
+      - name: Keychain va profil o'rnatish
+        if: env.MODE == 'testflight' && env.SIGNING == 'manual'
+        env:
+          CERTIFICATE_PASSWORD: ${{ secrets.IOS_CERTIFICATE_PASSWORD }}
+        run: |
+          set -euo pipefail
+          umask 077
+          security cms -D -i "$SIGN_DIR/profile.mobileprovision" > "$SIGN_DIR/profile.plist"
+          PB=/usr/libexec/PlistBuddy
+          UUID=$($PB -c 'Print :UUID' "$SIGN_DIR/profile.plist")
+          PNAME=$($PB -c 'Print :Name' "$SIGN_DIR/profile.plist")
+          APPID=$($PB -c 'Print :Entitlements:application-identifier' "$SIGN_DIR/profile.plist")
+          [ "$APPID" = "$IOS_TEAM_ID.$IOS_BUNDLE_ID" ] || { echo "::error::Profil $APPID uchun"; exit 1; }
+          echo "IOS_PROFILE_UUID=$UUID" >> "$GITHUB_ENV"
+          echo "IOS_PROFILE_NAME=$PNAME" >> "$GITHUB_ENV"
+          KC="$SIGN_DIR/build.keychain-db"
+          KCP=$(openssl rand -hex 32); echo "::add-mask::$KCP"
+          security create-keychain -p "$KCP" "$KC"
+          security set-keychain-settings -lut 21600 "$KC"
+          security unlock-keychain -p "$KCP" "$KC"
+          security import "$SIGN_DIR/distribution.p12" -P "$CERTIFICATE_PASSWORD" -A -t cert -f pkcs12 -k "$KC"
+          security set-key-partition-list -S apple-tool:,apple:,codesign: -s -k "$KCP" "$KC" > /dev/null
+          security list-keychains -d user -s "$KC" "$HOME/Library/Keychains/login.keychain-db"
+          security find-identity -v -p codesigning "$KC" | grep -q 'Apple Distribution' \
+            || { echo "::error::Apple Distribution identity topilmadi"; exit 1; }
+          mkdir -p "$HOME/Library/MobileDevice/Provisioning Profiles"
+          cp "$SIGN_DIR/profile.mobileprovision" "$HOME/Library/MobileDevice/Provisioning Profiles/$UUID.mobileprovision"
+          rm -f "$SIGN_DIR/distribution.p12"
+
+      # "Sign in with Apple" entitlement (ios/Runner/Runner.entitlements) —
+      # OCHIQ YOZILGAN, TestFlight'ni buzmaslik uchun: faqat egasi App ID'da
+      # imkoniyatni yoqib, repo variable LG_APPLE_SIGNIN=true qo'ygandagina
+      # IPA'ga qo'shiladi (docs/AUTH_SOCIAL_LOGIN.md). Qo'lda imzoda profil
+      # imkoniyatni o'z ichiga olmagan bo'lsa — entitlement qo'shilmaydi,
+      # ogohlantirish chiqadi va ilovada Apple tugmasi yashirin qoladi.
+      - name: Sign in with Apple — entitlement qarori
+        if: env.MODE == 'testflight'
+        run: |
+          set -euo pipefail
+          if [ "$LG_APPLE_SIGNIN" != true ]; then
+            echo "LG_APPLE_SIGNIN=false" >> "$GITHUB_ENV"
+            echo "- Sign in with Apple: o'chiq (LG_APPLE_SIGNIN=true emas) — entitlement qo'shilmaydi" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          if [ "$SIGNING" = manual ] && ! grep -q 'com.apple.developer.applesignin' "$SIGN_DIR/profile.plist"; then
+            echo "::warning::App Store profilida Sign in with Apple yo'q — App ID'da imkoniyatni yoqing va profilni qayta yarating. Hozircha entitlement qo'shilmaydi."
+            echo "LG_APPLE_SIGNIN=false" >> "$GITHUB_ENV"
+            echo "- Sign in with Apple: profilda imkoniyat yo'q — o'chirildi (build buzilmadi)" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          echo "- Sign in with Apple: entitlement IPA'ga qo'shiladi" >> "$GITHUB_STEP_SUMMARY"
+
+      # Imzo sozlamasi faqat runner'dagi nusxada — commit qilinmaydi.
+      - name: Runner imzosini sozlash (vaqtinchalik)
+        if: env.MODE == 'testflight'
+        run: |
+          set -euo pipefail
+          ruby -rxcodeproj - <<'RUBY'
+          project = Xcodeproj::Project.open('ios/Runner.xcodeproj')
+          target = project.targets.find { |t| t.name == 'Runner' } or raise 'Runner target missing'
+          cloud = ENV.fetch('SIGNING') == 'cloud'
+          target.build_configurations.each do |c|
+            c.build_settings['DEVELOPMENT_TEAM'] = ENV.fetch('IOS_TEAM_ID')
+            if ENV['LG_APPLE_SIGNIN'] == 'true'
+              c.build_settings['CODE_SIGN_ENTITLEMENTS'] = 'Runner/Runner.entitlements'
+            end
+            if cloud
+              c.build_settings['CODE_SIGN_STYLE'] = 'Automatic'
+              c.build_settings.delete('PROVISIONING_PROFILE_SPECIFIER')
+            else
+              c.build_settings['CODE_SIGN_STYLE'] = 'Manual'
+              c.build_settings['CODE_SIGN_IDENTITY'] = 'Apple Distribution'
+              c.build_settings['CODE_SIGN_IDENTITY[sdk=iphoneos*]'] = 'Apple Distribution'
+              c.build_settings['PROVISIONING_PROFILE_SPECIFIER'] = ENV.fetch('IOS_PROFILE_NAME')
+            end
+          end
+          project.save
+          RUBY
+          python3 - <<'PY'
+          import os, plistlib
+          base = {'method': 'app-store-connect', 'teamID': os.environ['IOS_TEAM_ID'],
+                  'manageAppVersionAndBuildNumber': False, 'uploadSymbols': True}
+          if os.environ['SIGNING'] == 'cloud':
+              sign = {'signingStyle': 'automatic'}
+          else:
+              sign = {'signingStyle': 'manual', 'signingCertificate': 'Apple Distribution',
+                      'provisioningProfiles': {os.environ['IOS_BUNDLE_ID']: os.environ['IOS_PROFILE_NAME']}}
+          for name, dest in (('ExportOptions', 'export'), ('UploadOptions', 'upload')):
+              plistlib.dump({**base, **sign, 'destination': dest},
+                            open(f"{os.environ['SIGN_DIR']}/{name}.plist", 'wb'))
+          PY
+
+      - name: Imzolangan IPA
+        if: env.MODE == 'testflight'
+        env:
+          API_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          API_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+        run: |
+          set -euo pipefail
+          if [ "$SIGNING" = manual ]; then
+            flutter build ipa --release \
+              --build-name="$IOS_VERSION" --build-number="$IOS_BUILD_NUMBER" \
+              --dart-define=LG_API_URL="$LG_API_URL" \
+              --dart-define=LG_GOOGLE_CLIENT_ID="$LG_GOOGLE_CLIENT_ID" --dart-define=LG_GOOGLE_IOS_CLIENT_ID="$LG_GOOGLE_IOS_CLIENT_ID" \
+              --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN" \
+              --export-options-plist="$SIGN_DIR/ExportOptions.plist"
+          else
+            # Arxiv imzosiz; eksportda Xcode bulut sertifikati va avtomatik
+            # App Store profili bilan imzolaydi (-allowProvisioningUpdates).
+            flutter build ios --release --config-only \
+              --build-name="$IOS_VERSION" --build-number="$IOS_BUILD_NUMBER" \
+              --dart-define=LG_API_URL="$LG_API_URL" \
+              --dart-define=LG_GOOGLE_CLIENT_ID="$LG_GOOGLE_CLIENT_ID" --dart-define=LG_GOOGLE_IOS_CLIENT_ID="$LG_GOOGLE_IOS_CLIENT_ID" \
+              --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN"
+            xcodebuild -workspace ios/Runner.xcworkspace -scheme Runner \
+              -configuration Release -destination 'generic/platform=iOS' \
+              -archivePath build/ios/archive/Runner.xcarchive \
+              archive CODE_SIGNING_ALLOWED=NO
+            # Imzosiz arxivda CODE_SIGN_ENTITLEMENTS imzoga kirmaydi, eksport esa
+            # entitlement'larni arxivdagi ilova imzosidan oladi — natijada IPA'da
+            # Sign in with Apple yo'qolardi. Shuning uchun ilovani ad-hoc ("-")
+            # imzo bilan entitlement'lar bilan belgilaymiz; eksport uni bulut
+            # sertifikati va App Store profili bilan qayta imzolaydi.
+            if [ "$LG_APPLE_SIGNIN" = true ]; then
+              codesign --force --sign - \
+                --entitlements ios/Runner/Runner.entitlements \
+                build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app
+              codesign -d --entitlements :- \
+                build/ios/archive/Runner.xcarchive/Products/Applications/Runner.app 2>/dev/null \
+                | grep -q com.apple.developer.applesignin
+            fi
+            xcodebuild -exportArchive \
+              -archivePath build/ios/archive/Runner.xcarchive \
+              -exportOptionsPlist "$SIGN_DIR/ExportOptions.plist" \
+              -exportPath build/ios/ipa \
+              -allowProvisioningUpdates \
+              -authenticationKeyPath "$ASC_KEY_FILE" \
+              -authenticationKeyID "$API_KEY_ID" \
+              -authenticationKeyIssuerID "$API_ISSUER_ID"
+          fi
+          test "$(find build/ios/ipa -maxdepth 1 -name '*.ipa' | wc -l | tr -d ' ')" = 1
+          cp build/ios/ipa/*.ipa NurseGuide-iOS.ipa
+
+      - name: IPA tekshiruvi
+        if: env.MODE == 'testflight'
+        run: |
+          set -euo pipefail
+          D="$RUNNER_TEMP/ipa-check"; mkdir -p "$D"
+          unzip -q NurseGuide-iOS.ipa -d "$D"
+          APP="$D/Payload/Runner.app"
+          codesign --verify --deep --strict "$APP"
+          codesign -d --entitlements :- "$APP" > "$D/ent.plist" 2>/dev/null
+          python3 - "$D" <<'PY'
+          import os, plistlib, sys
+          d = sys.argv[1]
+          p = plistlib.load(open(d + '/Payload/Runner.app/Info.plist', 'rb'))
+          e = plistlib.load(open(d + '/ent.plist', 'rb'))
+          assert p['CFBundleIdentifier'] == os.environ['IOS_BUNDLE_ID']
+          assert p['CFBundleDisplayName'] == 'NurseGuide'
+          assert p['CFBundleShortVersionString'] == os.environ['IOS_VERSION']
+          assert p['CFBundleVersion'] == str(os.environ['IOS_BUILD_NUMBER'])
+          assert p.get('ITSAppUsesNonExemptEncryption') is False
+          assert int(p['DTSDKName'].removeprefix('iphoneos').split('.')[0]) >= 26, p['DTSDKName']
+          assert e['application-identifier'] == os.environ['IOS_TEAM_ID'] + '.' + os.environ['IOS_BUNDLE_ID']
+          assert not e.get('get-task-allow', True)
+          # Apple tugmasi (LG_APPLE_SIGNIN=true) faqat entitlement haqiqatan
+          # IPA'da bo'lsa: aks holda TestFlight'da o'lik tugma chiqardi.
+          if os.environ.get('LG_APPLE_SIGNIN') == 'true':
+              assert 'com.apple.developer.applesignin' in e, (
+                  "IPA'da Sign in with Apple entitlement yo'q — LG_APPLE_SIGNIN ni false qiling "
+                  "yoki App ID/profilni tekshiring (docs/AUTH_SOCIAL_LOGIN.md)")
+          msg = (f"IPA: {p['CFBundleIdentifier']} {p['CFBundleShortVersionString']} ({p['CFBundleVersion']}), "
+                 f"SDK {p['DTSDKName']}, min iOS {p['MinimumOSVersion']}")
+          print(msg); open(os.environ['GITHUB_STEP_SUMMARY'], 'a').write('- ' + msg + '\n')
+          PY
+
+      - uses: actions/upload-artifact@v4
+        if: env.MODE == 'testflight'
+        continue-on-error: true
+        with:
+          name: nurseguide-ios-${{ env.IOS_VERSION }}-${{ env.IOS_BUILD_NUMBER }}
+          path: NurseGuide-iOS.ipa
+          retention-days: 14
+
+      # Faqat TestFlight'ga topshirish. Review/reliz chaqiruvlari YO'Q.
+      - name: TestFlight'ga yuklash
+        if: env.MODE == 'testflight'
+        env:
+          API_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          API_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+        run: |
+          set -euo pipefail
+          # 1-yo'l: altool (API kalit bilan). Yangi Xcode'da ishlamasa yoki
+          # o'chirilgan bo'lsa — 2-yo'l: Apple'ning rasmiy
+          # `xcodebuild -exportArchive` (destination: upload), o'sha arxiv va imzo.
+          if xcrun altool --validate-app --type ios --file NurseGuide-iOS.ipa \
+                 --apiKey "$API_KEY_ID" --apiIssuer "$API_ISSUER_ID" \
+             && xcrun altool --upload-app --type ios --file NurseGuide-iOS.ipa \
+                 --apiKey "$API_KEY_ID" --apiIssuer "$API_ISSUER_ID"; then
+            echo "- Yuklash (altool): **muvaffaqiyatli**" >> "$GITHUB_STEP_SUMMARY"
+            exit 0
+          fi
+          echo "::warning::altool bilan yuklab bo'lmadi — xcodebuild -exportArchive (upload) bilan urinilmoqda"
+          ARCHIVE=build/ios/archive/Runner.xcarchive
+          test -d "$ARCHIVE" || { echo "::error::$ARCHIVE topilmadi"; exit 1; }
+          xcodebuild -exportArchive \
+            -archivePath "$ARCHIVE" \
+            -exportOptionsPlist "$SIGN_DIR/UploadOptions.plist" \
+            -exportPath "$RUNNER_TEMP/upload" \
+            -allowProvisioningUpdates \
+            -authenticationKeyPath "$ASC_KEY_FILE" \
+            -authenticationKeyID "$API_KEY_ID" \
+            -authenticationKeyIssuerID "$API_ISSUER_ID"
+          echo "- Yuklash (xcodebuild upload): **muvaffaqiyatli**" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: TestFlight processing holati
+        if: env.MODE == 'testflight'
+        env:
+          API_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          API_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+        run: '"$ASC_PY" "$ASC_SCRIPT" status'
+
+      # Ichki testerlar telefonda yangilay olishi uchun: eksport javobi,
+      # "What to Test" (en-US, ru) va ichki guruh(lar)ga biriktirish.
+      # Xato bo'lsa ogohlantirish — yuklangan build yaroqli qoladi.
+      - name: TestFlight — ichki guruh va "What to Test"
+        if: env.MODE == 'testflight'
+        continue-on-error: true
+        env:
+          API_KEY_ID: ${{ secrets.ASC_KEY_ID }}
+          API_ISSUER_ID: ${{ secrets.ASC_ISSUER_ID }}
+        run: '"$ASC_PY" "$ASC_SCRIPT" beta'
+
+      - name: Tozalash
+        if: always()
+        run: |
+          [ -n "${SIGN_DIR:-}" ] && security delete-keychain "$SIGN_DIR/build.keychain-db" 2>/dev/null || true
+          rm -rf "${SIGN_DIR:-/nonexistent}" "$HOME/.appstoreconnect/private_keys" \
+                 "$HOME/Library/MobileDevice/Provisioning Profiles/${IOS_PROFILE_UUID:-none}.mobileprovision"

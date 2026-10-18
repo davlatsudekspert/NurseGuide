@@ -1,0 +1,107 @@
+name: nurseguide
+description: "NurseGuide — hamshiralar uchun attestatsiya va klinik ma'lumotnoma (UZ/RU/EN)."
+publish_to: 'none'
+version: 0.1.0+1
+
+environment:
+  sdk: ^3.13.5
+  flutter: ">=3.47.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  # Flutter 3.47 Material kutubxonasini `material_ui` paketiga ko'chiryapti;
+  # go_router 18 ham shu paketga o'tgan. Ilova bitta MaterialApp/Theme
+  # turidan foydalanishi uchun `package:flutter/material.dart` emas,
+  # `package:material_ui/material_ui.dart` import qilinadi.
+  material_ui: ^1.6.0
+  # Har bir tab o'z stackini saqlashi uchun StatefulShellRoute.indexedStack.
+  go_router: ^18.0.2
+  # Sozlamalar, rol, xatcho'plar — maxfiy bo'lmagan lokal holat.
+  # Sessiya tokenlari keyingi bosqichda flutter_secure_storage'ga tushadi.
+  shared_preferences: ^2.5.6
+  # Kontent paketi manifestidagi sha256 ni tekshirish.
+  crypto: ^3.0.7
+  intl: ^0.20.2
+  url_launcher: ^6.3.3
+  cupertino_ui: ^1.1.2
+  http: ^1.6.0
+  path_provider: ^2.1.6
+  flutter_secure_storage: ^11.2.0
+  image_picker: ^1.2.4
+  # Kutubxonadagi PDF o'quvchi (mundarija/outline, sahifaga o'tish, zoom).
+  # MIT; PDFium (BSD-3/Apache-2.0). iOS'da pdfium_flutter SwiftPM paketi
+  # (Package.swift) orqali ulanadi — CocoaPods kerak emas.
+  pdfrx: ^2.6.5
+  # Katta ekran paytida ekranni yoqiq ushlash — BSD-3. Linux uchun
+  # tranzitiv `dbus` (MPL-2.0) keladi — faqat Linux implementatsiyasida;
+  wakelock_plus: ^1.8.0 # 1.8.1 dbus 0.8 talab qiladi, flutter_local_notifications 22 esa 0.7
+  # Kunlik savol eslatmasi — faqat lokal bildirishnoma, server/push yo'q.
+  # BSD-3 (timezone ham BSD-3).
+  flutter_local_notifications: ^22.3.1
+  timezone: ^0.11.1
+  # Natija kartochkasini tizim ulashish oynasi orqali yuborish. BSD-3.
+  share_plus: ^13.3.1
+  # Guruh taklif kodi QR ko'rinishida (sof Dart, native kod yo'q). BSD-3.
+  qr: ^4.0.0
+  # "Sign in with Google" / "Sign in with Apple" (D-56): email-kod kirishi
+  # yoniga ikkinchi usul. Faqat ID token olinadi — tekshiruv serverda
+  # (cloudflare/src/social.ts); ilova token yoki parol saqlamaydi.
+  # sign_in_with_apple: MIT, iOS/macOS native + Android veb-oqim.
+  sign_in_with_apple: 8.2.0
+  # google_sign_in: BSD-3 (flutter.dev). Android — Credential Manager,
+  # iOS — GoogleSignIn SDK. Versiyalar kamida 2 hafta oldingi (pub.dev).
+  google_sign_in: 7.2.0
+  # Tranzitiv platforma paketlari ataylab mahkamlangan: pub eng yangisini
+  # (android 7.2.18 — 2026-10-13, ios 6.3.8 — 2026-10-15) tanlardi, bizda esa
+  # versiyalar kamida 2 hafta oldingi bo'lishi shart.
+  google_sign_in_android: 7.2.17
+  google_sign_in_ios: 6.3.6
+  # Ma'ruza "Ekranga uzatish" (D-59): Android'da tizimning "Ekranni uzatish"
+  # (Cast/Miracast) sozlamasini ochish uchun intent. BSD-3 (plus_plugins),
+  # sof Java, minSdk 19; iOS'da ishlatilmaydi (yo'riqnoma oynasi). 2026-07-23.
+  android_intent_plus: 6.1.0
+  # Ilova ichidagi QR skaner (D-68): guruhga qo'shilish / testni ochish.
+  # BSD-3. Android — CameraX + ML Kit (bundled, oflayn), minSdk 23 (bizda
+  # 24); iOS — AVFoundation/Vision, iOS 12+ (bizda 15), SwiftPM paketi bor.
+  # 7.4.2 — 2026-09-14 (kamida 2 hafta oldingi).
+  mobile_scanner: 7.4.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+    - assets/brand/
+    - assets/content/core/
+    - assets/toifa/
+    - assets/lectures/
+    - assets/lectures/decks/
+
+  fonts:
+    - family: Inter
+      fonts:
+        - asset: assets/fonts/Inter-400.ttf
+          weight: 400
+        - asset: assets/fonts/Inter-500.ttf
+          weight: 500
+        - asset: assets/fonts/Inter-600.ttf
+          weight: 600
+        - asset: assets/fonts/Inter-700.ttf
+          weight: 700
+    # Ivory mavzusidagi katta sarlavhalar uchun (D-64). Instrument Serif —
+    # lotin (o‘ g‘ bilan); kirill glyphlari Playfair Display'dan.
+    - family: InstrumentSerif
+      fonts:
+        - asset: assets/fonts/InstrumentSerif-Regular.ttf
+    - family: PlayfairDisplay
+      fonts:
+        - asset: assets/fonts/PlayfairDisplay-Variable.ttf

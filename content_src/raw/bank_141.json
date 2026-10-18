@@ -1,0 +1,6489 @@
+[
+{
+"bank": "141",
+"n": 1,
+"q": "Hamshiralik ishiga asos solgan inson:",
+"options": [
+"F. Naytingeyl",
+"Abu Ali Ibn Sino",
+"N. I Aripov",
+"Gipokrat"
+],
+"page": 1,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 2,
+"q": "Xalqaro hamshiralik kuni qachon nishonlanadi:",
+"options": [
+"12 may",
+"9 may",
+"25 noyabr",
+"Noyabr oyining ikkinchi yakshanbasi"
+],
+"page": 1,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 3,
+"q": "Xalqaro hamshiralar kuni nechanchi yildan boshlab nishonlanadi:",
+"options": [
+"1971",
+"1990",
+"1890",
+"1820"
+],
+"page": 1,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 4,
+"q": "Xalqaro hamshiralik assotsiyatsiyasiga qachon asos solingan:",
+"options": [
+"1899",
+"1820",
+"1971",
+"1844"
+],
+"page": 1,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 5,
+"q": "Xalqaro hamshiralik assotsiyatsiyasi asosiy vazifasi:",
+"options": [
+"Hamshiralik ta'limini, hamshiraning vazifalarini, ish sharoitlarini yaxshilash normativlarni ishlab chiqarish, xalqaro konferensiyalarni o'tkazish",
+"Hamshiralar bilan seminar trening va konferensiyalar o'tkazish",
+"Hamshiralarni ish bilan ta'minlash",
+"Hamshiralarni mukofotlash"
+],
+"page": 1,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 6,
+"q": "O'zbekistonda qizil hoj va qizil yarim oy jamiyati qachon tashkil etilgan:",
+"options": [
+"1925",
+"1971",
+"1919",
+"1985"
+],
+"page": 1,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 7,
+"q": "Xalqaro salomatlik kuni qachon nishonlanadi:",
+"options": [
+"aprel",
+"12 may",
+"Noyabr oyining ikkinchi yakshanbasi",
+"29 avgust"
+],
+"page": 1,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 8,
+"q": "Jahon sogliqni saqlash tashkiloti ning asosiy vazifalari:",
+"options": [
+"Bemorlarni dispanser nazoratiga olish",
+"Xalqaro standatrlari belgilash, dori moddalari va narkotiklar ustidan nazorat qilish",
+"Xalqaro qizil yarim oy jamiyati bilan hamkorlik qilish",
+"Nogironligi bor shaxslarga FTEK yo'llanmalarini berish"
+],
+"page": 2,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 9,
+"q": "O'zbekiston Republikasi birlashgan millatlar tashkilotiga qachon a'zo bo'lgan:",
+"options": [
+"1992",
+"1958",
+"1998",
+"1945"
+],
+"page": 2,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 10,
+"q": "“F. Naytingel” medali bilan taqdirlangan O'zbekistonlik hamshiralar kimlar:",
+"options": [
+"Rixsi Mo'minova",
+"Zokirova Kamola",
+"To'xtamatova Dilorom",
+"Ziyayeva Mavluda"
+],
+"page": 2,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 11,
+"q": "F. Naytingelning hamshiralik ishini rivojlantirishga qo'shgan hissasi qaysi javobda to'g'ri ko'rsatilgan:",
+"options": [
+"Bemorlarga o'z-ozini parvarish qilishni targ'ib qilgan",
+"Birinchi bo'lib, ayollar uchun kasbiy faoliyatlarni belgilab qo'ygan",
+"Dispanser nazoratiga olish salomatlik uchun muhim ro'l o'ynashini aniqladi",
+"Hamshiralikning birinchi maktabiga asos solib, o'zidan keyin ko'pgina ilmiy ishlar qoldirgan"
+],
+"page": 2,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 12,
+"q": "Hamshiralik ishining ob'yekti bu:",
+"options": [
+"Inson",
+"Atrof muhit",
+"Kasalliklar",
+"Kasalxona"
+],
+"page": 2,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 13,
+"q": "F. Naytingel medali qaysi tashkilot tomonidan ta'sis etiladi:",
+"options": [
+"Xalqaro qizil Xoj",
+"Birlashgan millatlar tashkiloti",
+"Jahon sogliqni saqlash tashkiloti",
+"Sogliqni saqlash vazirligi"
+],
+"page": 2,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 14,
+"q": "O'zbekistonda tibbiyot ilmining rivojlanishiga katta hissa qo'shgan olimlar:",
+"options": [
+"Abu Ali Ibn Sino",
+"U. Rentgen",
+"A. A. Pavlov",
+"N. I Pirogov"
+],
+"page": 2,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 15,
+"q": "Bemorlarni parvarish qilish tizimi asoschisi:",
+"options": [
+"Florens Naytingeyl",
+"Yuliya Vrevskaya",
+"Ekaterina Bakunina",
+"Darya Sevastopolskaya"
+],
+"page": 2,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 16,
+"q": "Salomatlik haqidagi ta'limot nima deb ataladi:",
+"options": [
+"Valeologiya",
+"Sanalogiya",
+"Gerontologiya",
+"Diyetologiya"
+],
+"page": 3,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 17,
+"q": "Hamshira bu …:",
+"options": [
+"Hamshiralik ishi falsafasini himoya qiluvchi va hamshira sifatida faoliyat ko'rsatishga huquqliy, kasbiy ilmga ega bo'lgan mutaxasis",
+"Oliy toifali mutaxasis",
+"Maxsus diplomli kichik tibbiyot xodimi",
+"Bemorlarni ham ruhiy ham jismoniy quvvatlovchi shaxs"
+],
+"page": 3,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 18,
+"q": "Salomatlik bu …:",
+"options": [
+"Salomatlik -bu organizmning jismoniy rejadagi eng yaxshi holatidir",
+"Salomatlik -bu organizmning ruhiy rejadagi eng yaxshi holatidir",
+"Salomatlik -bu organizmning ijtimoiy rejadagi eng yaxshi holatidir",
+"Barcha javob to'g'ri"
+],
+"page": 3,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 19,
+"q": "Kasallik bu …:",
+"options": [
+"Organizmda muayyan simptomlar bilan birga kechadigan patologik o'zgarishlarni tavsiflovchi holat",
+"Organizning har qachongidan ham og'ir ahvolda bo'lishi",
+"Organizmda muayyan simptomlar bilan birga kechadigan fiziologik o'zgarishlarni tavsiflovchi holat",
+"Hamshira parvarishiga muhtoj bo'lgan va shu parvarishni olayotgan inson"
+],
+"page": 3,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 20,
+"q": "Bugungi kun hamshirasiga qanday majburiyatlar yuklatilgan:",
+"options": [
+"Bemorlar parvarishi, profilaktika, sog'liqni saqlash, reabilitatsiya masalalari",
+"Davolash ishlari, maslahatlar berish",
+"Sifat mezonlarini ishlab chiqish",
+"Endemik kasalliklarni oldini olish"
+],
+"page": 3,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 21,
+"q": "Hamshiraga bo'lgan zamon talablarini ko'rsating:",
+"options": [
+"Kuchli tashkilotchi, menedjer, pedagog, psixolog",
+"Makler, bo'lim boshlig'i",
+"Psihiatr",
+"Terapevt"
+],
+"page": 3,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 22,
+"q": "Qizil Hoch va Qizil Yarim Oy jamiyatlari qanday maqsadlarni o'z oldiga maqsad qilib qo'ygan:",
+"options": [
+"O'g'ir yotgan bemorlarni uyda parvarishlash",
+"Hamshiralar faoliyatini dunyo miqyosi darajasiga yetkazish",
+"Patronaj xizmatini bosqichma bosqich ko'rib chiqish",
+"Hamshiralar huquqlarini himoya qilish"
+],
+"page": 4,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 23,
+"q": "Tibbiyotning asosiy vazifasi bu...:",
+"options": [
+"Sog'liqni saqlash va yo'qotilgan sog'liqni tiklash",
+"Kasalliklarni yo'qotish",
+"Iqtisodiy barkamollikka erishish",
+"O'sma kasalliklarini profilaktikasi"
+],
+"page": 4,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 24,
+"q": "Hamshira parvarishining asosiy maqsadi:",
+"options": [
+"Inson ehtiyojlarini qondirish, o'z- o'zini parvarish qilishga o'rgatish va unga qanday yordam kerakligini aniqlash",
+"Shaxsiy extiyojlarni ta'minlash",
+"Mijozning huquqiy yordam olishini ta'minlash",
+"Bemorda yangi muammolar kelib chiqishini oldini olish va tushuntirish"
+],
+"page": 4,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 25,
+"q": "Ma'lum profildagi bemorlar guruhiga davolash-profilaktik yordam ko'rsatadigan mahsus muassasa – bu:",
+"options": [
+"Dispanser",
+"Poliklinika",
+"Tibbiy sanitariya qismi",
+"Tez yordam stansiyasi"
+],
+"page": 4,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 26,
+"q": "Davolash profilaktika muassasalari quyidagi turlarga bo'linadi:",
+"options": [
+"Oilaviy poliklinikalar",
+"Sog'lomlashtirish sanatoriylari",
+"Ona va bola skrining markazlari",
+"Madaniy va ma'rifiy markazlar"
+],
+"page": 4,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 27,
+"q": "Ambulator poliklinika hamshirasining vazifalari:",
+"options": [
+"Bemorlar ko'rigida shifokorga yordam berish, tibbiy hujjatlarni tayyorlash va yuritish",
+"Bemorlarni ko'rikdan o'tkazish va tashxislash",
+"Tibbiy nazoratga olish",
+"Bemorlarga huquqiy bilimlarni o'rgatish"
+],
+"page": 4,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 28,
+"q": "Ambulatoriya nima:",
+"options": [
+"Davolash profilaktika muassasalari bo'lib, huddi poliklinika kabi faoliyat yuritadi, lekin hizmat ko'rsatish hajmi bilan farq qiladi",
+"Kunduz tibbiy tez yordam ko'rsatuvchi davolash profilaktika muassasalari",
+"Bemorlarni statsionar sharoitida davolashga mo'ljallangan davolash profilaktika muassasalari",
+"Shoshilinch yordam ko'rsatish muassasasi"
+],
+"page": 4,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 29,
+"q": "Bemorlarni tekshirish usullariga kiradi:",
+"options": [
+"Kasallik tarixi, ambulator karta, statistik talon yuritish",
+"Sub'yektiv, ob'yektiv, laborator va funksional",
+"Hukumat yoki sug'urta kompaniyalaridan moliyaviy kompensatciya olish uchun ma'lumot taqdim etish",
+"Qonuniy (rasmiy) muolajalrni o'tkazishda yuridik hujjatlarni taqdim etish"
+],
+"page": 5,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 30,
+"q": "Bemorlarni qayd qilish jurnali qanday tibbiy hujjat shakli:",
+"options": [
+"001/U",
+"060/U",
+"058/U",
+"063/U"
+],
+"page": 5,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 31,
+"q": "Salomatlik to'g'risidagi ma'lumotnoma qanday hujjat shakli:",
+"options": [
+"086/U",
+"060/U",
+"058/U",
+"063/U"
+],
+"page": 5,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 32,
+"q": "Emlash kartasi qanday hujjat shakli:",
+"options": [
+"063/U",
+"086/U",
+"060/U",
+"058/U"
+],
+"page": 5,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 33,
+"q": "Kasalhonadagi bemorning tibbiy varaqasi qanday hujjat shakli:",
+"options": [
+"003/U",
+"001/U",
+"004/U",
+"061/U"
+],
+"page": 5,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 34,
+"q": "Qaysi tibbiyot muassasalari birlamchi tibbiy sanitariya yordamini ko'rsatmaydi:",
+"options": [
+"Sanitariya - epidemiologik markazlari, dispanserlar, tibbiy sanitary qismlari, sud- ekspertizasi muassasalari",
+"Ambulatoriya poliklinika muassasalari",
+"Shoshilinch tibbiy yordam ko'rsatish muassasalari",
+"Stacionarlar, akusherlik komplekslari"
+],
+"page": 5,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 35,
+"q": "Dispanser nima:",
+"options": [
+"Muayyan guruh aholini tibbiy ko'rikdan o'tkazadigan muassasa",
+"Yuqumli kasalliklarni davolovchi muassasa",
+"Kunduzgi muolajalarni bajaruvchi muassasa",
+"Fizioterapevtik muolajalar honasi"
+],
+"page": 5,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 36,
+"q": "Dispanserizatsiya nima:",
+"options": [
+"Aholini yoppasiga tibbiy ko'rikdan o'tkazish",
+"Aholini tibbiy madaniyatini oshirish",
+"Aholiga birinchi tibbiy yordam ko'rsatish",
+"Aholiga emlash ishlarini o'tkazish"
+],
+"page": 6,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 37,
+"q": "Ambulator karta nomer … hujjat:",
+"options": [
+"025/u",
+"060/u",
+"063/u",
+"058/u"
+],
+"page": 6,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 38,
+"q": "Bolalarni rivojlanish kartasi nomer …hujjat:",
+"options": [
+"112/u",
+"060/u",
+"063/u",
+"058/u"
+],
+"page": 6,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 39,
+"q": "(QVP) Qishloq vrachlik punkti nima:",
+"options": [
+"Qishloq vrachlik punkti",
+"Qon quyish markazi",
+"Qishloq vrachlik poliklinikasi",
+"Tez yordam markazi"
+],
+"page": 6,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 40,
+"q": "Xospis nima:",
+"options": [
+"Tuzalmaydigan kasallik bilan kasallangan bemorlar uchun muassasa",
+"Tuzaladigan kasallik bilan kasallangan bemorlar uchun muassasa",
+"Tez tibbiy yordam ko'rsatadigan muassasa",
+"Davolash profilaktika muassasasi"
+],
+"page": 6,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 41,
+"q": "Steril asboblar biksda qancha muddat saqlanishi mumkin:",
+"options": [
+"24 soat",
+"1 soat",
+"10-12 soat",
+"72 soat"
+],
+"page": 6,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 42,
+"q": "Atrof-muhitidagi yuqumli kasalliklar qo'zg'atuvchilarini yo'qotish bu:",
+"options": [
+"Dezinfeksiya",
+"Dezinseksiya",
+"Deratizasiya",
+"Sterillizasiya"
+],
+"page": 6,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 43,
+"q": "Qon yoki biologik suyuqliklar ko'zga sachraganda birinchi bo'lib qilinishi lozim bo'lgan hatti harakat:",
+"options": [
+"Darhol oqar suvda yuvib tashlanadi",
+"Dez eritma bilan yoki sovunlab yuviladi",
+"Kaliy permanganat bilan yuviladi,",
+"Sanitar epidemiologik stantsiya ga murojat qilinadi"
+],
+"page": 7,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 44,
+"q": "Shifoxona ichi infeksiyalarini keng tarqalishiga sababchi bo'lgan asosiy omillar",
+"options": [
+"Antibiotiklardan noto'g'ri foydalanish",
+"Noto'g'ri statsionar rejimini tashkil etish",
+"Bemorni zararli odatlari ko'pligi",
+"Ichki nazoratni yo'qligi"
+],
+"page": 7,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 45,
+"q": "Tibbiy chiqindilarni yo'q qilish usullarini ko'rsating:",
+"options": [
+"Kuydirish va nurlantirish",
+"Oddiy va maxsus usul",
+"Murakkab usul",
+"Deratizatsion usul"
+],
+"page": 7,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 46,
+"q": "Ifloslangan shprits va ignalar uchun qanday idishlar ishlatiladi:",
+"options": [
+"Kraft paketlar",
+"Teshilmaydigan idishlar",
+"Bir marotabali selofan paketlar",
+"Plastik butilkalar, qopqoqli shisha idishlar"
+],
+"page": 7,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 47,
+"q": "Sistemalar qanday dezinfeksiya qilinadi:",
+"options": [
+"Maxsus nurlar yordamida zararsizlantiriladi",
+"Sistemalar qirqiladi, xlor 0,5 % li dez moddada zararsizlantiriladi",
+"Gipoxlorid kalsiyga solinadi va olinib 20 daqiqada qaynatiladi",
+"10 daqiqa xloraminga solib zararsizlantiriladi"
+],
+"page": 7,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 48,
+"q": "Muolajadan oldin va keyin tibbiyot hodimlari qo'lga qanday ishlov beradi",
+"options": [
+"Fizik va kimyoviy usullarni qo'llagan holda qo'llar yuviladi",
+"San Q va M me'yoriy hujjat asosida qo'llarga 6 ta bosqichda ishlov beriladi",
+"Qo'lga maxsus Gellar va kimyoviy vositalar bilan ishlov beriladi",
+"San Q va M asosida qo'lni dez eritma bilan yuviladi"
+],
+"page": 7,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 49,
+"q": "Suyuq chiqindilar bilan ishlaganda nimalardan foydalanish kerak:",
+"options": [
+"Ho'jalik rezinali perchatka, himoya ko'zoynagi, kliyonka fartuklardan",
+"Steril rezinali perchatka, himoya ko'zoynagi, kliyonka fartuklardan",
+"Steril rezinali perchatka, himoya ko'zoynagi",
+"Bahila, himoya ko'zoynagi, kliyonka fartuklardan"
+],
+"page": 7,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 50,
+"q": "Hamshiralar dezinfeksiyalovchi vositalar, kimyoviy vositalar bilan ishlaganda qanday tehnika havfsizligi qoidalariga rioya qilishi kerak:",
+"options": [
+"Dezinfeksiyalovchi vositalarni tayyorlashni yahshi shamollatiladigan honada amalga oshirishi kerak, mahsus kiyim va perchatka kiygan bo'lishi zarur, germetik ochki va maska taqqan bo'lishi lozim",
+"Dezinfeksiyalovchi moddalar og'zi yopiladigan idishlarda saqlanishi zarur",
+"Qorong'i honada tayyorlanishi kerak",
+"Dezinfeksiyalovchi vositalar to'q rangli idishlarda quruq va qorong'i honalarda saqlanishi kerak"
+],
+"page": 8,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 51,
+"q": "Hamshira dezinfeksiyalovchi eritma bilan zaharlanganda, qanday yordam ko'rsatiladi:",
+"options": [
+"Antidot ichiriladi",
+"Ishqoriy vosita bilan og'iz bo'shlig'i chayiladi va toza havoga olib chiqiladi",
+"Og'iz va burun bo'shlig'i suv bilan chayiladi",
+"Tez yordamni chaqiradi"
+],
+"page": 8,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 52,
+"q": "Hamshira tomonidan bemorning biologik suyuqliklari qanday",
+"options": [
+"zararsizlantirilishi kerak:",
+"Biologik suyuqliklarni ustiga teng miqdorda 0,5%li hlor eritmasi quyilib 10 minutga qoldiriladi, zarasizlantirilgan biologik suyuqliklarni unitazga ehtiyotkorlik bilan sachratmasdan to'kadi",
+"Biologik suyuqliklarni kanalizaciyaga to'kib, oqar suvda yuviladi",
+"Biologik suyuqliklarni ustiga faqat lizol eritmasi quyilib zararsizlantiriladi Faqat oqar suv bilan yuviladi"
+],
+"page": 8,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 53,
+"q": "Yuqumli kasallik yuqishi yo'llari:",
+"options": [
+"Havo-tomchi orqali, bevosita aloqa orqali, bemor ashyolari orqali",
+"Nasl orqali",
+"Faqat vertikal yo'l orqali",
+"Bir martali shpris lar orqali"
+],
+"page": 8,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 54,
+"q": "Muolaja xonasini tozalash turlarini sanang:",
+"options": [
+"Barcha muolajalar tugagandan so'ng kvars lampasini yoqib",
+"Kundalik, mukammal",
+"mukammal yigishtirib tozalash",
+"Oldindan yig'ishtirib tozalash"
+],
+"page": 8,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 55,
+"q": "Qo'llarni yuvish usuli to'g'ri ko'rsatilgan qatorni toping:",
+"options": [
+"Lavrensiy",
+"Zimnitskiy",
+"Laporoskopik",
+"Ambuladze"
+],
+"page": 8,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 56,
+"q": "Infeksion nazorat nima:",
+"options": [
+"Epidemiologik o'choqda o'tkaziluvchi tadbir, infeksiyaga qarshi tadbir",
+"Epidemiyaga qarshi o'tkaziluvchi tadbir",
+"Infeksion o'choqda o'tkaziluvchi tadbir",
+"Faqat ichak infeksiyalariga qarshi kurashish"
+],
+"page": 8,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 57,
+"q": "Sterillash uchun qo'yiladigan talablar:",
+"options": [
+"Dezinfeksiyalovchi eritmada bo'ktirib, 10 daqiqa qoldirib sterillanadi",
+"Sterillash bosqichlari tugagach bikslarga sinamalar qo'yiladi",
+"Sterillash sharoiti, muddati, harorati to'g'riligi doimiy nazorat qilib boriladi",
+"Sterillash har daqiqada nazorat qilinib, bikslar va asboblar ko'rib tekshirib turiladi"
+],
+"page": 9,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 58,
+"q": "Tibbiy asboblarni sterillashdan oldin necha bosqichda tozalanadi:",
+"options": [
+"8 bosqich",
+"7 bosqich",
+"6 bosqich",
+"5 bosqich"
+],
+"page": 9,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 59,
+"q": "Sterilizatsiya qanday chora tadbirlar yig'indisi:",
+"options": [
+"Mikrob va uning sporalarini yo'qotish",
+"Mikroorganizmlarni yo'qotish",
+"Sporalarni yo'qotish",
+"Hashoratlarni yo'qotish"
+],
+"page": 9,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 60,
+"q": "Dezinfeksiya nima:",
+"options": [
+"Jaroxatga mikroblar tushishining oldini olishni ta'minlaydigan tadbirga aytiladi Ob'ekt, muhit va buyumlardagi yuqumli kasalliklar qo'zga'tuvchilarini",
+"yo'qotishdir",
+"Kasalliklarni oldini olish",
+"Jaroxatdagi potologik tuzilmadagi yoki umuman organizmdagi mikroblarni yo'qotish"
+],
+"page": 9,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 61,
+"q": "Avtoklavlash nima:",
+"options": [
+"Yuqori bosim ostida sterillash",
+"Qaynatib sterillash",
+"Kuydirib sterillash",
+"Qizdirib sterillash"
+],
+"page": 9,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 62,
+"q": "(DSENM) Davlat sanitariya epidemiologiya nazorati markaziga shoshilinch habarnoma qanday hujjat shakli:",
+"options": [
+"058/u",
+"060/u",
+"063/u",
+"086/u"
+],
+"page": 9,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 63,
+"q": "Davolash profilaktika muassasalarida shifoxona ichi infeksiyasini profilaktikasi bo'yicha amaldagi hujjat:",
+"options": [
+"San Q va M 0342-17",
+"600 – buyruq",
+"80 buyruq",
+"210 buyruq"
+],
+"page": 10,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 64,
+"q": "Davolash profilaktika muassasalarida harorat kuniga nechha marta o'lchanadi:",
+"options": [
+"Kuniga ikki marta – ertalab, kechqurun",
+"Bir mahal – ertalab",
+"Kechqurun",
+"Kuniga uch mahal"
+],
+"page": 10,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 65,
+"q": "Pulsning tezlashuvi:",
+"options": [
+"Taxikardiya",
+"Taxipnoe",
+"Bradikardiya",
+"Aritmiya"
+],
+"page": 10,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 66,
+"q": "Gipertermiya nima:",
+"options": [
+"Tana haroratining yuqori ko'tarilishi",
+"Arterial bosimning ko'tarilishi",
+"Ishtahaning pasayishi",
+"Qon bosimining pasayishi"
+],
+"page": 10,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 67,
+"q": "Nafas olish a'zolari kasalliklarining umumiy belgilari:",
+"options": [
+"Yo'tal, balg'am tashlash, qon tuflash, xansirash, ko'krak qafasida og'riq, isitma",
+"Ko'krak qafasida og'riq, qon tuflash, isitma",
+"Isitma, yutinishning qiyinlashuvi, qon tuflash",
+"Xansirash, oyoqlarda shish, ko'krak qafasida va yirik bo'g'imlarda og'riq"
+],
+"page": 10,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 68,
+"q": "Apnoe –bu:",
+"options": [
+"Nafas olishning to'xtashi",
+"Nafas olishning sekinlashuvi",
+"Nafas olishning tezlashuvi",
+"Xansirash"
+],
+"page": 10,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 69,
+"q": "Katta yoshli odamda nafas soni normada 1 minutda:",
+"options": [
+"16-20",
+"10. дек",
+"22-28",
+"25-30"
+],
+"page": 10,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 70,
+"q": "Katta yoshli odamda puls... 1 minutda:",
+"options": [
+"60-80",
+"100-120",
+"90-100",
+"40-60"
+],
+"page": 10,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 71,
+"q": "Sistolik arterial bosimning normadagi xajmi oshmasligi kerak:",
+"options": [
+"140 mm. sim. ust",
+"100 mmsim. ust",
+"110 mmsim. ust",
+"160 mmsim. ust"
+],
+"page": 11,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 72,
+"q": "Diastolik arterial bosimning normadagi xajmi oshmasligi kerak:",
+"options": [
+"90 mm. sim. ust",
+"60 mm. sim. ust",
+"100 mm. sim. ust",
+"120 mm. sim. ust"
+],
+"page": 11,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 73,
+"q": "Inspirator nafas yetishmovchiligi bu:",
+"options": [
+"Nafas olishning yetishmovchiligi",
+"Nafas chiqarishning yetishmovchiligi",
+"Aralash nafas yetishmovchiligi",
+"Hansirashning kuchayishi"
+],
+"page": 11,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 74,
+"q": "Haroratning o'zgarishiga qarab isitmaning quyidagi turlari farqlanadi:",
+"options": [
+"Doimiy yuqori isitma, remittirlovchi isitma, almashib turadigan isitma,",
+"to'lqinsimon isitma, tinkani quritadigan istma, noodatiy isitma",
+"Doimiy yuqori isitma, remittirlovchi isitma, tinkani quritadigan isitma, giperperetik Remittirlovchi isitma",
+"Doimiy yuqori isitma, remittirlovchi isitma, febril, subfebril, peretik"
+],
+"page": 11,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 75,
+"q": "To'lqinsimon istma bu…:",
+"options": [
+"Doimiy ko'tarilish davrlari subfebril yoki me'yoriy pasayish bilan harakterlanadi",
+"Bir kecha kunduzda 4-5 ⁰C o'zgarib turishi bilan farqlanadigan istma",
+"Ertalabki istmaning kechqurungi istmadan yuqori bo'lishi",
+"Tana harorati yuqori darajaga ko'tarilib, me'yor darajasigacha pasaymay 1-1,5⁰C atrofida tebranadi"
+],
+"page": 11,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 76,
+"q": "Remittirlovchi istma bu…:",
+"options": [
+"Tana harorati yuqori darajaga ko'tarilib, me'yor darajasigacha pasaymay 1-1,5⁰C atrofida tebranadi",
+"Doimiy ko'tarilish davrlari subfebril yoki me'yoriy pasayish bilan harakterlanadi",
+"Ertalabki istmaning kechqurungi istmadan yuqori bo'lishi",
+"Bir kecha kunduzda 4-5 ⁰C o'zgarib turishi bilan farqlanadigan istma"
+],
+"page": 11,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 77,
+"q": "Gektik istma bu…:",
+"options": [
+"Bir kecha kunduzda 4-5 ⁰C o'zgarib turishi va haroratning me'yor yoki subme'yor (36⁰dan past) raqamlarga tushib ketishi bilan ta'riflanadi",
+"Tana harorati yuqori darajaga ko'tarilib, me'yor darajasigacha pasaymay 1-1,5⁰C atrofida tebranadi",
+"Ertalabki istmaning kechqurungi istmadan yuqori bo'lishi",
+"Doimiy ko'tarilish davrlari subfebril yoki me'yoriy pasayish bilan harakterlanadi"
+],
+"page": 11,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 78,
+"q": "Qaytalanma isitma bu…:",
+"options": [
+"Bir necha kun davom etadigan baland isitma davrlarining isitmasiz davrlari bilan qonunniy almashib turishidir",
+"Bir kecha kunduzda 4-5 ⁰C o'zgarib turishi va haroratning me'yor yoki subme'yor (36⁰dan past) raqamlarga tushib ketishi bilan ta'riflanadi",
+"Tana harorati yuqori darajaga ko'tarilib, me'yor darajasigacha pasaymay 1-1,5⁰C atrofida tebranadi",
+"Ertalabki istmaning kechqurungi istmadan yuqori bo'lishi"
+],
+"page": 12,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 79,
+"q": "Aholi salomatligiga qanday omillar ta'sir etadi:",
+"options": [
+"Biologik, ijtimoiy-iqtisodiy, iqlim-geografik, ekologik",
+"Ichki omillar",
+"Aholi soni",
+"Kasallanish darajasi, tug'ilish darajasi"
+],
+"page": 12,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 80,
+"q": "Soglom turmush tarziga kiradi:",
+"options": [
+"Sog'lom ovqat, pozitiv kayfiyat, faol harakat",
+"Tashqi muhit omillari",
+"Yashash joyi",
+"Organizmning salomatligi"
+],
+"page": 12,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 81,
+"q": "Tinch holatda nafas olingandan so'ng qo'shimcha necha ml havo olishi mumkin:",
+"options": [
+"1500 ml - 1200 ml",
+"1600 ml – 1800 ml",
+"1100 ml – 1200 ml",
+"900 ml – 1000 ml"
+],
+"page": 12,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 82,
+"q": "Salomatlik deganda nimani tushunasiz:",
+"options": [
+"Jismoniy tetiklik, ruhiy kayfiyat, ijtimoiy ta'minot",
+"Yahshi yashash",
+"Iqtisodiy holat",
+"Kasal bo'lmaslik"
+],
+"page": 12,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 83,
+"q": "Isitmaning maksimal ko'tarilish davriga hos bo'lmagan belgilarni ko'rsating:",
+"options": [
+"Qaltirash, sovuq qotish, etning uvishishi",
+"O'rtiqcha qizib ketishlik",
+"Yo'tal",
+"Teriga toshmani toshishi"
+],
+"page": 12,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 84,
+"q": "84Puls bosimi nima:",
+"options": [
+"Bu sistolik va diastolik bosim orasidagi farq",
+"Bu kuchsiz puls",
+"Nimjon puls",
+"Ritmik buzilga puls"
+],
+"page": 13,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 85,
+"q": "Tomir palpatiyasida o'rganiladigan puls hususiyatlarini ayting:",
+"options": [
+"Ritm, chastota, to'liqligi, shakli, taranligi",
+"Tezligi, balandligi, ritmi, qattiqligi, chastota",
+"Ritm, chastota, amplituda,",
+"Tezlik, balandlik"
+],
+"page": 13,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 86,
+"q": "Ratsional ovqatlanish nima:",
+"options": [
+"Miqdor va sifat jihatdan to'la qiymatli ovqatlanish, sog'lom odamlarning jinsi, yoshi, mehnat turi va boshqa omillarni hisobga olib ovqatlanish",
+"Ovqatlanish odamning jinsiy yoshiga bog'liq emas",
+"Kunlik ovqat miqdorini belgilamagan",
+"Hohlagan vaqtda muntazam iste'mol qilmaslik"
+],
+"page": 13,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 87,
+"q": "Isitmaning 38℃ gacha ko'tarilishi qanday ataladi:",
+"options": [
+"Subfebril isitma",
+"To'lqinsimon isitma",
+"Cho'zilgan isitma",
+"Doimiy isitma"
+],
+"page": 13,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 88,
+"q": "Isitmaning ko'rinishiga qarab istma turlarini ayting:",
+"options": [
+"Subfebril 37-38 gradus, febril 38-39 gradus, peretik 39-41 gradus, giperpiretik 41- 42 gradusdan ortiq",
+"Subfebril - 39-39,5 gradus, peretik, baland isitma 39-40 gradus",
+"Baland rok ko'tarilishi - 40-41 gradus giperpiretik - 40 va undan baland",
+"Baland - 41-42 gradus, haddan tashqari baland - 39 va undan baland, haddan tashqari baland 40 va undan ortiq"
+],
+"page": 13,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 89,
+"q": "Puls ritmining buzilishi qanday ataladi:",
+"options": [
+"Aritmiya",
+"Taxisfigmiya",
+"Bradikardiya",
+"Taxikardiya"
+],
+"page": 13,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 90,
+"q": "Haroratning tushishining qanday turlarini bilasiz:",
+"options": [
+"Kritik, litik",
+"Febril, subfebril",
+"Normal, sub narmal",
+"Piretik, gireppiretik"
+],
+"page": 13,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 91,
+"q": "Nafas olishning tezlashishi:",
+"options": [
+"Taxipnoe",
+"Bradipnoe",
+"Apnoe",
+"Dispnoe"
+],
+"page": 14,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 92,
+"q": "Nafas olishning pasayishi:",
+"options": [
+"Bradipnoe",
+"Taxipnoe",
+"Disipnoe",
+"Apnoe"
+],
+"page": 14,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 93,
+"q": "Nafas olishning buzilishi:",
+"options": [
+"Dispnoe",
+"Bradipnoe",
+"Apnoe",
+"Taxipnoe"
+],
+"page": 14,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 94,
+"q": "Nafas olishning yo'qolishi:",
+"options": [
+"Apnoe",
+"Bradipnoe",
+"Taxipnoe",
+"Dispnoe"
+],
+"page": 14,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 95,
+"q": "Termoregulyatsiya nima:",
+"options": [
+"Haroratni boshqarish",
+"Haroratni ko'tarilishi",
+"Haroratni tushishi",
+"Normal temperatura"
+],
+"page": 14,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 96,
+"q": "Termoregulyatsiya markazi:",
+"options": [
+"Miyaning gipotalamus qismi",
+"Miyaning tepa va chakka qismi",
+"Miyaning ensa qismi",
+"Miyaning chakka qismi"
+],
+"page": 14,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 97,
+"q": "Yurak normal ritmining buzilishi:",
+"options": [
+"Aritmiya",
+"Disfoniya",
+"Atoniya",
+"Gipotoniya"
+],
+"page": 14,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 98,
+"q": "Yurakning qisqariashi natijasida qon tomirlarining ritmik tebranishi nima deyiladi:",
+"options": [
+"Puls",
+"Arterial bosim",
+"Arterial puls",
+"Puls difitsiti"
+],
+"page": 15,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 99,
+"q": "Jigar sanchig'ida qo'llanilmaydi:",
+"options": [
+"Issiq muolajalar bajarish",
+"Eufillin",
+"No-shpa",
+"Baralgin"
+],
+"page": 15,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 100,
+"q": "O't qopining yallig'lanishi nima deyiladi:",
+"options": [
+"Xolesistit",
+"Appendistit",
+"Peritonit",
+"Sistit"
+],
+"page": 15,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 101,
+"q": "Stistit – bu...:",
+"options": [
+"Siydik qopining yallig'lanishi",
+"O't qopining yallig'lanishi",
+"Qorin pardaning yallig'lanishi",
+"Ichaklarning teshilishi"
+],
+"page": 15,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 102,
+"q": "Diurez nima:",
+"options": [
+"Siydik hosil bo'lishi va ajralish jarayoni",
+"Bir sutkada ajralgan siydik miqdori",
+"Sutkalik siydik miqdorini ko'payishi",
+"Sutkalik siydik miqdorini kamayishi"
+],
+"page": 15,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 103,
+"q": "Ichakdan qon ketishiga xos belgi:",
+"options": [
+"Qoramoysimon ahlat",
+"Defekastiya aktining buzilishi",
+"Tez-tez ich ketishi",
+"Najasni oqarib ketishi"
+],
+"page": 15,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 104,
+"q": "Bulimiya nima:",
+"options": [
+"Ishtahaning oshishi",
+"Ishtahaning yo'qolishi",
+"Ta'm bilishning buzilishi",
+"Ko'ngil aynib qayt qilish"
+],
+"page": 15,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 105,
+"q": "Oziqli xuqnani qilishga ko'rsatmalar. Noto'g'ri javobni chiqaring:",
+"options": [
+"Jigar sirrozi",
+"Halqum o'sma kasalliklari",
+"Qizilo'ngach o'sma kasalliklari",
+"Qizilo'ngach torayishi"
+],
+"page": 15,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 106,
+"q": "Anoreksiya sabablari:",
+"options": [
+"Xazm qilish a'zolari kasalliklari, dorilarning nojo'ya ta'siri",
+"Moddalar almashinuvi buzilishi",
+"Tana haroratining ko'tarilishi, psixologik omillar",
+"Me'da shirasining kislotalilik darajasi oshishi"
+],
+"page": 16,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 107,
+"q": "Aspiratsiya sabablari:",
+"options": [
+"Qusuq moddalarning nafas yo'llariga o'tib ketishi",
+"Arterial bosimning ko'tarilishi",
+"Qon aralash qayt qilish",
+"Qon aralash ich kelishi"
+],
+"page": 16,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 108,
+"q": "Me'dani yuvish mumkin emas:",
+"options": [
+"Me'da yarasidan qon ketganda",
+"Ovqatdan zaharlanganda",
+"Dori bilan zaharlanganda",
+"Narkotik moddalari bilan zaharlanganda"
+],
+"page": 16,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 109,
+"q": "Me'da va 12-barmoqli ichak yara kasalligining asorati:",
+"options": [
+"Qon ketish",
+"Peritonit",
+"Ichak tutilishi",
+"Jigar stirrozi"
+],
+"page": 16,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 110,
+"q": "Appendisit qaysi a'zoning yallig'lanishi:",
+"options": [
+"Chuvalchangsimon o'simta",
+"To'g'ri ichak",
+"Yo'g'on ichak",
+"Ingichka ichak"
+],
+"page": 16,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 111,
+"q": "Meteorizm nima:",
+"options": [
+"Ichaklarda gazlarning ortiqcha to'planishi natijasida qorinning dam bo'lishi",
+"Ichaklarning motor va sekretor funkstiyalarining buzilishi",
+"Turli kasalliklarda ichak faolieatining buzilishi",
+"Ichaklarning yallig'lanishi"
+],
+"page": 16,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 112,
+"q": "Sifonli xuqnani bajarishga ko'rsatmalar:",
+"options": [
+"Tozalovchi xuqna yordam bermaganda, zaharlanishda",
+"To'g'ri ichak tushishi",
+"Yo'g'on ichak yallig'lanishi",
+"Me'da-ichakdan qon ketish"
+],
+"page": 16,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 113,
+"q": "Dorili xuqna qo'yishdan 20-30 minut oldin bemorga … qilinadi:",
+"options": [
+"Tozalovchi xuqna",
+"Gaz chiqaruvchi naycha",
+"Sifonli xuqna",
+"Gipertonik xuqna"
+],
+"page": 17,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 114,
+"q": "Qusuq massalaridan aspiratsiya bo'lishining eng ishonchli profilaktikasi:",
+"options": [
+"Bemorni yonboshlatib yotqizib qo'yish",
+"Boshini bir tomonga o'girish",
+"Bemorni bosh qismini baland qilib qo'yish",
+"Bemorni o'zi hohlaganday uhlashga yotqizib qo'yish"
+],
+"page": 17,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 115,
+"q": "Rektal ovqatlantirishdan oldin:",
+"options": [
+"Tozalovchi huqna qilish lozim",
+"Pulsni o'lchash kerak",
+"Arterial bosimni o'lchash kerak",
+"Bemor tagini yuvish kerak"
+],
+"page": 17,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 116,
+"q": "Kolit- bu…:",
+"options": [
+"Yo'g'on ichakning yallig'lanishi",
+"Ingichka ichakning yallig'lanishi",
+"Oshqozonning yallig'lanishi",
+"O'n ikki barmoq ichakning yallig'lanishi"
+],
+"page": 17,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 117,
+"q": "Enterit bu…:",
+"options": [
+"Ingichka ichakning yallig'lanishi",
+"Yo'g'on ichakning yallig'lanishi",
+"O'n ikki barmoq ichakning yallig'lanishi",
+"Oshqozonning yallig'lanishi"
+],
+"page": 17,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 118,
+"q": "Ishuriya bu…:",
+"options": [
+"Siydik tutilishi",
+"Siydikda qon bo'lishi",
+"Tungi siydikni oshishi",
+"Siydikda oqsil bo'lishi"
+],
+"page": 17,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 119,
+"q": "“Kofe quyqasi” rangidagi qusishda bemorga shoshilinch yordam berish:",
+"options": [
+"Gorizontal holatda, tinchlik, epigastral sohasiga muzli haltacha qo'yish",
+"Qorin sohasiga isitgich qo'yish",
+"Issiq choy va ovqat berish",
+"Darhol me'dani yuvish"
+],
+"page": 17,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 120,
+"q": "Qusuq massasining nafas yo'llariga tiqilishi qanday ataladi:",
+"options": [
+"Aspiratsiya",
+"Obstrusiya",
+"Asfiksiya",
+"Intoksikatsiya"
+],
+"page": 17,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 121,
+"q": "Siydik qopini katetrlash nima maqsadda o'tkaziladi:",
+"options": [
+"Siydik chiqarish, qovuqni yuvish va dori yuborish",
+"Tekashirish, boholash",
+"Siydik tutilishi, siydik yo'lini to'silishi",
+"Siydik yo'llaridan qon ketishi"
+],
+"page": 18,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 122,
+"q": "Qusiq massasini ko'rilganda ovqat qoldiqlari, ko'fe quyqasi rangli qon mavjud. Bemor qanday holatda:",
+"options": [
+"Meda yoki 12 barmoqli ichakdan qon ketishi",
+"O'pkaning qonashi",
+"Qizilo'ngachdan qon ketishi",
+"Yo'g'on ichakdan qon ketishi"
+],
+"page": 18,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 123,
+"q": "Operatsiyadan oldin qanday huqna qo'llaniladi:",
+"options": [
+"Tozalovchi",
+"Sifonli",
+"Moyli",
+"Emulsion"
+],
+"page": 18,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 124,
+"q": "To'g'ri ichak yallig'lanishida nima qilib bo'lmaydi:",
+"options": [
+"Huqna",
+"Inyeksiya",
+"Rentgen",
+"Qorinni paypaslab"
+],
+"page": 18,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 125,
+"q": "Me'da va ichakda qon ketishi paytida qanday huqna qilinadi:",
+"options": [
+"Huqna qilinmaydi",
+"Sifonli huqna",
+"Tomchili huqna qilish kerak",
+"Tozalovchi huqna"
+],
+"page": 18,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 126,
+"q": "Siydik qopini kateterlashda uchramaydigan asorat …:",
+"options": [
+"Glyukozuriya",
+"Uretral istma",
+"Siydik qopiga infeksiya tushishi",
+"Siydik chiqarish kanali perforatsiyasi"
+],
+"page": 18,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 127,
+"q": "Yo'g'on ichakda oziq moddasi qancha vaqt muobaynida so'riladi:",
+"options": [
+"17-24 soat",
+"5-17 soat",
+"27-29 soat",
+"11-12 soat"
+],
+"page": 18,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 128,
+"q": "Siydik qopini kateterlashda eng ko'p uchraydigan asorat:",
+"options": [
+"Siydik tutolmaslik",
+"Infeksiya tushishi",
+"Vaginit",
+"Uretrani perforatsiyasi"
+],
+"page": 19,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 129,
+"q": "Me'dadan qon ketganda ahlatni rangi qanaqa bo'ladi:",
+"options": [
+"Qoramtir",
+"Qizil",
+"Rangsiz",
+"Och sariq"
+],
+"page": 19,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 130,
+"q": "Isitgichga necha gradusli suv solinadi:",
+"options": [
+"700C",
+"1000C",
+"900C",
+"500C"
+],
+"page": 19,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 131,
+"q": "Ob'ektiv tekshirish usuliga kirmaydi:",
+"options": [
+"Bemorlarni so'rab surishtirish",
+"Palpatsiya",
+"Perkussiya",
+"Auskultatsiya"
+],
+"page": 19,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 132,
+"q": "Kim auskultatsiya tekshirish usulini yaratgan:",
+"options": [
+"Laennek",
+"Esmarx",
+"Kussmaul",
+"Auebrerger"
+],
+"page": 19,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 133,
+"q": "Simptomlar yig'indisi:",
+"options": [
+"Sindrom",
+"Etiologiya",
+"Diagnoz",
+"Patogenez"
+],
+"page": 19,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 134,
+"q": "Bemor ahvolini baholashda hamshira qanday tekshiruvdan foydalanadi:",
+"options": [
+"Endoskopik",
+"Sub'ektiv, ob'ektiv",
+"Laborator",
+"Rentgenologik"
+],
+"page": 19,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 135,
+"q": "Isituvchi kompress qavatlari ketma-ketligini ko'rsating:",
+"options": [
+"Doka, paxta, mumqog'oz",
+"Paxta, mumqog'oz, doka",
+"Doka, mumqog'oz, paxta",
+"Mumqog'oz, doka, paxta"
+],
+"page": 19,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 136,
+"q": "Isitgichdan nima maqsadda foydalaniladi:",
+"options": [
+"Tanani isitish, qon aylanishini yaxshilash uchun",
+"Qorin bo'shlig'ida o'tkir yallig'lanish jarayonida",
+"Qonni to'xtatish uchun",
+"Qonni to'xtatish, isitish uchun"
+],
+"page": 20,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 137,
+"q": "Xantal qog'ozini qo'llashga ko'rsatmalar:",
+"options": [
+"Surunkali yallig'lanish kasalliklarida",
+"Teri kasalliklari",
+"O'pka sili",
+"Gipertermiya"
+],
+"page": 20,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 138,
+"q": "Isituvchi kompress uchun necha qavatli salfetkadan foydalanish kerak:",
+"options": [
+"6-8 qavatli",
+"2-4 qavatli",
+"4-6 qavatli",
+"8-10 qavatli"
+],
+"page": 20,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 139,
+"q": "Xantallar qanday retseptorlarni ta'sirlanishiga asoslangan:",
+"options": [
+"Xemoresteptorlar",
+"Baroresteptorlar",
+"Mexanoresteptorlar",
+"Termoresteptorlar"
+],
+"page": 20,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 140,
+"q": "Fizioterapevtik davo qanday davo hisoblanadi:",
+"options": [
+"Chalgituvchi",
+"Yallig'lanishga qarshi",
+"O'rin bosuvchi",
+"Ximioterapiya"
+],
+"page": 20,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 141,
+"q": "Xantal qo'yishga ko'rsatmalar:",
+"options": [
+"Og'riq, tomirlar spazmida, yallig'lanish kasalliklarida",
+"o'pka raki, o'pka sili, og'riqda",
+"Og'riq, o'pka yallig'lanishida, teri kasalliklarida",
+"Og'riq, o'pka yallig'lanishida, o'pka sili"
+],
+"page": 20,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 142,
+"q": "Muzli xaltachani qo'yishga ko'rsatmalar:",
+"options": [
+"O'pka, me'da va bachadondan qon ketganda",
+"Teri kasalliklari, o'tkir bronxit, bachadondan qon ketganda",
+"Gipotoniyada, insultda, miokard infarktida",
+"O'smalar, buyrak sanchig'ida"
+],
+"page": 20,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 143,
+"q": "Gidroterapiya nima:",
+"options": [
+"Suv bilan davolash",
+"Qum bilan davolash",
+"Balchiq bilan davolash",
+"O'tlar bilan davolash"
+],
+"page": 21,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 144,
+"q": "Sterilizatsiyadan oldin tibbiy asboblarni tozalashda yuvish uchun qanday suvdan foydalaniladi:",
+"options": [
+"Distillangan",
+"Oqava",
+"Qaynatilgan",
+"Steril"
+],
+"page": 21,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 145,
+"q": "“A” shkafda qanday dori moddalari saqlanadi:",
+"options": [
+"Zaharli moddalar (narkotiklar, strixin, mishyak)",
+"Kuchli ta'sir qiladigan (kodein, adrenalin), uhlatadigan",
+"Steril dori moddalar",
+"Tez tibbiy yordam uchun mo'ljallangan dori moddalari"
+],
+"page": 21,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 146,
+"q": "“B” shkafda qanday dori moddalari saqlanadi:",
+"options": [
+"Kuchli ta'sir qiladigan (kodein, adrenalin), uhlatadigan",
+"Zaharli moddalar (narkotiklar, strixin, mishyak)",
+"Steril dori moddalar",
+"Tez tibbiy yordam uchun mo'ljallangan dori moddalari"
+],
+"page": 21,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 147,
+"q": "Teri orasiga qilinadigan Kasoni sinamasi nima maqsadda qilinadi:",
+"options": [
+"Exinokokkozni aniqlash maqsadida",
+"Brusellyozni aniqlash maqsadi",
+"Yashirin shishni aniqlash maqsadida",
+"Silni aniqlash maqsadida"
+],
+"page": 21,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 148,
+"q": "Teri orasiga qilinadigan Mak Klyur –Oldrich sinamasi nima maqsadda qilinadi:",
+"options": [
+"Yashirin shishni aniqlash maqsadida",
+"Brusellyozni aniqlash maqsadi",
+"Exinokokkozni aniqlash maqsadida",
+"Silni aniqlash maqsadida"
+],
+"page": 21,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 149,
+"q": "Teri orasiga qilinadigan Mantu sinamasi nima maqsadda qilinadi:",
+"options": [
+"Silni aniqlash maqsadida",
+"Exinokokkozni aniqlash maqsadida",
+"Yashirin shishni aniqlash maqsadida",
+"Brusellyozni aniqlash maqsadi"
+],
+"page": 21,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 150,
+"q": "Teri orasiga qilinadigan Byurne sinamasi nima maqsadda qilinadi:",
+"options": [
+"Brusellyozni aniqlash maqsadi",
+"Silni aniqlash maqsadida",
+"Exinokokkozni aniqlash maqsadida",
+"Yashirin shishni aniqlash maqsadida"
+],
+"page": 22,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 151,
+"q": "Mantu sinamasiga qancha vaqtdan so'ng baho beriladi:",
+"options": [
+"48 soatdan- 72 soatgacha",
+"Bir hafta muobaynida",
+"2 soat ichida",
+"12 soat ichida"
+],
+"page": 22,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 152,
+"q": "Anafilaktik shok bu…:",
+"options": [
+"Organizmda dori moddalarini nojo'ya ta'siri natijasida yuzaga keladigan allergik reaksiya",
+"Dori moddasini in'eksiya qilingan sohada qotib qolishi",
+"Infiltrat hosil bo'lishi",
+"In'eksiya qilingan sohaga infeksiya tushib, ab sanitar epidemiologik stantsiyas kelib chiqishi"
+],
+"page": 22,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 153,
+"q": "Eritilgan antibiotiklarni qancha vaqtgacha ishlatish mumkin:",
+"options": [
+"1 kun",
+"2 kun",
+"3 kun",
+"4 kun"
+],
+"page": 22,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 154,
+"q": "Emboliya bu …:",
+"options": [
+"Qon tomirlarga qonda oqib keluvchi yot modda bo'lakchalarining (havo) tiqilib qolishi",
+"Qon tomirlarni buklanib qolishi",
+"Qon tomir devorini butunligini buzilishi",
+"Qonning suyulib ketishi"
+],
+"page": 22,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 155,
+"q": "Venaga in'eksiya qilinganda shu sohada yuzaga keladigan venani yallig'lanishi…:",
+"options": [
+"Flebit",
+"Furunkul",
+"Gidradenit",
+"Otit"
+],
+"page": 22,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 156,
+"q": "Tromboflebit bu…:",
+"options": [
+"Vena qon tomirlarida tromb hosil bo'lishi va venani yallig'lanishi",
+"Vena qon tomirlarini kengayishi",
+"Qon tomir devorlarini tromb bilan to'lib qolishi",
+"Furunkul bilan birga kechadigan venani yallig'lanish kasalliklari"
+],
+"page": 22,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 157,
+"q": "Yog' emboliyasi bu…:",
+"options": [
+"Yog'ni qon tomirlariga tushishi",
+"Yog'ni limfa yo'llariga tushishi",
+"Havoni qon tomirga tushishi",
+"O'pkaga yog' tiqilishi"
+],
+"page": 23,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 158,
+"q": "Dori moddalarni transdermal usulda yuborish bu…:",
+"options": [
+"Terini tashqi yuzasi orqali",
+"Teri ostiga in'ekisiya qilish",
+"Teri orasiga in'eksiya qilish",
+"Qin shilliq pardasi orqali"
+],
+"page": 23,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 159,
+"q": "Anafilaktik shokni yengil turiga hos bo'lgan belgilarni ko'rsating:",
+"options": [
+"Kvinke shishi, qo'rquv, ter bosishi, engil toshmalar, bosh aylanishi, quloq shang'illashi, qorinda belda, yurakda og'riq, tovush bo'g'ilishi, rinit va konyuktivit belgilari",
+"Ipsimon puls, A/B aniqlanmagan, aritmiya, ko'z qorachiqlari kengaygan, tonik va klonik talvasalar, burun –lab uchburchagida ko'karish",
+"Kvinke shishi, qo'rquv, ter bosishi aritmiya, ko'z qorachiqlari kengaygan, tonik va klonik talvasalar, burun –lab uchburchagida ko'karish",
+"Tonik va klonik talvasalar, burun –lab uchburchagida ko'karish., rinit va konyuktivit belgilari"
+],
+"page": 23,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 160,
+"q": "Havo emboliyasida yuzaga keladigan belgilar:",
+"options": [
+"Nafas qisishi, yo'tal, ko'z yoshlanishi, tanani beldan yuqori qismini ko'karishi, yurak sohasida og'riq",
+"Yurak sohasida og'riq, tanani qizib ketishi, qaltiroq, talvasa",
+"Yurak sohasida og'riq, burundan qon ketishi, qon tomirlarni bo'rtishi, qusish",
+"Yurak sohasida og'riq, nafas qisishi, hushdan ketish, istmasini ko'tarilishi"
+],
+"page": 23,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 161,
+"q": "Tomoq va burundan surtma olish uchun qaysi materiallardan foydalaniladi:",
+"options": [
+"Yiring, bodomcha bezlardan, tanglay ravoqlaridan karash",
+"So'lak",
+"Zararlangan joydan biopsiya olinadi",
+"Qon"
+],
+"page": 23,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 162,
+"q": "Qaysi usul bo'yicha siydik 3 soat ichida olinadi:",
+"options": [
+"Amburje, Zimnitskiy",
+"Nicheporenko",
+"Addis-Kakovskiy",
+"Umumiy siydik tahlili"
+],
+"page": 23,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 163,
+"q": "Ahlatni koprologik tekshirishga tayyorlashning qoidalarini ko'rsating:",
+"options": [
+"3 kun davomida go'shtsiz ovqat, tishlar tozalanmaydi, surgi dorilar berilmaydi",
+"Parhezga rioya qilinmaydi",
+"Surgi dorilar 1kun oldin beriladi",
+"Kontrast modda beriladi"
+],
+"page": 23,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 164,
+"q": "Balg'amni sil mikobakteriyasiga qaysi usulda tekshiriladi:",
+"options": [
+"Flotatsiya usulida",
+"Mantu sinamasi",
+"Mak Klyur –Oldrich sinamasi",
+"Byurne sinamasi"
+],
+"page": 24,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 165,
+"q": "Diastaza tekshiruviga qancha miqdorda sidik olinadi:",
+"options": [
+"50 ml",
+"200 ml",
+"10ml",
+"1 litr"
+],
+"page": 24,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 166,
+"q": "Siydikda leykositlar soni 1ml da qancha bo'ladi:",
+"options": [
+"1 ml. 1200-1800",
+"1 ml. 500-1000",
+"1 ml. 300-700",
+"1 ml. 50-100"
+],
+"page": 24,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 167,
+"q": "Siydikda eritrositlar soni 1ml da qancha bo'ladi:",
+"options": [
+"1 ml 1000tagacha",
+"1 ml 400 tagacha",
+"1 ml 700 tagacha",
+"1 ml 100 tagacha"
+],
+"page": 24,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 168,
+"q": "Zimnitskiy sinamasi nima maqsadda qo'llaniladi:",
+"options": [
+"Buyraklar faoliyati va mochevina chiqarish hususiyatini aniqlash maqsadida",
+"Eritrositlar sonini aniqlash uchun",
+"Leykositlar sonini aniqlash uchun",
+"Siydik elimentlarini hisoblash uchun"
+],
+"page": 24,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 169,
+"q": "Ajralayotgan siydikk miqdorini ko'payishi bu:",
+"options": [
+"Poliuriya",
+"Proteinuriya",
+"Gematuriya",
+"Nikturiya"
+],
+"page": 24,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 170,
+"q": "Ajralayotgan siydik miqdorini kamayishi bu:",
+"options": [
+"Oligouriya",
+"Proteinuriya",
+"Gematuriya",
+"Poliuriya"
+],
+"page": 24,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 171,
+"q": "Tungi diurezni oshishi bu:",
+"options": [
+"Nikturiya",
+"Proteinuriya",
+"Gematuriya",
+"Poliuriya"
+],
+"page": 25,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 172,
+"q": "Siydika qon yoki eritrosit donachalari aniqlansa bu:",
+"options": [
+"Gematuriya",
+"Proteinuriya",
+"Nikturiya",
+"Poliuriya"
+],
+"page": 25,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 173,
+"q": "Siydikda oqsil aniqlansa bu:",
+"options": [
+"Proteinuriya",
+"Gematuriya",
+"Nikturiya",
+"Poliuriya"
+],
+"page": 25,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 174,
+"q": "Me'da shirasini ishqoriy muhiti normada nechaga teng bo'ladi:",
+"options": [
+"pH 1,7-1,9",
+"pH 2-3",
+"pH 1-3",
+"pH 27,-3,5"
+],
+"page": 25,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 175,
+"q": "Yashirin qonni aniqlashda ahlat qanday yig'iladi:",
+"options": [
+"Bemor uch kun mobaynida go'sht, baliq mahsulotlari, rangli sabzavotlar, yod, brom va temir saqlagan dorilarni iste'mol qilmaydi, keyin ahlat olinib labaratoriyaga jo'natiladi",
+"Bemor baliq va go'sht mahsulotlarini is'temol qilmaydi, dorilarni bemalol ichvuradi",
+"Bemorda shunchaki ahlatdan namuna olib berishi so'raladi",
+"Bemor och qoringa kelishi va klizma uchun kerakli holatni egallashi aytiladi"
+],
+"page": 25,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 176,
+"q": "Radiotelemetriya bu:",
+"options": [
+"Elektron moslama yordamida me'da shirasini tekshirish usuli",
+"Organizmning funksional va morfologik hususatlarini aniqlash usuli",
+"Tanani ichki tuzilishini tekshirish uchu qo'llaniladigann asbob",
+"Ahlatda gijja tuhumlarini aniqlash usuli"
+],
+"page": 25,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 177,
+"q": "Axlatni dizenteriya tayoqchalariga tekshirishda nima uchun ingliz aralashmasidan foydalaniladi:",
+"options": [
+"Axlatni istalgan paytda tekshirishga jo'natish uchun",
+"Axlatni hidi chiqmasigi uchun",
+"Axlat buzilmasligi uchun",
+"Axlatni suyultirish uchun"
+],
+"page": 25,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 178,
+"q": "Zimnickiy sinamasi orqali aniqlanadi:",
+"options": [
+"Nikturiya",
+"Izostenuriya",
+"Leykocituriya",
+"Kalciyuriya"
+],
+"page": 26,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 179,
+"q": "Xolesistografiya bu:",
+"options": [
+"Organizmga kontrast modda yuborib rentgen nurlari yordamida o't pufagi va o't yo'llarini tekshirish",
+"Vena ichiga kontrast modda yuborib o't pufagi va o't yo'llarini tekshirish Venaga kontrast modda yuborib buyraklar faoliyatini tekshirish",
+"Bronxlar bo'shlig'ini kontrast modda bilan to'ldirib, rentgenogrammalar",
+"yordamida bronxlarni tekshirish"
+],
+"page": 26,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 180,
+"q": "Xolegrafiya bu:",
+"options": [
+"Vena ichiga kontrast modda yuborib o't pufagi va o't yo'llarini tekshirish Organizmga kontrast modda yuborib roentgen sur'ati yordamida o't pufagi va o't yo'llarini tekshirish",
+"Venaga kontrast modda yuborib buyraklar faoliyatini tekshirish",
+"Bronxlar bo'shlig'ini contrast modda bilan to'ldirib, rentgenogrammalar",
+"yordamida bronxlarni tekshirish"
+],
+"page": 26,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 181,
+"q": "Piyelografiya bu:",
+"options": [
+"Venaga kontrast modda yuborib buyraklar faoliyatini tekshirish",
+"Organizmga kontrast modda yuborib roentgen sur'ati yordamida o't pufagi va o't yo'llarini tekshirish",
+"Vena ichiga kontrast modda yuborib o't pufagi va o't yo'llarini tekshirish Bronxlar bo'shlig'ini kontrast modda bilan to'ldirib, rentgenogrammalar",
+"yordamida bronhlarni tekshirish"
+],
+"page": 26,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 182,
+"q": "Bronxografiya bu:",
+"options": [
+"Bronxlar bo'shlig'ini kontrast modda bilan to'ldirib, rentgenogrammalar",
+"yordamida bronhlarni tekshirish",
+"Vena ichiga kontrast modda yuborib o't pufagi va o't yo'llarini tekshirish Venaga kontrast modda yuborib buyraklar faoliyatini tekshirish",
+"Organizmga kontrast modda yuborib roentgen sur'ati yordamida o't pufagi va o't yo'llarini tekshirish"
+],
+"page": 26,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 183,
+"q": "Irrigoskopiya usulida qaysi organ tekshiriladi:",
+"options": [
+"Ingichka ichak",
+"To'gri ichak",
+"Me'da",
+"Bachadon"
+],
+"page": 26,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 184,
+"q": "Bemorni bronxografiyaga tayyorlashda fenobarbital necha daqiqa oldin beriladi:",
+"options": [
+"30-60 daqiqa",
+"15-20 daqiqa",
+"70-80 daqiqa",
+"10-15 daqiqa"
+],
+"page": 27,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 185,
+"q": "Ezofagoskopiya qachon qo'llaniladi:",
+"options": [
+"Qizilo'ngach devorini ko'zdann kechirishda, qizilo'ngach rakini aniqlashda",
+"O'n ikki barmoq ichak shilliq pardasini ko'zdan kechirishda",
+"Yo'g'on ichak shilliq pardasini ko'zdan kechirishda",
+"To'g'ri ichak shilliq pardasini ko'zdam kechirishda"
+],
+"page": 27,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 186,
+"q": "Kolonoskopiya qachon qo'llaniladi:",
+"options": [
+"Yo'g'on ichak shilliq pardasini ko'zdan kechirishda",
+"Me'da shilliq pardasini havfli va havfsiz o'smalarini aniqlashda, biopsiya olishda",
+"To'g'ri ichak shilliq pardasini ko'zdam kechirishda",
+"Qizilo'ngach rakini aniqlashda"
+],
+"page": 27,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 187,
+"q": "Rektoromonoskopiya qachon qo'llaniladi:",
+"options": [
+"To'g'ri ichak shilliq pardasini ko'zdan kechirishda",
+"Qorin va kichik chanoq bo'shlig'i a'zolarini tekshirishda",
+"O'n ikki barmoq ichak shilliq pardasini ko'zdan kechirishda",
+"Yo'g'on ichak shilliq pardasini ko'zdan kechirishda"
+],
+"page": 27,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 188,
+"q": "Laporoskopiya qachon qo'llaniladi:",
+"options": [
+"Qorin va kichik chanoq bo'shlig'i a'zolarini tekshirishda",
+"O'n ikki barmoq ichak shilliq pardasini ko'zdan kechirishda",
+"Yo'g'on ichak shilliq pardasini ko'zdan kechirishda",
+"To'g'ri ichak shilliq pardasini ko'zdam kechirishda"
+],
+"page": 27,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 189,
+"q": "Sistoskopiya qachon qo'llaniladi:",
+"options": [
+"Qovuq shilliq pardasini ko'zdan kechirganda",
+"Yo'g'on ichak shilliq pardasini ko'zdan kechirishda",
+"To'g'ri ichak shilliq pardasini ko'zdam kechirishda",
+"Qorin va kichik chanoq bo'shlig'i a'zolarini tekshirishda"
+],
+"page": 27,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 190,
+"q": "Muloqot bu:",
+"options": [
+"Qabul qiluvchiga manbadan axborot, fikr, g'oya va hissiyotlarni nutq belgi yoki harakatlar yordamida uzatish aktidir",
+"Ikki va undan ortiq shaxning munosabati",
+"Insonlar o'rtasida muloqot",
+"Gapalshish va ko'nikish"
+],
+"page": 27,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 191,
+"q": "Muloqot turlarini ko'rsating:",
+"options": [
+"Verbal va Noverbal",
+"Rasmiy va norasmiy",
+"Yozma va og'zaki",
+"Bosma va televideniya"
+],
+"page": 28,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 192,
+"q": "Muloqot elementlari nima:",
+"options": [
+"Axborot, auditoriya, kanal, axborotni jo'natuvchi",
+"Gazeta, turnal, televideniya",
+"O'qituvchi, o'quvchi",
+"Axborot, gazeta, (OAV) ommaviy axborot vositalari"
+],
+"page": 28,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 193,
+"q": "Savol turlarini ko'rsating:",
+"options": [
+"Yopiq, ochiq, tekshiruvchi",
+"Yozma, og'zaki",
+"Interyu olish",
+"Suhbat o'tkazish"
+],
+"page": 28,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 194,
+"q": "Muloqot jarayoni qanday bosqichdan iborat:",
+"options": [
+"Kommunikativ, interaktiv, perseptiv",
+"Bilim, aql",
+"Malaka",
+"So'zsiz, mimika, gavda holati"
+],
+"page": 28,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 195,
+"q": "Noverbal muloqot bu…:",
+"options": [
+"So'zsiz, mimika, gavda holati",
+"Yozma muloqot",
+"So'z orqali muloqot",
+"Og'zaki muloqot"
+],
+"page": 28,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 196,
+"q": "Komunikatsiya nima:",
+"options": [
+"Muloqot olib borish",
+"Boshqaruvning yo'nalishi",
+"Menejmentlik",
+"Fizikal tekshiruv"
+],
+"page": 28,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 197,
+"q": "Komunikatsiyada hamshiraning harakteri:",
+"options": [
+"Hushtabiatlik, bilimlilik, ma'daniyatlilik",
+"Asabiy",
+"Faol",
+"Befarq"
+],
+"page": 28,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 198,
+"q": "Hamshiralik ishida muloqot texnikasi nechta elementdan tashkil topgan:",
+"options": [
+"5 ta",
+"4 ta",
+"6 ta",
+"3 ta"
+],
+"page": 28,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 199,
+"q": "Bemordagi o'lim vahimasi qanday holat:",
+"options": [
+"Ruhiy",
+"Jismoniy",
+"Ijtimoiy",
+"Ma'naviy"
+],
+"page": 29,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 200,
+"q": "Verbal va noverbal muloqotlar qanday amalga oshiriladi:",
+"options": [
+"Verbal va noverbal muloqotlar bir vaqtda qo'llaniladi",
+"Avval verbal keyin noverbal muloqot",
+"Faqat verbal muloqot amalga oshiriladi",
+"Telekommunikatsiya usullari qo'llaniladi"
+],
+"page": 29,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 201,
+"q": "Dezinfeksiya turlariga qaysilar kiradi:",
+"options": [
+"Kimyofiy, biologik, texnik",
+"Profilaktik va o'choqli",
+"Fizikaviy, kimyoviy, biologik",
+"Mexanik, fizik, ijtimoiy"
+],
+"page": 29,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 202,
+"q": "Stenokardiya xurujida dori vositalarini yuborishning samarali usuli:",
+"options": [
+"Intranazal",
+"Sublingval",
+"Mushak orasiga",
+"Teri ostiga"
+],
+"page": 29,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 203,
+"q": "Yurak astmasi xurujida bemor ko'pincha qanday holatda bo'ladi:",
+"options": [
+"Qorniga oyog'ini tortgan holatda",
+"Majburiy (ortopnoe) holatda",
+"Chalqancha yostiqsiz yotgan holatda",
+"Yuztuban yotgan holatda"
+],
+"page": 29,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 204,
+"q": "Etiologiya – bu:",
+"options": [
+"Kasallik paydo bo'lish sabablari",
+"Kasallik namoyon bo'lishi va belgilari",
+"Kasallik oqibati",
+"Kasallikni oldini olish"
+],
+"page": 29,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 205,
+"q": "Yurak qisqarishi nima deyiladi:",
+"options": [
+"Sistola",
+"Diastola",
+"Yurak dam olishi",
+"Yurakning tez urishi"
+],
+"page": 29,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 206,
+"q": "EKG apparatida nechta ko'krak elektrodi bor:",
+"options": [
+"6 ta",
+"4 ta",
+"2 ta",
+"7 ta"
+],
+"page": 30,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 207,
+"q": "Mexanik antiseptikaga nimalar kiradi:",
+"options": [
+"Jarohatga birlamchi xirurgik ishlov berish",
+"Terini oshlash",
+"Jarohatni yuvish",
+"Shuntlash"
+],
+"page": 30,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 208,
+"q": "To'qimalarni ajratuvchilarga qaysi asbob kiradi:",
+"options": [
+"Pinset",
+"Uchi uchli kornsang",
+"Koxer qisqichi",
+"Kuper qaychisi"
+],
+"page": 30,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 209,
+"q": "Qon to'xtatuvchilarga qaysi asbob kiradi:",
+"options": [
+"Koxer qisqichi",
+"Tomir egri qaychisi",
+"Pinset",
+"Zond"
+],
+"page": 30,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 210,
+"q": "Deontologiya so'zining ma'nosi nima:",
+"options": [
+"Yunoncha- yurish turish, axloq",
+"Lotincha- zarur, lozim",
+"Yunoncha – zarur, lozim",
+"Lotincha – yurish turish, axloq"
+],
+"page": 30,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 211,
+"q": "Kunlik taomnomada nonushta necha %ni tashkil etadi:",
+"options": [
+"25-30%",
+"10-15%",
+"40-45%",
+"30-35%"
+],
+"page": 30,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 212,
+"q": "Antropometriya bu:",
+"options": [
+"Tana vazni, bo'y uzunligi, ko'krak aylanasi, bosh aylanasi",
+"Bo'y uzunligi, tana vazni, o'pkaning hayotiy tiriklik sig'imi, mushak kuchi",
+"A/B, puls, tana harorati, muskul kuchi",
+"Tana harorati, bo'y uzunligi, tana vazni, A/B"
+],
+"page": 30,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 213,
+"q": "Jismoniy tayyorgarlik ko'rsatgichlarini ko'rsating:",
+"options": [
+"Mehnat qobiliyati",
+"Ishtahasi yaxshi bo'lishi",
+"Ruf'e indeksi",
+"Yurak qisqarishining tezligi"
+],
+"page": 30,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 214,
+"q": "Yotoq yaralar tananing qaysi qishmida eng ko'p paydo bo'ladi:",
+"options": [
+"Dumg'azada",
+"Kurakda",
+"Yelkada",
+"Tirsakda"
+],
+"page": 31,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 215,
+"q": "Yotoq yaralarini baholash shkakashini ko'rsating:",
+"options": [
+"Glasko shkalasi",
+"Breyden va Norton shkalasi",
+"Waterlow shkalasi",
+"Apgar shkalasi"
+],
+"page": 31,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 216,
+"q": "1 yoshgacha bolalarda antropometriya necha marta o'tkaziladi:",
+"options": [
+"Har 3 oyda",
+"Har 6 oyda",
+"Yiliga",
+"Har oyda"
+],
+"page": 31,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 217,
+"q": "Obyektiv tekshirish usullarini ko'rsating:",
+"options": [
+"Palpatsiya",
+"Hayot anamnezini yig'ish",
+"Bemor shikoyatini so'rab- surishtirish",
+"Pasport qismini to'ldirish"
+],
+"page": 31,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 218,
+"q": "Quyidagi tekshiruvlardan qaysi biri rentgenologik tekshiruvga kirmaydi:",
+"options": [
+"Bronxografiya",
+"Tomografiya",
+"Bronxoskopiya",
+"Flyurografiya"
+],
+"page": 31,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 219,
+"q": "Gipogalaktiya-bu:",
+"options": [
+"Potologik holat bo'lib, ona sutini kam ajralishi",
+"Fiziologik holat bo'lib, ona sutini kam ajralishi",
+"Fiziologik holat bo'lib, ona sutini ko'p ajralishi",
+"Ko'krak sutiga sezuvchanlikni oshishi"
+],
+"page": 31,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 220,
+"q": "Subyektiv tekshiruv usuli bu …:",
+"options": [
+"Bemorni so'rab surishtirish",
+"Auskultatsiya",
+"Ko'zdan kechirish",
+"Palpatsiya"
+],
+"page": 31,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 221,
+"q": "Gipertoniya kasalligi asorati:",
+"options": [
+"Insult, miokard infarkti",
+"Hushdan ketish, kollaps",
+"Revmatizm, yurak nuqsoni",
+"Zotiljam plevrit"
+],
+"page": 32,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 222,
+"q": "Qattiq, tarang puls aniqlanadi:",
+"options": [
+"Gipertonik krizda",
+"Hushdan ketganda",
+"Kollapsda",
+"Kardiogen shokda"
+],
+"page": 32,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 223,
+"q": "O'pka auskultatsiyasida normada qanday nafas eshitilmaydi:",
+"options": [
+"Xirillash, krepitatsiya",
+"Bronxial nafas",
+"Vezikulyar nafas",
+"Bronxo-vezikulyar nafas"
+],
+"page": 32,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 224,
+"q": "Bo'g'ilish kuchayishi, ko'p miqdorda pushtirang ko'piksimon balg'am ajralishi, tomir urishi tezlashib, ipsimon bo'lib qolishi qaysi holat belgilari hisoblanadi:",
+"options": [
+"O'pka shishi",
+"Yurak astmasi",
+"Bronxial astma",
+"Gipertonik kriz"
+],
+"page": 32,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 225,
+"q": "Kasallik tarixi qayerda saqlanadi:",
+"options": [
+"Hamshira postidagi qulflanadigan qutida",
+"Shifokorlar xonasida",
+"Qabul bo'limida",
+"Katta hamshira xonasida"
+],
+"page": 32,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 226,
+"q": "F. Naytingel alohida e'tibor qaratdi",
+"options": [
+"Muhit, ovqatlanish, tabiiy sog'ayish qobiliyati",
+"Kishining moliyaviy ahvoli, tashqi ko'rinishi",
+"Jismoniy mehnat bilan shug'ullanishiga",
+"Boshidan kechirgan kasalliklarining asoratlariga"
+],
+"page": 32,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 227,
+"q": "Siydikning shaklli elementlarini qaysi usulda tekshiriladi:",
+"options": [
+"Nechiporenko",
+"Zimnitskiy",
+"Altgauzen",
+"Morovits"
+],
+"page": 32,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 228,
+"q": "Nechiporenko sinamasi uchun qaysi vaqtdagi siydikning o'tacha porsiyasi yig'iladi:",
+"options": [
+"Ertalabki",
+"Kechki",
+"Kunduzgi",
+"Tungi"
+],
+"page": 33,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 229,
+"q": "20% sulfasalitsil kislotasi bilan siydikda nima aniqlanadi:",
+"options": [
+"siydikda oqsilni bor - yo'qligini",
+"siydikda qand bor - yo'qligini",
+"siydikda kreatinin bor-yo'qligini",
+"siydikda qon bor- yo'qligini"
+],
+"page": 33,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 230,
+"q": "Nima uchun birinchi chiqqan qon tomchisi artib tashlanadi:",
+"options": [
+"shaklli elementlar spirt ta'sirida butunligini yo'qotadi",
+"leykotsit miqdori ko'p chiqadi",
+"eritrotsit miqdori ko'p chiqadi",
+"trombotsit miqdori ko'p chiqadi"
+],
+"page": 33,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 231,
+"q": "Leykoz …:",
+"options": [
+"oq qon kasalligi leykemiya",
+"jigar kasalligi",
+"taloq kasalligi",
+"ichak kasalligi"
+],
+"page": 33,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 232,
+"q": "Nima uchun oq qon deyiladi:",
+"options": [
+"o'sma ilikning leykotsitlar ildizidan topilgan",
+"o'sma ilikning eritrositlar ildizidan topilgan",
+"o'sma ilikning retikulositlar ildizidan topilgan",
+"o'sma ilikning trombositar ildizidan topilgan"
+],
+"page": 33,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 233,
+"q": "Gemoglobin qaerda bo'ladi:",
+"options": [
+"eritrotsit tarkibida",
+"leykotsit tarkibida",
+"trombotsit tarkibida",
+"retikulotsit tarkibida"
+],
+"page": 33,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 234,
+"q": "Tromboz nima:",
+"options": [
+"qonning ivishi",
+"qonni ivimasligi",
+"gemopoez",
+"qonning qovushqoqligi"
+],
+"page": 33,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 235,
+"q": "Qonni ivishi qaysi oqsilga bog'liq:",
+"options": [
+"fibrinogen",
+"protombin",
+"globulin",
+"albumin"
+],
+"page": 33,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 236,
+"q": "Me'yorda qonda gulyukoza miqdori qancha:",
+"options": [
+"3,3-5,5 ммоль",
+"3,9-6,5 ммоль",
+"3,3-6,5 ммоль",
+"3,5-7,5 ммоль"
+],
+"page": 34,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 237,
+"q": "Seroz suyuqligi qayerlardan olinadi:",
+"options": [
+"plevradan, qorin chizig'idan",
+"qovurg'a orasidan, bel sohasidan",
+"kindikdan pasroqdan, orqa miyadan",
+"suyak ko'migidan, limfa bezidan"
+],
+"page": 34,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 238,
+"q": "Seroz suyuqligi qanday nomlanadi:",
+"options": [
+"ekssudat, transsudat",
+"ekssudat, likvor",
+"likvor, transsudat",
+"serum suyuqligi, likvor"
+],
+"page": 34,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 239,
+"q": "Qaysi kasallikda balg'am mikroskopik tekshiriladi:",
+"options": [
+"o'pka silida",
+"meningitda",
+"loringitda",
+"faringitda"
+],
+"page": 34,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 240,
+"q": "Tekshirish uchun balg'am qachon olinadi:",
+"options": [
+"ertalab",
+"yarim tunda",
+"kechqurun",
+"kun davomida"
+],
+"page": 34,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 241,
+"q": "Zaxm kasalligini nima qo'zg'atadi:",
+"options": [
+"rangsiz spiroxetalar",
+"gonokokk",
+"virus",
+"stafilokokk"
+],
+"page": 34,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 242,
+"q": "Nima uchun yangi olingan siydik namunalari oftob, shuningdek, fluoressentlovchi nurlar ta'siridan ehtiyot qilinadi:",
+"options": [
+"bilirubin tez oksidlanib, biliverdinga aylanadi",
+"bilirubin neytrallanadi",
+"bilirubin tez oksidlanib, glyukozaga aylanadi",
+"bilirubin tez oksidlanib, laktozaga aylanadi"
+],
+"page": 34,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 243,
+"q": "Me'yorda ertalabki siydikning solishtirma og'irligi qancha bo'ladi:",
+"options": [
+"1,020 dan ortiq",
+"1,010 dan ortiq",
+"1,020 dan kam",
+"1,010 dan kam"
+],
+"page": 35,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 244,
+"q": "Buyraklarning siydikni konsentrlay olish yoki suyultira olish xossasini ko'rsatadigan mezon bu …:",
+"options": [
+"siydikning solishtirma og'irligi",
+"kislota-ishqoriy ko'rsatgichi",
+"rangli ko'rsatkich koeffitsienti",
+"gemotokrit hajmi"
+],
+"page": 35,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 245,
+"q": "Siydikning solishtirma og'irligini o'lchashda nimadan foydalaniladi:",
+"options": [
+"urometr",
+"termometr",
+"areometr",
+"lakmus qog'ozi"
+],
+"page": 35,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 246,
+"q": "Poliklinika so'zining ma'nosi:",
+"options": [
+"Grekcha “poli”- ko'p, “klinik”- davolash san'ati",
+"Yunoncha “poli”- ko'p, “klinik”- davolash san'ati",
+"Inglizcha “poli” kam “kinika” tashxislash",
+"Grekcha o'z- o'ziga xizmat ko'rsatuvchi muassasa"
+],
+"page": 35,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 247,
+"q": "Ambulator poliklinika turlari:",
+"options": [
+"Korxona qoshidagi tibbiy sanitariya qismi",
+"Viloyat, shahar, diagnostika markazi, ko'p tarmoqli tuman, (shahar) poliklinikasi",
+"Sanatoriya tipidagi davolash muassasalari",
+"Davolash profilaktika shifoxonalari"
+],
+"page": 35,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 248,
+"q": "Birlamchi tibbiy sanitariya yordami qayerda ko'rsatiladi:",
+"options": [
+"Qishloq vrachlik punkti (shahar vrachlik punkti, oilaviy poliklinikalar)",
+"Temir - yo'l transporti poliklinikasi",
+"Stomatologik poliklinika",
+"Davolash profilaktika shifoxonalari"
+],
+"page": 35,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 249,
+"q": "Sanitariya – profilaktik muassasalar:",
+"options": [
+"Shoshilinch tez tibbiy yordam qismlari",
+"Davlat sanitariya - epidemiologiya nazorati (respublika, viloyat, shahar, tuman) markazlari",
+"Sanatoriya tipidagi davolash muassasalari",
+"Davolash profilaktika shifoxonalari"
+],
+"page": 35,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 250,
+"q": "Kasallik tarixini passport qismi kim tomonidan to'ldiriladi:",
+"options": [
+"Tibbiyot hamshirasi",
+"Qabul bo'limi shifokor",
+"Bemorning o'zi",
+"Bo'lim boshlig'i"
+],
+"page": 36,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 251,
+"q": "Tez va shoshilinch tibbiy yordam muassasalari:",
+"options": [
+"Respublika davolash-profilaktika muassasalari",
+"Respublika shoshilinch tibbiy yordam ilmiy markazi va uning viloyatlardagi filiallari",
+"Dispenser nazorati stantsiyasi",
+"Qishloq vrachlik punkti (shahar vrachlik punkti, oilaviy poliklinikalar)"
+],
+"page": 36,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 252,
+"q": "Oilaviy poliklinikalar qanday xizmat ko'rsatadi:",
+"options": [
+"Bemorlarni ro'yhatga olish, tekshirish, davolash va profilaktika qilish",
+"Bemorlar uchun moddiy va ma'naviy yordam berish",
+"Davolash muassasasi tibbiy hujjatlarni tayyorlash va yuritish",
+"Bemorlarga laboratoriya tekshiruvlarini olib boorish"
+],
+"page": 36,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 253,
+"q": "O'g'ir bemorlarni parvarish qilishda hamshiraning jismoniy zo'riqishiga duchor bo'lishida asosan qaysi soxani shikastlanishi kuzatilashi mumkin:",
+"options": [
+"Umurtqa pog'onasini shikastlanishi",
+"Tizzalarni shikastlanishi",
+"Bosh jaroxatlanishi",
+"Ichki a'zolarni shikastlanishi"
+],
+"page": 36,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 254,
+"q": "Bemorlarni zinapoyadan zambilda ko'tarishda boshi qaysi tarafda bo'lishi kerak:",
+"options": [
+"Boshi oldiga yo'nalgan va zambilning orqa tomoni ko'tariladi",
+"Boshi orqaga yo'nalgan va zambilning oldi tomoni ko'tariladi",
+"Bemorni yarim o'tkazib ko'tariladi",
+"Bemorni zambilda olib qo'lda olib boriladi"
+],
+"page": 36,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 255,
+"q": "Bemorlarni bo'limga tashish qanday amalga oshiriladi:",
+"options": [
+"Zambilli aravachada, o'rindiqli aravachada, qo'lda, piyoda",
+"Qo'lda, oila a'zolari bilan birgalikda",
+"Ikkita sanitary yordamida",
+"Avtomobilda, liftda"
+],
+"page": 36,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 256,
+"q": "Bemorlarni qorin bilan yotqizish nima maqsadda amalga oshiriladi:",
+"options": [
+"Yotoq yaralarni oldini olish maqsadida",
+"Bosh aylanishini oldini olish maqsadida",
+"Bemorni qulaylik yaratish maqsadida",
+"Bemorni uqalash maqsadida"
+],
+"page": 36,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 257,
+"q": "Qabulxona bo'limlari nechi xil tuzilishga ega:",
+"options": [
+"Markazlashgan, markazlashmagan",
+"Oddiy va murakkab",
+"Katta bo'lim va kichik bo'lim",
+"Ichki va tashqi"
+],
+"page": 37,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 258,
+"q": "Ovqatlanish nima:",
+"options": [
+"Tirik organizmning asosiy fiziologik extiyojidir",
+"Tirik organizmning asosiy psixologik ehtiyojidir",
+"Tirik organizmning asosiy terapevtik extiyojidir",
+"Tirik organizmning asosiy farmokologik ehtiyojidir"
+],
+"page": 37,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 259,
+"q": "Avtoklavlash nima:",
+"options": [
+"Yuqori bosim ostida sterillash",
+"Qaynatib sterillash",
+"Kuydirib sterillash",
+"Qizdirib sterillash"
+],
+"page": 37,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 260,
+"q": "Hamshiralik jarayoni- bu:",
+"options": [
+"Hamshiralik parvarishiga sistematik yondashuvi",
+"Bemorni davolash",
+"Bemorni ovqatlantirish",
+"Bemorga rahbarlik qilish"
+],
+"page": 37,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 261,
+"q": "Hamshiralik jarayonining birinchi bosqichi qanday nomlanadi:",
+"options": [
+"Bemorni tekshirish",
+"Hamshiralik tashxisi",
+"Parvarish rejasini tuzish",
+"Parvarish natijalarini baxolash"
+],
+"page": 37,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 262,
+"q": "Sterlizatsiya nima:",
+"options": [
+"Mikroorganizm va ularning sporalarini yo'qotish",
+"Hashorotlarni yo'qotish",
+"Mikroorganizm va bakteriyalarni yo'qotish",
+"Sporalarni yo'qotish"
+],
+"page": 37,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 263,
+"q": "Steril qo'lqop kiyish zarur bo'lgan holatni toping:",
+"options": [
+"Qovuqni kateterlashda",
+"Bemor ostini yuvishda",
+"Bemorga ho'qna qilishda",
+"Ahlat tahlili olayotganda"
+],
+"page": 37,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 264,
+"q": "Dezinfeksiya nima:",
+"options": [
+"Infeksiya manbai bo'lgan mikroorganizmlarni yo'qotish",
+"MIkroorganizm va ularni sporalarini yo'qotish",
+"Hashorotlarga qarshi kurashish",
+"Kemiruvchilarga qarshi kurashish"
+],
+"page": 37,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 265,
+"q": "Biks nima:",
+"options": [
+"Avtoklav jihozi",
+"Sterillash buyumini olib boradiga asbob",
+"Idishlar turadigan shkaf",
+"Bog'lov materiallari uchun shkaf"
+],
+"page": 38,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 266,
+"q": "Sterillik buzilganda qanday choralar ko'riladi:",
+"options": [
+"Sterillash to'xtatiladi",
+"Sterillik tekshiriladi, qayta qilinadi",
+"Sterillanmagan asboblar bo'limga qaytariladi",
+"Asbob uskunalar utilizatsiya qilinadi"
+],
+"page": 38,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 267,
+"q": "Qo'lqoplarning turlari:",
+"options": [
+"Steril va nostril",
+"Himoya, tozalovchi",
+"Steril va kirlangan",
+"Toza va steril"
+],
+"page": 38,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 268,
+"q": "Axlat va qusuq massasini yo'qotishga qanday xlorli vosita qo'llaniladi:",
+"options": [
+"Xlor kukuni",
+"Xlor eritmasi",
+"Xloramin",
+"Gipoxlorit Ca"
+],
+"page": 38,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 269,
+"q": "Sistolik arterial bosimning normadagi xajmi oshmasligi kerak:",
+"options": [
+"140 mm. sim. ust",
+"100 mmsim. ust",
+"110 mmsim. ust",
+"160 mmsim. ust"
+],
+"page": 38,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 270,
+"q": "Qo'ltiq osti sohasida haroratni o'lchash davomiyligi:",
+"options": [
+"10 minut",
+"6 minut",
+"8 minut",
+"15 minut"
+],
+"page": 38,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 271,
+"q": "Insperator xansirash – bu:",
+"options": [
+"Nafas olish yetishmovchiligi",
+"Nafas chiqarish yetishmovchiligi",
+"Aralash nafas yetishmovchiligi",
+"Nafas olishning tezlashishi"
+],
+"page": 38,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 272,
+"q": "Isitmaning birinchi davrida bemor parvarishi uchun kerak:",
+"options": [
+"Isitgich, issiq choy, ko'rpa",
+"Muzli xaltacha, sovuq choy, ustki kiyim bosh yechiladi",
+"Qo'l oyoqlariga compress",
+"Tez tez suyuqlik ichirish va parasetamol"
+],
+"page": 39,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 273,
+"q": "Isitmaning birinchi davrida qo'llaniladi:",
+"options": [
+"Isitgich",
+"Muzli halta",
+"Namlab artish",
+"Sovuq kompress"
+],
+"page": 39,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 274,
+"q": "Infeksiya lotincha so'zdan olingan bo'lib, qanday ma'noni bildiradi:",
+"options": [
+"ifloslanish, yuqish",
+"yuqumli kasallik",
+"vaksina",
+"tuzalmas kasallik"
+],
+"page": 39,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 275,
+"q": "Infeksiya nima:",
+"options": [
+"Organizmga zararli mikroorganizmlarning kirib kelishi natijasida yuzaga keladigan kasallik",
+"botulizm kasalligini qo'zg'atuvchisi",
+"bakteriyalar majmui",
+"viruslar majmuasi"
+],
+"page": 39,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 276,
+"q": "Ekzogen infeksiya nima:",
+"options": [
+"Tashqi muhitdan (tashqi atrofdan) organizmga kiradigan mikroorganizmlar sababli yuzaga keladigan infektsiya turi",
+"yashirin infeksiyalar",
+"uzoq davom etadigan kasallik turi",
+"qisqa vaqt davom etadigan kasallik turi"
+],
+"page": 39,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 277,
+"q": "Kasalxona ichi infeksiyasi deb nimaga aytiladi:",
+"options": [
+"bemor shifoxonaga yotgach yoki shifokorga murojat etgandan keyin aniqlangan yoki shu muassasada ishlaydigan davrida kelib chiqqan infeksiya",
+"kasallikning yashirin davri",
+"organizmning asosiy vazifalarini boshqarib turgan fiziologik mexanizmning buzilishi natijasida rivojlangan kasallik",
+"birlamchi mikrobning organizmda yo'qolmasdan turib qaytalanishi"
+],
+"page": 39,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 278,
+"q": "Pedikulyoz qayerlarda uchraydi:",
+"options": [
+"boshda, chovda, kiyim choklarida",
+"qo'ltiqda, yuzda",
+"oyoq-kiyim ichida",
+"badanda"
+],
+"page": 39,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 279,
+"q": "Bosh, kiyim bitlari qanday og'ir yuqumli kasalliklarni olib keladi:",
+"options": [
+"toshmali, qaytalama tif",
+"ichak infeksiyasi",
+"qoqshol",
+"allergiik kasalliklar"
+],
+"page": 40,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 280,
+"q": "Tibbiy chiqindilarni yo'qotish nima deyiladi:",
+"options": [
+"Utilizatsiya",
+"Dezinfeksiya",
+"Sterilizatsiya",
+"Deratizatsiya"
+],
+"page": 40,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 281,
+"q": "Profilaktik dezinfeksiya nima:",
+"options": [
+"xali kasallik kelib chiqmagan joyda olib boriladigan dezinfeksiya",
+"kasallik o'chog'ida olib boriladigan dezinfeksiyaga aytiladi",
+"bemor yotgan xonani yuvib tozalash",
+"asboblarni yuqumsizlantirish"
+],
+"page": 40,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 282,
+"q": "Haroratning balandligiga qarab turlari:",
+"options": [
+"Subnormal, normal, subfebrile",
+"O'rtacha, yuqori, o'ta yuqori",
+"Tez o'tib ketadigan, o'tkir, o'rtacha o'tkir, cho'ziladigan",
+"Doimiy, noraso, gektik"
+],
+"page": 40,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 283,
+"q": "Kritik isitma nima:",
+"options": [
+"Tana harorati 40℃ dan oshishi",
+"Tana haroratini tushib ketishi",
+"Tana haroratining 36,6℃ dan ko'tarilishi",
+"Tana haroratining o'zgarishsiz qolishi"
+],
+"page": 40,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 284,
+"q": "Isitmaning uzoq davom etishiga ko'ra turlari:",
+"options": [
+"Tez o'tib ketadigan, o'tkir, o'rtacha o'tkir, cho'ziladigan",
+"Doimiy, noraso, gektik",
+"O'rtacha, yuqori, o'ta yuqori",
+"Subnormal, normal, subfebrile"
+],
+"page": 40,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 285,
+"q": "Haroratning o'zgarishiga qarab istimaning turlari:",
+"options": [
+"Doimiy, noraso, gektik",
+"O'rtacha, yuqori, o'ta yuqori",
+"Subnormal, normal, subfebrile",
+"Tez o'tib ketadigan, o'tkir, o'rtacha o'tkir, cho'ziladigan"
+],
+"page": 40,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 286,
+"q": "Tez o'tib ketadigan istima qancha davom etadi:",
+"options": [
+"Bir necha saotdan 1-2 kungacha",
+"Bir necha daqiqadan 1-2 soatgacha",
+"3-5 kungacha",
+"20-30 daqiqa"
+],
+"page": 40,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 287,
+"q": "O'tkir istma qancha vaqtgacha davom etadi:",
+"options": [
+"15 kungacha",
+"2 kungacha",
+"45 kungacha",
+"1 oygacha"
+],
+"page": 41,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 288,
+"q": "Cho'zilgan istma qancha vaqt davom etadi:",
+"options": [
+"45 kun va undan ko'p",
+"45 kun va undan kam",
+"10 kungacha",
+"1-2 soat"
+],
+"page": 41,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 289,
+"q": "Baland bo'lib uzoq davom etadi va harorat kuniga 1 gradusdan ko'p o'zgarmaydi. Bu qanday istima turi:",
+"options": [
+"Doimiy",
+"Cho'zilgan",
+"Gektik",
+"Noraso"
+],
+"page": 41,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 290,
+"q": "Puls turtkilari bir xil vaqt ichida birin – ketin kelsa qanday puls bo'ladi:",
+"options": [
+"Ritmik",
+"Aritmik",
+"Sistolik",
+"Diastolik"
+],
+"page": 41,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 291,
+"q": "Kontrast modda siydik yo'llarini birini to'ldirmasa qanday patologik holat haqida o'ylash mumkin:",
+"options": [
+"Siydik –tosh kasalligi",
+"O't-tosh kasallgi",
+"Buyrak jomlarini yallig'lanishi",
+"Sistit"
+],
+"page": 41,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 292,
+"q": "Xolegrafiya uchun qanday contrast modda ishlatiladi:",
+"options": [
+"Bilignost",
+"Urotrast",
+"Serogozin",
+"Bilitrast"
+],
+"page": 41,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 293,
+"q": "Patogenlik – bu:",
+"options": [
+"Sindrom",
+"Etiologiya",
+"Diagnoz",
+"Kasallik keltirib chiqarish"
+],
+"page": 41,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 294,
+"q": "Krupoz zotiljamda balg'am qanday bo'ladi:",
+"options": [
+"Zangsimon",
+"Shishasimon",
+"Ko'pikli",
+"Qon aralash"
+],
+"page": 42,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 295,
+"q": "O'pka abstsessini davolashda samarali usul qaysi:",
+"options": [
+"Antibiotikni bronhoskop yordamida bronxlarga yuborish",
+"Antibiotikni muskul orasiga yuborish",
+"Antibiotikni og'iz orqali qabul qilish",
+"Antibiotikni vena ichiga yuborish"
+],
+"page": 42,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 296,
+"q": "Bronxial astma xurujida ishlatilmaydi:",
+"options": [
+"Antibiotiklar",
+"Antigistaminlar",
+"Bronxolitiklar",
+"Spazmolitiklar"
+],
+"page": 42,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 297,
+"q": "O'pka ganrenasi qo'zg'atuvchisi:",
+"options": [
+"Anaerob mikroflora",
+"Viruslar",
+"Turli hil bakteriyalar",
+"Stafilokokkalr"
+],
+"page": 42,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 298,
+"q": "Bochkasimon ko'krak qafasi kuzatiladi:",
+"options": [
+"Bronxial astmada",
+"O'pka abstsessida",
+"Bronhoektatik kasallikda",
+"O'pka ganrenasida"
+],
+"page": 42,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 299,
+"q": "Plevra punktsiyasida foydalaniladi:",
+"options": [
+"Poten apparati",
+"Darsenval apparatidan",
+"Bronhofibroskopiya",
+"Fibrogastroskopdan"
+],
+"page": 42,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 300,
+"q": "Plevra ishqalanish tovushi kuzatiladi:",
+"options": [
+"Quruq plevritda",
+"Ekssudativ plevritda",
+"Krupoz pnevmoniyada",
+"O'pka emfizemasida"
+],
+"page": 42,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 301,
+"q": "Bronxial astmada balg'am:",
+"options": [
+"Shishasimon, oz miqdorda",
+"Yiringli",
+"Shilimshiq – yiringli",
+"Shokolad tusida va ko'lansa hidli"
+],
+"page": 43,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 302,
+"q": "O'pka raki etiologiyasi. Ortig'ini chiqaring:",
+"options": [
+"O'pka surunkali kasalliklari",
+"Chang va kimyoviy birikmalarni nafas yo'llariga taesiri",
+"Zararli odatlar – chekish",
+"Organizmning himoya kuchlarini susayishi"
+],
+"page": 43,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 303,
+"q": "JSST(Jahon sogliqni saqlash tashkiloti) tomonidan tavsiya qilingan arterial bosim:",
+"options": [
+"Sistolik 100 – 139 mm. s/u, diastolik 60 – 90 mm. s/u",
+"Sistolik 100 – 120 mm. s/u. diastolik 80– 100 mm. s/u",
+"Sistolik 110 – 160 mm. s/u, diastolik 60 – 90 mm. s/u",
+"Sistolik 120 – 140 mm. s/u. diastolik 70 – 90 mm. s/u"
+],
+"page": 43,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 304,
+"q": "Gipertonik krizda shoshilinch yordam:",
+"options": [
+"Gipotenzivlar",
+"Nitratlar",
+"Antibiotiklar",
+"Antigistaminlar"
+],
+"page": 43,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 305,
+"q": "Yurakning ishemik kasalliklariga kirmaydi:",
+"options": [
+"Stenokardiya",
+"Miokardit",
+"Miokard infarkti",
+"Aterosklerotik kardioskleroz"
+],
+"page": 43,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 306,
+"q": "Miokard infarkti hurujida yordam bermaydi:",
+"options": [
+"Atropin sulfat",
+"Promedol",
+"Baralgin",
+"Morfin"
+],
+"page": 43,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 307,
+"q": "Miokard infarkti o'tkir davrida bemor yotoq rejimga:",
+"options": [
+"Qatiy rioya qilishi shart",
+"Yotoq rejim shart emas",
+"Jismoniy zo'riqish cheklanmagan",
+"O'zini yahshi his qilsa, yotoq rejimi shart emas"
+],
+"page": 43,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 308,
+"q": "Hushdan ketish sabablariga kirmaydi:",
+"options": [
+"Ko'p suyuqlik yo'qotish",
+"Emotsional va ruhiy zo'riqish",
+"Jaziramada uzoq vaqt bo'lish",
+"Shamollatilmagan honadalarda nerv sistemasi kuchsiz shahslarni uzoq vaqt bo'lishi"
+],
+"page": 43,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 309,
+"q": "O'n ikki barmoq yara kasalligida og'riq kuzatiladi:",
+"options": [
+"Och qoringa va tungi og'riqlar",
+"Ovqatlangandan 30 minut o'tgach",
+"Ovqatlangandan 1 soat o'tgach",
+"Bemor ovqatlanishiga bog'liq emas"
+],
+"page": 44,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 310,
+"q": "Yara kasalligi qon ketishi bilan asoratlanganda ich kelishi:",
+"options": [
+"Ich qoramoysimon",
+"O'zgarishsiz",
+"Ahlat oqargan",
+"Ich to'htovsiz ketadi"
+],
+"page": 44,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 311,
+"q": "Zimnitskiy sinamasi yordamida aniqlanadi:",
+"options": [
+"Kontsentrlash layoqati",
+"Siydik reaktsiyasi",
+"Siydikdagi qand miqdori",
+"Oqsil bor-yo'qligi"
+],
+"page": 44,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 312,
+"q": "Buyrak struktur – funktsional birligi:",
+"options": [
+"Nefron",
+"Kapillyar",
+"Neyron",
+"Buyrak piramida"
+],
+"page": 44,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 313,
+"q": "Bel sohasiga urib ko'rilganda aniqlanadi:",
+"options": [
+"Pasternatskiy simptomi",
+"Lasseg simptomi",
+"Petrovskiy simptomi",
+"Babinskiy simptomi"
+],
+"page": 44,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 314,
+"q": "Buyrak sanchig'ida qo'llash mumkin emas:",
+"options": [
+"Bel sohasiga muzli haltacha qo'yish",
+"Papaverin gidroxlorid muskul orasiga",
+"Baralgin 5 ml muskul orasiga",
+"Issiq vanna"
+],
+"page": 44,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 315,
+"q": "Buyrak kasalliklarida shishlar paydo bo'ladi:",
+"options": [
+"Ertalab yuzda",
+"Ertalab oyoqlarda",
+"Kechqurun oyoqlarda",
+"Kechqurun yuzda"
+],
+"page": 44,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 316,
+"q": "Pielonefritda shikastlanadi:",
+"options": [
+"Buyrak jomlari",
+"Nefronlar",
+"Kapsula",
+"Kapillyarlar"
+],
+"page": 45,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 317,
+"q": "Astsit – bu:",
+"options": [
+"Qorin bo'shlig'iga suyuqlik to'planishi",
+"Plevra bo'shlig'iga suyuqlik to'planishi",
+"Qorin bo'shlig'ida biriktrruvchito'qima rivojlanishi",
+"Orqa miya suyuqligi ko'payib ketishi"
+],
+"page": 45,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 318,
+"q": "Jigar tsirrozi sababchisi:",
+"options": [
+"Virusli gepatit",
+"Revmatizm",
+"Me'da yara kasalligi",
+"Enteritlar"
+],
+"page": 45,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 319,
+"q": "O't-tosh kasalligida qanday sariqlik kuzatiladi:",
+"options": [
+"Mexanik sariqlik",
+"Gemolitik sariqlik",
+"Parenhimatoz sariqlik",
+"Ruhiy sariqlik"
+],
+"page": 45,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 320,
+"q": "Jigar tsirrozining klinik formalariga kirmaydi:",
+"options": [
+"Postgemorragik sirroz",
+"Portal tsirroz",
+"Postnekrotik tsirroz",
+"Billiar tsirroz"
+],
+"page": 45,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 321,
+"q": "Birdaniga ko'p qon yo'qotish sababli kelib chiqadigan anemiya –bu:",
+"options": [
+"O'tkir postgemorragik anemiya",
+"Surunkali postgemorragik anemiya",
+"Folat defitsit anemiyasi",
+"Temir defitsit anemiyasi"
+],
+"page": 45,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 322,
+"q": "Endemik buqoqning asosiy sababchisi:",
+"options": [
+"Yod tanqisligi",
+"Insulin",
+"Jarohatlar",
+"Infektsiyalar"
+],
+"page": 45,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 323,
+"q": "Qandli diabet bilan og'rigan bemorlarni parvarish qilishda nima muhim hisoblanadi:",
+"options": [
+"Parhezga rioya qilish",
+"Diurezni o'lchash",
+"Termometriya",
+"Yotish tartibi"
+],
+"page": 46,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 324,
+"q": "Qalqonsimon bez faoliyatini aniqlashda qaysi tekshirish usullaridan foydalaniladi:",
+"options": [
+"Skanirlash",
+"Endoskopiya",
+"Spirografiya",
+"Rentgenografiya"
+],
+"page": 46,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 325,
+"q": "Diffuz toksik buqoqda ko'zning chaqchayib turishi – bu:",
+"options": [
+"Ekzoftalm",
+"Gitelьfag simptomi",
+"Mebius belgisi",
+"Endoftalm"
+],
+"page": 46,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 326,
+"q": "Qalqonsimon bez funktsiyasi kamayganligi – bu:",
+"options": [
+"Gipotireoz",
+"Gipertireoz",
+"Eutireoz",
+"Tireotoksikoz"
+],
+"page": 46,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 327,
+"q": "Qalqonsimon bez bemor yutinganda ko'zga ko'rinsa, uning kattalashishi nechanchi darajasi bo'ladi:",
+"options": [
+"III - darajasi",
+"I - darajasi",
+"II-darajasi",
+"IV-darajasi"
+],
+"page": 46,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 328,
+"q": "Qandli diabetda qanday o'zgarishlar bo'ladi:",
+"options": [
+"Qonda qand miqdori ortib ketadi",
+"Siydikda qon paydo bo'ladi",
+"Qonda leykotsit paydo bo'ladi",
+"Qonda bilirubin ortib ketadi"
+],
+"page": 46,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 329,
+"q": "Qonda qand miqdori kamayib ketganda qanday yordam ko'rsatiladi:",
+"options": [
+"Shirin choy ichiriladi",
+"Non beriladi",
+"Insulin yuboriladi",
+"Qatiq ichiriladi"
+],
+"page": 46,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 330,
+"q": "Giperglikemik koma belgisi hisoblanmaydi:",
+"options": [
+"Bemor ochlik hissini sezish",
+"Qattiq chankash",
+"Og'zidan atseton hidi kelib turishi",
+"Uyquchanlik"
+],
+"page": 47,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 331,
+"q": "Qon yaratish a'zolariga kiradi:",
+"options": [
+"Suyak ko'migi, taloq, limfa tugunlari, jigar",
+"Jigar, oshqozon, yurak",
+"Taloq va jigar",
+"Taloq, jigar va yurak"
+],
+"page": 47,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 332,
+"q": "Anemiya turlari. (noto'g'risini ko'rsating):",
+"options": [
+"Tromboplastik",
+"Pernitsioz",
+"Postgemorragik.",
+"Gemolitik"
+],
+"page": 47,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 333,
+"q": "“Laklangan til” belgisi qaysi anemiya uchun xos:",
+"options": [
+"Gipoplastik anemiya",
+"Vitamin V12 defitsit anemiya",
+"Temir defitsit anemiya",
+"Gemolitik anemiya"
+],
+"page": 47,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 334,
+"q": "Gemolitik anemiyani davolash usuli:",
+"options": [
+"Splenektomiya",
+"Sitostatiklar yordamida davolash",
+"Gormonoterapiya",
+"Temir moddasini saqlovchi preparatlar buyurish"
+],
+"page": 47,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 335,
+"q": "Hamshiralik jarayonining ikkincni bosqichi qanday nomlanadi:",
+"options": [
+"Bemorni tekshirish",
+"Hamshiralik tashxisi",
+"Parvarish rejasini tuzish",
+"Parvarish natijalarini baxolash"
+],
+"page": 47,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 336,
+"q": "Qand miqdorini pasaytiruvchi peroral vositalarga kirmaydi:",
+"options": [
+"Suinsulin",
+"Maninil",
+"Aktrapid",
+"Glibenklamid"
+],
+"page": 47,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 337,
+"q": "Glyukozaga tolerantlik testi nima maqsadda o'tkaziladi:",
+"options": [
+"Yashirin diabetni aniqlash uchun",
+"Bemor uchun zarur bo'lgan insulin miqdorini aniqlash uchun",
+"Qandli diabetni kompensatsiya bosqichlarini aniqlash uchun",
+"Kundalik qand me'yorini aniqlash uchun"
+],
+"page": 47,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 338,
+"q": "Siydikdagi qand miqdorini aniqlash uchun qanday yig'iladi:",
+"options": [
+"Bir kecha-kunduz davomida yig'iladi",
+"Ertalab nahorga",
+"Siydikning o'rta portsiyasi olinadi",
+"10 soat mobaynida ajralgan siydik olinadi"
+],
+"page": 48,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 339,
+"q": "Gipoglikemik koma sabablari:",
+"options": [
+"Insulin miqdorini ko'payib ketishi",
+"Insulin miqdorini kamayib ketishi",
+"Engil hazm bo'ladigan uglevodlarga boy mahsulotlar",
+"Kuchli his-hayajon"
+],
+"page": 48,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 340,
+"q": "Diffuz toksik buqoqqa hos ko'z simptomi:",
+"options": [
+"Greffe simptomi, ko'z chaqchayib turishi",
+"Myusse simptomi",
+"Pasternatskiy simptomi",
+"Shetkin-Blyumberg simptomi"
+],
+"page": 48,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 341,
+"q": "Qalqonsimon bez kasalliklarini aniqlashda qo'llaniladigan tekshirish:",
+"options": [
+"Skanirlash, qondagi gormonlar miqdorini tekshirish",
+"Rentgenografiya, qonning umumiy tahlili",
+"Laporoskopiya tekshiruvi",
+"EFGDS(ezofagogastroduodenoskopiya)"
+],
+"page": 48,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 342,
+"q": "Bazedov kasalligi uchun hos bo'lgan belgilar yig'indisini aniqlang:",
+"options": [
+"Qalqonsimon bez kattalashishi, yurak tez urib ketishi, tajanglik, ozib ketish",
+"Ko'z chaqchayishi, ich qotishi, asosiy almashinuv sekinlashadi",
+"Ko'z chaqchayishi, badan terisi qurishi, uyqusizlik, poliuriya va polidepsiya",
+"Badanda shish, yuzning oysimon bo'lishi, teridagi o'zgarishlar"
+],
+"page": 48,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 343,
+"q": "Siydikning nisbiy zichligi doimo past bo'lishi qanday ataladi:",
+"options": [
+"Gipostenuriya",
+"Giperstenuriya",
+"Ishuriya",
+"Izostenuriya"
+],
+"page": 48,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 344,
+"q": "Verlgof kasalligida qondagi o'zgarishlar:",
+"options": [
+"Trombotsitopeniya",
+"Leykotsitoz",
+"Qon ivishi omillarining tanqisligi",
+"Kapillyar mustahkamligi izdan chiqishi"
+],
+"page": 48,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 345,
+"q": "Revmatoid artrit klinik manzarasi uchun hos bo'lgan belgini toping:",
+"options": [
+"Mayda bo'g'imlar zararlanadi",
+"Yirik bo'g'imlar (son, to'piq, tizza, tirsak kabi) bo'g'imlar zararlanadi",
+"Bo'g'imlardagi og'riqlar “uchuvchi” bo'lishi",
+"Zararlangan bo'g'im sohasida mahalliy harorat past bo'lishi"
+],
+"page": 49,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 346,
+"q": "Glomerulonefrit uchun hos bo'lgan belgini aniqlang:",
+"options": [
+"Yallig'lanish jarayoni faqat ikki tomonlama bo'lishi",
+"Arterial bosim uzoq yillar normal ko'rsatkichlarda bo'lishi",
+"Buyraklar jomi zararlanishi",
+"Siydikda glyukoza paydo bo'lishi"
+],
+"page": 49,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 347,
+"q": "Buyrak vazifalariga kirmaydi:",
+"options": [
+"Qon ivuvchanligini idora etish",
+"Qon hujayralari yaratilishida ishtirok etish",
+"Ekskretor vazifasi",
+"Qon bosimini idora etish"
+],
+"page": 49,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 348,
+"q": "Buyrakning eng kichik funktsional birligi hisoblanadi:",
+"options": [
+"Nefron",
+"Koptokcha",
+"Boumen kapsulasi",
+"Kapillyarlar tuguni"
+],
+"page": 49,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 349,
+"q": "Glomerulonefrit uchun hos bo'lgan siydik sindromini toping:",
+"options": [
+"Proteinuriya, gematuriya, tsilindruriya",
+"Piuriya, gematuriya, glyukozuriya",
+"Proteinuriya, leykotsituriya",
+"Leykotsituriya, glyukozuriya, tsilindruriya"
+],
+"page": 49,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 350,
+"q": "Pielonefrit patogenezidagi asosiy omil:",
+"options": [
+"Infektsion o'chog'i",
+"Allergik holat",
+"Intoksikatsiya",
+"Gipovitaminoz"
+],
+"page": 49,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 351,
+"q": "Buyrak-tosh kasalligining sababini toping:",
+"options": [
+"Minerallar-tuzlar almashinuvi",
+"Moddalar almashinuvi izdan chiqishi",
+"Oqsillar muvozanati buzilishi",
+"Uzoq vaqt yotoq rejimida bo'lish"
+],
+"page": 49,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 352,
+"q": "Siydikning nisbiy zichligi normada:",
+"options": [
+"1010-1025",
+"1014-1030",
+"1110-1104",
+"1010-1015"
+],
+"page": 49,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 353,
+"q": "Pielonefrit da infektsion omil buyrakka qaysi yo'l bilan tushmaydi:",
+"options": [
+"Alimentar",
+"Gematogen",
+"Limfogen",
+"Urogen"
+],
+"page": 50,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 354,
+"q": "O'tkir allergozlarga kiradi:",
+"options": [
+"Artyus fenomeni",
+"Neyrodermit",
+"Ekzema",
+"Revmatoid artrit"
+],
+"page": 50,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 355,
+"q": "Ekzoallergenlarga kiradi:",
+"options": [
+"Barcha javoblar to'g'ri",
+"Viruslar",
+"Oziq-ovqat mahsulotlari",
+"O'simliklar changi"
+],
+"page": 50,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 356,
+"q": "Anafilaktik shok sabablari bo'la olmaydi:",
+"options": [
+"Spirtli ichimliklar iste'mol qilish",
+"Ari zahari",
+"Antibiotiklar",
+"Ilon chaqishi"
+],
+"page": 50,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 357,
+"q": "Kvinke shishida tez yordam choralariga kiradi:",
+"options": [
+"Traxeostomiyani bajarish",
+"Muskul orasiga penitsillin yuborish",
+"Og'riq qoldiruvchi vositalarni tomirga yuborish",
+"Zudlik bilan narkotik analgetiklarni yuborish"
+],
+"page": 50,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 358,
+"q": "Allergik holatlarni oldini olish maqsadida qanday sinamalar qo'llanilmaydi:",
+"options": [
+"Mushak orasiga",
+"Teri orasiga",
+"Til ostiga",
+"Teri ichiga"
+],
+"page": 50,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 359,
+"q": "Suvda eriydigan vitaminlarga kiradi:",
+"options": [
+"Askorbin kislota",
+"D vitamin",
+"Tokoferol atsetat",
+"K vitamini"
+],
+"page": 50,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 360,
+"q": "Yog'larda eriydigan vitaminni aniqlang:",
+"options": [
+"Vitamin Е",
+"Riboflavin",
+"Rutin",
+"Piridoksin"
+],
+"page": 51,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 361,
+"q": "Nafas olishning tezlashuvi nima deb ataladi",
+"options": [
+"Taxipnoe",
+"Dispnoe",
+"Apnoe",
+"Bradipnoe"
+],
+"page": 51,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 362,
+"q": "Qusish necha turga bo'linadi",
+"options": [
+"Markaziy, periferik",
+"Ixtiyoriy va doimiy",
+"Aktiv va passiv",
+"Majburiy va periferik"
+],
+"page": 51,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 363,
+"q": "Tana haroratini o'lchash joylari:",
+"options": [
+"Og'iz bo'shlig'i, qo'ltiq osti to'gri ichak",
+"Qo'ltiq osti to'gri ichak, tirsak bo'shlig'i",
+"Qo'ltiq osti to'gri ichak, tirsak bo'shlig'i, peshonada",
+"Og'iz bo'shlig'i, qo'ltiq osti, quloq orti"
+],
+"page": 51,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 364,
+"q": "(OIV) odam immunotanqislik virus2 qo'zg'atuvchisini aniqlang",
+"options": [
+"-Retrovirus",
+"-Pilovirus",
+"-Bakteriya",
+"-DNK saqlovchi virus"
+],
+"page": 51,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 365,
+"q": "Qandli diabet davosi:",
+"options": [
+"Insulin",
+"Antibiotiklar",
+"Parhez №5",
+"Sedativ vositalar"
+],
+"page": 51,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 366,
+"q": "Insulin inyektsiyasidan so'ng keyingi asoratlar:",
+"options": [
+"Gipoklikemik koma",
+"Yurak yetishmovchiligi",
+"Lipodistrofiyalar",
+"Tana haroratini ko'tarilishi"
+],
+"page": 51,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 367,
+"q": "Gipotireozda qalqonsimon bez faoliyati qanday o'zgaradi:",
+"options": [
+"Pasayadi",
+"Ko'payadi",
+"Normada",
+"O'zgarmaydi"
+],
+"page": 51,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 368,
+"q": "Miksedema kasalligida qaysi gormonlar yetishmaydi:",
+"options": [
+"Tireoidin",
+"Insulin",
+"Testosteron",
+"Adrenalin"
+],
+"page": 52,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 369,
+"q": "Qandli diabetda siydikdagi o'zgarishlar:",
+"options": [
+"Glukozuriya",
+"Gematuriya",
+"Oliguriya",
+"Gipoizostenuriya"
+],
+"page": 52,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 370,
+"q": "Qandli diabetning yengil turida qondagi qandning miqdori:",
+"options": [
+"7,77 m.mol/l. gacha",
+"10 m. mol/l. gacha",
+"5,55 m.mol/l. gacha",
+"0 m. mol/l. gacha"
+],
+"page": 52,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 371,
+"q": "Diffuz-toksik buqoqda gormonlar soni:",
+"options": [
+"Ortadi",
+"Pasayadi",
+"Normada",
+"Tez tez o'zgaruvchan"
+],
+"page": 52,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 372,
+"q": "Bazedov kasalligida yurak urishining o'zgarishlari:",
+"options": [
+"Taxikardiya",
+"Bradikardiya",
+"Aritmiya",
+"Ekstrasistoliya"
+],
+"page": 52,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 373,
+"q": "Bemorni yarim o'tirgan va yarim yotgan holati qanday ataladi:",
+"options": [
+"”Fauler” holati",
+"“Sims” holati",
+"“Trendelenburg” holati",
+"Majburiy holat"
+],
+"page": 52,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 374,
+"q": "Tireotoksikoz kasalligida quyidagi belgilar kuzatiladi:",
+"options": [
+"Taxikardiya, ekzoftalm, buqoq kattalashishi",
+"Taxikardiya, tez charchash, tirnoqlarni sinishi",
+"Taxikardiya, qizish, bosh og'rishi",
+"Bradikardiya, gipotermiya, apatiya, soch to'kilishi"
+],
+"page": 52,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 375,
+"q": "Giperglikemiya – bu …:",
+"options": [
+"Qonda qand miqdorini ko'payishi",
+"Qonda qand miqdorini kamayishi",
+"Siydikda qand paydo bo'lishi",
+"Qonda urat kislotani ko'payish"
+],
+"page": 53,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 376,
+"q": "Insulin yetishmovchiligi nimaga olib keladi:",
+"options": [
+"Gipoglikemiyaga",
+"Giperglikemiyaga",
+"Kaheksiyaga",
+"Oliguriyaga"
+],
+"page": 53,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 377,
+"q": "Biologik allergenlarga kiradi:",
+"options": [
+"Viruslar, zamburug'lar, zardob, vaksina",
+"Mikroblar, dori preparatlari",
+"Organizmdagi oQsillar, viruslar",
+"Zah uylar devorida bo'ladigan mog'orlar"
+],
+"page": 53,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 378,
+"q": "Polidipsiya – bu …:",
+"options": [
+"Ko'p suv ichish",
+"Ko'p siyish",
+"Ko'p ovqat yeyish",
+"Zarda qaynashi"
+],
+"page": 53,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 379,
+"q": "Qandli diabetning alomatlari:",
+"options": [
+"Vazni pasayishi, poliuriya, teri qichishishi, yiringli kasalliklar paydo bo'lishi",
+"Polifagiya, semirish, poliuriya, tahikardiya",
+"Polidipsiya, hansirash, qabziyat",
+"Nafas qisishi, gipertoniya"
+],
+"page": 53,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 380,
+"q": "Miksedema kasalligining davosi",
+"options": [
+"Tireoidin",
+"Merkazolil",
+"Insulin",
+"Dezapimon"
+],
+"page": 53,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 381,
+"q": "Gipoglikemik komaga sabab:",
+"options": [
+"Insulin olgandan song ovqatlanmaslik",
+"Insulinni kam yuborish",
+"Och qolish",
+"Ko'p ovqat yeyish"
+],
+"page": 53,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 382,
+"q": "Gipoterioz kasalligida quyidagi belgilar kuzatiladi:",
+"options": [
+"Bradikardiya, gipotermiya, apatiya, soch to'kilishi",
+"Taxikardiya, tez charchash, tirnoqlarni sinishi",
+"Taxikardiya, qizish, bosh og'rishi",
+"Amenoreya, mimikani yo'qligi, semirish"
+],
+"page": 53,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 383,
+"q": "Diffuz-toksik buqoq kasalligining davosi:",
+"options": [
+"Merkazolil",
+"Tireoidin",
+"Insulin",
+"9-chi parhez"
+],
+"page": 54,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 384,
+"q": "Gipoglikemiya – bu …:",
+"options": [
+"Qonda qand miqdorini kamayishi",
+"Qonda qand miqdorini ko'payishi",
+"Siydikda qand paydo bo'lishi",
+"Qonda urat kislotani ko'payishi"
+],
+"page": 54,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 385,
+"q": "Qandli diabetning asoratlaridan qaysinisi ko'proq uchraydi:",
+"options": [
+"Diabetik koma",
+"Gipoglikemik koma",
+"Tireotoksik kriz",
+"Uremik koma"
+],
+"page": 54,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 386,
+"q": "Polifagiya – bu …:",
+"options": [
+"Ko'p ovqat yeyish",
+"Ko'p siyish",
+"Ko'p suv ichish",
+"Zarda qaynashi"
+],
+"page": 54,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 387,
+"q": "Diabet komaning boshlang'ich belgilari:",
+"options": [
+"Nafas olganda atseton xidi kelishi",
+"Xolsizlik, kuchli chanqov",
+"Polifagiya, poliuriya",
+"Hushdan ketish"
+],
+"page": 54,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 388,
+"q": "Sub'yektiv tekshirishda nima aniqlanadi:",
+"options": [
+"Kasallik anamnezi",
+"Bemorning ahvoli",
+"Bemorning es-hushi",
+"Bemorning vazni"
+],
+"page": 54,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 389,
+"q": "Kvinke shishining ko'rinishi:",
+"options": [
+"Terida toshmalar, terini kichinishi",
+"Terini kichinishi, burun, lablarning kattalashishi",
+"Yuzi ko'kargan, bo'yin venalari kengaygan",
+"Kuchli xolsizlik, hansirash, ko'ngil aynashi, hushdan ketish"
+],
+"page": 54,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 390,
+"q": "Anafilaktik shokda ishlatiladi:",
+"options": [
+"Adrenalin",
+"Papaverin",
+"Morfiy",
+"Dimedrol"
+],
+"page": 55,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 391,
+"q": "Qandli diabetda qanday parhez buyuriladi:",
+"options": [
+"Parhez № 9",
+"Parhez № 7",
+"Parhez № 10",
+"Parhez № 15"
+],
+"page": 55,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 392,
+"q": "Tremor – bu …:",
+"options": [
+"Qo'llar titrashi",
+"Ko'p terlash",
+"Kaftlar qizarishi",
+"Yurakni tez urishi"
+],
+"page": 55,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 393,
+"q": "Ekzoftalm – bu…:",
+"options": [
+"Ko'zning chaqchayib turishi",
+"Ko'z soqqasi pastga harakatlantirilganda ustki qovoqning yumilishining kechikishi",
+"Uzoq vaqt tikilib turish",
+"Konvergentsiyasining susayib qolishi"
+],
+"page": 55,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 394,
+"q": "Miksedema kasalligida gormonlar soni:",
+"options": [
+"Yo'q bo'ladi",
+"Ortadi",
+"Normada",
+"Pasayadi"
+],
+"page": 55,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 395,
+"q": "Poliuriya – bu …:",
+"options": [
+"Ko'p siyish",
+"Ko'p ovqat yeyish",
+"Ko'p suv ichish",
+"Siydik ajralishining kamayishi"
+],
+"page": 55,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 396,
+"q": "Qandli diabetning og'ir turida qondagi qandning miqdori:",
+"options": [
+"14 m. mol/l. dan yuqori",
+"14 m. mol/l. gacha",
+"7,8 m.mol/l. gacha",
+"5,55 m.mol/l. gacha"
+],
+"page": 55,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 397,
+"q": "Uzoq muddat ta'sir qiladigan insulin qatoriga kiradi:",
+"options": [
+"Glargin (Lantus) insulin",
+"Oddiy insulin",
+"Butamid",
+"Maninil"
+],
+"page": 55,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 398,
+"q": "Eshak yemining davosi:",
+"options": [
+"Prednizolon",
+"Eufillin",
+"dimedrol",
+"Mezaton"
+],
+"page": 56,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 399,
+"q": "Tez paydo bo'ladigan reaktsiyalarga kiradi:",
+"options": [
+"Anafilaktik shok",
+"Zardob kasalligi",
+"Kardiogen shok",
+"Giperglikemik koma"
+],
+"page": 56,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 400,
+"q": "Teri yallig'lanishining birinchi belgisi nima:",
+"options": [
+"Sovuqlik",
+"Og'riq va qizarish",
+"Qurish",
+"Sarg'ayish"
+],
+"page": 56,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 401,
+"q": "Sepsis (qon zaharlanishi) xavfi qaysi holatda yuqori bo'ladi:",
+"options": [
+"Yuqori qon bosimi",
+"Toza muhitda parvarish",
+"Yaralarning noto'g'ri ishlov berilishi",
+"Ko'p suyuqlik ichish"
+],
+"page": 56,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 402,
+"q": "Ichki qon ketishning asosiy belgisi nima:",
+"options": [
+"Terining qizarishi",
+"Past qon bosimi va hushning yo'qolishi",
+"Harorat ko'tarilishi",
+"Nafas olishning kuchayishi"
+],
+"page": 56,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 403,
+"q": "Bemor yotgan joyda uzoq vaqt harakatsiz yotgan bo'lsa, hamshira nima qilish kerak:",
+"options": [
+"Haroratini tushirish",
+"Oyoqlarini massaj qilish",
+"Har 2 soatda holatini o'zgartirish",
+"Suv ichirishni ko'paytirish"
+],
+"page": 56,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 404,
+"q": "Hujayralar va to'qimalarga kislorod yetkazib berishda eng muhim rolni nima bajaradi:",
+"options": [
+"Limfa",
+"Eritrotsitlar",
+"Leikotsitlar",
+"Trombositlar"
+],
+"page": 56,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 405,
+"q": "Bemorning nafas olishi tezlashgan bo'lsa, bu qanday holatni ko'rsatadi:",
+"options": [
+"Bradipnoe",
+"Taxipnoe",
+"Apnoe",
+"Dispnoe"
+],
+"page": 57,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 406,
+"q": "Nafas organlari kasalliklari simptomlari qanday:",
+"options": [
+"Bosh og'rig'i, A/B ko'tarilishi, ko'ngil aynishi",
+"Yo'tal, balg'am, nafas siqishi, qon tupurish, xansirash",
+"Xushdan ketish, alahsirash, bosh og'rig'i",
+"Temperaturani ko'tarilishi, yo'tal, ich ketish, ko'ngil aynishi"
+],
+"page": 57,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 407,
+"q": "Bronxit deganda nimani tushunasiz:",
+"options": [
+"O'pkaning yallig'lanishi",
+"Bronxlarning yallig'lanishi",
+"Plevraning yallig'lanishi",
+"Bronxoektatik kasallik"
+],
+"page": 57,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 408,
+"q": "Bronxit kasalligining simptomi:",
+"options": [
+"A/B ko'tarilishi, puls tezlashishi, nafas siqishi",
+"Yo'tal, balg'am ajralishi, ko'krak qafasida og'riq",
+"Bosh og'riq, xolsizlik, uyqu buzulishi, darmonsizlik",
+"Xolsizligi, temperatura ko'tarilishi, xushtaksimon nafas olish"
+],
+"page": 57,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 409,
+"q": "Qanday muolajalar nafas sistemasi buzilgan bemorlarda ishlatiladi:",
+"options": [
+"Enteral dori berish, banka qo'yish, zuluk qo'yish",
+"Banka qo'yish, me'dani yuvish",
+"Garchishnik qo'yish, zondlash, bug'li ingalyatsiya qilish",
+"Garchishnik, banka, ingalyatsiya, parenteral va enteral dori vositalarini yuborish"
+],
+"page": 57,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 410,
+"q": "Surunkali bronxitda bronxlar shilliq pardasida qanday o'zgarishlar bo'ladi:",
+"options": [
+"Shilliq qavat giperemiyasi va gipertrofiyasi",
+"Shilliq parda bo'rtib, kerkib turadi",
+"Shilliq parda och pushti rangda",
+"Shilliq parda shishganligi"
+],
+"page": 57,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 411,
+"q": "Bronxial astma balg'amida nimalar topiladi:",
+"options": [
+"Eritrositlar, eozinofillar",
+"Kox tayoqchasi, monositlar",
+"Eozinofillar, Krushman spirallari, Sharko-Leyden kristallari",
+"Pnevmokokklar, streptokokklar, spiroxetalar"
+],
+"page": 57,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 412,
+"q": "Bronxial astma kasalligini ta'riflang:",
+"options": [
+"Butun bronx devori va atrofidagi to'qimasining chuqur destruktiv o'zgarishlari",
+"Bronx shilliq pardasi bronxospazmi, gipersekretsiyasi va shishi",
+"O'pka to'qimasi va bronxlar biriktiruvchi to'qimasi o'sib ketishi",
+"Bronx shilliq qavatining giperemiyasi va gipertrofiyasi"
+],
+"page": 57,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 413,
+"q": "Astmatik status nima:",
+"options": [
+"Bo'g'ilish xurujlari kam, yiliga 3-4 marta",
+"Xuruj yaqin soatlari va kunlar ichida bosilmaydi",
+"Xurujlar ko'proq va davomliroq yiliga 10 marta, adrenalin eufilindan keyin bosiladi",
+"Xurujdan tashqarida yengil nafas qisib turishi"
+],
+"page": 58,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 414,
+"q": "Krupoz pnevmoniyaning o'choqli pnevmoniyadan farqi:",
+"options": [
+"Temperatura 37, 38, 39 o C, ko'krak qafasida aniq bo'lmagan og'riqlar",
+"Shilimshiq, yiringli yo'tal, xolsizlik",
+"Bo'g'ilish, nafas chiqarish qiyinlashishi",
+"Kasallik o'tkir boshlanadi, et uvishish, temperatura 39 – 41o C, aksirish, yo'talish, ko'krak qafasida og'riq, xansirash, burun-labda uchuq, zangsimon balg'am"
+],
+"page": 58,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 415,
+"q": "O'choqli pnevmoniya simptomlari:",
+"options": [
+"Kasallik birdan boshlanib qaltiraydi",
+"To'satdan bo'g'ilib bemor majburiy holatni egallaydi",
+"Darmonsizlik, ko'p terlash, quruq yo'tal so'ng balg'amli, Tem 38 -39oC, lab-burun uchlari tsianozi",
+"Ko'p terlash, xolsizlik, qon tuflash, yo'tal"
+],
+"page": 58,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 416,
+"q": "Surunkali pnevmoniya sabablari:",
+"options": [
+"Surunkali bronxit, pnevmoskleroz, atelektaz, chala davolangan o'tkir pnevmoniya",
+"Gripp, mikrob florasi, o'tkir bronxit",
+"Allergenlar ta'siri",
+"Kox batsillasi, ichak tayoqchasi, meningokokk"
+],
+"page": 58,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 417,
+"q": "O'pka gangrenasi deganda nimani tushunasiz:",
+"options": [
+"O'pka to'qimasini chirib – irib borishi",
+"O'pka to'qimasining yiringlashi",
+"Bronx va o'pka strukturasining o'zgarishi",
+"Bronxlarning torayib qolishi"
+],
+"page": 58,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 418,
+"q": "Balg'amda Sharko-Leyden kristallari topilsa qanday kasallikka xos bo'ladi:",
+"options": [
+"Atopik bronxial astma",
+"Katta o'choqli pnevmaniya",
+"Kichik o'choqli pnevmaniya",
+"O'pka sili"
+],
+"page": 58,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 419,
+"q": "Astma hurujini to'xtatish uchun qo'llanilmaydi:",
+"options": [
+"Soda",
+"Pednizolon",
+"Gidrokortizon",
+"Eufilin"
+],
+"page": 58,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 420,
+"q": "Absess bronxga yorilsa kuzatiladi:",
+"options": [
+"˝Og'iz to'la˝ balg'am ajralishi",
+"Zangsimon balg'am ajralish",
+"Qon tupurish",
+"Ko'piksimon balg'am ajralishi"
+],
+"page": 59,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 421,
+"q": "Stenokardiyaning tipik bo'lmagan belgisini aniqlang:",
+"options": [
+"Pulssimon bosh og'rig'i",
+"Og'riqni chap qo'lga tarqalishi",
+"Og'riqni chap kurak ostiga tarqalishi",
+"Og'riqni epigastriyaga tarqalishi"
+],
+"page": 59,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 422,
+"q": "Uzoq vaqt ta'sir qilmaydigan nitrat preparatini aniqlang:",
+"options": [
+"Nitroglitserin",
+"Erinit",
+"Nitrong",
+"Nitrosorbit"
+],
+"page": 59,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 423,
+"q": "12 barmoqli ichak yarasi quydagi organga penetratsiya bo'lmaydi:",
+"options": [
+"Buyrakka",
+"Ichakka",
+"Oshqozon osti beziga",
+"Qorin pardaga"
+],
+"page": 59,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 424,
+"q": "Kasallik nima:",
+"options": [
+"Shifokor xulosasi",
+"Zararli odatlar natijasida kelib chiqadigan xolat",
+"Tashqi va ichki muxitning zararli ta'siri natijasida organizm hayot faoliyatining buzulishi",
+"Organism mehnat qobiliyatining butunlay yo'qolishi"
+],
+"page": 59,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 425,
+"q": "Yurak qon tomir tizimi kasalliklarida bemorlarni o'z-o'zini parvarishlash",
+"options": [
+"ko'nikmalariga o'rgatish nimalardan iborat:",
+"Arterial bosimni o'lchash, simptomlarni kuzatish, ovqatlanish bo'yicha qo'llanma Simptomlarni kuzatish, jismoniy harakatlanish",
+"Ovqatlanish bo'yicha qo'llanma, arterial bosimni o'lchash",
+"Ruxiy parvarish"
+],
+"page": 59,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 426,
+"q": "Yurak qon-tomir sistemasi kasalliklari bilan og'rigan bemorlarni fizikal tekshirish usullari nimalardan iborat:",
+"options": [
+"Yurak qon-tomir sistemasining vazifalarini baxolash",
+"Bemorning umumiy holatini baxolash, yurak qon-tomir sistemasining vazifalarini baxolash",
+"Bemorning ijtimoiy holatini baholash",
+"Ruxiy holatini baxolash, yurak qon-tomir sistemasining vazifalarini baxolash"
+],
+"page": 59,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 427,
+"q": "Pul's sekinlashuviga nima deyiladi:",
+"options": [
+"Taxikardiya",
+"Bradikardiya",
+"Gipertoniya",
+"Gipotoniya"
+],
+"page": 60,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 428,
+"q": "Nafas olish a'zolari kasalliklarining umumiy belgilari:",
+"options": [
+"Yo'tal, balg'am tashlash, qon tuflash, xansirash, ko'krak qafasida og'riq, isitma",
+"Ko'krak qafasida og'riq, qon tuflash, isitma",
+"Isitma, yutunishning qiyinlashuvi, qon tuflash",
+"Hansirash, oyoqlarda shish, ko'krak qafasida va yirik bo'g'imlarda og'riq"
+],
+"page": 60,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 429,
+"q": "Onkologik kasalliklarning asosiy belgilari qaysilar:",
+"options": [
+"Qon bosimi ko'tarilishi va bosh og'rig'i",
+"Mushaklarning kuchayishi va charchoq",
+"To'qimalarda tugun paydo bo'lishi, vazn yo'qotish, qon ketish",
+"Doimiy isitma va quruq yo'tal"
+],
+"page": 60,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 430,
+"q": "Saraton kasalligida davolash usullaridan biri emas:",
+"options": [
+"Kimyoterapiya",
+"Radiatsion terapiya",
+"Antibiotiklar qabul qilish",
+"Jarrohlik aralashuvi"
+],
+"page": 60,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 431,
+"q": "O'pkaning surunkali kasalliklariga kiradi. Ortig'ini chiqaring:",
+"options": [
+"Pnevmaskleroz",
+"O'pka emsizemasi",
+"O'pka gangrenasi",
+"Bronxoektotik kasallik"
+],
+"page": 60,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 432,
+"q": "Saraton kasalligida ko'p uchraydigan og'riq turi qanday:",
+"options": [
+"Kesuvchi va doimiy",
+"Faqat bosh og'rig'i",
+"Yengil va kamdan-kam",
+"Qisqa muddatli"
+],
+"page": 60,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 433,
+"q": "Onkologik bemorlarda muhim diagnostika usuli qaysi:",
+"options": [
+"Rentgenografiya va biopsiya",
+"Faqat qon bosimini o'lchash",
+"Yurak ultratovushi",
+"To'liq qon tahlili"
+],
+"page": 60,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 434,
+"q": "Plevra punksiyasida foydalaniladi:",
+"options": [
+"Troakar igna",
+"Darsenval apparati",
+"Bronxofibroskopiya",
+"Fibrogastroskopdan"
+],
+"page": 61,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 435,
+"q": "Kimyoterapiya davolashning qanday ta'siri bor:",
+"options": [
+"Faqat og'riqni kamaytiradi",
+"O'sma hujayralarini yo'q qiladi, ammo sog'lom hujayralarga ham zarar yetkazishi mumkin",
+"Faqat infektsiyalarga qarshi kurashadi",
+"Qon bosimini oshiradi"
+],
+"page": 61,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 436,
+"q": "Onkologik kasallikda parvarishlashda asosiy e'tibor qaysiga qaratiladi:",
+"options": [
+"Faqat dori berishga",
+"Og'riqni boshqarish va ruhiy qo'llab-quvvatlashga",
+"Faqat parhezga",
+"Harakatlarni cheklashga"
+],
+"page": 61,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 437,
+"q": "Hamshiralik jarayonining uchincni bosqichi qanday nomlanadi:",
+"options": [
+"Bemorni tekshirish",
+"Hamshiralik tashxisi",
+"Parvarish rejasini tuzish",
+"Parvarish natijalarini baxolash"
+],
+"page": 61,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 438,
+"q": "Yurak ishemik kasalligiga asosiy sabab nima:",
+"options": [
+"Yuqori tana harorati",
+"Qon bosimining pasayishi",
+"Koronar arteriyalarning torayishi",
+"O'pka infeksiyasi"
+],
+"page": 61,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 439,
+"q": "Qandli diabet bilan kasallangan bemorga parvarish vaqtida nimalarga e'tibor beriladi:",
+"options": [
+"Faqat tana haroratiga",
+"Glyukoza darajasiga va ovqatlanishiga",
+"Tashqi ko'rinishiga",
+"Shifokor kayfiyatiga"
+],
+"page": 61,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 440,
+"q": "Miokard infarkti o'tkir davrida bemor yotoq rejimga:",
+"options": [
+"Qatiy rioya qilinishi shart",
+"Yotoq rejimi shart emas",
+"Jismoniy zo'riqish cheklanmagan",
+"O'zini yaxshi xis qilsa, yotoq rejimi shart emas"
+],
+"page": 61,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 441,
+"q": "Jarrohlikdan keyingi parvarishda asosiy maqsad nima:",
+"options": [
+"Tezroq turgizib yurgizish",
+"Asoratlarning oldini olish",
+"Og'riqni kuchaytirish",
+"Operatsiya haqida eslatish"
+],
+"page": 62,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 442,
+"q": "Krupoz pnevmaniyaning ochoqli pnevmaniyadan farqi:",
+"options": [
+"Tana t⁰ 37-38 ⁰C ko'krak qafasida aniq bo'lmagan og'riqlar",
+"Shilimshiq, yiringli yo'tal, holsizlik",
+"Bo'g'ilish, nafas chiqarish qiyinlashgan",
+"Kasallik o'tkir boshlanadi, 39-41⁰C, ko'krak qafasida og'riq, burun va lablarga uchuq toshishi, hansirash"
+],
+"page": 62,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 443,
+"q": "Arterial bosimni ko'tarish mahsadida qanday dori vositalar ishlatiladi:",
+"options": [
+"Mezaton, kofein, kamfora",
+"Morfin, omnopon, droperidol",
+"Validol, nitroglitserin",
+"Antibiotiklar"
+],
+"page": 62,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 444,
+"q": "Gipertonik krizning lkinik belgilari:",
+"options": [
+"Bemor og'zidan atseton hidi kelishi",
+"Chanqash, sovuq ter bosishi",
+"Ensa sohasida qattiq og'riq",
+"Gematurya, proteinuriya"
+],
+"page": 62,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 445,
+"q": "№10parhez stoli qaysi kasalliklarda beriladi:",
+"options": [
+"Yurak qon-tomir kasalliklarida",
+"Buyrak kasalliklarida",
+"Jigar kasalliklarida",
+"Oshqozon - ichak kasalliklarida"
+],
+"page": 62,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 446,
+"q": "Tosh orqasida qizadigan, bosadigan, achitadigan og'riq chap yelka, chap qolga o'tadi, 1520 minut davom etadi. Qaysi kasallik uchun hos:",
+"options": [
+"Miokard infarkti",
+"Stenokardiya",
+"Gipertoniya kasalligi",
+"Revmatizm"
+],
+"page": 62,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 447,
+"q": "Stenokardiya hurujida qanday dori vositalari ishlatiladi:",
+"options": [
+"Nitroglitserin, validol",
+"Atropin, papaverin",
+"Promedol, omnopon",
+"Erinit, tromboass"
+],
+"page": 62,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 448,
+"q": "O'pka abstsessi qanday kasallik:",
+"options": [
+"O'pkaning bir segmentini yalliglanishi",
+"O'pkaning butun bir bolyagining yalliglanishi",
+"O'pka to'qimasining gangrenasi",
+"O'pka to'qimasining cheklangan holda yiringlashi"
+],
+"page": 63,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 449,
+"q": "O'pka abstsessining davrlari:",
+"options": [
+"Abstsess yorilguncha va yorilgandan keying davr",
+"Aspiratsion, travmatik",
+"Yashirin davr",
+"Prodromal davr"
+],
+"page": 63,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 450,
+"q": "Miokard infarkti nima:",
+"options": [
+"Miokard yallig'lanishi",
+"Yurak klapanlarning yetishmovchiligi",
+"Yurak toj-tomirlarida qon aylanishining buzulishi",
+"Yurak toj-tomirlarining torayishi"
+],
+"page": 63,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 451,
+"q": "Remissiya nima:",
+"options": [
+"Kasallik qo'zishi",
+"Kasallik belgisi",
+"Kasallik asorati",
+"Davo natijasida kasallik simptomlarini pasayishi"
+],
+"page": 63,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 452,
+"q": "O'pka abstsessi gangrenadan nima bilan farq qiladi:",
+"options": [
+"Patologik o'choq butun o'pkada tarqalgan",
+"Patologik o'choq aniq ajralib turadigan chegarali bo'lmaydi",
+"Patologik o'choq aniq chegarali bo'ladi",
+"Ikkala o'pka to'qimasining yalliglanishi"
+],
+"page": 63,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 453,
+"q": "Xolesterin almashinuvining buzulishi natijasida qaysi kasallik yuzaga keladi:",
+"options": [
+"Xoletsistit",
+"Ateroskleroz",
+"Miokardit",
+"Pankreatit"
+],
+"page": 63,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 454,
+"q": "Yurakni o'rta qavati nima deb ataladi:",
+"options": [
+"Endokard",
+"Miokard",
+"Perikard",
+"Serroz parda"
+],
+"page": 63,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 455,
+"q": "Stenokardiya nima:",
+"options": [
+"Toj tomirlaridan nekroz paydo bo'lishi",
+"Yurak to'qimasida biriktiruvchi to'qimadan chandiq paydo bo'lishi",
+"Yurak toj-tomirlarida qon aylanishining buzulishi",
+"Yurak toj-tomirlarining torayishi"
+],
+"page": 63,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 456,
+"q": "Buyrak tosh kasalligining rivojlanishiga olib keluvchi omillarga kirmaydi:",
+"options": [
+"Siydik chiqarish yo'llarining tug'ma anomaliyalari",
+"Endokrin tizim kasalliklari",
+"Siydik chiqarish yollf va tanosil a'zolari infeksiyalari",
+"Bronxial astma"
+],
+"page": 64,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 457,
+"q": "Siydikning “go'sht yuvindisi” rangiga kirishi tarkibida ko'p miqdorda ……… bo'lishidandir:",
+"options": [
+"Oqsillar",
+"Bakteriyalar",
+"Eritrositlar",
+"Leykositlar"
+],
+"page": 64,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 458,
+"q": "Buyrak sanchig'i boshlanishiga sabab bo'lishi mumkin:",
+"options": [
+"Siydik haydovchilar qabul qilish",
+"Antibiotiklar qabul qilish",
+"Spazmolitiklar qabul qilish",
+"Nitroglitserin qabul qilish"
+],
+"page": 64,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 459,
+"q": "Buyrak sanchig'ida samarali dori vositani ajrating:",
+"options": [
+"Suprastin",
+"Ampitsillin",
+"Baralgin",
+"Alloxol"
+],
+"page": 64,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 460,
+"q": "Buyrak tosh kasalligi qaysi asoratga olib kelishi mumkin:",
+"options": [
+"Kollaps",
+"Poliuriya",
+"Insult",
+"Uremiya"
+],
+"page": 64,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 461,
+"q": "Birlamchi siydikdagi glukoza va suvning qayta qonga so'rilishi qanday ataladi:",
+"options": [
+"Filtratsiya",
+"Reobsorbsiya",
+"Aspiratsiya",
+"Rezorbsiya"
+],
+"page": 64,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 462,
+"q": "Ikkilamchi siydik birlamchi siydikdan qanday farq qiladi:",
+"options": [
+"Oqsillar borligi bilan",
+"Konsentratsiyasi yuqoriligi, miqdori kamligi bilan",
+"Glukoza saqlashi bilan",
+"Xolesterin borligi bilan"
+],
+"page": 64,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 463,
+"q": "Arterial bosimning idora etilishida buyraklarnig vazifasi:",
+"options": [
+"Renin ishlab chiqariladi",
+"Oqsillar siydikda chiqariladi",
+"Suv va tuzlar chiqariladi",
+"Azot qoldiqlaridan organizm tozalanadi"
+],
+"page": 65,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 464,
+"q": "Siydik umumiy tahlilida normada ko'ruv maydonida eritrositlar soni:",
+"options": [
+"0",
+"3",
+"6",
+"9"
+],
+"page": 65,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 465,
+"q": "Buyrak eklampsiyasining asosiy belgisini ko'rsating:",
+"options": [
+"Holsizlik",
+"Bosh og'rig'i",
+"Tutqanoqlar",
+"Shishlar"
+],
+"page": 65,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 466,
+"q": "Sutkalik diurez 300 ml ni tashkil qilmoqda. Bu holat…:",
+"options": [
+"Anuriya",
+"Nikturiya",
+"Poliuriya",
+"Oligouriya"
+],
+"page": 65,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 467,
+"q": "Surunkali gepatit kasalligini birlamchi profilaktikasida nimalar qilinadi:",
+"options": [
+"Sog'lom turmush tarziga rioya qilish, har yili bitsillin profilaktik dozasini olish",
+"Virusli gepatit kasalligini samarali davolash va kaloriyaga boy ovqatlanish",
+"Surunkali gepatit kasalligi aniqlanganda bemorlarni dispenser nazoratiga olish",
+"Virusli gepatit kasalligini samarali davolash va ratsional ovqatlanish"
+],
+"page": 65,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 468,
+"q": "Surunkali gepatit kasalligini ikkilamchi profilaktikasida nimalar qilinadi:",
+"options": [
+"Virusli gepatit kasalligini samarali davolash va ratsional ovqatlanish",
+"Virusli gepatit kasalligini samarali davolash va kaloriyaga boy ovqatlanish",
+"Surunkali gepatit kasalligi aniqlanganda bemorlarni dispenser nazoratiga olish",
+"Sog'lom turmush tarziga rioya qilish, har yili"
+],
+"page": 65,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 469,
+"q": "Duodenal tekshiruvda “B” portsiyada nima aniqlanadi:",
+"options": [
+"O't pufagidagi safro",
+"12 barmoqli ichakni shirasi",
+"Umumiy o't yo'li suyuqligi",
+"Oshqozon shirasi"
+],
+"page": 65,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 470,
+"q": "Duodenal tekshiruvda “C” portsiyada nima aniqlanadi:",
+"options": [
+"O't pufagidagi safro",
+"12 barmoqli ichakni shirasi",
+"Umumiy o't yo'li suyuqligi",
+"Oshqozon shirasi"
+],
+"page": 66,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 471,
+"q": "Duodenal tekshiruvda “A” portsiyada nima aniqlanadi:",
+"options": [
+"O't pufagidagi safro",
+"12 barmoqli ichakni shirasi",
+"Umumiy o't yo'li suyuqligi",
+"Oshqozon shirasi"
+],
+"page": 66,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 472,
+"q": "Duodenal zondlash qaysi kasallikda o'tkaziladi:",
+"options": [
+"O'tkir xolesistitda",
+"O't qopini, o't yo'llari kasalliklarida",
+"Oshqozon va 12 barmoqli ichak yara kasalligida",
+"Qizilo'ngach venalarini kengayishida"
+],
+"page": 66,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 473,
+"q": "Bemorda duodenal zondlash uchun qanday tayyorgarlikdan o'tkaziladi:",
+"options": [
+"2-3 kun oldin baliq va go'sht mahsulotlari, ko'katlar, dori vositalari (yo'd, brom, temir saqlovchi) cheklanadi",
+"2-3 kun oldin tozalovchi klizma qilinadi",
+"2-3 kun oldin ovqat ratsiondan metiorizmni keltirib chiqaruvchi mahsulotlar olib tashlanadi",
+"2-3 kun oldin oshqazon yuviladi"
+],
+"page": 66,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 474,
+"q": "Duodenal tekshiruvning “A” portsiyasi qanday rangda bo'ladi:",
+"options": [
+"Oqish rangda",
+"To'q yashil rangda",
+"Och sariq rangda",
+"To'q sariq rangda"
+],
+"page": 66,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 475,
+"q": "Qusayotgan bemor zaif bo'lsa qanday parvarish muhim:",
+"options": [
+"Bemorning boshini baland qilib qo'yiladi",
+"Qusayotgan vaqtida boshini yon tomonga burib qo'yiladi",
+"Bemor bilan chalg'ituvchi suhbat o'tkaziladi",
+"Bemorni o'rnidan turg'iziladi"
+],
+"page": 66,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 476,
+"q": "Bemor qusib bo'lgach darhol qanday parvarish ko'rsatasiz:",
+"options": [
+"Bemor o'z holida qoldiriladi",
+"Og'zi chaydiriladi, 2 – 3 qultum sovuq suv ichiriladi, yotqizib, o'rab qo'yiladi",
+"Bemor ovqatlantiriladi",
+"Bemorni arterial bosimi o'lchanadi"
+],
+"page": 66,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 477,
+"q": "Me'dani yuvish amalga oshirilishi mumkin:",
+"options": [
+"Sun'iy usulda",
+"Maxsus usulda",
+"Laborator usulda",
+"Zondli va zondsiz usulda"
+],
+"page": 66,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 478,
+"q": "Me'dani yuvishda suv harorati qanday bo'lishi kerak:",
+"options": [
+"10 - 150C",
+"15 - 200 C",
+"30 - 350 C",
+"60 - 800 C"
+],
+"page": 67,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 479,
+"q": "Me'dani yuvish to'xtatiladi:",
+"options": [
+"Ovqat qoldiqlari chiqqach",
+"Shilliq aralash suv kelgach",
+"Suv toza bo'lib tushgach",
+"Bemor ahvoli yaxshilangach"
+],
+"page": 67,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 480,
+"q": "Me'dasi yuvilgach bemor:",
+"options": [
+"40 daqiqa yotishi kerak",
+"5 - 10 daqiqa yotishi kerak",
+"Darhol turishi mumkin",
+"Darhol ovqatlanishi mumkin"
+],
+"page": 67,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 481,
+"q": "Huqna o'tkazish uchun bemor qaysi javobda to'g'ri tayyorlangan:",
+"options": [
+"Bemor kushetka chetiga chap yonboshi bilan yotqizilib oyoqlari qorniga taqalgan",
+"Bemor kushetka chetiga o'ng yonboshi bilan yotqizilgan",
+"Bemor chalqancha yotgan holatda",
+"Bemor yuztuban yotgan holatda"
+],
+"page": 67,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 482,
+"q": "Ovqat hazm qilish a'zolari kasalliklari bilan og'rigan bemorlarning ovqat ratsionida bo'lishi mumkin emas:",
+"options": [
+"Oqsilga, vitaminga boy ovqatlar",
+"Yengil hazm bo'ladigan ovqatlar",
+"Bug'da hamda qaynatib pishirilgan ovqatlar",
+"Qovurma va tuzlamalar, o'tkir ziravorlar"
+],
+"page": 67,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 483,
+"q": "Qon tupurish va o'pkadan qon ketish qaysi kasalliklarda kuzatiladi:",
+"options": [
+"O'pka absessi",
+"Bronxial astma",
+"O'tkir bronxit",
+"Ekssudativ plevrit"
+],
+"page": 67,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 484,
+"q": "Qaysi kasallikda yiringli balg'am ajraladi:",
+"options": [
+"O'pka absessi",
+"Bronxial astma",
+"O'tkir bronxit",
+"Ekssudativ plevrit"
+],
+"page": 67,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 485,
+"q": "O'pka absessiga tashxis qo'yish uchun qaysi tekshiruv o'tkaziladi:",
+"options": [
+"Qon analizi",
+"Balg'am analizi",
+"Rentgenografiya",
+"Spirometriya"
+],
+"page": 68,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 486,
+"q": "Qaysi nafas tizimi kasalligida bemor zararlangan tomoni bilan yotadi:",
+"options": [
+"Bronxit",
+"Bronxial astma",
+"Bronxoektatik kasalliklar",
+"Quruq plevrit"
+],
+"page": 68,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 487,
+"q": "Yo'tal vaqtida kuchayuvchi ko'krak qafasidagi og'riq, plevra ishqalanish shovqini qaysi kasallik uchun xos:",
+"options": [
+"Bronxit",
+"Bronxial astma",
+"Quruq plevrit",
+"Ekssudativ plevrit"
+],
+"page": 68,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 488,
+"q": "Ovoz titrashi va perkutor tovush susayishi qaysi kasallikda kuzatiladi:",
+"options": [
+"Bronxit",
+"Bronxial astma",
+"Quruq plevrit",
+"Ekssudativ plevrit"
+],
+"page": 68,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 489,
+"q": "Antiseptik va aseptika o'rtasidagi asosiy farq nimada:",
+"options": [
+"Ikkalasi ham infektsiyani davolashga qaratilgan",
+"Antiseptika mikroblarni yo'q qilish, aseptika ularni kiritmaslikka qaratilgan",
+"Aseptika faqat dori vositalarini nazorat qiladi",
+"Antiseptika operatsiya davomida ishlatiladi, aseptika esa yo'q"
+],
+"page": 68,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 490,
+"q": "Sanitar-epidemiologik tartib buzilganda eng katta xavf nimada:",
+"options": [
+"Bemorning noqulayligida",
+"Statistik xatolarda",
+"Infektsion kasalliklar tarqalishida",
+"Tibbiy asboblarning sifatsizligida"
+],
+"page": 68,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 491,
+"q": "Hamshira dorini vena ichiga yuborishdan oldin nima qilishi shart:",
+"options": [
+"Shpritsni to'ldirib qo'yish",
+"Bemor bilan suhbatlashish",
+"Dorining nomi va dozasini ikki marta tekshirish",
+"Boshqa hamshira bilan maslahatlashish"
+],
+"page": 68,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 492,
+"q": "Kattalar uchun vena ichiga suyuqlik yuborishning maksimal tavsiya etilgan tezligi qancha:",
+"options": [
+"20 ml/soat",
+"40 ml/daqiqa",
+"60–80 tomchi/daqiqa",
+"120 ml/soat"
+],
+"page": 69,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 493,
+"q": "Bemorning sog'lomlashtirish rejimi qanday elementlarni o'z ichiga oladi: Dori vositalari, ovqatlanish, jismoniy faollik:",
+"options": [
+"Faqat dori-darmon",
+"Tashxis va tahlillar",
+"Tashxis va tahlillar",
+"Hamshiraviy yozuvlar"
+],
+"page": 69,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 494,
+"q": "Intradermal inyeksiya qanday maqsadlarda ishlatiladi:",
+"options": [
+"Allergik sinamalar uchun",
+"Vitaminlar yuborish uchun",
+"Og'riq qoldirish uchun",
+"Antibakterial terapiya uchun"
+],
+"page": 69,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 495,
+"q": "Qaysi holatda arterial qon bosimi darhol nazorat qilinishi kerak:",
+"options": [
+"120/80 mm sim. ust",
+"90/60 mm sim ust",
+"140/90 mm sim ust",
+"180/110 mm sim us"
+],
+"page": 69,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 496,
+"q": "Bemorning umumiy ahvolini baholashda birinchi navbatda nima ko'riladi:",
+"options": [
+"Harorati",
+"Yurak urish soni",
+"Nafas olish va hushidalik darajasi",
+"Qon bosimi"
+],
+"page": 69,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 497,
+"q": "Tibbiy chiqindilarni to'g'ri ajratishda “A” toifasi nimani anglatadi:",
+"options": [
+"Infektsion chiqindilar",
+"Maxsus zararli moddalar",
+"Maishiy xavfsiz chiqindilar",
+"Biofaol chiqindilar"
+],
+"page": 69,
+"parse_flag": ""
+},
+{
+"bank": "141",
+"n": 498,
+"q": "Kateter o'rnatilganda infektsiyadan himoyalanish uchun qanday chora birinchi bo'lib ko'riladi:",
+"options": [
+"Antibiotik yuborish",
+"Kateterni tez-tez almashtirish",
+"Aseptik qoidalarni qat'iy rioya qilish",
+"Faqat shifokor nazorati"
+],
+"page": 69,
+"parse_flag": "merge_guess"
+},
+{
+"bank": "141",
+"n": 499,
+"q": "Parenteral dori yuborishda asosiy xavf nima:",
+"options": [
+"Og'riq sezilishi",
+"Allergik reaksiya",
+"Samarasizlik",
+"Noqulaylik"
+],
+"page": 70,
+"parse_flag": ""
+}
+]

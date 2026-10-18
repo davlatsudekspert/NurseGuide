@@ -1,0 +1,35 @@
+# NurseGuide API — Cloudflare Worker + D1 (bepul tarif).
+#
+# Deploy faqat shu nomga (`nurseguide-api`) bo'ladi — hisobdagi boshqa
+# Workerlarga tegilmaydi. Secretlar bu faylda EMAS: ular `wrangler secret put`
+# bilan (CI `deploy_api` rejimi) o'rnatiladi — docs/BACKEND_CLOUDFLARE.md.
+name = "nurseguide-api"
+main = "src/index.ts"
+compatibility_date = "2026-08-15"
+workers_dev = true
+# Sinov/oldindan ko'rish URL'lari kerak emas.
+preview_urls = false
+
+[[d1_databases]]
+binding = "DB"
+database_name = "nurseguide-db"
+# HAQIQIY id bu yerda saqlanmaydi: CI (`deploy_api`) uni repo secret
+# CLOUDFLARE_D1_DATABASE_ID dan shu qatorga qo'yadi (sed). Mahalliy testlar
+# (vitest/miniflare) id ga muhtoj emas — nol UUID yetarli.
+database_id = "00000000-0000-0000-0000-000000000000"
+migrations_dir = "migrations"
+
+# Kuniga bir marta: muddati o'tgan kodlar, sessiyalar va limit hisoblagichlari
+# tozalanadi (bepul tarifdagi so'rov/yozish limitini tejash uchun — bitta).
+[triggers]
+crons = ["17 22 * * *"]
+
+[vars]
+EMAIL_PROVIDER = "resend"
+LG_SENDER_NAME = "NurseGuide"
+# Brauzer (web build) uchun ruxsat etilgan originlar, vergul bilan.
+# Mobil ilova CORS'ga muhtoj emas; sayt (nurseguide.nfcstore.uz) statik.
+LG_ALLOWED_ORIGINS = "https://nurseguide.nfcstore.uz"
+
+[observability]
+enabled = false

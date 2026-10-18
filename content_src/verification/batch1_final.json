@@ -1,0 +1,1752 @@
+[
+{
+"id": "ng-o-153",
+"status": "no_source",
+"key": null,
+"options": [
+"Xlorsaqlovchi dezinfektantlar",
+"Faol kislorod brikmalari",
+"Spirtli eritmalar",
+"To'rtlamchi ammoniy brikmalari"
+],
+"explanation_uz": "Pol va devorlarni dezinfeksiya qilish uchun xlor saqlovchi dezinfektantlar ishlatiladi; ular ko'rinadigan ifloslikdan tozalagandan keyin yuvish yoki artish yo'li bilan qo'llanadi.",
+"source": "Manba: Toshkent vrachlar malakasini oshirish instituti, 'Davolash-profilaktika muassasalarida COVID-19da infeksion nazorat va dezinfeksiya, utilizatsiya ishlarini tashkil etish' (taqdimot), 2020, dezinfeksiya bo'limi",
+"source_ref": {
+"file": "hasm/chunk2/txt/1d1X-j8XG3TUBBHeAWRiunuWtlyhPULrv.txt (Дезинфекция ва утилизация 15 05.pdf)",
+"page": "slaydlar: pol va devorlar / xona havosi / najas va qusuq"
+},
+"notes": "Manba - institut o'quv taqdimoti (COVID-19 dezinfeksiya tartibi), qonuniy norma emas; savol umumiy, lekin javob shu manba bilan mos.",
+"key_candidate": 0,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-o-154",
+"status": "no_source",
+"key": null,
+"options": [
+"1000 mg/l miqdorida",
+"500 mg/l miqdorida",
+"2000 mg/l miqdorida",
+"100 mg/l miqdorida"
+],
+"explanation_uz": "Pol va devorlarni xlor saqlovchi vositalar bilan 1000 mg/l konsentratsiyada yuviladi yoki artiladi, 30 daqiqa ekspozitsiyadan keyin tozalanadi.",
+"source": "Manba: Toshkent vrachlar malakasini oshirish instituti, 'Davolash-profilaktika muassasalarida COVID-19da infeksion nazorat va dezinfeksiya, utilizatsiya ishlarini tashkil etish' (taqdimot), 2020, dezinfeksiya bo'limi",
+"source_ref": {
+"file": "hasm/chunk2/txt/1d1X-j8XG3TUBBHeAWRiunuWtlyhPULrv.txt (Дезинфекция ва утилизация 15 05.pdf)",
+"page": "slaydlar: pol va devorlar / xona havosi / najas va qusuq"
+},
+"notes": "Manba - institut o'quv taqdimoti (COVID-19 dezinfeksiya tartibi), qonuniy norma emas; savol umumiy, lekin javob shu manba bilan mos.",
+"key_candidate": 0,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-o-155",
+"status": "no_source",
+"key": null,
+"options": [
+"1 soat, kuniga 2marta",
+"30 minut, kuniga 3-marta",
+"1 soat, kuniga 3-marta",
+"30 min ertalab ish boshlashdan oldin"
+],
+"explanation_uz": "Plazmali havo sterilizatori bo'lmasa, ultrabinafsha lampalar ishlatiladi: havoni bir marta zararsizlantirish 1 soat, bu tadbir kuniga 3 marta o'tkaziladi.",
+"source": "Manba: Toshkent vrachlar malakasini oshirish instituti, 'Davolash-profilaktika muassasalarida COVID-19da infeksion nazorat va dezinfeksiya, utilizatsiya ishlarini tashkil etish' (taqdimot), 2020, dezinfeksiya bo'limi",
+"source_ref": {
+"file": "hasm/chunk2/txt/1d1X-j8XG3TUBBHeAWRiunuWtlyhPULrv.txt (Дезинфекция ва утилизация 15 05.pdf)",
+"page": "slaydlar: pol va devorlar / xona havosi / najas va qusuq"
+},
+"notes": "Manba - institut o'quv taqdimoti (COVID-19 dezinfeksiya tartibi), qonuniy norma emas; savol umumiy, lekin javob shu manba bilan mos.",
+"key_candidate": 2,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-o-156",
+"status": "no_source",
+"key": null,
+"options": [
+"Maxsus konteynerda 1 soat davomida",
+"Maxsus konteynerda 90 daqiqa davomida",
+"Maxsus konteynerda 2 soat davomida",
+"Maxsus konteynerda 45 daqiqa davomida"
+],
+"explanation_uz": "Najas va qusuq massalari maxsus konteynerga yig'ilib, xlor saqlovchi vosita bilan 2 soat davomida zararsizlantiriladi.",
+"source": "Manba: Toshkent vrachlar malakasini oshirish instituti, 'Davolash-profilaktika muassasalarida COVID-19da infeksion nazorat va dezinfeksiya, utilizatsiya ishlarini tashkil etish' (taqdimot), 2020, dezinfeksiya bo'limi",
+"source_ref": {
+"file": "hasm/chunk2/txt/1d1X-j8XG3TUBBHeAWRiunuWtlyhPULrv.txt (Дезинфекция ва утилизация 15 05.pdf)",
+"page": "slaydlar: pol va devorlar / xona havosi / najas va qusuq"
+},
+"notes": "Manba - institut o'quv taqdimoti (COVID-19 dezinfeksiya tartibi), qonuniy norma emas; savol umumiy, lekin javob shu manba bilan mos. Eritma 20000 mg/l, suyuqlik:vosita = 1:2.",
+"key_candidate": 2,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-o-095",
+"status": "verified",
+"key": 0,
+"options": [
+"26-avgust 2015-yil",
+"14 sentabr 2011-yil",
+"22-iyun 2018-yil",
+"25-yanvar 2018-yil"
+],
+"explanation_uz": "Aholining sanitariya-epidemiologik osoyishtaligi to'g'risidagi O'zbekiston qonuni 2015-yil 26-avgustda qabul qilingan (O'RQ-393-son).",
+"source": "Manba: O'zbekiston Respublikasi Qonuni, 'Aholining sanitariya-epidemiologik osoyishtaligi to'g'risida', O'RQ-393, 26.08.2015, preambula",
+"source_ref": {
+"file": "lex.uz/uz/docs/-2732587 (legal/B/Qonun_ORQ-393_2015-08-26.txt)",
+"clause": "sarlavha"
+},
+"notes": ""
+},
+{
+"id": "ng-o-101",
+"status": "no_source",
+"key": null,
+"options": [
+"3 yilda 1-marta",
+"Xar joriy yil boshida",
+"2 yilda 1-marta",
+"Epidemiya vaqtida"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {
+"file": "hasm/chunk2/txt/1apzx...(92-буйруқ.pdf)",
+"clause": "Nizom 5, 13-band"
+},
+"notes": "SSV buyrug'i № 92 (2019) Nizomi: har bir DPM da komissiya tashkil etiladi, majlis har chorakda 1 marta; '\"har joriy yil boshida\"' degan norma topilmadi. Ehtimoliy javob (1) ammo manba yo'q."
+},
+{
+"id": "ng-o-104",
+"status": "verified",
+"key": 3,
+"options": [
+"Poliklinika vrachi",
+"Patsiyent kuzatuvda turgan tibbiy muassasa vrachi",
+"Patsiyentni tekshiruv o'tkazilishi uchun yo'llagan tibbiy muassasa vrachi",
+"Shaxsni tasdiqlovchi hujjat taqdim etilganida, hududiy OITSga qarshi kurashish markazi vrachi"
+],
+"explanation_uz": "OIV mavjud emasligi haqidagi sertifikat faqat OITSga qarshi kurashish markazlarida, shaxsni tasdiqlovchi hujjat asosida beriladi; boshqa muassasalar bergan sertifikat haqiqiy emas hisoblanadi.",
+"source": "Manba: SSV, 'Odamning immunitet tanqisligi virusiga tibbiy tekshiruvdan o'tkazish qoidalari', ro'yxat raqami 2584 (15.05.2014; 2017 va 2024 yillarda o'zgartirishlar kiritilgan), 29-31-bandlar",
+"source_ref": {
+"file": "lex.uz/uz/docs/-2389421 (legal/B/SSV_reg2584_2014-05-15.txt)",
+"clause": "29, 30-band"
+},
+"notes": ""
+},
+{
+"id": "ng-o-120",
+"status": "verified",
+"key": 0,
+"options": [
+"Ixtiyoriy, majburiy, g'ayri ixtiyoriy",
+"Tekshirish uchun asosli sabablarning yo'qligi",
+"Ushbu manzilda doimiy yashash uchun ro'yxatdan o'tmaganligi",
+"Shifokorning tashxisli yullanmasi"
+],
+"explanation_uz": "Qoidalarga ko'ra OIVga tibbiy tekshiruv barcha davolash-profilaktika muassasalarida ixtiyoriy, majburiy yoki g'ayriixtiyoriy tartibda o'tkaziladi.",
+"source": "Manba: SSV, 'Odamning immunitet tanqisligi virusiga tibbiy tekshiruvdan o'tkazish qoidalari', ro'yxat raqami 2584 (15.05.2014; 2017 va 2024 yillarda o'zgartirishlar kiritilgan), 6-band",
+"source_ref": {
+"file": "lex.uz/uz/docs/-2389421 (legal/B/SSV_reg2584_2014-05-15.txt)",
+"clause": "6-band"
+},
+"notes": ""
+},
+{
+"id": "ng-o-137",
+"status": "verified",
+"key": 0,
+"options": [
+"PZR usulida virus yuklamasi aniqlanadi",
+"Mikroskopik usulida surtma o'rganiladi",
+"Teri-allergik sinama qo'yiladi",
+"Bakteriologik usul qo'llaniladi"
+],
+"explanation_uz": "OIV yuqtirgan onadan tug'ilgan bolalarda tashxis PZR (polimeraza zanjirli reaksiya) bilan, 6 va 12 haftalikda virusologik tekshiruv orqali aniqlanadi; antitanachali testlar yosh bolada yetarli emas.",
+"source": "Manba: SSV, 'Odamning immunitet tanqisligi virusiga tibbiy tekshiruvdan o'tkazish qoidalari', ro'yxat raqami 2584 (15.05.2014; 2017 va 2024 yillarda o'zgartirishlar kiritilgan), 26-band; qo'shimcha: JSST HIV fact sheet, 'Diagnosis'",
+"source_ref": {
+"file": "lex.uz/uz/docs/-2389421",
+"clause": "26-band",
+"also_url": "https://www.who.int/news-room/fact-sheets/detail/hiv-aids"
+},
+"notes": ""
+},
+{
+"id": "ng-o-117",
+"status": "verified",
+"key": 1,
+"options": [
+"Test antigen p24 ni aniqlash",
+"Standart serologik tekshiruv",
+"Teskari tarnskripsiya usuli",
+"OIV RNK miqdorini aniqlash"
+],
+"explanation_uz": "Skrining uchun qon namunasi immunoferment (IFA) usulida, ya'ni standart serologik usulda tekshiriladi; p24 antigeni yoki RNK miqdori skrining uchun asosiy test emas.",
+"source": "Manba: SSV, 'Odamning immunitet tanqisligi virusiga tibbiy tekshiruvdan o'tkazish qoidalari', ro'yxat raqami 2584 (15.05.2014; 2017 va 2024 yillarda o'zgartirishlar kiritilgan), 15-band",
+"source_ref": {
+"file": "lex.uz/uz/docs/-2389421 (legal/B/SSV_reg2584_2014-05-15.txt)",
+"clause": "15, 24-band"
+},
+"notes": "Qoidalarda yosh bo'yicha cheklov tekshirilmadi; xavfli aloqadan keyin 'darcha davri' (taxminan 28 kun) inobatga olinishi kerak (JSST). Savol umumiy; 'standart serologik tekshiruv' javobi Qoidalarga mos."
+},
+{
+"id": "ng-o-115",
+"status": "no_source",
+"key": null,
+"options": [
+"Biologik sinama",
+"Serologik",
+"Bakteriologik",
+"Mikroskopik"
+],
+"explanation_uz": "OIV infeksiyasi laboratoriyada serologik usullar bilan (IFA, immunoblot) tasdiqlanadi; biologik, bakteriologik va mikroskopik usullar ishlatilmaydi.",
+"source": "Manba: O'zbekiston SSV tizimi hamshiralar uchun OITS bo'yicha test savollari (SPID test.pdf, nashr yili ko'rsatilmagan), 5-savol (OITS tashxisi IFA va immunoblot musbat bo'lganda); SSV reg. 2584 15-band (IFA)",
+"source_ref": {
+"file": "hasm/chunk2/txt/1Ongmx_CNOY2YC2kkfWgLkLOu0rKoIDtd.txt (СПИД тест.pdf)",
+"page": "5-savol",
+"also": "lex.uz/uz/docs/-2389421, 15-band"
+},
+"notes": "Manba rasmiy norma emas, o'quv test ro'yxati; IFA bo'yicha 2584-reestr bilan mos.",
+"key_candidate": 1,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-o-135",
+"status": "verified",
+"key": 0,
+"options": [
+"Jinsiy, parenteral, OIV infeksiyali onadan bolaga",
+"Havo-tomchi yo'l orqali",
+"Umumiy hojatxonadan foydalanganda",
+"Fekal-oral yo'l"
+],
+"explanation_uz": "OIV qon (parenteral), jinsiy yo'l va onadan bolaga yuqadi; havo-tomchi, umumiy hojatxona va fekal-oral yo'l bilan yuqmaydi.",
+"source": "Manba: JSST (WHO), 'HIV and AIDS' fact sheet, so'nggi tahrir (2026-10-18 da ko'rildi), 'Transmission' bo'limi",
+"source_ref": {
+"url": "https://www.who.int/news-room/fact-sheets/detail/hiv-aids",
+"page": "Transmission / Diagnosis"
+},
+"notes": ""
+},
+{
+"id": "ng-o-129",
+"status": "verified",
+"key": 1,
+"options": [
+"Sun'iy ovqatlantirilganda (idish orqali)",
+"Homiladorlik davrida, tug'ruq vaqtida, ko'krak suti bilan emizganda",
+"Bolani parvarishlashda va maishiy muloqot vaqtida",
+"Tug'ruq vaqtida, idish orqali sun'iy ovqatlantirilganda"
+],
+"explanation_uz": "OIV onadan bolaga homiladorlik, tug'ruq va ko'krak suti bilan emizish davrida o'tishi mumkin; kundalik parvarish va idishdan ovqatlantirish orqali o'tmaydi.",
+"source": "Manba: JSST (WHO), 'HIV and AIDS' fact sheet, so'nggi tahrir (2026-10-18 da ko'rildi), 'Transmission' bo'limi",
+"source_ref": {
+"url": "https://www.who.int/news-room/fact-sheets/detail/hiv-aids",
+"page": "Transmission / Diagnosis"
+},
+"notes": ""
+},
+{
+"id": "ng-o-119",
+"status": "verified",
+"key": 1,
+"options": [
+"Qon, ona suti, ko'z yoshi, shaxvat, ter, siydik",
+"Qon, shaxvat, qin suyuqligi, amniotik suyuqlik, ona suti, sinovial suyuqlik",
+"Qusuq, so'lak, najas, yiring, me'da va o'n ikki bamoql ichak suyuqligi",
+"Ko'z yoshi, yiring, oshqozon shirasi, o't suyuqligi"
+],
+"explanation_uz": "Qon, sperma, qin ajralmasi, ona suti hamda amniotik va sinovial suyuqliklar xavfli hisoblanadi; ter, ko'z yoshi, siydik va qusuq kabi suyuqliklar qon aralashmaguncha xavfli emas.",
+"source": "Manba: CDC, MMWR Universal Precautions for Prevention of Transmission of HIV, HBV and Other Bloodborne Pathogens in Health-Care Settings, 1988, 'Body fluids' bo'limi; JSST HIV fact sheet (ona suti)",
+"source_ref": {
+"url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00000039.htm",
+"also_url": "https://www.who.int/news-room/fact-sheets/detail/hiv-aids"
+},
+"notes": "CDC 1988 hujjatida ona suti universal ehtiyot choralari ro'yxatida emas, lekin JSST ona sutini yuqish omili sifatida ko'rsatadi."
+},
+{
+"id": "ng-o-128",
+"status": "verified",
+"key": 0,
+"options": [
+"Yopiq sinishda gips qo'yish",
+"Xirurgik muolaja",
+"Inyeksiyalar",
+"Tish sug'urish"
+],
+"explanation_uz": "OIV yuqishi uchun qon yoki xavfli suyuqlik shilliq qavat/shikastlangan teri orqali o'tishi kerak; yopiq sinishda gips qo'yishda teri butunligi buzilmaydi va qon bilan aloqa bo'lmaydi, inyeksiya, jarrohlik va tish sug'urish esa xavfli.",
+"source": "Manba: JSST (WHO), 'HIV and AIDS' fact sheet, so'nggi tahrir (2026-10-18 da ko'rildi), 'Transmission' bo'limi",
+"source_ref": {
+"url": "https://www.who.int/news-room/fact-sheets/detail/hiv-aids",
+"page": "Transmission / Diagnosis"
+},
+"notes": "Bevosita ushbu muolaja nomi manbada keltirilmagan; javob manbadagi yuqish mexanizmidan (teri butunligi buzilmasligi) kelib chiqadi."
+},
+{
+"id": "ng-o-131",
+"status": "verified",
+"key": 0,
+"options": [
+"Gepatit V virusi, OIV",
+"Gepatit S virusi",
+"Oddiy gerpes virusi",
+"Gepatit A virusi"
+],
+"explanation_uz": "Qon bilan kasbiy aloqada gepatit B virusi ham OIV ham xavfli; qonda HBV konsentratsiyasi OIVdan ancha yuqori, shuning uchun eng yuqori xavf B gepatiti bilan bog'liq.",
+"source": "Manba: CDC, MMWR Universal Precautions ... in Health-Care Settings, 1988, HBV va HIV xavfi taqqoslash qismi",
+"source_ref": {
+"url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00000039.htm"
+},
+"notes": "Variant 0 'Gepatit B virusi, OIV' aralash; HBV eng yuqori xavfli patogen, boshqa variantlarda HBV yo'q. Mutaxassis ko'rib chiqsin."
+},
+{
+"id": "ng-o-136",
+"status": "no_source",
+"key": null,
+"options": [
+"T-limfotsitlar",
+"V- limfotsitlar",
+"Eritrotsitlar",
+"Trombotsitlar"
+],
+"explanation_uz": "OIV asosan CD4 T-limfotsitlarni zararlaydi va ularni kamaytirib immunitetni susaytiradi.",
+"source": "Manba: O'zbekiston SSV tizimi hamshiralar uchun OITS bo'yicha test savollari (SPID test.pdf, nashr yili ko'rsatilmagan), 42-savol; NIH HIVinfo, HIV Treatment Basics",
+"source_ref": {
+"file": "hasm/chunk2/txt/1Ongmx_CNOY2YC2kkfWgLkLOu0rKoIDtd.txt (СПИД тест.pdf)",
+"page": "42-savol (Т-лимфоцитлар)",
+"also_url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/hiv-treatment-basics"
+},
+"notes": "",
+"key_candidate": 0,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-o-118",
+"status": "verified",
+"key": 0,
+"options": [
+"Retrovirusga qarshi preparatlar",
+"Antibakterial preparatlar",
+"Zamburug'larga qarshi preparatlar",
+"Sitostatiklar"
+],
+"explanation_uz": "OIV infeksiyasi retrovirusga qarshi preparatlar (antiretrovirus terapiya, ART) bilan davolanadi; antibakterial, zamburug'ga qarshi va sitostatiklar OIVni davolamaydi.",
+"source": "Manba: NIH HIVinfo, HIV Treatment Basics, 'The treatment for HIV is called antiretroviral therapy (ART)'; O'zR Prezident qarori PQ-14, 20.01.2023 (retrovirusga qarshi preparatlar)",
+"source_ref": {
+"url": "https://hivinfo.nih.gov/understanding-hiv/fact-sheets/hiv-treatment-basics"
+},
+"notes": ""
+},
+{
+"id": "ng-o-113",
+"status": "no_source",
+"key": null,
+"options": [
+"Ortomiksoviruslar",
+"Retroviruslar",
+"Flaviviruslar",
+"Adenoviruslar"
+],
+"explanation_uz": "OITS/OIV qo'zg'atuvchisi retroviruslar oilasiga mansub RNK saqlovchi virus bo'lib, teskari transkriptaza fermenti orqali RNKni DNKga o'tkazadi.",
+"source": "Manba: O'zbekiston SSV tizimi hamshiralar uchun OITS bo'yicha test savollari (SPID test.pdf, nashr yili ko'rsatilmagan), 12-savol",
+"source_ref": {
+"file": "hasm/chunk2/txt/1Ongmx_CNOY2YC2kkfWgLkLOu0rKoIDtd.txt (СПИД тест.pdf)",
+"page": "12-savol"
+},
+"notes": "Manba rasmiy norma emas, SSV hamshiralar test ro'yxati; NIH HIVinfo ham RNK va teskari transkriptaza tavsifini tasdiqlaydi (hivinfo.nih.gov, HIV life cycle).",
+"key_candidate": 1,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-o-133",
+"status": "no_source",
+"key": null,
+"options": [
+"RNK saqlovchi retrovirus",
+"Adenovirus",
+"Flavovirus",
+"Rabdovirus"
+],
+"explanation_uz": "OITS/OIV qo'zg'atuvchisi retroviruslar oilasiga mansub RNK saqlovchi virus bo'lib, teskari transkriptaza fermenti orqali RNKni DNKga o'tkazadi.",
+"source": "Manba: O'zbekiston SSV tizimi hamshiralar uchun OITS bo'yicha test savollari (SPID test.pdf, nashr yili ko'rsatilmagan), 141-savol (RNKga ega retrovirus)",
+"source_ref": {
+"file": "hasm/chunk2/txt/1Ongmx_CNOY2YC2kkfWgLkLOu0rKoIDtd.txt (СПИД тест.pdf)",
+"page": "141-savol (RNKga ega retrovirus)"
+},
+"notes": "Manba rasmiy norma emas, SSV hamshiralar test ro'yxati; NIH HIVinfo ham RNK va teskari transkriptaza tavsifini tasdiqlaydi (hivinfo.nih.gov, HIV life cycle).",
+"key_candidate": 0,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-h-364",
+"status": "no_source",
+"key": null,
+"options": [
+"-Retrovirus",
+"-Pilovirus",
+"-Bakteriya",
+"-DNK saqlovchi virus"
+],
+"explanation_uz": "OITS/OIV qo'zg'atuvchisi retroviruslar oilasiga mansub RNK saqlovchi virus bo'lib, teskari transkriptaza fermenti orqali RNKni DNKga o'tkazadi.",
+"source": "Manba: O'zbekiston SSV tizimi hamshiralar uchun OITS bo'yicha test savollari (SPID test.pdf, nashr yili ko'rsatilmagan), 12-savol",
+"source_ref": {
+"file": "hasm/chunk2/txt/1Ongmx_CNOY2YC2kkfWgLkLOu0rKoIDtd.txt (СПИД тест.pdf)",
+"page": "12-savol"
+},
+"notes": "Manba rasmiy norma emas, SSV hamshiralar test ro'yxati; NIH HIVinfo ham RNK va teskari transkriptaza tavsifini tasdiqlaydi (hivinfo.nih.gov, HIV life cycle).",
+"key_candidate": 0,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-p-007",
+"status": "no_source",
+"key": null,
+"options": [
+"pilovirus,",
+"bakteriya,",
+"DNK saqlovchi virus,",
+"retrovirus."
+],
+"explanation_uz": "OITS/OIV qo'zg'atuvchisi retroviruslar oilasiga mansub RNK saqlovchi virus bo'lib, teskari transkriptaza fermenti orqali RNKni DNKga o'tkazadi.",
+"source": "Manba: O'zbekiston SSV tizimi hamshiralar uchun OITS bo'yicha test savollari (SPID test.pdf, nashr yili ko'rsatilmagan), 12-savol",
+"source_ref": {
+"file": "hasm/chunk2/txt/1Ongmx_CNOY2YC2kkfWgLkLOu0rKoIDtd.txt (СПИД тест.pdf)",
+"page": "12-savol"
+},
+"notes": "Manba rasmiy norma emas, SSV hamshiralar test ro'yxati; NIH HIVinfo ham RNK va teskari transkriptaza tavsifini tasdiqlaydi (hivinfo.nih.gov, HIV life cycle).",
+"key_candidate": 3,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-o-111",
+"status": "no_source",
+"key": null,
+"options": [
+"Apronoz",
+"Antroponoz",
+"Zoonoz",
+"Zooantroponoz"
+],
+"explanation_uz": "OIV infeksiyasi faqat odamdan odamga yuqadi, ya'ni antroponoz kasallikdir.",
+"source": "Manba: O'zbekiston SSV tizimi hamshiralar uchun OITS bo'yicha test savollari (SPID test.pdf, nashr yili ko'rsatilmagan), 1-savol (antroponoz = odamdan odamga yuqadigan infeksiya); JSST HIV fact sheet",
+"source_ref": {
+"file": "hasm/chunk2/txt/1Ongmx_CNOY2YC2kkfWgLkLOu0rKoIDtd.txt (СПИД тест.pdf)",
+"page": "1-savol",
+"also_url": "https://www.who.int/news-room/fact-sheets/detail/hiv-aids"
+},
+"notes": "Bilvosita tasdiq: manbalar antroponozni ta'riflaydi va OIV odamdan odamga yuqishini ko'rsatadi.",
+"key_candidate": 1,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-o-109",
+"status": "disputed",
+"key": null,
+"options": [
+"OIV — Odam immunitet tanqisligi virusi",
+"Gepatit keltirib chiqaruvchi virus",
+"OIV retrovirus, revertaza saqlaydi, genomi faqat RNK ko'rinishida mavjud",
+"DNK saqlovchi virus, teskari transkriptazani saqlaydi, flavivirus"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Ikki variant to'g'ri: 0 'OIV - Odam immunitet tanqisligi virusi' va 2 'retrovirus, genomi RNK'. Savol ('OIV bu nima') noaniq."
+},
+{
+"id": "ng-o-110",
+"status": "disputed",
+"key": null,
+"options": [
+"Bu - OIV infeksiyasining oxirgi bosqichi xisoblanadi",
+"Bu - OIV infeksiyasining terminal (o'limdan oldingi) bosqichi",
+"DNK saqlovchi virus, teskari transkriptazani saqlaydi",
+"OIV – o'ta xavfli yuqumli kasallik"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Variant 0 ('OIV infeksiyasining oxirgi bosqichi') va 1 ('terminal bosqich') mazmunan ikkalasi ham JSST ta'rifiga ('most advanced stage') mos; farqi faqat so'zda. Savol noaniq."
+},
+{
+"id": "ng-p-008",
+"status": "no_source",
+"key": null,
+"options": [
+"5 yilgacha,",
+"8 yilgacha,",
+"20 yilgacha,",
+"10 yilgacha."
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "OIVning muzlatilgan zardobda saqlanish muddati bo'yicha manba topilmadi."
+},
+{
+"id": "ng-p-009",
+"status": "verified",
+"key": 1,
+"options": [
+"qon, ona suti, ko'z yoshi, shaxvat, ter, siydik,",
+"qon, shaxvat, qin suyuqligi, amniotik suyuqlik, ona suti, sinovial suyuqlik,",
+"qusuq, so'lak, najas, yiring, me'da va o'n ikki bamoqli ichak suyuqligi,",
+"ko'z yoshi, yiring, oshqozon shirasi, o't suyuqligi."
+],
+"explanation_uz": "Qon, sperma, qin ajralmasi, ona suti hamda amniotik va sinovial suyuqliklar xavfli hisoblanadi; ter, ko'z yoshi, siydik va qusuq kabi suyuqliklar qon aralashmaguncha xavfli emas.",
+"source": "Manba: CDC, MMWR Universal Precautions for Prevention of Transmission of HIV, HBV and Other Bloodborne Pathogens in Health-Care Settings, 1988, 'Body fluids' bo'limi; JSST HIV fact sheet (ona suti)",
+"source_ref": {
+"url": "https://www.cdc.gov/mmwr/preview/mmwrhtml/00000039.htm",
+"also_url": "https://www.who.int/news-room/fact-sheets/detail/hiv-aids"
+},
+"notes": "ng-o-119 bilan bir xil savol."
+},
+{
+"id": "ng-o-405",
+"status": "verified",
+"key": 2,
+"options": [
+"Salmonella",
+"Vibrion",
+"Viruslar",
+"Kokklar"
+],
+"explanation_uz": "Infeksion (virusli) gepatitlarni gepatit viruslari (A, B, C, D, E) qo'zg'atadi; salmonella, vibrion va kokklar boshqa kasalliklar qo'zg'atuvchisi.",
+"source": "Manba: JSST (WHO), 'Hepatitis B' va 'Hepatitis A' fact sheets, so'nggi tahrir (2026-10-18 da ko'rildi), 'Transmission' bo'limlari",
+"source_ref": {
+"url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b",
+"also_url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-a"
+},
+"notes": ""
+},
+{
+"id": "ng-o-407",
+"status": "verified",
+"key": 2,
+"options": [
+"A, Ye",
+"A, V, Ye",
+"V, S, D",
+"S, A, D"
+],
+"explanation_uz": "B, C va D gepatitlari qon orqali (gematogen/parenteral) yuqadi; A va E gepatitlari esa asosan fekal-oral yo'l bilan yuqadi.",
+"source": "Manba: JSST (WHO), 'Hepatitis B' va 'Hepatitis A' fact sheets, so'nggi tahrir (2026-10-18 da ko'rildi), 'Transmission' bo'limlari",
+"source_ref": {
+"url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-b",
+"also_url": "https://www.who.int/news-room/fact-sheets/detail/hepatitis-a"
+},
+"notes": "B gepatit qon orqali yuqishi WHO sahifasida tasdiqlangan; C va D ning qon orqali yuqishi umumiy tibbiy bilim, WHO hepatitis C/D sahifalari alohida ko'rilmadi - mutaxassis tasdiqlasin."
+},
+{
+"id": "ng-o-406",
+"status": "disputed",
+"key": null,
+"options": [
+"A, Ye",
+"A, V, Ye",
+"V, S, D",
+"S, A, D"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "'Kontakt yo'l' atamasi noaniq: A va E gepatitlari fekal-oral (kontakt-maishiy) yo'l bilan yuqadi (WHO hepatitis A), lekin B, C, D ham jinsiy kontakt orqali yuqadi. Ehtimoliy kalit: 0 (A, E). Mutaxassis ko'rib chiqsin."
+},
+{
+"id": "ng-h-467",
+"status": "disputed",
+"key": null,
+"options": [
+"Sog'lom turmush tarziga rioya qilish, har yili bitsillin profilaktik dozasini olish",
+"Virusli gepatit kasalligini samarali davolash va kaloriyaga boy ovqatlanish",
+"Surunkali gepatit kasalligi aniqlanganda bemorlarni dispenser nazoratiga olish",
+"Virusli gepatit kasalligini samarali davolash va ratsional ovqatlanish"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Variant 0 tarkibida 'har yili bitsillin profilaktik dozasi' bor (bitsillin gepatit uchun emas, revmatizm profilaktikasi) - tibbiy jihatdan shubhali; boshqa variantlar ikkilamchi/uchlamchi profilaktikaga yaqin. Manba topilmadi."
+},
+{
+"id": "ng-h-468",
+"status": "disputed",
+"key": null,
+"options": [
+"Virusli gepatit kasalligini samarali davolash va ratsional ovqatlanish",
+"Virusli gepatit kasalligini samarali davolash va kaloriyaga boy ovqatlanish",
+"Surunkali gepatit kasalligi aniqlanganda bemorlarni dispenser nazoratiga olish",
+"Sog'lom turmush tarziga rioya qilish, har yili"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Variantlar mazmunan aralash (3-variant kesilgan va 'bitsillin' bilan bog'liq ko'rinadi); 'dispanser nazoratiga olish' (2) va davolash (0) ikkalasi ham ikkilamchi profilaktikaga mos. Manba topilmadi."
+},
+{
+"id": "ng-o-014",
+"status": "verified",
+"key": 0,
+"options": [
+"So'rovnoma",
+"Fizik tekshiruv",
+"Laboratoriya tadqiqotlari",
+"Instrumental tadqiqotlar"
+],
+"explanation_uz": "Xavf omillarini baholash (WHO STEPS) birinchi bosqichda so'rovnoma orqali amalga oshiriladi; jismoniy o'lchovlar 2-bosqich, laboratoriya tekshiruvi 3-bosqich.",
+"source": "Manba: JSST (WHO), STEPwise approach to NCD risk factor surveillance (STEPS), STEPS Instrument, 'Step 1: Questionnaire'",
+"source_ref": {
+"url": "https://www.who.int/teams/noncommunicable-diseases/surveillance/systems-tools/steps/instrument"
+},
+"notes": "O'zbekiston milliy hujjati topilmadi; xalqaro STEPS metodikasi asosida."
+},
+{
+"id": "ng-o-017",
+"status": "disputed",
+"key": null,
+"options": [
+"Xavf omillari",
+"Sog'lom turmush tarzi",
+"Zararli odatlarga qarshi kurashish",
+"Individual profilaktika"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "'Ilmiy asosi' - xavf omillari (0) yoki sog'lom turmush tarzi (1) ikkalasi defensible; noaniq so'z. Ehtimoliy kalit 0. Manba topilmadi."
+},
+{
+"id": "ng-o-121",
+"status": "verified",
+"key": 2,
+"options": [
+"Operatsion jarohatga mikroblar tushishining oldini olishni ta'minlaydigan tadbirlar",
+"Kasalliklarni oldini olish",
+"Obyekt, muhit va buyumlardagi yuqumli kasalliklar qo'zg'atuvchilarini yo'qotishdir",
+"Jaroxatdagi potologik tuzilmadagi yoki umuman organizmdagi mikroblarni yo'qotish"
+],
+"explanation_uz": "Dezinfeksiya - yuqumli va parazitar kasallik qo'zg'atuvchilarini yo'qotishga qaratilgan chora-tadbirlar majmuasi; ya'ni obyekt, muhit va buyumlardagi qo'zg'atuvchilarni yo'qotish.",
+"source": "Manba: O'zR SSV, SanQvaM № 0365-19 (2019) 'Tibbiy asbob-anjomlar va buyumlarni sterilizatsiya qilish markazlarini loyihalash, qurish va ekspluatatsiya qilish', 'Atamalar va ta'riflar' bo'limi",
+"source_ref": {
+"file": "hasm/chunk1/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ.txt (ЎзР СанҚваМ № 0365-19.pdf)",
+"page": "5-bet, atamalar"
+},
+"notes": ""
+},
+{
+"id": "ng-h-060",
+"status": "verified",
+"key": 1,
+"options": [
+"Jaroxatga mikroblar tushishining oldini olishni ta'minlaydigan tadbirga aytiladi",
+"Ob'ekt, muhit va buyumlardagi yuqumli kasalliklar qo'zg'atuvchilarini yo'qotishdir",
+"Kasalliklarni oldini olish",
+"Jaroxatdagi potologik tuzilmadagi yoki umuman organizmdagi mikroblarni yo'qotish"
+],
+"explanation_uz": "Dezinfeksiya - obyekt, muhit va buyumlardagi yuqumli kasallik qo'zg'atuvchilarini yo'qotishdir; yarani mikroblardan saqlash aseptikaga tegishli.",
+"source": "Manba: O'zR SSV, SanQvaM № 0365-19 (2019) 'Tibbiy asbob-anjomlar va buyumlarni sterilizatsiya qilish markazlarini loyihalash, qurish va ekspluatatsiya qilish', 'Atamalar va ta'riflar' bo'limi",
+"source_ref": {
+"file": "hasm/chunk1/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ.txt (ЎзР СанҚваМ № 0365-19.pdf)",
+"page": "5-bet, atamalar"
+},
+"notes": "PDF sahifasidan variantlar tuzatildi: bank matnida 1-variant ('Jaroxatga mikroblar tushishining oldini olish...') va 2-variant ('Ob'ekt, muhit va buyumlardagi... yo'qotishdir') bitta qatorga qo'shilib ketgan edi."
+},
+{
+"id": "ng-h-264",
+"status": "verified",
+"key": 0,
+"options": [
+"Infeksiya manbai bo'lgan mikroorganizmlarni yo'qotish",
+"MIkroorganizm va ularni sporalarini yo'qotish",
+"Hashorotlarga qarshi kurashish",
+"Kemiruvchilarga qarshi kurashish"
+],
+"explanation_uz": "Dezinfeksiya yuqumli kasallik qo'zg'atuvchilarini (infeksiya manbai bo'lgan mikroorganizmlarni) yo'qotadi; spora ham yo'qotish esa sterilizatsiyaga xos.",
+"source": "Manba: O'zR SSV, SanQvaM № 0365-19 (2019) 'Tibbiy asbob-anjomlar va buyumlarni sterilizatsiya qilish markazlarini loyihalash, qurish va ekspluatatsiya qilish', 'Atamalar va ta'riflar' bo'limi",
+"source_ref": {
+"file": "hasm/chunk1/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ.txt (ЎзР СанҚваМ № 0365-19.pdf)",
+"page": "5-bet, atamalar"
+},
+"notes": ""
+},
+{
+"id": "ng-h-042",
+"status": "verified",
+"key": 0,
+"options": [
+"Dezinfeksiya",
+"Dezinseksiya",
+"Deratizasiya",
+"Sterillizasiya"
+],
+"explanation_uz": "Atrof-muhitdagi yuqumli kasallik qo'zg'atuvchilarini yo'qotish dezinfeksiya deyiladi; dezinseksiya hasharotlarga, deratizatsiya kemiruvchilarga qarshi.",
+"source": "Manba: O'zR SSV, SanQvaM № 0365-19 (2019) 'Tibbiy asbob-anjomlar va buyumlarni sterilizatsiya qilish markazlarini loyihalash, qurish va ekspluatatsiya qilish', 'Atamalar va ta'riflar' bo'limi",
+"source_ref": {
+"file": "hasm/chunk1/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ.txt (ЎзР СанҚваМ № 0365-19.pdf)",
+"page": "5-bet, atamalar"
+},
+"notes": ""
+},
+{
+"id": "ng-o-123",
+"status": "verified",
+"key": 3,
+"options": [
+"Operatsion jarohatga mikroblar tushishining oldini olishni ta'minlaydigan tadbir",
+"Kasalliklarni oldini olish",
+"Organizmdagi mikroblarni yo'qotishga qaratilgan tadbir",
+"Mikroblar va ularning sporalarini yo'qotishga qaratilgan chora- tadbirlar"
+],
+"explanation_uz": "Sterilizatsiya - tibbiy buyumlardagi sporalar kiritilgan barcha turdagi mikroorganizmlarni yo'qotishdir.",
+"source": "Manba: O'zR SSV, SanQvaM № 0365-19 (2019) 'Tibbiy asbob-anjomlar va buyumlarni sterilizatsiya qilish markazlarini loyihalash, qurish va ekspluatatsiya qilish', 'Atamalar va ta'riflar' bo'limi",
+"source_ref": {
+"file": "hasm/chunk1/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ.txt (ЎзР СанҚваМ № 0365-19.pdf)",
+"page": "6-bet, 'sterilizatsiya qilish' ta'rifi"
+},
+"notes": ""
+},
+{
+"id": "ng-h-059",
+"status": "verified",
+"key": 0,
+"options": [
+"Mikrob va uning sporalarini yo'qotish",
+"Mikroorganizmlarni yo'qotish",
+"Sporalarni yo'qotish",
+"Hashoratlarni yo'qotish"
+],
+"explanation_uz": "Sterilizatsiya mikroblar va ularning sporalarini to'liq yo'qotishga qaratilgan chora-tadbirlar yig'indisidir.",
+"source": "Manba: O'zR SSV, SanQvaM № 0365-19 (2019) 'Tibbiy asbob-anjomlar va buyumlarni sterilizatsiya qilish markazlarini loyihalash, qurish va ekspluatatsiya qilish', 'Atamalar va ta'riflar' bo'limi",
+"source_ref": {
+"file": "hasm/chunk1/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ.txt (ЎзР СанҚваМ № 0365-19.pdf)",
+"page": "6-bet, 'sterilizatsiya qilish' ta'rifi"
+},
+"notes": ""
+},
+{
+"id": "ng-o-441",
+"status": "verified",
+"key": 0,
+"options": [
+"Kasallikni oldini olish maqsadida olib boriladigan choralar",
+"Kasallik o'chog'ida olib borilgan dezinfeksiyaga aytiladi",
+"Bemor yotgan xonani yuvib tozalash",
+"Asboblarni yuqumsizlantirish"
+],
+"explanation_uz": "Profilaktik dezinfeksiya kasallik bo'lmasa ham uning paydo bo'lishi va tarqalishini oldini olish maqsadida olib boriladi.",
+"source": "Manba: O'zR SSV, SanQvaM № 0365-19 (2019) 'Tibbiy asbob-anjomlar va buyumlarni sterilizatsiya qilish markazlarini loyihalash, qurish va ekspluatatsiya qilish', 'Atamalar va ta'riflar' bo'limi",
+"source_ref": {
+"file": "hasm/chunk1/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ.txt (ЎзР СанҚваМ № 0365-19.pdf)",
+"page": "6-bet, 'Profilaktik dezinfeksiya' ta'rifi"
+},
+"notes": ""
+},
+{
+"id": "ng-h-281",
+"status": "verified",
+"key": 0,
+"options": [
+"xali kasallik kelib chiqmagan joyda olib boriladigan dezinfeksiya",
+"kasallik o'chog'ida olib boriladigan dezinfeksiyaga aytiladi",
+"bemor yotgan xonani yuvib tozalash",
+"asboblarni yuqumsizlantirish"
+],
+"explanation_uz": "Profilaktik dezinfeksiya hali kasallik chiqmagan joyda, uning oldini olish uchun o'tkaziladi; o'choqdagi dezinfeksiya alohida tur.",
+"source": "Manba: O'zR SSV, SanQvaM № 0365-19 (2019) 'Tibbiy asbob-anjomlar va buyumlarni sterilizatsiya qilish markazlarini loyihalash, qurish va ekspluatatsiya qilish', 'Atamalar va ta'riflar' bo'limi",
+"source_ref": {
+"file": "hasm/chunk1/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ.txt (ЎзР СанҚваМ № 0365-19.pdf)",
+"page": "6-bet, 'Profilaktik dezinfeksiya' ta'rifi"
+},
+"notes": ""
+},
+{
+"id": "ng-h-201",
+"status": "no_source",
+"key": null,
+"options": [
+"Kimyofiy, biologik, texnik",
+"Profilaktik va o'choqli",
+"Fizikaviy, kimyoviy, biologik",
+"Mexanik, fizik, ijtimoiy"
+],
+"explanation_uz": "Dezinfeksiya turlari profilaktik va o'choqli (joriy va yakuniy) dezinfeksiyadan iborat; fizik, kimyoviy va mexanik usullar esa dezinfeksiya vositalari/usullari.",
+"source": "Manba: Toshkent vrachlar malakasini oshirish instituti, 'Davolash-profilaktika muassasalarida COVID-19da infeksion nazorat va dezinfeksiya, utilizatsiya ishlarini tashkil etish' (taqdimot), 2020, dezinfeksiya turlari slaydi",
+"source_ref": {
+"file": "hasm/chunk2/txt/1d1X-j8XG3TUBBHeAWRiunuWtlyhPULrv.txt (Дезинфекция ва утилизация 15 05.pdf)",
+"page": "2-3-slaydlar"
+},
+"notes": "Savol 'turlari' deb so'ralgan; variant 2 ('fizikaviy, kimyoviy, biologik') usullarni bildiradi va slaydda 'biologik' yo'q.",
+"key_candidate": 1,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-o-248",
+"status": "verified",
+"key": 0,
+"options": [
+"Oqsil, yog', qon, dori preparatlari qoldiqlarini yo'q qilish maqsadida",
+"Asboblarga chang tegmaslik maqsadida",
+"Asboblarni sterillash maqsadida",
+"Asboblarni zanglashini oldini olish maqsadida"
+],
+"explanation_uz": "Sterilizatsiyadan oldingi tozalash tibbiy buyumlardagi oqsil, yog' va mexanik ifloslanishlarni (qon, dori qoldiqlari) yo'qotish uchun o'tkaziladi.",
+"source": "Manba: O'zR SSV, SanQvaM № 0365-19 (2019) 'Tibbiy asbob-anjomlar va buyumlarni sterilizatsiya qilish markazlarini loyihalash, qurish va ekspluatatsiya qilish', atamalar ('Sterilizatsiya oldi tozalov ishlari') va 7.1.18-band",
+"source_ref": {
+"file": "hasm/chunk1/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ.txt (ЎзР СанҚваМ № 0365-19.pdf)",
+"page": "6-bet; 7.1.18"
+},
+"notes": ""
+},
+{
+"id": "ng-h-277",
+"status": "verified",
+"key": 0,
+"options": [
+"bemor shifoxonaga yotgach yoki shifokorga murojat etgandan keyin aniqlangan yoki shu muassasada ishlaydigan davrida kelib chiqqan infeksiya",
+"kasallikning yashirin davri",
+"organizmning asosiy vazifalarini boshqarib turgan fiziologik mexanizmning buzilishi natijasida rivojlangan kasallik",
+"birlamchi mikrobning organizmda yo'qolmasdan turib qaytalanishi"
+],
+"explanation_uz": "Kasalxona ichi infeksiyasi - bemor davolash muassasasiga yotqizilishi yoki murojaat qilishi natijasida (shuningdek xodim ishlagan davrda) paydo bo'lgan klinik namoyon bo'lgan mikrob kasalligi.",
+"source": "Manba: O'zR SSV, SanQvaM № 0365-19 (2019) 'Tibbiy asbob-anjomlar va buyumlarni sterilizatsiya qilish markazlarini loyihalash, qurish va ekspluatatsiya qilish', 'Atamalar va ta'riflar' bo'limi",
+"source_ref": {
+"file": "hasm/chunk1/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ.txt (ЎзР СанҚваМ № 0365-19.pdf)",
+"page": "5-bet, 'Kasalxona ichi infeksiyasi'"
+},
+"notes": ""
+},
+{
+"id": "ng-o-114",
+"status": "disputed",
+"key": null,
+"options": [
+"Bemor kasalxonaga yotqizilgan har qanday klinik taniqli yuqumli kasallik",
+"Jinsiy yo'l bilan yuqadigan infeksiya",
+"Har qanday tibbiy yordam ko'rsatish bilan bog'liq tibbiyot xodimlari",
+"Insiy yo'l bilan yuqmaydigan infeksiya"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Variant 0 (kasalxonadagi klinik taniqli kasallik) va variant 2 (xodimlar infeksiyasi; matn kesilgan) ikkalasi ham SanQvaM 0365-19 ta'rifiga qisman mos (xodimlar kasbiy infeksiyasi ham kiradi); savol so'zlanishi noaniq. CDC (2007) HAI ta'rifi: tibbiy yordam bilan bog'liq, qabulda yo'q/inkubatsiyada bo'lmagan infeksiya."
+},
+{
+"id": "ng-h-061",
+"status": "verified",
+"key": 0,
+"options": [
+"Yuqori bosim ostida sterillash",
+"Qaynatib sterillash",
+"Kuydirib sterillash",
+"Qizdirib sterillash"
+],
+"explanation_uz": "Avtoklavlash - sterilizatsiyalovchi agent yuqori bosim ostidagi suv bug'i bo'lgan sterilizatsiya usuli.",
+"source": "Manba: O'zR SSV, SanQvaM № 0365-19 (2019) 'Tibbiy asbob-anjomlar va buyumlarni sterilizatsiya qilish markazlarini loyihalash, qurish va ekspluatatsiya qilish', 'Atamalar va ta'riflar' bo'limi ('Bug'li sterilizator (avtoklav)')",
+"source_ref": {
+"file": "hasm/chunk1/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ.txt (ЎзР СанҚваМ № 0365-19.pdf)",
+"page": "6-bet"
+},
+"notes": ""
+},
+{
+"id": "ng-h-259",
+"status": "verified",
+"key": 0,
+"options": [
+"Yuqori bosim ostida sterillash",
+"Qaynatib sterillash",
+"Kuydirib sterillash",
+"Qizdirib sterillash"
+],
+"explanation_uz": "Avtoklavlash - sterilizatsiyalovchi agent yuqori bosim ostidagi suv bug'i bo'lgan sterilizatsiya usuli.",
+"source": "Manba: O'zR SSV, SanQvaM № 0365-19 (2019) 'Tibbiy asbob-anjomlar va buyumlarni sterilizatsiya qilish markazlarini loyihalash, qurish va ekspluatatsiya qilish', 'Atamalar va ta'riflar' bo'limi ('Bug'li sterilizator (avtoklav)')",
+"source_ref": {
+"file": "hasm/chunk1/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ/1_LtMWZV7h1bui_0EV4JZr3NlJRJBhxjZ.txt (ЎзР СанҚваМ № 0365-19.pdf)",
+"page": "6-bet"
+},
+"notes": "ng-h-061 bilan bir xil savol."
+},
+{
+"id": "ng-o-144",
+"status": "disputed",
+"key": null,
+"options": [
+"30 min 200S",
+"60 min 180S",
+"45 min 220S",
+"120 min 180S"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Quruq issiqlik (havo) sterilizatsiyasi rejimlari eski normalarga bog'liq: Rossiya o'quv manbalarida 180 C - 60 daqiqa, 160 C - 150 daqiqa; CDC/AQSh jadvallarida 170 C - 60 daqiqa, 180 C - 30 daqiqa. SanQvaM 0365-19 (2019) faqat bug'li (forvakuum) sterilizatsiyani belgilaydi (8.1.2, 8.1.4) va havo sterilizatori rejimini bermaydi. Variantlarda 200 C/30 daq va 180 C/60 daq ikkalasi eski jadvallarda uchraydi."
+},
+{
+"id": "ng-o-150",
+"status": "disputed",
+"key": null,
+"options": [
+"40 daqiqa",
+"45 daqiqa",
+"120 daqiqa",
+"90 daqiqa"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Quruq issiqlik (havo) sterilizatsiyasi rejimlari eski normalarga bog'liq: Rossiya o'quv manbalarida 180 C - 60 daqiqa, 160 C - 150 daqiqa; CDC/AQSh jadvallarida 170 C - 60 daqiqa, 180 C - 30 daqiqa. SanQvaM 0365-19 (2019) faqat bug'li (forvakuum) sterilizatsiyani belgilaydi (8.1.2, 8.1.4) va havo sterilizatori rejimini bermaydi. Variantlarda 60 daqiqa yo'q (40/45/120/90)."
+},
+{
+"id": "ng-o-146",
+"status": "disputed",
+"key": null,
+"options": [
+"120 min",
+"45 min",
+"60 min",
+"90 min"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Avtoklav rejimlari (bosim/harorat/vaqt) eski normalarga bog'liq va variantlar bir-biriga mos kelmaydi; SanQvaM 0365-19 (2019) faqat forvakuumli bug' sterilizatorlarini ko'rsatadi va vaqt jadvalini bermaydi. Mahalliy manba topilmadi, mutaxassis eski norma (OST 42-21-2-85 / SanPiN) bo'yicha ko'rib chiqsin."
+},
+{
+"id": "ng-o-151",
+"status": "disputed",
+"key": null,
+"options": [
+"1 atm.b (120S)da-60daq 1,5 atm.b (127S)da-45daq 2atm.b (134S)da-40daq",
+"1 atm.b (120S)da-30daq 1,5 atm.b (127S)da-40daq 2atm.b (134S)da-45daq",
+"1 atm.b (120S)da-40daq 1,5 atm.b (127S)da-30daq 2atm.b (134S)da-60daq",
+"1 atm.b (120S)da-45daq 1,5 atm.b (127S)da-60daq 2atm.b (134S)da-30daq"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Avtoklav rejimlari (bosim/harorat/vaqt) eski normalarga bog'liq va variantlar bir-biriga mos kelmaydi; SanQvaM 0365-19 (2019) faqat forvakuumli bug' sterilizatorlarini ko'rsatadi va vaqt jadvalini bermaydi. Mahalliy manba topilmadi, mutaxassis eski norma (OST 42-21-2-85 / SanPiN) bo'yicha ko'rib chiqsin."
+},
+{
+"id": "ng-o-097",
+"status": "no_source",
+"key": null,
+"options": [
+"\"B\"",
+"\"G\"",
+"\"V\"",
+"\"D\""
+],
+"explanation_uz": "Yaroqsiz dori vositalari (sitostatiklar), diagnostik va dezinfeksiya vositalari hamda simob saqlovchi uskunalar chiqindisi G sinfiga (toksikologik xavfli) kiradi.",
+"source": "Manba: Rossiya Federatsiyasi Bosh davlat sanitariya vrachi, SanPiN 2.1.7.2790-10 (09.12.2010, № 163), II bo'lim, 2.1-band, 1-jadval (O'zbekiston SanQvaM 0317-15 shu tasnifga asoslangan, 02.02.2015)",
+"source_ref": {
+"url": "https://legalacts.ru/doc/postanovlenie-glavnogo-gosudarstvennogo-sanitarnogo-vracha-rf-ot-09122010-n_1/",
+"clause": "2.1, G sinf",
+"local_note": "SanQvaM 0317-15 matni lokal bazada yo'q; faqat 01.05.2024 ro'yxatida va A-D sinflar slaydda"
+},
+"notes": "O'zbekiston SanQvaM 0317-15 matni topilmadi; javob Rossiya SanPiN 2.1.7.2790-10 dagi G sinf ta'rifiga asoslangan (0317-15 uning o'zbek varianti). Mutaxassis 0317-15 matni bilan tasdiqlasin.",
+"key_candidate": 1,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-o-157",
+"status": "no_source",
+"key": null,
+"options": [
+"Maxsus konteynerda yig'iladi",
+"Sariq rangli yoki sariq markirovkali konteynerlarga yig'iladi",
+"Qora rangdagi maxsus qoplarga yig'iladi",
+"Maxsus konteynerda 45 daqiqa davomida"
+],
+"explanation_uz": "B sinf (xavfli) tibbiy chiqindilar sariq rangli yoki sariq belgili qadoq/konteynerlarga yig'iladi.",
+"source": "Manba: Toshkent vrachlar malakasini oshirish instituti, 'Davolash-profilaktika muassasalarida COVID-19da infeksion nazorat va dezinfeksiya, utilizatsiya ishlarini tashkil etish' (taqdimot), 2020, chiqindilarni tasniflash slaydi (SanQvaM 0317-15 asosida); SanPiN 2.1.7.2790-10, 4.11-band",
+"source_ref": {
+"file": "hasm/chunk2/txt/1d1X-j8XG3TUBBHeAWRiunuWtlyhPULrv.txt (Дезинфекция ва утилизация 15 05.pdf)",
+"page": "'Tibbiy chiqindilar uchun paketlar sinflari' slaydi",
+"also_url": "https://legalacts.ru/doc/postanovlenie-glavnogo-gosudarstvennogo-sanitarnogo-vracha-rf-ot-09122010-n_1/"
+},
+"notes": "",
+"key_candidate": 1,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-h-497",
+"status": "no_source",
+"key": null,
+"options": [
+"Infektsion chiqindilar",
+"Maxsus zararli moddalar",
+"Maishiy xavfsiz chiqindilar",
+"Biofaol chiqindilar"
+],
+"explanation_uz": "A sinf - epidemiologik jihatdan xavfsiz, maishiy chiqindiga yaqin chiqindilar (oq paketlar).",
+"source": "Manba: Toshkent vrachlar malakasini oshirish instituti, 'Davolash-profilaktika muassasalarida COVID-19da infeksion nazorat va dezinfeksiya, utilizatsiya ishlarini tashkil etish' (taqdimot), 2020, chiqindilarni tasniflash slaydi (SanQvaM 0317-15 asosida)",
+"source_ref": {
+"file": "hasm/chunk2/txt/1d1X-j8XG3TUBBHeAWRiunuWtlyhPULrv.txt (Дезинфекция ва утилизация 15 05.pdf)",
+"page": "'Tibbiy chiqindilarni tasniflash' slaydi"
+},
+"notes": "",
+"key_candidate": 2,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-h-280",
+"status": "no_source",
+"key": null,
+"options": [
+"Utilizatsiya",
+"Dezinfeksiya",
+"Sterilizatsiya",
+"Deratizatsiya"
+],
+"explanation_uz": "Tibbiy chiqindilarni zararsizlantirgandan keyin yakuniy yo'q qilish (tugal utilizatsiya) utilizatsiya deyiladi.",
+"source": "Manba: Toshkent vrachlar malakasini oshirish instituti, 'Davolash-profilaktika muassasalarida COVID-19da infeksion nazorat va dezinfeksiya, utilizatsiya ishlarini tashkil etish' (taqdimot), 2020, 'Chiqindilarni yakuniy utilizatsiyasi' slaydlari",
+"source_ref": {
+"file": "hasm/chunk2/txt/1d1X-j8XG3TUBBHeAWRiunuWtlyhPULrv.txt (Дезинфекция ва утилизация 15 05.pdf)",
+"page": "utilizatsiya slaydlari"
+},
+"notes": "Manba institut o'quv taqdimoti.",
+"key_candidate": 0,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-h-045",
+"status": "no_source",
+"key": null,
+"options": [
+"Kuydirish va nurlantirish",
+"Oddiy va maxsus usul",
+"Murakkab usul",
+"Deratizatsion usul"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "'Oddiy va maxsus usul' kabi variantlar uchun manba topilmadi (slaydlarda yig'ish, zararsizlantirish va utilizatsiya bosqichlari bor)."
+},
+{
+"id": "ng-o-122",
+"status": "verified",
+"key": 0,
+"options": [
+"Oqar suvda bir necha daqiqa davomida yuvib tashlanadi va oftalmologga murojaat qilinadi",
+"Vodorod peroksid eritmasi bilan yuviladi",
+"Kaliy permanganat eritmasi bilan yuviladi",
+"Natriy bikarbonat eritmasi bilan yuviladi"
+],
+"explanation_uz": "Kimyoviy modda ko'zga tushganda ko'zni darhol oqar suv bilan ko'p miqdorda uzoq (kamida 10-15 daqiqa) yuvish kerak; neytrallovchi eritmalar ishlatilmaydi.",
+"source": "Manba: CDC/NIOSH, First Aid Procedures for Chemical Hazards (NIOSH Pocket Guide), 'Eye' bo'limi",
+"source_ref": {
+"url": "https://www.cdc.gov/niosh/npg/firstaid.html",
+"clause": "Eye contact"
+},
+"notes": "Neytrallash taqiqlanishi qidiruv natijalarida to'g'ridan-to'g'ri tasdiqlanmadi; faqat suv bilan yuvish ko'rsatilgan."
+},
+{
+"id": "ng-o-168",
+"status": "verified",
+"key": 1,
+"options": [
+"Xonada qoldiriladi",
+"Izolyatorga o'tkaziladi",
+"Operatsiya xonasiga",
+"Diagnostik bo'limshga"
+],
+"explanation_uz": "Yuqumli kasallikka shubha bo'lganda bemor (bola) boshqalardan ajratilgan alohida xonaga (izolyatorga) joylashtiriladi.",
+"source": "Manba: CDC (HICPAC), Guideline for Isolation Precautions: Preventing Transmission of Infectious Agents in Healthcare Settings, 2007, II.G Patient Placement, 59-60-betlar",
+"source_ref": {
+"url": "https://www.cdc.gov/infection-control/media/pdfs/Guideline-Isolation-H.pdf",
+"page": "59-60 (II.G)"
+},
+"notes": "Bola uchun maxsus norma topilmadi, umumiy izolyatsiya tamoyili."
+},
+{
+"id": "ng-o-138",
+"status": "verified",
+"key": 2,
+"options": [
+"Bir martalik tibbiy anjomlardan foydalanish",
+"Dezinfeksiya va sterilizatsiyaning to'la amalga oshirilishi",
+"Aseptikaga amal qilmaslik, sterilizatsiyaning yetarli emasligi",
+"Bakteriotsid lampalardan o'z vaqtida foydalanish"
+],
+"explanation_uz": "Shifoxona ichi infeksiyasi tarqalishining asosiy sababi aseptika qoidalariga amal qilmaslik va sterilizatsiya/dezinfeksiyaning yetarli bo'lmasligidir.",
+"source": "Manba: CDC (HICPAC), Guideline for Isolation Precautions: Preventing Transmission of Infectious Agents in Healthcare Settings, 2007, I bo'lim (ambulator muassasalardagi epidemiyalar sababi: aseptik texnika va xavfsiz in'ektsiya qoidalariga rioya qilmaslik), 38-bet",
+"source_ref": {
+"url": "https://www.cdc.gov/infection-control/media/pdfs/Guideline-Isolation-H.pdf",
+"page": "38"
+},
+"notes": "Bir martalik anjomlar va bakteritsid lampalar tarqalishni kamaytiradi, sababi emas."
+},
+{
+"id": "ng-h-053",
+"status": "verified",
+"key": 0,
+"options": [
+"Havo-tomchi orqali, bevosita aloqa orqali, bemor ashyolari orqali",
+"Nasl orqali",
+"Faqat vertikal yo'l orqali",
+"Bir martali shpris lar orqali"
+],
+"explanation_uz": "Yuqumli kasalliklar havo-tomchi, bevosita va bilvosita (bemor buyumlari orqali) aloqa yo'llari bilan yuqadi.",
+"source": "Manba: CDC (HICPAC), Guideline for Isolation Precautions: Preventing Transmission of Infectious Agents in Healthcare Settings, 2007, I.B.3 Modes of transmission, 16-bet",
+"source_ref": {
+"url": "https://www.cdc.gov/infection-control/media/pdfs/Guideline-Isolation-H.pdf",
+"page": "16 (I.B.3)"
+},
+"notes": ""
+},
+{
+"id": "ng-h-056",
+"status": "disputed",
+"key": null,
+"options": [
+"Epidemiologik o'choqda o'tkaziluvchi tadbir, infeksiyaga qarshi tadbir",
+"Epidemiyaga qarshi o'tkaziluvchi tadbir",
+"Infeksion o'choqda o'tkaziluvchi tadbir",
+"Faqat ichak infeksiyalariga qarshi kurashish"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "SSV buyrug'i № 92 (2019) Nizomi 3-band: infeksion nazorat - davolash muassasalarida yuqumli kasalliklarning paydo bo'lishi va tarqalishining oldini olish, epidemiyaga qarshi chora-tadbirlarni tashkil etuvchi tizim. Variantlar shu ta'rifni aniq aks ettirmaydi (1-variant eng yaqin), savol noaniq."
+},
+{
+"id": "ng-h-049",
+"status": "no_source",
+"key": null,
+"options": [
+"Ho'jalik rezinali perchatka, himoya ko'zoynagi, kliyonka fartuklardan",
+"Steril rezinali perchatka, himoya ko'zoynagi, kliyonka fartuklardan",
+"Steril rezinali perchatka, himoya ko'zoynagi",
+"Bahila, himoya ko'zoynagi, kliyonka fartuklardan"
+],
+"explanation_uz": "Suyuq chiqindi bilan ishlaganda ifloslangan yuzalar/buyumlar bilan ishlash uchun xo'jalik (qalin, qayta ishlatiladigan) rezina qo'lqop, ko'z himoyasi va kliyonka fartuk kiyiladi; steril qo'lqop talab qilinmaydi.",
+"source": "Manba: CDC (HICPAC), Guideline for Isolation Precautions: Preventing Transmission of Infectious Agents in Healthcare Settings, 2007, II.E.1 Gloves (53-bet), IV.B.2.b.ii (82-bet), II.E.3 ko'z himoyasi",
+"source_ref": {
+"url": "https://www.cdc.gov/infection-control/media/pdfs/Guideline-Isolation-H.pdf",
+"page": "53, 82"
+},
+"notes": "Suyuq chiqindi uchun aniq norma yo'q; xo'jalik qo'lqopi ifloslangan jihoz/yuzalar bilan ishlash uchun CDC tomonidan ko'rsatilgan. DZ slaydlari ham qo'lqop, ko'zoynak, maxsus kiyim talab qiladi.",
+"key_candidate": 0,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-h-263",
+"status": "no_source",
+"key": null,
+"options": [
+"Qovuqni kateterlashda",
+"Bemor ostini yuvishda",
+"Bemorga ho'qna qilishda",
+"Ahlat tahlili olayotganda"
+],
+"explanation_uz": "Siydik qopini kateterlash aseptik muolaja bo'lgani uchun steril qo'lqop kiyiladi; ostini yuvish, huqna va najas tahlilida toza (tekshiruv) qo'lqop yetarli.",
+"source": "Manba: JSST (WHO), Standard precautions in health care - aide-memoire (glove use, 2009 leaflet asosida), 'Gloves' bo'limi",
+"source_ref": {
+"url": "https://cdn.who.int/media/docs/default-source/mca-documents/nbh/enc-course/revised-resources/supplemental-materials/infection-prevention/who-ipc-aide-memoire-standard-precautions.pdf",
+"clause": "Gloves: sterile gloves for aseptic procedures such as catheter insertion"
+},
+"notes": "Aide-memoire sahifasi qidiruv natijasi orqali o'qildi (to'liq hujjat ochilmadi).",
+"key_candidate": 0,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-h-267",
+"status": "disputed",
+"key": null,
+"options": [
+"Steril va nostril",
+"Himoya, tozalovchi",
+"Steril va kirlangan",
+"Toza va steril"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "JSST qo'lqoplarni steril, tekshiruv (steril bo'lmagan) va xo'jalik turlariga bo'ladi; variantlar ('Steril va nostril' / 'Toza va steril') noaniq va 'nostril' imlo xatosi. Manba bilan aniq mos variant yo'q."
+},
+{
+"id": "ng-o-125",
+"status": "disputed",
+"key": null,
+"options": [
+"Qo'lidagi jarohatlarni leykoplaster bilan yopib, rezina qo'lqop, doka niqob kiyadi",
+"Rezina qo'lqop, rezina fartuk",
+"O'latga qarshi himoya kiyimini kiyadi",
+"Steril halat, qalpoqcha, baxila, doka niqob kiyadi"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Variant 0 (jarohatlarni yopish + rezina qo'lqop + niqob) va variant 1 (qo'lqop + fartuk) ikkalasi standart ehtiyot choralariga mos (CDC 2007, II.E); aniq bitta to'g'ri javob yo'q."
+},
+{
+"id": "ng-h-052",
+"status": "no_source",
+"key": null,
+"options": [
+"Biologik suyuqliklarni ustiga teng miqdorda 0,5%li hlor eritmasi quyilib 10 minutga qoldiriladi, zarasizlantirilgan biologik suyuqliklarni unitazga ehtiyotkorlik bilan sachratmasdan to'kadi",
+"Biologik suyuqliklarni kanalizaciyaga to'kib, oqar suvda yuviladi",
+"Biologik suyuqliklarni ustiga faqat lizol eritmasi quyilib zararsizlantiriladi",
+"Faqat oqar suv bilan yuviladi"
+],
+"explanation_uz": "Biologik suyuqliklar xlor saqlovchi dezinfeksiya vositasi (taxminan 0,5% = 5000 mg/l) bilan zararsizlantirilib, keyin ehtiyotkorlik bilan unitazga to'kiladi; faqat suv yoki faqat lizol yetarli emas.",
+"source": "Manba: Toshkent vrachlar malakasini oshirish instituti, 'Davolash-profilaktika muassasalarida COVID-19da infeksion nazorat va dezinfeksiya, utilizatsiya ishlarini tashkil etish' (taqdimot), 2020, 'Biologik suyuqliklarni zararsizlantirish' slaydlari",
+"source_ref": {
+"file": "hasm/chunk2/txt/1d1X-j8XG3TUBBHeAWRiunuWtlyhPULrv.txt (Дезинфекция ва утилизация 15 05.pdf)",
+"page": "biologik suyuqliklar slaydlari"
+},
+"notes": "Slaydda 5000 mg/l xlor eritmasi, ekspozitsiya 30 daqiqa; variantdagi '10 daqiqa' va 'teng miqdor' tafsilotlari manbada boshqacha - qolgan variantlar esa xato. PDFdan variantlar tuzatildi (bank matnida savol oxiri 1-variant bo'lib ketgan).",
+"key_candidate": 0,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-h-144",
+"status": "disputed",
+"key": null,
+"options": [
+"Distillangan",
+"Oqava",
+"Qaynatilgan",
+"Steril"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "SanQvaM 0365-19 (2019) 7.2.5: qo'lda yuvgandan keyin buyumlar yetarli miqdordagi oqar suvda chayiladi; 7.2.6: yakuniy chayish uchun demineralizatsiyalangan (filtrlangan) suv tavsiya etiladi. Variantlarda 'oqava' (oqar? imlo noaniq) va 'distillangan' bor - savol noaniq."
+},
+{
+"id": "ng-o-353",
+"status": "no_source",
+"key": null,
+"options": [
+"Sil, OITS",
+"O'lat, vabo",
+"Virusli gepatit “S”",
+"Virusli gepatit”A”"
+],
+"explanation_uz": "Karantin va o'ta xavfli yuqumli kasalliklar guruhiga o'lat, vabo, sariq isitma, kuydirgi kabilar kiradi; sil, OITS va virusli gepatitlar bu guruhga kirmaydi.",
+"source": "Manba: Karantin va o'ta xavfli yuqumli kasalliklar bo'yicha 35 soatlik maxsus dastur test-sinov savollari (SSV tizimi o'quv materiali, yili ko'rsatilmagan), 1-4-savollar",
+"source_ref": {
+"file": "hasm/chunk1/1klYaVVoGsQlTC9Qt7QBY0J1Du-RRF09A/1klYaVVoGsQlTC9Qt7QBY0J1Du-RRF09A.txt (Карантин ва ўта хавфли юқумли касалликлар...)",
+"page": "1-4-savollar"
+},
+"notes": "Rasmiy norma emas, o'quv test ro'yxati.",
+"key_candidate": 1,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-h-279",
+"status": "no_source",
+"key": null,
+"options": [
+"toshmali, qaytalama tif",
+"ichak infeksiyasi",
+"qoqshol",
+"allergiik kasalliklar"
+],
+"explanation_uz": "Kiyim (tana) bitlari toshmali tif va qaytalama tifni tashiydi; ichak infeksiyasi, qoqshol va allergik kasalliklar bit orqali tarqalmaydi.",
+"source": "Manba: JSST (WHO), Human lice (WHO/CTD/WHOPES/97.8), 1997; WHO Vector-borne diseases fact sheet",
+"source_ref": {
+"url": "https://www.who.int/publications/i/item/who-ctd-whopes-97.8",
+"also_url": "https://www.who.int/news-room/fact-sheets/detail/vector-borne-diseases"
+},
+"notes": "JSST: bosh bitlari kasallik tashuvchi emas, kiyim (tana) biti epidemik tif va qaytalama isitma tashuvchisi. Hujjat qidiruv natijasi orqali ko'rildi.",
+"key_candidate": 0,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-o-141",
+"status": "no_source",
+"key": null,
+"options": [
+"Mexanik",
+"Aralash",
+"Fizik",
+"Kimyoviy"
+],
+"explanation_uz": "Ultrabinafsha nurlari va UVCh (yuqori chastotali toklar) fizik antiseptika usullariga kiradi.",
+"source": "Manba: o'quv adabiyoti (Rossiya tibbiyot oliy o'quv yurti kurs materiali: antiseptika turlari, 'fizik antiseptika - UF nurlanish'), qidiruv natijasi orqali",
+"source_ref": {
+"url": "https://yagu.s-vfu.ru/mod/resource/view.php?id=1016977",
+"also_url": "https://studfile.net/preview/469237/"
+},
+"notes": "ZAIF manba: sahifalar login talab qilgani uchun to'liq ochilmadi, qidiruv ko'rsatmasiga tayangan. Mutaxassis darslik bilan tasdiqlasin.",
+"key_candidate": 2,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-o-145",
+"status": "no_source",
+"key": null,
+"options": [
+"Xlorli oxak",
+"N2O2 perekis vodorod, kaliy permanganat",
+"Karbol kislotasi",
+"Xloramin eritmasi"
+],
+"explanation_uz": "Oksidlovchi antiseptiklarga vodorod peroksid va kaliy permanganat kiradi; xlorli ohak va xloramin galogen (xlor saqlovchi) guruhiga, karbol kislota fenollarga mansub.",
+"source": "Manba: o'quv adabiyoti (Rossiya tibbiyot oliy o'quv yurti kurs materiali: kimyoviy antiseptika, oksidlovchilar), qidiruv natijasi orqali",
+"source_ref": {
+"url": "https://eios.kgsxa.ru/mod/resource/view.php?id=20755",
+"also_url": "https://yagu.s-vfu.ru/mod/resource/view.php?id=1016977"
+},
+"notes": "ZAIF manba: sahifalar login talab qilgani uchun to'liq ochilmadi. Xlorli ohak ham oksidlovchi xususiyatga ega, lekin manbalarda alohida galogenlar guruhida. Mutaxassis darslik bilan tasdiqlasin.",
+"key_candidate": 1,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-o-147",
+"status": "no_source",
+"key": null,
+"options": [
+"Birlamchi xirurgik ishlov",
+"Jaroxatnt drenajlash",
+"Xavodagi mikroblarni yo'qotish",
+"Jarohatni ultrotovush bilan davolash"
+],
+"explanation_uz": "Mexanik antiseptikaga jarohatga birlamchi (va ikkilamchi) jarrohlik ishlov berish, jarohatni yuvish kiradi.",
+"source": "Manba: 'Testy po khirurgii' (MGMSU, o'quv test fayli, 2013), 'Mexanik antiseptika' bo'limi",
+"source_ref": {
+"url": "https://studfile.net/preview/469237/"
+},
+"notes": "ZAIF manba (talabalar fayli). Drenajlash ba'zi darsliklarda fizik antiseptika sifatida keltiriladi, shu faylda alohida. Mutaxassis tasdiqlasin.",
+"key_candidate": 0,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-o-148",
+"status": "no_source",
+"key": null,
+"options": [
+"Jaoroxatda qon aylanishini yaxshilash",
+"Jaroxatdagi mikroblarni zararlantirish, rivojlanishini susaytirish",
+"Og'riqsizlantirish",
+"Xavodagi miroblarni yo'qotish"
+],
+"explanation_uz": "Mexanik antiseptikaning maqsadi jarohatdagi mikroblarni mexanik yo'qotib, yiringli-yallig'lanish jarayoni rivojlanishining oldini olishdir.",
+"source": "Manba: o'quv adabiyoti (antiseptika turlari bo'yicha kurs materiali), qidiruv natijasi orqali",
+"source_ref": {
+"url": "https://edu.tatar.ru/upload/storage/org6153/files/Виды антисептики.pdf"
+},
+"notes": "ZAIF manba: hujjat ochilmadi (404), faqat qidiruv ko'rsatmasi. 1-variant imlosi ('zararlantirish') noaniq. Mutaxassis darslik bilan tasdiqlasin.",
+"key_candidate": 1,
+"downgraded_from": "verified",
+"reason": "manba yetarli emas (o'quv taqdimot / test ro'yxati / boshqa davlat normasi / zaif manba)"
+},
+{
+"id": "ng-h-207",
+"status": "disputed",
+"key": null,
+"options": [
+"Jarohatga birlamchi xirurgik ishlov berish",
+"Terini oshlash",
+"Jarohatni yuvish",
+"Shuntlash"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Birlamchi jarrohlik ishlov (0) va jarohatni yuvish (2) ikkalasi mexanik antiseptikaga kiradi (TESTLAR MGMSU: 'jarohatni antiseptik oqim bilan yuvish' ham mexanik)."
+},
+{
+"id": "ng-h-063",
+"status": "verified",
+"key": 0,
+"options": [
+"San Q va M 0342-17",
+"600 – buyruq",
+"80 buyruq",
+"210 buyruq"
+],
+"explanation_uz": "Shifoxona ichi infeksiyalari profilaktikasi bo'yicha amaldagi sanitariya normasi SanQvaM № 0342-17 'Shifoxona ichi infeksiyalari profilaktikasi' dir; 600, 80 va 210-buyruqlar ro'yxatda yo'q.",
+"source": "Manba: O'zR SSV, 'Amaldagi sanitariya qoidalari, normalari va gigiyena normativlari ro'yxati' (01.05.2024 holatiga), 141-band (SanPiN № 0342-17, 10.01.2017)",
+"source_ref": {
+"file": "hasm/chunk2/txt/1gdzDwHcMmXqrbK4bJesAj0CuZIztEGmb.txt (Amaldagi SanQvaNlar ro'yxati - 01.05.2024.pdf)",
+"clause": "141-band"
+},
+"notes": "Ro'yxat 2024-yil 1-mayga; keyinroq yangi norma qabul qilingan bo'lishi mumkin. 0342-17 matni lokal bazada yo'q, faqat ro'yxatda."
+},
+{
+"id": "ng-o-064",
+"status": "no_source",
+"key": null,
+"options": [
+"Oyiga 1-marta",
+"7 kunda 1-marta",
+"Har kuni",
+"Chorakda 1-marta"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Sterilizatsiyadan oldingi tozalash sifatini o'z-o'zini nazorat qilish davriyligi bo'yicha lokal manba topilmadi (SanQvaM 0365-19 da 7.1.18-bandda lupa bilan tekshirish bor, davriyligi yo'q)."
+},
+{
+"id": "ng-o-103",
+"status": "no_source",
+"key": null,
+"options": [
+"Xar chorakda 1-marta",
+"Yiliga 3-marta",
+"Epidemiya vaqtida",
+"Yiliga 2-marta"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "DSENM tashqi muhit laboratoriya nazorati davriyligi bo'yicha manba topilmadi."
+},
+{
+"id": "ng-o-371",
+"status": "no_source",
+"key": null,
+"options": [
+"216 soat",
+"288 soat",
+"144 soat",
+"172 soat"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Sterilizatsiya/avtoklav hamshirasi uchun ixtisoslashtirish soatlari bo'yicha manba topilmadi (VM-319, 2009: malaka oshirish 72-144 soat umumiy, 288 soat vrachlar uchun - bu savolga mos emas)."
+},
+{
+"id": "ng-o-142",
+"status": "no_source",
+"key": null,
+"options": [
+"Vodorod peroksid, gipoxlorid natriy",
+"Xloramin B, furatsillin",
+"Xlorli oxak, diotsid",
+"Gipoxlorid natriy, yod"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Yiringli jarohatda ishlatilgan asboblarni dezinfeksiyalash eritmalari bo'yicha mahalliy norma topilmadi (SanQvaM 0365-19 konkret eritmalarni keltirmaydi)."
+},
+{
+"id": "ng-o-143",
+"status": "no_source",
+"key": null,
+"options": [
+"20% xlorgeksidin + 70% etil spirti",
+"20% xlorgeksidin + 96% etil spirti",
+"40% xlorgeksidin + 70% etil spirti",
+"5% xlorid natriy + 70% etil spirti"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Xlorgeksidin diglyukonat eritmasi tarkibi bo'yicha manba topilmadi (mahsulotga bog'liq)."
+},
+{
+"id": "ng-o-152",
+"status": "no_source",
+"key": null,
+"options": [
+"20 ml 30%li pergidrol eritma, 975ml suv, 5gr poroshok",
+"40 ml 30%li pergidrol eritma, 950ml suv, 10gr poroshok",
+"60 ml 30%li pergidrol eritma, 930ml suv, 10gr poroshok",
+"15 ml 30%li pergidrol eritma, 985ml suv, 5gr poroshok"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Xloramin 1% eritmasi tayyorlash nisbati bo'yicha manba topilmadi; savol matni ham noaniq (xloramin va pergidrol aralash)."
+},
+{
+"id": "ng-o-238",
+"status": "no_source",
+"key": null,
+"options": [
+"1% xloramin eritmasi 3% N2O2",
+"0,5% xloramin eritmasi gipoxlorid kalsiy",
+"2% dezoksan",
+"6% N2O2"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Operatsiya xonalarini tozalash eritmalari bo'yicha manba topilmadi."
+},
+{
+"id": "ng-o-239",
+"status": "no_source",
+"key": null,
+"options": [
+"3% li eritmasi",
+"5% li eritmasi",
+"6% li eritmasi",
+"2% li eritmasi"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Qon tekkan jihozlarni artish uchun xloramin/gipoxlorit konsentratsiyasi bo'yicha eski norma manbasi topilmadi (COVID slaydlarida xlor 1000 mg/l yuzalar, 5000 mg/l biologik suyuqliklar)."
+},
+{
+"id": "ng-h-062",
+"status": "no_source",
+"key": null,
+"options": [
+"058/u",
+"060/u",
+"063/u",
+"086/u"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Davlat SEN markaziga shoshilinch xabarnoma shakli: 058/u (SSSR 1980 shakli) eng ehtimoliy, lekin O'zbekiston me'yoriy hujjati topilmadi."
+},
+{
+"id": "ng-h-047",
+"status": "no_source",
+"key": null,
+"options": [
+"Maxsus nurlar yordamida zararsizlantiriladi",
+"Sistemalar qirqiladi, xlor 0,5 % li dez moddada zararsizlantiriladi",
+"Gipoxlorid kalsiyga solinadi va olinib 20 daqiqada qaynatiladi",
+"10 daqiqa xloraminga solib zararsizlantiriladi"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Infuzion sistemalarni dezinfeksiya qilish usuli bo'yicha manba topilmadi (slaydlarda faqat chiqindi paketi/o'tkir buyum konteyneriga 0,5% xlor purkash)."
+},
+{
+"id": "ng-h-051",
+"status": "no_source",
+"key": null,
+"options": [
+"Antidot ichiriladi",
+"Ishqoriy vosita bilan og'iz bo'shlig'i chayiladi va toza havoga olib chiqiladi",
+"Og'iz va burun bo'shlig'i suv bilan chayiladi",
+"Tez yordamni chaqiradi"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Dezinfeksiya eritmasi bilan zaharlanishda yordam bo'yicha manba topilmadi; variantlar bir-biriga zid."
+},
+{
+"id": "ng-h-274",
+"status": "no_source",
+"key": null,
+"options": [
+"ifloslanish, yuqish",
+"yuqumli kasallik",
+"vaksina",
+"tuzalmas kasallik"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Infeksiya so'zining lotincha ma'nosi (infectio) bo'yicha manba topilmadi."
+},
+{
+"id": "ng-h-275",
+"status": "no_source",
+"key": null,
+"options": [
+"Organizmga zararli mikroorganizmlarning kirib kelishi natijasida yuzaga keladigan kasallik",
+"botulizm kasalligini qo'zg'atuvchisi",
+"bakteriyalar majmui",
+"viruslar majmuasi"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "'Infeksiya' ta'rifi bo'yicha mahalliy manba topilmadi."
+},
+{
+"id": "ng-h-276",
+"status": "no_source",
+"key": null,
+"options": [
+"Tashqi muhitdan (tashqi atrofdan) organizmga kiradigan mikroorganizmlar sababli yuzaga keladigan infektsiya turi",
+"yashirin infeksiyalar",
+"uzoq davom etadigan kasallik turi",
+"qisqa vaqt davom etadigan kasallik turi"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "'Ekzogen infeksiya' ta'rifi bo'yicha manba topilmadi."
+},
+{
+"id": "ng-h-489",
+"status": "no_source",
+"key": null,
+"options": [
+"Ikkalasi ham infektsiyani davolashga qaratilgan",
+"Antiseptika mikroblarni yo'q qilish, aseptika ularni kiritmaslikka qaratilgan",
+"Aseptika faqat dori vositalarini nazorat qiladi",
+"Antiseptika operatsiya davomida ishlatiladi, aseptika esa yo'q"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Antiseptika va aseptika farqi bo'yicha aniq manba ochilmadi (1-variant darslik ta'rifiga mos ko'rinadi)."
+},
+{
+"id": "ng-o-327",
+"status": "disputed",
+"key": null,
+"options": [
+"KTMP, OP QOP, QVP",
+"Statsionar, dispanser, OP",
+"QVP, OP, statsionar",
+"KTMP, QOP, dispanser"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "BTSY muassasalari ro'yxati normaga bog'liq va o'zgargan (PQ-2857, 2017; PQ-185, 2025: oilaviy poliklinikalar); variantlardagi qisqartmalar (KTMP, OP, QOP, QVP) noaniq."
+},
+{
+"id": "ng-h-034",
+"status": "disputed",
+"key": null,
+"options": [
+"Sanitariya - epidemiologik markazlari, dispanserlar, tibbiy sanitary qismlari, sud- ekspertizasi muassasalari",
+"Ambulatoriya poliklinika muassasalari",
+"Shoshilinch tibbiy yordam ko'rsatish muassasalari",
+"Stacionarlar, akusherlik komplekslari"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Variant 0 (SEM, dispanser, sud-ekspertiza) va 3 (statsionar, akusherlik majmualari) ikkalasi ham BTSY ko'rsatmaydi; ro'yxat normaga bog'liq."
+},
+{
+"id": "ng-h-248",
+"status": "disputed",
+"key": null,
+"options": [
+"Qishloq vrachlik punkti (shahar vrachlik punkti, oilaviy poliklinikalar)",
+"Temir - yo'l transporti poliklinikasi",
+"Stomatologik poliklinika",
+"Davolash profilaktika shifoxonalari"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "BTSY ko'rsatiladigan muassasalar ro'yxati normaga bog'liq (QVP/oilaviy poliklinika - PQ-2857, 2017; 2025 PQ-185 qayta tashkil); Qonun 265-I 29-modda muassasalar ro'yxatini bermaydi."
+},
+{
+"id": "ng-h-249",
+"status": "disputed",
+"key": null,
+"options": [
+"Shoshilinch tez tibbiy yordam qismlari",
+"Davlat sanitariya - epidemiologiya nazorati (respublika, viloyat, shahar, tuman) markazlari",
+"Sanatoriya tipidagi davolash muassasalari",
+"Davolash profilaktika shifoxonalari"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Sanitariya-profilaktika muassasalari: 1-variant (DSENM markazlari) ehtimoliy, lekin muassasalar tasnifi bo'yicha manba topilmadi (Qonun 265-I da yo'q)."
+},
+{
+"id": "ng-h-044",
+"status": "disputed",
+"key": null,
+"options": [
+"Antibiotiklardan noto'g'ri foydalanish",
+"Noto'g'ri statsionar rejimini tashkil etish",
+"Bemorni zararli odatlari ko'pligi",
+"Ichki nazoratni yo'qligi"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Savolda bir nechta omil to'g'ri (antibiotiklarni noto'g'ri qo'llash, ichki nazoratning yo'qligi, rejim buzilishi); bitta javob tanlab bo'lmaydi."
+},
+{
+"id": "ng-h-050",
+"status": "disputed",
+"key": null,
+"options": [
+"Dezinfeksiyalovchi vositalarni tayyorlashni yahshi shamollatiladigan honada amalga oshirishi kerak, mahsus kiyim va perchatka kiygan bo'lishi zarur, germetik ochki va maska taqqan bo'lishi lozim",
+"Dezinfeksiyalovchi moddalar og'zi yopiladigan idishlarda saqlanishi zarur",
+"Qorong'i honada tayyorlanishi kerak",
+"Dezinfeksiyalovchi vositalar to'q rangli idishlarda quruq va qorong'i honalarda saqlanishi kerak"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Variant 0, 1 va 3 ning hammasi texnika xavfsizligi qoidasiga mos (shamollatiladigan xona/PPE, yopiladigan idish, quyuq rangli idish); 0 eng to'liq, lekin 'bitta to'g'ri' emas."
+},
+{
+"id": "ng-h-268",
+"status": "disputed",
+"key": null,
+"options": [
+"Xlor kukuni",
+"Xlor eritmasi",
+"Xloramin",
+"Gipoxlorit Ca"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Najas/qusuq uchun xlorli vosita: slaydda 20000 mg/l xlor saqlovchi vosita (2 soat); variantlar ('xlor kukuni', 'xlor eritmasi', 'xloramin', 'gipoxlorit Ca') mos tushmaydi."
+},
+{
+"id": "ng-o-350",
+"status": "disputed",
+"key": null,
+"options": [
+"Metro va yerto'lalar",
+"Respirator, gazga qarshi niqob, dokali niqob, individual bog'lov paketi",
+"Panagohlar va shaxsiy muhofaza kiyimlari",
+"Paxta-dokali niqob va sanitar sumkasi"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "ShMV tarkibi: 1-variant (respirator, gazniqob, ...) va 2-variant (panagohlar va muhofaza kiyimlari) ikkalasi fuqaro muhofazasi me'yorida uchraydi; manba topilmadi."
+},
+{
+"id": "ng-o-352",
+"status": "disputed",
+"key": null,
+"options": [
+"Aseptik bog'lam qo'yish, shoshilinch evakuatsiya",
+"Aseptik bog'lam bog'lash, kislorod berish, shoshilinch evakuatsiya",
+"Okklyuzion aseptik bog'lam bog'lash, kislorod berish, kordiamin yuborish, shoshilinch evakuatsiya",
+"Novokainli blokada yuborishdan"
+],
+"explanation_uz": "",
+"source": "",
+"source_ref": {},
+"notes": "Ochiq pnevmotoraksda 1-yordam: okklyuzion bog'lam asosiy, lekin 2-variantdagi 'kordiamin yuborish' tibbiy jihatdan shubhali, 1-variantda 'okklyuzion' so'zi yo'q. Mutaxassis ko'rib chiqsin."
+}
+]

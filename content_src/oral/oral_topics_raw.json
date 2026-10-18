@@ -1,0 +1,5480 @@
+{
+"141": [
+{
+"cat": "2",
+"q": "OIV, OIV infektsiyasi va OITSning farqini aytib bering."
+},
+{
+"cat": "2",
+"q": "Davolash-profilaktika muassasalarida sanitariya, epidemiyaga qarshi va dezinfektsiya rejimlari to'g'risidagi amaldagi me'yoriy hujjatlarni sanab bering."
+},
+{
+"cat": "2",
+"q": "OIV eng ko'p uchraydigan biologik suyuqliklarni sanab bering."
+},
+{
+"cat": "2",
+"q": "OIV infektsiyasining yuqish yo'llarini aytib bering?"
+},
+{
+"cat": "2",
+"q": "OIV infektsiyasining etiologiyasi aytib bering."
+},
+{
+"cat": "2",
+"q": "Biologik suyuqliklar shikastlanmagan teriga sachrab ketganda nima qilish kerak?"
+},
+{
+"cat": "2",
+"q": "Biologik suyuqliklar shikastlangan teriga tushganida qanday chora-tadbir qo'llanilishi kerak?"
+},
+{
+"cat": "2",
+"q": "OIV infektsiyasining manbai kimlar bo'lishi mumkin?"
+},
+{
+"cat": "2",
+"q": "Xirurgik rezina qo'lqoplardan qachon foydalaniladi?"
+},
+{
+"cat": "2",
+"q": "Necha turdagi rezina qo'qoplarni bilasiz?"
+},
+{
+"cat": "2",
+"q": "Qo'l yuvish texnikasi nechta bosqichdan iborat?"
+},
+{
+"cat": "2",
+"q": "Oddiy qo'l yuvishda qaysi sohalarga ko'proq e'tibor berish kerak?"
+},
+{
+"cat": "2",
+"q": "Bir marotaba ishlatishga mo'ljallangan tibbiy asbob-anjomlar ishlatilgandan keyin nima qilinadi?"
+},
+{
+"cat": "2",
+"q": "Bir marotabalik niqoblar necha soatda almashtirilishi kerak?"
+},
+{
+"cat": "2",
+"q": "Davolash-profilaktika muassasasi qabul bo'limida bemorlarni sanitariya-tozalov ishlaridan o'tkazish qaysi tartibda olib boriladi?"
+},
+{
+"cat": "2",
+"q": "Asfiksiyada birinchi yordam berishning algoritmini aytib bering."
+},
+{
+"cat": "2",
+"q": "Sovuq olishda tez tibbiy yordam ko'rsatish algoritmini aytib bering."
+},
+{
+"cat": "2",
+"q": "Yuqori nafas yo'llariga yot jism tushganda birinchi yordam ko'rsatishni aytib bering."
+},
+{
+"cat": "2",
+"q": "Gipertoniya krizida birinchi yordam ko'rsatishni aytib bering."
+},
+{
+"cat": "2",
+"q": "O'tkir nafas yetishmovchiligida birinchi yordam ko'rsatishni sanab bering."
+},
+{
+"cat": "2",
+"q": "Yurak faoliyati to'xtaganda birinchi yordam ko'rsatish ketma-ketligini sanab bering."
+},
+{
+"cat": "2",
+"q": "Pnevmotoraksning qanday turlari mavjud?"
+},
+{
+"cat": "2",
+"q": "O'pkadan qon ketishning tashqi belgilariga nimalar kiradi?"
+},
+{
+"cat": "2",
+"q": "Meteorizm nima?"
+},
+{
+"cat": "2",
+"q": "Xushdan ketganda tez tibbiy yordam ko'rsatishni aytib bering."
+},
+{
+"cat": "2",
+"q": "Anafilaktik shokning sabablari va belgilarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Gipertermiya turlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Gipertermiyada hamshiraning taktikasi nimadan iborat?"
+},
+{
+"cat": "2",
+"q": "Qon ketish turlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Klinik o'limning belgilarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Biologik o'limning erta belgilarini aytib bering."
+},
+{
+"cat": "2",
+"q": "Isituvchi kompress qo'yish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Qariyalarni parvarish qilishning o'ziga xos xususiyatlari nimalardan iborat?"
+},
+{
+"cat": "2",
+"q": "Antropometriya nima?"
+},
+{
+"cat": "2",
+"q": "Pedikulyoz nima?"
+},
+{
+"cat": "2",
+"q": "Qabulxonada bemorni qabul qilish tartibini sanab bering."
+},
+{
+"cat": "2",
+"q": "Yotoq yaralar nima va ularni oldini olishda hamshiraning o'rni nimadan iborat?"
+},
+{
+"cat": "2",
+"q": "Terining funktsiyalarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Tana haroratini o'lchash usullarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Gipertermik holatda hamshiralik parvarishi nimadan iborat?"
+},
+{
+"cat": "2",
+"q": "Nafas olishning yoshga doir me'yoriy ko'rsatkichlarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Qaysi kasalliklarda qon tuflash kuzatiladi?"
+},
+{
+"cat": "2",
+"q": "Nafas olish tizimi a'zolarini tekshirish usullari sanab bering."
+},
+{
+"cat": "2",
+"q": "Oksigenoterapiya nima?"
+},
+{
+"cat": "2",
+"q": "Pulsni aniqlash nuqtalarning nomini sanab bering."
+},
+{
+"cat": "2",
+"q": "Qon bosimni o'lchash texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Bemorlarni sun'iy ovqatlantirish usullarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Bemorlarni rektal oziqlantirish texnikasi haqida ma'lumot bering."
+},
+{
+"cat": "2",
+"q": "Zararsizlantiruvchi eritmalarni tayyorlash qoidalari aytib bering."
+},
+{
+"cat": "2",
+"q": "Zararsizlantiruvchi moddallar bilan zaharlanganda birinchi yordam ko'rsatish."
+},
+{
+"cat": "2",
+"q": "Qo'l yuvish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Gijja tuxumlariga tekshirish uchun najas olish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Ko'zga tomchi tomizish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Ingalyatorlarni qo'llash texnikasi aytib bering."
+},
+{
+"cat": "2",
+"q": "Dori vositalarini rektal qo'llash uchun ko'rsatma va mone'liklarni aytib bering."
+},
+{
+"cat": "2",
+"q": "Dori vositalarini parenteral qo'llash uchun ko'rsatma va mone'liklarni aytib bering."
+},
+{
+"cat": "2",
+"q": "Mushak orasiga in'ektsiya qilish texnikasini sanab bering."
+},
+{
+"cat": "2",
+"q": "Teri orasiga in'ektsiya qilish texnikasi aytib bering."
+},
+{
+"cat": "2",
+"q": "Teri ostiga in'ektsiya qilish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Vena ichiga in'ektsiya qilish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Mushak orasiga in'ektsiya qilinganidan keyingi yuzaga kelishi mumkin bo'lgan asoratlarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Qusayotgan bemorga ko'rsatiladigan hamshiralik parvarishi nimadan iborat?"
+},
+{
+"cat": "2",
+"q": "Me'dani yuvish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Duodenal zondlash algoritmini ayting."
+},
+{
+"cat": "2",
+"q": "Ho'qna turlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Tozalovchi ho'qnaga ko'rsatmalarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Tozalovchi ho'qna algoritmini aytib bering."
+},
+{
+"cat": "2",
+"q": "Buyrak va siydik yo'li kasalliklarida bemorlarga hamshiralik parvarishi nimadan iborat?"
+},
+{
+"cat": "2",
+"q": "Ayollarda qovuqni kateterlash texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Erkaklarda qovuqni kateterlash texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Laboratoriya tekshiruvi uchun peshob yig'ish turlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Sutkali peshob yig'ish texnikasi qanday amalga oshiriladi?"
+},
+{
+"cat": "2",
+"q": "Nechiporenko usulida peshob yig'ish qanday qillib amalga oshiriladi?"
+},
+{
+"cat": "2",
+"q": "Qand miqdorini tekshirishda peshob yig'ish usulini aytib bering."
+},
+{
+"cat": "2",
+"q": "Hamshiralik jarayoni necha bosqichdan iborat?"
+},
+{
+"cat": "2",
+"q": "Yatrogeniya haqida ma'lumotlarni keltirib o'ting."
+},
+{
+"cat": "2",
+"q": "Verbal va noverbal muloqat turlari haqida ma'lumot bering."
+},
+{
+"cat": "2",
+"q": "Enurez haqida aytib bering."
+},
+{
+"cat": "2",
+"q": "Gipertoniya kasaligiga olib keladigan sabablarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Oshqozon-ichak yarasidan qon ketish simptomlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Chala tug'ilgan chaqaloqlarni isitish usullarini ayting."
+},
+{
+"cat": "2",
+"q": "Yangi tug'ilgan chaqaloqni parvarish qilishda hamshira taktikasi nimalardan iborat?"
+},
+{
+"cat": "2",
+"q": "Raxit kasalligining sabablarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Revmatizm sabablarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Bolalardagi raxit kasalligini oldini olishda hamshiraning o'rni nimadan iborat?"
+},
+{
+"cat": "2",
+"q": "Immunitet nima?"
+},
+{
+"cat": "2",
+"q": "Igna bilan yoki boshqa o'tkir asboblar bilan jaroxat olganda nima"
+},
+{
+"cat": "2",
+"q": "qilish kerak?"
+},
+{
+"cat": "2",
+"q": "IFA uchun qon zardobini saqlashga bo'lgan talablarni sanab bering."
+},
+{
+"cat": "2",
+"q": "OIV infeksiyasining o'tkir davri odatda qachon boshlanadi?"
+},
+{
+"cat": "2",
+"q": "OIV yuqtirgan onadan bolaga infeksiya qanday yuqadi?"
+},
+{
+"cat": "2",
+"q": "OIV/OITSda organizmning qaysi tizimlari shikastlanadi?"
+},
+{
+"cat": "2",
+"q": "OIVni onadan bolaga o'tishi profilaktikasi nimadan iborat?"
+},
+{
+"cat": "2",
+"q": "OIV infeksiyasining qo'zg'atuvchisi nima?"
+},
+{
+"cat": "2",
+"q": "Sterilizatsiya oldi tozalov ishlarini o'tkazishda qaysi turdagi qo'lqoplardan foydalaniladi?"
+},
+{
+"cat": "2",
+"q": "Agar bo'limda ko'ruv rezina qo'lqoplari bo'lmasa qaysi qo'lqoplardan foydalanish mumkin?"
+},
+{
+"cat": "2",
+"q": "Dezinfeksiya deganda nimani tushunasiz?"
+},
+{
+"cat": "2",
+"q": "Sterizatsiya oldi tozalov ishlarini o'tkazishdan maqsad nima?"
+},
+{
+"cat": "2",
+"q": "Tibbiy asbob-anjomlarni sterilizatsiya qilishdan maqsad nima?"
+},
+{
+"cat": "2",
+"q": "Tibbiyotda etika va deontoligiya tushunchasiga ta'rif bering."
+},
+{
+"cat": "2",
+"q": "Tibbiy asbob-anjomlar qaysi usullarda sterilizatsiya qilinadi?"
+},
+{
+"cat": "2",
+"q": "Sterilizatsiya ishlari o'tkazish tamoyillari namadan iborat?"
+},
+{
+"cat": "2",
+"q": "Sterilizatsiya test-indikatorlarini ishlatishdan maqsad nima?"
+},
+{
+"cat": "2",
+"q": "Agar bikslar sterilizatsiyadan keyin nam holatda bo'lsa sizning taktikangiz qanday bo'lishi kerak?"
+},
+{
+"cat": "2",
+"q": "Sterilizatsiya oldi tozalov ishlari sifatini qayd qilish jurnali formasining raqammini ayting?"
+},
+{
+"cat": "2",
+"q": "Davolash-profilaktika muassasalarida tibbiy hujjatlar SSVning amaldagi qaysi buyrug'i asosida olib boriladi?"
+},
+{
+"cat": "2",
+"q": "Og'ir yotgan bemorni o'rin oqliklarini almashtirish usullari sanab bering."
+},
+{
+"cat": "2",
+"q": "Bemorni transportirovka qilish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Qon preparatlarini quyish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Gemotransfuzion shokda birinchi yordam nima uchun hamshira nima qilishi kerak?"
+},
+{
+"cat": "2",
+"q": "Og'iz bo'shlig'ini gigiyenik parvarishlashda hamshiraning o'rni nimadan iborat?"
+},
+{
+"cat": "2",
+"q": "Zimnitsskiy sinamasi nima?"
+},
+{
+"cat": "2",
+"q": "Ko'krak sutining afzalliklarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Virusli gepatit turlarini aytib bering."
+},
+{
+"cat": "2",
+"q": "Virusli gepatit “B”ning yuqish yo'llari qaysi?"
+},
+{
+"cat": "2",
+"q": "Anemiyaning sabablari nima?"
+},
+{
+"cat": "2",
+"q": "Qandli diabet kasalligida hamshiralik parvarishini aytib bering."
+},
+{
+"cat": "2",
+"q": "Gipotermiya holatida hamshira taktikasi qanday bo'lishi kerak?"
+},
+{
+"cat": "2",
+"q": "Allergik holatlarda birinchi tibbiy yordam korsatish nimadan iborat?"
+},
+{
+"cat": "2",
+"q": "Diareyada hamshiralik parvarishi."
+},
+{
+"cat": "2",
+"q": "Qabziyatda bemorga hamshiralik parvarishini ko'rsatish."
+},
+{
+"cat": "2",
+"q": "Ishlatilgan tuvak yoki siydikdonlarni zararsizlantirish qanday amalga oshiriladi?"
+},
+{
+"cat": "2",
+"q": "Isitgich (grelka) qo'llash uchun ko'rsatma va mone'liklarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Ko'z va quloqga dori tomizish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Dorilarni hisobga olish bo'yicha hisob-kitob hujjatlarini yuritish qanday amalga oshiriladi?"
+},
+{
+"cat": "2",
+"q": "Aseptika turlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Antiseptika turlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Qon bosimini o'lchashni aytib bering."
+},
+{
+"cat": "2",
+"q": "Desmurgiya tushunchasi nima?"
+},
+{
+"cat": "2",
+"q": "Hayotiy muhim ko'rsatkichlarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Emlash turlari va texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Pediatriya hamshirasining vazifalari nimadan iborat?"
+},
+{
+"cat": "2",
+"q": "Izolyator nima?"
+},
+{
+"cat": "2",
+"q": "Deratizatsiya nima?"
+},
+{
+"cat": "2",
+"q": "Karantin va o'tkir xavfli yuqumli kasalliklarda o'rnatilgan karantin muddati qancha?"
+},
+{
+"cat": "2",
+"q": "Virusli gemorragik isitmalarda o'rnatilgan karantin muddati qancha?"
+},
+{
+"cat": "2",
+"q": "Elektr toki urishida hamshira taktikasi nimadan iborat?"
+},
+{
+"cat": "2",
+"q": "Gipsli langetalarni tayyorlashni ko'rsating."
+},
+{
+"cat": "2",
+"q": "Cho'kishda tez tibbiy yordam ko'rsatishni aytib bering."
+},
+{
+"cat": "2",
+"q": "Gemorragik shok belgilarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Traxeostomiya qo'yishga ko'rsatmalarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Tashqi qon ketish holatlarida yordamni tushintirib bering."
+},
+{
+"cat": "2",
+"q": "Stenozlovchi laringitda tez tibbiy yordam ko'rsatishni aytib bering."
+},
+{
+"cat": "2",
+"q": "Bronxial astma xurujida tez tibbiy yordam ko'rsatishni aytib bering."
+},
+{
+"cat": "2",
+"q": "Psixomotorli ko'zg'alishda tez tibbiy yordam ko'rsatishni aytib bering."
+},
+{
+"cat": "2",
+"q": "Shoshilinch xabarnomani to'ldirish qoidalarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Lat yeyishda birinchi yordamni aytib bering."
+},
+{
+"cat": "2",
+"q": "Ko'z ichiga yot jismlar tushganda birinchi yordamni sanab bering."
+},
+{
+"cat": "2",
+"q": "Burundagi yot jismlarni olib tashlash usullarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Burundan qon ketishda shoshilinch yordamni qanday amalga oshiriladi?"
+},
+{
+"cat": "2",
+"q": "Oftob urishi belgilarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Bolalarga tozalovchi xo'qna qo'yish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Dezuriya tushunchasi nima?"
+},
+{
+"cat": "1",
+"q": "O'tkir va surunkali leykozlar: patogenezi, klinikasi, hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Laringospazm patogenezi, klinikasi, birinchi tibbiy yordam, hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Talvasa (sudorogi sindromi) kelib chiqish sabablari, turlari, shoshilich yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Anafilaktik shokning belgilari, tez tibbiy yordam, hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Arterial (tashqi) qon ketishi, sabablari, belgilari, tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Kapillyar qon ketishi sabablari, belgilari, tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Burun qonashi, sabablari, belgilari, tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Gipertermiya turlari va ularning belgilar, tez tibbiy yordam, hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Anemiyaning turlari va belgilari, hamshiralik parvarishini yuritish."
+},
+{
+"cat": "1",
+"q": "Kollaps va xushdan ketishning farqi, klinik belgilarini sanab bering."
+},
+{
+"cat": "1",
+"q": "Koma va uning turlarini sanab bering."
+},
+{
+"cat": "1",
+"q": "Bronxial astma xuruji sabablari, belgilari, tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Tug'ruqgacha bo'lgan akusherlik shoshilinch holatlarida hamshiraning taktikasi nimadan iborat?"
+},
+{
+"cat": "1",
+"q": "Suyak sinishi belgilari va suyak sinishida tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Ochiq yaralarda birlamchi ishlov berish va shokni oldini olish chora –tadbirlarini sanab bering."
+},
+{
+"cat": "1",
+"q": "Elektr toki urishi sabablari, klinik belgilari, tez tibbiy yordam ko'rsatish algoritmi."
+},
+{
+"cat": "1",
+"q": "Kuyish turlari va darajalarini sanab bering. Termik kuyishda shoshilinch yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Ximiyaviy kuyish nima? Ximiyaviy kuyishning sabablari, tez tibbiy yordam ko'rsatish algoritmi."
+},
+{
+"cat": "1",
+"q": "Anafilaktik shokning sabablari va belgilarini sanab bering."
+},
+{
+"cat": "1",
+"q": "Cho'kishda tez tibbiy yordam ko'rsatish algaritmini sanab bering."
+},
+{
+"cat": "1",
+"q": "Gemorragik shok belgilarini sanab bering. Tez tibbiy yordam ko'rsatish algoritmi."
+},
+{
+"cat": "1",
+"q": "Gemorragik shok belgilari va tez tibbiy yordam ko'rsatish algoritmi."
+},
+{
+"cat": "1",
+"q": "Venoz qon ketishning belgilari va tez tibbiy yordam ko'rsatish asoslari."
+},
+{
+"cat": "1",
+"q": "Ichki qon ketishining belgi va simptomlari. Qorin bo'shlig'idan qon ketishida tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Yurak-o'pka-miya reanimatsiyasi (YuO'RM)ni o'tkazish uchun ko'rsatma va mone'liklarni sanab va algaritmini aytib bering."
+},
+{
+"cat": "1",
+"q": "Terminal holatlarning fazalarini sanab bering."
+},
+{
+"cat": "1",
+"q": "Qizilo'ngach, oshqozon-ichakdan o'tkir qon ketishlarda klinik belgilari va tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Homiladorlikni erta va kechki muddatlarda hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Universal progressiv modelning maqsadi va vazifalarini sanab bering."
+},
+{
+"cat": "1",
+"q": "Homilaga ichki va tashqi muhit omillarining ta'sirini sanab bering."
+},
+{
+"cat": "1",
+"q": "Qabziyat nima, uning turlari va qabziyatda bemorlarni parvarish qilish."
+},
+{
+"cat": "1",
+"q": "Bemorlarni sub'ektiv tekshirish usullarining ahamiyati, o'tkazish tartibini aytib bering."
+},
+{
+"cat": "1",
+"q": "Bemorlarni ob'ektiv tekshirish usulini tartibini aytib bering."
+},
+{
+"cat": "1",
+"q": "O'tkir va surunkali bronxit kasalligining belgilari, hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Laktatsiya jarayonini yaxshilash usullarini sanab bering."
+},
+{
+"cat": "1",
+"q": "Kamqonlikni homiladorlik va tug'ruqning kechishiga ta'sirini aytib bering."
+},
+{
+"cat": "1",
+"q": "O'tkir gastrit belgilari, kechishi, hamshiralik parvarishi, profilaktikasi namadan iborat?"
+},
+{
+"cat": "1",
+"q": "Surunkali gastrit belgilari, kechishi, hamshiralik parvarishi, profilaktikasi."
+},
+{
+"cat": "1",
+"q": "Yuqumli kasalliklarni oldini olishda emlashning ahamiyatш haqida ma'lumot bering."
+},
+{
+"cat": "1",
+"q": "O'tkir xolesistit belgilari, kechishi, hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Surunkali xolesistit belgilari, kechishi, hamshiralik parvarishi, profilaktikasi."
+},
+{
+"cat": "1",
+"q": "Vitaminlar haqida tushuncha, vitaminlarning organizmda tutgan o'rni, gipo, avitaminozlarning mohiyati, sabablari."
+},
+{
+"cat": "1",
+"q": "Chaqaloqlar termoregulyatsiyaning buzilishiga sabab bo'luvchi omillarni sanab bering."
+},
+{
+"cat": "1",
+"q": "Chaqaloqni samarali emizishning 4 ta asosiy jihatlari haqida ma'lumot bering."
+},
+{
+"cat": "1",
+"q": "Chaqaloqlarda talvasa kuzatilganda birinchi yordam ko'rsatish va hamshiralik parvarishini ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Chaqaloqlarda fiziologik sariqlik qachon paydo bo'ladi va hamshira parvarishi."
+},
+{
+"cat": "1",
+"q": "Salomatlik nima? Salomatlikka salbiy ta'sir etuvchi omillarga nimalar kiradi?"
+},
+{
+"cat": "1",
+"q": "Kontratseptiv vositalarga nimalar kiradi va ularning afzalligini sanab bering."
+},
+{
+"cat": "1",
+"q": "Emlash xonasida qanday tibbiy xujjatlar yuritiladi?"
+},
+{
+"cat": "1",
+"q": "Yangi tug'ilgan chaqaloqlarning kindigini uy sharoitida parvarish qilish texnikasi."
+},
+{
+"cat": "1",
+"q": "OIVni shifoxona ichi infeksiyasi sifatida tarqalishini oldini olish chora- tadbirlarida hamshiraning vazifalari qanday?"
+},
+{
+"cat": "1",
+"q": "Immunoferment tahlili uchun olingan qon namunasi sovutgichda (+4+8°S) qancha vaqt saqlanishi mumkin?"
+},
+{
+"cat": "1",
+"q": "Laboratoriyaga serologik tahlillar uchun olib kelinayotgan qon yoki zardob miqdori qancha bo'lishi kerak?"
+},
+{
+"cat": "1",
+"q": "OIV infeksiyada muloqotdan keyingi profilaktika nimalarni o'z ichiga oladi?"
+},
+{
+"cat": "1",
+"q": "Tibbiy muassasada tibbiyot xodimlari uchun umumiy ehtiyotkorlik choralari nimalardan iborat?"
+},
+{
+"cat": "1",
+"q": "Davolash-profilaktika muassasalarida dezinfeksiya va sterilizatsiya rejimlariga rioya qilishdan maqsad nima?"
+},
+{
+"cat": "1",
+"q": "Asboblarda oqsil va qon qoldig'ini aniqlash uchun qaysi sinamadan foydalaniladi?"
+},
+{
+"cat": "1",
+"q": "Raxit sabablari, klinik belgilari, profilaktikasini ayting."
+},
+{
+"cat": "1",
+"q": "Qariyalarni parvarish qilishni o'ziga xos xususiyatlarini ayting."
+},
+{
+"cat": "1",
+"q": "Qo'li shikastlangan bemorni kiyimini almashtirish tartibini ayting."
+},
+{
+"cat": "1",
+"q": "Me'da va o'n ikki barmoq ichak yara kasalliklarida hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Zotiljam kasalligi sababi, belgilari va unda hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Qalqonsimon bez kasalliklari sababi, belgilari va hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Sil kasallagi haqida tushuncha, sababi, belgilari va hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Bavosil (gemorroy) kasalligi, sababi, belgilari va hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Kollaps sabablari, belgilari va hamshira taktikasi."
+},
+{
+"cat": "1",
+"q": "Piyelonefrit sabablari, belgilari va hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Glomerulonefrit sabablari, belgilari va hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Shizofreniya haqida tushuncha, bemorni nazorat qilish va qo'zgalishda hamshira taktikasi."
+},
+{
+"cat": "1",
+"q": "Ilon chaqqandagi klinik belgilar va birinchi yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "It tishlagandagi klinik belgilar va birinchi yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Zaharlanish turlari, klinik belgilari va birinchi yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Klinik va biologik o'limning farqini ayting."
+},
+{
+"cat": "1",
+"q": "Premedikatsiya haqida tushuncha bering."
+},
+{
+"cat": "1",
+"q": "Jarohatga birlamchi jarrohlik ishlov berishda hamshira taktikasi."
+},
+{
+"cat": "1",
+"q": "Traxeomastoma qo'yishga ko'rsatmalar va hamshira parvarishi."
+},
+{
+"cat": "1",
+"q": "Bemorni ob'ektiv va sub'ektiv tekshirish usullarini ayting."
+},
+{
+"cat": "1",
+"q": "Og'izdan og'izga sun'iy nafas berish texnikasini ayting."
+},
+{
+"cat": "1",
+"q": "O'pkaninig surunkali obstruktiv kasalliklarida patronaj hamshira parvarishi."
+},
+{
+"cat": "1",
+"q": "Yurakning ishemik kasalliklarida patronaj hamshira taktikasi."
+},
+{
+"cat": "1",
+"q": "Siydik chiqarish yo'li kasalliklarida patronaj hamshira taktikasi."
+},
+{
+"cat": "1",
+"q": "Tungi enurezda patronaj hamshira taktikasi."
+},
+{
+"cat": "1",
+"q": "Yuqumli gepatit kasalligida bemor bilan muloqotda bo'lganda ko'riladigan chora-tadbirlarni ayting."
+},
+{
+"cat": "1",
+"q": "Qizamiq o'chog'ida olib boriladigan profilaktik tadbirlarni ayting."
+},
+{
+"cat": "1",
+"q": "Brutsellyozda qaysi organlar zararlanadi va undagi klinik belgilarni ayting."
+},
+{
+"cat": "1",
+"q": "Bemor 3 kundan ortiq isitmalasa qanday tekshirish o'tkazilishini ayting."
+},
+{
+"cat": "1",
+"q": "Pedikulyoz aniqlaganda bemorni sanitar tozalovini o'tkazishda hamshira taktikasi."
+},
+{
+"cat": "1",
+"q": "Tepki o'chog'ida olib boradigan epidemiyaga qarshi profilaktika tadbirlarini ayting."
+},
+{
+"cat": "1",
+"q": "Yangi tug'ilganlar orasida kasallanish va o'limning oldini olish uchun birinchi navbatda qanday tadbirlar o'tkazish zarur."
+},
+{
+"cat": "1",
+"q": "Gripp belgilari, oilada, jamoat joylarida kasallikni oldini olishda hamshiraning vazifalari qanday?"
+},
+{
+"cat": "1",
+"q": "Xirurg va operatsiya hamshirasining qo'lini zararsizlantirish usullarini ayting."
+},
+{
+"cat": "1",
+"q": "Sterillangan tibbiy asbob-anjomlarning sterillik belgilarini ayting."
+},
+{
+"cat": "1",
+"q": "Ishlatilgan tibbiy instrumentlarni dezinfektsiya qilish tartibini ayting."
+},
+{
+"cat": "1",
+"q": "Steril stolni tayyorlash va yaroqlilik muddati ayting."
+},
+{
+"cat": "1",
+"q": "Bog'lov materillari va ularni tayyorlashda hamshiraning vazifalari."
+},
+{
+"cat": "1",
+"q": "Oral regidrotatsiyani tashkil etish va o'tkazishda hamshiraning vazifalari."
+},
+{
+"cat": "1",
+"q": "Nikohlanuvchi shaxslarni tibbiy ko'rikdan o'tkazish va yosh oilalar bilan olib boriladigan tadbirlarda hamshiraning vazifalari."
+},
+{
+"cat": "1",
+"q": "Sog'lom turmush tarzini targ'ibot qilishda mahallalarda olib boriladigan ishlarda hamshiraning vazifalari."
+},
+{
+"cat": "1",
+"q": "Homiladorlarni tug'ruqgacha kuzatuvida patranaj hamshirasining vazifalari."
+},
+{
+"cat": "1",
+"q": "Skrining markazlarini tashkil etishdan maqsad va unda hamshirasining vazifalari nimadan iborat?"
+},
+{
+"cat": "1",
+"q": "Zaharlanishlarda me'dani yuvishda hamshiraning taktikasi."
+},
+{
+"cat": "1",
+"q": "Sun'iy nafas va yurakni bilvosita massaj qilish texnikasi aytib bering. Sun'iy nafas va yurakni bilvosita massaj nisbatlarini ayting."
+},
+{
+"cat": "1",
+"q": "Ko'zning termik va kimyoviy kuyishlarida klinik belgilar. Ko'zning termik va kimyoviy kuyishlarda shoshilinch yordamni ayting"
+},
+{
+"cat": "1",
+"q": "Homiladorlik toksikozi. Ertangi va kechki toksikozlar."
+},
+{
+"cat": "1",
+"q": "Qizilo'ngach, oshqozon-ichakdan o'tkir qon ketishlarda shoshilinch tibbiy yordam. Qizilo'ngach, oshqozon-ichakdan o'tkir qon ketishining klinik belgilari."
+},
+{
+"cat": "1",
+"q": "Bosh miya chayqalishi, sabablari va feldsher yordami. Kollaps nima?"
+},
+{
+"cat": "1",
+"q": "Yurak-o'pka-miya reanimatsiyasi(YuO'RM)ni o'tkazish texnikasi. Yurak-o'pka-miya reanimatsiyasida massaj va suniy nafas nisbatlari - agar yordam ko'rsatuvchi 2 ta bo'lsa?"
+},
+{
+"cat": "1",
+"q": "Konikotomiyaga ko'rsatma va bajarish texnikasini aytib bering. Konikotomiyada kerakli jixozlarni aytib bering."
+},
+{
+"cat": "1",
+"q": "Narkotik moddalardan zaharlanish belgilari va tez tibbiy yordam."
+},
+{
+"cat": "1",
+"q": "«Lomka » ma'nosini aytib bering."
+},
+{
+"cat": "1",
+"q": "Nevralgiya va radikulitning klinik manzarasi.Nevralgiya va radikulitlarda shifoxonagacha bo'lgan bosqichdagi tez tibbiy yordam."
+},
+{
+"cat": "1",
+"q": "Qaysi o'ta xavfli yuqumli kasallikka qarshi qayta emlash 5 yilda o'tkaziladi?"
+},
+{
+"cat": "1",
+"q": "Suvsizlangan bemorlarda oral regidratatsiya o'tkazish texnikasini ko'rsating"
+},
+{
+"cat": "1",
+"q": "Virusli gepatit “B” va “C” kasalligini keltirib chiqaruvchi omillarni sanab bering."
+},
+{
+"cat": "1",
+"q": "O'latga qarshi kiyim kiyish yechish tartibini ayting."
+},
+{
+"cat": "1",
+"q": "Giperglikemik komada birinchi yordam ko'rsating. Qandli diabet kasalligini sabablarini aytib bering"
+},
+{
+"cat": "1",
+"q": "Bolalarga ichak sanchig'ida shoshilinch yordam ko'rsating. Gaz haydovchi naychani qo'yish uchun kerakli jihozlarni sanab bering."
+},
+{
+"cat": "1",
+"q": "“Kramer” shinasidan foydalanish texnikasini bajarishni aytib bering."
+},
+{
+"cat": "1",
+"q": "Gemorragik isitma qanday kasallik. Qon ketishini to'xtatish usullarini ko'rsating."
+},
+{
+"cat": "1",
+"q": "Orqa miya suyuqligini olish texnikasini ayting. Punktsiya uchun kerakli jihozlar to'plamini aytib bering."
+},
+{
+"cat": "1",
+"q": "Qusishda birinchi yordam ko'rsatish. Qusishni turlarini aytib bering."
+},
+{
+"cat": "1",
+"q": "Metall tibbiy asboblarning sterillanganlik sifatini tekshirish usullari. Optik tibbiy asboblardan: bronxoskop, traxeoskop, gastroskop, rektoskop, sistoskop, uretroskoplarni sterillash usullari."
+},
+{
+"cat": "1",
+"q": "Klinik va biologik o'limni farqi. Klinik o'lim ro'y berganda birinchi yordam aytib bering."
+},
+{
+"cat": "1",
+"q": "Gemotoraks belgilari sabablari va tez tibbiy yordam. Ko'krak qafasiga qon quyilganda bemorni to'g'ri transportirovka qilishni aytib bering."
+},
+{
+"cat": "1",
+"q": "Anafilaktik shok va birinchi tibbiy yordam. Kvinke shishini xarakterlang."
+},
+{
+"cat": "1",
+"q": "Namlangan kislorod berish texnikasi. Bobrov apparatiga tarif bering"
+},
+{
+"cat": "1",
+"q": "Ishlatilgan tuvak yoki siydikdonlarni zararsizlantirish. Gipoxlorid eritmasini tayyorlash texnikasini aytib bering."
+},
+{
+"cat": "1",
+"q": "Apnoe va dispnoe tushunchasi. Nafas yetishmovchiliklarini nechta bosqichi bor."
+},
+{
+"cat": "1",
+"q": "Insulin dozasini hisoblash va insulinni shpritsga tortish va bemorga yuborish texnikasi."
+},
+{
+"cat": "1",
+"q": "1 yoshgacha bo'lgan bolalarni patronaj hamshira tomonidan olib boriladigan kuzatuvi."
+},
+{
+"cat": "1",
+"q": "5 yoshgacha bo'lgan bolalarning o'sish va rivojlanish monitoringini patronaj hamshira tomonidan olib borilishi."
+},
+{
+"cat": "1",
+"q": "Sil kasalligining belgilari va profilaktikasi"
+},
+{
+"cat": "1",
+"q": "Yuqumli kasalliklarni oldini olishda emlashning ahamiyati"
+},
+{
+"cat": "1",
+"q": "“Bexatar onalik dasturi” ning mohiyati."
+},
+{
+"cat": "1",
+"q": "Yigirma sakkiz kunlik xayz siklida ovulyasiya sodir bo'lishi"
+},
+{
+"cat": "1",
+"q": "Nospetsifik yallig'lanish kasalliklarini kelib chiqaridigan mikroorganizmlar"
+},
+{
+"cat": "1",
+"q": "Ginekologik bemorlarni operatsiyaga tayyorlashda hamshiraning asosiy vazifalari"
+},
+{
+"cat": "1",
+"q": "O'smir qizlar gigiyenasi va ular orasida sog'lom turmush tarzini targ'ibot qilishda akusherkaning vazifasi."
+},
+{
+"cat": "1",
+"q": "Zamonaviy kontratseptiv vositalarining turlari va ularning ijobiy tomonlari nimadan iborat."
+},
+{
+"cat": "1",
+"q": "Oftalmoblenoreya profilaktikasi qachon amalga oshiriladi."
+},
+{
+"cat": "1",
+"q": "Homiladorlikda qayt qilishning og'ir kechishida, siydikda nima aniqlanadi."
+},
+{
+"cat": "1",
+"q": "Sitomegalovirus kasalligining kelib chiqishi va homilaga ta'siri."
+},
+{
+"cat": "1",
+"q": "Galaktostaz tushunchasi uning belgilari."
+},
+{
+"cat": "1",
+"q": "Laboratoriyada shaxsiy gigiyenaga rioya qilmaslik qanday xolatlarni keltirib chiqaradi."
+},
+{
+"cat": "1",
+"q": "Anaerob infeksiyalarda o'tkazilgan opreatsiyalarda ishlatilgan instrumentlarni zararsizlantirish."
+},
+{
+"cat": "1",
+"q": "Koagulyator, so'rg'ich, operatsion lampa va operatsiya stolni boshqarish."
+},
+{
+"cat": "1",
+"q": "Operatsiya xonasida texnika xavfsizlik qoidalarini aytib bering?"
+},
+{
+"cat": "1",
+"q": "Xirurgik infeksiyalar, ularning kelib chiqish sabablarini ko'rsating"
+},
+{
+"cat": "1",
+"q": "Bemorni operatsiya stoldagi holatini aytib bering?."
+},
+{
+"cat": "1",
+"q": "Kesuvchi asboblarni dezinfeksiya qilish va sterillashni aytib bering."
+},
+{
+"cat": "1",
+"q": "Operatsiya maydonini zararsizlantirish uchun ishlatiladigan antiseptik moddalarni sanab bering."
+},
+{
+"cat": "oliy",
+"q": "Nafas shovqinlari. Bronxial shovqin va vezikulyar shovqin orasidagi faqrni toping"
+},
+{
+"cat": "oliy",
+"q": "Bronxit kasalligini o'tkazgan bemorlarni reabilitatsiyasi, turlari, bosqichlari."
+},
+{
+"cat": "oliy",
+"q": "Zotiljam. Krupoz zotiljam va sil kasalligini orasida taqqoslama diagnostika."
+},
+{
+"cat": "oliy",
+"q": "Stenokardiya. Stenokardiya va miokard infarkti kasalligini orasida taqqoslama diagnostikasi nimadan iborat?"
+},
+{
+"cat": "oliy",
+"q": "O'pka sili bilan kasallangan bemorlar reabilitatsiyasi. Turlari. Pahxez stoli"
+},
+{
+"cat": "oliy",
+"q": "O'pka raki bilan kasallangan bemorlar reabilitatsiyasi. Turlari. Bosqichlari."
+},
+{
+"cat": "oliy",
+"q": "Yurak poroklari bilan kasallangan bemorlar reabilitatsiyasi. Turlari. Bosqichlari. Pahxez stoli"
+},
+{
+"cat": "oliy",
+"q": "Gatrit kasalligini o'tkazgan bemorlar reabilitatsiyasi. Turlari. Bosqichlari. Pahxez stoli haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Gastroenterokolit. Gastroenterokolit va appenditsit kasalligini orasida taqqoslama diagnostika"
+},
+{
+"cat": "oliy",
+"q": "Xolesistit kasalligini o'tkazgan bemorlar reabilitatsiyasi. Turlari. Bosqichlari. Pahxez stoli haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Glomerulonefrit kasalligini o'tkazgan bemorlar reabilitatsiyasi. Turlari. Bosqichlari. Pahxez stoli haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Qovurg'alararo nevralgiya va yurak hurujlari orasida taqqoslama diagnostikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Piyelonefrit va bel churrasi orasida taqqoslama diagnostikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Sistit kasalligini o'tkazgan bemorlar reabilitatsiyasi. Turlari. Bosqichlari. Pahxez stoli haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Leykozlar kasalligini o'tkazgan bemorlar reabilitatsiyasi. Turlari. Bosqichlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Jigar sirrozi kasalligini o'tkazgan bemorlar reabilitatsiyasi. Turlari. Bosqichlari. Pahxez stoli haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Diffuz toksik buqoq (Bazedov kasalligi) bilan kasallangan bemorlar reabilitatsiyasi. Turlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Miksedema bilan kasallangan bemorlar reabilitatsiyasi. Turlarini sanab bering."
+},
+{
+"cat": "oliy",
+"q": "Qandli diabed bilan kasallangan bemorlar reabilitatsiyasi. Turlari. Pahxez stoli haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Revmatizm bilan kasallangan bemorlar reabilitatsiyasi. Turlari."
+},
+{
+"cat": "oliy",
+"q": "Revmatizm va Poliartrit orasida taqqoslama diagnostika."
+},
+{
+"cat": "oliy",
+"q": "OITS kasalligini o'tkazgan bemorlarni reabilitatsiyasi, turlari, bosqichlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Laringospazm va laringostenozning klinik ko'rinishi, orasida taqqoslama diagnostikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Bronxial astma huruji va asfiksiya orasida taqqoslama diagnostikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "O'n ikki barmoqli ichakning yara klasalligi, reabilitatsiyasi. Turlari. Bosqichlari. pahxez stoli haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Kollaps va shok orasida taqqoslama diagnostikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Jigar sirozi va Gepatit “B” orasida taqqoslama diagnostika haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "O'pka sili bilan o'pka raki kasalligining klinikasi orasidagi taqqoslama diagnostikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Giperglikemik koma va gipoglikemik koma orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari nimadan iborat?"
+},
+{
+"cat": "oliy",
+"q": "Gipertaniya va gipertermiya orasida taqqoslama diagnostikasi, hamshira hatti- harakatlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Gipertermiya va gipotermiya orasida taqqoslama diagnostikasi, hamshira hatti- harakatlari qanday?"
+},
+{
+"cat": "oliy",
+"q": "Epilepsiya (tutqanoq) kasalligi va talvasa sindromlarini klinik belgilari, farqlash, hamshira taktikasi nimadan iborat?"
+},
+{
+"cat": "oliy",
+"q": "Gemoragik insult va ishemik insultning taqqoslama diagnostikasi, hamshira hatti- harakatlari."
+},
+{
+"cat": "oliy",
+"q": "Qizamiq va Qizilcha orasida taqqoslama diagnostikasi, hamshira hatti- harakatlari."
+},
+{
+"cat": "oliy",
+"q": "Depressiya, stress orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Klinik o'lim va biologic o'lim orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari qanday bo'lishi lozim?"
+},
+{
+"cat": "oliy",
+"q": "Bepushtlikning, sabablari, turlari oldini olish, bemorlarning reabilitatsiyasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "“O'tkir qorin og'rig'i” sindromi va bachadondan tashqari homiladorlik orasida taqqoslama diagnostikasi, hamshira hatti- harakatlari nimadan iborat?"
+},
+{
+"cat": "oliy",
+"q": "Salmonelyoz va dezenteriya kasalligi orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Suyaklarning ochiq va yopiq jarohatlar orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Koronavirus kasalligi klinikasi, parvarishi, bemorlar reabilitatsiyasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Koronavirus kasalligi va ORVI kasalligi orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Soxta va chin bo'g'ma kasalligi orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Epidemik parotit va limfadenit kasalli orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "O'smir qizlar jinsiy a'zolarida yalliqlanish kasalliklari, sabablari, profilaktikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Tug'ruq jarohatlari, oraliq qinning yi'rtilishi, ularni oldini olishda hamshiralik parvarishi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Homiladorlik davrida kamqonlik, uning turlari va hamshiralik taktikasi qanday bo'lishi lozim?"
+},
+{
+"cat": "oliy",
+"q": "Ginekologik bemorlarni operatsiyasidan ketingi davrda hamshiralik parvarishi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Botulizm kasalligining etiologiyasi, klinikasi, profilaktikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Diabedik koma klinik belgilari, profilaktikasi, hamshira xatti- xarakatlari qanday bo'lishi lozim?"
+},
+{
+"cat": "oliy",
+"q": "Erta neonatal davrlarda adaptiv reatsiyalar haqida malumotlarni asoslab bering."
+},
+{
+"cat": "oliy",
+"q": "Chaqaloqlar gipotermiyasining sabablari, belgilari birinchi yordam va hamshira taktikasini asoslab bering."
+},
+{
+"cat": "oliy",
+"q": "Kvinki shishininng sabablari, belgilari, shoshilinch yordam ko'rsatish va hamshiralik parvarishi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "O'pkadan qon ketishining sabablari, belgilari va shoshilich yordam ko'rsatishni asoslab bering."
+},
+{
+"cat": "oliy",
+"q": "Karantin va boshqa o'ta xavfli yuqumli kasalliklarda epidemiologik anamnez yig'ishda ahamiyat beriladigan masalalar nimalardan iborat ekanligini asoslab bering."
+},
+{
+"cat": "oliy",
+"q": "Dorilardan zaharlanishning sabablari, belgilari, shoshilinch yordam ko'rsatish, hamshiralik parvarishini tashkil qilish haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Chala tug'ilgan chaqaloqlarning anatomo-fiziologik xususiyatlarini sanab bering va hamshiralik parvarishini amalga oshiring."
+},
+{
+"cat": "oliy",
+"q": "Amaldagi “Shifoxona ichki infeksiyasini oldini olish” ning mazmuni, ahamiyati haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Etil spirti va surrogatlar bilan zaharlanishning belgillari tez tibbiy yordam ko'rsarishni asoslab bering."
+},
+{
+"cat": "oliy",
+"q": "Oksigenoterapiya qaysi kasalliklarda qo'llaniladi? Oksigenoterapiya qo'llash texnikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Yatrogeniya haqida tushuncha. Yatrogeniya turlari. So'zli va so'zsiz yatrogeniya nima?"
+},
+{
+"cat": "oliy",
+"q": "Gipovolemiya nima, sabablari, belgilari, qaysi kasalliklarda gipovolemiya kuzatilishi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Is gazidan zaharlanish sabablari, belgilari va shoshilinch yordam ko'rsatish."
+},
+{
+"cat": "oliy",
+"q": "Neonotologiya bo'limidagi chaqaloqlar orasida shifoxona ichki infektsiyasi yuzaga kelishi sabablari, xavfli guruhlar, shifoxona ichki infektsiyasini oldini olishda hamshiraning ahamiyati haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Revmatizm kasalligining qo'zg'atuvchisi, klinikasi, asoratlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Distillangan suvning tibbiyotdagi o'rni, ayniqsa avtoklavda foydalanilishining ahamiyati haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "6 oylikgacha bo'lgan bolalar oshqozon-ichak yo'llarining anatomo-fiziologik xususiyatlari, bolalarni qo'shimcha ovqatlantirishda onalarga maslahatlar berish."
+},
+{
+"cat": "oliy",
+"q": "Universal progressiv model nima va uning tamoyillarini sanab bering."
+},
+{
+"cat": "oliy",
+"q": "Uyqu keltiradigan (snotvorniy) ta'sirga ega bo'lgan dorilar bilan zaharlanish belgilari, shoshilinch yordam ko'rsatish, hamshiralik parvarishini tashkil qilish."
+},
+{
+"cat": "oliy",
+"q": "ABO tizimi va Rh omiliga ko'ra, qon guruhlari haqida tushunchalarni aytib bering. Qon quyish va uning tarkibiy qismlarini tayyorlash va o'tkazishda hamshiraning roli. Qon quyishda talab qilinadigan amaldagi hujjatlarni ayting."
+},
+{
+"cat": "oliy",
+"q": "Kuyish turlari, darajalari. Klinik kurinishi. Kuyishlarda tez yordam ko'rsatish chora tadbirlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Ekstrasistoliya va yurak ritmining buzilishi.Kollaps sabablari, belgilari va shoshilinch yordam. EKG kanday muolaja?"
+},
+{
+"cat": "oliy",
+"q": "Terminal holatlar tasnifi. Terminal holatlar fazalari. Terminal holatlarda tez yordam choralari"
+},
+{
+"cat": "oliy",
+"q": "Meningit. Kasallik belgilari. Meningitda shifoxonagacha bo'lgan bosqichdagi shoshilinch yordam haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "O'tkir xolitsistitlarda tez tibbiy yordam.O'tkir pankreatit, differinsial diagnostika haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Ichakdan ovqatni o'tmay qolishi belgilari va kasallik kechishi. Ichakdan ovqatni o'tmay qolish holatlarda shoshilinch yordam qanday bo'lishi lozim?"
+},
+{
+"cat": "oliy",
+"q": "O'tkir prostatit, sabablari va belgilari. Prostatitda siydikning o'tkir tutilishi. Shifoxonagacha bo'lgan davrda shoshilinch yordam asoslab bering."
+},
+{
+"cat": "oliy",
+"q": "Nefropatiya. Preeklampsiya. Eklampsiya. Belgilari, tashxisi, shoshilinch yordam ko'rsatishni aytib bering."
+},
+{
+"cat": "oliy",
+"q": "Ko'zning termik va kimyoviy kuyishlarida klinik belgilar. Ko'zning termik va kimyoviy kuyishlarda shoshilinch yordamni ayting."
+},
+{
+"cat": "oliy",
+"q": "Epidemologik jarayon deganda nimani tushunasiz.Yuqumli kasalliklarning yuqish yo'llarini aytib bering."
+},
+{
+"cat": "oliy",
+"q": "Virusli gepatitlar, klassifikatsiyasi, profilaktikasini gapirib bering. Virusli gepatit B vaksinatsiyasi tartibini aytib bering."
+},
+{
+"cat": "oliy",
+"q": "Difteriya kasalligi klinikasi, hamshira tashxisini qo'ying. AKDS, ADSM nima?"
+},
+{
+"cat": "oliy",
+"q": "Chaqaloqlardagi asfiksiya tez tibbiy yordam ko'rsatishda hamshiraning vazifasi. Nafas yo'liga qusuq massalari tushganida birinchi yordam berishni aytib bering."
+},
+{
+"cat": "oliy",
+"q": "Sil bilan kasallangan onadan tug'ilgan bola qachon BSJ emlash o'tkaziladi? BSJ bilan sog'lom chaqaloqlarda nechanchi kun emlanadi?"
+},
+{
+"cat": "oliy",
+"q": "Buyrak-tosh kasalligida shoshilinch yordam. Buyrak-tosh kasalligining klinik ko'rinishini aytib bering."
+},
+{
+"cat": "oliy",
+"q": "O'tkir obstruktiv bronxitning klinik belgilari. Kasallikni parvarishini aytib bering."
+},
+{
+"cat": "oliy",
+"q": "Buyrakning o'tkir yetishmovchiligi sindromi, unda shoshilinch tibbiy yordam. Buyrak kasalliklarining asosiy klinik belgilari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "6 oylikgacha bo'lgan bolalarni ovqatlantirishda onalarga maslaxatlar bering. Qo'shimcha ovqat kiritishni boshlashda patronaj hamshirasining maslahatlari qanday bo'lishi lozim?"
+},
+{
+"cat": "oliy",
+"q": "Surunkali miyeloleykozning kelib chiqish sabablari, leykoz kasalligi bilan solishtiring."
+},
+{
+"cat": "oliy",
+"q": "Chaqaloqlardagi o'tkinchi yoki fiziologik holatlar haqida aytib bering."
+},
+{
+"cat": "oliy",
+"q": "Shaxsiy profilaktika aptechkasi tarkibida qanday dori-vositalari va anjomlari bo'lishi kerak?"
+},
+{
+"cat": "oliy",
+"q": "Chala “Kam vaznli” tug'ilgan chaqaloqlarni zond orqali ovqatlantirish texnikasi. Apgar shkalasi haqida aytib bering."
+},
+{
+"cat": "oliy",
+"q": "Chaqaloqlarda Kefalogematomaning sababi, klinikasi, hamshira parvarishini gapirib bering. Kefalogematomada chaqaloqlarning parvarishi qanday amalga oshiriladi"
+},
+{
+"cat": "oliy",
+"q": "Chaqaloqlar sepsisining belgilari, unga olib keluvchi omillar, oldini olish chora- tadbirlarida hamshiraning vazifasi."
+},
+{
+"cat": "oliy",
+"q": "Leyshmanioz qanday kassalik, yuqish yo'llari va profilaktikasi haqida malumot bering."
+},
+{
+"cat": "oliy",
+"q": "Quturish kasalligi klinikasi, davolash va profilaktikasi haqida aytib bering."
+},
+{
+"cat": "oliy",
+"q": "Dizenteriya qanday kasallik? kelib chiqish sabablari, hamshiralik parvarishini aytib bering. Dizenteriyada najasga xarakteristikasiga baho bering."
+},
+{
+"cat": "oliy",
+"q": "Brutsellyoz kasalligi, klinik belgilari,oldini olish chora-tadbirlarini aytib bering. Qaysi kasb egalari bu kasallikka qarshi emlanadi?"
+},
+{
+"cat": "oliy",
+"q": "Enterobioz qanday kasallik va uning klinikasi qanday kechadi? Entrobiozda laboratoriyaga kanday material yuboriladi?"
+},
+{
+"cat": "oliy",
+"q": "Ovqat tarkibidagi oqsil, yog' va uglevodlarni o'zaro nisbati qanday bo'lishi kerak. Yog'lar organizmda qanday vazifani bajaradi."
+},
+{
+"cat": "oliy",
+"q": "Kasalxona va poliklinikalarda bolalarga yordam berishda hamshiraning roli. Bolalarga tibbiy-profilaktika yordami tizimida klinik tekshiruvni tashkil etish (vazifalar, maqsadlar, tadbirlar)."
+},
+{
+"cat": "oliy",
+"q": "Imkoniyati cheklangan bolalarga hamshiralik parvarishi. Buzilgan ehtiyoj va muammolar, nogiron bolalarga hamshiralik parvarishining xususiyatlari. Boshlang'ich va o'rta maktab yoshidagi tibbiy-diagnostik tadbirlarning o'ziga xos xususiyatlari."
+},
+{
+"cat": "oliy",
+"q": "Distrofiya bilan og'rigan bolalarga hamshiralik parvarishi. Distrofiyalarning turlari (turi): gipotrofiya (to'yib ovqatlanmaslik), paratrofiya."
+},
+{
+"cat": "oliy",
+"q": "Oldini olish mumkin bo'lgan infektsiyalarning immunoprofilaktikasida hamshiraning o'rni. Sog'liqni saqlash muassasalarida emlash ishlarini tashkil etish. Bolalarni emlashning mohiyati va maqsadlari."
+},
+{
+"cat": "oliy",
+"q": "Emlash preparatlari. Emlash jarayoni va uning qonuniyatlari.Vaksinatsiyaga tibbiy ko'rsatma va qarshi ko'rsatmalar. Bolani emlashga tayyorlash. Emlashdan keyingi asoratlarning oldini olish. Vaktsinalarni tashish va saqlash."
+},
+{
+"cat": "oliy",
+"q": "Jarrohlik sepsisi: ta'rifi, tasnifi, belgilari, bemor muammolari. Sepsisli bemorlarni parvarish qilishda hamshiralik jarayonining xususiyatlari."
+},
+{
+"cat": "oliy",
+"q": "Sovuq urishi ta'rifi, tasnifi, bemor muammolari, birinchi yordam. Sovuq bilan og'rigan bemorlarga hamshiralik yordami."
+},
+{
+"cat": "oliy",
+"q": "Anaerob infektsiyasi. Rivojlanish xususiyatlari, oldini olish. Gazli gangrena: sabablari, dastlabki belgilari. Gazli gangrena bilan og'rigan bemorlarni parvarish qilish. Anaerob infektsiya uchun sanitariya-epidemiya rejimining xususiyatlarini sanab bering."
+},
+{
+"cat": "oliy",
+"q": "Nima uchun OIV infeksiyali ayoldan tug'ilgan bolaga 18 oyga to'lguncha IFA va IB tahlillari o'tkazilmaydi?"
+},
+{
+"cat": "oliy",
+"q": "Avtoklavda kimlar ishlashi mumkin va OIV laboratoriyasida materiallarni avtoklavda zararsizlantirish qanday tartibda olib boriladi?"
+},
+{
+"cat": "oliy",
+"q": "O'zbekiston Respublikasida OIV infeksiyasiga yakuniy tashxis qaysi serologik usulda qo'yiladi?"
+},
+{
+"cat": "oliy",
+"q": "Bemorning birlamchi qon namunasini OIVga tekshirish uchun yuborilayotganda qaysi yo'llanma va qanday tartibda to'ldiriladi?"
+},
+{
+"cat": "oliy",
+"q": "OIVni onadan bolaga o'tish profilaktikasini birlamchi tibbiyot muassasalarida (QVP, poliklinika) yo'lga qo'yish tartibi."
+},
+{
+"cat": "oliy",
+"q": "Davolash-profilaktika muasasalarida sanitariya-gigiyena, epidemiyaga qarshi chora-tadbirlar, dezinfeksiya va sterilizatsiya rejimlariga rioya etilishi qaysi me'yoriy hujjat bilan reglamentatsiya qilinadi?"
+},
+{
+"cat": "oliy",
+"q": "Davolash-profilaktika muassasalarida yuqumli kasalliklar ro'yhatga olinganda shoshilinch xabarnoma qaysi vaqt oralig'ida berilishi kerak va qaysi jurnalda qayd etiladi?"
+},
+{
+"cat": "oliy",
+"q": "Agar tug'ruqqa kelgan ayol almashinuv varaqasida OIV-infeksiyasiga tekshirilmagan bo'lsa tug'ruq kompleksi (bo'limida) qaysi usul bilan OIVga tekshiriladi?"
+},
+{
+"cat": "oliy",
+"q": "Davolash-profilaktika muassasalarida shifoxona ichi infeksiyalarini oldini olish bo'yicha qanday komissiya tashkil etiladi?"
+},
+{
+"cat": "oliy",
+"q": "Tarkibida xlor saqlovchi 0,5%li dezinfeksiya vositasi yordamida dezinfeksiya ishlari olib borilganda spora hosil qiluvchi mikroorganizmlarni zararsizlantirish mumkinmi?"
+},
+{
+"cat": "oliy",
+"q": "Quritish shkafida sterilizatsiya ishlari qaysi harorat va ekspozitsiyada amalga oshiriladi?"
+},
+{
+"cat": "oliy",
+"q": "Meningit kasallik belgilari, meningokokkli infeksiya o'chog'ida o'tkaziladigan asosiy chora-tadbirlarda hamshiraning vazifalari."
+},
+{
+"cat": "oliy",
+"q": "Tug'ruqxonadan tashqaridagi tug'ruqlarda ayolga va tug'ilgan chaqaloqqa shoshilinch yordam ko'rsatish."
+},
+{
+"cat": "oliy",
+"q": "Hiqildoqga, kekirdakga, qizilo'ngachga yot jismlar tushganda tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "oliy",
+"q": "Bosh suyagi va miya jarohatining klinik belgilari, shifoxonagacha bo'lgan bosqichdagi jonlashtirish tadbirlarini ayting."
+},
+{
+"cat": "oliy",
+"q": "O'tkir zaharlanishda ichki a'zolardan zaharli moddalarni chiqarib tashlash usullarini ayting."
+},
+{
+"cat": "oliy",
+"q": "Kimyoviy moddalar bilan o'tkir zaharlanishlarda asosiy patologik sindromlar va tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "oliy",
+"q": "Uyqu keltiradigan ta'sirga ega bo'lgan dorilar bilan zaharlanganda shoshilinch yordam ko'rsatish."
+},
+{
+"cat": "oliy",
+"q": "Umurtqa pog'onasi suyaklarini sinish sabablari, klinik belgilari, birinchi tibbiy yordam ko'rsatish, langetani qo'llash usuli haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Zararsizlantiruvchi eritmalarni tayyorlash me'yoriy qoidalari. Zararsizlantiruvchi modallar bilan zaharlanganda birinchi yordam ko'rsatish haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Gipertoniya kasaligiga olib keladigan sabablar, klinik belgilari, gipertonik krizda shifokorgacha hamshira yordamini ko'rsatish qanday bo'lishi lozim?"
+},
+{
+"cat": "oliy",
+"q": "Oshqozon-ichak yarasidan qon ketish simptomlari, unda hamshiraning taktikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Mastit, mastopatiya sabablari, klinik belgilari, kasallikni aniklashda hamshira taktikasi va ayolga o'zini tekshirib kasallikni erta aniqlashni o'rgatish."
+},
+{
+"cat": "oliy",
+"q": "Miya chayqalishi va uning sabablari, klinik belgilari, hamshiralik parvarishi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Miokard infarktining sabablari, simptomlari va shifokorgacha birinchi tibbiy yordam ko'rsatish qanday bo'lishi lozim?"
+},
+{
+"cat": "oliy",
+"q": "DOTS dasturi haqida tushuncha, uning maqsadi, vazifalari va undan kutilayotgan natijalar."
+},
+{
+"cat": "oliy",
+"q": "O'tkir obstruktiv bronxitning sabablari, klinik belgilari, bronxial astma hurujidan farqlash va hamshira parvarishini amalga oshirish."
+},
+{
+"cat": "oliy",
+"q": "Kardiogen shokning sabablari, klinik belgilari, shifokorgacha birinchi tibbiy yordam ko'rsatish."
+},
+{
+"cat": "oliy",
+"q": "Apgar shkalasi ko'rsatkichlari, shkala bo'yicha yangi tug'ilgan chaqaloqni baholashda hamshiraning vazifalari."
+},
+{
+"cat": "oliy",
+"q": "Elektrokardiogramma nima? Elektrokardiogramma qilish texnikasi, muolajani bajarishda hamshiraning vazifalari."
+},
+{
+"cat": "oliy",
+"q": "Qon ketish turlari, qon ketishni uzil-kesil va vaqtinchalik to'xtatish usullarini qo'llashda hamshiraning vazifalari."
+},
+{
+"cat": "oliy",
+"q": "Yuqorigi nafas yo'llaridan yot jismni chiqarib tashlashda |Geymlix usulini qo'llash texnikasi."
+},
+{
+"cat": "oliy",
+"q": "Insulin dozasini hisoblash, insulinni shpritsga tortish va bemorga yuborish texnikasi."
+},
+{
+"cat": "oliy",
+"q": "1 yoshgacha va 5 yoshgacha bo'lgan bolalarning o'sish va rivojlanish monitoringini patronaj hamshira tomonidan olib boriladigan kuzatuvi."
+},
+{
+"cat": "oliy",
+"q": "Zamonaviy, gormonal kontratseptiv vositalarining turlari, ularning afzalliklari va noto'g'ri qo'llanganda uchraydigan asoratlarni sanab bering."
+},
+{
+"cat": "oliy",
+"q": "“Muvaffaqiyatli emizish tomon 11 qadam” tamoyili haqida tushuncha va uning afzalliklari."
+},
+{
+"cat": "oliy",
+"q": "Homiladorlikka TORCH- infeksiyasining ta'siri, uning asoratlari va oldini olishda hamshiraning vazifalari."
+},
+{
+"cat": "oliy",
+"q": "O'zbekiston Respublikasida “Onalar va bolalar sog'lig'ini muhofaza qilishda amalga oshirilayotgan ishlar” haqida ma'lumot."
+},
+{
+"cat": "oliy",
+"q": "Homiladorlik muddatini, tug'ruq vaqtini aniqlash, homiladorlarda o'tkaziladigan laborator tekshiruvlar va homilador ayollar almashuv varaqasini to'ldirish."
+},
+{
+"cat": "oliy",
+"q": "Nechta parhez taomnomasi mavjud? Ularni qo'llashga ko'rsatmalar va taomnomani yig'ishda hamshiraning vazifalari."
+},
+{
+"cat": "oliy",
+"q": "Tibbiyot statistikasining asosiy vazifalari nimalardan iborat? Stat. talonni to'ldirishda hamshiraning vazifasi qanday?"
+},
+{
+"cat": "oliy",
+"q": "Shifoxonadagi va oilaviy poliklinikadagi bemorlarning tibbiy kartasining raqami, saqlanish muddatini ayting."
+},
+{
+"cat": "oliy",
+"q": "Murojaat etgan bemorda 3ta kasallik (xolitsistit, piyelonefrit, miopiya) aniqlansa nechta stat. talon to'ldiriladi va uni to'ldirish tartibi."
+},
+{
+"cat": "oliy",
+"q": "Antirabik vaktsina nima, yuborish sxemasi va qayerda qo'llaniladi?"
+},
+{
+"cat": "oliy",
+"q": "O'ta xavfli yuqumli kasalliklarining boshqa yuqumli kasalliklardan farq qiladigan jihatlari va ularni oldini olishda hamshiraning vazifalari nimadan iborat?"
+},
+{
+"cat": "oliy",
+"q": "DPMlarda sanitariya rejimi, epidemiyaga qarshi va dezinfeksiya rejimlari to'g'risida amaldagi me'yoriy hujjatlar haqida tushuncha."
+},
+{
+"cat": "oliy",
+"q": "Yiringli operatsiyalardan keyin asboblarni zararsizlantirish haqida amaldagi buyruqga asosan ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Narkotik bo'lgan va narkotik bo'lmagan og'riq qoldiruvchi dori vositalarini ayting. Doriga beriluvchanlik (o'rganib qolishlik, qaramlik), uni oldini olish tadbirlarida hamshiraning vazifalari nimadan iborat?"
+},
+{
+"cat": "oliy",
+"q": "Nafas olish markazini qo'zg'atadigan, nafas olish faoliyatini yaxshilaydigan dori vositalari, shakllari, qo'llash tartibi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Gipoglikemiya, giperglikemiya – uning yuzaga kelishi, belgilari, davolashda qo'llaniladigan dori vositalari haqida tushuncha."
+}
+],
+"138": [
+{
+"cat": "2",
+"q": "Hamshiraning majburiyatlari nimalardan iborat?"
+},
+{
+"cat": "2",
+"q": "F. Naytingeylning eng mashhur kitobi qanday nomlanadi?"
+},
+{
+"cat": "2",
+"q": "butun dunyoda hamshiralik ishining asoschisi sifatida tan olingan."
+},
+{
+"cat": "2",
+"q": "O'z-o'zini parvarish qilish - bu nima?"
+},
+{
+"cat": "2",
+"q": "Inson sog'lig'i uchun kim ma'sul?"
+},
+{
+"cat": "2",
+"q": "Diareya nima?"
+},
+{
+"cat": "2",
+"q": "Salomatlikka qanday omillar ta'sir etadi?"
+},
+{
+"cat": "2",
+"q": "Kasallik-bu nima?"
+},
+{
+"cat": "2",
+"q": "Qaysi vitamin yetishmasligi raxitga olib keladi?"
+},
+{
+"cat": "2",
+"q": "Zararli odatlarga nimalar kiradi?"
+},
+{
+"cat": "2",
+"q": "Yotoq yara bu…?"
+},
+{
+"cat": "2",
+"q": "Yotoq yaralar tananing qaysi sohalarida kam uchraydi?"
+},
+{
+"cat": "2",
+"q": "Yotoq yaralar kimlarda kuzatiladi?"
+},
+{
+"cat": "2",
+"q": "Ovqatlanish nima?"
+},
+{
+"cat": "2",
+"q": "Me'yorda sog'lom odam kuniga nechi marta ovqatlanishi lozim?"
+},
+{
+"cat": "2",
+"q": "Qabziyat nima?"
+},
+{
+"cat": "2",
+"q": "Arterial bosim nima?"
+},
+{
+"cat": "2",
+"q": "Limfa tugunlarining tez kattalashuvi qanday kasallikdan darak berishi mumkin?"
+},
+{
+"cat": "2",
+"q": "Peridural nima?"
+},
+{
+"cat": "2",
+"q": "Anesteziya nima?"
+},
+{
+"cat": "2",
+"q": "Aritmiya nima"
+},
+{
+"cat": "2",
+"q": "Hamshiralik jarayoni- bu?"
+},
+{
+"cat": "2",
+"q": "Hamshiralik jarayonining birinchi bosqichi qanday nomlanadi?"
+},
+{
+"cat": "2",
+"q": "Meteorizm nima?"
+},
+{
+"cat": "2",
+"q": "Hamshiralik jarayonining 4-boskichi o'z ichiga nimalarni oladi?"
+},
+{
+"cat": "2",
+"q": "Bosh, kiyim bitlari qanday og'ir yukumli kasalliklarni olib keladi?"
+},
+{
+"cat": "2",
+"q": "Gipertermiya nima?"
+},
+{
+"cat": "2",
+"q": "Gematuriya nima?"
+},
+{
+"cat": "2",
+"q": "Dezinfeksiya nima?"
+},
+{
+"cat": "2",
+"q": "Sterilizatsiyadan oldin barcha tibbiy buyumlar nima maqsadda tozalovdan o'tkazish zarur?"
+},
+{
+"cat": "2",
+"q": "Sterilizatsiya deganda nimani tushunasiz?"
+},
+{
+"cat": "2",
+"q": "Tamponlar qanday holatlarda ishlatiladi?"
+},
+{
+"cat": "2",
+"q": "Rektal sun'iy ovqatlanish nima?"
+},
+{
+"cat": "2",
+"q": "Ikkilamchi profilaktikani ko'rsating."
+},
+{
+"cat": "2",
+"q": "Reflekslarning qanday turlari bor?"
+},
+{
+"cat": "2",
+"q": "Hushida bo'lmagan bemorlarni hamshira qanday ovqatlantiradi?"
+},
+{
+"cat": "2",
+"q": "Nerv tizimi yuqumli kasalliklarda hamshira parvarishi qanday o'tkaziladi?"
+},
+{
+"cat": "2",
+"q": "Allergik diatezda qaysi mahsulotlar mumkin emas?"
+},
+{
+"cat": "2",
+"q": "Bosh miya o'smasida bosh og'rig'i qanday bo'ladi?"
+},
+{
+"cat": "2",
+"q": "Orqa miya shikastlarida hamshiralik parvarishi nimalarni o'z ichiga oladi?"
+},
+{
+"cat": "2",
+"q": "Migren xurujida qanday yordam ko'rsatiladi?"
+},
+{
+"cat": "2",
+"q": "Ensefalit bu-"
+},
+{
+"cat": "2",
+"q": "Miya chayqalishiga xos bo'lgan belgilar qaysilar?"
+},
+{
+"cat": "2",
+"q": "Yuz nervining yallig'lanishiga xos bo'lgan belgilar qaysi?"
+},
+{
+"cat": "2",
+"q": "Gallyusinatsiya nima?"
+},
+{
+"cat": "2",
+"q": "Ovqatdan bosh tortgan bemorlarni qanday ovqatlantiriladi?"
+},
+{
+"cat": "2",
+"q": "Ishemik insultda qaysi dorilar mumkin emas?"
+},
+{
+"cat": "2",
+"q": "Adenoid simptomi bo'la olmaydi:"
+},
+{
+"cat": "2",
+"q": "Virusli gepatitlarda teri rangi qanday bo'ladi?"
+},
+{
+"cat": "2",
+"q": "Tashqi burun skeleti nimalardan iborat?"
+},
+{
+"cat": "2",
+"q": "Normada burun yon bo'shliqlari ichida nima mavjud?"
+},
+{
+"cat": "2",
+"q": "Frontit- bu:"
+},
+{
+"cat": "2",
+"q": "Burun bo'shlig'ining ichki devori nima bilan chegaralanadi?"
+},
+{
+"cat": "2",
+"q": "Otitlarda qaysi antibiotiklarni yuborish ta'qiqlanadi?"
+},
+{
+"cat": "2",
+"q": "Giposmiya bu..."
+},
+{
+"cat": "2",
+"q": "Burun chipqoni burunning qaysi sohasida ko'proq uchraydi?"
+},
+{
+"cat": "2",
+"q": "Nog'ora parda quloqning qaysi bo'limlarini bir-biridan ajratib turadi."
+},
+{
+"cat": "2",
+"q": "Quloq chirkiga xos bo'lmagan simptomni aniqlang."
+},
+{
+"cat": "2",
+"q": "Halqumni tekshirish usuli nima deyiladi?"
+},
+{
+"cat": "2",
+"q": "Doimiy o'ta nam va quruq havo changlar, gazlar qaysi rinitlar rivojlanishi uchun sabab bo'ladi?"
+},
+{
+"cat": "2",
+"q": "Tyubaj qaysi kasallikda qo'llaniladi?"
+},
+{
+"cat": "2",
+"q": "Burun bo'shlig'i orqadan 2 ta xoanalar bilan qaerga ochiladi?"
+},
+{
+"cat": "2",
+"q": "Burun yon bo'shliqlari yallig'langanda xirurgik davolashga ko'rsatmalar:"
+},
+{
+"cat": "2",
+"q": "Hiqildoq qaerda joylashgan?"
+},
+{
+"cat": "2",
+"q": "Anginaning asoratlari:"
+},
+{
+"cat": "2",
+"q": "Tanglay murtaklari halqumning qaysi qismida joylashgan?"
+},
+{
+"cat": "2",
+"q": "Quloq kasalliklari qanday asoratlarga olib keladi?"
+},
+{
+"cat": "2",
+"q": "Qon quyish bu:"
+},
+{
+"cat": "2",
+"q": "Autogemotransfuziya-bu:"
+},
+{
+"cat": "2",
+"q": "Qon preparatlariga kiradi:"
+},
+{
+"cat": "2",
+"q": "O'tkir spesifik xirurgik infeksiyaga xos:"
+},
+{
+"cat": "2",
+"q": "Soch xaltasini yiringli yallig'lanishi bu:"
+},
+{
+"cat": "2",
+"q": "Soch follikuli yog' bezi va atrofidagi to'qimani o'tkir yiringli nekrotik yallig'lanishi bu:"
+},
+{
+"cat": "2",
+"q": "Bir necha soch xaltalari yog' bezlari atrofidagi teri va teri osti yog' qavatini"
+},
+{
+"cat": "2",
+"q": "tarkalgan o'tkir yiringli nekrotik yallig'lanishi bu:"
+},
+{
+"cat": "2",
+"q": "To'qimalarni chegaralanmagan yiringli yallig'lanishi bu:"
+},
+{
+"cat": "2",
+"q": "Quloq oldi bezini yiringli yallig'lanishi bu:"
+},
+{
+"cat": "2",
+"q": "Vena devorini bir vaqtda tromb xosil qilishi bilan yallig'lanishi bu:"
+},
+{
+"cat": "2",
+"q": "Qo'l barmoqlari to'qimalarini yiringli yallig'lanishi bu:"
+},
+{
+"cat": "2",
+"q": "Umumiy yiringli infeksiya bu:"
+},
+{
+"cat": "2",
+"q": "Gematoma nima:"
+},
+{
+"cat": "2",
+"q": "Anafilaktik shok-bu qanday xolat bo'lishi mumkin?"
+},
+{
+"cat": "2",
+"q": "Gemotoraks nima:"
+},
+{
+"cat": "2",
+"q": "Pnevmotoraks – bu:"
+},
+{
+"cat": "2",
+"q": "Panaritsiyni ochishda novokainning qanday eritmasini qo'llash maksadga muvofik:"
+},
+{
+"cat": "2",
+"q": "Teri osti panaritsiysida jarayon kechadi:"
+},
+{
+"cat": "2",
+"q": "Tirnoq osti panaritsiysida yiring to'planadi"
+},
+{
+"cat": "2",
+"q": "Birlamchi jarroxlik ishlovi antiseptikaning qaysi turiga mansub:"
+},
+{
+"cat": "2",
+"q": "To'qimalarni ajratuvchi asboblarga qaysi biri kiradi?"
+},
+{
+"cat": "2",
+"q": "To'g'ri ichak kasalliklarida ishlatuvchi asbobni ko'rsating?"
+},
+{
+"cat": "2",
+"q": "Mahalliy yiringli xirurgik infeksion kasalliklarga quyidagilardan qaysilari kirmaydi?"
+},
+{
+"cat": "2",
+"q": "Quyidagi keltirilgan belgilardan qaysi biri yallig'lanishning mahalliy belgilariga kirmaydi?"
+},
+{
+"cat": "2",
+"q": "Umumiy yiringli infeksion kasalliklarga quyidagilardan qaysi biri kiradi?"
+},
+{
+"cat": "2",
+"q": "Molozivo-og'iz suti nimalarga boy?"
+},
+{
+"cat": "2",
+"q": "O'pka va qovurg'alar o'rtasida joylashgan pardaning yallig'lanishiga nima deyiladi?"
+},
+{
+"cat": "2",
+"q": "Quyidagi qon to'xtatish usullarining qaysi biri fizik hisoblanadi?"
+},
+{
+"cat": "2",
+"q": "Burundan qon oqishini qaysi usulda to'xtatish mumkin?"
+},
+{
+"cat": "2",
+"q": "Yelka suyagi chiqishida qanday bog'lam qo'yiladi?"
+},
+{
+"cat": "2",
+"q": "Biriktiruvchi to'qimalarda hosil bo'lgan xavfsiz o'sma-........"
+},
+{
+"cat": "2",
+"q": "Fiziologik sarg'ayish qaysi davrda uchraydi?"
+},
+{
+"cat": "2",
+"q": "Erta muddatli homiladorlik qanday ilk belgilariga asoslanib qo'yiladi?"
+},
+{
+"cat": "2",
+"q": "Yo'ldosh qanday qismlardan iborat?"
+},
+{
+"cat": "2",
+"q": "Jinsiy a'zolarning yallig'llanish kasalliklarni qo'zg'atuvchilarini aniqlashda 1-chi navbatda nima qilinadi."
+},
+{
+"cat": "2",
+"q": "So'zakdan ayniqsa ko'p zararlanadigan a'zolar kasalligini aniqlang?"
+},
+{
+"cat": "2",
+"q": "Xomiladorlik davri qancha muddat davom etadi?"
+},
+{
+"cat": "2",
+"q": "Ayol kishining hayoti qanday davrlardan iborat?"
+},
+{
+"cat": "2",
+"q": "Ginekologik bemorlarni ob'ektiv tekshirish usuli nimadan iborat?"
+},
+{
+"cat": "2",
+"q": "Bir minutda homilaning yuragi necha marta uradi?"
+},
+{
+"cat": "2",
+"q": "Chilla davri necha vaqt davom etadi?"
+},
+{
+"cat": "2",
+"q": "Gonokokklar xotin – qizlar organizmida ayniqsa qaysi a'zolarda ko'p taraqqiy etadi?"
+},
+{
+"cat": "2",
+"q": "Qindan surtma olish uchun kerak bo'ladigan asboblarni ayting:"
+},
+{
+"cat": "2",
+"q": "Mastitning qanday turlari bor?"
+},
+{
+"cat": "2",
+"q": "Yangi tug'ilgan chaqaloqning ko'ziga qanday dori tomiziladi?"
+},
+{
+"cat": "2",
+"q": "Ginekologiya fani nimani o'rganadi?"
+},
+{
+"cat": "2",
+"q": "Ayol jinsiy a'zolarining yallig'lanish kasalliklariga qaysi kasalliklar kiradi?"
+},
+{
+"cat": "2",
+"q": "Bolalik davri nechi davrga bo'lib o'rganiladi?"
+},
+{
+"cat": "2",
+"q": "Salomatlikka salbiy ta'sir etuvchi omillar?"
+},
+{
+"cat": "2",
+"q": "Dispanserning asosiy vazifalariga kirmaydi?"
+},
+{
+"cat": "2",
+"q": "Ixtisoslashgan dispanserda qanday bemorlar nazoratda turmaydilar?"
+},
+{
+"cat": "2",
+"q": "Temiryo'l, avtomobil, metropoliten, transportda yuz bergan halokatlar, avariyalar qaysi"
+},
+{
+"cat": "2",
+"q": "Bemorni ikkilamchi muammolariga nimalar kiradi?"
+},
+{
+"cat": "2",
+"q": "Epidemiya yunoncha so'zdan olingan bo'lib qanday ma'noni bildiradi?"
+},
+{
+"cat": "2",
+"q": "Pandemiya –nima?"
+},
+{
+"cat": "2",
+"q": "Laktatsiyaga qaysi kontraseptik usuli ta'sir ko'rsatadi"
+},
+{
+"cat": "2",
+"q": "Yong'in-nima?"
+},
+{
+"cat": "2",
+"q": "Tibbiy saralash- nima?"
+},
+{
+"cat": "2",
+"q": "Odamlar orasida yuqumli kasalliklarni keng tarqalishiga nimalar sabab bo'ladi?"
+},
+{
+"cat": "2",
+"q": "Ayollar ekstragenital kasalliklar deb nimaga aytiladi?"
+},
+{
+"cat": "2",
+"q": "Anoreksiya nima"
+},
+{
+"cat": "2",
+"q": "Chekuvchi ayollarning homilasi qanday tug'iladi?"
+},
+{
+"cat": "2",
+"q": "Homiladorlik vaqtida muntazam spirtli ichimlik ichish oqibatida bachadonda qanday sindrom"
+},
+{
+"cat": "2",
+"q": "Bolalarni partada noto'g'ri o'tirishida qanday o'zgarishlar kelib chiqadi?"
+},
+{
+"cat": "2",
+"q": "Umurtqa pog'onasining o'sishi o'g'il bolalarda necha yoshgacha davom etadi?"
+},
+{
+"cat": "2",
+"q": "Jamoada chekadigan o'smirlarda qanday o'zgarishlar kuzatiladi?"
+},
+{
+"cat": "2",
+"q": "Jamoada o'smirlar orasida chekishga o'rganishga undaydigan sabab nima?"
+},
+{
+"cat": "2",
+"q": "Maktab yoshidagi bolalar bir kunda nechi marta ovqatlanishi kerak?"
+},
+{
+"cat": "2",
+"q": "Jamoada ashulachilarda, pedagoglarda qanday kasb kasalliklari kuzatiladi?"
+},
+{
+"cat": "2",
+"q": "Qaysi davolash-profilaktika muassasalarida epidemiologik anamnez yig'ilishi kerak?"
+},
+{
+"cat": "2",
+"q": "Hamshirani axloq-odobi, yurish-turishi, muomalasi nima deb nomlanadi?"
+},
+{
+"cat": "2",
+"q": "Dizenteriya diagnozini qo'yish uchun qanday tekshiruvlar o'tqazmoq zarur?"
+},
+{
+"cat": "2",
+"q": "Dizenteriyaning oldini olish chora-tadbirlari:"
+},
+{
+"cat": "2",
+"q": "Kasallik davrlaridan qaysi biri inkubatsion davr?"
+},
+{
+"cat": "2",
+"q": "Yuqumli kasalliklarning belgilari qaysi davrda paydo bo'ladi?"
+},
+{
+"cat": "2",
+"q": "Sepsisni keltirib chiqaruvchi omillar?"
+},
+{
+"cat": "2",
+"q": "Kindik kasalliklarining kelib chiqish sabablari?"
+},
+{
+"cat": "2",
+"q": "Vaboning asosiy yuqish yo'li:"
+},
+{
+"cat": "2",
+"q": "Vaboda infeksiya manbai?"
+},
+{
+"cat": "2",
+"q": "Infeksion gepatitlar ko'zg'atuvchisi?"
+},
+{
+"cat": "2",
+"q": "Qaysi gepatitlar gematogen yo'l orkali yukadi?"
+},
+{
+"cat": "2",
+"q": "Paragripning qo'zg'atuvchisi nima?"
+},
+{
+"cat": "2",
+"q": "Toshmali terlamada infeksiya manbai?"
+},
+{
+"cat": "1",
+"q": "Bemorga yo'naltirilgan parvarishni amalga oshiradigan hamshirada qanday hislatlar va sifatlar mavjud bo'lishi kerak?"
+},
+{
+"cat": "1",
+"q": "Hamshiralik ishiga F. Naytingeyl bergan ta'rifni ko'rsating:"
+},
+{
+"cat": "1",
+"q": "F. Naytingeyl fikricha hamshiralik ishida nimalar katta ahamiyatga ega?"
+},
+{
+"cat": "1",
+"q": "Tez shoshilinch tibbiy yordam ko'rsatish xizmat turi qaysi xizmat turiga kiradi?"
+},
+{
+"cat": "1",
+"q": "Yosh bolalarda temir yetishmasligining asosiy sabablari."
+},
+{
+"cat": "1",
+"q": "Shifoxonaning asosiy tarkibiy qismlariga nimalar kiradi?"
+},
+{
+"cat": "1",
+"q": "Tibbiy hujjatlar qanday hujjat hisoblanadi?"
+},
+{
+"cat": "1",
+"q": "Og'ir bemorlarni parvarish qilishda hamshiraning jismoniy zo'riqishiga duchor bo'lishida asosan qaysi sohani shikastlanishi kuzatilishi mumkin?"
+},
+{
+"cat": "1",
+"q": "Yotoq yaralarni birinchi darajasida qanday o'zgarishlar bo'ladi?"
+},
+{
+"cat": "1",
+"q": "Buyrak kasalliklarini qaysi taxlili orqali aniqlanadi?"
+},
+{
+"cat": "1",
+"q": "Perkussiya mohiyati nima?"
+},
+{
+"cat": "1",
+"q": "Nafas shovqinlari o'zining xususiyatlariga ko'ra nechi xil bo'ladi?"
+},
+{
+"cat": "1",
+"q": "Hamshiralik kasallik tarixi qanday hujjat hisoblanadi?"
+},
+{
+"cat": "1",
+"q": "Auskultatsiya nima?"
+},
+{
+"cat": "1",
+"q": "Dori vositalarini nafas yo'li orqali organizmga kiritilishi qanday nomlanadi"
+},
+{
+"cat": "1",
+"q": "Hamshiralik jarayonining 3-bosqichini maqsadi nimadan iborat?"
+},
+{
+"cat": "1",
+"q": "Infeksiya lotincha so'zdan olingan bo'lib, qanday ma'noni bildiradi?"
+},
+{
+"cat": "1",
+"q": "O'RVIga kiradigan kasalliklar."
+},
+{
+"cat": "1",
+"q": "Mexanik usulda tozalash qanday amalga oshiriladi?"
+},
+{
+"cat": "1",
+"q": "Zararsizlantiruvchi moddalar ko'zga tushganda qanday chora ko'riladi?"
+},
+{
+"cat": "1",
+"q": "Dorixonalarda tayyorlanadigan steril eritmalarni saqlanish muddati necha kun?"
+},
+{
+"cat": "1",
+"q": "Tozalovchi xo'qna o'tkazishga mo'neliklar?"
+},
+{
+"cat": "1",
+"q": "Bir desert qoshiqda qancha miqdorda dori modda bo'ladi?"
+},
+{
+"cat": "1",
+"q": "Meningitda asosiy tekshirish usuli qaysi?"
+},
+{
+"cat": "1",
+"q": "Bel –dumg'aza radikulitida hamshiralik parvarishi nimalarni o'z ichiga oladi?"
+},
+{
+"cat": "1",
+"q": "Retrograd amneziya nima?"
+},
+{
+"cat": "1",
+"q": "Anafilaktik shokda qanday yordam ko'rsatiladi?"
+},
+{
+"cat": "1",
+"q": "Bosh miya shikastlanishida hamshiralik parvarishi qanday o'tkaziladi?"
+},
+{
+"cat": "1",
+"q": "Halqum necha qismdan iborat"
+},
+{
+"cat": "1",
+"q": "Adenoid bu-"
+},
+{
+"cat": "1",
+"q": "Frontit- bu:"
+},
+{
+"cat": "1",
+"q": "O'tkir tumovni davolash:"
+},
+{
+"cat": "1",
+"q": "Burundan kuchli qon ketayotganda qaysi yordam qo'llanilmaydi?"
+},
+{
+"cat": "1",
+"q": "Nog'ora parda shikastlanganda 1-yordamni ko'rsating:"
+},
+{
+"cat": "1",
+"q": "O'tkir angina nima?"
+},
+{
+"cat": "1",
+"q": "Hiqildoq yallig'lanishiga nima deyiladi?"
+},
+{
+"cat": "1",
+"q": "Nafas yetishmaslik belgilar."
+},
+{
+"cat": "1",
+"q": "Adenoidlar o'sishi asosan qaysi yoshlarda uchraydi?"
+},
+{
+"cat": "1",
+"q": "Agglyutinatsiya reaksiyasi barcha zardoblarda kuzatilmasa qon nechanchi guruhga mansub:"
+},
+{
+"cat": "1",
+"q": "Agglyutinatsiya reaksiyasi 1.2.3 gurux zardoblarda kuzatilsa qon nechanchi guruhga mansub:"
+},
+{
+"cat": "1",
+"q": "Agglyutinatsiya reaksiyasi 1 va 3 zardoblarda kuzatilsa qon nechanchi guruhga mansub:"
+},
+{
+"cat": "1",
+"q": "Agglyutinatsiya reaksiyasi 1 va 2 zardoblarda kuzatilsa qon nechanchi guruhga mansub:"
+},
+{
+"cat": "1",
+"q": "O'tkir laktatsion yiringli mastit ko'pincha kimlarda bo'ladi:"
+},
+{
+"cat": "1",
+"q": "Mastit infiltrativ bosqichida qanday davo kilinadi:"
+},
+{
+"cat": "1",
+"q": "Vena devorini yallig'lanishi bu:"
+},
+{
+"cat": "1",
+"q": "Asboblar quruq bug'li sterilizatorda necha darajada sterillanadi:"
+},
+{
+"cat": "1",
+"q": "Antiseptika - bu:"
+},
+{
+"cat": "1",
+"q": "Antiseptika turlari:"
+},
+{
+"cat": "1",
+"q": "Quruq issik shkaflarda quyidagi sterilizatsiya rejimi qỹllaniladi:"
+},
+{
+"cat": "1",
+"q": "Oksidlovchilarga kiradi:"
+},
+{
+"cat": "1",
+"q": "Aseptika – bu:"
+},
+{
+"cat": "1",
+"q": "Pnevmotoraks turlari:"
+},
+{
+"cat": "1",
+"q": "Panaritsiy ko'proq uchraydi:"
+},
+{
+"cat": "1",
+"q": "Birlamchi jarroxlik ishlov berilgan jaroxat qanday tugatiladi:"
+},
+{
+"cat": "1",
+"q": "Bemor kuygan sohalari bog'lanmasdan maxsus karkas karavotlarida yotqiziladi, yorug'lik jarohatni qurishiga sharoit yaratadi. Bu davolanishning qaysi usuliga kiradi?"
+},
+{
+"cat": "1",
+"q": "Yiringli yarani davolashda qanday antiseptik usuldan foydalanamiz?"
+},
+{
+"cat": "1",
+"q": "Yiringli yarani qaysi antiseptik modda bilan yuvish yaxshi?"
+},
+{
+"cat": "1",
+"q": "Jarohat maydoniga necha foizli yod bilan ishlov berish kerak?"
+},
+{
+"cat": "1",
+"q": "Qanday predmet bilan urilganda lat yeyish mumkin?"
+},
+{
+"cat": "1",
+"q": "T-simon bog'lam qaerga qo'yiladi?"
+},
+{
+"cat": "1",
+"q": "Buyrak atrofidagi yog' kletkalarining yallig'lanishi nima deb ataladi?"
+},
+{
+"cat": "1",
+"q": "Sistit deb nimaga aytiladi?"
+},
+{
+"cat": "1",
+"q": "Bir kunda siydikning me'yoridan ortiq ajralishi -------"
+},
+{
+"cat": "1",
+"q": "Qinning qaysi tozalik darajasi me'yor deb hisoblanadi?"
+},
+{
+"cat": "1",
+"q": "Normal hayz ko'rish davomligi:"
+},
+{
+"cat": "1",
+"q": "Ovulyatsiya nima?"
+},
+{
+"cat": "1",
+"q": "Gonoreya (so'zak) kasalligining asosiy yuqish yo'llari:"
+},
+{
+"cat": "1",
+"q": "Amenoreya – bu:"
+},
+{
+"cat": "1",
+"q": "Tug'ruqxonasining qabul bo'limi qanday xonalardan tashkil topgan?"
+},
+{
+"cat": "1",
+"q": "Sog'lom chaqaloq bola uchun xos belgilar:"
+},
+{
+"cat": "1",
+"q": "Birlamchi amenoreya deb –:"
+},
+{
+"cat": "1",
+"q": "Nafas yo'llari yuqumli kasalliklarini aniqlang?"
+},
+{
+"cat": "1",
+"q": "Normal homiladorlikda siydik taxlil qilinadi:"
+},
+{
+"cat": "1",
+"q": "Tug'ruqning nechta davri bor?"
+},
+{
+"cat": "1",
+"q": "Abort deb nimaga aytiladi?"
+},
+{
+"cat": "1",
+"q": "Subfebril xarorat necha gradusni ko'rsatadi?"
+},
+{
+"cat": "1",
+"q": "Maxallada sanitariya oqartuv ishlari usullariga kirmaydi"
+},
+{
+"cat": "1",
+"q": "Odatda axlatni tekshirishga kunning qaysi vaqtida olinadi?"
+},
+{
+"cat": "1",
+"q": "Antropometrik tekshiruvlarni kunning qaysi vaqtida o'tkaziladi?"
+},
+{
+"cat": "1",
+"q": "Antibiotiklar qanday suyuqliklar bilan eritiladi?"
+},
+{
+"cat": "1",
+"q": "Isitma deb nimaga aytiladi?"
+},
+{
+"cat": "1",
+"q": "Zararli odatlarga nimalar kirmaydi?"
+},
+{
+"cat": "1",
+"q": "Inkubatsion davr-bu?"
+},
+{
+"cat": "1",
+"q": "Tibbiy evakuatsiya-bu?"
+},
+{
+"cat": "1",
+"q": "Oksigenoterapiya nima?"
+},
+{
+"cat": "1",
+"q": "Epidemiya nima?"
+},
+{
+"cat": "1",
+"q": "Immobilizatsiya nima?"
+},
+{
+"cat": "1",
+"q": "Bemorlarni zond orqali ovqtalantirish bu qanday ovqatlantrish turiga kiradi?"
+},
+{
+"cat": "1",
+"q": "Venaga in'eksiya qilishda uchraydigan asoratlar."
+},
+{
+"cat": "1",
+"q": "Ayolning muntazam spirtli ichimliklar iste'mol qilish natijasida qanday holat kelib chiqadi?"
+},
+{
+"cat": "1",
+"q": "Bolalarni jismoniy rivojlanganligini aniqlashda qanday usuldan foydalaniladi?"
+},
+{
+"cat": "1",
+"q": "Maktab yoshidagi bolalarni bir yilda nechi marta tibbiy ko'rikdan o'tkaziladi?"
+},
+{
+"cat": "1",
+"q": "Bolalarda antrapometrik ko'rsatkichlarga nimalar kiradi?"
+},
+{
+"cat": "1",
+"q": "Uch yasharli bolada puls urish tezligi bir daqiqada necha marta uradi?"
+},
+{
+"cat": "1",
+"q": "Bolani necha yoshidan boshlab sut tishlari tushib, o'rniga doimiy tishlar chiqa boshlaydi?"
+},
+{
+"cat": "1",
+"q": "To'rt-besh yoshli bolada nafas olish soni minutiga necha martagacha bo'ladi?"
+},
+{
+"cat": "1",
+"q": "Uch-to'rt yashar bolalar necha soat davomida uxlashlari kerak?"
+},
+{
+"cat": "1",
+"q": "Maktab yoshidagi bolalar bir kunda nechi marta ovqatlanishi kerak?"
+},
+{
+"cat": "1",
+"q": "Davolash-profilaktika muassasalarida tibbiy xodimlarni tibbiy ko'rikdan o'tkazishdan maqsad nima?"
+},
+{
+"cat": "1",
+"q": "Deontologiya tushunchasi qanday ma'noni bildiradi?"
+},
+{
+"cat": "1",
+"q": "“Etika” so'zi qanday ma'noni bildiradi?"
+},
+{
+"cat": "1",
+"q": "Dizenteriyaning yuqish yullari:"
+},
+{
+"cat": "1",
+"q": "Dizenteriya uchun xos belgilar:"
+},
+{
+"cat": "1",
+"q": "Bokslardan nima maqsadda foydalaniladi?"
+},
+{
+"cat": "1",
+"q": "Gipertermiya nima?"
+},
+{
+"cat": "1",
+"q": "Serologik usul bilan tekshirganda nima aniqlanadi?"
+},
+{
+"cat": "1",
+"q": "Gelmintozlar bu kanday kasalliklar?"
+},
+{
+"cat": "1",
+"q": "Vabo qo'zg'atuvchisiga xarakteristika bering?"
+},
+{
+"cat": "1",
+"q": "Vaboning epidemik o'chog'i?"
+},
+{
+"cat": "1",
+"q": "Vaboning inkubatsion davri?"
+},
+{
+"cat": "1",
+"q": "Vaboda najas ko'rinishi?"
+},
+{
+"cat": "1",
+"q": "Virusli gepatitda qanday parxez buyuriladi?"
+},
+{
+"cat": "1",
+"q": "Virusli gepatit V da qonda nima aniqlanadi?"
+},
+{
+"cat": "1",
+"q": "Qaysi gepatitlar kontakt yo'l orqali yuqadi?"
+},
+{
+"cat": "1",
+"q": "Gepatit A ning inkubatsion davri?"
+},
+{
+"cat": "1",
+"q": "Grippning inkubatsion davri qancha?"
+},
+{
+"cat": "1",
+"q": "O'latda asosiy infeksiya manbai?"
+},
+{
+"cat": "1",
+"q": "OITS qo'zg'atuvchisi nima?"
+},
+{
+"cat": "1",
+"q": "Bir marota ishlatishga mo'ljallangan tibbiy asbob-anjomlar ishlatilgandan keyin nima qilinadi?"
+},
+{
+"cat": "1",
+"q": "Qarish nima?"
+},
+{
+"cat": "1",
+"q": "Miokard infarkti bilan kasallangan bemor parvarishini kim olib boradi?"
+},
+{
+"cat": "1",
+"q": "OIV-OITS kasalligini kuprok kimlar tarqatadi?"
+},
+{
+"cat": "1",
+"q": "Namlangan kislorod berish qaysi tizim kasalliklarida ko'proq qo'llaniladi?"
+},
+{
+"cat": "1",
+"q": "Sog'lom bolalarda sut tishlari qachon chiqadi?"
+},
+{
+"cat": "1",
+"q": "Surunkali bronxitda nafas etishmovchiligini aniqlashda nimaga e'tibor beriladi?"
+},
+{
+"cat": "1",
+"q": "Bronxit kasalligining simptomlari?"
+},
+{
+"cat": "1",
+"q": "A va B ro'yxatiga kiruvchi dori vositalari qaerda saqlanadi?"
+},
+{
+"cat": "1",
+"q": "Qabziyatda keksalarga qanday muolajalar qo'llaniladi?"
+},
+{
+"cat": "1",
+"q": "Surunkali gepatitning klinik belgilari?"
+},
+{
+"cat": "1",
+"q": "Buyrakning lotincha nomi?"
+},
+{
+"cat": "1",
+"q": "Buyrak kasalligining qaysi birida siydikda oqsil, eritrositlar topiladi?"
+},
+{
+"cat": "1",
+"q": "Buyrak- tosh kasalligida qaysi tekshirish metodlari diagnostika uchun ko'proq ishlatiladi?"
+},
+{
+"cat": "1",
+"q": "Buyrak jomlarining yallig'lanishi?"
+},
+{
+"cat": "1",
+"q": "Siydik ajratish a'zolariga kiradi?"
+},
+{
+"cat": "1",
+"q": "”Buyrak sanchig'i”da bemorga qilinmaydi?"
+},
+{
+"cat": "1",
+"q": "9-parxez stoli qaysi kasalliklarda beriladi?"
+},
+{
+"cat": "1",
+"q": "Katarakta nima?"
+},
+{
+"cat": "1",
+"q": "Ko'zning ko'rish o'tkirligi normada nechaga teng?"
+},
+{
+"cat": "1",
+"q": "Teri qanday vazifani bajaradi?"
+},
+{
+"cat": "1",
+"q": "Allergik sinama «tomchi usulda» bemorga sinama qanday qo'yiladi?"
+},
+{
+"cat": "1",
+"q": "OIVni yuqish yo'llarini belgilang:"
+},
+{
+"cat": "1",
+"q": "Tabiiy ovqatlantirish deb nimaga aytiladi?"
+},
+{
+"cat": "1",
+"q": "“Bolalarda xamshiralik parvarishi” fanida muloqot qilish deganda nimani tushunasiz?"
+},
+{
+"cat": "1",
+"q": "1-2 yoshli bolalarda 1 minutdagi nafas soni nechaga teng?"
+},
+{
+"cat": "1",
+"q": "Bola qachon tayanchsiz o'tira oladi?"
+},
+{
+"cat": "1",
+"q": "Bolalarda o'pkaning xayotiy sig'imi qaysi asbob yordamida o'lchanadi?"
+},
+{
+"cat": "1",
+"q": "Bolani sun'iy ovqatlantirishga o'tkazish sabablari?"
+},
+{
+"cat": "1",
+"q": "O'latning xarakterli simptomi?"
+},
+{
+"cat": "oliy",
+"q": "Shifokor ko'rsatmalari bemorga to'g'ri kelmasa, hamshira shifokor bilan maslahatlashishi kerakmi?"
+},
+{
+"cat": "oliy",
+"q": "Agar kimdir bemorning qizikishlariga zarar yetkazishga harakat qilsa, hamshira esa o'z bilimlariga asoslangan holda, kat'iyan bemorning kiziqishlarini himoya qilsa, parvarish kimga yo'naltirilgan bo'ladi?"
+},
+{
+"cat": "oliy",
+"q": "Tarixda tibbiyot rivojlanmasdan oldin bemorlarni kimlar davolagan?"
+},
+{
+"cat": "oliy",
+"q": "O'zbekistonda birinchi bo'lib F. Naytingeyl medaliga sazovor bo'lgan hamshira kim?"
+},
+{
+"cat": "oliy",
+"q": "Nosalomatlik asosida nima yotadi?"
+},
+{
+"cat": "oliy",
+"q": "Nosalomatlik - bu nima?"
+},
+{
+"cat": "oliy",
+"q": "JSST bo'yicha «salomatlik» tushunchasini ko'rsating?"
+},
+{
+"cat": "oliy",
+"q": "Salomatlik bilan bog'lik muhim qonsepsiyalarni ko'rsating."
+},
+{
+"cat": "oliy",
+"q": "Salomatlikka tibbiyot tarafdan ta'rif bering."
+},
+{
+"cat": "oliy",
+"q": "O'n ikki barmoq ichak yarasida og'riq qachon bo'ladi?"
+},
+{
+"cat": "oliy",
+"q": "Bemorlarni sub'ektiv tekshiruvlariga nimalar kiradi?"
+},
+{
+"cat": "oliy",
+"q": "Tovush xususiyatlariga qarab tekshirilayotgan organ holati, organ chegaralari aniqlash metodi nima deb aytiladi?"
+},
+{
+"cat": "oliy",
+"q": "Bemorni ob'ektiv tekshiruvlariga nimalar kiradi?"
+},
+{
+"cat": "oliy",
+"q": "Bemorlarning qanday holatlari mavjud?"
+},
+{
+"cat": "oliy",
+"q": "O'pkadagi gazlar miqdorini hisoblash qanday asbob yordamida amalga oshiriladi?"
+},
+{
+"cat": "oliy",
+"q": "Ichak yuqumli kasalliklariga qanday kasalliklar kiradi?"
+},
+{
+"cat": "oliy",
+"q": "Parenteral ovqatlanish nima?"
+},
+{
+"cat": "oliy",
+"q": "To'lib ketgan qovuqni bo'shatib bo'lmaslik va siydik yo'liga tosh qisilib qolishi nima deyiladi?"
+},
+{
+"cat": "oliy",
+"q": "Yatrogeniya nima?"
+},
+{
+"cat": "oliy",
+"q": "Ipoxondrik sindrom deganda nimani tushunasiz?"
+},
+{
+"cat": "oliy",
+"q": "Lavozimni suiste'mol qilish qaysi javobda to'g'ri keltirilgan?"
+},
+{
+"cat": "oliy",
+"q": "Ma'muriy xatolar deganda nimani tushunasiz?"
+},
+{
+"cat": "oliy",
+"q": "Intizom xatolari deb nimaga aytiladi?"
+},
+{
+"cat": "oliy",
+"q": "Ehtiyoj-nima?"
+},
+{
+"cat": "oliy",
+"q": "Markaziy asab tizimiga qaysilar kiradi?"
+},
+{
+"cat": "oliy",
+"q": "Nerv tizimining struktura birligi qanday nomlanadi?"
+},
+{
+"cat": "oliy",
+"q": "Orqa miya shartli ravishda necha qismga bo'linadi?"
+},
+{
+"cat": "oliy",
+"q": "Ishemik insultning kelib chiqish sababi qaysi?"
+},
+{
+"cat": "oliy",
+"q": "Meningit nima?"
+},
+{
+"cat": "oliy",
+"q": "Bosh miya o'smalarida operatsiyadan so'ng hamshiralik parvarishi xususiyatlari qanday?"
+},
+{
+"cat": "oliy",
+"q": "Bosh miya lat yeganda miyaning qaysi qismi shikastlanadi?"
+},
+{
+"cat": "oliy",
+"q": "Miya jaroxatlaridagi ruxiy o'zgarishlar qaysilar?"
+},
+{
+"cat": "oliy",
+"q": "Chaqaloqlar asab tizimi kasalliklarini chiqaruvchi sabablar qaysilar?"
+},
+{
+"cat": "oliy",
+"q": "Vegetativ asab tizimi qanday tizimlarga bo'linadi?"
+},
+{
+"cat": "oliy",
+"q": "Markaziy falajlanishga xos belgilar qaysilar?"
+},
+{
+"cat": "oliy",
+"q": "Parkinsonizmga xos bo'lgan belgilar qaysilar?"
+},
+{
+"cat": "oliy",
+"q": "Uchlamchi nerv nevralgiyasiga xos bo'lgan belgilar kaysilar?"
+},
+{
+"cat": "oliy",
+"q": "Meningial belgilarga qaysilar kiradi?"
+},
+{
+"cat": "oliy",
+"q": "Haqiqiy narsani buzib, noto'g'ri idrok etish nima deb ataladi?"
+},
+{
+"cat": "oliy",
+"q": "Bilish faoliyati nechta elementdan tashkil topgan?"
+},
+{
+"cat": "oliy",
+"q": "Bosh miyaning ensa qismida qanday markazlar joylashgan?"
+},
+{
+"cat": "oliy",
+"q": "Miyacha faoliyatini qanday tekshiriladi?"
+},
+{
+"cat": "oliy",
+"q": "Periferik asab tizimi kasalliklaridan eng ko'p uchraydigani qaysi?"
+},
+{
+"cat": "oliy",
+"q": "O'tkir otitlarni davolashda qaysi davolash usuli qo'llanilmaydi?"
+},
+{
+"cat": "oliy",
+"q": "Koxlear nevrit siptomi bo'la olmaydi:"
+},
+{
+"cat": "oliy",
+"q": "Kataral otitlarda asosiy simpton bo'la olmaydi:"
+},
+{
+"cat": "oliy",
+"q": "Tonzillektomiyadan keyin bemorlar qachon ovqatlantiriladi?"
+},
+{
+"cat": "oliy",
+"q": "Surunkali tonzillitning oddiy formasida davolash qaysi usulda olib boriladi?"
+},
+{
+"cat": "oliy",
+"q": "Vazomotor rinitlarning asosiy simptomlarini ayting?"
+},
+{
+"cat": "oliy",
+"q": "Burun bo'shlig'i orqadan 2 ta xoanalar bilan qaerga ochiladi?"
+},
+{
+"cat": "oliy",
+"q": "Hiqildoq o'tkir stenozining klinik kechishini necha bosqichga bo'lish mumkin?"
+},
+{
+"cat": "oliy",
+"q": "Anginaning asoratlari:"
+},
+{
+"cat": "oliy",
+"q": "Adenoidni olib tashlash operatsiyasidan keyin bemor qachon ovqatlantiriladi?"
+},
+{
+"cat": "oliy",
+"q": "Hamshiralik ishi- bemorni qurshab turgan muhitni, uning sog'ayishi yo'lida qo'llash uchun yo'naltirilgan...?"
+},
+{
+"cat": "oliy",
+"q": "Qon guruxini aniqlash uchun necha seriya zardoblar kerak:"
+},
+{
+"cat": "oliy",
+"q": "Gemodinamik preparatlarga kiradi"
+},
+{
+"cat": "oliy",
+"q": "O'tkir anemiyada quyish tavsiya etiladi:"
+},
+{
+"cat": "oliy",
+"q": "To'qimalardagi chegaralangan yiringli yallig'lanish"
+},
+{
+"cat": "oliy",
+"q": "Qorin pardasini parietal va visseral varaklarini maxalliy belgilari va"
+},
+{
+"cat": "oliy",
+"q": "intoksikatsiya bilan boruvchi yallig'lanishi bu:"
+},
+{
+"cat": "oliy",
+"q": "Ma'lum vaqtli gemostaz amalga oshiriladi"
+},
+{
+"cat": "oliy",
+"q": "Umumiy uyqu arteriyasining jarohatida mutloq qon tỹxtatish metodi"
+},
+{
+"cat": "oliy",
+"q": "Qanday jaroxat tezrok bitadi:"
+},
+{
+"cat": "oliy",
+"q": "Kesilgan jaroxatga xos xususiyatlar"
+},
+{
+"cat": "oliy",
+"q": "Trofik yara sabablarini ko'rsating:"
+},
+{
+"cat": "oliy",
+"q": "Og'iz shillik qavatini og'riqsizlantirish uchush qaysi preparat qo'llaniladi:"
+},
+{
+"cat": "oliy",
+"q": "Kuyish necha darajada bo'ladi?"
+},
+{
+"cat": "oliy",
+"q": "Kaftlab o'lchash- odamning kaft teri yuzasining taxminan necha % ni tashkil qiladi?"
+},
+{
+"cat": "oliy",
+"q": "Og'riqsizlantirish necha xil bo'ladi?"
+},
+{
+"cat": "oliy",
+"q": "Sovutib anesteziya qilishda qaysi modda qo'llaniladi?"
+},
+{
+"cat": "oliy",
+"q": "Anaerob infeksion qo'zg'atuvchilar keltirib chiqaruvchi kasalliklar guruhi qatorini ko'rsating?"
+},
+{
+"cat": "oliy",
+"q": "Yiringli yarani davolashda qanday antiseptik usuldan foydalanamiz?"
+},
+{
+"cat": "oliy",
+"q": "Arterial qon ketishi qanday bo'ladi?"
+},
+{
+"cat": "oliy",
+"q": "Qon ketishi turining qaysinisida emboliya rivojlanishi mumkin?"
+},
+{
+"cat": "oliy",
+"q": "Limfa yoki qon tomirlar sistemasi orqali boshqa organlar va to'qimalarga o'smalarning o'tishiga nima deyiladi?"
+},
+{
+"cat": "oliy",
+"q": "Promedikatsiya holatida qanday dorilar guruhi qo'llaniladi?"
+},
+{
+"cat": "oliy",
+"q": "Jigar hujayralarining yallig'lanishi va yemirilishiga nima deyiladi?"
+},
+{
+"cat": "oliy",
+"q": "Birinchi tug'uvchi homilador ayol homiladorlikning qaysi xaftasida homilaning qimirlashini sezadi?"
+},
+{
+"cat": "oliy",
+"q": "Bachadon devori nechta qavatdan iborat?"
+},
+{
+"cat": "oliy",
+"q": "Homiladorlik paytida ayolda qonli ajralmalar paydo bo'ldi. Nima qilish kerak?"
+},
+{
+"cat": "oliy",
+"q": "Kesar – kesish operatsiyasidan keyin ayollarda necha yilgacha homiladorlikdan saqlanish tavsiya etiladi?"
+},
+{
+"cat": "oliy",
+"q": "29 kunlik hayz siklida ovulyatsiya qaysi kuni sodir bo'ladi?"
+},
+{
+"cat": "oliy",
+"q": "Homiladorlik paytida tuxumdonda asosan qaysi jinsiy gormon ishlab chiqariladi?"
+},
+{
+"cat": "oliy",
+"q": "Homiladorlikning birinchi trimestrida (uch oy muddat ichida) qon ketishning asosiy sababi:"
+},
+{
+"cat": "oliy",
+"q": "Bachadondan tashqaridagi homiladorlikni davolashda:"
+},
+{
+"cat": "oliy",
+"q": "Homilani yurak urishini eshitish uchun qaysi asbobdan foydalaniladi?"
+},
+{
+"cat": "oliy",
+"q": "28 kunlik xayz siklida ovulyatsiya qaysi kuni sodir bo'ladi?"
+},
+{
+"cat": "oliy",
+"q": "Quyidagilarning qaysi biri shaxslararo muloqotga eng to'g'ri ta'rif bo'ladi"
+},
+{
+"cat": "oliy",
+"q": "Homiladorlik anemiyasi kasalligida qaysi asosiy belgilar xarakterlidir?"
+},
+{
+"cat": "oliy",
+"q": "Sog'lom turmush tarzini targ'ib etish tushunchasi bu-"
+},
+{
+"cat": "oliy",
+"q": "Sog'lom turmush tarzini targ'ib etish tushunchasiga ta'rif qachon va qaerda berilgan?"
+},
+{
+"cat": "oliy",
+"q": "Virusli kasalliklarni belgilang?"
+},
+{
+"cat": "oliy",
+"q": "Valiologiya nima?"
+},
+{
+"cat": "oliy",
+"q": "Sog'lom oilani shakllantirish?"
+},
+{
+"cat": "oliy",
+"q": "Nukler oila nima?"
+},
+{
+"cat": "oliy",
+"q": "Bolalarni jismoniy rivojlanishini aniqlashda qanday usuldan foydalaniladi?"
+},
+{
+"cat": "oliy",
+"q": "Gipodinamiya bu-?"
+},
+{
+"cat": "oliy",
+"q": "Kasallikni qisqa muddatda juda keng miqyosda tarqalib ketishi nima deyiladi?"
+},
+{
+"cat": "oliy",
+"q": "Protivogazlar yuzni qaysi soxasini radiaktiv zararlanishdan himoya qiladi?"
+},
+{
+"cat": "oliy",
+"q": "Jamoada mexnatni nechta turi mavjud?"
+},
+{
+"cat": "oliy",
+"q": "Kontrasepsiya- nima?"
+},
+{
+"cat": "oliy",
+"q": "Bepushtlik-bu ….?"
+},
+{
+"cat": "oliy",
+"q": "Bachadon ichi vositasi hayzni nechinchi kuni qo'yiladi?"
+},
+{
+"cat": "oliy",
+"q": "Homiladorlikni taxminiy belgilariga?"
+},
+{
+"cat": "oliy",
+"q": "Nikotin moddasi ayol organizmiga qanday ta'sir ko'rsatadi?"
+},
+{
+"cat": "oliy",
+"q": "Chekuvchi ayolning bachadon-yo'ldoshida qon aylanishini buzilishi natijasida homilaga qanday moddalar kirishi qiyinlashadi?"
+},
+{
+"cat": "oliy",
+"q": "Tug'ish yoshidagi ayollarda ekstragenital kasalliklar to'g'risida ma'lumot beruvchi asosiy hujjat nima deb nomlanadi?"
+},
+{
+"cat": "oliy",
+"q": "Chang teriga tushib qanday kasalliklarni keltirib chiqaradi?"
+},
+{
+"cat": "oliy",
+"q": "Turli xil ruhiy iztiroblarga barham berish, organizmni tetiklashtirish maqsadida qanday usul qo'llaniladi?"
+},
+{
+"cat": "oliy",
+"q": "“Ruh” bilan “tana” ning uzviy bog'liqligi kim tomonidan isbotlangan?"
+},
+{
+"cat": "oliy",
+"q": "Noverbal muloqot bu-?"
+},
+{
+"cat": "oliy",
+"q": "“Xospis” so'zining ma'nosi?"
+},
+{
+"cat": "oliy",
+"q": "“Palliativ” so'zini lotincha ma'nosi?"
+},
+{
+"cat": "oliy",
+"q": "Tibbiyot hodimlarining xatti-xarakatlari va munosabatlaridagi nuqsonlar natijasida kelib chiqadigan bemorlardagi xolat nima deyiladi?"
+},
+{
+"cat": "oliy",
+"q": "Verbal muloqot deb nimaga aytiladi?"
+},
+{
+"cat": "oliy",
+"q": "Immunizatsiya o'tkazish davomida ishlatilgan shprislarni nima qilish zarur?"
+},
+{
+"cat": "oliy",
+"q": "Yuqumli kasalliklarda infeksiya manbai nima bo'lishi mumkin?"
+},
+{
+"cat": "oliy",
+"q": "Sepsis diagnozi nimaga moslanib qo'yiladi?"
+},
+{
+"cat": "oliy",
+"q": "Gelmintlar qaysi organlarda parazitlik qilishi mumkin?"
+},
+{
+"cat": "oliy",
+"q": "Ostritsalar qaerga tuxum qo'yadi?"
+},
+{
+"cat": "oliy",
+"q": "Vabo klinikasi uchun ko'proq qanday belgilar xos?"
+},
+{
+"cat": "oliy",
+"q": "Brusellyoz kasalligi kanday yo'l bilan yuqmaydi?"
+},
+{
+"cat": "oliy",
+"q": "Adenovirusli infeksiyada uchramaydigan klinik belgi?"
+},
+{
+"cat": "oliy",
+"q": "Gemorragik isitmalar kanday yo'l bilan yuqadi?"
+},
+{
+"cat": "oliy",
+"q": "Kuydirgining asoratlari?"
+},
+{
+"cat": "oliy",
+"q": "Qutirishni oldini olishda qanday profilaktik tadbir o'tkaziladi?"
+},
+{
+"cat": "oliy",
+"q": "OITS ning inkubatsion davri qancha?"
+},
+{
+"cat": "oliy",
+"q": "“Gerontologiyaga ”to'g'ri ta'rif bering"
+},
+{
+"cat": "oliy",
+"q": "Gerogigiena nimani o'rganadi?"
+},
+{
+"cat": "oliy",
+"q": "Fiziologik qarish nima?"
+},
+{
+"cat": "oliy",
+"q": "Qarilik shartli ravishda necha yoshdan boshlanadi?"
+},
+{
+"cat": "oliy",
+"q": "Qariyalarda ko'z kasalliklaridan qaysi biri ko'proq kuzatiladi?"
+},
+{
+"cat": "oliy",
+"q": "Regenerasiya- nima?"
+},
+{
+"cat": "oliy",
+"q": "Qariyalarda gipertoniya kasalligini aniqlash uchun qaysi tekshirish ko'proq ma'lumot beradi?"
+},
+{
+"cat": "oliy",
+"q": "Qariyalarda yurak qon-tomir sistemasi kasalliklarini tekshirish usullariga kiradi?"
+},
+{
+"cat": "oliy",
+"q": "Ateroskleroz kasalligida qonda … ko'payadi?"
+},
+{
+"cat": "oliy",
+"q": "Ateroskleroz kasalligida qon tomirlar devori bo'ylab to'planadi?"
+},
+{
+"cat": "oliy",
+"q": "Bronxial astmaning etiologiyasida ahamiyatga ega?"
+},
+{
+"cat": "oliy",
+"q": "Qariyalarda kuzatiladigan xazm a'zolari kasalliklariga kiradi?"
+},
+{
+"cat": "oliy",
+"q": "Xazm a'zolarining qaysi kasalliklarida o't xaydovchi vositalar tavsiya etilmaydi?"
+},
+{
+"cat": "oliy",
+"q": "O'tkir gastritda quyidagi yordamdan qaysi biri qo'llanilmaydi?"
+},
+{
+"cat": "oliy",
+"q": "Me'dadan qon ketishining asosiy belgisi?"
+},
+{
+"cat": "oliy",
+"q": "Qariyalarda yara kasalligida qo'llanilmaydigan dori modda?"
+},
+{
+"cat": "oliy",
+"q": "Xazm azolarining qaysi kasalliklarida o't xaydovchi vositalar tavsiya etilmaydi?"
+},
+{
+"cat": "oliy",
+"q": "Gastroduodenoskopiyaga monelik qiladigan kasallikni aniqlang?"
+},
+{
+"cat": "oliy",
+"q": "Bemorda qonli siyish qaysi tizim kasalliklarida kuzatiladi?"
+},
+{
+"cat": "oliy",
+"q": "Buyrakda “konkrement “deganda nimani tushunasiz?"
+},
+{
+"cat": "oliy",
+"q": "Diffuz toksik buqoqning klinik belgilarini toping"
+},
+{
+"cat": "oliy",
+"q": "Blefarit – bu:"
+},
+{
+"cat": "oliy",
+"q": "Eng og'ir blefarit"
+},
+{
+"cat": "oliy",
+"q": "Bolalarda miningit kasalligi bu?"
+},
+{
+"cat": "oliy",
+"q": "Bolalardagi endokrin kasalliklarni davolovchi mutaxassis?"
+},
+{
+"cat": "oliy",
+"q": "Bolalarda talvasada tez yordam ko'rsatish:"
+},
+{
+"cat": "oliy",
+"q": "Bolalarning nafas yo'llariga yot jism tushgandagi klinik belgilar?"
+},
+{
+"cat": "oliy",
+"q": "Oral regidratatsiya qaysi kasalliklarda o'tkaziladi?"
+},
+{
+"cat": "oliy",
+"q": "Psixologiya so'zining ma'nosi?"
+},
+{
+"cat": "oliy",
+"q": "O'pkadan qon ketishning asosiy belgisi?"
+},
+{
+"cat": "oliy",
+"q": "Yurak mushaklarining bo'shashish bosqichiga aytiladi?"
+},
+{
+"cat": "oliy",
+"q": "Ateroskleroz kasalligida qonda qanday o'zgarishlar kuzatiladi?"
+}
+],
+"142": [
+{
+"cat": "2",
+"q": "Bolalarda infektsiya bilan bog'liq yoki surunkali infektsiya o'chog'ida isitma kuzatilganda patronaj hamshirasi nimalarga rioya qilish kerak."
+},
+{
+"cat": "2",
+"q": "Antenatal davrdagi homilador ayol patronaji vaqtida patronaj hamshiralari nimalarni aniqlashi lozim."
+},
+{
+"cat": "2",
+"q": "Bolaga ko'krak sutiga qo'shimcha mahsulotlar va qo'shimcha qanday ovqatlar berish tartibini sanang."
+},
+{
+"cat": "2",
+"q": "Bolani emizishning samarali darajada va to'laqonli o'rnatilgan emizish qoidalarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Yuqori samarali bolalarni emizishning afzalliklarini ko'rsatib o'ting."
+},
+{
+"cat": "2",
+"q": "Bolalar yiliga bir marta dispanserizatsiya qilinadi va bunda hamshira tomonidan qanday ishlar amalga oshiriladi."
+},
+{
+"cat": "2",
+"q": "Dezinsektsiya orqali qanday bo'g'imoyolilar va hasharotlar yo'q qilinadi."
+},
+{
+"cat": "2",
+"q": "JSSTning sog'lom oilani shakllantirishning asosiy tamoyillarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Go'dakni parvarishlashda ishlatiladigan yo'rgak komplektlarida nimalar bo'lishi kerak."
+},
+{
+"cat": "2",
+"q": "Bizning mamlakatimizda VICh infektsiyasiga kimlar tekshiriladi."
+},
+{
+"cat": "2",
+"q": "VICh infektsiyasini profilaktikasini sanang."
+},
+{
+"cat": "2",
+"q": "VICh yuqtirgan bemorning klinik belgilarini sanang."
+},
+{
+"cat": "2",
+"q": "Chekish tufayli kelib chiqadigan asosiy kasalliklarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Gormonal kontratseptsiya qo'llashdagi nisbiy mone'likka nimalar kiradi."
+},
+{
+"cat": "2",
+"q": "Qon tupurish hollarida ko'krak qafasi a'zolari qanday tekshiruvlardan o'tkazilishi kerak."
+},
+{
+"cat": "2",
+"q": "Haroratning maksimal ko'tarilishi nimalar bilan ifodalanadi."
+},
+{
+"cat": "2",
+"q": "Isitmaning doimiyligi bo'yicha qanday turlari mavjud."
+},
+{
+"cat": "2",
+"q": "Isitmaning ko'rinishlariga qarab nechta turga bo'linadi."
+},
+{
+"cat": "2",
+"q": "Qiz bolalarni 3 yoshgacha bo'lgan davrlari haqida ma'lumot bering."
+},
+{
+"cat": "2",
+"q": "O'smir yoshdagi qizlarda uchraydigan jinsiy a'zolarni kasalliklari haqida ma'lumot bering."
+},
+{
+"cat": "2",
+"q": "Yuvenil qon ketishda birinchi yordam nimadan iborat."
+},
+{
+"cat": "2",
+"q": "Hayz vaqtida qizlarga qanday tavsiyalar beriladi."
+},
+{
+"cat": "2",
+"q": "O'smirlarning ovqatlanish tartibi haqidagi qoidalarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Jinsiy tarbiya haqidagi ma'lumot o'smirga hayotda nimalarga yordam beradi."
+},
+{
+"cat": "2",
+"q": "O'smirlarda ko'p uchraydigan ichki kasalliklarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Jinsiy tarbiya nima."
+},
+{
+"cat": "2",
+"q": "Oilada o'smirlarning o'sishida rioya q/ilishda nimalarga e'tibor berish lozim."
+},
+{
+"cat": "2",
+"q": "O'g'il bolalarda jismoniy yetuklik belgilarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Qiz bolalarda tashki jinsiy balogatga yetish belgilari nimalar kiradi."
+},
+{
+"cat": "2",
+"q": "O'smirlar bilishi lozim bo'lgan reproduktiv salomatlik masalalari qaysilar."
+},
+{
+"cat": "2",
+"q": "Patronaj hamshirasining so'zlashish madaniyatining o'ziga xos tomonlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Geriatrik bemorlardan anamnez to'plashda hamshiradan nimalar talab qilinadi."
+},
+{
+"cat": "2",
+"q": "Reproduktiv yoshdagi ayollarga xizmat kursatayotgan patronaj hamshiralarning asosiy faoliyat printsiplariga nimalar kiradi."
+},
+{
+"cat": "2",
+"q": "Bolalarda uchraydigan funktsional qayt qilishning oldini olish va parvarish qilishda qanday chora – tadbirlar qo'llaniladi."
+},
+{
+"cat": "2",
+"q": "Chaqaloqlarda qayt qilishning organik sabablari nima."
+},
+{
+"cat": "2",
+"q": "Antenatal davrda xavf tug'diruvchi omillarga qaysilar kiradi."
+},
+{
+"cat": "2",
+"q": "Antenatal davrda patronaj hamshiraning amalga oshirayotgan profilaktik tadbirlarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Tug'ruqdan keyingi davrda bola uchun xavfli omillarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Homilador ayol tomonidan yo'l qo'yilgan qanday xatoliklar bolaning nosog'lom tug'ilishiga olib kelishi mumkin."
+},
+{
+"cat": "2",
+"q": "Uy sharoitida bemor lablarining yorilib ketishiga yo'l qo'ymaslik uchun patronaj hamshirasi qanday muolajalarni bajarishi kerak."
+},
+{
+"cat": "2",
+"q": "Uy sharoitida yotoq yarani parvarish qilish va davolash uchun qanday tadbirlar amalga oshiriladi."
+},
+{
+"cat": "2",
+"q": "Ona tomonidan bolaga salbiy ta'sir ko'rsatadigan va onaning laktatsiya davridagi qiyinchiliklariga olib keladigan sut bezi kasalliklari qaysilar kiradi."
+},
+{
+"cat": "2",
+"q": "Onaning emizish rejimiga qat'iy amal qilish bo'yicha bolaning bir kunlik ovqatlanish hajmi qanday taqsimlanadi."
+},
+{
+"cat": "2",
+"q": "Ona chaqaloqni to'g'ri emizish qoidalarini texnikasini sanab bering."
+},
+{
+"cat": "2",
+"q": "Davolash-profilaktika muassasalarida sanitariya, epidemiyaga qarshi va dezinfektsiya rejimlari to'g'risidagi amaldagi me'yoriy hujjatlarni sanab bering."
+},
+{
+"cat": "2",
+"q": "OIV eng ko'p uchraydigan biologik suyuqliklarni sanab bering."
+},
+{
+"cat": "2",
+"q": "OIV infektsiyasining yuqish yo'llarini aytib bering."
+},
+{
+"cat": "2",
+"q": "OIV infektsiyasining etiologiyasi aytib bering."
+},
+{
+"cat": "2",
+"q": "Biologik suyuqliklar shikastlanmagan teriga sachrab ketganda nima qilish kerak."
+},
+{
+"cat": "2",
+"q": "Biologik suyuqliklar shikastlangan teriga tushganida qanday chora-tadbir qo'llanilishi kerak."
+},
+{
+"cat": "2",
+"q": "OIV infektsiyasining manbai kimlar bo'lishi mumkin."
+},
+{
+"cat": "2",
+"q": "Sterillangan xirurgik qo'lqoplardan qachon foydalaniladi."
+},
+{
+"cat": "2",
+"q": "Necha turdagi rezina qo'qoplarni bilasiz."
+},
+{
+"cat": "2",
+"q": "Qo'l yuvish texnikasi nechta bosqichdan iborat."
+},
+{
+"cat": "2",
+"q": "Bir marotabalik niqoblar necha soatda almashtirilishi kerak."
+},
+{
+"cat": "2",
+"q": "Asfiksiyada birinchi yordam berishning algoritmini aytib bering."
+},
+{
+"cat": "2",
+"q": "Sovuq olishda tez tibbiy yordam ko'rsatish algoritmini aytib bering."
+},
+{
+"cat": "2",
+"q": "Yuqori nafas yo'llariga yot jism tushganda birinchi yordam ko'rsatishni aytib bering."
+},
+{
+"cat": "2",
+"q": "Gipertoniya krizida birinchi yordam ko'rsatishni aytib bering."
+},
+{
+"cat": "2",
+"q": "O'tkir nafas yetishmovchiligida birinchi yordam ko'rsatishni sanab bering."
+},
+{
+"cat": "2",
+"q": "Yurak faoliyati to'xtaganda birinchi yordam ko'rsatish ketma-ketligini sanab bering."
+},
+{
+"cat": "2",
+"q": "Pnevmotoraksning qanday turlari mavjud."
+},
+{
+"cat": "2",
+"q": "O'pkadan qon ketishning tashqi belgilariga nimalar kiradi."
+},
+{
+"cat": "2",
+"q": "Meteorizm nima."
+},
+{
+"cat": "2",
+"q": "Xushdan ketganda tez tibbiy yordam ko'rsatishni aytib bering."
+},
+{
+"cat": "2",
+"q": "Anafilaktik shokning sabablari va belgilarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Gipertermiya turlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Gipertermiyada hamshiraning taktikasi nimadan iborat."
+},
+{
+"cat": "2",
+"q": "Qon ketish turlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Klinik o'limning belgilarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Biologik o'limning erta belgilarini aytib bering."
+},
+{
+"cat": "2",
+"q": "Isituvchi kompress qo'yish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Qariyalarni parvarish qilishning o'ziga xos xususiyatlari nimalardan iborat."
+},
+{
+"cat": "2",
+"q": "Antropometriya nima."
+},
+{
+"cat": "2",
+"q": "Pedikulyoz nima."
+},
+{
+"cat": "2",
+"q": "Yotoq yaralar nima va ularni oldini olishda hamshiraning o'rni nimadan iborat."
+},
+{
+"cat": "2",
+"q": "Terining funktsiyalarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Tana haroratini o'lchash usullarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Nafas olishning yoshga doir me'yoriy ko'rsatkichlarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Nafas olish tizimi a'zolarini tekshirish usullari sanab bering."
+},
+{
+"cat": "2",
+"q": "Oksigenoterapiya nima."
+},
+{
+"cat": "2",
+"q": "Pulsni aniqlash nuqtalarning nomini sanab bering."
+},
+{
+"cat": "2",
+"q": "Qon bosimni o'lchash texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Zararsizlantiruvchi moddallar bilan zaharlanganda birinchi yordam ko'rsatish."
+},
+{
+"cat": "2",
+"q": "Gijja tuxumlariga tekshirish uchun najas olish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Ko'zga tomchi tomizish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Ingalyatorlarni qo'llash texnikasi aytib bering."
+},
+{
+"cat": "2",
+"q": "Mushak orasiga in'ektsiya qilinganidan keyingi yuzaga kelishi mumkin bo'lgan asoratlarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Qusayotgan bemorga ko'rsatiladigan hamshiralik parvarishi nimadan iborat."
+},
+{
+"cat": "2",
+"q": "Ho'qna turlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Tozalovchi ho'qnaga ko'rsatmalarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Tozalovchi ho'qna algoritmini aytib bering."
+},
+{
+"cat": "2",
+"q": "Buyrak va siydik yo'li kasalliklarida bemorlarga hamshiralik parvarishi nimadan iborat."
+},
+{
+"cat": "2",
+"q": "Ayollarda qovuqni kateterlash texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Erkaklarda qovuqni kateterlash texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Laboratoriya tekshiruvi uchun peshob yig'ish turlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Yatrogeniya haqida ma'lumotlarni keltirib o'ting."
+},
+{
+"cat": "2",
+"q": "Verbal va noverbal muloqat turlari haqida ma'lumot bering."
+},
+{
+"cat": "2",
+"q": "Gipertoniya kasaligiga olib keladigan sabablarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Oshqozon-ichak yarasidan qon ketish simptomlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Chala tug'ilgan chaqaloqlarni isitish usullarini ayting."
+},
+{
+"cat": "2",
+"q": "Yangi tug'ilgan chaqaloqni parvarish qilishda hamshira taktikasi nimalardan iborat."
+},
+{
+"cat": "2",
+"q": "Raxit kasalligining sabablarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Revmatizm sabablarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Bolalardagi raxit kasalligini oldini olishda hamshiraning o'rni nimadan iborat."
+},
+{
+"cat": "2",
+"q": "OIV/OITSda organizmning qaysi tizimlari shikastlanadi."
+},
+{
+"cat": "2",
+"q": "OIVni onadan bolaga o'tishi profilaktikasi nimadan iborat."
+},
+{
+"cat": "2",
+"q": "OIV infeksiyasining qo'zg'atuvchisi nima."
+},
+{
+"cat": "2",
+"q": "Dezinfeksiya deganda nimani tushunasiz."
+},
+{
+"cat": "2",
+"q": "Tibbiyotda etika va deontoligiya tushunchasiga ta'rif bering."
+},
+{
+"cat": "2",
+"q": "Tibbiy asbob-anjomlar qaysi usullarda sterilizatsiya qilinadi."
+},
+{
+"cat": "2",
+"q": "Og'ir yotgan bemorni o'rin oqliklarini almashtirish usullari sanab bering."
+},
+{
+"cat": "2",
+"q": "Og'iz bo'shlig'ini gigiyenik parvarishlashda hamshiraning o'rni nimadan iborat."
+},
+{
+"cat": "2",
+"q": "Virusli gepatit turlarini aytib bering."
+},
+{
+"cat": "2",
+"q": "Virusli gepatit “B”ning yuqish yo'llari qaysi."
+},
+{
+"cat": "2",
+"q": "Qandli diabet kasalligida hamshiralik parvarishini aytib bering."
+},
+{
+"cat": "2",
+"q": "Gipotermiya holatida hamshira taktikasi qanday bo'lishi kerak."
+},
+{
+"cat": "2",
+"q": "Allergik holatlarda birinchi tibbiy yordam korsatish nimadan iborat."
+},
+{
+"cat": "2",
+"q": "Diareyada hamshiralik parvarishi."
+},
+{
+"cat": "2",
+"q": "Qabziyatda bemorga hamshiralik parvarishini ko'rsatish."
+},
+{
+"cat": "2",
+"q": "Ishlatilgan tuvak yoki siydikdonlarni zararsizlantirish qanday amalga oshiriladi."
+},
+{
+"cat": "2",
+"q": "Isitgich (grelka) qo'llash uchun ko'rsatma va mone'liklarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Quloqga dori tomizish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Aseptika turlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Antiseptika turlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Qon bosimini o'lchashni aytib bering."
+},
+{
+"cat": "2",
+"q": "Hayotiy muhim ko'rsatkichlarni sanab bering."
+},
+{
+"cat": "2",
+"q": "Emlash texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Pediatriya hamshirasining vazifalari nimadan iborat."
+},
+{
+"cat": "2",
+"q": "Virusli gemorragik isitmalarda o'rnatilgan karantin muddati qancha."
+},
+{
+"cat": "2",
+"q": "Elektr toki urishida hamshira taktikasi nimadan iborat."
+},
+{
+"cat": "2",
+"q": "Cho'kishda tez tibbiy yordam ko'rsatishni aytib bering."
+},
+{
+"cat": "2",
+"q": "Gemorragik shok belgilarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Arterial qon ketishda shifokorgacha yordam berish."
+},
+{
+"cat": "2",
+"q": "Tashqi qon ketishi nima."
+},
+{
+"cat": "2",
+"q": "Bolalarda stenozlovchi laringitda tez tibbiy yordam ko'rsatishni aytib bering."
+},
+{
+"cat": "2",
+"q": "Bronxial astma xurujida tez tibbiy yordam ko'rsatishni aytib bering."
+},
+{
+"cat": "2",
+"q": "Lat yeyishda birinchi yordamni aytib bering."
+},
+{
+"cat": "2",
+"q": "Ko'z ichiga yot jismlar tushganda birinchi yordamni sanab bering."
+},
+{
+"cat": "2",
+"q": "Burundagi yot jismlarni olib tashlash usullarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Burundan qon ketishda shoshilinch yordamni qanday amalga oshiriladi."
+},
+{
+"cat": "2",
+"q": "Oftob urishi belgilarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Bolalarga tozalovchi xo'qna qo'yish texnikasini aytib bering."
+},
+{
+"cat": "2",
+"q": "Kontrasepsiyaning ximiyaviy (spermisidlar) usuli."
+},
+{
+"cat": "2",
+"q": "Laktatsion aminoreya nima."
+},
+{
+"cat": "2",
+"q": "Kontrasepsiya turlarini sanab bering."
+},
+{
+"cat": "2",
+"q": "Uy sharoitida bemorlarni faol patronajini amalga oshirish qanday amalga oshiriladi."
+},
+{
+"cat": "2",
+"q": "Universal patronaj kuzatuvi nima."
+},
+{
+"cat": "1",
+"q": "O'tkir va surunkali leykozlar: patogenezi, klinikasi, hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Laringospazm patogenezi, klinikasi, birinchi tibbiy yordam, hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Talvasa (sudorogi sindromi) kelib chiqish sabablari, turlari, shoshilich yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Anafilaktik shokning belgilari, tez tibbiy yordam, hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Arterial (tashqi) qon ketishi, sabablari, belgilari, tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Kapillyar qon ketishi sabablari, belgilari, tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Burun qonashi, sabablari, belgilari, tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Gipertermiya turlari va ularning belgilar, tez tibbiy yordam, hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Anemiyaning turlari va belgilari, hamshiralik parvarishini yuritish."
+},
+{
+"cat": "1",
+"q": "Koma va uning turlarini sanab bering."
+},
+{
+"cat": "1",
+"q": "Bronxial astma xuruji sabablari, belgilari, tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Tug'ruqgacha bo'lgan akusherlik shoshilinch holatlarida hamshiraning taktikasi nimadan iborat?"
+},
+{
+"cat": "1",
+"q": "Suyak sinishi belgilari va suyak sinishida tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Ochiq yaralarda birlamchi ishlov berish va shokni oldini olish chora –tadbirlarini sanab bering."
+},
+{
+"cat": "1",
+"q": "Elektr toki urishi sabablari, klinik belgilari, tez tibbiy yordam ko'rsatish algoritmi."
+},
+{
+"cat": "1",
+"q": "Kuyish turlari va darajalarini sanab bering. Termik kuyishda shoshilinch yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Ximyoviy kuyish nima? Ximyoviy kuyishning sabablari, tez tibbiy yordam ko'rsatish algoritmi."
+},
+{
+"cat": "1",
+"q": "Anafilaktik shokning sabablari va belgilarini sanab bering."
+},
+{
+"cat": "1",
+"q": "Cho'kishda tez tibbiy yordam ko'rsatish algoritmini sanab bering."
+},
+{
+"cat": "1",
+"q": "Gemorragik shok belgilarini sanab bering. Tez tibbiy yordam ko'rsatish algoritmi."
+},
+{
+"cat": "1",
+"q": "Gemorragik shok belgilari va tez tibbiy yordam ko'rsatish algoritmi."
+},
+{
+"cat": "1",
+"q": "Venoz qon ketishning belgilari va tez tibbiy yordam ko'rsatish asoslari."
+},
+{
+"cat": "1",
+"q": "Ichki qon ketishining belgi va simptomlari. Qorin bo'shlig'idan qon ketishida tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Yurak-o'pka-miya reanimatsiyasi (YuO'RM)ni o'tkazish uchun ko'rsatma va mone'liklarni sanab va algoritmini aytib bering."
+},
+{
+"cat": "1",
+"q": "Terminal holatlarning fazalarini sanab bering."
+},
+{
+"cat": "1",
+"q": "Qizilo'ngach, oshqozon-ichakdan o'tkir qon ketishlarda klinik belgilari va tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Homiladorlikni erta va kechki muddatlarda hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Universal progressiv modelning maqsadi va vazifalarini sanab bering."
+},
+{
+"cat": "1",
+"q": "Homilaga ichki va tashqi muhit omillarining ta'sirini sanab bering."
+},
+{
+"cat": "1",
+"q": "Qabziyat nima, uning turlari va qabziyatda bemorlarni parvarish qilish."
+},
+{
+"cat": "1",
+"q": "Bemorlarni sub'ektiv tekshirish usullarining ahamiyati, o'tkazish tartibini aytib bering."
+},
+{
+"cat": "1",
+"q": "Bemorlarni ob'ektiv tekshirish usulini aytib bering."
+},
+{
+"cat": "1",
+"q": "O'tkir va surunkali bronxit kasalligining belgilari, hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Laktatsiya jarayonini yaxshilash usullarini sanab bering."
+},
+{
+"cat": "1",
+"q": "Homiladorlikda kechadigan kamqonlik kasalligini va tug'ruqning kechishiga ta'sirini aytib bering."
+},
+{
+"cat": "1",
+"q": "O'tkir gastrit belgilari, kechishi, hamshiralik parvarishi, profilaktikasi namadan iborat."
+},
+{
+"cat": "1",
+"q": "Surunkali gastrit belgilari, kechishi, hamshiralik parvarishi, profilaktikasi."
+},
+{
+"cat": "1",
+"q": "Yuqumli kasalliklarni oldini olishda emlashning ahamiyati haqida ma'lumot bering."
+},
+{
+"cat": "1",
+"q": "O'tkir xolesistit belgilari, kechishi, hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Surunkali xolesistit belgilari, kechishi, hamshiralik parvarishi, profilaktikasi."
+},
+{
+"cat": "1",
+"q": "Vitaminlar haqida tushuncha, vitaminlarning organizmda tutgan o'rni, gipo, avitaminozlarning mohiyati, sabablari."
+},
+{
+"cat": "1",
+"q": "Chaqaloqlar termoregulyatsiyaning buzilishiga sabab bo'luvchi omillarni sanab bering."
+},
+{
+"cat": "1",
+"q": "Chaqaloqni samarali emizishning 4 ta asosiy jihatlari haqida ma'lumot bering."
+},
+{
+"cat": "1",
+"q": "Chaqaloqlarda talvasa kuzatilganda birinchi yordam ko'rsatish va hamshiralik parvarishini ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Chaqaloqlarda fiziologik sariqlik qachon paydo bo'ladi va hamshira parvarishi."
+},
+{
+"cat": "1",
+"q": "Salomatlik nima? Salomatlikka salbiy ta'sir etuvchi omillarga nimalar kiradi."
+},
+{
+"cat": "1",
+"q": "Kontratseptiv vositalarga nimalar kiradi va ularning afzalligini sanab bering."
+},
+{
+"cat": "1",
+"q": "Emlash xonasida qanday tibbiy xujjatlar yuritiladi?"
+},
+{
+"cat": "1",
+"q": "Yangi tug'ilgan chaqaloqlarning kindigini uy sharoitida parvarish qilish texnikasi."
+},
+{
+"cat": "1",
+"q": "OIVni shifoxona ichi infeksiyasi sifatida tarqalishini oldini olish chora- tadbirlarida hamshiraning vazifalari qanday."
+},
+{
+"cat": "1",
+"q": "Immunoferment tahlili uchun olingan qon namunasi sovutgichda (+4+8°S) qancha vaqt saqlanishi mumkin."
+},
+{
+"cat": "1",
+"q": "Laboratoriyaga serologik tahlillar uchun olib kelinayotgan qon yoki zardob miqdori qancha bo'lishi kerak."
+},
+{
+"cat": "1",
+"q": "OIV infeksiyada muloqotdan keyingi profilaktika nimalarni o'z ichiga oladi."
+},
+{
+"cat": "1",
+"q": "Tibbiy muassasada tibbiyot xodimlari uchun umumiy ehtiyotkorlik choralari nimalardan iborat."
+},
+{
+"cat": "1",
+"q": "Davolash-profilaktika muassasalarida dezinfeksiya va sterilizatsiya rejimlariga rioya qilishdan maqsad nima."
+},
+{
+"cat": "1",
+"q": "Asboblarda oqsil va qon qoldig'ini aniqlash uchun qaysi sinamadan foydalaniladi."
+},
+{
+"cat": "1",
+"q": "Raxit kasalligining sabablari, klinik belgilari, profilaktikasini ayting."
+},
+{
+"cat": "1",
+"q": "Qariyalarni parvarish qilishni o'ziga xos xususiyatlarini ayting."
+},
+{
+"cat": "1",
+"q": "Qo'li shikastlangan bemorni kiyimini almashtirish tartibini ayting."
+},
+{
+"cat": "1",
+"q": "Me'da va o'n ikki barmoq ichak yara kasalliklarida hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Zotiljam kasalligi sababi, belgilari va unda hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Qalqonsimon bez kasalliklari sababi, belgilari va hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Sil kasallagi haqida tushuncha, sababi, belgilari va hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Bavosil (gemorroy) kasalligi, sababi, belgilari va hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Kollaps sabablari, belgilari va hamshira taktikasi."
+},
+{
+"cat": "1",
+"q": "Piyelonefrit sabablari, belgilari va hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Glomerulonefrit sabablari, belgilari va hamshiralik parvarishi."
+},
+{
+"cat": "1",
+"q": "Shizofreniya haqida tushuncha, bemorni nazorat qilish va qo'zgalishda hamshira taktikasi."
+},
+{
+"cat": "1",
+"q": "Ilon chaqqanda klinik belgilar va birinchi yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "It tishlaganda klinik belgilar va birinchi yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Zaharlanish turlari, klinik belgilari va birinchi yordam ko'rsatish."
+},
+{
+"cat": "1",
+"q": "Premedikatsiya haqida tushuncha bering."
+},
+{
+"cat": "1",
+"q": "Jarohatga birlamchi jarrohlik ishlov berishda hamshira taktikasi."
+},
+{
+"cat": "1",
+"q": "Traxeomastoma qo'yishga ko'rsatmalar va hamshira parvarishi."
+},
+{
+"cat": "1",
+"q": "Bemorni ob'ektiv va sub'ektiv tekshirish usullarini ayting."
+},
+{
+"cat": "1",
+"q": "Og'izdan og'izga sun'iy nafas berish texnikasini ayting."
+},
+{
+"cat": "1",
+"q": "O'pkaninig surunkali obstruktiv kasalliklarida patronaj hamshira parvarishi."
+},
+{
+"cat": "1",
+"q": "Yurakning ishemik kasalliklarida patronaj hamshira taktikasi."
+},
+{
+"cat": "1",
+"q": "Siydik chiqarish yo'li kasalliklarida patronaj hamshira taktikasi."
+},
+{
+"cat": "1",
+"q": "Tungi enurezda patronaj hamshira taktikasi."
+},
+{
+"cat": "1",
+"q": "Yuqumli gepatit kasalligida bemor bilan muloqotda bo'lganda ko'riladigan chora-tadbirlarni ayting."
+},
+{
+"cat": "1",
+"q": "Qizamiq o'chog'ida olib boriladigan profilaktik tadbirlarni ayting."
+},
+{
+"cat": "1",
+"q": "Brutsellyozda qaysi organlar zararlanadi va klinik belgilarni ayting."
+},
+{
+"cat": "1",
+"q": "Bemor 3 kundan ortiq isitmalasa qanday tekshirish usulini o'tkazilish kerakligini aytib bering."
+},
+{
+"cat": "1",
+"q": "Pedikulyoz aniqlaganda bemorni sanitar tozalovini o'tkazishda hamshira taktikasi."
+},
+{
+"cat": "1",
+"q": "Tepki o'chog'ida olib boradigan epidemiyaga qarshi profilaktika tadbirlarini ayting."
+},
+{
+"cat": "1",
+"q": "Yangi tug'ilgan chaqaloqlar orasida kasallanish va o'limning oldini olish uchun birinchi navbatda qanday tadbirlar o'tkazish zarur."
+},
+{
+"cat": "1",
+"q": "Gripp belgilari, oilada, jamoat joylarida kasallikni oldini olishda hamshiraning vazifalari qanday."
+},
+{
+"cat": "1",
+"q": "Xirurg va operatsiya hamshirasining qo'lini zararsizlantirish usullarini ayting."
+},
+{
+"cat": "1",
+"q": "Sterillangan tibbiy asbob-anjomlarning sterillik belgilarini ayting."
+},
+{
+"cat": "1",
+"q": "Ishlatilgan tibbiy instrumentlarni dezinfektsiya qilish tartibini ayting."
+},
+{
+"cat": "1",
+"q": "Steril stolni tayyorlash va yaroqlilik muddati ayting."
+},
+{
+"cat": "1",
+"q": "Bog'lov materillari va ularni tayyorlashda hamshiraning vazifalari."
+},
+{
+"cat": "1",
+"q": "Oral regidrotatsiyani tashkil etish va o'tkazishda hamshiraning vazifalari."
+},
+{
+"cat": "1",
+"q": "Nikohlanuvchi shaxslarni tibbiy ko'rikdan o'tkazish va yosh oilalar bilan olib boriladigan tadbirlarda hamshiraning vazifalari."
+},
+{
+"cat": "1",
+"q": "Sog'lom turmush tarzini targ'ibot qilishda mahallalarda olib boriladigan ishlarda hamshiraning vazifalari."
+},
+{
+"cat": "1",
+"q": "Homiladorlarni tug'ruqgacha kuzatuvida patronaj hamshirasining vazifalari."
+},
+{
+"cat": "1",
+"q": "Skrining markazlarini tashkil etishdan maqsad va unda hamshirasining vazifalari nimadan iborat."
+},
+{
+"cat": "1",
+"q": "Zaharlanishlarda me'dani yuvishda hamshiraning taktikasi."
+},
+{
+"cat": "1",
+"q": "Sun'iy nafas va yurakni bilvosita massaj qilish texnikasi aytib bering. Sun'iy nafas va yurakni bilvosita massaj nisbatlarini ayting."
+},
+{
+"cat": "1",
+"q": "Ko'zning termik va kimyoviy kuyishlarida klinik belgilar. Ko'zning termik va kimyoviy kuyishlarda shoshilinch yordamni ayting."
+},
+{
+"cat": "1",
+"q": "Homiladorlik toksikozi. Erta va kechki toksikozlar."
+},
+{
+"cat": "1",
+"q": "Qizilo'ngach, oshqozon-ichakdan o'tkir qon ketishlarda shoshilinch tibbiy yordam. Qizilo'ngach, oshqozon-ichakdan o'tkir qon ketishining klinik belgilari."
+},
+{
+"cat": "1",
+"q": "Bosh miya chayqalishi, sabablari va feldsher yordami. Kollaps nima."
+},
+{
+"cat": "1",
+"q": "Yurak-o'pka-miya reanimatsiyasi(YuO'RM)ni o'tkazish texnikasi. Yurak-o'pka-miya reanimatsiyasida massaj va sun'iy nafas nisbatlari - agar yordam ko'rsatuvchi 2 ta bo'lsa."
+},
+{
+"cat": "1",
+"q": "Konikotomiyaga ko'rsatma va bajarish texnikasini aytib bering. Konikotomiyada kerakli jihozlarni aytib bering."
+},
+{
+"cat": "1",
+"q": "Narkotik moddalardan zaharlanish belgilari va tez tibbiy yordam."
+},
+{
+"cat": "1",
+"q": "«Lomka » ma'nosi nima va bu holat qaysi kasallikda kuzatiladi?"
+},
+{
+"cat": "1",
+"q": "Nevralgiya va radikulitning klinik manzarasi. Nevralgiya va radikulitlarda shifoxonagacha bo'lgan bosqichdagi tez tibbiy yordam."
+},
+{
+"cat": "1",
+"q": "Qaysi o'ta xavfli yuqumli kasallikka qarshi qayta emlash 5 yilda o'tkaziladi."
+},
+{
+"cat": "1",
+"q": "Suvsizlangan bemorlarda oral regidratatsiya o'tkazish texnikasini ko'rsating."
+},
+{
+"cat": "1",
+"q": "Virusli gepatit “B” va “C” kasalligini keltirib chiqaruvchi omillarni sanab bering."
+},
+{
+"cat": "1",
+"q": "O'latga qarshi kiyim kiyish yechish tartibini ayting."
+},
+{
+"cat": "1",
+"q": "Giperglikemik komada birinchi yordam ko'rsating. Qandli diabet kasalligini sabablarini aytib bering."
+},
+{
+"cat": "1",
+"q": "Bolalarga ichak sanchig'ida shoshilinch yordam ko'rsating. Gaz haydovchi naychani qo'yish uchun kerakli jihozlarni sanab bering."
+},
+{
+"cat": "1",
+"q": "“Kramer” shinasidan foydalanish texnikasini bajarishni aytib bering."
+},
+{
+"cat": "1",
+"q": "Gemorragik isitma qanday kasallik. Qon ketishini to'xtatish usullarini ko'rsating."
+},
+{
+"cat": "1",
+"q": "Orqa miya suyuqligini olish texnikasini ayting. Punktsiya uchun kerakli jihozlar to'plamini aytib bering."
+},
+{
+"cat": "1",
+"q": "Qusishda birinchi yordam ko'rsatish. Qusishni turlarini aytib bering."
+},
+{
+"cat": "1",
+"q": "Metall tibbiy asboblarning sterillanganlik sifatini tekshirish usullari. Optik tibbiy asboblardan: bronxoskop, traxeoskop, gastroskop, rektoskop, sistoskop, uretroskoplarni sterillash usullari."
+},
+{
+"cat": "1",
+"q": "Gemotoraks belgilari sabablari va tez tibbiy yordam. Ko'krak qafasiga qon quyilganda bemorni to'g'ri transportirovka qilishni aytib bering."
+},
+{
+"cat": "1",
+"q": "Anafilaktik shok va birinchi tibbiy yordam. Kvinke shishini xarakterlang."
+},
+{
+"cat": "1",
+"q": "Namlangan kislorod berish texnikasi. Bobrov apparatiga tarif bering."
+},
+{
+"cat": "1",
+"q": "Ishlatilgan tuvak yoki siydikdonlarni zararsizlantirish. Gipoxlorid eritmasini tayyorlash texnikasini aytib bering."
+},
+{
+"cat": "1",
+"q": "Apnoe va dispnoe tushunchasi. Nafas yetishmovchiliklarini nechta bosqichi bor."
+},
+{
+"cat": "1",
+"q": "Insulin dozasini hisoblash va insulinni shpritsga tortish va bemorga yuborish texnikasi."
+},
+{
+"cat": "1",
+"q": "1 yoshgacha bo'lgan bolalarni patronaj hamshira tomonidan olib boriladigan kuzatuvi."
+},
+{
+"cat": "1",
+"q": "5 yoshgacha bo'lgan bolalarning o'sish va rivojlanish monitoringini patronaj hamshira tomonidan olib borilishi."
+},
+{
+"cat": "1",
+"q": "Sil kasalligining belgilari va profilaktikasi."
+},
+{
+"cat": "1",
+"q": "Yuqumli kasalliklarni oldini olishda emlashning ahamiyati."
+},
+{
+"cat": "1",
+"q": "“Bexatar onalik dasturi” ning mohiyati."
+},
+{
+"cat": "1",
+"q": "Yigirma sakkiz kunlik xayz siklida ovulyasiya sodir bo'lishi."
+},
+{
+"cat": "1",
+"q": "Nospetsifik yallig'lanish kasalliklarini kelib chiqaridigan mikroorganizmlar."
+},
+{
+"cat": "1",
+"q": "Patronaj hamshirasi qanday ko'nikma."
+},
+{
+"cat": "1",
+"q": "Diarea zotiljam, qizamiq, bacterial dezinteriya, ovqatdan zaharlanish, isitma bilan og'ir kechuvchi boshqa kasalliklar bola hayotiga qanday havf solish mumkin."
+},
+{
+"cat": "1",
+"q": "Diareya bilan kasallangan 2 yoshgacha bo'lgan bolaga har gal ichi suyuq kelganda nechi ml qo'shimcha suyuqlik berish kerak."
+},
+{
+"cat": "1",
+"q": "Chaqaloqlik va ilk bolalik davridagi to'g'ri ovqatlanish qanday ahamiyat kasb etadi."
+},
+{
+"cat": "1",
+"q": "Bolalarga oson hazm qiladigan qaysi donlardan bo'tqalarni tayyorlash kerak."
+},
+{
+"cat": "1",
+"q": "Bolalarda organizmda vitamin/ retinol yetishmovchiligi va provitamin karotinni yetishmovchiligi nima tufayli yuzaga keladi."
+},
+{
+"cat": "1",
+"q": "O'zbekiston Respublikasida 2021- yildan pilot hududlarda qanday dori vositalarni berish boshlandi."
+},
+{
+"cat": "1",
+"q": "Qalqonsimon bezning me'yoriy ishlashi uchun zarur bo'lgan kimyoviy element- bu."
+},
+{
+"cat": "1",
+"q": "Yuqumli kasalliklarning oldini olishda emlash bolani hayotida qanday rol o'naydi."
+},
+{
+"cat": "1",
+"q": "Profilaktik va epidemiyaga qarshi emlashni tashkillashtirish va o'tkazish kimlar tomonidan amalga oshiriladi."
+},
+{
+"cat": "1",
+"q": "Organizmda temir moddasi yetishmaganda yoki yo'qotilganida vujudga keladigan kasallik-bu."
+},
+{
+"cat": "1",
+"q": "Vazni nechi kg gacha bo'lgan bolani richagli tarozi yordamida o'lchash mumkin."
+},
+{
+"cat": "1",
+"q": "Homilador ayolni dispenser kuzatuviga olinishi uchun qanday talablar qo'yilgan."
+},
+{
+"cat": "1",
+"q": "Homilador ayol tamaki cheksa, tug'ilgan farzandida qanday kasalliklar kuzatilishi mumkin."
+},
+{
+"cat": "1",
+"q": "Suyak singanda amal qilinadigan eng muhim vazifa nima."
+},
+{
+"cat": "1",
+"q": "Kengaytirilgan oilaga ta'rif bering."
+},
+{
+"cat": "1",
+"q": "BJSST konsepsiyasiga ko'ra aholiga tibbiy xizmat ko'rsatishning qanday turlari mavjud."
+},
+{
+"cat": "oliy",
+"q": "O'zbekiston Respublikasi SSVning 88-sonli buyrug'ining nomi, mazmuni va mohiyati haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Girudoterapiya va gidroterapiyaning farqini tushuntiring."
+},
+{
+"cat": "oliy",
+"q": "Qandli diabet kasalligining belgilari qanday va uyda parvarishlash qilish haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Shifokor nazoratisiz og'riq qoldiruvchi vositalarni uzoq muddat qo'llashda qanday asoratlar paydo bo'lishi mumkin va bunday vaziyatlarda qaysi organlar ko'proq shikastlanadi (asoratlarni sanang)?"
+},
+{
+"cat": "oliy",
+"q": "Universal-progressiv modelning maqsadi nimadan iborat, patronaj hamshira qanday funktsiyalarni bajarishi kerak?"
+},
+{
+"cat": "oliy",
+"q": "Qaysi holatlarda aholi patronaj hamshira xizmatlaridan foydalanishi mumkin?"
+},
+{
+"cat": "oliy",
+"q": "Keksalarni patronaj qilish xususiyatlarini sanab o'ting. Nogironlarni (imkoniyati cheklangan shaxslar) uy sharoitida parvarish qilish qanday xususiyatlari bor?"
+},
+{
+"cat": "oliy",
+"q": "Uy sharoitida palliativ yordam xizmatlarini rejalashtirish va tashkil qilish."
+},
+{
+"cat": "oliy",
+"q": "Uy sharoitida o'z-o'zini parvarish qilish qobiliyatini yo'qotgan fuqarolarga g'amxo'rlik qilishning muhim jihatlarini sanab o'ting. Patronaj hamshirasining ish rejasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Harakatchanligi cheklangan odamlarga oila a'zolarini uy sharoitida texnik vositalaridan foydalangan holda g'amxo'rlik qilish, parvarish qilish, reabilitatsiya qilishni o'rgatish."
+},
+{
+"cat": "oliy",
+"q": "Yangi tug'ilgan chaqaloqlarni patronaj qilish shartlari: patronaj hamshirasi qachon va qancha muddatda uyga tashrif buyuradi?"
+},
+{
+"cat": "oliy",
+"q": "1 yoshgacha bo'lgan bolalarni patronaj qilish qoidalari. Patronaj hamshiraning vazifalarini sanab bering."
+},
+{
+"cat": "oliy",
+"q": "Vaqtinchalik giperbilirubinemiya bilan og'rigan chaqaloqlarni uy sharoitida parvarish qilish."
+},
+{
+"cat": "oliy",
+"q": "Nafas shovqinlari. Bronxial shovqin va vezikulyar shovqin orasidagi faqrni toping"
+},
+{
+"cat": "oliy",
+"q": "Bronxit kasalligini o'tkazgan bemorlarni reabilitatsiyasi, turlari, bosqichlari."
+},
+{
+"cat": "oliy",
+"q": "Zotiljam. Krupoz zotiljam va sil kasalligini orasida taqqoslama diagnostika."
+},
+{
+"cat": "oliy",
+"q": "Stenokardiya. Stenokardiya va miokard infarkti kasalligini orasida taqqoslama diagnostikasi nimadan iborat?"
+},
+{
+"cat": "oliy",
+"q": "O'pka sili bilan kasallangan bemorlar reabilitatsiyasi. Turlari. Pahxez stoli"
+},
+{
+"cat": "oliy",
+"q": "O'pka raki bilan kasallangan bemorlar reabilitatsiyasi. Turlari. Bosqichlari."
+},
+{
+"cat": "oliy",
+"q": "Yurak poroklari bilan kasallangan bemorlar reabilitatsiyasi. Turlari. Bosqichlari. Pahxez stoli."
+},
+{
+"cat": "oliy",
+"q": "Gastroenterokolit. Gastroenterokolit va appenditsit kasalligini orasida taqqoslama diagnostika"
+},
+{
+"cat": "oliy",
+"q": "Xolesistit kasalligini o'tkazgan bemorlar reabilitatsiyasi. Turlari. Bosqichlari. Pahxez stoli haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Glomerulonefrit kasalligini o'tkazgan bemorlar reabilitatsiyasi. Turlari. Bosqichlari. Pahxez stoli haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Qovurg'alararo nevralgiya va yurak hurujlari orasida taqqoslama diagnostikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Sistit kasalligini o'tkazgan bemorlar reabilitatsiyasi. Turlari. Bosqichlari. Pahxez stoli haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Leykozlar kasalligini o'tkazgan bemorlar reabilitatsiyasi. Turlari. Bosqichlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Jigar sirrozi kasalligini o'tkazgan bemorlar reabilitatsiyasi. Turlari. Bosqichlari. Pahxez stoli haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Diffuz toksik buqoq (Bazedov kasalligi) bilan kasallangan bemorlar reabilitatsiyasi. Turlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Miksedema bilan kasallangan bemorlar reabilitatsiyasi. Turlarini sanab bering."
+},
+{
+"cat": "oliy",
+"q": "Qandli diabed bilan kasallangan bemorlar reabilitatsiyasi. Turlari. Pahxez stoli haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Revmatizm bilan kasallangan bemorlar reabilitatsiyasi. Turlari."
+},
+{
+"cat": "oliy",
+"q": "Revmatizm va Poliartrit orasida taqqoslama diagnostika."
+},
+{
+"cat": "oliy",
+"q": "OITS kasalligini o'tkazgan bemorlarni reabilitatsiyasi, turlari, bosqichlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Laringospazm va laringostenozning klinik ko'rinishi, orasida taqqoslama diagnostikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Bronxial astma huruji va asfiksiya orasida taqqoslama diagnostikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "O'n ikki barmoqli ichakning yara klasalligi, reabilitatsiyasi. Turlari. Bosqichlari. pahxez stoli haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Kollaps va shok orasida taqqoslama diagnostikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Jigar sirozi va Gepatit “B” orasida taqqoslama diagnostika haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "O'pka sili bilan o'pka raki kasalligining klinikasi orasidagi taqqoslama diagnostikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Giperglikemik koma va gipoglikemik koma orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari nimadan iborat?"
+},
+{
+"cat": "oliy",
+"q": "Gipertaniya va gipertermiya orasida taqqoslama diagnostikasi, hamshira hatti- harakatlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Gipertermiya va gipotermiya orasida taqqoslama diagnostikasi, hamshira hatti- harakatlari qanday?"
+},
+{
+"cat": "oliy",
+"q": "Epilepsiya (tutqanoq) kasalligi va talvasa sindromlarini klinik belgilari, farqlash, hamshira taktikasi nimadan iborat?"
+},
+{
+"cat": "oliy",
+"q": "Gemoragik insult va ishemik insultning taqqoslama diagnostikasi, hamshira hatti- harakatlari."
+},
+{
+"cat": "oliy",
+"q": "Qizamiq va Qizilcha orasida taqqoslama diagnostikasi, hamshira hatti- harakatlari."
+},
+{
+"cat": "oliy",
+"q": "Klinik o'lim va biologik o'lim orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari qanday bo'lishi lozim?"
+},
+{
+"cat": "oliy",
+"q": "Bepushtlikning, sabablari, turlari oldini olish, bemorlarning reabilitatsiyasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "“O'tkir qorin og'rig'i” sindromi va bachadondan tashqari homiladorlik orasida taqqoslama diagnostikasi, hamshira hatti- harakatlari nimadan iborat?"
+},
+{
+"cat": "oliy",
+"q": "Salmonelyoz va dezenteriya kasalligi orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Suyaklarning ochiq va yopiq jarohatlar orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Soxta va chin bo'g'ma kasalligi orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Epidemik parotit va limfadenit kasalli orasida taqqoslama diagnostikasi, hamshira hatti-harakatlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "O'smir qizlar jinsiy a'zolarida yalliqlanish kasalliklari, sabablari, profilaktikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Tug'ruq jarohatlari, oraliq qinning yi'rtilishi, ularni oldini olishda hamshiralik parvarishi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Homiladorlik davrida kamqonlik, uning turlari va hamshiralik taktikasi qanday bo'lishi lozim?"
+},
+{
+"cat": "oliy",
+"q": "Ginekologik bemorlarni operatsiyasidan ketingi davrda hamshiralik parvarishi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Botulizm kasalligining etiologiyasi, klinikasi, profilaktikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Diabedik koma klinik belgilari, profilaktikasi, hamshira xatti- xarakatlari qanday bo'lishi lozim?"
+},
+{
+"cat": "oliy",
+"q": "Erta neonatal davrlarda adaptiv reatsiyalar haqida malumotlarni asoslab bering."
+},
+{
+"cat": "oliy",
+"q": "Chaqaloqlar gipotermiyasining sabablari, belgilari birinchi yordam va hamshira taktikasini asoslab bering."
+},
+{
+"cat": "oliy",
+"q": "O'pkadan qon ketishining sabablari, belgilari va shoshilich yordam ko'rsatishni asoslab bering."
+},
+{
+"cat": "oliy",
+"q": "Dorilardan zaharlanishning sabablari, belgilari, shoshilinch yordam ko'rsatish, hamshiralik parvarishini tashkil qilish haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Chala tug'ilgan chaqaloqlarning anatomo-fiziologik xususiyatlarini sanab bering va hamshiralik parvarishini amalga oshiring."
+},
+{
+"cat": "oliy",
+"q": "Amaldagi “Shifoxona ichki infeksiyasini oldini olish” ning mazmuni, ahamiyati haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Etil spirti va surrogatlar bilan zaharlanishning belgillari tez tibbiy yordam ko'rsarishni asoslab bering."
+},
+{
+"cat": "oliy",
+"q": "Oksigenoterapiya qaysi kasalliklarda qo'llaniladi? Oksigenoterapiya qo'llash texnikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Yatrogeniya haqida tushuncha. Yatrogeniya turlari. So'zli va so'zsiz yatrogeniya nima?"
+},
+{
+"cat": "oliy",
+"q": "Gipovolemiya nima, sabablari, belgilari, qaysi kasalliklarda gipovolemiya kuzatilishi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Is gazidan zaharlanish sabablari, belgilari va shoshilinch yordam ko'rsatish."
+},
+{
+"cat": "oliy",
+"q": "Neonotologiya bo'limidagi chaqaloqlar orasida shifoxona ichki infektsiyasi yuzaga kelishi sabablari, xavfli guruhlar, shifoxona ichki infektsiyasini oldini olishda hamshiraning ahamiyati haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Revmatizm kasalligining qo'zg'atuvchisi, klinikasi, asoratlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Distillangan suvning tibbiyotdagi o'rni, ayniqsa avtoklavda foydalanilishining ahamiyati haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "6 oylikgacha bo'lgan bolalar oshqozon-ichak yo'llarining anatomo-fiziologik xususiyatlari, bolalarni qo'shimcha ovqatlantirishda onalarga maslahatlar berish."
+},
+{
+"cat": "oliy",
+"q": "Universal progressiv model nima va uning tamoyillarini sanab bering."
+},
+{
+"cat": "oliy",
+"q": "Uyqu keltiradigan (snotvorniy) ta'sirga ega bo'lgan dorilar bilan zaharlanish belgilari, shoshilinch yordam ko'rsatish, hamshiralik parvarishini tashkil qilish."
+},
+{
+"cat": "oliy",
+"q": "ABO tizimi va Rh omiliga ko'ra, qon guruhlari haqida tushunchalarni aytib bering. Qon quyish va uning tarkibiy qismlarini tayyorlash va o'tkazishda hamshiraning roli. Qon quyishda talab qilinadigan amaldagi hujjatlarni ayting."
+},
+{
+"cat": "oliy",
+"q": "Kuyish turlari, darajalari. Klinik kurinishi. Kuyishlarda tez yordam ko'rsatish chora tadbirlari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Terminal holatlar tasnifi. Terminal holatlar fazalari. Terminal holatlarda tez yordam choralari"
+},
+{
+"cat": "oliy",
+"q": "Meningit. Kasallik belgilari. Meningitda shifoxonagacha bo'lgan bosqichdagi shoshilinch yordam haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "O'tkir xolitsistitlarda tez tibbiy yordam. O'tkir pankreatit, differinsial diagnostika haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Ichakdan ovqatni o'tmay qolishi belgilari va kasallik kechishi. Ichakdan ovqatni o'tmay qolish holatlarda shoshilinch yordam qanday bo'lishi lozim?"
+},
+{
+"cat": "oliy",
+"q": "Nefropatiya. Preeklampsiya. Eklampsiya. Belgilari, tashxisi, shoshilinch yordam ko'rsatishni aytib bering."
+},
+{
+"cat": "oliy",
+"q": "Ko'zning termik va kimyoviy kuyishlarida klinik belgilar. Ko'zning termik va kimyoviy kuyishlarda shoshilinch yordamni ayting."
+},
+{
+"cat": "oliy",
+"q": "Epidemologik jarayon deganda nimani tushunasiz? Yuqumli kasalliklarning yuqish yo'llarini aytib bering."
+},
+{
+"cat": "oliy",
+"q": "Virusli gepatitlar, klassifikatsiyasi, profilaktikasini gapirib bering. Virusli gepatit B vaksinatsiyasi tartibini aytib bering."
+},
+{
+"cat": "oliy",
+"q": "Difteriya kasalligi klinikasi, hamshira tashxisini qo'ying. AKDS, ADSM nima?"
+},
+{
+"cat": "oliy",
+"q": "Chaqaloqlardagi asfiksiya tez tibbiy yordam ko'rsatishda hamshiraning vazifasi. Nafas yo'liga qusuq massalari tushganida birinchi yordam berishni aytib bering."
+},
+{
+"cat": "oliy",
+"q": "Sil bilan kasallangan onadan tug'ilgan bola qachon BSJ emlash o'tkaziladi? BSJ bilan sog'lom chaqaloqlarda nechanchi kun emlanadi?"
+},
+{
+"cat": "oliy",
+"q": "Salomatlikni mustahkamlash va salomatlikdan oldingi turmush tarzini targ'ib qilishning nazariy asoslari. Profilaktika va reabilitatsiyani tashkil etish tamoyillari."
+},
+{
+"cat": "oliy",
+"q": "Buyrakning o'tkir yetishmovchiligi sindromi, unda shoshilinch tibbiy yordam. Buyrak kasalliklarining asosiy klinik belgilari haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "6 oylikgacha bo'lgan bolalarni ovqatlantirishda onalarga maslaxatlar bering. Qo'shimcha ovqat kiritishni boshlashda patronaj hamshirasining maslahatlari qanday bo'lishi lozim?"
+},
+{
+"cat": "oliy",
+"q": "Chala “Kam vaznli” tug'ilgan chaqaloqlarni zond orqali ovqatlantirish texnikasi. Apgar shkalasi haqida aytib bering."
+},
+{
+"cat": "oliy",
+"q": "Chaqaloqlarda Kefalogematomaning sababi, klinikasi, hamshira parvarishini gapirib bering. Kefalogematomada chaqaloqlarning parvarishi qanday amalga oshiriladi"
+},
+{
+"cat": "oliy",
+"q": "Chaqaloqlar sepsisining belgilari, unga olib keluvchi omillar, oldini olish chora- tadbirlarida hamshiraning vazifasi."
+},
+{
+"cat": "oliy",
+"q": "Leyshmanioz qanday kassalik, yuqish yo'llari va profilaktikasi haqida malumot bering."
+},
+{
+"cat": "oliy",
+"q": "Quturish kasalligi klinikasi, davolash va profilaktikasi haqida aytib bering."
+},
+{
+"cat": "oliy",
+"q": "Dizenteriya qanday kasallik? kelib chiqish sabablari, hamshiralik parvarishini aytib bering. Dizenteriyada najasga xarakteristikasiga baho bering."
+},
+{
+"cat": "oliy",
+"q": "Brutsellyoz kasalligi, klinik belgilari, oldini olish chora-tadbirlarini aytib bering. Qaysi kasb egalari bu kasallikka qarshi emlanadi?"
+},
+{
+"cat": "oliy",
+"q": "Enterobioz qanday kasallik va uning klinikasi qanday kichadi. Entrobiozda laboratoriyaga kanday material yuboriladi?"
+},
+{
+"cat": "oliy",
+"q": "Ovqat tarkibidagi oqsil, yog' va uglevodlarni o'zaro nisbati qanday bo'lishi kerak. Yog'lar organizmda qanday vazifani bajaradi."
+},
+{
+"cat": "oliy",
+"q": "Kasalxona va poliklinikalarda bolalarga yordam berishda hamshiraning roli. Bolalarga tibbiy-profilaktika yordami tizimida klinik tekshiruvni tashkil etish (vazifalar, maqsadlar, tadbirlar)."
+},
+{
+"cat": "oliy",
+"q": "Imkoniyati cheklangan bolalarga hamshiralik parvarishi. Buzilgan ehtiyoj va muammolar, nogiron bolalarga hamshiralik parvarishining xususiyatlari. Boshlang'ich va o'rta maktab yoshidagi tibbiy-diagnostik tadbirlarning o'ziga xos xususiyatlari."
+},
+{
+"cat": "oliy",
+"q": "Distrofiya bilan og'rigan bolalarga hamshiralik parvarishi. Distrofiyalarning turlari (turi): gipotrofiya (to'yib ovqatlanmaslik), paratrofiya."
+},
+{
+"cat": "oliy",
+"q": "Oldini olish mumkin bo'lgan infektsiyalarning immunoprofilaktikasida hamshiraning o'rni. Sog'liqni saqlash muassasalarida emlash ishlarini tashkil etish. Bolalarni emlashning mohiyati va maqsadlari."
+},
+{
+"cat": "oliy",
+"q": "Emlash preparatlari. Emlash jarayoni va uning qonuniyatlari. Vaksinatsiyaga tibbiy ko'rsatma va qarshi ko'rsatmalar. Bolani emlashga tayyorlash. Emlashdan keyingi asoratlarning oldini olish. Vaktsinalarni tashish va saqlash."
+},
+{
+"cat": "oliy",
+"q": "Jarrohlik sepsisi: ta'rifi, tasnifi, belgilari, bemor muammolari. Sepsisli bemorlarni parvarish qilishda hamshiralik jarayonining xususiyatlari."
+},
+{
+"cat": "oliy",
+"q": "Sovuq urishi ta'rifi, tasnifi, bemor muammolari, birinchi yordam. Sovuq bilan og'rigan bemorlarga hamshiralik yordami."
+},
+{
+"cat": "oliy",
+"q": "Anaerob infektsiyasi. Rivojlanish xususiyatlari, oldini olish. Gazli gangrena: sabablari, dastlabki belgilari. Gazli gangrena bilan og'rigan bemorlarni parvarish qilish. Anaerob infektsiya uchun sanitariya-epidemiya rejimining xususiyatlarini sanab bering."
+},
+{
+"cat": "oliy",
+"q": "Nima uchun OIV infeksiyali ayoldan tug'ilgan bolaga 18 oyga to'lguncha IFA va IB tahlillari o'tkazilmaydi?"
+},
+{
+"cat": "oliy",
+"q": "Avtoklavda kimlar ishlashi mumkin va OIV laboratoriyasida materiallarni avtoklavda zararsizlantirish qanday tartibda olib boriladi?"
+},
+{
+"cat": "oliy",
+"q": "O'zbekiston Respublikasida OIV infeksiyasiga yakuniy tashxis qaysi serologik usulda qo'yiladi?"
+},
+{
+"cat": "oliy",
+"q": "Bemorning birlamchi qon namunasini OIVga tekshirish uchun yuborilayotganda qaysi yo'llanma va qanday tartibda to'ldiriladi?"
+},
+{
+"cat": "oliy",
+"q": "OIVni onadan bolaga o'tish profilaktikasini birlamchi tibbiyot muassasalarida (QVP, poliklinika) yo'lga qo'yish tartibi."
+},
+{
+"cat": "oliy",
+"q": "Davolash-profilaktika muasasalarida sanitariya-gigiyena, epidemiyaga qarshi chora-tadbirlar, dezinfeksiya va sterilizatsiya rejimlariga rioya etilishi qaysi me'yoriy hujjat bilan reglamentatsiya qilinadi?"
+},
+{
+"cat": "oliy",
+"q": "Davolash-profilaktika muassasalarida yuqumli kasalliklar ro'yhatga olinganda shoshilinch xabarnoma qaysi vaqt oralig'ida berilishi kerak va qaysi jurnalda qayd etiladi?"
+},
+{
+"cat": "oliy",
+"q": "Agar tug'ruqqa kelgan ayol almashinuv varaqasida OIV-infeksiyasiga tekshirilmagan bo'lsa tug'ruq kompleksi (bo'limida) qaysi usul bilan OIVga tekshiriladi?"
+},
+{
+"cat": "oliy",
+"q": "Davolash-profilaktika muassasalarida shifoxona ichi infeksiyalarini oldini olish bo'yicha qanday komissiya tashkil etiladi?"
+},
+{
+"cat": "oliy",
+"q": "Tarkibida xlor saqlovchi 0,5%li dezinfeksiya vositasi yordamida dezinfeksiya ishlari olib borilganda spora hosil qiluvchi mikroorganizmlarni zararsizlantirish mumkinmi?"
+},
+{
+"cat": "oliy",
+"q": "Quritish shkafida sterilizatsiya ishlari qaysi harorat va ekspozitsiyada amalga oshiriladi?"
+},
+{
+"cat": "oliy",
+"q": "Meningit kasallik belgilari, meningokokkli infeksiya o'chog'ida o'tkaziladigan asosiy chora-tadbirlarda hamshiraning vazifalari."
+},
+{
+"cat": "oliy",
+"q": "Tug'ruqxonadan tashqaridagi tug'ruqlarda ayolga va tug'ilgan chaqaloqqa shoshilinch yordam ko'rsatish."
+},
+{
+"cat": "oliy",
+"q": "Hiqildoqga, kekirdakga, qizilo'ngachga yot jismlar tushganda tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "oliy",
+"q": "Bosh suyagi va miya jarohatining klinik belgilari, shifoxonagacha bo'lgan bosqichdagi jonlashtirish tadbirlarini ayting."
+},
+{
+"cat": "oliy",
+"q": "O'tkir zaharlanishda ichki a'zolardan zaharli moddalarni chiqarib tashlash usullarini ayting."
+},
+{
+"cat": "oliy",
+"q": "Kimyoviy moddalar bilan o'tkir zaharlanishlarda asosiy patologik sindromlar va tez tibbiy yordam ko'rsatish."
+},
+{
+"cat": "oliy",
+"q": "Uyqu keltiradigan ta'sirga ega bo'lgan dorilar bilan zaharlanganda shoshilinch yordam ko'rsatish."
+},
+{
+"cat": "oliy",
+"q": "Umurtqa pog'onasi suyaklarini sinish sabablari, klinik belgilari, birinchi tibbiy yordam ko'rsatish, langetani qo'llash usuli haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Zararsizlantiruvchi eritmalarni tayyorlash me'yoriy qoidalari. Zararsizlantiruvchi modallar bilan zaharlanganda birinchi yordam ko'rsatish haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Gipertoniya kasaligiga olib keladigan sabablar, klinik belgilari, gipertonik krizda shifokorgacha hamshira yordamini ko'rsatish qanday bo'lishi lozim?"
+},
+{
+"cat": "oliy",
+"q": "Oshqozon-ichak yarasidan qon ketish simptomlari, unda hamshiraning taktikasi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Mastit, mastopatiya sabablari, klinik belgilari, kasallikni aniklashda hamshira taktikasi va ayolga o'zini tekshirib kasallikni erta aniqlashni o'rgatish."
+},
+{
+"cat": "oliy",
+"q": "Miya chayqalishi va uning sabablari, klinik belgilari, hamshiralik parvarishi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Miokard infarktining sabablari, simptomlari va shifokorgacha birinchi tibbiy yordam ko'rsatish qanday bo'lishi lozim?"
+},
+{
+"cat": "oliy",
+"q": "DOTS dasturi haqida tushuncha, uning maqsadi, vazifalari va undan kutilayotgan natijalar."
+},
+{
+"cat": "oliy",
+"q": "Kardiogen shokning sabablari, klinik belgilari, shifokorgacha birinchi tibbiy yordam ko'rsatish."
+},
+{
+"cat": "oliy",
+"q": "Qon ketish turlari, qon ketishni uzil-kesil va vaqtinchalik to'xtatish usullarini qo'llashda hamshiraning vazifalari."
+},
+{
+"cat": "oliy",
+"q": "Yuqorigi nafas yo'llaridan yot jismni chiqarib tashlashda |Geymlix usulini qo'llash texnikasi."
+},
+{
+"cat": "oliy",
+"q": "1 yoshgacha va 5 yoshgacha bo'lgan bolalarning o'sish va rivojlanish monitoringini patronaj hamshira tomonidan olib boriladigan kuzatuvi."
+},
+{
+"cat": "oliy",
+"q": "Zamonaviy, gormonal kontratseptiv vositalarining turlari, ularning afzalliklari va noto'g'ri qo'llanganda uchraydigan asoratlarni sanab bering."
+},
+{
+"cat": "oliy",
+"q": "“Muvaffaqiyatli emizish tomon 11 qadam” tamoyili haqida tushuncha va uning afzalliklari."
+},
+{
+"cat": "oliy",
+"q": "Homiladorlikka TORCH- infeksiyasining ta'siri, uning asoratlari va oldini olishda hamshiraning vazifalari."
+},
+{
+"cat": "oliy",
+"q": "O'zbekiston Respublikasida “Onalar va bolalar sog'lig'ini muhofaza qilishda amalga oshirilayotgan ishlar” haqida ma'lumot."
+},
+{
+"cat": "oliy",
+"q": "Homiladorlik muddatini, tug'ruq vaqtini aniqlash, homiladorlarda o'tkaziladigan laborator tekshiruvlar va homilador ayollar almashuv varaqasini to'ldirish."
+},
+{
+"cat": "oliy",
+"q": "Nechta parhez taomnomasi mavjud? Ularni qo'llashga ko'rsatmalar va taomnomani yig'ishda hamshiraning vazifalari."
+},
+{
+"cat": "oliy",
+"q": "Tibbiyot statistikasining asosiy vazifalari nimalardan iborat? Stat. talonni to'ldirishda hamshiraning vazifasi qanday?"
+},
+{
+"cat": "oliy",
+"q": "O'ta xavfli yuqumli kasalliklarining boshqa yuqumli kasalliklardan farq qiladigan jihatlari va ularni oldini olishda hamshiraning vazifalari nimadan iborat?"
+},
+{
+"cat": "oliy",
+"q": "DPMlarda sanitariya rejimi, epidemiyaga qarshi va dezinfeksiya rejimlari to'g'risida amaldagi me'yoriy hujjatlar haqida tushuncha."
+},
+{
+"cat": "oliy",
+"q": "Narkotik bo'lgan va narkotik bo'lmagan og'riq qoldiruvchi dori vositalarini ayting. Doriga beriluvchanlik (o'rganib qolishlik, qaramlik), uni oldini olish tadbirlarida hamshiraning vazifalari nimadan iborat?"
+},
+{
+"cat": "oliy",
+"q": "Nafas olish markazini qo'zg'atadigan, nafas olish faoliyatini yaxshilaydigan dori vositalari, shakllari, qo'llash tartibi haqida ma'lumot bering."
+},
+{
+"cat": "oliy",
+"q": "Gipoglikemiya, giperglikemiya – uning yuzaga kelishi, belgilari, davolashda qo'llaniladigan dori vositalari haqida tushuncha."
+}
+]
+}

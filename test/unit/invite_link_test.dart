@@ -1,0 +1,135 @@
+import 'package:flutter_test/flutter_test.dart';
+import 'package:nurseguide/features/classroom/invite_link.dart';
+
+const _a = '0f8b2c4e-1d2a-4b3c-9d8e-7f6a5b4c3d2e';
+
+void main() {
+  group('inviteUrl', () {
+    test('kod va test id', () {
+      expect(
+        inviteUrl('ABCD2345'),
+        'https://nurseguide.nfcstore.uz/j/?c=ABCD2345',
+      );
+      expect(
+        inviteUrl('ABCD2345', assignmentId: _a),
+        'https://nurseguide.nfcstore.uz/j/?c=ABCD2345&a=$_a',
+      );
+    });
+
+    test('havola qayta o‘qiladi', () {
+      expect(
+        parseInvite(inviteUrl('ABCD2345', assignmentId: _a)),
+        const InviteTarget('ABCD2345', assignmentId: _a),
+      );
+    });
+  });
+
+  group('parseInvite', () {
+    test('xom kod: kichik harf, bo‘shliq, chiziqcha', () {
+      expect(parseInvite('abcd2345'), const InviteTarget('ABCD2345'));
+      expect(parseInvite(' ABCD 2345 '), const InviteTarget('ABCD2345'));
+      expect(parseInvite('abcd-2345'), const InviteTarget('ABCD2345'));
+    });
+
+    test('sayt, ilova va eski havolalar', () {
+      expect(
+        parseInvite('https://nurseguide.nfcstore.uz/j/?c=abcd2345&a=$_a'),
+        const InviteTarget('ABCD2345', assignmentId: _a),
+      );
+      expect(
+        parseInvite('nurseguide://app/j?c=ABCD2345'),
+        const InviteTarget('ABCD2345'),
+      );
+      expect(
+        parseInvite('/learn/classes/join?code=ABCD2345'),
+        const InviteTarget('ABCD2345'),
+      );
+      // Test id buzuq bo'lsa — faqat kod.
+      expect(
+        parseInvite('https://nurseguide.nfcstore.uz/j/?c=ABCD2345&a=1;DROP'),
+        const InviteTarget('ABCD2345'),
+      );
+    });
+
+    test('taklif matni (uz/ru/en) va havolali matn', () {
+      expect(
+        parseInvite(
+          'NurseGuide ilovasidagi “KLD-1” guruhiga qo‘shiling: O‘rganish → '
+          'Guruh va topshiriqlar → Kod bilan qo‘shilish. Kod: ABCD2345',
+        ),
+        const InviteTarget('ABCD2345'),
+      );
+      expect(
+        parseInvite('Вступайте в группу. Код: abcd-2345.'),
+        const InviteTarget('ABCD2345'),
+      );
+      expect(
+        parseInvite(
+          'Join my group! Code: ABCD2345\n'
+          'https://nurseguide.nfcstore.uz/j/?c=ABCD2345&a=$_a',
+        ),
+        const InviteTarget('ABCD2345', assignmentId: _a),
+      );
+    });
+
+    test('axlat — null (taxmin qilinmaydi)', () {
+      for (final junk in [
+        null,
+        '',
+        '   ',
+        'salom',
+        'ABCD234', // 7 belgi
+        'ABCD23456', // 9 belgi
+        'ABCD0O1I', // taqiqlangan belgilar
+        'https://example.com/?q=1',
+        'https://nurseguide.nfcstore.uz/j/?c=ZZZ',
+        // Ikki xil kod — qaysi biri ekanini bilmaymiz.
+        'ABCD2345 va WXYZ6789',
+        'x' * 3000,
+      ]) {
+        expect(parseInvite(junk), isNull, reason: '$junk');
+      }
+    });
+  });
+
+  // Ilova ichidagi skaner (D-68) QR matnini shu funksiyaga beradi.
+  group('skanerlangan QR matni', () {
+    test('ustoz QR lari: guruh, test, ilova sxemasi, xom kod', () {
+      expect(
+        parseInvite(inviteUrl('ABCD2345')),
+        const InviteTarget('ABCD2345'),
+      );
+      expect(
+        parseInvite(inviteUrl('ABCD2345', assignmentId: _a)),
+        const InviteTarget('ABCD2345', assignmentId: _a),
+      );
+      expect(
+        parseInvite('nurseguide://app/j?c=ABCD2345&a=$_a'),
+        const InviteTarget('ABCD2345', assignmentId: _a),
+      );
+      // Ba'zi generatorlar oxiriga yangi qator/bo'shliq qo'shadi.
+      expect(parseInvite('ABCD2345\n'), const InviteTarget('ABCD2345'));
+      expect(
+        parseInvite(' ${inviteUrl('ABCD2345')}\r\n'),
+        const InviteTarget('ABCD2345'),
+      );
+      // http (https emas) va katta harfli xost ham o'qiladi.
+      expect(
+        parseInvite('HTTP://NURSEGUIDE.NFCSTORE.UZ/j/?c=abcd2345'),
+        const InviteTarget('ABCD2345'),
+      );
+    });
+
+    test('begona QR lar — null', () {
+      for (final junk in [
+        'WIFI:S:Net;T:WPA;P:secret;;',
+        'BEGIN:VCARD\nFN:Lola\nEND:VCARD',
+        'https://example.com/menu',
+        'tel:+998901234567',
+        '4601234567893', // EAN-13 shtrix-kod raqami
+      ]) {
+        expect(parseInvite(junk), isNull, reason: junk);
+      }
+    });
+  });
+}

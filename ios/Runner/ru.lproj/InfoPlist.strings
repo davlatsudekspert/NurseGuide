@@ -1,0 +1,3 @@
+/* Ruxsat so'rovlari matnlari (Info.plist kalitlari). */
+"NSCameraUsageDescription" = "NurseGuide использует камеру, только если вы решите отсканировать QR-код группы или теста от преподавателя (читается на устройстве, изображение не сохраняется и не отправляется) или сделать фото для обращения.";
+"NSPhotoLibraryUsageDescription" = "NurseGuide открывает фото, только когда вы прикрепляете снимок экрана к обращению.";

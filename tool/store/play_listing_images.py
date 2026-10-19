@@ -47,16 +47,10 @@ def main() -> int:
         print('Do\'kon sahifasida til yo\'q — avval Play Console\'da sahifani yarating.', file=sys.stderr)
         return 3
     icon = os.path.join(ROOT, 'play', 'app_icon_512.png')
-    def feature_for(lang):
-        code = lang.split('-')[0].lower()
-        name = f'feature_graphic_{code}_1024x500.png'
-        path = os.path.join(ROOT, 'play', name)
-        if os.path.exists(path):
-            return path
-        return os.path.join(ROOT, 'play', 'feature_graphic_uz_1024x500.png')
+    feature = os.path.join(ROOT, 'play', 'feature_graphic_1024x500.png')
     for lang in langs:
         shots = sorted(glob.glob(os.path.join(ROOT, 'play', 'screenshots', '*.png')))[:8]
-        plan = [('icon', [icon]), ('featureGraphic', [feature_for(lang)]), ('phoneScreenshots', shots)]
+        plan = [('icon', [icon]), ('featureGraphic', [feature]), ('phoneScreenshots', shots)]
         for kind, files in plan:
             edits.images().deleteall(packageName=PACKAGE, editId=edit_id,
                                      language=lang, imageType=kind).execute()

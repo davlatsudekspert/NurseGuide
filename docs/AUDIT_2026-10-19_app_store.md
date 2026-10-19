@@ -21,7 +21,7 @@ xom kalit yo‘q. Topilgan yagona “0 ta” — `/learn/exam` (bo‘sh kontent 
 | 6 | Og‘zaki javoblar (bilet) | 4 ta reja xavfli/eskirgan: cho‘kish, spirt surrogati (tuzli suv bilan qusdirish), yot jism, it tishlashi | Yuqori | Yashirildi (4 bilet ham chiqmaydi); **ochiq:** mutaxassis yangilaguncha qaytmaydi |
 | 7 | Test ng-o-143 (xlorgeksidin) | Rasmiy kalit tibbiy jihatdan shubhali | O‘rta | Testdan chiqarildi (held) |
 | 8 | Manipulyatsiya “Me’dani yuvish” | Darslik “kislotadan zaharlanishda yuvish shart” deydi (eskirgan) | O‘rta | Yashirildi; **ochiq:** toksikolog ko‘rigi |
-| 9 | Manipulyatsiya “Siydik pufagini kateterlash” | Eskirgan vositalar (simobli antiseptik, qayta qaynatiladigan kateter) | O‘rta | **Ochiq** — ilovada “muassasa ko‘rsatmasi va SSV buyruqlari bilan solishtiring” eslatmasi bor; mutaxassis ko‘rigi kerak |
+| 9 | Manipulyatsiyalar: kateterlash, vena/mushak ichiga, teri ichiga | Eskirgan amaliyot (qaynatiladigan kateter, simobli antiseptik, sterillanadigan shpris, igna kesim burchagi 40–45°, Mantu 24–48 soat) | O‘rta | Tuzatildi (bir martalik steril shpris/kateter, Mantu 72 soat); ochiq qismi `docs/PROCEDURES_REVIEW.md` da |
 | 10 | Manipulyatsiyalar (en/ru) | Nomlar, bo‘lim sarlavhalari, kategoriyalar o‘zbekcha — chala tarjima | Yuqori | Tuzatildi: 10 manipulyatsiya × uz/ru/en nomi, 4 bo‘lim; ruscha: 169 qadam, maqsad, jihoz, tekshiruv, xavflar; inglizcha: o‘zbekcha qadam + bitta qisqa eslatma |
 | 11 | Manipulyatsiya eslatmalari | Ikkita yashil eslatma | Past | Tuzatildi: bitta qisqa qator |
 | 12 | Manba qatori (ru/en) | “стр. 2007, 304” — yil bet raqami bo‘lib qolgan | Yuqori | Tuzatildi + test |

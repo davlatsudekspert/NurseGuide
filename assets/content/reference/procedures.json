@@ -57,7 +57,7 @@
      "text": "Qolgan bo'rtmacha 0,5-1 soat mobaynida so'rilib ketishini kuzating; 0,5-1 soatdan so'ng teri qizarsa, bu dorini qo'llashdan voz keching."
     },
     {
-     "text": "Mantu, Byurne, Kasoni sinamalarining natijalariga 24-48 soat o'tgach baho bering."
+     "text": "Mantu sinamasi natijasini odatda 72 soatdan so'ng, Byurne va Kasoni sinamalarini 24-48 soatdan so'ng baholang."
     },
     {
      "text": "Shpris va ignani o'sha zahoti oqar suv tagida yuvib, ishlatilgan asboblar uchun ajratilgan idishga qo'ying."
@@ -71,7 +71,7 @@
     "Igna teriga deyarli parallel, uchi yuqoriga qaragan holda kiritildimi?",
     "Faqat igna teshigi botguncha kiritildimi?",
     "Muolajadan keyin qo'lqoplar yechildimi?",
-    "Natija 0,5-1 soatdan (Mantu, Byurne, Kasoni: 24-48 soatdan) so'ng baholandimi?"
+    "Natija 0,5-1 soatdan (Mantu odatda 72 soatdan, Byurne va Kasoni 24-48 soatdan) so'ng baholandimi?"
    ],
    "risks": [
     "Aseptika qoidalariga rioya qilinmasa, organizmga mikroblar tushib, infeksion asoratlar rivojlanishi mumkin, bu ba'zan o'lim bilan tugaydi.",
@@ -139,7 +139,7 @@
        "text": "Наблюдайте, как образовавшаяся папула рассасывается в течение 0,5-1 часа; если через 0,5-1 час кожа покраснеет, откажитесь от применения этого лекарства."
       },
       {
-       "text": "Оцените результаты проб Манту, Бюрне, Касони через 24-48 часов."
+       "text": "Результат пробы Манту оценивайте обычно через 72 часа, пробы Бюрне и Касони — через 24-48 часов."
       },
       {
        "text": "Сразу же промойте шприц и иглу под проточной водой и поместите их в ёмкость, предназначенную для использованных инструментов."
@@ -153,7 +153,7 @@
       "Введена ли игла почти параллельно коже, срезом вверх?",
       "Введена ли игла только до погружения среза?",
       "Сняты ли перчатки после процедуры?",
-      "Оценён ли результат через 0,5-1 час (Манту, Бюрне, Касони — через 24-48 часов)?"
+      "Оценён ли результат через 0,5-1 час (Манту — обычно через 72 часа, Бюрне и Касони — через 24-48 часов)?"
      ],
      "risks": [
       "При несоблюдении правил асептики в организм могут попасть микробы и развиться инфекционные осложнения, которые иногда заканчиваются смертью.",
@@ -509,7 +509,7 @@
     "Igna sinishi va sinig'ining to'qimalarda qolib ketishi (mushaklarning to'satdan qisqarishi, o'tmas va nuqsonli igna)",
     "Nerv stvollarining (quymich nervi va boshqa nervlar) shikastlanishi: nevrit, sezuvchanlikning buzilishi, falajlik, parezlar",
     "Dori emboliyalari (teri osti inyeksiyalaridagidan ko'proq sodir bo'ladi)",
-    "Yiringli infeksiya (abssess), gazli infeksiya, qoqshol, zardob gepatiti (shprislar va ignalar yetarlicha sterillanmaganda)",
+    "Yiringli infeksiya (abssess), gazli infeksiya, qoqshol, zardob gepatiti (steril bo'lmagan yoki qayta ishlatilgan shpris va ignalar ishlatilganda)",
     "O'tmas igna bilan inyeksiyada to'qimalar qattiq shikastlanib mo'mataloq bo'lib qolishi, yiring boylab abssess paydo bo'lishi",
     "Antibiotiklar kiritilganda anafilaktik shok va boshqa allergik reaksiyalar"
    ],
@@ -617,7 +617,7 @@
       "Отлом иглы и оставление обломка в тканях (внезапное сокращение мышц, тупая и дефектная игла)",
       "Повреждение нервных стволов (седалищного нерва и других нервов): неврит, нарушение чувствительности, параличи, парезы",
       "Лекарственные эмболии (встречаются чаще, чем при подкожных инъекциях)",
-      "Гнойная инфекция (абсцесс), газовая инфекция, столбняк, сывороточный гепатит (при недостаточной стерилизации шприцев и игл)",
+      "Гнойная инфекция (абсцесс), газовая инфекция, столбняк, сывороточный гепатит (при использовании нестерильных или повторно использованных шприцев и игл)",
       "При инъекции тупой иглой — сильное повреждение тканей с образованием гематомы, нагноением и формированием абсцесса",
       "Анафилактический шок и другие аллергические реакции при введении антибиотиков"
      ],
@@ -638,7 +638,7 @@
    ],
    "contraindications": [],
    "equipment": [
-    "Sig'imi 10-20 ml li, ignasi o'tkir shpris",
+    "Sig'imi 10-20 ml li bir martalik steril shpris",
     "Venaga dori quyish uchun igna: uzunligi 5-6 sm, bo'shlig'i 0,3 dan 0,5 mm gacha",
     "Rezina jgut",
     "Spirt",
@@ -649,7 +649,7 @@
    ],
    "steps": [
     {
-     "text": "Shpris va ignalarni muolajadan oldin yaxshilab sterillang."
+     "text": "Bir martalik steril shpris va igna oling; qadog'ining butunligini tekshiring."
     },
     {
      "text": "Qo'lingizni sovunlab iliq suvda yuving, spirt bilan arting, tirnoq atroflarini yod nastoykasi bilan arting va steril qo'lqoplarni kiying."
@@ -695,7 +695,7 @@
     }
    ],
    "checklist": [
-    "Sterillangan shpris va o'tkir igna tayyorlandimi?",
+    "Bir martalik steril shpris va igna olindimi (qadoq butunligi tekshirildimi)?",
     "Qo'llar yuvilib, steril qo'lqoplar kiyildimi?",
     "Eritma nomi, tayyorlanish kuni va dozasi tekshirildimi?",
     "Dori o'ramidagi yozuv o'qilib, bemordan preparatga reaksiyasi surishtirildimi?",
@@ -730,7 +730,7 @@
      ],
      "contraindications": [],
      "equipment": [
-      "Шприц ёмкостью 10-20 мл с острой иглой",
+      "Одноразовый стерильный шприц ёмкостью 10-20 мл",
       "Игла для внутривенного вливания: длиной 5-6 см, с просветом от 0,3 до 0,5 мм",
       "Резиновый жгут",
       "Спирт",
@@ -741,7 +741,7 @@
      ],
      "steps": [
       {
-       "text": "Перед процедурой тщательно простерилизуйте шприц и иглы."
+       "text": "Возьмите одноразовые стерильные шприц и иглу; проверьте целостность упаковки."
       },
       {
        "text": "Вымойте руки с мылом в тёплой воде, протрите их спиртом, обработайте кожу вокруг ногтей настойкой йода и наденьте стерильные перчатки."
@@ -787,7 +787,7 @@
       }
      ],
      "checklist": [
-      "Подготовлены ли стерилизованный шприц и острая игла?",
+      "Взяты ли одноразовые стерильные шприц и игла (проверена ли целостность упаковки)?",
       "Вымыты ли руки и надеты ли стерильные перчатки?",
       "Проверены ли название раствора, дата приготовления и доза?",
       "Прочитана ли надпись на упаковке лекарства и расспрошен ли пациент о реакции на препарат?",
@@ -1238,7 +1238,7 @@
     "Steril vazelin moyi",
     "Pinset yoki steril doka salfetka",
     "Jarrohlik (tibbiy) qo'lqoplari",
-    "Zararsizlaydigan eritma (sulema eritmasi 1:10000, furasillin, simob oksisianid eritmasi) va paxta bo'lakchasi",
+    "Teri va shilliq qavat antiseptigi (muassasada tasdiqlangan) va paxta bo'lakchasi",
     "Siydik oqib tushadigan idish («utka», lotok yoki krujka)",
     "Siydikni ekma uchun olish kerak bo'lsa: steril probirka va steril paxta tiqin"
    ],
@@ -1247,7 +1247,7 @@
      "text": "Kateterlashni zarur bo'lgandagina va iloji boricha jarrohlik qo'lqoplarida o'tkazing."
     },
     {
-     "text": "Kateterni ishlatishdan oldin 10-15 daqiqa qaynating."
+     "text": "Steril bir martalik kateter oling; qadog'ining butunligi va yaroqlilik muddatini tekshiring."
     },
     {
      "text": "Qo'lqop kiymasangiz, qo'lingizni iliq suvda sovunlab yuving va tirnoq falangalarini spirt va yod eritmasi bilan arting."
@@ -1271,7 +1271,7 @@
      "text": "Siydik o'zicha ajralmasa, qoldiq siydikni chiqarish uchun qorin devori orqali qovuq sohasini biroz bosing, so'ngra kateterni asta-sekin chiqaring."
     },
     {
-     "text": "Siydikni ekma uchun olish kerak bo'lsa, steril probirka chetlarini alanga ustidan o'tkazing va to'lgach steril paxta tiqin bilan berkiting."
+     "text": "Siydikni ekma uchun olish kerak bo'lsa, uni steril probirkaga oling va to'lgach steril tiqin bilan berkiting."
     },
     {
      "text": "Erkaklarda: qo'lqop kiying; bemorni oyoqlarini tizzasidan biroz bukib chalqancha yotqizing, oyoqlari orasiga «utka», lotok yoki krujka qo'ying."
@@ -1297,7 +1297,7 @@
    ],
    "checklist": [
     "Kateterlash zarurligi aniqmi?",
-    "Kateter 10-15 daqiqa qaynatilganmi?",
+    "Kateter qadog'ining butunligi va yaroqlilik muddati tekshirildimi?",
     "Qo'lqoplar kiyilganmi (yoki qo'llar yuvilib, tirnoqlar spirt va yod bilan artilganmi)?",
     "Siydik chiqarish kanali teshigi (jinsiy olat boshchasi) zararsizlovchi eritma bilan artildimi?",
     "Kateter steril vazelin moyi surtilib, pinset yoki steril salfetka bilan olindimi?",
@@ -1334,7 +1334,7 @@
       "Стерильное вазелиновое масло",
       "Пинцет или стерильная марлевая салфетка",
       "Хирургические (медицинские) перчатки",
-      "Обеззараживающий раствор (раствор сулемы 1:10000, фурацилин, раствор оксицианида ртути) и кусочек ваты",
+      "Антисептик для кожи и слизистых (утверждённый в учреждении) и кусочек ваты",
       "Ёмкость для стекания мочи («утка», лоток или кружка)",
       "Если нужно взять мочу на посев: стерильная пробирка и стерильная ватная пробка"
      ],
@@ -1343,7 +1343,7 @@
        "text": "Проводите катетеризацию только при необходимости и по возможности в хирургических перчатках."
       },
       {
-       "text": "Перед использованием прокипятите катетер в течение 10-15 минут."
+       "text": "Возьмите стерильный одноразовый катетер; проверьте целостность упаковки и срок годности."
       },
       {
        "text": "Если вы не надеваете перчатки, вымойте руки тёплой водой с мылом и обработайте ногтевые фаланги спиртом и раствором йода."
@@ -1367,7 +1367,7 @@
        "text": "Если моча не выделяется самостоятельно, для выведения остаточной мочи слегка надавите на область мочевого пузыря через брюшную стенку, затем медленно извлеките катетер."
       },
       {
-       "text": "Если нужно взять мочу на посев, проведите края стерильной пробирки над пламенем, а после наполнения закройте её стерильной ватной пробкой."
+       "text": "Если нужно взять мочу на посев, соберите её в стерильную пробирку и после наполнения закройте стерильной пробкой."
       },
       {
        "text": "У мужчин: наденьте перчатки; уложите пациента на спину с немного согнутыми в коленях ногами, между ног поставьте «утку», лоток или кружку."
@@ -1393,7 +1393,7 @@
      ],
      "checklist": [
       "Ясна ли необходимость катетеризации?",
-      "Прокипячён ли катетер 10-15 минут?",
+      "Проверены ли целостность упаковки катетера и срок годности?",
       "Надеты ли перчатки (или вымыты ли руки и обработаны ли ногти спиртом и йодом)?",
       "Обработано ли отверстие мочеиспускательного канала (головка полового члена) обеззараживающим раствором?",
       "Смазан ли катетер стерильным вазелиновым маслом и взят ли пинцетом или стерильной салфеткой?",

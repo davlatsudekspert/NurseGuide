@@ -111,3 +111,19 @@ Noaniq / qarama-qarshi:
 ## Umumiy ogohlantirishlar
 - Maqsad (goal) bandi tana harorati va puls uchun kitobda alohida "maqsad" jumlasi sifatida berilmagan; protsedura tavsifi sifatida tuzildi (tibbiy da'vosiz).
 - Hech bir qiymat kitobdan tashqari manbadan to'ldirilmadi; maydon bo'sh bo'lsa, kitobda yo'q.
+
+## 2026-10-19 — eskirgan amaliyot tuzatishlari (egasi ko‘rsatmasi bo‘yicha)
+Darslik (Inomov, 2007) matniga bir martalik shpris/igna davriga mos o‘zgartirishlar kiritildi. Yangi tibbiy fakt
+qo‘shilmadi: eskirgan tafsilotlar olib tashlandi yoki zamonaviy standart bilan almashtirildi (o‘zbekcha va ruscha).
+
+| Muolaja | O‘zgarish |
+|---|---|
+| Teri ichiga inyeksiya | Igna uchining «40–45°» kesim burchagi olib tashlandi (bir martalik shprisda igna tayyor keladi). Mantu sinamasi natijasi odatda 72 soatdan so‘ng baholanadi (Byurne/Kasoni — 24–48 soat). |
+| Mushak ichiga | Xavf matnida «yetarlicha sterillanmagan» → «steril bo‘lmagan yoki qayta ishlatilgan shpris/igna». |
+| Vena ichiga | «Shpris va ignani sterillang» → bir martalik steril shpris/igna, qadoq butunligi tekshiriladi. |
+| Siydik pufagini kateterlash | «Kateterni 10–15 daqiqa qaynating» → steril bir martalik kateter, qadoq va yaroqlilik muddati; simobli antiseptiklar ro‘yxati → «muassasada tasdiqlangan antiseptik»; probirka chetini alangada kuydirish olib tashlandi. |
+| Me’dani yuvish | Ilovada yashirin (kislotadan zaharlanishda yuvish «shart» deyiladi — eskirgan), toksikolog ko‘rigidan keyin qaytariladi. |
+
+**Ochiq (mutaxassis qarori kerak):** simobli termometr/sfigmomanometr (elektron muqobil ko‘rsatilmagan);
+teri osti inyeksiyada yod nastoykasi; mushak ichiga antibiotik sinamasi (teri ostiga/ichiga — amaldagi tartib);
+pulsning me’yori (60–80 → 60–100); IM inyeksiya: igna kiritish chuqurligi tavsifi.

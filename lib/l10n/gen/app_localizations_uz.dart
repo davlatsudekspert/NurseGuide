@@ -434,7 +434,7 @@ class AppLocalizationsUz extends AppLocalizations {
       'Tarjima yordamchi; baholash rasmiy o‘zbekcha matn bo‘yicha.';
 
   @override
-  String get toifaLoadError => 'Savollar bankini ochib bo‘lmadi';
+  String get toifaLoadError => 'Savollar ro‘yxatini ochib bo‘lmadi';
 
   @override
   String get toifaYourCategory => 'Toifangiz';
@@ -470,7 +470,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String toifaTestRowSub(int count, int bank) {
-    return '$count ta tasodifiy savol · bankda $bank ta';
+    return '$count ta tasodifiy savol · jami $bank ta';
   }
 
   @override
@@ -550,7 +550,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String toifaFormatStep1(int count, int bank) {
-    return 'Bankdagi $bank ta savoldan tasodifiy $count tasi.';
+    return 'Ro‘yxatdagi $bank ta savoldan tasodifiy $count tasi.';
   }
 
   @override
@@ -1632,7 +1632,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get examSourceMissing =>
-      'Bu imtihonning savollar banki ilovada topilmadi';
+      'Bu imtihonning savollar ro‘yxati ilovada topilmadi';
 
   @override
   String get examMultiHint => 'Bir nechta to‘g‘ri javob — hammasini belgilang';
@@ -1773,7 +1773,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get classesNoAssignmentsTeacher =>
-      'Hali topshiriq yo‘q. Savol bankidan mavzu va sonni tanlab topshiriq bering.';
+      'Hali topshiriq yo‘q. Savollar ro‘yxatidan mavzu va sonni tanlab topshiriq bering.';
 
   @override
   String get classesNoAssignmentsStudent => 'Hozircha topshiriq yo‘q';
@@ -2089,10 +2089,10 @@ class AppLocalizationsUz extends AppLocalizations {
   String get themeCurrent => 'Joriy mavzu';
 
   @override
-  String get themeClassicName => 'Klassik';
+  String get themeClassicName => 'Tiniq shisha';
 
   @override
-  String get themeClassicDesc => 'NurseGuide yashil ranglari';
+  String get themeClassicDesc => 'Yumshoq shisha va 3D belgilar';
 
   @override
   String get themeIvoryName => 'Ivory';
@@ -4673,6 +4673,66 @@ class AppLocalizationsUz extends AppLocalizations {
   @override
   String get workVitalSource =>
       'Manba: Inomov Q.S., «Hamshiralik ishi asoslari», 4-nashr, Toshkent, 2007, 170/173/177-bet (PDF).';
+
+  @override
+  String get litTitle => 'Adabiyotlar';
+
+  @override
+  String get litSub => 'Savollar va ma’lumotlar tayanadigan manbalar';
+
+  @override
+  String get litNote =>
+      'Kitob matni ilovada saqlanmaydi: matnlar o‘z so‘zimiz bilan, har birining ostida manba ko‘rsatilgan.';
+
+  @override
+  String get litTextbooks => 'Darsliklar';
+
+  @override
+  String get litOfficial => 'Rasmiy hujjatlar';
+
+  @override
+  String get litOpen => 'Ochiq litsenziyali manbalar';
+
+  @override
+  String get litOther => 'Boshqa xalqaro manbalar';
+
+  @override
+  String get litMainBadge => 'Asosiy';
+
+  @override
+  String get litRelies => 'Tayanadi';
+
+  @override
+  String litQuestionsN(int count) {
+    return '$count savol';
+  }
+
+  @override
+  String litProceduresN(int count) {
+    return '$count muolaja';
+  }
+
+  @override
+  String litTermsN(int count) {
+    return '$count atama';
+  }
+
+  @override
+  String get litTopics => 'Mavzular';
+
+  @override
+  String get litOpenLink => 'Ochish';
+
+  @override
+  String litMore(int count) {
+    return 'va yana $count ta';
+  }
+
+  @override
+  String get litLicense => 'Litsenziya';
+
+  @override
+  String get litDetailEmpty => 'Bu manbaga tayangan material yo‘q.';
 
   @override
   String get workTitle => 'Ish joyi';

@@ -859,7 +859,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaLoadError.
   ///
   /// In en, this message translates to:
-  /// **'Could not open the question bank'**
+  /// **'Could not open the question list'**
   String get toifaLoadError;
 
   /// No description provided for @toifaYourCategory.
@@ -925,7 +925,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaTestRowSub.
   ///
   /// In en, this message translates to:
-  /// **'{count} random questions · {bank} in the bank'**
+  /// **'{count} random questions · {bank} in total'**
   String toifaTestRowSub(int count, int bank);
 
   /// No description provided for @toifaPracticeTitle.
@@ -1045,7 +1045,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaFormatStep1.
   ///
   /// In en, this message translates to:
-  /// **'{count} random questions out of {bank} in the bank.'**
+  /// **'{count} random questions out of {bank} in the list.'**
   String toifaFormatStep1(int count, int bank);
 
   /// No description provided for @toifaFormatStep2.
@@ -2827,7 +2827,7 @@ abstract class AppLocalizations {
   /// No description provided for @examSourceMissing.
   ///
   /// In en, this message translates to:
-  /// **'This exam’s question bank isn’t available in the app'**
+  /// **'This exam’s question list isn’t available in the app'**
   String get examSourceMissing;
 
   /// No description provided for @examMultiHint.
@@ -3073,7 +3073,7 @@ abstract class AppLocalizations {
   /// No description provided for @classesNoAssignmentsTeacher.
   ///
   /// In en, this message translates to:
-  /// **'No assignments yet. Pick topics and a number of questions from the bank to set one.'**
+  /// **'No assignments yet. Pick topics and a number of questions from the list to set one.'**
   String get classesNoAssignmentsTeacher;
 
   /// No description provided for @classesNoAssignmentsStudent.
@@ -3619,13 +3619,13 @@ abstract class AppLocalizations {
   /// No description provided for @themeClassicName.
   ///
   /// In en, this message translates to:
-  /// **'Classic'**
+  /// **'Clear glass'**
   String get themeClassicName;
 
   /// No description provided for @themeClassicDesc.
   ///
   /// In en, this message translates to:
-  /// **'NurseGuide\'s signature green'**
+  /// **'Soft glass and 3D icons'**
   String get themeClassicDesc;
 
   /// No description provided for @themeIvoryName.
@@ -8109,6 +8109,108 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Source: Inomov Q.S., “Fundamentals of Nursing” (Hamshiralik ishi asoslari), 4th ed., Tashkent, 2007, pp. 170/173/177 (PDF).'**
   String get workVitalSource;
+
+  /// No description provided for @litTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'References'**
+  String get litTitle;
+
+  /// No description provided for @litSub.
+  ///
+  /// In en, this message translates to:
+  /// **'Sources the questions and reference material rely on'**
+  String get litSub;
+
+  /// No description provided for @litNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Book text is not stored in the app: material is in our own words with the source shown under each item.'**
+  String get litNote;
+
+  /// No description provided for @litTextbooks.
+  ///
+  /// In en, this message translates to:
+  /// **'Textbooks'**
+  String get litTextbooks;
+
+  /// No description provided for @litOfficial.
+  ///
+  /// In en, this message translates to:
+  /// **'Official documents'**
+  String get litOfficial;
+
+  /// No description provided for @litOpen.
+  ///
+  /// In en, this message translates to:
+  /// **'Openly licensed sources'**
+  String get litOpen;
+
+  /// No description provided for @litOther.
+  ///
+  /// In en, this message translates to:
+  /// **'Other international sources'**
+  String get litOther;
+
+  /// No description provided for @litMainBadge.
+  ///
+  /// In en, this message translates to:
+  /// **'Main'**
+  String get litMainBadge;
+
+  /// No description provided for @litRelies.
+  ///
+  /// In en, this message translates to:
+  /// **'Used by'**
+  String get litRelies;
+
+  /// No description provided for @litQuestionsN.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} questions'**
+  String litQuestionsN(int count);
+
+  /// No description provided for @litProceduresN.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} procedures'**
+  String litProceduresN(int count);
+
+  /// No description provided for @litTermsN.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} terms'**
+  String litTermsN(int count);
+
+  /// No description provided for @litTopics.
+  ///
+  /// In en, this message translates to:
+  /// **'Topics'**
+  String get litTopics;
+
+  /// No description provided for @litOpenLink.
+  ///
+  /// In en, this message translates to:
+  /// **'Open'**
+  String get litOpenLink;
+
+  /// No description provided for @litMore.
+  ///
+  /// In en, this message translates to:
+  /// **'and {count} more'**
+  String litMore(int count);
+
+  /// No description provided for @litLicense.
+  ///
+  /// In en, this message translates to:
+  /// **'Licence'**
+  String get litLicense;
+
+  /// No description provided for @litDetailEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'No material relies on this source.'**
+  String get litDetailEmpty;
 
   /// No description provided for @workTitle.
   ///

@@ -251,9 +251,8 @@ GoRouter buildRouter(
                 routes: [
                   GoRoute(
                     path: ':id',
-                    builder: (context, state) => ProcedureDetailScreen(
-                      id: state.pathParameters['id']!,
-                    ),
+                    builder: (context, state) =>
+                        ProcedureDetailScreen(id: state.pathParameters['id']!),
                   ),
                 ],
               ),
@@ -311,6 +310,18 @@ GoRouter buildRouter(
                   GoRoute(
                     path: 'glossary',
                     builder: (context, state) => const GlossaryScreen(),
+                  ),
+                  GoRoute(
+                    path: 'literature',
+                    builder: (context, state) => const LiteratureScreen(),
+                    routes: [
+                      GoRoute(
+                        path: ':id',
+                        builder: (context, state) => LiteratureDetailScreen(
+                          id: state.pathParameters['id']!,
+                        ),
+                      ),
+                    ],
                   ),
                 ],
               ),

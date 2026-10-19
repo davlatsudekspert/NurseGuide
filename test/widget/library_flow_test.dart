@@ -34,13 +34,13 @@ void main() {
   });
 
   testWidgets(
-    'library: sections shell is glossary · books · saved · sources only',
+    'library: sections shell is glossary · literature · saved · sources',
     (tester) async {
       final s = await makeServices(tester);
       await pumpApp(tester, s);
       await goTo(tester, '/library');
       expect(find.text(_uz.glossaryTitle), findsOneWidget);
-      expect(find.text(_uz.libBooks), findsOneWidget);
+      expect(find.text(_uz.litTitle), findsOneWidget);
       expect(find.text(_uz.featureSaved), findsOneWidget);
       expect(find.text(_uz.libSources), findsOneWidget);
       expect(find.byType(LgRow), findsNWidgets(4));
@@ -102,5 +102,33 @@ void main() {
     await _tapText(tester, _uz.libOpenPending);
     expect(find.byType(LibraryItemCard), findsOneWidget);
     expect(find.text('Kutilayotgan sinov kitobi'), findsOneWidget);
+  });
+
+  testWidgets('adabiyotlar: kartalar, hisob va tayangan materiallar', (
+    tester,
+  ) async {
+    final s = await makeServices(tester);
+    await pumpApp(tester, s, size: const Size(390, 3200));
+    await goTo(tester, '/library/literature');
+    await tester.runAsync(
+      () => Future<void>.delayed(const Duration(milliseconds: 50)),
+    );
+    await tester.pumpAndSettle();
+    expect(find.text(_uz.litTextbooks), findsOneWidget);
+    // Sinov to'plamida faqat muolaja/atama bor (Inomov); savol banki soxta —
+    // unga tayangan manbalar (Ahmedova, rasmiy hujjatlar) bo'sh bo'lgani
+    // uchun umuman ko'rsatilmaydi.
+    expect(find.byKey(const ValueKey('lit-inomov2007')), findsOneWidget);
+    expect(find.byKey(const ValueKey('lit-ahmedova2015')), findsNothing);
+    expect(find.text(_uz.litOfficial), findsNothing);
+    // Hisob avtomatik: "0 ta" kabi bo'sh qatorlar yo'q.
+    expect(find.textContaining(' 0 '), findsNothing);
+    await _tap(tester, find.byKey(const ValueKey('lit-inomov2007')));
+    await tester.runAsync(
+      () => Future<void>.delayed(const Duration(milliseconds: 50)),
+    );
+    await tester.pumpAndSettle();
+    // Inomov kitobiga tayangan muolajalar ro'yxati.
+    expect(find.text('Tozalovchi huqna'), findsWidgets);
   });
 }

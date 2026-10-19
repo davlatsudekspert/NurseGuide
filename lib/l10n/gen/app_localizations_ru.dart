@@ -436,7 +436,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Перевод вспомогательный; оценка — по официальному узбекскому тексту.';
 
   @override
-  String get toifaLoadError => 'Не удалось открыть банк вопросов';
+  String get toifaLoadError => 'Не удалось открыть список вопросов';
 
   @override
   String get toifaYourCategory => 'Ваша категория';
@@ -472,7 +472,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String toifaTestRowSub(int count, int bank) {
-    return '$count случайных вопросов · в банке $bank';
+    return '$count случайных вопросов · всего $bank';
   }
 
   @override
@@ -553,7 +553,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String toifaFormatStep1(int count, int bank) {
-    return 'Случайные $count из $bank вопросов банка.';
+    return 'Случайные $count из $bank вопросов списка.';
   }
 
   @override
@@ -1823,7 +1823,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get classesNoAssignmentsTeacher =>
-      'Заданий пока нет. Выберите темы и число вопросов из банка и дайте задание.';
+      'Заданий пока нет. Выберите темы и число вопросов из списка и дайте задание.';
 
   @override
   String get classesNoAssignmentsStudent => 'Пока заданий нет';
@@ -2146,10 +2146,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get themeCurrent => 'Текущая тема';
 
   @override
-  String get themeClassicName => 'Классика';
+  String get themeClassicName => 'Прозрачное стекло';
 
   @override
-  String get themeClassicDesc => 'Фирменная зелёная палитра NurseGuide';
+  String get themeClassicDesc => 'Мягкое стекло и 3D-значки';
 
   @override
   String get themeIvoryName => 'Ivory';
@@ -4764,6 +4764,66 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get workVitalSource =>
       'Источник: Иномов К.С., «Основы сестринского дела», 4-е изд., Ташкент, 2007, с. 170/173/177 (PDF).';
+
+  @override
+  String get litTitle => 'Литература';
+
+  @override
+  String get litSub => 'Источники, на которые опираются вопросы и сведения';
+
+  @override
+  String get litNote =>
+      'Текст книг в приложении не хранится: материалы изложены своими словами, под каждым указан источник.';
+
+  @override
+  String get litTextbooks => 'Учебники';
+
+  @override
+  String get litOfficial => 'Официальные документы';
+
+  @override
+  String get litOpen => 'Источники с открытой лицензией';
+
+  @override
+  String get litOther => 'Другие международные источники';
+
+  @override
+  String get litMainBadge => 'Основной';
+
+  @override
+  String get litRelies => 'Опирается';
+
+  @override
+  String litQuestionsN(int count) {
+    return 'Вопросов: $count';
+  }
+
+  @override
+  String litProceduresN(int count) {
+    return 'Манипуляций: $count';
+  }
+
+  @override
+  String litTermsN(int count) {
+    return 'Терминов: $count';
+  }
+
+  @override
+  String get litTopics => 'Темы';
+
+  @override
+  String get litOpenLink => 'Открыть';
+
+  @override
+  String litMore(int count) {
+    return 'и ещё $count';
+  }
+
+  @override
+  String get litLicense => 'Лицензия';
+
+  @override
+  String get litDetailEmpty => 'Материалов, опирающихся на этот источник, нет.';
 
   @override
   String get workTitle => 'Рабочее место';

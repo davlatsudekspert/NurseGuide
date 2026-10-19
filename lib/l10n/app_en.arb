@@ -195,7 +195,7 @@
   "toifaHideOriginal": "Hide original text",
   "toifaOriginalTitle": "Official text (Uzbek)",
   "toifaTranslationAux": "The translation is auxiliary; scoring follows the official Uzbek text.",
-  "toifaLoadError": "Could not open the question bank",
+  "toifaLoadError": "Could not open the question list",
   "toifaYourCategory": "Your category",
   "toifaCatSecond": "Second category",
   "toifaCatFirst": "First category",
@@ -206,7 +206,7 @@
   "toifaReadyOral": "Oral",
   "toifaPrepare": "Preparation",
   "toifaTestTitle": "Category test",
-  "toifaTestRowSub": "{count} random questions · {bank} in the bank",
+  "toifaTestRowSub": "{count} random questions · {bank} in total",
   "@toifaTestRowSub": {
     "placeholders": {
       "count": {
@@ -317,7 +317,7 @@
     }
   },
   "toifaFormatTitle": "Format",
-  "toifaFormatStep1": "{count} random questions out of {bank} in the bank.",
+  "toifaFormatStep1": "{count} random questions out of {bank} in the list.",
   "@toifaFormatStep1": {
     "placeholders": {
       "count": {
@@ -1180,7 +1180,7 @@
   "examWrongTag": "Wrong",
   "examWhyWrong": "Why not this answer",
   "examNoSource": "No source is given for this question.",
-  "examSourceMissing": "This exam’s question bank isn’t available in the app",
+  "examSourceMissing": "This exam’s question list isn’t available in the app",
   "examMultiHint": "Several correct answers — select all",
   "examNoExplanation": "No explanation has been written for this question yet.",
   "examByTopic": "By topic",
@@ -1245,7 +1245,7 @@
   "classesGroupMissing": "Class not found, or you’re no longer a member",
   "classesBackToList": "Back to classes",
   "classesAssignments": "Assignments",
-  "classesNoAssignmentsTeacher": "No assignments yet. Pick topics and a number of questions from the bank to set one.",
+  "classesNoAssignmentsTeacher": "No assignments yet. Pick topics and a number of questions from the list to set one.",
   "classesNoAssignmentsStudent": "No assignments yet",
   "classesNoAssignmentsStudentBody": "When your teacher sets one, it will appear here.",
   "classesNoDue": "no due date",
@@ -1469,8 +1469,8 @@
   "themeTitle": "Theme",
   "themeRowSub": "App colours and title type",
   "themeCurrent": "Current theme",
-  "themeClassicName": "Classic",
-  "themeClassicDesc": "NurseGuide's signature green",
+  "themeClassicName": "Clear glass",
+  "themeClassicDesc": "Soft glass and 3D icons",
   "themeIvoryName": "Ivory",
   "themeIvoryDesc": "Ivory, ink and gold with elegant serif titles",
   "themeModeSection": "Light or dark",
@@ -3018,6 +3018,51 @@
   "workVitalResp": "Respiratory rate",
   "workVitalPerMin": "per minute",
   "workVitalSource": "Source: Inomov Q.S., “Fundamentals of Nursing” (Hamshiralik ishi asoslari), 4th ed., Tashkent, 2007, pp. 170/173/177 (PDF).",
+  "litTitle": "References",
+  "litSub": "Sources the questions and reference material rely on",
+  "litNote": "Book text is not stored in the app: material is in our own words with the source shown under each item.",
+  "litTextbooks": "Textbooks",
+  "litOfficial": "Official documents",
+  "litOpen": "Openly licensed sources",
+  "litOther": "Other international sources",
+  "litMainBadge": "Main",
+  "litRelies": "Used by",
+  "litQuestionsN": "{count} questions",
+  "@litQuestionsN": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "litProceduresN": "{count} procedures",
+  "@litProceduresN": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "litTermsN": "{count} terms",
+  "@litTermsN": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "litTopics": "Topics",
+  "litOpenLink": "Open",
+  "litMore": "and {count} more",
+  "@litMore": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "litLicense": "Licence",
+  "litDetailEmpty": "No material relies on this source.",
   "workTitle": "Workplace",
   "workSub": "Quick reference for your shift",
   "workEmptyTitle": "Coming soon",

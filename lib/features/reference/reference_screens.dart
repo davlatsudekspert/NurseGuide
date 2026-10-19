@@ -3,6 +3,7 @@ import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
 
 import '../../app/app_scope.dart';
+import '../../app/widgets/links.dart';
 import '../../app/widgets/lg_page.dart';
 import '../../design/glass_art.dart';
 import '../../design/tokens.dart';
@@ -355,7 +356,7 @@ class _GlossaryScreenState extends State<GlossaryScreen> {
                       children: [
                         Text(t.term, style: text.titleMedium),
                         const SizedBox(height: 4),
-                        Text(t.definition, style: text.bodyLarge),
+                        Text('«${t.definition}»', style: text.bodyLarge),
                         const SizedBox(height: 8),
                         Text(t.source, style: text.bodySmall),
                       ],
@@ -366,6 +367,244 @@ class _GlossaryScreenState extends State<GlossaryScreen> {
           },
         ),
       ],
+    );
+  }
+}
+
+/// Adabiyotlar: kitob, rasmiy hujjat va ochiq manbalar — har birining ostida
+/// ilovadagi nechta savol/muolaja/atama unga tayanishi (avtomatik hisob).
+class LiteratureScreen extends StatelessWidget {
+  const LiteratureScreen({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context);
+    return LgPage(
+      title: l.litTitle,
+      subtitle: l.litSub,
+      children: [
+        FutureBuilder<ReferenceData>(
+          future: ReferenceData.load(_bundle(context)),
+          builder: (context, snap) {
+            final data = snap.data;
+            if (data == null) return const SizedBox(height: 120);
+            final usage = data.usage();
+            final groups = [
+              ('textbooks', l.litTextbooks),
+              ('official', l.litOfficial),
+              ('open', l.litOpen),
+              ('other', l.litOther),
+            ];
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                _uzbekNote(context),
+                LgNotice(l.litNote, kind: NoticeKind.info),
+                for (final (id, label) in groups)
+                  if (usage.any((u) => u.entry.group == id)) ...[
+                    LgSectionTitle(label),
+                    for (final u in usage.where((u) => u.entry.group == id))
+                      _LiteratureCard(usage: u),
+                  ],
+                const SizedBox(height: 24),
+              ],
+            );
+          },
+        ),
+      ],
+    );
+  }
+}
+
+class _LiteratureCard extends StatelessWidget {
+  const _LiteratureCard({required this.usage});
+
+  final LiteratureUsage usage;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context);
+    final p = LgPalette.of(context);
+    final text = Theme.of(context).textTheme;
+    final e = usage.entry;
+    final who = [
+      if (e.author.isNotEmpty) e.author,
+      if (e.year != null) '${e.year}',
+    ].join(', ');
+    final topics = usage.topics(l.procTitle, l.glossaryTitle);
+    final relies = [
+      if (usage.questions.isNotEmpty) l.litQuestionsN(usage.questions.length),
+      if (usage.procedures.isNotEmpty)
+        l.litProceduresN(usage.procedures.length),
+      if (usage.terms.isNotEmpty) l.litTermsN(usage.terms.length),
+    ].join(' · ');
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 6),
+      child: DecoratedBox(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(LgRadius.card),
+          boxShadow: LgShadow.card(context),
+        ),
+        child: LgPressable(
+          key: ValueKey('lit-${e.id}'),
+          onTap: () => context.push('/library/literature/${e.id}'),
+          color: p.paper,
+          border: LgShadow.rim(context),
+          borderRadius: BorderRadius.circular(LgRadius.card),
+          semanticLabel: '${e.title}. $relies',
+          child: Padding(
+            padding: const EdgeInsets.all(16),
+            child: ExcludeSemantics(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  Row(
+                    crossAxisAlignment: CrossAxisAlignment.start,
+                    children: [
+                      Expanded(child: Text(e.title, style: text.titleMedium)),
+                      if (e.main) LgTag(l.litMainBadge),
+                    ],
+                  ),
+                  if (who.isNotEmpty) ...[
+                    const SizedBox(height: 4),
+                    Text(who, style: text.bodyMedium),
+                  ],
+                  if (e.publisher.isNotEmpty)
+                    Text(e.publisher, style: text.bodySmall),
+                  const SizedBox(height: 10),
+                  Text(
+                    '${l.litRelies}: $relies',
+                    style: text.bodyMedium!.copyWith(
+                      color: p.ink,
+                      fontWeight: FontWeight.w600,
+                    ),
+                  ),
+                  if (topics.isNotEmpty) ...[
+                    const SizedBox(height: 4),
+                    Text(
+                      '${l.litTopics}: ${topics.join(', ')}',
+                      style: text.bodySmall,
+                    ),
+                  ],
+                  if (e.license != null || e.url != null) ...[
+                    const SizedBox(height: 10),
+                    Wrap(
+                      spacing: 8,
+                      runSpacing: 8,
+                      crossAxisAlignment: WrapCrossAlignment.center,
+                      children: [
+                        if (e.license != null)
+                          LgTag('${l.litLicense}: ${e.license}'),
+                        if (e.url != null)
+                          LgTag(
+                            e.url!
+                                .replaceFirst('https://', '')
+                                .split('/')
+                                .first,
+                            icon: Icons.open_in_new_rounded,
+                          ),
+                      ],
+                    ),
+                  ],
+                ],
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+}
+
+/// Bitta manbaga tayangan savollar, muolajalar va atamalar ro'yxati.
+class LiteratureDetailScreen extends StatelessWidget {
+  const LiteratureDetailScreen({super.key, required this.id});
+
+  final String id;
+
+  static const _maxQuestions = 80;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context);
+    final text = Theme.of(context).textTheme;
+    return FutureBuilder<ReferenceData>(
+      future: ReferenceData.load(_bundle(context)),
+      builder: (context, snap) {
+        final data = snap.data;
+        if (data == null) return LgPage(title: l.litTitle, children: const []);
+        final usage = data.usage().where((u) => u.entry.id == id).firstOrNull;
+        if (usage == null) {
+          return LgPage(
+            title: l.litTitle,
+            children: [
+              LgStateView(
+                kind: StateKind.empty,
+                title: l.litTitle,
+                message: l.litDetailEmpty,
+              ),
+            ],
+          );
+        }
+        final e = usage.entry;
+        final shown = usage.questions.take(_maxQuestions).toList();
+        return LgPage(
+          title: e.title,
+          subtitle: [
+            if (e.author.isNotEmpty) e.author,
+            if (e.year != null) '${e.year}',
+          ].join(', '),
+          children: [
+            _uzbekNote(context),
+            if (e.url != null)
+              Padding(
+                padding: const EdgeInsets.symmetric(vertical: 8),
+                child: LgButton.secondary(
+                  key: const ValueKey('lit-open'),
+                  label: l.litOpenLink,
+                  icon: Icons.open_in_new_rounded,
+                  onPressed: () => openExternalLink(context, e.url!),
+                ),
+              ),
+            if (e.license != null)
+              Padding(
+                padding: const EdgeInsets.only(bottom: 8),
+                child: LgTag('${l.litLicense}: ${e.license}'),
+              ),
+            if (usage.procedures.isNotEmpty) ...[
+              LgSectionTitle(l.procTitle),
+              for (final p in usage.procedures)
+                LgRow(
+                  title: p.title,
+                  subtitle: l.procStepsCount(p.steps.length),
+                  icon: Icons.checklist_rounded,
+                  onTap: () => context.push('/procedures/${p.id}'),
+                ),
+            ],
+            if (usage.terms.isNotEmpty) ...[
+              LgSectionTitle(l.glossaryTitle),
+              Text(
+                usage.terms.map((t) => t.term).join(' · '),
+                style: text.bodyLarge,
+              ),
+            ],
+            if (usage.questions.isNotEmpty) ...[
+              LgSectionTitle(l.litQuestionsN(usage.questions.length)),
+              for (final q in shown)
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 6),
+                  child: Text(q.text, style: text.bodyMedium),
+                ),
+              if (usage.questions.length > shown.length)
+                Text(
+                  l.litMore(usage.questions.length - shown.length),
+                  style: text.bodySmall,
+                ),
+            ],
+            const SizedBox(height: 24),
+          ],
+        );
+      },
     );
   }
 }

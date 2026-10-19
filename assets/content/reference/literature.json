@@ -1,0 +1,276 @@
+{
+ "version": 1,
+ "entries": [
+  {
+   "id": "ahmedova2015",
+   "group": "textbooks",
+   "author": "Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I. (tahrir: prof. D.I. Ahmedova)",
+   "year": 2015,
+   "title": "Hamshiralik ishi (oliy hamshiralik ishi uchun darslik)",
+   "publisher": "Toshkent",
+   "match": [
+    "Ahmedova"
+   ],
+   "role": "main"
+  },
+  {
+   "id": "inomov2007",
+   "group": "textbooks",
+   "author": "Inomov Q.S. (tahrir: prof. M.G‘. G‘aniyeva)",
+   "year": 2007,
+   "title": "Hamshiralik ishi asoslari (tibbiyot kollejlari uchun darslik, 4-nashr)",
+   "publisher": "Toshkent: O‘zbekiston milliy ensiklopediyasi",
+   "match": [
+    "Inomov"
+   ]
+  },
+  {
+   "id": "tmbm",
+   "group": "official",
+   "author": "Tibbiyot va farmatsevtika xodimlarining malakasini baholash markazi",
+   "title": "Attestatsiya test savollari bazasi (Hamshiralik ishi, Oliy hamshiralik ishi, Patronaj)",
+   "publisher": "O‘zR Sog‘liqni saqlash vazirligi",
+   "match": [
+    "TMBM"
+   ],
+   "url": "https://tmbm.ssv.uz"
+  },
+  {
+   "id": "ssv16",
+   "group": "official",
+   "author": "O‘zR Sog‘liqni saqlash vazirligi",
+   "year": 2026,
+   "title": "SSV buyrug‘i № 16 «Aholiga patronaj xizmatini ko‘rsatish to‘g‘risida»",
+   "publisher": "O‘zR SSV",
+   "match": [
+    "SSV buyruq № 16"
+   ]
+  },
+  {
+   "id": "sanqvam0342",
+   "group": "official",
+   "author": "O‘zR Sog‘liqni saqlash vazirligi",
+   "year": 2017,
+   "title": "SanQvaM № 0342-17 «Kasalxona ichi infeksiyalari profilaktikasi»",
+   "publisher": "O‘zR SSV",
+   "match": [
+    "0342-17"
+   ],
+   "url": "https://gov.uz/oz/ssv/sections/sanitariya-qoidalari-va-me-yorlari"
+  },
+  {
+   "id": "sanqvam0365",
+   "group": "official",
+   "author": "O‘zR Sog‘liqni saqlash vazirligi",
+   "year": 2019,
+   "title": "SanQvaM № 0365-19 (sterilizatsiya markazlarini loyihalash va ekspluatatsiya qilish)",
+   "publisher": "O‘zR SSV",
+   "match": [
+    "0365-19"
+   ],
+   "url": "https://gov.uz/oz/ssv/sections/sanitariya-qoidalari-va-me-yorlari"
+  },
+  {
+   "id": "sanqvam0239",
+   "group": "official",
+   "author": "O‘zR Sog‘liqni saqlash vazirligi",
+   "year": 2007,
+   "title": "SanQvaM № 0239-07/3 (immunoprofilaktika)",
+   "publisher": "O‘zR SSV",
+   "match": [
+    "0239-07"
+   ],
+   "url": "https://gov.uz/oz/ssv/sections/sanitariya-qoidalari-va-me-yorlari"
+  },
+  {
+   "id": "sanqvam_list",
+   "group": "official",
+   "author": "O‘zR Sog‘liqni saqlash vazirligi",
+   "year": 2024,
+   "title": "Amaldagi sanitariya qoidalari, normalari va gigiyena normativlari ro‘yxati (01.05.2024)",
+   "publisher": "O‘zR SSV",
+   "match": [
+    "Amaldagi SanQvaM",
+    "Amaldagi sanitariya qoidalari",
+    "0317-15"
+   ],
+   "url": "https://gov.uz/oz/ssv/sections/sanitariya-qoidalari-va-me-yorlari"
+  },
+  {
+   "id": "oiv2584",
+   "group": "official",
+   "author": "O‘zR Adliya vazirligi, ro‘yxat raqami 2584 (2014; 2017 va 2024 yillarda o‘zgartirilgan)",
+   "year": 2014,
+   "title": "Odamning immunitet tanqisligi virusiga tibbiy tekshiruvdan o‘tkazish qoidalari",
+   "publisher": "O‘zR SSV",
+   "match": [
+    "Odamning immunitet tanqisligi virusiga tibbiy tekshiruv"
+   ],
+   "url": "https://lex.uz/uz/docs/-2389421"
+  },
+  {
+   "id": "orq393",
+   "group": "official",
+   "author": "O‘zbekiston Respublikasi Qonuni, O‘RQ-393",
+   "year": 2015,
+   "title": "Aholining sanitariya-epidemiologik osoyishtaligi to‘g‘risida",
+   "publisher": "lex.uz",
+   "match": [
+    "Aholining sanitariya-epidemiologik osoyishtaligi"
+   ],
+   "url": "https://lex.uz/uz/docs/-2732587"
+  },
+  {
+   "id": "vm718",
+   "group": "official",
+   "author": "O‘zR Vazirlar Mahkamasi",
+   "year": 2017,
+   "title": "13.09.2017 dagi 718-son qarori (birlamchi tibbiy-sanitariya yordami sifatini oshirish)",
+   "publisher": "lex.uz",
+   "match": [
+    "№ 718",
+    "718-son"
+   ],
+   "url": "https://lex.uz/uz/docs/-3345594"
+  },
+  {
+   "id": "vm48",
+   "group": "official",
+   "author": "O‘zR Vazirlar Mahkamasi",
+   "year": 2025,
+   "title": "29.01.2025 dagi 48-son qarori (Sanitariya-epidemiologik osoyishtalik qo‘mitasi nizomi)",
+   "publisher": "lex.uz",
+   "match": [
+    "48-son"
+   ],
+   "url": "https://lex.uz/uz/docs/-7350831"
+  },
+  {
+   "id": "vm384",
+   "group": "official",
+   "author": "O‘zR Vazirlar Mahkamasi",
+   "year": 2025,
+   "title": "20.06.2025 dagi 384-son qarori (oilaviy poliklinikada aholiga xizmat ko‘rsatish tartibi)",
+   "publisher": "",
+   "match": [
+    "№ 384"
+   ]
+  },
+  {
+   "id": "qonun265",
+   "group": "official",
+   "author": "O‘zbekiston Respublikasi Qonuni, № 265-I",
+   "year": 1996,
+   "title": "Fuqarolar sog‘ligini saqlash to‘g‘risida",
+   "publisher": "",
+   "match": [
+    "Fuqarolar sog'ligini saqlash to'g'risida"
+   ]
+  },
+  {
+   "id": "pq4191",
+   "group": "official",
+   "author": "O‘zR Prezidentining qarori, PQ-4191",
+   "year": 2019,
+   "title": "Palliativ yordam va xospislar",
+   "publisher": "",
+   "match": [
+    "PQ-4191"
+   ]
+  },
+  {
+   "id": "ssv270",
+   "group": "official",
+   "author": "O‘zR Sog‘liqni saqlash vazirining buyrug‘i, 270-son",
+   "year": 2025,
+   "title": "29.08.2025 dagi buyruq (birinchi bosqich shakllar ro‘yxati)",
+   "publisher": "O‘zR SSV",
+   "match": [
+    "270-son"
+   ]
+  },
+  {
+   "id": "openstax",
+   "group": "open",
+   "author": "OpenStax, Rice University",
+   "year": 2024,
+   "title": "Fundamentals of Nursing; Clinical Nursing Skills; Medical-Surgical Nursing; Maternal Newborn Nursing",
+   "publisher": "OpenStax",
+   "match": [
+    "OpenStax"
+   ],
+   "license": "CC BY 4.0",
+   "url": "https://openstax.org/subjects/nursing"
+  },
+  {
+   "id": "who",
+   "group": "open",
+   "author": "Jahon sog‘liqni saqlash tashkiloti (JSST / WHO)",
+   "title": "Fakt varaqlari (fact sheets) va qo‘llanmalar",
+   "publisher": "JSST",
+   "match": [
+    "JSST",
+    "WHO"
+   ],
+   "license": "CC BY-NC-SA 3.0 IGO",
+   "url": "https://www.who.int/news-room/fact-sheets"
+  },
+  {
+   "id": "cdc",
+   "group": "open",
+   "author": "AQSh Kasalliklarni nazorat qilish va oldini olish markazlari (CDC, HICPAC, NIOSH)",
+   "title": "Ko‘rsatmalar va MMWR hisobotlari",
+   "publisher": "CDC",
+   "match": [
+    "CDC",
+    "NIOSH",
+    "MMWR",
+    "HICPAC"
+   ],
+   "license": "AQSh federal hukumati materiali",
+   "url": "https://www.cdc.gov"
+  },
+  {
+   "id": "nih",
+   "group": "open",
+   "author": "AQSh Milliy sog‘liqni saqlash institutlari (NIH HIVinfo)",
+   "title": "HIV Treatment Basics",
+   "publisher": "NIH",
+   "match": [
+    "NIH"
+   ],
+   "url": "https://hivinfo.nih.gov"
+  },
+  {
+   "id": "statpearls",
+   "group": "open",
+   "author": "StatPearls (NCBI Bookshelf)",
+   "title": "Klinik ma‘lumotnoma maqolalari",
+   "publisher": "NCBI",
+   "match": [
+    "StatPearls"
+   ],
+   "url": "https://www.ncbi.nlm.nih.gov/books/"
+  },
+  {
+   "id": "intl_other",
+   "group": "other",
+   "author": "Xalqaro ilmiy maqolalar va darsliklar (PubMed / PMC, Cochrane, ACOG/AAP, Williams Obstetrics, Nelson, Bates va boshqalar)",
+   "title": "Har bir savol ostida aniq muallif, jurnal va bo‘lim ko‘rsatilgan",
+   "publisher": "",
+   "match": [
+    "Xalqaro tavsiya",
+    "Bennett I.L.",
+    "Korean J",
+    "Hubalek",
+    "Community Eye Health",
+    "NLM",
+    "MedlinePlus",
+    "Wohrley",
+    "J Clin Med",
+    "Gastroenterol Hepatol"
+   ],
+   "url": "https://pubmed.ncbi.nlm.nih.gov"
+  }
+ ]
+}

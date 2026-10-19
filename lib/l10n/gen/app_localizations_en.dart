@@ -432,7 +432,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'The translation is auxiliary; scoring follows the official Uzbek text.';
 
   @override
-  String get toifaLoadError => 'Could not open the question bank';
+  String get toifaLoadError => 'Could not open the question list';
 
   @override
   String get toifaYourCategory => 'Your category';
@@ -468,7 +468,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String toifaTestRowSub(int count, int bank) {
-    return '$count random questions · $bank in the bank';
+    return '$count random questions · $bank in total';
   }
 
   @override
@@ -548,7 +548,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String toifaFormatStep1(int count, int bank) {
-    return '$count random questions out of $bank in the bank.';
+    return '$count random questions out of $bank in the list.';
   }
 
   @override
@@ -1658,7 +1658,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get examSourceMissing =>
-      'This exam’s question bank isn’t available in the app';
+      'This exam’s question list isn’t available in the app';
 
   @override
   String get examMultiHint => 'Several correct answers — select all';
@@ -1812,7 +1812,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get classesNoAssignmentsTeacher =>
-      'No assignments yet. Pick topics and a number of questions from the bank to set one.';
+      'No assignments yet. Pick topics and a number of questions from the list to set one.';
 
   @override
   String get classesNoAssignmentsStudent => 'No assignments yet';
@@ -2142,10 +2142,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get themeCurrent => 'Current theme';
 
   @override
-  String get themeClassicName => 'Classic';
+  String get themeClassicName => 'Clear glass';
 
   @override
-  String get themeClassicDesc => 'NurseGuide\'s signature green';
+  String get themeClassicDesc => 'Soft glass and 3D icons';
 
   @override
   String get themeIvoryName => 'Ivory';
@@ -4756,6 +4756,66 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get workVitalSource =>
       'Source: Inomov Q.S., “Fundamentals of Nursing” (Hamshiralik ishi asoslari), 4th ed., Tashkent, 2007, pp. 170/173/177 (PDF).';
+
+  @override
+  String get litTitle => 'References';
+
+  @override
+  String get litSub => 'Sources the questions and reference material rely on';
+
+  @override
+  String get litNote =>
+      'Book text is not stored in the app: material is in our own words with the source shown under each item.';
+
+  @override
+  String get litTextbooks => 'Textbooks';
+
+  @override
+  String get litOfficial => 'Official documents';
+
+  @override
+  String get litOpen => 'Openly licensed sources';
+
+  @override
+  String get litOther => 'Other international sources';
+
+  @override
+  String get litMainBadge => 'Main';
+
+  @override
+  String get litRelies => 'Used by';
+
+  @override
+  String litQuestionsN(int count) {
+    return '$count questions';
+  }
+
+  @override
+  String litProceduresN(int count) {
+    return '$count procedures';
+  }
+
+  @override
+  String litTermsN(int count) {
+    return '$count terms';
+  }
+
+  @override
+  String get litTopics => 'Topics';
+
+  @override
+  String get litOpenLink => 'Open';
+
+  @override
+  String litMore(int count) {
+    return 'and $count more';
+  }
+
+  @override
+  String get litLicense => 'Licence';
+
+  @override
+  String get litDetailEmpty => 'No material relies on this source.';
 
   @override
   String get workTitle => 'Workplace';

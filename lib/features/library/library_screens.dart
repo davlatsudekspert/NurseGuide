@@ -16,7 +16,7 @@ import 'library_filters.dart';
 import 'library_widgets.dart';
 
 /// Kutubxona bo'limlari (qobiq): kitoblar, saqlanganlar, manbalar.
-enum LibrarySection { glossary, books, saved, sources }
+enum LibrarySection { glossary, literature, books, saved, sources }
 
 class LibraryScreen extends StatelessWidget {
   const LibraryScreen({super.key});
@@ -33,7 +33,11 @@ class LibraryScreen extends StatelessWidget {
         final count = services.content.pack?.library
             .where((i) => libraryItemAvailableIn(i, uiLang))
             .length;
-        const sections = LibrarySection.values;
+        // Katalog bo'sh bo'lsa "0 ta manba" qatori ko'rsatilmaydi.
+        final sections = [
+          for (final s in LibrarySection.values)
+            if (s != LibrarySection.books || (count ?? 0) > 0) s,
+        ];
         return LgPage(
           title: l.libTitle,
           subtitle: l.libSubtitle,
@@ -84,6 +88,12 @@ class _SectionRow extends StatelessWidget {
         l.glossarySub,
         Icons.spellcheck_rounded,
         '/library/glossary',
+      ),
+      LibrarySection.literature => (
+        l.litTitle,
+        l.litSub,
+        Icons.menu_book_rounded,
+        '/library/literature',
       ),
       LibrarySection.books => (
         l.libBooks,

@@ -3,7 +3,6 @@
 // rejimda, oddiy va kichik ekranda (360x640, shrift 1.3x) ochiladi.
 // Overflow, istisno yoki "xom" kalit (l10n) chiqsa test yiqiladi.
 import 'package:flutter/services.dart';
-import 'package:flutter/widgets.dart' show Size;
 import 'package:flutter_test/flutter_test.dart';
 import 'package:material_ui/material_ui.dart' show Brightness, ThemeMode;
 import 'package:nurseguide/features/reference/reference_data.dart';
@@ -72,8 +71,9 @@ void main() {
         );
         await tester.pumpAndSettle(const Duration(milliseconds: 200));
         final e = tester.takeException();
-        if (e != null)
+        if (e != null) {
           problems.add('$route → ${e.toString().split('\n').first}');
+        }
       }
       expect(problems, isEmpty, reason: problems.join('\n'));
     });

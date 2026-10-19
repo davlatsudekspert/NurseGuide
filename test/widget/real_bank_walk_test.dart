@@ -5,7 +5,6 @@ import 'dart:math';
 
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:nurseguide/features/toifa/toifa_bank.dart';
 import 'package:nurseguide/l10n/gen/app_localizations.dart';
 import 'package:material_ui/material_ui.dart';
 

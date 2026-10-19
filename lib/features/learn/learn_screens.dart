@@ -127,7 +127,7 @@ class LearnScreen extends StatelessWidget {
             icon: Icons.slideshow_outlined,
             onTap: () => context.push('/learn/lecture'),
           ),
-        if (quizCount > 0) ...[
+        if (quizCount > 0 || context.services.exams.active != null) ...[
           LgRow(
             title: l.learnQuiz,
             subtitle: l.learnQuizSub(quizCount),

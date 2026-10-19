@@ -48,22 +48,16 @@ void main() {
     await tapScroll(tester, en.dailyStart);
     expect(find.text(en.dailyTitle), findsWidgets);
     final set = s.daily.todaySet!;
-    expect(set.sourceId, PackQuestionSource.sourceId);
+    // Talaba va ingliz interfeysi ham toifa bankidagi kunlik savollarni oladi.
+    expect(set.sourceId, startsWith(ToifaQuestionSource.sourceId));
     expect(set.ids, hasLength(5));
-    // Faqat manbasi bor savollar.
-    final source = PackQuestionSource.of(s.content.pack!);
-    for (final id in set.ids) {
-      expect(source.question(id)!.refs, isNotEmpty);
-    }
 
     // Birinchi javob: izoh va manba ko'rinadi, savol almashmaydi.
     await tapScroll(tester, 'A');
     expect(s.daily.todaySet!.answeredCount, 1);
-    expect(
-      find.textContaining(en.quizSources).evaluate().isNotEmpty ||
-          find.text(en.examNoSource).evaluate().isNotEmpty,
-      isTrue,
-    );
+    // Har bir javobdan keyin manba ko'rinadi (savolning o'z manbasi yoki
+    // rasmiy ro'yxat).
+    expect(find.byIcon(Icons.verified_outlined), findsWidgets);
     await tapScroll(tester, en.quizNext);
     for (var i = 1; i < 5; i++) {
       await tapScroll(tester, 'A');

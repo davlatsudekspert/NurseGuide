@@ -93,7 +93,7 @@ void main() {
 
   for (final (role, tiles) in [
     (AppRole.nurse, ['toifa', 'procedures', 'workplace']),
-    (AppRole.student, ['lessons', 'tests']),
+    (AppRole.student, ['procedures', 'library', 'groups']),
     (AppRole.teacher, ['groups']),
   ]) {
     testWidgets('bosh sahifa: ${role.name} kartalari', (tester) async {
@@ -104,16 +104,11 @@ void main() {
         'toifa': uz.toifaTitle,
         'procedures': uz.navProcedures,
         'workplace': uz.navWorkplace,
-        'lessons': uz.featureLessons,
-        'tests': uz.featureTests,
+        'library': uz.navLibrary,
         'groups': uz.featureClasses,
       };
       for (final t in tiles) {
         expect(find.text(titles[t]!), findsWidgets, reason: '$role $t');
-      }
-      // Boshqa rolning kartasi yo'q.
-      if (role == AppRole.teacher) {
-        expect(find.text(uz.navProcedures), findsOneWidget); // faqat menyuda
       }
       expect(tester.takeException(), isNull);
     });

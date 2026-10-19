@@ -94,7 +94,7 @@ export async function requestCode(ctx: Ctx): Promise<Response> {
     await ctx.db.prepare('DELETE FROM otp_challenges WHERE email_hash = ?1').bind(eh).run();
     throw sent === 'not_configured'
       ? new ApiError(503, 'not_configured')
-      : new ApiError(502, 'email_failed', { upstream: emailDiag.status });
+      : new ApiError(502, 'email_failed', { upstream: emailDiag.status, detail: emailDiag.detail });
   }
   return json({ status: 'sent', retry_after: OTP_RESEND_SEC, valid_for: OTP_TTL_SEC });
 }

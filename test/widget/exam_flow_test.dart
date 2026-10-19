@@ -82,6 +82,11 @@ void main() {
     s.exams.now = () => start.add(const Duration(minutes: 5));
     await pumpApp(tester, s, size: _tall);
     await goTo(tester, '/learn');
+    await tester.scrollUntilVisible(
+      find.text(en.examActiveBody(1, 5, '15:00')),
+      300,
+      scrollable: find.byType(Scrollable).first,
+    );
     expect(find.text(en.examActiveBody(1, 5, '15:00')), findsOneWidget);
     await goTo(tester, '/learn/exam');
     expect(find.text(en.examActiveTitle.toUpperCase()), findsOneWidget);

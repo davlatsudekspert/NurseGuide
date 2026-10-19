@@ -13,7 +13,19 @@ const TIMEOUT_MS = 8000;
 /** Oxirgi muvaffaqiyatsiz yuborishning HTTP holati (0 — tarmoq xatosi). Faqat son:
  *  javob tanasi, email yoki kod saqlanmaydi; xato javobiga `upstream` sifatida
  *  qo'shiladi (provayder sozlamasini topish uchun). */
-export const emailDiag = { status: 0 };
+export const emailDiag: { status: number; detail: string } = { status: 0, detail: '' };
+
+/** Provayder xato xabaridan faqat tashxis uchun qisqa matn: email va 4+ raqamli
+ *  ketma-ketliklar olib tashlanadi. */
+function safeDetail(raw: string): string {
+  try {
+    const j = JSON.parse(raw) as { name?: unknown; message?: unknown };
+    const t = `${typeof j.name === 'string' ? j.name : ''}: ${typeof j.message === 'string' ? j.message : ''}`;
+    return t.replace(/\S+@\S+/g, '[email]').replace(/\d{4,}/g, '#').slice(0, 160);
+  } catch {
+    return '';
+  }
+}
 
 const SUBJECT: Record<string, string> = {
   uz: 'NurseGuide: kirish kodi',
@@ -60,10 +72,12 @@ async function post(label: string, url: string, headers: Record<string, string>,
     // Faqat status (429 ham shu yerda); javob tanasi email/kod bo'lishi mumkin — logga yozilmaydi.
     console.warn(`${label}: status ${res.status}`);
     emailDiag.status = res.status;
+    emailDiag.detail = safeDetail(await res.text().catch(() => ''));
     return 'failed';
   } catch {
     console.warn(`${label}: network error`);
     emailDiag.status = 0;
+    emailDiag.detail = '';
     return 'failed';
   }
 }

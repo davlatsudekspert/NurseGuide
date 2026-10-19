@@ -561,6 +561,9 @@ TextStyle tabLabelStyle(
 /// ham bildiriladi (faqat rangga tayanmaydi).
 Color _tabColor(LgPalette p, bool selected) => selected ? p.brand : p.ink;
 
+/// Ish joyi tugmasi halqasi (brend logotipining oltin tusiga mos).
+const _kGold = Color(0xFFC9A55C);
+
 class _NavItem extends StatelessWidget {
   const _NavItem({
     required this.index,
@@ -695,7 +698,6 @@ class _CenterButton extends StatelessWidget {
   Widget build(BuildContext context) {
     final p = LgPalette.of(context);
     final text = Theme.of(context).textTheme;
-    final dark = Theme.of(context).brightness == Brightness.dark;
     final duration = LgMotion.of(context, const Duration(milliseconds: 180));
     final labelColor = _tabColor(p, selected);
     return Semantics(
@@ -721,16 +723,12 @@ class _CenterButton extends StatelessWidget {
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     color: p.brand,
+                    // Tiniq shisha (B): oltin halqa va brend logotipi.
                     border: Border.all(
                       width: selected ? 4 : 3,
-                      color: LgStyle.of(context).accentRing
-                          // Ivory: ingichka oltin halqa.
-                          ? (selected
-                                ? p.accent
-                                : p.accent.withValues(alpha: 0.7))
-                          : selected
-                          ? p.brand.withValues(alpha: dark ? 0.45 : 0.32)
-                          : p.paper.withValues(alpha: 0.9),
+                      color: selected
+                          ? _kGold
+                          : _kGold.withValues(alpha: 0.75),
                     ),
                     boxShadow: [
                       BoxShadow(
@@ -740,10 +738,14 @@ class _CenterButton extends StatelessWidget {
                       ),
                     ],
                   ),
-                  child: Icon(
-                    selected ? tab.activeIcon : tab.icon,
-                    size: diameter * 0.46,
-                    color: p.onBrand,
+                  child: ClipOval(
+                    child: Image.asset(
+                      'assets/brand/nurseguide_logo_256.png',
+                      width: diameter,
+                      height: diameter,
+                      fit: BoxFit.cover,
+                      excludeFromSemantics: true,
+                    ),
                   ),
                 ),
               ),

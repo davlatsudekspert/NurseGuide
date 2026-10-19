@@ -134,7 +134,7 @@ void main() {
     ];
     expect(labels, [
       'Bosh sahifa',
-      'Manipulyatsiyalar',
+      'Manipulyatsiya',
       'Ish joyi',
       'Kutubxona',
       'O‘rganish',

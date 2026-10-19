@@ -4544,7 +4544,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get generalTestNameHint => 'Masalan, 1-oraliq nazorat';
 
   @override
-  String get navProcedures => 'Manipulyatsiyalar';
+  String get navProcedures => 'Manipulyatsiya';
 
   @override
   String get navWorkplace => 'Ish joyi';

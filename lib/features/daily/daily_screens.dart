@@ -5,6 +5,7 @@ import 'package:material_ui/material_ui.dart';
 import '../../app/app_scope.dart';
 import '../../app/shell.dart';
 import '../../app/widgets/lg_page.dart';
+import '../../design/glass_art.dart';
 import '../../design/tokens.dart';
 import '../../design/widgets/lg_widgets.dart';
 import '../../design/widgets/reveal_on_mount.dart';
@@ -159,9 +160,7 @@ class DailyCard extends StatelessWidget {
               borderRadius: BorderRadius.circular(LgRadius.card),
               // Qattiq chegara o'rniga yumshoq soya; tungi rejimda (soya
               // ko'rinmaydi) — juda xira chet.
-              border: Theme.of(context).brightness == Brightness.dark
-                  ? Border.all(color: p.brand.withValues(alpha: 0.14))
-                  : null,
+              border: LgShadow.rim(context),
               boxShadow: LgShadow.card(context),
             ),
             child: Padding(
@@ -278,95 +277,112 @@ class _DailyHero extends StatelessWidget {
             ),
           ],
         ),
-        child: Padding(
-          padding: const EdgeInsets.fromLTRB(20, 20, 20, 18),
-          child: Column(
-            crossAxisAlignment: CrossAxisAlignment.start,
-            children: [
-              Row(
+        child: Stack(
+          children: [
+            const Positioned(
+              right: 14,
+              top: 54,
+              child: ExcludeSemantics(child: LgObject(LgArt.syringe, size: 96)),
+            ),
+            const Positioned(
+              right: 78,
+              top: 50,
+              child: ExcludeSemantics(child: LgObject(LgArt.droplet, size: 44)),
+            ),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(20, 20, 20, 18),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
                 children: [
-                  Expanded(
-                    child: Semantics(
-                      header: true,
-                      child: Text(
-                        title,
-                        style: text.titleLarge?.copyWith(
-                          color: Colors.white,
-                          fontWeight: FontWeight.w700,
-                        ),
-                      ),
-                    ),
-                  ),
-                  if (streakDays > 0)
-                    ExcludeSemantics(
-                      child: Row(
-                        mainAxisSize: MainAxisSize.min,
-                        children: [
-                          const Icon(
-                            Icons.local_fire_department_rounded,
-                            color: Color(0xFFFFC46B),
-                            size: 22,
-                          ),
-                          const SizedBox(width: 2),
-                          Text(
-                            '$streakDays',
-                            style: text.titleMedium?.copyWith(
+                  Row(
+                    children: [
+                      Expanded(
+                        child: Semantics(
+                          header: true,
+                          child: Text(
+                            title,
+                            style: text.titleLarge?.copyWith(
                               color: Colors.white,
                               fontWeight: FontWeight.w700,
                             ),
                           ),
-                        ],
+                        ),
                       ),
-                    ),
-                ],
-              ),
-              const SizedBox(height: 6),
-              Text(
-                body,
-                style: text.bodyMedium?.copyWith(color: Colors.white70),
-              ),
-              const SizedBox(height: 14),
-              _Dots(set: set, onDark: true),
-              const SizedBox(height: 16),
-              Semantics(
-                button: true,
-                label: cta,
-                excludeSemantics: true,
-                onTap: onPressed,
-                child: Material(
-                  color: _kMint,
-                  borderRadius: BorderRadius.circular(26),
-                  child: InkWell(
-                    key: const ValueKey('daily-hero-cta'),
-                    borderRadius: BorderRadius.circular(26),
-                    onTap: onPressed,
-                    child: ConstrainedBox(
-                      constraints: const BoxConstraints(minHeight: 52),
-                      child: Center(
-                        child: Row(
-                          mainAxisSize: MainAxisSize.min,
-                          children: [
-                            const Icon(
-                              Icons.play_arrow_rounded,
-                              color: _kDeepTeal,
-                            ),
-                            const SizedBox(width: 6),
-                            Text(
-                              cta,
-                              style: text.titleMedium?.copyWith(
-                                color: _kDeepTeal,
-                                fontWeight: FontWeight.w700,
+                      if (streakDays > 0)
+                        ExcludeSemantics(
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              const Icon(
+                                Icons.local_fire_department_rounded,
+                                color: Color(0xFFFFC46B),
+                                size: 22,
                               ),
+                              const SizedBox(width: 2),
+                              Text(
+                                '$streakDays',
+                                style: text.titleMedium?.copyWith(
+                                  color: Colors.white,
+                                  fontWeight: FontWeight.w700,
+                                ),
+                              ),
+                            ],
+                          ),
+                        ),
+                    ],
+                  ),
+                  const SizedBox(height: 6),
+                  Padding(
+                    padding: const EdgeInsets.only(right: 84),
+                    child: Text(
+                      body,
+                      style: text.bodyMedium?.copyWith(color: Colors.white70),
+                    ),
+                  ),
+                  const SizedBox(height: 14),
+                  _Dots(set: set, onDark: true),
+                  const SizedBox(height: 16),
+                  Semantics(
+                    button: true,
+                    label: cta,
+                    excludeSemantics: true,
+                    onTap: onPressed,
+                    child: Material(
+                      color: _kMint,
+                      borderRadius: BorderRadius.circular(26),
+                      child: InkWell(
+                        key: const ValueKey('daily-hero-cta'),
+                        borderRadius: BorderRadius.circular(26),
+                        onTap: onPressed,
+                        child: ConstrainedBox(
+                          constraints: const BoxConstraints(minHeight: 52),
+                          child: Center(
+                            child: Row(
+                              mainAxisSize: MainAxisSize.min,
+                              children: [
+                                const Icon(
+                                  Icons.play_arrow_rounded,
+                                  color: _kDeepTeal,
+                                ),
+                                const SizedBox(width: 6),
+                                Text(
+                                  cta,
+                                  style: text.titleMedium?.copyWith(
+                                    color: _kDeepTeal,
+                                    fontWeight: FontWeight.w700,
+                                  ),
+                                ),
+                              ],
                             ),
-                          ],
+                          ),
                         ),
                       ),
                     ),
                   ),
-                ),
+                ],
               ),
-            ],
-          ),
+            ),
+          ],
         ),
       ),
     );

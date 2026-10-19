@@ -82,6 +82,7 @@ flutter:
     - assets/images/
     - assets/brand/
     - assets/content/core/
+    - assets/content/reference/
     - assets/toifa/
     - assets/lectures/
     - assets/lectures/decks/
@@ -97,6 +98,14 @@ flutter:
           weight: 600
         - asset: assets/fonts/Inter-700.ttf
           weight: 700
+    # "Tiniq shisha" dizayni: sarlavha — Fraunces (lotin), matn — Manrope
+    # (lotin + kirill). Ikkalasi o'zgaruvchan shrift (OFL).
+    - family: Fraunces
+      fonts:
+        - asset: assets/fonts/Fraunces.ttf
+    - family: Manrope
+      fonts:
+        - asset: assets/fonts/Manrope.ttf
     # Ivory mavzusidagi katta sarlavhalar uchun (D-64). Instrument Serif —
     # lotin (o‘ g‘ bilan); kirill glyphlari Playfair Display'dan.
     - family: InstrumentSerif

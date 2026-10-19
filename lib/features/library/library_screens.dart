@@ -16,7 +16,7 @@ import 'library_filters.dart';
 import 'library_widgets.dart';
 
 /// Kutubxona bo'limlari (qobiq): kitoblar, saqlanganlar, manbalar.
-enum LibrarySection { books, saved, sources }
+enum LibrarySection { glossary, books, saved, sources }
 
 class LibraryScreen extends StatelessWidget {
   const LibraryScreen({super.key});
@@ -79,6 +79,12 @@ class _SectionRow extends StatelessWidget {
       IconData icon,
       String path,
     ) = switch (section) {
+      LibrarySection.glossary => (
+        l.glossaryTitle,
+        l.glossarySub,
+        Icons.spellcheck_rounded,
+        '/library/glossary',
+      ),
       LibrarySection.books => (
         l.libBooks,
         count == null ? l.libBooksSub : l.libBooksCount(count!),

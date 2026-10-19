@@ -350,13 +350,16 @@
 "Gerontologiya",
 "Diyetologiya"
 ],
-"status": "disputed",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": " | inomov: Book: Sanalogiya; file said Valeologiya (0)",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 435-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 435-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Valeologiya.",
+"notes": "ahmedova quote: Валеология - саломатлик ҳақидаги таълимот бўлиб, бу атамани 1980 йилда И.Н.Брехман тавсия қилган.",
 "priority": false,
 "file_key": 0
 },
@@ -499,13 +502,16 @@
 "Iqtisodiy barkamollikka erishish",
 "O'sma kasalliklarini profilaktikasi"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 25-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 25-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Sog'liqni saqlash va yo'qotilgan sog'liqni tiklash.",
+"notes": "ahmedova quote: Тиббиётнинг асосий вазифаси инсон соғлигини сақлаш ва йўқотган соғлигини тиклашдан иборат.",
 "priority": false,
 "file_key": 0
 },
@@ -631,7 +637,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | ahmedova: kitob yagona variantni aniq ajratmaydi yoki me'yoriy ro'yxatga tegadi (qo'lda pasaytirildi)",
 "priority": false,
 "file_key": 1
 },
@@ -890,7 +896,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": false,
 "file_key": 3
 },
@@ -975,7 +981,7 @@
 "source": "",
 "source_ref": {},
 "explanation_uz": "",
-"notes": "WHO 'Health-care waste' fact sheet ochildi: usullar sifatida yoqish (insineratsiya), avtoklav, mikroto'lqin, bug' bilan ishlov va kimyoviy ishlov keltirilgan, 'nurlantirish' keltirilmagan. Variant 0 yarim mos, qolgan variantlar mazmunsiz; to'liq tasdiq yo'q.",
+"notes": "WHO 'Health-care waste' fact sheet ochildi: usullar sifatida yoqish (insineratsiya), avtoklav, mikroto'lqin, bug' bilan ishlov va kimyoviy ishlov keltirilgan, 'nurlantirish' keltirilmagan. Variant 0 yarim mos, qolgan variantlar mazmunsiz; to'liq tasdiq yo'q. | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": true
 },
 {
@@ -1018,7 +1024,7 @@
 "source": "",
 "source_ref": {},
 "explanation_uz": "",
-"notes": "Infuzion sistemalarni dezinfeksiya qilish usuli (0,5% xlor) bo'yicha ochilgan O'zbekiston normasi/adabiyot yo'q (faqat slayd).",
+"notes": "Infuzion sistemalarni dezinfeksiya qilish usuli (0,5% xlor) bo'yicha ochilgan O'zbekiston normasi/adabiyot yo'q (faqat slayd). | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": true,
 "file_key": 1
 },
@@ -1039,7 +1045,7 @@
 "source": "Xalqaro tavsiya: JSST, Guidelines on Hand Hygiene in Health Care, 2009",
 "source_ref": "WHO Hand Hygiene 2009",
 "explanation_uz": null,
-"notes": "Variantlar qo'l yuvish, antiseptik surtish va '6 bosqich' tushunchalarini aralashtiradi; 1 va 3 ikkalasi ham SanQvaM ga havola qiladi. Bitta aniq javob yo'q.",
+"notes": "Variantlar qo'l yuvish, antiseptik surtish va '6 bosqich' tushunchalarini aralashtiradi; 1 va 3 ikkalasi ham SanQvaM ga havola qiladi. Bitta aniq javob yo'q. | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": true
 },
 {
@@ -1124,7 +1130,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": "",
-"notes": "Xlor konsentratsiyasi (0,5%), nisbat (teng miqdor) va ekspozitsiya (10 daq) O'zbekiston me'yoriga bog'liq; ochilgan Uzbek normasida (SanQvaM 0365-19, 92-son buyruq) bu qiymatlar topilmadi, slaydda COVID uchun 20000 mg/l xlor keltirilgan. Variant 0 nomzod.",
+"notes": "Xlor konsentratsiyasi (0,5%), nisbat (teng miqdor) va ekspozitsiya (10 daq) O'zbekiston me'yoriga bog'liq; ochilgan Uzbek normasida (SanQvaM 0365-19, 92-son buyruq) bu qiymatlar topilmadi, slaydda COVID uchun 20000 mg/l xlor keltirilgan. Variant 0 nomzod. | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": true
 },
 {
@@ -1249,7 +1255,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": false,
 "file_key": 2
 },
@@ -1988,13 +1994,16 @@
 "Apnoe",
 "Dispnoe"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": null,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 277-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 277-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Taxipnoe.",
+"notes": "ahmedova quote: Нафас олишнинг тезлашиши – тахипноэ дейилади.",
 "priority": false
 },
 {
@@ -2008,13 +2017,16 @@
 "Disipnoe",
 "Apnoe"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 277-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 277-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Bradipnoe.",
+"notes": "ahmedova quote: Нафас олишнинг секинлашуви – брадипноэ.",
 "priority": false,
 "file_key": 0
 },
@@ -2882,13 +2894,16 @@
 "Perkussiya",
 "Auskultatsiya"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 385-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 385-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Bemorlarni so'rab surishtirish.",
+"notes": "ahmedova quote: Беморни сўраб-суриштириш вақтида тўпланган маълумотлар субъектив текшириш каби кўриб чиқилади",
 "priority": false,
 "file_key": 0
 },
@@ -3170,8 +3185,8 @@
 "Qaynatilgan",
 "Steril"
 ],
-"status": "verified",
-"key": 0,
+"status": "no_source",
+"key": null,
 "key_candidate": null,
 "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 341-bet (PDF)",
 "source_ref": {
@@ -3179,7 +3194,7 @@
 "page_or_clause": "PDF 341-bet"
 },
 "explanation_uz": "Darslikka ko'ra to'g'ri javob: Distillangan.",
-"notes": "inomov quote: Yuvilgan asbob-anjomlar va qo‘lqoplar avval toza suvda, so‘ngra distillangan suvda chayiladi.",
+"notes": "sterilizatsiya jarayoni: faqat SanQvaM 0342-17 bilan tekshiriladi (kitob bo'yicha tasdiq olib tashlandi)",
 "priority": true
 },
 {
@@ -3199,7 +3214,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | ahmedova: kitob yagona variantni aniq ajratmaydi yoki me'yoriy ro'yxatga tegadi (qo'lda pasaytirildi)",
 "priority": false,
 "file_key": 0
 },
@@ -3220,7 +3235,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | ahmedova: kitob yagona variantni aniq ajratmaydi yoki me'yoriy ro'yxatga tegadi (qo'lda pasaytirildi)",
 "priority": false,
 "file_key": 0
 },
@@ -3721,13 +3736,16 @@
 "Gematuriya",
 "Nikturiya"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 380-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 380-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Poliuriya.",
+"notes": "ahmedova quote: Полиурия пешоб миқдорининг меъёрга нисбатан 2 марта ортиқ бўлиши",
 "priority": false,
 "file_key": 0
 },
@@ -3742,13 +3760,16 @@
 "Gematuriya",
 "Poliuriya"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 381-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 381-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Oligouriya.",
+"notes": "ahmedova quote: Олигурия бир кеча кундуздаги пешоб миқдорининг камайиши.",
 "priority": false,
 "file_key": 0
 },
@@ -3784,13 +3805,16 @@
 "Nikturiya",
 "Poliuriya"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 380-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 380-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Gematuriya.",
+"notes": "ahmedova quote: Гематурия - пешоб билан қон ажралиши",
 "priority": false,
 "file_key": 0
 },
@@ -4409,13 +4433,16 @@
 "Faqat verbal muloqot amalga oshiriladi",
 "Telekommunikatsiya usullari qo'llaniladi"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 77-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 77-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Verbal va noverbal muloqotlar bir vaqtda qo'llaniladi.",
+"notes": "ahmedova quote: Вербал ва новербал ҳаракатлар биргаликда қўлланганда беморнинг ҳамшира билан суҳбатини уйғунлаштириши мумкин.",
 "priority": false,
 "file_key": 0
 },
@@ -4776,7 +4803,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | ahmedova: kitob yagona variantni aniq ajratmaydi yoki me'yoriy ro'yxatga tegadi (qo'lda pasaytirildi)",
 "priority": false,
 "file_key": 0
 },
@@ -4836,13 +4863,16 @@
 "Ko'zdan kechirish",
 "Palpatsiya"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 385-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 385-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Bemorni so'rab surishtirish.",
+"notes": "ahmedova quote: Беморни сўраб-суриштириш вақтида тўпланган маълумотлар субъектив текшириш каби кўриб чиқилади",
 "priority": false,
 "file_key": 0
 },
@@ -4878,13 +4908,16 @@
 "Kollapsda",
 "Kardiogen shokda"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": "",
-"source_ref": "",
-"explanation_uz": "",
-"notes": "Qattiq, tarang puls (pulsus durus) gipertonik krizda - klassik klinik qoida, lekin ochilgan valid manba yo'q.",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 314-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 314-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Gipertonik krizda.",
+"notes": "ahmedova quote: Таранг, қаттиқ пульс артериал қон босими ошганда (гломерулонефрит, гипертония касаллигида) аниқланади.",
 "priority": true,
 "file_key": 0
 },
@@ -5883,7 +5916,7 @@
 "source": "",
 "source_ref": {},
 "explanation_uz": "",
-"notes": "Najas/qusuq uchun xlorli vosita nomi variantlarda ('xlor kukuni', 'xlor eritmasi', 'xloramin', 'gipoxlorit Ca') bir-biriga kesishadi; O'zbekiston normasida konkret vosita ko'rsatilgan matn topilmadi (slaydda 20000 mg/l xlor).",
+"notes": "Najas/qusuq uchun xlorli vosita nomi variantlarda ('xlor kukuni', 'xlor eritmasi', 'xloramin', 'gipoxlorit Ca') bir-biriga kesishadi; O'zbekiston normasida konkret vosita ko'rsatilgan matn topilmadi (slaydda 20000 mg/l xlor). | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": true
 },
 {
@@ -6145,7 +6178,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": "",
-"notes": "'Utilizatsiya' atamasi O'zbekiston me'yoriy terminologiyasi; WHO 'treatment and disposal' atamalari bilan to'g'ridan-to'g'ri mos emas, ochilgan manbada yo'q.",
+"notes": "'Utilizatsiya' atamasi O'zbekiston me'yoriy terminologiyasi; WHO 'treatment and disposal' atamalari bilan to'g'ridan-to'g'ri mos emas, ochilgan manbada yo'q. | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": true,
 "file_key": 0
 },
@@ -6842,13 +6875,16 @@
 "Neyron",
 "Buyrak piramida"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 373-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 373-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Nefron.",
+"notes": "ahmedova quote: Буйракнинг асосий функционал бирлиги нефрон бўлиб",
 "priority": false,
 "file_key": 0
 },
@@ -6863,13 +6899,16 @@
 "Petrovskiy simptomi",
 "Babinskiy simptomi"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 377-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 377-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Pasternatskiy simptomi.",
+"notes": "ahmedova quote: Пастернацкий симптоми — (буйрак соҳасида оғриқни аниқлаш). Умуртқанинг икки томонида белнинг симметрик соҳаларини эгилган бармоқлар билан перкуссия қилинади.",
 "priority": false,
 "file_key": 0
 },
@@ -7606,13 +7645,16 @@
 "Boumen kapsulasi",
 "Kapillyarlar tuguni"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 373-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 373-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Nefron.",
+"notes": "ahmedova quote: Буйракнинг асосий функционал бирлиги нефрон бўлиб",
 "priority": false,
 "file_key": 0
 },
@@ -7878,13 +7920,16 @@
 "Apnoe",
 "Bradipnoe"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": null,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 277-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 277-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Taxipnoe.",
+"notes": "ahmedova quote: Нафас олишнинг тезлашиши – тахипноэ дейилади.",
 "priority": false
 },
 {
@@ -8450,13 +8495,16 @@
 "Bemorning es-hushi",
 "Bemorning vazni"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 101-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 101-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Kasallik anamnezi.",
+"notes": "ahmedova quote: Субъектив: Маълумот тўпламига қуйидагилар киради: - Пациент тўғрисидаги маълумот. - Пациентдан сўраш ва маълумот олиш. - Ҳозирги даврдаги имкониятлар. - Касаллик тарихи (кечиши).",
 "priority": false,
 "file_key": 0
 },
@@ -8600,13 +8648,16 @@
 "Ko'p suv ichish",
 "Siydik ajralishining kamayishi"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 380-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 380-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Ko'p siyish.",
+"notes": "ahmedova quote: Полиурия пешоб миқдорининг меъёрга нисбатан 2 марта ортиқ бўлиши",
 "priority": false,
 "file_key": 0
 },
@@ -8804,13 +8855,16 @@
 "Apnoe",
 "Dispnoe"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": null,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 277-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 277-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Taxipnoe.",
+"notes": "ahmedova quote: Нафас олишнинг тезлашиши – тахипноэ дейилади.",
 "priority": false
 },
 {
@@ -8868,13 +8922,16 @@
 "Bosh og'riq, xolsizlik, uyqu buzulishi, darmonsizlik",
 "Xolsizligi, temperatura ko'tarilishi, xushtaksimon nafas olish"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 294-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 294-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Yo'tal, balg'am ajralishi, ko'krak qafasida og'riq.",
+"notes": "ahmedova quote: Бронхитни асосий симптоми йўтал бўлиб, касаллик бошланишида қуруқ, баъзан давомли кўкракда оғриқ билан кечади.",
 "priority": false,
 "file_key": 1
 },
@@ -10102,7 +10159,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | ahmedova: kitob yagona variantni aniq ajratmaydi yoki me'yoriy ro'yxatga tegadi (qo'lda pasaytirildi)",
 "priority": false,
 "file_key": 3
 },
@@ -10772,7 +10829,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": "",
-"notes": "A/B/V/G/D tasnifi SanQvaM 0317-15 da; matn mahalliy indeksda yo'q va lex.uz orqali ochilmadi (slaydda 'A - xavfsiz chiqindilar'). Variant 2 nomzod.",
+"notes": "A/B/V/G/D tasnifi SanQvaM 0317-15 da; matn mahalliy indeksda yo'q va lex.uz orqali ochilmadi (slaydda 'A - xavfsiz chiqindilar'). Variant 2 nomzod. | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": true
 },
 {
@@ -11059,13 +11116,16 @@
 "passiv, majburiy,",
 "aktiv, passiv."
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": "",
-"source_ref": "",
-"explanation_uz": null,
-"notes": "Bemor holatini faol/passiv/majburiy deb baholash umumiy semiotika darsliklarida bor; ochilgan valid manba yo'q.",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 390-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 390-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: aktiv, passiv, majburiy,.",
+"notes": "ahmedova quote: Ўриндаги ҳолатлар: актив, пассив, мажбурий.",
 "priority": true,
 "file_key": 0
 },
@@ -11267,13 +11327,16 @@
 "noverbal muloqot,",
 "verbal muloqot."
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 79-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 79-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: noverbal muloqot,.",
+"notes": "ahmedova quote: Юқоридаги новербал мулоқот воситалари орқали пациентнинг мақсади, туйғулари ва муносабатини ҳис қиламиз.",
 "priority": false,
 "file_key": 2
 },
@@ -11401,13 +11464,16 @@
 "bemorni ovqatlantirish,",
 "bemorga rahbarlik qilish."
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 383-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 383-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: hamshiralik parvarishiga sistematik yondashuvi,.",
+"notes": "ahmedova quote: Ҳамширалик жараёни – тиббий ҳамширанинг тизимтик кетма– кетликда амалга оширадиган касбий парвариши.",
 "priority": false,
 "file_key": 1
 },
@@ -11724,13 +11790,16 @@
 "qo'l va oyoq mushaklari kuchini olchash,",
 "o'pkaning tiriklik sig'imini o'lchash."
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 435-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 435-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: bemor og'irligi, bo'yi va ko'krak aylanasini o'lchash,.",
+"notes": "ahmedova quote: Антропометрия - антропометрия, одам танаси ва аъзоларини ўлчашга асосланган текшириш усули",
 "priority": false,
 "file_key": 1
 },
@@ -11831,13 +11900,16 @@
 "apnoe",
 "bradipnoe."
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 277-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 277-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: taxipnoye.",
+"notes": "ahmedova quote: Нафас олишнинг тезлашиши – тахипноэ дейилади.",
 "priority": false,
 "file_key": 1
 },
@@ -11935,13 +12007,16 @@
 "2 bosqichda",
 "5 bosqichda"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 102-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 102-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: 2 bosqichda.",
+"notes": "ahmedova quote: 7.3.2 Ҳамширалик жараёни II – босқич . Бемор муаммолари, ҳамшира ташҳиси",
 "priority": false,
 "file_key": 2
 },
@@ -11956,13 +12031,16 @@
 "4 bosqichda",
 "2 bosqichda"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": 0,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 99-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 99-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: 3 bosqichda.",
+"notes": "ahmedova quote: 3-босқич 2-боскич Парвариш режаси. Бемор муаммолари,",
 "priority": false,
 "file_key": 0
 },
@@ -11977,13 +12055,16 @@
 "Orem, Djonson",
 "V. Xenderson"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 3,
 "key_candidate": 3,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 13-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 13-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: V. Xenderson.",
+"notes": "ahmedova quote: Хендерсон бўйича 14 та асосий инсон эҳтиёжлари қуйидагилар:",
 "priority": false,
 "file_key": 3
 },
@@ -12130,13 +12211,16 @@
 "5 - parhez stoli",
 "8- parhez stoli"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 136-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 136-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: 9 - parhez stoli.",
+"notes": "ahmedova quote: Парҳез №9 Қандли диабетли беморларга.",
 "priority": false,
 "file_key": 1
 },
@@ -12237,13 +12321,16 @@
 "oligouriya",
 "gemoturiya"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 381-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 381-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: oligouriya.",
+"notes": "ahmedova quote: Олигурия бир кеча кундуздаги пешоб миқдорининг камайиши.",
 "priority": false,
 "file_key": 2
 },
@@ -12553,13 +12640,16 @@
 "yurak qorinchalari eshitiladi",
 "puls ajratiladi"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 320-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 320-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: yurak shovqinlari va tonlari aniqlanadi.",
+"notes": "ahmedova quote: Аускультацияда, юрак тонлари эшитилиш хусусиятларини ва кейин юрак шовқинларни ҳам ва хусусиятини аниқлашга аҳамият бериш зарур.",
 "priority": false,
 "file_key": 1
 },
@@ -12622,7 +12712,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": false,
 "file_key": 1
 },
@@ -12700,13 +12790,16 @@
 "15 - parxez stoli",
 "7 - parxez stoli"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 3,
 "key_candidate": 3,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 136-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 136-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: 7 - parxez stoli.",
+"notes": "ahmedova quote: Парҳез №7, 7а, 76 - буйрак касалликларда.",
 "priority": false,
 "file_key": 3
 },
@@ -12771,7 +12864,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | ahmedova: kitob yagona variantni aniq ajratmaydi yoki me'yoriy ro'yxatga tegadi (qo'lda pasaytirildi)",
 "priority": false,
 "file_key": 1
 },
@@ -12974,13 +13067,16 @@
 "yatrogeniya",
 "emotsiya"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 87-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 87-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: egrotogeniya.",
+"notes": "ahmedova quote: Шунингек, эгротогения, яъни бир хаста кишига бошқа бир бемор сўзининг салбий таъсири ҳам мавжуд.",
 "priority": false,
 "file_key": 1
 },
@@ -12995,13 +13091,16 @@
 "emotsiya",
 "egogeniya"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 438-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 438-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: yatrogeniya.",
+"notes": "ahmedova quote: Ятрогения - Бу шифокорнинг ёки ҳамширанинг фаросатсизлиги, ножўя кўрсатмалари, қўпол хатти-ҳаракатлари, билимсизлиги ва лоқайдлиги, бир сўз билан айтганда, тиббиёт ходимининг айби билан пайдо бўлиши мумкин бўлган яна бир касалликдир.",
 "priority": false,
 "file_key": 1
 },
@@ -13635,7 +13734,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": false,
 "file_key": 1
 },
@@ -13692,13 +13791,16 @@
 "bemorni ob'ektiv va sub'ektiv tekshirish",
 "bemorni ovqatlantirish"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 101-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 101-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: bemorni ob'ektiv va sub'ektiv tekshirish.",
+"notes": "ahmedova quote: 7.3.1 Ҳамширалик жараёни 1 -босқич. Беморни кўриб чиқиш, у ҳақида маълумот тўплаш.",
 "priority": false,
 "file_key": 2
 },
@@ -13713,13 +13815,16 @@
 "parvarishni baholash",
 "parvarish rejasini tuzish"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 102-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 102-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: hamshiralik tashhisini qo'yish.",
+"notes": "ahmedova quote: 7.3.2 Ҳамширалик жараёни II – босқич . Бемор муаммолари, ҳамшира ташҳиси",
 "priority": false,
 "file_key": 1
 },
@@ -13734,13 +13839,16 @@
 "parvarishni baholash",
 "parvarish rejasini tuzish"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 3,
 "key_candidate": 3,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 99-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 99-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: parvarish rejasini tuzish.",
+"notes": "ahmedova quote: 3-босқич 2-боскич Парвариш режаси. Бемор муаммолари,",
 "priority": false,
 "file_key": 3
 },
@@ -13755,13 +13863,16 @@
 "parvarishni amalga oshirish",
 "bemorni tekshirish"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 103-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 103-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: parvarishni amalga oshirish.",
+"notes": "ahmedova quote: 7.3.3 Ҳамширалик жараёни 111 – 1У босқичлари. Парвариш режаси. Ҳамширалик парваришини бажариш",
 "priority": false,
 "file_key": 2
 },
@@ -13776,13 +13887,16 @@
 "parvarishni amalga oshirish",
 "parvarishni baholash"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 3,
 "key_candidate": 3,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 104-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 104-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: parvarishni baholash.",
+"notes": "ahmedova quote: 7.3.4. Ҳамширалик жараёни V босқич. Натижаларни баҳолаш",
 "priority": false,
 "file_key": 3
 },
@@ -13817,13 +13931,16 @@
 "paypaslash",
 "tana haroratini o'lchash"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 320-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 320-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: eshitib ko'rish.",
+"notes": "ahmedova quote: Аускультация. Юракнинг эшитиб кўриш боланинг ниҳоятда хотиржам ҳолатида, унинг турган, чалқанча ва чап ёнбошига ётган ҳолатларда олиб борилади.",
 "priority": false,
 "file_key": 1
 },
@@ -13838,13 +13955,16 @@
 "tukillatish",
 "uqalash"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 283-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 283-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: tukillatish.",
+"notes": "ahmedova quote: Бевосита перкуссия кўрсаткич ва ўрта бармоқлар ёрдамида қовурғаларга уриб кўриш йўлида ўтказилади.",
 "priority": false,
 "file_key": 2
 },
@@ -13859,13 +13979,16 @@
 "eshitib ko'rish",
 "paypaslash"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 3,
 "key_candidate": 3,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 213-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 213-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: paypaslash.",
+"notes": "ahmedova quote: Терини текширишда қуйидаги усуллардан фойдаланилади: сўраш (анамнез), кўриш, пайпаслаб ушлаб кўриш (пальпация), қон томирлар мўртлигини ва дермографизмни текшириш.",
 "priority": false,
 "file_key": 3
 },
@@ -14258,13 +14381,16 @@
 "ko'krak qafasida suyuqlik yig'ilishi",
 "perikardda suyuqlik yig'ilishi"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 309-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 309-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: qorin bo'shlig'iga suyuqlik yig'ilishi.",
+"notes": "ahmedova quote: Кўкрак ёшидаги болаларда шиш кўпинча мояк халтасида, қорин бўшлиғи (асцит) ва плевра бўшлиғида (гидроторакс) суюқлик йиғилади.",
 "priority": false,
 "file_key": 1
 },
@@ -14279,13 +14405,16 @@
 "surunkali glomerulonefrit",
 "surunkali gastrit"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 136-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 136-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: surunkali glomerulonefrit.",
+"notes": "ahmedova quote: Парҳез №7, 7а, 76 - буйрак касалликларда.",
 "priority": false,
 "file_key": 2
 },
@@ -14321,13 +14450,16 @@
 "siydikda yiring paydo bo'lishi",
 "siydikda leykositlar paydo bo'lishi"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 380-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 380-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: siydikda yiring paydo bo'lishi.",
+"notes": "ahmedova quote: Пиурия (пешобда йиринг бўлиши) ўғил болалар пешоби микроскопия қилинганда лейкоцитлар сони 5 -6та, қиз болаларда эса 8 -10тача мавжудлиги аниқланади.",
 "priority": false,
 "file_key": 2
 },
@@ -14577,13 +14709,16 @@
 "sezgining pasayishi",
 "sezgining kuchayishi"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 3,
 "key_candidate": 3,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 195-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 195-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: sezgining kuchayishi.",
+"notes": "ahmedova quote: Терисида сезувчанликни ортиши (гиперестезия)",
 "priority": false,
 "file_key": 3
 },
@@ -14765,13 +14900,16 @@
 "tukillatib ko'rish",
 "maxsus tekshiruv"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 213-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 213-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: paypastlab tekshirish.",
+"notes": "ahmedova quote: Терини текширишда қуйидаги усуллардан фойдаланилади: сўраш (анамнез), кўриш, пайпаслаб ушлаб кўриш (пальпация), қон томирлар мўртлигини ва дермографизмни текшириш.",
 "priority": false,
 "file_key": 1
 },
@@ -14807,13 +14945,16 @@
 "ko'zdan kechirish",
 "palpatsiya"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 385-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 385-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: bemorni so'rab surishtirish.",
+"notes": "ahmedova quote: Беморни сўраб-суриштириш вақтида тўпланган маълумотлар субъектив текшириш каби кўриб чиқилади",
 "priority": false,
 "file_key": 1
 },
@@ -16821,7 +16962,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "Antipedikulyoz vositani yuvib yuborish vaqti (10-30 daqiqa) vosita turiga bog'liq, ishlab chiqaruvchi yo'riqnomasidan olinadi; yagona qiymat yo'q.",
+"notes": "Antipedikulyoz vositani yuvib yuborish vaqti (10-30 daqiqa) vosita turiga bog'liq, ishlab chiqaruvchi yo'riqnomasidan olinadi; yagona qiymat yo'q. | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": false
 },
 {
@@ -18225,13 +18366,16 @@
 "6",
 "9"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 3,
 "key_candidate": 3,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 136-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 136-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: 9.",
+"notes": "ahmedova quote: Парҳез №9 Қандли диабетли беморларга.",
 "priority": false,
 "file_key": 3
 },
@@ -20502,13 +20646,16 @@
 "shamollatish kiradi",
 "dazmol urish, qaynatish"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "Mechanical cleaning incl. ventilation is textbook convention; SanQvaM 0365-19 does not define it; no valid source opened.",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 139-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 139-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: shamollatish kiradi.",
+"notes": "ahmedova quote: чангютгич билан тозалаш, бинони шамоллатиш, оқлаш, бўяш",
 "priority": false,
 "file_key": 2
 },
@@ -20544,13 +20691,16 @@
 "tibbiy hujjat hisoblanadi",
 "psixologik hujjat hisoblanadi"
 ],
-"status": "disputed",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": null,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "Hamshiralik kasallik tarixi hujjat turi: 1 va 2 variant ikkalasi mos (tibbiy hujjat/yuridik hujjat); valid manba yo'q.",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 384-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 384-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: yuridik bayonnoma, ya'ni tibbiy hamshiraning mustaqil kasbiy hujjatdir.",
+"notes": "ahmedova quote: Ҳамширалик касаллик тарихи – бу ҳамширанинг мустақил касбий фаолияти доирасидаги юридик ҳужжат.",
 "priority": false
 },
 {
@@ -20986,13 +21136,16 @@
 "perkussiya, palpatsiya qilish",
 "arterial qon bosimini o'lchash"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": null,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 385-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 385-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: bemor shikoyatlari, kasallikning rivojlanish tarixi, hayot anamnezi so'raladi.",
+"notes": "ahmedova quote: Беморни сўраб-суриштириш вақтида тўпланган маълумотлар субъектив текшириш каби кўриб чиқилади",
 "priority": false
 },
 {
@@ -22355,13 +22508,16 @@
 "Etika",
 "Kommunikatsiya"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": null,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 438-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 438-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Yatrogeniya.",
+"notes": "ahmedova quote: Ятрогения - Бу шифокорнинг ёки ҳамширанинг фаросатсизлиги, ножўя кўрсатмалари, қўпол хатти-ҳаракатлари, билимсизлиги ва лоқайдлиги, бир сўз билан айтганда, тиббиёт ходимининг айби билан пайдо бўлиши мумкин бўлган яна бир касалликдир.",
 "priority": false
 },
 {
@@ -24179,7 +24335,7 @@
 "source": "",
 "source_ref": {},
 "explanation_uz": "",
-"notes": "Avtoklavda 2 atm rejimi vaqti O'zbekiston/MDH me'yoriga bog'liq; SanQvaM 0365-19 matnida vaqt ko'rsatilmagan va variantlardagi vaqtlar (45-120 daq) xalqaro rejimlarga mos emas.",
+"notes": "Avtoklavda 2 atm rejimi vaqti O'zbekiston/MDH me'yoriga bog'liq; SanQvaM 0365-19 matnida vaqt ko'rsatilmagan va variantlardagi vaqtlar (45-120 daq) xalqaro rejimlarga mos emas. | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": true
 },
 {
@@ -24261,7 +24417,7 @@
 "source": "",
 "source_ref": {},
 "explanation_uz": "",
-"notes": "180 C da quruq issiqlik sterilizatsiya vaqti O'zbekiston/MDH me'yoriga bog'liq (SanQvaM 0365-19 da yo'q); CDC jadvalida 180 C yo'q.",
+"notes": "180 C da quruq issiqlik sterilizatsiya vaqti O'zbekiston/MDH me'yoriga bog'liq (SanQvaM 0365-19 da yo'q); CDC jadvalida 180 C yo'q. | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": true
 },
 {
@@ -24281,7 +24437,7 @@
 "source": "",
 "source_ref": {},
 "explanation_uz": "",
-"notes": "Bug' sterilizatsiyasi rejimlari (atm/harorat/vaqt) O'zbekiston/MDH me'yoriga bog'liq; SanQvaM 0365-19 matnida bunday jadval topilmadi.",
+"notes": "Bug' sterilizatsiyasi rejimlari (atm/harorat/vaqt) O'zbekiston/MDH me'yoriga bog'liq; SanQvaM 0365-19 matnida bunday jadval topilmadi. | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": true
 },
 {
@@ -24322,7 +24478,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": "",
-"notes": "Pol va devorlar uchun xlorsaqlovchi vositalar (0) keng qo'llanadi, lekin to'rtlamchi ammoniy birikmalari (3) va faol kislorod (1) ham ruxsat etilgan; O'zbekiston normasida aniq guruh topilmadi.",
+"notes": "Pol va devorlar uchun xlorsaqlovchi vositalar (0) keng qo'llanadi, lekin to'rtlamchi ammoniy birikmalari (3) va faol kislorod (1) ham ruxsat etilgan; O'zbekiston normasida aniq guruh topilmadi. | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": true
 },
 {
@@ -24345,7 +24501,7 @@
 "section": "Infographics: How to make 0.1% sodium hypochlorite disinfectant solution"
 },
 "explanation_uz": "Xalqaro tavsiyada sirtlar uchun 0,1% (1000 mg/l) gipoxlorit qo'llanadi, bu 1000 mg/l variantiga mos keladi.",
-"notes": "Xlor konsentratsiyasi (500 yoki 1000 mg/l) O'zbekiston me'yoriga va ob'ektga bog'liq; ochilgan normada topilmadi.",
+"notes": "Xlor konsentratsiyasi (500 yoki 1000 mg/l) O'zbekiston me'yoriga va ob'ektga bog'liq; ochilgan normada topilmadi. | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": true
 },
 {
@@ -24365,7 +24521,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": "",
-"notes": "UV lampalar bilan havoni dezinfeksiya qilish vaqti/soni: slayd (valid emas) 'havoni bir marta zararsizlantirish vaqti - 1 soat' deydi; kuniga necha marta - norma topilmadi (SanQvaN 0016-21 ro'yxatda, matn yo'q).",
+"notes": "UV lampalar bilan havoni dezinfeksiya qilish vaqti/soni: slayd (valid emas) 'havoni bir marta zararsizlantirish vaqti - 1 soat' deydi; kuniga necha marta - norma topilmadi (SanQvaN 0016-21 ro'yxatda, matn yo'q). | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": true
 },
 {
@@ -24385,7 +24541,7 @@
 "source": null,
 "source_ref": null,
 "explanation_uz": "",
-"notes": "Najas/qusuq uchun ekspozitsiya vaqti dezinfektant konsentratsiyasiga bog'liq; slayd (valid emas): 20 000 mg/l xlor, 2 soat; norma matni ochilmadi.",
+"notes": "Najas/qusuq uchun ekspozitsiya vaqti dezinfektant konsentratsiyasiga bog'liq; slayd (valid emas): 20 000 mg/l xlor, 2 soat; norma matni ochilmadi. | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": true
 },
 {
@@ -24614,7 +24770,7 @@
 "source": "",
 "source_ref": "",
 "explanation_uz": "",
-"notes": "Ko'rik xonasida harorat me'yori (20-22 C) O'zbekiston SanQvaM ga bog'liq; ochilgan normada topilmadi.",
+"notes": "Ko'rik xonasida harorat me'yori (20-22 C) O'zbekiston SanQvaM ga bog'liq; ochilgan normada topilmadi. | ahmedova: me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi",
 "priority": true
 },
 {
@@ -26149,13 +26305,16 @@
 "Osteomielit",
 "Saramas"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": null,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 146-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 146-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Absess.",
+"notes": "ahmedova quote: Абцесс. Инъекциядан кейин юмшоқ тўқималарнинг йиринглашиши ва устидан пиоген мембрана билан қопланиши, бошқа тўқималарни ажралиб колиши.",
 "priority": false
 },
 {
@@ -29215,13 +29374,16 @@
 "Hamshiraning o'ziga",
 "Bemor oila a'zolariga"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": null,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 88-bet (PDF)",
+"source_ref": {
+"file_or_url": "Ahmedova D.I. va boshq., Hamshiralik ishi, 2015 (Drive: Hamshiralik ishi 2017.pdf)",
+"page_or_clause": "PDF 88-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Bemorga.",
+"notes": "ahmedova quote: Беморнинг қизиқиши, манфаати барча нарсадан юқори бўлиши лозим.",
 "priority": false
 },
 {

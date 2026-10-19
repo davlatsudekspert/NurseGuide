@@ -385,7 +385,7 @@ class _ReaderViewState extends State<_ReaderView> {
       isScrollControlled: true,
       useSafeArea: true,
       showDragHandle: true,
-      backgroundColor: p.paper,
+      backgroundColor: p.paperSolid,
       builder: (context) => _TocSheet(entries: _toc, page: _page),
     );
     await _handle(result);
@@ -398,7 +398,7 @@ class _ReaderViewState extends State<_ReaderView> {
       isScrollControlled: true,
       useSafeArea: true,
       showDragHandle: true,
-      backgroundColor: p.paper,
+      backgroundColor: p.paperSolid,
       builder: (context) => _BookmarksSheet(
         reading: _reading,
         itemId: _id,

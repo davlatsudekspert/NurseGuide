@@ -77,9 +77,7 @@ class ToifaTodayCard extends StatelessWidget {
           color: p.paper,
           borderRadius: BorderRadius.circular(LgRadius.card),
           // Kunlik savol kartasi bilan bir xil: soya, tunda xira chet.
-          border: Theme.of(context).brightness == Brightness.dark
-              ? Border.all(color: p.brand.withValues(alpha: 0.14))
-              : null,
+          border: LgShadow.rim(context),
           boxShadow: LgShadow.card(context),
         ),
         child: Padding(

@@ -33,8 +33,36 @@ TextStyle lgSerif(TextStyle base, {required bool cyrillic}) {
 /// katta matn "siqilgan" emas, osoyishta o'qiladi.
 /// Asosiy o'qish matni 16 px (bodyLarge). 11 px faqat qisqa yordamchi
 /// yozuvlar (eyebrow, tab nomi) uchun — undan kichik matn ishlatilmaydi.
+/// "Tiniq shisha" sarlavha uslubi: Fraunces (yumshoq optik serif), kirill
+/// harflari Manrope'dan. O'lcham [base] da qoladi (Inter bilan bir xil
+/// o'rin), faqat shakl va qalinlik o'zgaradi.
+TextStyle lgDisplay(TextStyle base, {double weight = 560}) {
+  final size = base.fontSize!;
+  return base.copyWith(
+    fontFamily: 'Fraunces',
+    fontFamilyFallback: const ['Manrope'],
+    fontWeight: null,
+    letterSpacing: -size * 0.012,
+    height: 1.1,
+    fontVariations: [
+      FontVariation('opsz', (size * 1.4).clamp(9, 144).toDouble()),
+      FontVariation('wght', weight),
+      const FontVariation('SOFT', 100),
+      const FontVariation('WONK', 0),
+    ],
+  );
+}
+
 TextTheme _textTheme(LgPalette p, LgStyle style, {required bool cyrillic}) {
   final t = _baseTextTheme(p);
+  if (style.glass) {
+    return t.copyWith(
+      displaySmall: lgDisplay(t.displaySmall!),
+      headlineMedium: lgDisplay(t.headlineMedium!),
+      headlineSmall: lgDisplay(t.headlineSmall!),
+      titleLarge: lgDisplay(t.titleLarge!, weight: 600),
+    );
+  }
   if (!style.serifDisplay) return t;
   return t.copyWith(
     displaySmall: lgSerif(t.displaySmall!, cyrillic: cyrillic),
@@ -44,7 +72,7 @@ TextTheme _textTheme(LgPalette p, LgStyle style, {required bool cyrillic}) {
 }
 
 TextTheme _baseTextTheme(LgPalette p) {
-  const family = 'Inter';
+  const family = 'Manrope';
   return TextTheme(
     // Sahifa sarlavhasi.
     displaySmall: TextStyle(
@@ -187,7 +215,7 @@ ThemeData buildLgTheme(
     useMaterial3: true,
     brightness: brightness,
     colorScheme: scheme,
-    fontFamily: 'Inter',
+    fontFamily: 'Manrope',
     textTheme: text,
     scaffoldBackgroundColor: p.bg,
     canvasColor: p.bg,
@@ -212,7 +240,7 @@ ThemeData buildLgTheme(
       ),
     ),
     dialogTheme: DialogThemeData(
-      backgroundColor: p.paper,
+      backgroundColor: p.paperSolid,
       surfaceTintColor: Colors.transparent,
       shape: RoundedRectangleBorder(
         borderRadius: BorderRadius.circular(LgRadius.card),
@@ -221,7 +249,7 @@ ThemeData buildLgTheme(
       contentTextStyle: text.bodyLarge,
     ),
     popupMenuTheme: PopupMenuThemeData(
-      color: p.paper,
+      color: p.paperSolid,
       surfaceTintColor: Colors.transparent,
       textStyle: text.titleSmall,
       shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(16)),

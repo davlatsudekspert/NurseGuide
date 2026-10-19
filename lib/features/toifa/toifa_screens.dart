@@ -84,9 +84,7 @@ class ToifaEntryCard extends StatelessWidget {
               ),
               // Kunlik savol kartasi uslubi: qattiq chegara o'rniga yumshoq
               // soya; tungi rejimda (soya ko'rinmaydi) — juda xira chet.
-              border: Theme.of(context).brightness == Brightness.dark
-                  ? Border.all(color: p.brand.withValues(alpha: 0.14))
-                  : null,
+              border: LgShadow.rim(context),
               boxShadow: LgShadow.card(context),
             ),
             child: Padding(
@@ -437,6 +435,7 @@ class _ReadinessStrip extends StatelessWidget {
       child: LgPressable(
         onTap: onTap,
         color: p.paper,
+        border: LgShadow.rim(context),
         borderRadius: BorderRadius.circular(LgRadius.card),
         semanticLabel:
             '${l.toifaReadyTest}: $test%. ${l.toifaReadyOral}: $oral%',

@@ -7909,13 +7909,13 @@ abstract class AppLocalizations {
   /// No description provided for @procEmptyTitle.
   ///
   /// In en, this message translates to:
-  /// **'Coming soon'**
+  /// **'Procedures'**
   String get procEmptyTitle;
 
   /// No description provided for @procEmptyBody.
   ///
   /// In en, this message translates to:
-  /// **'The procedures section is being prepared. Verified, sourced guides will appear in an upcoming update.'**
+  /// **'The procedure list did not load.'**
   String get procEmptyBody;
 
   /// No description provided for @workDirTitle.
@@ -7977,6 +7977,138 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Weekly plan: Monday–Thursday your area, Friday–Saturday general questions, Sunday mixed.'**
   String get workPlan;
+
+  /// No description provided for @procGoal.
+  ///
+  /// In en, this message translates to:
+  /// **'Purpose'**
+  String get procGoal;
+
+  /// No description provided for @procIndications.
+  ///
+  /// In en, this message translates to:
+  /// **'Indications'**
+  String get procIndications;
+
+  /// No description provided for @procContra.
+  ///
+  /// In en, this message translates to:
+  /// **'Contraindications'**
+  String get procContra;
+
+  /// No description provided for @procEquipment.
+  ///
+  /// In en, this message translates to:
+  /// **'Equipment'**
+  String get procEquipment;
+
+  /// No description provided for @procSteps.
+  ///
+  /// In en, this message translates to:
+  /// **'Steps'**
+  String get procSteps;
+
+  /// No description provided for @procChecklist.
+  ///
+  /// In en, this message translates to:
+  /// **'Checklist'**
+  String get procChecklist;
+
+  /// No description provided for @procRisks.
+  ///
+  /// In en, this message translates to:
+  /// **'Risks and complications'**
+  String get procRisks;
+
+  /// No description provided for @procStepsCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} steps'**
+  String procStepsCount(int count);
+
+  /// No description provided for @procSourceNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Based on the textbook. Compare with your facility\'s current instruction and Ministry of Health orders.'**
+  String get procSourceNote;
+
+  /// No description provided for @procNotFound.
+  ///
+  /// In en, this message translates to:
+  /// **'Procedure not found'**
+  String get procNotFound;
+
+  /// No description provided for @glossaryTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Glossary'**
+  String get glossaryTitle;
+
+  /// No description provided for @glossarySub.
+  ///
+  /// In en, this message translates to:
+  /// **'Exact definitions from the textbook'**
+  String get glossarySub;
+
+  /// No description provided for @glossaryCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} terms'**
+  String glossaryCount(int count);
+
+  /// No description provided for @glossarySearch.
+  ///
+  /// In en, this message translates to:
+  /// **'Search terms'**
+  String get glossarySearch;
+
+  /// No description provided for @glossaryNothing.
+  ///
+  /// In en, this message translates to:
+  /// **'Nothing found'**
+  String get glossaryNothing;
+
+  /// No description provided for @refUzbekOnly.
+  ///
+  /// In en, this message translates to:
+  /// **'Text is in Uzbek (from the textbook); translation comes in a later update.'**
+  String get refUzbekOnly;
+
+  /// No description provided for @workVitalsTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Vital signs'**
+  String get workVitalsTitle;
+
+  /// No description provided for @workVitalTemp.
+  ///
+  /// In en, this message translates to:
+  /// **'Body temperature'**
+  String get workVitalTemp;
+
+  /// No description provided for @workVitalPulse.
+  ///
+  /// In en, this message translates to:
+  /// **'Pulse'**
+  String get workVitalPulse;
+
+  /// No description provided for @workVitalResp.
+  ///
+  /// In en, this message translates to:
+  /// **'Respiratory rate'**
+  String get workVitalResp;
+
+  /// No description provided for @workVitalPerMin.
+  ///
+  /// In en, this message translates to:
+  /// **'per minute'**
+  String get workVitalPerMin;
+
+  /// No description provided for @workVitalSource.
+  ///
+  /// In en, this message translates to:
+  /// **'Source: Inomov Q.S., “Fundamentals of Nursing” (Hamshiralik ishi asoslari), 4th ed., Tashkent, 2007, pp. 170/173/177 (PDF).'**
+  String get workVitalSource;
 
   /// No description provided for @workTitle.
   ///

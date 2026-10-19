@@ -65,6 +65,7 @@ class LgStyle extends ThemeExtension<LgStyle> {
     this.solidSelection = false,
     this.accentRing = false,
     this.pillControls = false,
+    this.glass = false,
     required this.headerGradient,
   });
 
@@ -89,6 +90,10 @@ class LgStyle extends ThemeExtension<LgStyle> {
   /// Tugma va filtr chiplari — to'liq kapsula (pill) shaklida.
   final bool pillControls;
 
+  /// "Tiniq shisha": aurora fon, yorug' qirrali shisha kartalar, Fraunces
+  /// sarlavhalar.
+  final bool glass;
+
   /// [pillControls] bo'lsa — kapsula, aks holda berilgan radius.
   double controlRadius(double fallback) => pillControls ? 999 : fallback;
 
@@ -97,11 +102,15 @@ class LgStyle extends ThemeExtension<LgStyle> {
 
   static const classic = LgStyle(
     id: LgThemeId.classic,
+    pillControls: true,
+    glass: true,
     headerGradient: [Color(0xFFDDEBE8), Color(0xFFFCFBF8)],
   );
 
   static const classicDark = LgStyle(
     id: LgThemeId.classic,
+    pillControls: true,
+    glass: true,
     headerGradient: [Color(0xFF1B3A3D), Color(0xFF14262A)],
   );
 
@@ -137,6 +146,7 @@ class LgStyle extends ThemeExtension<LgStyle> {
     bool? solidSelection,
     bool? accentRing,
     bool? pillControls,
+    bool? glass,
     List<Color>? headerGradient,
   }) => LgStyle(
     id: id ?? this.id,
@@ -145,6 +155,7 @@ class LgStyle extends ThemeExtension<LgStyle> {
     solidSelection: solidSelection ?? this.solidSelection,
     accentRing: accentRing ?? this.accentRing,
     pillControls: pillControls ?? this.pillControls,
+    glass: glass ?? this.glass,
     headerGradient: headerGradient ?? this.headerGradient,
   );
 

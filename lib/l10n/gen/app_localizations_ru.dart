@@ -4652,11 +4652,10 @@ class AppLocalizationsRu extends AppLocalizations {
   String get procSub => 'Пошаговые практические инструкции';
 
   @override
-  String get procEmptyTitle => 'Скоро';
+  String get procEmptyTitle => 'Манипуляции';
 
   @override
-  String get procEmptyBody =>
-      'Раздел манипуляций готовится. Проверенные инструкции с источниками появятся в следующем обновлении.';
+  String get procEmptyBody => 'Список манипуляций не загрузился.';
 
   @override
   String get workDirTitle => 'Ваше направление работы';
@@ -4692,6 +4691,79 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get workPlan =>
       'План недели: понедельник–четверг — ваше направление, пятница–суббота — общие вопросы, воскресенье — смешанный набор.';
+
+  @override
+  String get procGoal => 'Цель';
+
+  @override
+  String get procIndications => 'Показания';
+
+  @override
+  String get procContra => 'Противопоказания';
+
+  @override
+  String get procEquipment => 'Необходимое оснащение';
+
+  @override
+  String get procSteps => 'Шаги';
+
+  @override
+  String get procChecklist => 'Чек-лист';
+
+  @override
+  String get procRisks => 'Риски и осложнения';
+
+  @override
+  String procStepsCount(int count) {
+    return '$count шагов';
+  }
+
+  @override
+  String get procSourceNote =>
+      'Сведения подготовлены по учебнику. Сверяйте с действующей инструкцией вашего учреждения и приказами МЗ.';
+
+  @override
+  String get procNotFound => 'Манипуляция не найдена';
+
+  @override
+  String get glossaryTitle => 'Словарь терминов';
+
+  @override
+  String get glossarySub => 'Точные определения из учебника';
+
+  @override
+  String glossaryCount(int count) {
+    return 'Терминов: $count';
+  }
+
+  @override
+  String get glossarySearch => 'Поиск термина';
+
+  @override
+  String get glossaryNothing => 'Ничего не найдено';
+
+  @override
+  String get refUzbekOnly =>
+      'Текст на узбекском (по учебнику); перевод появится в следующем обновлении.';
+
+  @override
+  String get workVitalsTitle => 'Жизненные показатели';
+
+  @override
+  String get workVitalTemp => 'Температура тела';
+
+  @override
+  String get workVitalPulse => 'Пульс';
+
+  @override
+  String get workVitalResp => 'Частота дыхания';
+
+  @override
+  String get workVitalPerMin => 'в минуту';
+
+  @override
+  String get workVitalSource =>
+      'Источник: Иномов К.С., «Основы сестринского дела», 4-е изд., Ташкент, 2007, с. 170/173/177 (PDF).';
 
   @override
   String get workTitle => 'Рабочее место';

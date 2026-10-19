@@ -15066,27 +15066,6 @@
    "bank": "hamshiralik"
   },
   {
-   "id": "ng-h-144",
-   "n": 740,
-   "q": "Sterilizatsiyadan oldin tibbiy asboblarni tozalashda yuvish uchun qanday suvdan foydalaniladi:",
-   "options": [
-    "Distillangan",
-    "Oqava",
-    "Qaynatilgan",
-    "Steril"
-   ],
-   "key": [
-    0
-   ],
-   "topic": "infection_control",
-   "verdict": "ok",
-   "checked": "2026-10-19",
-   "status": "verified",
-   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 341-bet (PDF)",
-   "explanation": "Darslikka ko'ra to'g'ri javob: Distillangan.",
-   "bank": "hamshiralik"
-  },
-  {
    "id": "ng-h-147",
    "n": 741,
    "q": "Teri orasiga qilinadigan Kasoni sinamasi nima maqsadda qilinadi:",
@@ -16282,6 +16261,1077 @@
    "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 211-bet (PDF)",
    "explanation": "Darslikka ko'ra to'g'ri javob: Bemor kushetka chetiga chap yonboshi bilan yotqizilib oyoqlari qorniga taqalgan.",
    "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-016",
+   "n": 798,
+   "q": "Salomatlik haqidagi ta'limot nima deb ataladi:",
+   "options": [
+    "Valeologiya",
+    "Sanalogiya",
+    "Gerontologiya",
+    "Diyetologiya"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 435-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Valeologiya.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-023",
+   "n": 799,
+   "q": "Tibbiyotning asosiy vazifasi bu...:",
+   "options": [
+    "Sog'liqni saqlash va yo'qotilgan sog'liqni tiklash",
+    "Kasalliklarni yo'qotish",
+    "Iqtisodiy barkamollikka erishish",
+    "O'sma kasalliklarini profilaktikasi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 25-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Sog'liqni saqlash va yo'qotilgan sog'liqni tiklash.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-091",
+   "n": 800,
+   "q": "Nafas olishning tezlashishi:",
+   "options": [
+    "Taxipnoe",
+    "Bradipnoe",
+    "Apnoe",
+    "Dispnoe"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 277-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Taxipnoe.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-092",
+   "n": 801,
+   "q": "Nafas olishning pasayishi:",
+   "options": [
+    "Bradipnoe",
+    "Taxipnoe",
+    "Disipnoe",
+    "Apnoe"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 277-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Bradipnoe.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-131",
+   "n": 802,
+   "q": "Ob'ektiv tekshirish usuliga kirmaydi:",
+   "options": [
+    "Bemorlarni so'rab surishtirish",
+    "Palpatsiya",
+    "Perkussiya",
+    "Auskultatsiya"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 385-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Bemorlarni so'rab surishtirish.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-169",
+   "n": 803,
+   "q": "Ajralayotgan siydikk miqdorini ko'payishi bu:",
+   "options": [
+    "Poliuriya",
+    "Proteinuriya",
+    "Gematuriya",
+    "Nikturiya"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 380-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Poliuriya.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-170",
+   "n": 804,
+   "q": "Ajralayotgan siydik miqdorini kamayishi bu:",
+   "options": [
+    "Oligouriya",
+    "Proteinuriya",
+    "Gematuriya",
+    "Poliuriya"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 381-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Oligouriya.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-172",
+   "n": 805,
+   "q": "Siydika qon yoki eritrosit donachalari aniqlansa bu:",
+   "options": [
+    "Gematuriya",
+    "Proteinuriya",
+    "Nikturiya",
+    "Poliuriya"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 380-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Gematuriya.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-200",
+   "n": 806,
+   "q": "Verbal va noverbal muloqotlar qanday amalga oshiriladi:",
+   "options": [
+    "Verbal va noverbal muloqotlar bir vaqtda qo'llaniladi",
+    "Avval verbal keyin noverbal muloqot",
+    "Faqat verbal muloqot amalga oshiriladi",
+    "Telekommunikatsiya usullari qo'llaniladi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 77-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Verbal va noverbal muloqotlar bir vaqtda qo'llaniladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-220",
+   "n": 807,
+   "q": "Subyektiv tekshiruv usuli bu …:",
+   "options": [
+    "Bemorni so'rab surishtirish",
+    "Auskultatsiya",
+    "Ko'zdan kechirish",
+    "Palpatsiya"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 385-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Bemorni so'rab surishtirish.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-222",
+   "n": 808,
+   "q": "Qattiq, tarang puls aniqlanadi:",
+   "options": [
+    "Gipertonik krizda",
+    "Hushdan ketganda",
+    "Kollapsda",
+    "Kardiogen shokda"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "vital_signs",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 314-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Gipertonik krizda.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-312",
+   "n": 809,
+   "q": "Buyrak struktur – funktsional birligi:",
+   "options": [
+    "Nefron",
+    "Kapillyar",
+    "Neyron",
+    "Buyrak piramida"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 373-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Nefron.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-313",
+   "n": 810,
+   "q": "Bel sohasiga urib ko'rilganda aniqlanadi:",
+   "options": [
+    "Pasternatskiy simptomi",
+    "Lasseg simptomi",
+    "Petrovskiy simptomi",
+    "Babinskiy simptomi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 377-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Pasternatskiy simptomi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-348",
+   "n": 811,
+   "q": "Buyrakning eng kichik funktsional birligi hisoblanadi:",
+   "options": [
+    "Nefron",
+    "Koptokcha",
+    "Boumen kapsulasi",
+    "Kapillyarlar tuguni"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 373-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Nefron.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-361",
+   "n": 812,
+   "q": "Nafas olishning tezlashuvi nima deb ataladi",
+   "options": [
+    "Taxipnoe",
+    "Dispnoe",
+    "Apnoe",
+    "Bradipnoe"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 277-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Taxipnoe.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-388",
+   "n": 813,
+   "q": "Sub'yektiv tekshirishda nima aniqlanadi:",
+   "options": [
+    "Kasallik anamnezi",
+    "Bemorning ahvoli",
+    "Bemorning es-hushi",
+    "Bemorning vazni"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 101-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Kasallik anamnezi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-395",
+   "n": 814,
+   "q": "Poliuriya – bu …:",
+   "options": [
+    "Ko'p siyish",
+    "Ko'p ovqat yeyish",
+    "Ko'p suv ichish",
+    "Siydik ajralishining kamayishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 380-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Ko'p siyish.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-405",
+   "n": 815,
+   "q": "Bemorning nafas olishi tezlashgan bo'lsa, bu qanday holatni ko'rsatadi:",
+   "options": [
+    "Bradipnoe",
+    "Taxipnoe",
+    "Apnoe",
+    "Dispnoe"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 277-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Taxipnoe.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-408",
+   "n": 816,
+   "q": "Bronxit kasalligining simptomi:",
+   "options": [
+    "A/B ko'tarilishi, puls tezlashishi, nafas siqishi",
+    "Yo'tal, balg'am ajralishi, ko'krak qafasida og'riq",
+    "Bosh og'riq, xolsizlik, uyqu buzulishi, darmonsizlik",
+    "Xolsizligi, temperatura ko'tarilishi, xushtaksimon nafas olish"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 294-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Yo'tal, balg'am ajralishi, ko'krak qafasida og'riq.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-p-012",
+   "n": 817,
+   "q": "Bemorning holatini patronaj hamshirasi qanday baholaydi:",
+   "options": [
+    "aktiv, passiv, majburiy,",
+    "yaxshi, yomon,",
+    "passiv, majburiy,",
+    "aktiv, passiv."
+   ],
+   "key": [
+    0
+   ],
+   "topic": "patronage",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 390-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: aktiv, passiv, majburiy,.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-022",
+   "n": 818,
+   "q": "Inson his-tuyg'lari va emotsiyalarining tashqi ko'rinishi muloqotning qaysi vositasi orqali namoyon bo'ladi:",
+   "options": [
+    "ichki shaxsiy muloqot,",
+    "o'zaro shaxsiy muloqot,",
+    "noverbal muloqot,",
+    "verbal muloqot."
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 79-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: noverbal muloqot,.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-043",
+   "n": 819,
+   "q": "Antropometriya nima:",
+   "options": [
+    "bemorning tana haroratini o'lchash,",
+    "bemor og'irligi, bo'yi va ko'krak aylanasini o'lchash,",
+    "qo'l va oyoq mushaklari kuchini olchash,",
+    "o'pkaning tiriklik sig'imini o'lchash."
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 435-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: bemor og'irligi, bo'yi va ko'krak aylanasini o'lchash,.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-048",
+   "n": 820,
+   "q": "Nafas olishning tezlashishini anglatuvchi termini toping:",
+   "options": [
+    "dispnoe",
+    "taxipnoye",
+    "apnoe",
+    "bradipnoe."
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 277-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: taxipnoye.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-053",
+   "n": 821,
+   "q": "Hamshira tashxisi qaysi bosqichda qo'yiladi:",
+   "options": [
+    "3 bosqichda",
+    "4 bosqichda",
+    "2 bosqichda",
+    "5 bosqichda"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 102-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 2 bosqichda.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-054",
+   "n": 822,
+   "q": "Hamshiralik parvarish rejasi qaysi bosqichda tuziladi:",
+   "options": [
+    "3 bosqichda",
+    "5 bosqichda",
+    "4 bosqichda",
+    "2 bosqichda"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 99-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 3 bosqichda.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-055",
+   "n": 823,
+   "q": "Insonning 14 ta extiyojlari muallifi kim:",
+   "options": [
+    "Maslou",
+    "Rauper, Logan",
+    "Orem, Djonson",
+    "V. Xenderson"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 13-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: V. Xenderson.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-062",
+   "n": 824,
+   "q": "Qandli diabetda qaysi parhez stoli buyuriladi:",
+   "options": [
+    "10 - parhez stoli",
+    "9 - parhez stoli",
+    "5 - parhez stoli",
+    "8- parhez stoli"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 136-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 9 - parhez stoli.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-067",
+   "n": 825,
+   "q": "Siydik miqdorining kamayishi nima deyiladi:",
+   "options": [
+    "anuriya",
+    "ishuriya",
+    "oligouriya",
+    "gemoturiya"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 381-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: oligouriya.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-082",
+   "n": 826,
+   "q": "Yurak auskultatsiyasida nima aniqlanadi:",
+   "options": [
+    "yurak joylashuvi, chegarasi",
+    "yurak shovqinlari va tonlari aniqlanadi",
+    "yurak qorinchalari eshitiladi",
+    "puls ajratiladi"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 320-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: yurak shovqinlari va tonlari aniqlanadi.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-089",
+   "n": 827,
+   "q": "Buyrak xastaligida qaysi parxez stoli buyuriladi:",
+   "options": [
+    "10 - parxez stoli",
+    "5 - parxez stoli",
+    "15 - parxez stoli",
+    "7 - parxez stoli"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 136-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 7 - parxez stoli.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-102",
+   "n": 828,
+   "q": "Bemorlarning kasalligi tufayli o'zaro bir - biriga ijobiy yoki salbiy ta'siri nima deyiladi:",
+   "options": [
+    "egogeniya",
+    "egrotogeniya",
+    "yatrogeniya",
+    "emotsiya"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 87-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: egrotogeniya.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-103",
+   "n": 829,
+   "q": "Tibbiyot xodimlarining xatti - xarakatlari va munosabatlari natijasida kelib chiqadigan bemorlardagi salbiy holat nima deb ataladi:",
+   "options": [
+    "egrotogeniya",
+    "yatrogeniya",
+    "emotsiya",
+    "egogeniya"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 438-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: yatrogeniya.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-136",
+   "n": 830,
+   "q": "Hamshiralik jarayonining birinchi bosqichi bu:",
+   "options": [
+    "hamshiralik tashhisini qo'yish",
+    "parvarish rejasini tuzish",
+    "bemorni ob'ektiv va sub'ektiv tekshirish",
+    "bemorni ovqatlantirish"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 101-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: bemorni ob'ektiv va sub'ektiv tekshirish.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-137",
+   "n": 831,
+   "q": "Hamshiralik jarayonining ikkinchi bosqichi:",
+   "options": [
+    "parvarishni amalga oshirish",
+    "hamshiralik tashhisini qo'yish",
+    "parvarishni baholash",
+    "parvarish rejasini tuzish"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 102-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: hamshiralik tashhisini qo'yish.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-138",
+   "n": 832,
+   "q": "Hamshiralik jarayonining uchinchi bosqichi:",
+   "options": [
+    "hamshiralik tashhisini qo'yish",
+    "parvarishni amalga oshirish",
+    "parvarishni baholash",
+    "parvarish rejasini tuzish"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 99-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: parvarish rejasini tuzish.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-139",
+   "n": 833,
+   "q": "Hamshiralik jarayonining to'rtinchi bosqichi:",
+   "options": [
+    "natijani qayd etish",
+    "parvarish rejasini tuzish",
+    "parvarishni amalga oshirish",
+    "bemorni tekshirish"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 103-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: parvarishni amalga oshirish.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-140",
+   "n": 834,
+   "q": "Hamshiralik jarayoning beshinchi bosqichi:",
+   "options": [
+    "natijani qayd etish",
+    "tashhis qo'yish",
+    "parvarishni amalga oshirish",
+    "parvarishni baholash"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 104-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: parvarishni baholash.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-142",
+   "n": 835,
+   "q": "Auskultatsiya bu:",
+   "options": [
+    "tukillatib ko'rish",
+    "eshitib ko'rish",
+    "paypaslash",
+    "tana haroratini o'lchash"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 320-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: eshitib ko'rish.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-143",
+   "n": 836,
+   "q": "Perkussiya bu:",
+   "options": [
+    "paypaslash",
+    "eshitib ko'rish",
+    "tukillatish",
+    "uqalash"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 283-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: tukillatish.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-144",
+   "n": 837,
+   "q": "Palpatsiya bu:",
+   "options": [
+    "tana harorati o'lchash",
+    "tukillatish",
+    "eshitib ko'rish",
+    "paypaslash"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 213-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: paypaslash.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-164",
+   "n": 838,
+   "q": "7- parhez stoli qaysi kasallikda qo'llaniladi:",
+   "options": [
+    "surunkali gepatit",
+    "surunkali xolesistit",
+    "surunkali glomerulonefrit",
+    "surunkali gastrit"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 136-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: surunkali glomerulonefrit.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-166",
+   "n": 839,
+   "q": "Piuriya bu nima:",
+   "options": [
+    "tungi diurezning ortishi",
+    "siydik rangining o'zgarishi",
+    "siydikda yiring paydo bo'lishi",
+    "siydikda leykositlar paydo bo'lishi"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 380-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: siydikda yiring paydo bo'lishi.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-178",
+   "n": 840,
+   "q": "Giperesteziya nima:",
+   "options": [
+    "sezgining butunlay yo'qolishi",
+    "harorat sezisining yo'qolishi",
+    "sezgining pasayishi",
+    "sezgining kuchayishi"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 195-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: sezgining kuchayishi.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-187",
+   "n": 841,
+   "q": "Palpatsiya nima:",
+   "options": [
+    "eshitib ko'rish",
+    "paypastlab tekshirish",
+    "tukillatib ko'rish",
+    "maxsus tekshiruv"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 213-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: paypastlab tekshirish.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-351",
+   "n": 842,
+   "q": "Qandli diabet kasalligida nechanchi parxez dasturxoni buyuriladi:",
+   "options": [
+    "3",
+    "4",
+    "6",
+    "9"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 136-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 9.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-459",
+   "n": 843,
+   "q": "Mexanik usulda tozalash qanday amalga oshiriladi:",
+   "options": [
+    "kislota, ishqorlar, xlorli eritmalardan foydalanish",
+    "quritish, quyosh nuri, ultrabinafsha nurlari, qaynoq suv, bug'lardan foydalanish",
+    "shamollatish kiradi",
+    "dazmol urish, qaynatish"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 139-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: shamollatish kiradi.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-461",
+   "n": 844,
+   "q": "Hamshiralik kasallik tarixi qanday hujjat hisoblanadi:",
+   "options": [
+    "ijtimoiy hujjat hisoblanadi",
+    "yuridik bayonnoma, ya'ni tibbiy hamshiraning mustaqil kasbiy hujjatdir",
+    "tibbiy hujjat hisoblanadi",
+    "psixologik hujjat hisoblanadi"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 384-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: yuridik bayonnoma, ya'ni tibbiy hamshiraning mustaqil kasbiy hujjatdir.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-482",
+   "n": 845,
+   "q": "Bemorlarni sub'ektiv tekshiruvlariga nimalar kiradi:",
+   "options": [
+    "bemorni umumiy ko'zdan o'tkazish",
+    "bemor shikoyatlari, kasallikning rivojlanish tarixi, hayot anamnezi so'raladi",
+    "perkussiya, palpatsiya qilish",
+    "arterial qon bosimini o'lchash"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 385-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: bemor shikoyatlari, kasallikning rivojlanish tarixi, hayot anamnezi so'raladi.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-o-061",
+   "n": 846,
+   "q": "Tibbiyot xodimlarining xatti-xarakatlari va munosabatlaridagi nuqsonlar natijasida kelib chiqadigan bemorlardagi holat nima deyiladi:",
+   "options": [
+    "Yatrogeniya",
+    "Deontologiya",
+    "Etika",
+    "Kommunikatsiya"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 438-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Yatrogeniya.",
+   "bank": "oliy_hamshiralik"
+  },
+  {
+   "id": "ng-o-240",
+   "n": 847,
+   "q": "To'qimalardagi chegaralangan yiringli yallig'lanish bu:",
+   "options": [
+    "Absess",
+    "Flegmona",
+    "Osteomielit",
+    "Saramas"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 146-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Absess.",
+   "bank": "oliy_hamshiralik"
+  },
+  {
+   "id": "ng-o-387",
+   "n": 848,
+   "q": "Agar kimdir bemorning qizikishlariga zarar yetkazishga harakat qilsa, hamshira esa o'z bilimlariga asoslangan holda, qat'iyan bemorning kiziqishlarini himoya qilsa, parvarish kimga yo'naltirilgan bo'ladi:",
+   "options": [
+    "Shifokorga",
+    "Bemorga",
+    "Hamshiraning o'ziga",
+    "Bemor oila a'zolariga"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 88-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Bemorga.",
+   "bank": "oliy_hamshiralik"
   }
  ]
 }

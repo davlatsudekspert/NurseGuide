@@ -3,7 +3,9 @@ import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
 
 import '../../design/brand.dart';
+import '../../design/themes.dart';
 import '../../design/tokens.dart';
+import '../../design/widgets/lg_backdrop.dart';
 import '../../design/widgets/collapse_hysteresis.dart';
 import '../../features/settings/settings_controller.dart';
 import '../../l10n/gen/app_localizations.dart';
@@ -180,96 +182,100 @@ class _LgPageState extends State<LgPage> {
       showLogo: widget.showBrand,
     );
 
-    return Scaffold(
-      body: SafeArea(
-        bottom: false,
-        child: LayoutBuilder(
-          builder: (context, constraints) {
-            final gutter = LgSpace.gutter(constraints.maxWidth);
-            final side = (constraints.maxWidth - LgSpace.maxContentWidth) / 2;
-            final horizontal = side > gutter ? side : gutter;
-            // Rasmli (welcome) sahifada sarlavha kontent bilan birga
-            // suriladi. Qolgan sahifalarda katta sarlavha ro'yxat ustida
-            // turadi va scroll yo'nalishiga qarab ixchamlashadi — lekin
-            // past ekranda (landshaft telefon, katta shrift) u joyning katta
-            // qismini egallab, kontentni ko'rinmas qilardi: bunda sarlavha
-            // ham ro'yxat ichiga o'tadi.
-            // Klaviatura ochilganda qaror o'zgarmaydi (yuqoridagi [_pinned]).
-            // Shell Scaffold'i ichida MediaQuery.viewInsets allaqachon
-            // olib tashlangan — klaviatura oynaning o'zidan aniqlanadi.
-            final keyboardOpen = View.of(context).viewInsets.bottom > 0;
-            // Shell ichida body panel ostigacha cho'ziladi: joy hisobida
-            // panel egallagan pastki qism chiqarib tashlanadi.
-            final available =
-                constraints.maxHeight - (insideShell ? bottomInset : 0);
-            if (!keyboardOpen || _pinned == null) {
-              _pinned =
-                  widget.leadingHero == null &&
-                  available >= 420 &&
-                  _largeTitleExtent <= available * 0.4;
-            }
-            final pinned = _pinned!;
-            if (!pinned && _logic.collapsed) _logic.reset();
-            return Column(
-              crossAxisAlignment: CrossAxisAlignment.stretch,
-              children: [
-                _TopBar(
-                  horizontal: horizontal,
-                  title: widget.title,
-                  collapsed: pinned && collapsed,
-                  showBack: canPop,
-                  showBrand: widget.showBrand,
-                  showProfile: widget.showProfile,
-                  duration: duration,
-                ),
-                if (pinned)
-                  Padding(
-                    padding: EdgeInsets.symmetric(horizontal: horizontal),
-                    child: _CollapsibleTitle(
-                      collapsed: collapsed,
-                      duration: duration,
-                      onMeasured: _measured,
-                      child: largeTitle,
-                    ),
+    final glass = LgStyle.of(context).glass;
+    return LgBackdrop(
+      child: Scaffold(
+        backgroundColor: glass ? Colors.transparent : null,
+        body: SafeArea(
+          bottom: false,
+          child: LayoutBuilder(
+            builder: (context, constraints) {
+              final gutter = LgSpace.gutter(constraints.maxWidth);
+              final side = (constraints.maxWidth - LgSpace.maxContentWidth) / 2;
+              final horizontal = side > gutter ? side : gutter;
+              // Rasmli (welcome) sahifada sarlavha kontent bilan birga
+              // suriladi. Qolgan sahifalarda katta sarlavha ro'yxat ustida
+              // turadi va scroll yo'nalishiga qarab ixchamlashadi — lekin
+              // past ekranda (landshaft telefon, katta shrift) u joyning katta
+              // qismini egallab, kontentni ko'rinmas qilardi: bunda sarlavha
+              // ham ro'yxat ichiga o'tadi.
+              // Klaviatura ochilganda qaror o'zgarmaydi (yuqoridagi [_pinned]).
+              // Shell Scaffold'i ichida MediaQuery.viewInsets allaqachon
+              // olib tashlangan — klaviatura oynaning o'zidan aniqlanadi.
+              final keyboardOpen = View.of(context).viewInsets.bottom > 0;
+              // Shell ichida body panel ostigacha cho'ziladi: joy hisobida
+              // panel egallagan pastki qism chiqarib tashlanadi.
+              final available =
+                  constraints.maxHeight - (insideShell ? bottomInset : 0);
+              if (!keyboardOpen || _pinned == null) {
+                _pinned =
+                    widget.leadingHero == null &&
+                    available >= 420 &&
+                    _largeTitleExtent <= available * 0.4;
+              }
+              final pinned = _pinned!;
+              if (!pinned && _logic.collapsed) _logic.reset();
+              return Column(
+                crossAxisAlignment: CrossAxisAlignment.stretch,
+                children: [
+                  _TopBar(
+                    horizontal: horizontal,
+                    title: widget.title,
+                    collapsed: pinned && collapsed,
+                    showBack: canPop,
+                    showBrand: widget.showBrand,
+                    showProfile: widget.showProfile,
+                    duration: duration,
                   ),
-                Expanded(
-                  child: NotificationListener<ScrollMetricsNotification>(
-                    onNotification: pinned ? _onMetrics : null,
-                    child: NotificationListener<ScrollNotification>(
-                      onNotification: pinned ? _onScroll : null,
-                      child: Scrollbar(
-                        controller: _scroll,
-                        child: ListView(
+                  if (pinned)
+                    Padding(
+                      padding: EdgeInsets.symmetric(horizontal: horizontal),
+                      child: _CollapsibleTitle(
+                        collapsed: collapsed,
+                        duration: duration,
+                        onMeasured: _measured,
+                        child: largeTitle,
+                      ),
+                    ),
+                  Expanded(
+                    child: NotificationListener<ScrollMetricsNotification>(
+                      onNotification: pinned ? _onMetrics : null,
+                      child: NotificationListener<ScrollNotification>(
+                        onNotification: pinned ? _onScroll : null,
+                        child: Scrollbar(
                           controller: _scroll,
-                          keyboardDismissBehavior:
-                              ScrollViewKeyboardDismissBehavior.onDrag,
-                          padding: EdgeInsets.fromLTRB(
-                            horizontal,
-                            pinned ? 4 : 0,
-                            horizontal,
-                            // Shell ichida: panel (Ish joyi tugmasi bilan) ustida
-                            // 24 px bo'sh joy — oxirgi tugma panelga
-                            // "yopishib" turmaydi.
-                            (insideShell ? 24 : 32) + bottomInset,
+                          child: ListView(
+                            controller: _scroll,
+                            keyboardDismissBehavior:
+                                ScrollViewKeyboardDismissBehavior.onDrag,
+                            padding: EdgeInsets.fromLTRB(
+                              horizontal,
+                              pinned ? 4 : 0,
+                              horizontal,
+                              // Shell ichida: panel (Ish joyi tugmasi bilan) ustida
+                              // 24 px bo'sh joy — oxirgi tugma panelga
+                              // "yopishib" turmaydi.
+                              (insideShell ? 24 : 32) + bottomInset,
+                            ),
+                            // Birinchi o'rin doim band: qaror o'zgarganda
+                            // kontent elementlarining indeksi (va holati —
+                            // fokus, kiritilgan matn) siljimaydi.
+                            children: [
+                              if (!pinned)
+                                largeTitle
+                              else
+                                const SizedBox.shrink(),
+                              ...widget.children,
+                            ],
                           ),
-                          // Birinchi o'rin doim band: qaror o'zgarganda
-                          // kontent elementlarining indeksi (va holati —
-                          // fokus, kiritilgan matn) siljimaydi.
-                          children: [
-                            if (!pinned)
-                              largeTitle
-                            else
-                              const SizedBox.shrink(),
-                            ...widget.children,
-                          ],
                         ),
                       ),
                     ),
                   ),
-                ),
-              ],
-            );
-          },
+                ],
+              );
+            },
+          ),
         ),
       ),
     );
@@ -484,7 +490,7 @@ class _TopBar extends StatelessWidget {
     }
 
     return ColoredBox(
-      color: p.bg,
+      color: LgStyle.of(context).glass ? p.bg.withValues(alpha: 0.78) : p.bg,
       child: Padding(
         padding: EdgeInsets.fromLTRB(horizontal - 6, 10, horizontal - 8, 8),
         child: Row(

@@ -4647,11 +4647,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get procSub => 'Step-by-step practical guides';
 
   @override
-  String get procEmptyTitle => 'Coming soon';
+  String get procEmptyTitle => 'Procedures';
 
   @override
-  String get procEmptyBody =>
-      'The procedures section is being prepared. Verified, sourced guides will appear in an upcoming update.';
+  String get procEmptyBody => 'The procedure list did not load.';
 
   @override
   String get workDirTitle => 'Your work area';
@@ -4684,6 +4683,79 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get workPlan =>
       'Weekly plan: Monday–Thursday your area, Friday–Saturday general questions, Sunday mixed.';
+
+  @override
+  String get procGoal => 'Purpose';
+
+  @override
+  String get procIndications => 'Indications';
+
+  @override
+  String get procContra => 'Contraindications';
+
+  @override
+  String get procEquipment => 'Equipment';
+
+  @override
+  String get procSteps => 'Steps';
+
+  @override
+  String get procChecklist => 'Checklist';
+
+  @override
+  String get procRisks => 'Risks and complications';
+
+  @override
+  String procStepsCount(int count) {
+    return '$count steps';
+  }
+
+  @override
+  String get procSourceNote =>
+      'Based on the textbook. Compare with your facility\'s current instruction and Ministry of Health orders.';
+
+  @override
+  String get procNotFound => 'Procedure not found';
+
+  @override
+  String get glossaryTitle => 'Glossary';
+
+  @override
+  String get glossarySub => 'Exact definitions from the textbook';
+
+  @override
+  String glossaryCount(int count) {
+    return '$count terms';
+  }
+
+  @override
+  String get glossarySearch => 'Search terms';
+
+  @override
+  String get glossaryNothing => 'Nothing found';
+
+  @override
+  String get refUzbekOnly =>
+      'Text is in Uzbek (from the textbook); translation comes in a later update.';
+
+  @override
+  String get workVitalsTitle => 'Vital signs';
+
+  @override
+  String get workVitalTemp => 'Body temperature';
+
+  @override
+  String get workVitalPulse => 'Pulse';
+
+  @override
+  String get workVitalResp => 'Respiratory rate';
+
+  @override
+  String get workVitalPerMin => 'per minute';
+
+  @override
+  String get workVitalSource =>
+      'Source: Inomov Q.S., “Fundamentals of Nursing” (Hamshiralik ishi asoslari), 4th ed., Tashkent, 2007, pp. 170/173/177 (PDF).';
 
   @override
   String get workTitle => 'Workplace';

@@ -3,6 +3,7 @@ import 'package:material_ui/material_ui.dart';
 
 import '../../l10n/gen/app_localizations.dart';
 import '../themes.dart';
+import '../glass_art.dart';
 import '../tokens.dart';
 
 /// Bosilganda 180 ms ichida biroz kichrayadigan (0.97) yuzani beradi.
@@ -243,7 +244,11 @@ class LgPanel extends StatelessWidget {
         decoration: BoxDecoration(
           color: soft ? p.soft : p.paper,
           borderRadius: BorderRadius.circular(LgRadius.card),
-          border: outlined ? Border.all(color: p.brand, width: 2) : null,
+          border: outlined
+              ? Border.all(color: p.brand, width: 2)
+              : LgStyle.of(context).glass && !soft
+              ? LgShadow.rim(context)
+              : null,
           boxShadow: soft ? null : LgShadow.card(context),
         ),
         child: Padding(padding: padding, child: child),
@@ -295,6 +300,7 @@ class LgHeroCard extends StatelessWidget {
               end: Alignment.bottomRight,
               colors: [p.soft, p.paper],
             ),
+            border: LgStyle.of(context).glass ? LgShadow.rim(context) : null,
             boxShadow: LgShadow.card(context),
           ),
           child: Padding(
@@ -358,6 +364,7 @@ class LgHeroCard extends StatelessWidget {
             end: Alignment.bottomRight,
             colors: [p.soft, p.paper],
           ),
+          border: LgStyle.of(context).glass ? LgShadow.rim(context) : null,
           boxShadow: LgShadow.card(context),
         ),
         child: Padding(
@@ -687,6 +694,7 @@ class LgTile extends StatelessWidget {
     required this.icon,
     required this.onTap,
     this.highlighted = false,
+    this.art,
   });
 
   final String title;
@@ -694,6 +702,9 @@ class LgTile extends StatelessWidget {
   final IconData icon;
   final VoidCallback onTap;
   final bool highlighted;
+
+  /// "Tiniq shisha" mavzusida ikonka o'rnida 3D shisha belgi.
+  final LgArt? art;
 
   static const _padding = 18.0;
 
@@ -725,6 +736,7 @@ class LgTile extends StatelessWidget {
     final p = LgPalette.of(context);
     final text = Theme.of(context).textTheme;
     final ring = LgStyle.of(context).accentRing;
+    final glass = LgStyle.of(context).glass;
     return DecoratedBox(
       decoration: BoxDecoration(
         borderRadius: BorderRadius.circular(LgRadius.card),
@@ -733,6 +745,7 @@ class LgTile extends StatelessWidget {
       child: LgPressable(
         onTap: onTap,
         color: highlighted ? p.soft : p.paper,
+        border: glass ? LgShadow.rim(context) : null,
         borderRadius: BorderRadius.circular(LgRadius.card),
         child: ConstrainedBox(
           constraints: const BoxConstraints(minHeight: 120),
@@ -743,22 +756,28 @@ class LgTile extends StatelessWidget {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 ExcludeSemantics(
-                  child: Container(
-                    width: 40,
-                    height: 40,
-                    // Ivory: dumaloq belgi, ingichka oltin halqa.
-                    decoration: ring
-                        ? BoxDecoration(
-                            color: highlighted ? p.paper : p.soft,
-                            shape: BoxShape.circle,
-                            border: Border.all(color: p.accent),
-                          )
-                        : BoxDecoration(
-                            color: highlighted ? p.paper : p.soft,
-                            borderRadius: BorderRadius.circular(13),
-                          ),
-                    child: Icon(icon, color: p.brand, size: 22),
-                  ),
+                  child: glass && art != null
+                      ? LgArtTile(
+                          art!,
+                          size: 52,
+                          dark: Theme.of(context).brightness == Brightness.dark,
+                        )
+                      : Container(
+                          width: 40,
+                          height: 40,
+                          // Ivory: dumaloq belgi, ingichka oltin halqa.
+                          decoration: ring
+                              ? BoxDecoration(
+                                  color: highlighted ? p.paper : p.soft,
+                                  shape: BoxShape.circle,
+                                  border: Border.all(color: p.accent),
+                                )
+                              : BoxDecoration(
+                                  color: highlighted ? p.paper : p.soft,
+                                  borderRadius: BorderRadius.circular(13),
+                                ),
+                          child: Icon(icon, color: p.brand, size: 22),
+                        ),
                 ),
                 const SizedBox(height: 16),
                 Column(

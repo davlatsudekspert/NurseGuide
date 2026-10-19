@@ -3,7 +3,6 @@
 // va Ish joyi bo'sh holatlari, Ustoz roli faqat hisobli foydalanuvchiga.
 import 'package:flutter/widgets.dart' show Size, ValueKey;
 import 'package:flutter_test/flutter_test.dart';
-import 'package:nurseguide/design/widgets/lg_widgets.dart';
 import 'package:nurseguide/features/auth/ui/role_screen.dart';
 import 'package:nurseguide/features/settings/settings_controller.dart';
 
@@ -156,15 +155,20 @@ void main() {
     }
   });
 
-  testWidgets('Manipulyatsiyalar va Ish joyi — halol bo‘sh holat', (
+  testWidgets('Manipulyatsiyalar ro‘yxati va Ish joyi yo‘nalish tanlovi', (
     tester,
   ) async {
     final s = await makeServices(tester);
-    await pumpApp(tester, s);
+    await pumpApp(tester, s, size: const Size(390, 2400));
     await tapNavTab(tester, 1);
-    expect(find.byKey(const ValueKey('procedures-empty')), findsOneWidget);
-    expect(find.byType(LgStateView), findsOneWidget);
-    expect(find.text(uz.procEmptyTitle), findsOneWidget);
+    await tester.runAsync(
+      () => Future<void>.delayed(const Duration(milliseconds: 50)),
+    );
+    await tester.pumpAndSettle();
+    expect(
+      find.byKey(const ValueKey('proc-teri_ichiga_inyeksiya')),
+      findsOneWidget,
+    );
     await tapNavTab(tester, 2);
     expect(find.byKey(const ValueKey('workplace-empty')), findsOneWidget);
     expect(find.text(uz.workEmptyBody), findsOneWidget);

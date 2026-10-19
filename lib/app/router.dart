@@ -17,6 +17,7 @@ import '../features/classroom/topic_test_screens.dart';
 import '../features/daily/daily_screens.dart';
 import '../features/home/home_screen.dart';
 import '../features/hub/hub_screens.dart';
+import '../features/reference/reference_screens.dart';
 import '../features/learn/classes_screens.dart';
 import '../features/learn/exam_screens.dart';
 import '../features/learn/learn_screens.dart';
@@ -247,6 +248,14 @@ GoRouter buildRouter(
               GoRoute(
                 path: '/procedures',
                 builder: (context, state) => const ProceduresScreen(),
+                routes: [
+                  GoRoute(
+                    path: ':id',
+                    builder: (context, state) => ProcedureDetailScreen(
+                      id: state.pathParameters['id']!,
+                    ),
+                  ),
+                ],
               ),
             ],
           ),
@@ -298,6 +307,10 @@ GoRouter buildRouter(
                   GoRoute(
                     path: 'sources',
                     builder: (context, state) => const SourcesScreen(),
+                  ),
+                  GoRoute(
+                    path: 'glossary',
+                    builder: (context, state) => const GlossaryScreen(),
                   ),
                 ],
               ),

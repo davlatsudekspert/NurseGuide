@@ -1,0 +1,963 @@
+{
+ "version": 1,
+ "procedures": [
+  {
+   "id": "teri_ichiga_inyeksiya",
+   "title": "Teri ichiga (teri orasiga) inyeksiya",
+   "group": "Inyeksiyalar",
+   "goal": "Teri orasiga inyeksiyalar tashxis maqsadida (Mantu, Byurne, Kasoni, Mak Klyur-Oldrich sinamalari) va mahalliy og'riqsizlantirish maqsadida qilinadi.",
+   "indications": [
+    "Mantu sinamasi (silni aniqlash uchun)",
+    "Byurne sinamasi (brusellyozni aniqlash uchun)",
+    "Kasoni sinamasi (exinokokkozni aniqlash uchun)",
+    "Mak Klyur-Oldrich sinamasi (yashirin shishlarni aniqlash uchun)",
+    "Mahalliy og'riqsizlantirish",
+    "Dorilarga sezuvchanlikni aniqlash va allergik sinamalar"
+   ],
+   "contraindications": [],
+   "equipment": [
+    "Bir grammli yaxshi shpris",
+    "Uchi 40-45° qiyshiq kesilgan eng ingichka va kalta igna",
+    "Dori ampulasi yoki flakoni",
+    "Spirt",
+    "Qo'lqoplar"
+   ],
+   "steps": [
+    {
+     "text": "Dori ampulasi yoki flakondagi yozuvni o'qing, eritma tiniqligiga ishonch hosil qiling va yaroqlilik muddatini tekshiring."
+    },
+    {
+     "text": "Dorini ampuladan shprisga tortib oling; igna uchi ampulaning tashqi devoriga tegib ketmasin."
+    },
+    {
+     "text": "Bemor bilan gaplashib, inyeksiya og'riqsiz o'tishini ayting; uning qanday yotishi va qanday nafas olishi kerakligini tushuntiring."
+    },
+    {
+     "text": "Uchi 40-45° qiyshiq kesilgan eng ingichka va kalta igna hamda bir grammli yaxshi shpris oling."
+    },
+    {
+     "text": "Diagnostik, allergik sinamalar va dorilarga sezuvchanlikni aniqlash uchun inyeksiya joyini bilakning pastki uchdan bir qismidan tanlang."
+    },
+    {
+     "text": "Qo'lqoplarni kiying, inyeksiya qilinadigan joyni spirt bilan arting va qurigunicha biroz kuting."
+    },
+    {
+     "text": "Ignani uchi bilan yuqoriga qaratib, o'tkir burchak ostida, teriga deyarli parallel tuting."
+    },
+    {
+     "text": "Ignaning faqat teshigi botib, ko'rinmay ketguncha uchini teri ichiga biroz kiriting."
+    },
+    {
+     "text": "Tayinlangan miqdordagi suyuqlikni yuboring (yuboriladigan miqdor 0,01-1 ml)."
+    },
+    {
+     "text": "Qo'lqoplarni yeching."
+    },
+    {
+     "text": "Qolgan bo'rtmacha 0,5-1 soat mobaynida so'rilib ketishini kuzating; 0,5-1 soatdan so'ng teri qizarsa, bu dorini qo'llashdan voz keching."
+    },
+    {
+     "text": "Mantu, Byurne, Kasoni sinamalarining natijalariga 24-48 soat o'tgach baho bering."
+    },
+    {
+     "text": "Shpris va ignani o'sha zahoti oqar suv tagida yuvib, ishlatilgan asboblar uchun ajratilgan idishga qo'ying."
+    }
+   ],
+   "checklist": [
+    "Dori nomi, tiniqligi va yaroqlilik muddati tekshirildimi?",
+    "Bemorga muolaja tushuntirildimi?",
+    "Eng ingichka va kalta igna (uchi 40-45° qiyshiq kesilgan) olindimi?",
+    "Qo'lqoplar kiyilib, joy spirt bilan artildimi va quritildimi?",
+    "Igna teriga deyarli parallel, uchi yuqoriga qaragan holda kiritildimi?",
+    "Faqat igna teshigi botguncha kiritildimi?",
+    "Muolajadan keyin qo'lqoplar yechildimi?",
+    "Natija 0,5-1 soatdan (Mantu, Byurne, Kasoni: 24-48 soatdan) so'ng baholandimi?"
+   ],
+   "risks": [
+    "Aseptika qoidalariga rioya qilinmasa, organizmga mikroblar tushib, infeksion asoratlar rivojlanishi mumkin, bu ba'zan o'lim bilan tugaydi.",
+    "Dori yoki zardobga ortiqcha sezuvchanlik bo'lsa, 0,5-1 soatdan so'ng teri qizarib qoladi."
+   ],
+   "source": "Manba: Inomov Q.S., «Hamshiralik ishi asoslari», 4-nashr, Toshkent, 2007, 230, 233-236-bet (PDF)",
+   "pages": [
+    230,
+    233,
+    234,
+    235,
+    236
+   ]
+  },
+  {
+   "id": "teri_ostiga_inyeksiya",
+   "title": "Teri ostiga inyeksiya",
+   "group": "Inyeksiyalar",
+   "goal": "Teri osti yog' hujayrasi tomirlarga boy yumshoq to'qima bo'lgani uchun teri ostiga bir necha millilitrdan (inyeksiya) dori eritmalarini yuborish mumkin.",
+   "indications": [
+    "Teri ostiga dori quyishda: organizm suv va tuzlarni ko'plab va birdan yo'qotganda (varaq-varaq qayt qilish, qon ketishi, kuyish, ichaklar tutilib qolishi) ularning o'rnini qoplash uchun",
+    "Teri ostiga dori quyishda: infeksiyalarda va intoksikatsiyalarda zaharli moddalar konsentratsiyasini pasaytirish va ularni buyraklar orqali chiqarib yuborish uchun",
+    "Teri ostiga dori quyishda: operatsiyadan oldin va keyingi davrda bemorga suyuqlik ichish mumkin bo'lmaganda"
+   ],
+   "contraindications": [
+    "Teri osti yog' hujayrasi shishgan joylarga inyeksiya va dori yuborish ruxsat etilmaydi",
+    "Avvalgi inyeksiyalar yaxshi so'rilmaganligi sababli qattiqlashib qolgan joylarga inyeksiya va dori yuborish ruxsat etilmaydi",
+    "Teri osti inyeksiyalarini dumba sohasiga qilmaslik kerak",
+    "Teri ostiga dori quyishda: ko'rsatilgan sohalardagi teri kasalliklari va yiringli jarayonlar monelik qiladi"
+   ],
+   "equipment": [
+    "Shpris va igna (teri osti inyeksiyalari uchun uzunligi 3-4 sm, bo'shlig'i 0,5 dan 1 mm gacha)",
+    "Eritmalar uchun ingichka igna, moylar uchun yo'g'onroq igna",
+    "Spirt shimdirilgan steril paxta sharchalar",
+    "Yodning spirtli eritmasi",
+    "Efir (teri anchagina iflos bo'lsa)",
+    "Qo'lqoplar"
+   ],
+   "steps": [
+    {
+     "text": "Dori ampulasi yoki flakondagi yozuvni o'qing, eritma tiniqligiga ishonch hosil qiling va yaroqlilik muddatini tekshiring."
+    },
+    {
+     "text": "Dorini ampuladan shprisga tortib oling; igna uchi ampulaning tashqi devoriga tegib ketmasin."
+    },
+    {
+     "text": "Bemordan ilgari shu preparatga bo'lgan reaksiyasi haqida surishtiring."
+    },
+    {
+     "text": "Bemor bilan gaplashib, inyeksiya og'riqsiz o'tishini ayting; uning qanday yotishi va qanday nafas olishi kerakligini tushuntiring."
+    },
+    {
+     "text": "Inyeksiya joyini tanlang: yelka va sonlarning tashqi yuzasi, ba'zan kurak osti yoki qorin sohasi. Birinchi inyeksiyani bitta qo'l yoki oyoq sohasiga qiling."
+    },
+    {
+     "text": "Qo'llarni yuving va qo'lqoplarni kiying."
+    },
+    {
+     "text": "Moyli eritmalarni albatta ilitilgan holda yuboring; eritmalar uchun ingichka, moylar uchun yo'g'onroq igna ishlating."
+    },
+    {
+     "text": "Shpris ignasini yuqoriga tik tutib, havoni chiqaring; eritmada havo pufakchalari bo'lsa, porshenni tortib, ularni chiqarib yuboring."
+    },
+    {
+     "text": "Teri anchagina iflos bo'lsa, uni oldin efir bilan arting."
+    },
+    {
+     "text": "Inyeksiya joyidagi terini spirt shimdirilgan steril paxta sharchalari bilan ikki marta arting: avval 10x15 sm, so'ng bevosita teshiladigan 5x5 sm maydonni."
+    },
+    {
+     "text": "So'ngra shu joyga yodning spirtli eritmasini surting."
+    },
+    {
+     "text": "Inyeksiya joyidagi terini chap qo'l bilan burma qilib ushlang."
+    },
+    {
+     "text": "Birinchi usul: shpris silindrini 1, 2 va 3-barmoqlar orasida siqib, 4 va 5-barmoqlar bilan porshenni ushlang."
+    },
+    {
+     "text": "Ignani yelka sathiga 30° burchak ostida teri burmasining asosiga pastdan yuqoriga sanching (bemor tik turadi); igna teshigi hamisha yuqoriga qaragan bo'lsin."
+    },
+    {
+     "text": "Ignaning bor bo'yicha emas, taxminan 2/3 qismini kiriting, chunki igna muftasi bilan birikkan joyidan sinishi mumkin."
+    },
+    {
+     "text": "Teri teshilgach, shprisni chap qo'lga oling, o'ng qo'lning 2 va 3-barmoqlari bilan silindr gardishini qisib, 1-barmoq bilan porshen dastasini bosib, dorini yuboring."
+    },
+    {
+     "text": "Spirtga ho'llangan yangi paxta sharchani chap qo'l bilan qo'yib, ignani tortib oling."
+    },
+    {
+     "text": "Paxta sharcha bilan dori yuborilgan joyni yengil uqalang (dori teri osti yog' hujayrasida yaxshi tarqaladi va qaytib chiqmaydi)."
+    },
+    {
+     "text": "Yodli paxta sharchani terining teshilgan joyida uzoq ushlab turmang, chunki yod terini kuydirishi mumkin."
+    },
+    {
+     "text": "Ikkinchi usul: to'ldirilgan shprisni 2, 3 va 4-barmoqlar bilan vertikal, ignasi pastga qaragan holda ushlang; ignani tezlik bilan sanching, 2-barmoq bilan porshen dastasini bosib dorini yuboring, ignani chiqaring."
+    },
+    {
+     "text": "Bemorni inyeksiyadan keyingi dastlabki daqiqalarda sinchkovlik bilan kuzating."
+    },
+    {
+     "text": "Shpris va ignani o'sha zahoti oqar suv tagida yuvib, ishlatilgan asboblar idishiga qo'ying; ularni ikkinchi inyeksiyada ishlatmang."
+    }
+   ],
+   "checklist": [
+    "Dori nomi, tiniqligi va yaroqlilik muddati tekshirildimi?",
+    "Bemordan oldingi reaksiyasi surishtirildimi?",
+    "Qo'llar yuvilib, qo'lqoplar kiyildimi?",
+    "Shprisdan havo chiqarildimi?",
+    "Teri ikki marta (10x15 sm va 5x5 sm) artilib, yod surtildimi?",
+    "Teri chap qo'l bilan burma qilib ushlandimi?",
+    "Igna teshigi yuqoriga qaragan holda, 30° burchak ostida sanchildimi?",
+    "Igna taxminan 2/3 qismigacha kiritildimi?",
+    "Dori yuborilgach, joy yangi spirtli paxta sharcha bilan bosilib, yengil uqalandimi?",
+    "Bemor dastlabki daqiqalarda kuzatildimi?",
+    "Shpris va igna bir marta ishlatilib, yuvilib, idishga qo'yildimi?"
+   ],
+   "risks": [
+    "Infiltrat (turli hajm va qattiqlikdagi), yallig'lanish mahsulotlari to'planib joyning berchlashib qolishi; ba'zan infiltrat erib abssess yoki oqma yara hosil qiladi",
+    "Igna sinib yumshoq to'qimalarda qolishi",
+    "Dori emboliyasi (moyli eritmalarning qon tomir bo'shlig'iga tushib tiqilishi)",
+    "Allergik reaksiyalar: eshak yemi toshishi, hiqildoq va traxeyaning shishishi, astma xuruji, allergik tumov, konyunktivit, o'tkir kolit",
+    "Anafilaktik shok (inyeksiyadan bir necha daqiqa o'tishi bilan)",
+    "Tayinlangan dori o'rniga yanglishib boshqa dorini yuborish",
+    "Yod bilan teri kuyishi (yodli paxtani uzoq ushlab turilsa)",
+    "Aseptika qoidalariga rioya qilinmasa, infeksion asoratlar rivojlanishi"
+   ],
+   "source": "Manba: Inomov Q.S., «Hamshiralik ishi asoslari», 4-nashr, Toshkent, 2007, 230, 233-240-bet (PDF)",
+   "pages": [
+    230,
+    233,
+    234,
+    235,
+    236,
+    237,
+    238,
+    239,
+    240
+   ]
+  },
+  {
+   "id": "mushak_ichiga_inyeksiya",
+   "title": "Mushak ichiga (mushak orasiga) inyeksiya",
+   "group": "Inyeksiyalar",
+   "goal": "Mushaklarda qon va limfa tomirlari tarmog'i ko'p bo'lgani uchun dorilar mushak orasiga yuborilganda tez va to'liq so'riladi.",
+   "indications": [
+    "Dori vositalarini teri ostiga yuborganda og'riq paydo bo'lsa va yaxshi so'rilmasa",
+    "Aksariyat mushak orasiga antibiotiklar, magniy sulfat va zardoblar yuboriladi"
+   ],
+   "contraindications": [],
+   "equipment": [
+    "Lyuer shprisi yoki «Rekord» shprisi",
+    "Uzunligi 8-10 sm bo'lgan igna",
+    "Spirt va spirtga ho'llangan paxta bo'lakchalari",
+    "Antibiotik kristalli kukun bo'lsa: natriy xloridning steril izotonik eritmasi, ikki marta distillangan suv yoki 0,5% li novokain eritmasi",
+    "Qo'lqoplar"
+   ],
+   "steps": [
+    {
+     "text": "Dori ampulasi yoki flakondagi yozuvni o'qing, eritma tiniqligiga ishonch hosil qiling va yaroqlilik muddatini tekshiring."
+    },
+    {
+     "text": "Antibiotik kristalli kukun bo'lsa, steril shprisga erituvchi oling: 100000 TB ga 1 ml, 500000 TB ga 5 ml erituvchi."
+    },
+    {
+     "text": "Flakon qopqog'ini oling, rezina qopqog'ini spirt bilan arting va erituvchi tortilgan shpris ignasi bilan teshing."
+    },
+    {
+     "text": "Erituvchini asta-sekin kiriting, antibiotik erigach flakonni to'nkaring va suyuqlikni shprisga so'rib oling."
+    },
+    {
+     "text": "Antibiotik eritmasini isitmang va eritilgan holda 1 kundan ko'p saqlamang."
+    },
+    {
+     "text": "Yod antibiotiklarni parchalaydi: flakonlarning rezina qopqog'ini va inyeksiya joyidagi terini yod nastoykasi bilan artmang."
+    },
+    {
+     "text": "Antibiotik reaksiyasini aniqlang: shprisga 0,1 ml antibiotik eritmasini olib, teri ostiga yuboring va 20 daqiqa o'tgach reaksiyani tekshiring."
+    },
+    {
+     "text": "Nohush sezgi, eshak yemi dog'lari bo'lmasa va arterial bosim pasaymasa, 0,5 ml eritmani mushak orasiga yuboring."
+    },
+    {
+     "text": "20 daqiqadan keyin hech qanday o'zgarish kuzatilmasa, flakonda qolgan eritmaning hammasini yuboring."
+    },
+    {
+     "text": "Bemor qizarsa yoki yurak, to'sh ostida nohush sezgilar paydo bo'lsa, ikkinchi qismni yubormang, shifokorni chaqiring va uning ko'rsatmalarini bajaring."
+    },
+    {
+     "text": "Shprisni yig'ishdan oldin qo'lingizni sovunlab oqar suvda yuving; toza qo'llar bilan boshqa narsalarga tegmang."
+    },
+    {
+     "text": "Spirtga ho'llangan paxta bo'lakchasi bilan tirnoqlaringizni, so'ng boshqa paxta bo'lagi bilan bemor terisini arting."
+    },
+    {
+     "text": "Dumba sohasiga yuborilganda bemorni qornini bosib yoki yonboshiga, sonning oldingi yuzasiga yuborilganda chalqancha yotqizing."
+    },
+    {
+     "text": "Dumbani taxminan 4 qismga bo'ling va inyeksiya uchun faqat yuqori tashqi kvadratdan foydalaning."
+    },
+    {
+     "text": "Shprisni ushlang: 1-2-barmoq porshenni, 5-barmoq igna muftasini, qolgan barmoqlar silindrni tutadi; shprisni tana yuzasiga perpendikular tuting."
+    },
+    {
+     "text": "Ignani dadil harakat bilan teri burmasining o'rtasiga 7-8 sm ichkariga kiriting, mufta ustidan 1 sm qoldiring, chunki igna ko'pincha shu joydan sinadi."
+    },
+    {
+     "text": "Porshenni o'zingizga torting va shprisda qon paydo bo'lmasligiga, ya'ni igna qon tomiriga tushmaganligiga ishonch hosil qiling."
+    },
+    {
+     "text": "Porshenni bosib, eritmani asta-sekin oxirigacha mushak orasiga kiriting; igna sanchilgan joydagi teri atrofini chap qo'l bilan torting."
+    },
+    {
+     "text": "Sonning mushak orasiga yuborishda shprisni yozuv perosi kabi burchak ostida tuting, shunda suyak usti pardasiga shikast yetmaydi."
+    },
+    {
+     "text": "Ignani chaqqon harakat bilan chiqaring va teriga spirtga ho'llangan paxta tampon bosing."
+    }
+   ],
+   "checklist": [
+    "Dori nomi, tiniqligi va yaroqlilik muddati tekshirildimi?",
+    "Antibiotikka reaksiya oldindan aniqlandimi (0,1 ml teri ostiga, 20 daqiqadan so'ng)?",
+    "Yod antibiotik flakoni va inyeksiya joyiga surtilmadimi?",
+    "Qo'llar yuvildi, tirnoqlar va bemor terisi spirt bilan artildimi?",
+    "Bemor to'g'ri vaziyatga yotqizildimi?",
+    "Dumbaning yuqori tashqi kvadrati tanlandimi?",
+    "Shpris tana yuzasiga perpendikular tutildimi?",
+    "Igna 7-8 sm kiritilib, mufta ustidan 1 sm qoldirildimi?",
+    "Porshen tortilib, shprisda qon yo'qligi tekshirildimi?",
+    "Eritma asta-sekin yuborildimi?",
+    "Igna chaqqon chiqarilib, spirtli paxta tampon bosildimi?"
+   ],
+   "risks": [
+    "Igna sinishi va sinig'ining to'qimalarda qolib ketishi (mushaklarning to'satdan qisqarishi, o'tmas va nuqsonli igna)",
+    "Nerv stvollarining (quymich nervi va boshqa nervlar) shikastlanishi: nevrit, sezuvchanlikning buzilishi, falajlik, parezlar",
+    "Dori emboliyalari (teri osti inyeksiyalaridagidan ko'proq sodir bo'ladi)",
+    "Yiringli infeksiya (abssess), gazli infeksiya, qoqshol, zardob gepatiti (shprislar va ignalar yetarlicha sterillanmaganda)",
+    "O'tmas igna bilan inyeksiyada to'qimalar qattiq shikastlanib mo'mataloq bo'lib qolishi, yiring boylab abssess paydo bo'lishi",
+    "Antibiotiklar kiritilganda anafilaktik shok va boshqa allergik reaksiyalar"
+   ],
+   "source": "Manba: Inomov Q.S., «Hamshiralik ishi asoslari», 4-nashr, Toshkent, 2007, 230, 233-235, 242-244-bet (PDF)",
+   "pages": [
+    230,
+    233,
+    234,
+    235,
+    242,
+    243,
+    244
+   ]
+  },
+  {
+   "id": "vena_ichiga_inyeksiya",
+   "title": "Vena ichiga inyeksiya (venepunksiya)",
+   "group": "Inyeksiyalar",
+   "goal": "Dori moddasi bevosita qonga tushishi va qisqa vaqt ichida samarali ta'sir ko'rsatishi uchun dori venaga yuboriladi.",
+   "indications": [
+    "Kamroq miqdordagi dorilarni venaga shifokor yoki tajribali tibbiyot hamshirasi yuboradi"
+   ],
+   "contraindications": [],
+   "equipment": [
+    "Sig'imi 10-20 ml li, ignasi o'tkir shpris",
+    "Venaga dori quyish uchun igna: uzunligi 5-6 sm, bo'shlig'i 0,3 dan 0,5 mm gacha",
+    "Rezina jgut",
+    "Spirt",
+    "Yassi yostiqcha",
+    "Yod nastoykasi (tirnoq atroflarini artish uchun)",
+    "Steril qo'lqoplar",
+    "Steril tiniq dori eritmasi"
+   ],
+   "steps": [
+    {
+     "text": "Shpris va ignalarni muolajadan oldin yaxshilab sterillang."
+    },
+    {
+     "text": "Qo'lingizni sovunlab iliq suvda yuving, spirt bilan arting, tirnoq atroflarini yod nastoykasi bilan arting va steril qo'lqoplarni kiying."
+    },
+    {
+     "text": "Eritmani shprisga olishdan avval kerakli eritma olinganini, tayyorlanish kunini va dozasini tekshiring."
+    },
+    {
+     "text": "Dori o'ramidagi yozuvni o'qing; ampula yozuvsiz bo'lsa yoki yozuvni o'qib bo'lmasa, uni ishlatmang."
+    },
+    {
+     "text": "Bemordan shu preparatni qanday qabul qilishi haqida surishtiring, chunki u allergik reaksiya qo'zg'atishi mumkin."
+    },
+    {
+     "text": "Eritmani shprisga bevosita ampuladan katta diametrdagi igna orqali oling."
+    },
+    {
+     "text": "Shprisni ignasi vertikal yuqoriga qaragan holda ushlab, porshenni tortib mayda pufakchalarni yiriklashtiring va barcha havo pufakchalarini igna orqali chiqarib yuboring."
+    },
+    {
+     "text": "Bemorni o'tirgan yoki yotgan holatda joylashtiring; qo'lini tirsak bo'g'imi maksimal yozilgan holda stolga yoki karavotga qo'ying, qo'l tagiga yassi yostiqcha qo'ying."
+    },
+    {
+     "text": "Tirsak bo'g'imidan bir qarich yuqoriroqdan rezina jgutni venalar bo'rtib chiqadigan, oson yechiladigan qilib bog'lang; arteriyalar bosilmasin."
+    },
+    {
+     "text": "Arteriyalar bosilmaganini bilak arteriyasida puls borligi bo'yicha tekshiring."
+    },
+    {
+     "text": "Venoz dimlanishni kuchaytirish uchun bemordan mushtini bir necha marta siqib-ochishni yoki jgut qo'yishdan oldin qo'lini pastga tushirishni so'rang."
+    },
+    {
+     "text": "Venaga dorini odatda tirsak bo'g'imi venasidan yuboring: venani punksiya qiling (venepunksiya)."
+    },
+    {
+     "text": "Dori quyishda qonga hatto oz miqdorda ham havo ketmasligidan ehtiyot bo'ling."
+    },
+    {
+     "text": "Kuchli ta'sir etadigan dorilarni hamisha asta-sekin yuboring."
+    },
+    {
+     "text": "Dori yuborish vaqtida va tugagandan keyin bemor o'zini qanday his qilayotganini (tashqi ko'rinishi, pulsi, nafas tezligi) so'rang va kuzating."
+    }
+   ],
+   "checklist": [
+    "Sterillangan shpris va o'tkir igna tayyorlandimi?",
+    "Qo'llar yuvilib, steril qo'lqoplar kiyildimi?",
+    "Eritma nomi, tayyorlanish kuni va dozasi tekshirildimi?",
+    "Dori o'ramidagi yozuv o'qilib, bemordan preparatga reaksiyasi surishtirildimi?",
+    "Shprisdagi barcha havo pufakchalari chiqarildimi?",
+    "Bemor qo'li tirsak bo'g'imida maksimal yozilgan holda yostiqchaga qo'yildimi?",
+    "Jgut tirsakdan bir qarich yuqoriga, arteriyalarni bosmasdan bog'landimi (bilak arteriyasida puls bor)?",
+    "Dori asta-sekin yuborilib, qonga havo ketmadimi?",
+    "Bemorning ahvoli (ko'rinishi, puls, nafas) kuzatildimi?"
+   ],
+   "risks": [
+    "Venepunksiya joyida qon quyilib qolishi, og'riydigan shish, vena devorlari yallig'lanishi va uning tromb bilan bekilishi (tromboflebit)",
+    "Venani teshish vaqtida spazm paydo bo'lishi va venaga dori quyish vaqtincha mumkin bo'lmay qolishi",
+    "Dori eritmasining bir qismi vena atrofidagi teri osti yog' to'qimasiga tarqalib ketishi; kuchli ta'sir qiladigan modda ko'p tushsa to'qimalar halok bo'lishi, nekroz",
+    "Nerv stvollarining shikastlanishi va shikast darajasiga qarab falaj bo'lib qolishi",
+    "Dori tasodifan arteriyaga tushib qolishi: shu zahoti og'riq va shish, qo'lning ko'karishi va muzdek bo'lib qolishi, dori yuborilgan joydan pastda pulsning yo'qolishi",
+    "Havo emboliyasi, undan bemor o'lishi ham mumkin",
+    "Beparvolik oqibatida venaga zaharli moddalar, nosteril yoki konsentrlangan eritmalar yuborilishidan o'lim sodir bo'lishi mumkin"
+   ],
+   "source": "Manba: Inomov Q.S., «Hamshiralik ishi asoslari», 4-nashr, Toshkent, 2007, 233, 244-245, 247-248-bet (PDF)",
+   "pages": [
+    233,
+    244,
+    245,
+    247,
+    248
+   ]
+  },
+  {
+   "id": "arterial_qon_bosimini_olchash",
+   "title": "Arterial qon bosimini o'lchash (yelka arteriyasida)",
+   "group": "Hayotiy ko'rsatkichlar",
+   "goal": "Arterial bosim sog'lom odamlarda ham yurak-tomirlar sistemasiga baho berish maqsadida o'lchanadi; bu yurak-tomirlar va nafas tizimi kasalliklarida qo'llaniladigan muhim tashxisiy usul.",
+   "indications": [
+    "Yurak-tomirlar va nafas tizimi kasalliklarida tashxis uchun",
+    "Sog'lom odamlarda yurak-tomirlar sistemasiga baho berish uchun"
+   ],
+   "contraindications": [
+    "Bemor charchagan yoki qo'zg'olgan holatda bo'lsa, bosimni o'lchamaslik lozim"
+   ],
+   "equipment": [
+    "Prujinali manometrli apparat (tonometr): manjetka, nokcha-ballon, rezina naychalar",
+    "Yoki simobli sfigmomanometr (Riva-Rochchi apparati)",
+    "Fonendoskop"
+   ],
+   "steps": [
+    {
+     "text": "Arterial bosimni ma'lum soatlarda, yaxshisi ertalab, tushki ovqatgacha o'lchang."
+    },
+    {
+     "text": "Bosimni muayyan tana vaziyatida va imkon boricha bir xil o'rtacha havo haroratida, normal atmosfera bosimida o'lchang."
+    },
+    {
+     "text": "Bemor charchagan yoki qo'zg'olgan bo'lsa, bosimni o'lchamang."
+    },
+    {
+     "text": "Bemor tinch o'tirsin yoki yotsin, gaplashmasin va o'lchashni kuzatib turmasin."
+    },
+    {
+     "text": "Bemorning qo'liga tirsak bo'g'imidan ikki-uch santimetr yuqoriga manjetkani siqmasdan, teri orasida faqat bitta barmoq sig'adigan joy qoldirib o'rang va mahkamlang."
+    },
+    {
+     "text": "Tekshirilayotgan kishining qo'lini qulay vaziyatda, kaftini yuqoriga qaratib qo'ying."
+    },
+    {
+     "text": "Tirsak bo'g'imida yelka arteriyasini toping va fonendoskopni qattiq bosmasdan shu joyga qo'ying."
+    },
+    {
+     "text": "Ballon bilan asta-sekin havo bering; manjetkaga va manometrga havo tushib, strelka ko'tariladi."
+    },
+    {
+     "text": "Ballon oldidagi ventilni biroz ochib, manjetkadagi bosimni asta-sekin tushiring."
+    },
+    {
+     "text": "Birinchi qattiq qisqa tovush (ton) eshitilgan paytdagi siferblat raqamini sistolik bosim sifatida qayd eting."
+    },
+    {
+     "text": "Tonlar pasayib, asta-sekin yo'qolgan paytdagi raqamni minimal, ya'ni diastolik bosim sifatida qayd eting."
+    }
+   ],
+   "checklist": [
+    "Bemor tinch, charchamagan va qo'zg'olmagan holdami?",
+    "O'lchash soati, tana vaziyati bir xilmi (yaxshisi ertalab, tushki ovqatgacha)?",
+    "Manjetka tirsakdan 2-3 sm yuqoriga, bitta barmoq sig'adigan qilib o'ralganmi?",
+    "Qo'l kafti yuqoriga qaragan qulay vaziyatdami?",
+    "Fonendoskop yelka arteriyasi ustiga qattiq bosilmasdan qo'yildimi?",
+    "Havo asta-sekin berilib, bosim asta-sekin tushirildimi?",
+    "Birinchi ton paytidagi raqam sistolik bosim sifatida yozildimi?",
+    "Ton yo'qolgan paytdagi raqam diastolik bosim sifatida yozildimi?"
+   ],
+   "risks": [],
+   "source": "Manba: Inomov Q.S., «Hamshiralik ishi asoslari», 4-nashr, Toshkent, 2007, 174-176-bet (PDF)",
+   "pages": [
+    174,
+    175,
+    176
+   ]
+  },
+  {
+   "id": "tana_haroratini_olchash",
+   "title": "Tana haroratini o'lchash (termometr bilan)",
+   "group": "Hayotiy ko'rsatkichlar",
+   "goal": "Bemorning tana haroratini simobli tibbiy termometr bilan o'lchash va natijani harorat varaqasiga hamda kasallik tarixiga yozib borish.",
+   "indications": [],
+   "contraindications": [
+    "Uxlab yotganda haroratni o'lchash mumkin emas",
+    "Harorat o'lchanadigan joylarda yallig'lanish jarayoni (terining qizarishi, bir oz shishishi) bo'lmasligi kerak, chunki bunday joyda harorat baland bo'ladi",
+    "Orqa chiqaruv teshigi shikastlangan hollarda va yangi tug'ilgan chaqaloqlarda haroratni to'g'ri ichakda o'lchab bo'lmaydi"
+   ],
+   "equipment": [
+    "Selsiy bo'yicha darajalangan maksimal tibbiy termometr (shkalasi 34° dan 42° gacha)",
+    "Termometr saqlanadigan stakan: tubiga bir qavat paxta, uchdan bir yoki ikkidan bir qismiga 70% li spirt yoki boshqa dezinfeksiyalovchi eritma",
+    "Harorat varaqasi va kasallik tarixi",
+    "To'g'ri ichakdan o'lchash uchun: qo'lqoplar va vazelin"
+   ],
+   "steps": [
+    {
+     "text": "Haroratni kasalxonada hamma bemorlarda ertalab soat 7.00 dan 9.00 gacha va kechqurun soat 17.00 dan 19.00 gacha o'lchang; kerak bo'lsa kuniga 3-4 marta yoki har 2 soatda."
+    },
+    {
+     "text": "Qo'ltiq sohasini yoki chov burmasini quruq qilib arting, chunki nam bo'lsa ko'rsatkichlar past chiqadi."
+    },
+    {
+     "text": "Dezinfeksiya qilingan quruq termometrni silkitib, simob ustunchasi shkaladan pastga tushganiga ishonch hosil qiling."
+    },
+    {
+     "text": "Termometrni simob rezervuari teriga hamma tomondan tegib turadigan qilib, pastki uchi bilan qo'ltiq sohasiga qo'ying."
+    },
+    {
+     "text": "Bemor qo'lini ko'kragiga yaqinlashtirib, termometrni qo'ltig'ida qisib tursin."
+    },
+    {
+     "text": "Behush yotganlar, notinch bemorlar va yosh bolalarning qo'lini ushlab turing."
+    },
+    {
+     "text": "O'lchash vaqtida bemor qimirlamay o'tirsin yoki yotsin."
+    },
+    {
+     "text": "Qo'ltiq va chov sohasidan o'lchash muddati 10 daqiqa."
+    },
+    {
+     "text": "Chov burmasidan o'lchaganda termometrni chov burmasiga qo'yib, oyoqni chanoq son bo'g'imidan buking."
+    },
+    {
+     "text": "Og'iz bo'shlig'idan o'lchaganda termometr rezervuarini tilning pastki yuzasi bilan og'iz bo'shlig'iga qo'ying; bemor og'zini yumib termometrni tutib tursin. Muddat 5 daqiqa."
+    },
+    {
+     "text": "To'g'ri ichakdan o'lchaganda qo'llarni yuvib, qo'lqoplarni kiying, termometr rezervuariga vazelin surting va orqa chiqaruv yo'liga 2-3 sm kiriting."
+    },
+    {
+     "text": "To'g'ri ichakdan o'lchash vaqtida dumbalarni qisib turing; muddat 5 daqiqa. Termometrni chiqargach tozalab yuving va dezinfeksiya qiling."
+    },
+    {
+     "text": "Olingan natijani harorat varaqasiga yozing, so'ngra kasallik tarixiga ko'chiring."
+    },
+    {
+     "text": "Haroratni o'lchab bo'lgach, termometrni sindirib qo'ymaslik uchun ehtiyot qilib pastki uchi bilan dezinfeksiyalovchi eritmali stakanga soling."
+    }
+   ],
+   "checklist": [
+    "O'lchash vaqti belgilangan soatga mos keldimi?",
+    "Qo'ltiq (chov) sohasi quruq artildimi va yallig'lanish yo'qmi?",
+    "Termometr silkitilib, simob shkaladan pastga tushirildimi?",
+    "Rezervuar teriga hamma tomondan tegib turibdimi?",
+    "Bemor qo'lini ko'kragiga yaqinlashtirib qimirlamay turdimi (kerak bo'lsa, qo'lini ushlab turildimi)?",
+    "Qo'ltiq va chovda 10 daqiqa, bo'shliqlarda 5 daqiqa saqlandimi?",
+    "Natija harorat varaqasiga yozilib, kasallik tarixiga ko'chirildimi?",
+    "Termometr pastki uchi bilan dezinfeksiyalovchi eritmali stakanga solindimi?"
+   ],
+   "risks": [],
+   "source": "Manba: Inomov Q.S., «Hamshiralik ishi asoslari», 4-nashr, Toshkent, 2007, 166-168-bet (PDF)",
+   "pages": [
+    166,
+    167,
+    168
+   ]
+  },
+  {
+   "id": "pulsni_sanash",
+   "title": "Pulsni sanash va xarakterlash",
+   "group": "Hayotiy ko'rsatkichlar",
+   "goal": "Pulsning soni, ritmi, tarangligi va to'liqligiga qarab xulosa chiqariladi.",
+   "indications": [],
+   "contraindications": [],
+   "equipment": [],
+   "steps": [
+    {
+     "text": "Pulsni arteriyalar yuza joylashgan sohada tekshiring, asosan bilak arteriyasida: odatda bilakning kaft yuzasida, I barmoq asosida."
+    },
+    {
+     "text": "Muskullar va paylar tarangligi paypaslashga xalaqit bermasligi uchun bemor qo'lini bo'sh qo'ysin."
+    },
+    {
+     "text": "Pulsni bilak arteriyasida albatta ikkala qo'lda tekshiring; ular orasida farq bo'lmagandagina keyinchalik uni bir qo'lda tekshirish mumkin."
+    },
+    {
+     "text": "Bilak arteriyasida pulsni aniqlab bo'lmasa, pulsni chakka yoki uyqu arteriyasida tekshiring."
+    },
+    {
+     "text": "Puls sonlarini kamida 30 soniya ichida sanang va olingan raqamni 2 ga ko'paytiring."
+    },
+    {
+     "text": "Aritmik pulsda sanashni 1 daqiqa davomida o'tkazing."
+    },
+    {
+     "text": "Ritmni baholang: puls turtkilari bir xil vaqt ichida birin-ketin kelsa, ritm to'g'ri (ritmik puls), aks holda noto'g'ri (aritmik puls)."
+    },
+    {
+     "text": "Tarangligini baholang: puls to'lqinining tarqalishini to'xtatish uchun zarur kuch bilan belgilanadi."
+    },
+    {
+     "text": "To'liqligini baholang: yaxshi bo'lsa barmoq ostida yuqori puls to'lqini seziladi, yomon bo'lsa puls kuchsiz, to'lqinlar kichik, arang bilinadi."
+    },
+    {
+     "text": "Puls to'g'risidagi ma'lumotlarni harorat varaqasida qayd eting."
+    },
+    {
+     "text": "Pulsning tezlashishi (taxikardiya) yoki sekinlashishi (bradikardiya) kuzatilsa, asoratlarning oldini olish uchun bemorni diqqat bilan kuzating."
+    }
+   ],
+   "checklist": [
+    "Puls bilak arteriyasida (kaft yuzasida, I barmoq asosida) paypaslandimi?",
+    "Bemor qo'li bo'sh qo'yilganmi?",
+    "Dastlab ikkala qo'lda tekshirildimi?",
+    "Puls kamida 30 soniya sanalib, 2 ga ko'paytirildimi (aritmiyada 1 daqiqa)?",
+    "Ritm, taranglik va to'liqlik baholandimi?",
+    "Ma'lumotlar harorat varaqasiga yozildimi?"
+   ],
+   "risks": [],
+   "source": "Manba: Inomov Q.S., «Hamshiralik ishi asoslari», 4-nashr, Toshkent, 2007, 173-174-bet (PDF)",
+   "pages": [
+    173,
+    174
+   ]
+  },
+  {
+   "id": "siydik_pufagini_kateterlash",
+   "title": "Siydik pufagini (qovuqni) kateterlash",
+   "group": "Parvarish",
+   "goal": "Kateterlash - qovuqni siydik chiqarish, qovuqni yuvish, unga dori moddasini kiritish yoki tekshirish uchun siydik olish maqsadida qovuqqa kateter kiritishdir.",
+   "indications": [
+    "Qovuqdan siydik chiqarish",
+    "Qovuqni yuvish",
+    "Qovuqqa dori moddasini kiritish",
+    "Tekshirish uchun siydik olish",
+    "Kateterlash zarur bo'lgandagina o'tkaziladi; operatsiya yoki tug'ruqdan keyin olti soat ichida siydik kelmasa, avval imkon boricha kateter solmasdan qovuqni bo'shatish choralari ko'riladi"
+   ],
+   "contraindications": [],
+   "equipment": [
+    "Yumshoq (rezina) kateter: uzunligi 25-30 sm, diametri 10 mm gacha",
+    "Ayollar kateteri",
+    "Steril vazelin moyi",
+    "Pinset yoki steril doka salfetka",
+    "Jarrohlik (tibbiy) qo'lqoplari",
+    "Zararsizlaydigan eritma (sulema eritmasi 1:10000, furasillin, simob oksisianid eritmasi) va paxta bo'lakchasi",
+    "Siydik oqib tushadigan idish («utka», lotok yoki krujka)",
+    "Siydikni ekma uchun olish kerak bo'lsa: steril probirka va steril paxta tiqin"
+   ],
+   "steps": [
+    {
+     "text": "Kateterlashni zarur bo'lgandagina va iloji boricha jarrohlik qo'lqoplarida o'tkazing."
+    },
+    {
+     "text": "Kateterni ishlatishdan oldin 10-15 daqiqa qaynating."
+    },
+    {
+     "text": "Qo'lqop kiymasangiz, qo'lingizni iliq suvda sovunlab yuving va tirnoq falangalarini spirt va yod eritmasi bilan arting."
+    },
+    {
+     "text": "Ayollarda: qinda ajralmalar bo'lsa, ayolning tagini yuving va sprinsovka qiling."
+    },
+    {
+     "text": "Ayollarda: o'ng tomonda turing, chap qo'l bilan jinsiy lablarni kering."
+    },
+    {
+     "text": "Ayollarda: o'ng qo'l bilan tashqi jinsiy a'zolarni va siydik chiqarish kanali teshigini yuqoridan pastga (orqa chiqaruv teshigi tomon) zararsizlaydigan eritma bilan yaxshilab arting."
+    },
+    {
+     "text": "Ayollarda: pinset bilan steril vazelin moyi surtilgan ayollar kateterini oling, siydik chiqarish kanalining tashqi teshigini topib, ehtiyotlik bilan kiriting."
+    },
+    {
+     "text": "Kateterning tashqi uchida siydik ko'rinishi uning qovuqqa tushganini bildiradi."
+    },
+    {
+     "text": "Siydik o'zicha ajralmasa, qoldiq siydikni chiqarish uchun qorin devori orqali qovuq sohasini biroz bosing, so'ngra kateterni asta-sekin chiqaring."
+    },
+    {
+     "text": "Siydikni ekma uchun olish kerak bo'lsa, steril probirka chetlarini alanga ustidan o'tkazing va to'lgach steril paxta tiqin bilan berkiting."
+    },
+    {
+     "text": "Erkaklarda: qo'lqop kiying; bemorni oyoqlarini tizzasidan biroz bukib chalqancha yotqizing, oyoqlari orasiga «utka», lotok yoki krujka qo'ying."
+    },
+    {
+     "text": "Erkaklarda: chap qo'lingizga jinsiy olatni olib, uning boshchasini zararsizlovchi eritmaga ho'llangan paxta bo'lakchasi bilan yaxshilab arting."
+    },
+    {
+     "text": "Erkaklarda: o'ng qo'l bilan steril vazelin moyi surtilgan kateterni siydik chiqarish kanaliga asta-sekin, ko'p kuch sarflamay kiriting."
+    },
+    {
+     "text": "Kateterni pinset yoki steril doka salfetka bilan oling; kateterlashni rezina kateterdan boshlang."
+    },
+    {
+     "text": "Kateter qovuqqa tushishi bilan siydik paydo bo'ladi."
+    },
+    {
+     "text": "Erkaklarga metall kateterni kiritmang: uni faqat vrach kiritadi."
+    },
+    {
+     "text": "Aseptika va antiseptika qoidalariga qat'iy rioya qiling."
+    }
+   ],
+   "checklist": [
+    "Kateterlash zarurligi aniqmi?",
+    "Kateter 10-15 daqiqa qaynatilganmi?",
+    "Qo'lqoplar kiyilganmi (yoki qo'llar yuvilib, tirnoqlar spirt va yod bilan artilganmi)?",
+    "Siydik chiqarish kanali teshigi (jinsiy olat boshchasi) zararsizlovchi eritma bilan artildimi?",
+    "Kateter steril vazelin moyi surtilib, pinset yoki steril salfetka bilan olindimi?",
+    "Kateter ko'p kuch sarflanmay, ehtiyotlik bilan kiritildimi?",
+    "Kateterdan siydik paydo bo'ldimi?",
+    "Siydik oqib tushadigan idish qo'yilganmi?",
+    "Erkaklarga metall kateter hamshira tomonidan kiritilmadimi?"
+   ],
+   "risks": [
+    "Nosteril kateter yoki yuvilmagan qo'l bilan kateterlash qovuqqa infeksiya tushishiga va qovuq yallig'lanishiga olib kelishi, bemor ahvolini og'irlashtirishi mumkin",
+    "Qovuq shilliq pardasi infeksiyaga bardosh bera olmaydi"
+   ],
+   "source": "Manba: Inomov Q.S., «Hamshiralik ishi asoslari», 4-nashr, Toshkent, 2007, 216-219-bet (PDF)",
+   "pages": [
+    216,
+    217,
+    218,
+    219
+   ]
+  },
+  {
+   "id": "tozalovchi_huqna",
+   "title": "Tozalovchi huqna",
+   "group": "Tozalash va yuvish",
+   "goal": "Tozalash huqnasi ichakni axlat va gazlardan tozalash uchun qo'llaniladi.",
+   "indications": [
+    "Ich kelmay qolishi",
+    "Operatsiyalarga, yo'g'on ichakni endoskopiya qilishga va rentgenologik tekshirishlarga tayyorlash",
+    "Zaharlanish va intoksikatsiyalar",
+    "Davo, oziqli va tomchili huqna qilish oldidan"
+   ],
+   "contraindications": [
+    "To'g'ri ichak va yo'g'on ichakdagi yallig'lanishlar",
+    "Qonab turadigan bavosil",
+    "To'g'ri ichakning tushishi",
+    "Me'da va ichaklardan qon oqishi"
+   ],
+   "equipment": [
+    "Esmarx krujkasi (sig'imi 1-2 l; uzunligi 1,5 m, diametri 1 sm rezina naycha, kran, uzunligi 8-10 sm uchlik)",
+    "Krujkani osib qo'yish uchun ilgich",
+    "Suyuqlik haroratini o'lchash uchun termometr",
+    "Suyuqlik (uy haroratidagi suv, moychechak eritmasi va boshqalar), 1,5 l",
+    "Kleyonka, tog'ora, sudna",
+    "Rezina qo'lqoplar va vazelin"
+   ],
+   "steps": [
+    {
+     "text": "Huqnani shifokor ko'rsatmasi bo'yicha bajaring (hamshira yoki tajribali kichik hamshira bajaradi)."
+    },
+    {
+     "text": "Esmarx krujkasiga uy haroratidagi 1,5 l suv quying."
+    },
+    {
+     "text": "Bemorni karavotning chetiga, chap yonboshiga, o'ng oyog'ini bukib qorniga tortgan holda yotqizing; harakat qilish mumkin bo'lmasa, chalqancha yotqizing."
+    },
+    {
+     "text": "Bemor dumbalari ostiga sudno qo'ying, kleyonka yozing va uning bo'sh turgan uchini tog'oraga tushiring."
+    },
+    {
+     "text": "Krujkani yuqoriga ko'taring va ozroq suvni oqizing: suv bilan undagi havo chiqishi uchun uchlikni pastga tushiring; so'ngra rezina naychadagi jo'mrakni bekiting."
+    },
+    {
+     "text": "Uchlikning siniq emasligini tekshiring."
+    },
+    {
+     "text": "Rezina qo'lqoplarni kiying va uchlikka yaxshilab vazelin surting."
+    },
+    {
+     "text": "Chap qo'l bilan bemor dumbalarini kerib, uchlikni orqa chiqaruv teshigiga sekin-asta 8-10 sm kiriting."
+    },
+    {
+     "text": "Aylanma yengil harakatlar bilan tashqi sfinkter qarshiligini yengib, uchlikni birmuncha orqaga buring."
+    },
+    {
+     "text": "Shilliq pardaning turtib chiqqan burmalari yoki gemoroidal tugunlar bo'lsa, uchlikni ularga tekkizmay, orasidan o'tkazing."
+    },
+    {
+     "text": "To'siq uchrasa, ya'ni naycha ichak devoriga yoki qattiq axlatga taqalib qolsa, uchlikni 1-2 sm chiqaring va jo'mrakni oching."
+    },
+    {
+     "text": "Esmarx krujkasini 1 metr balandlikkacha ko'taring; suv bosim ostida yo'g'on ichakka tushadi."
+    },
+    {
+     "text": "Uchlik axlat massasi bilan tiqilib qolsa, uni chiqarib, tozalang va yana kiriting."
+    },
+    {
+     "text": "Birdan ko'p suyuqlik kiritmang."
+    },
+    {
+     "text": "Meteorizmda: suyuqlikning butun hajmini kiritgach, ichakka havo tushmasligi uchun krujka tubida ozroq suv qoldiring, jo'mrakni bekiting va uchlikni asta-sekin aylanma harakatlar bilan chiqaring."
+    },
+    {
+     "text": "Meteorizmda: bemor suvni 10 daqiqa tutib tursin; buning uchun u chalqancha yotib, chuqur nafas olsin."
+    },
+    {
+     "text": "Bemor ichagi to'liq bo'shalmaguncha uni yolg'iz qoldirmang; palatada qilinsa, bemor xijolat chekmasligi uchun karavot oldiga shirma tuting."
+    },
+    {
+     "text": "Sudno olingandan so'ng orqa chiqaruv yo'li sohasini arting, shirmani olib qo'ying va palatani shamollating."
+    },
+    {
+     "text": "Muolaja tugagach, krujkani yuvib, quriguncha arting va ustiga doka yoki sochiq yopib qo'ying."
+    },
+    {
+     "text": "Qo'lqoplarni yechib, qo'llarni yuving."
+    },
+    {
+     "text": "Huqna ta'sir qilmasa, bir necha soat o'tkazib, uni takrorlash mumkin."
+    }
+   ],
+   "checklist": [
+    "Shifokor ko'rsatmasi va monelik qiladigan holatlar tekshirildimi?",
+    "Krujkaga uy haroratidagi 1,5 l suv quyildimi?",
+    "Bemor chap yonboshiga, o'ng oyog'i bukilgan holda yotqizildimi?",
+    "Sudno, kleyonka va tog'ora tayyorlandimi?",
+    "Havo chiqarilib, jo'mrak bekitildimi?",
+    "Uchlik siniq emasligi tekshirilib, vazelin surtildimi?",
+    "Uchlik 8-10 sm kiritildimi?",
+    "Krujka 1 metr balandlikka ko'tarildimi?",
+    "Birdan ko'p suyuqlik kiritilmadimi?",
+    "Muolajadan keyin krujka yuvildi, qo'llar yuvildimi?"
+   ],
+   "risks": [],
+   "source": "Manba: Inomov Q.S., «Hamshiralik ishi asoslari», 4-nashr, Toshkent, 2007, 210-212, 215-bet (PDF)",
+   "pages": [
+    210,
+    211,
+    212,
+    215
+   ]
+  },
+  {
+   "id": "medani_yuvish_zondli",
+   "title": "Me'dani yo'g'on zond bilan yuvish",
+   "group": "Tozalash va yuvish",
+   "goal": "Me'da davo va diagnostika maqsadida sifatsiz ovqat, zahar va shilliqlardan tozalash uchun yuviladi.",
+   "indications": [
+    "Peroral zaharlanishda me'da yo'g'on zond orqali yuviladi",
+    "Kislotalardan zaharlanishda me'dani yuvish shart",
+    "Komatoz, agonal va boshqa og'ir holatlarda me'dani yo'g'on zond bilan yuvish va zondni 4-5 soatga qoldirish qusuq massalaridan aspiratsiya bo'lishning oldini olishi mumkin"
+   ],
+   "contraindications": [],
+   "equipment": [
+    "Uzunligi 1-1,5 m, yuqori uchi voronkasimon kengaytirilgan yo'g'on me'da zondi",
+    "Sig'imi taxminan 1 l, teshigi kamida 8 mm bo'lgan shisha voronka (uchi yumaloqlangan, yon devorlarida ikkita teshik)",
+    "Suv yoki dori moddasi: 2% li natriy gidrokarbonat eritmasi yoki xona temperaturasida kaliy permanganatning nimtatir rangdagi eritmasi",
+    "Bemor uchun kleyonka fartuk",
+    "Yuvindi suvlar uchun chelak yoki tog'ora",
+    "Yuvish uchun 8-10 l suv yoki yuvadigan suyuqlik"
+   ],
+   "steps": [
+    {
+     "text": "Zond va voronkani 15-20 minut qaynatib sterillang."
+    },
+    {
+     "text": "Bemorni stul suyanchig'iga mahkam suyantirib, boshini oldinga bir oz engashtirib o'tqazing; oyoqlari ostiga tog'ora yoki chelak qo'ying va oldiga kleyonka fartuk taqing. Yoki kushetkada o'ng yonboshi bilan yotqizing."
+    },
+    {
+     "text": "Tishlari protez bo'lsa, ularni olib qo'ying."
+    },
+    {
+     "text": "Bemorga zond kiritish ko'nglini aynitishi va qusish istagini paydo qilishi mumkinligini, biroq muolaja xavfsiz va og'riqsizligini ayting."
+    },
+    {
+     "text": "Bemorga yutish harakatlari qilib, burun orqali chuqur nafas olganda qusish harakatlarini bosish mumkinligini tushuntiring."
+    },
+    {
+     "text": "Zond uzunligini o'lchang: kindikdan kurak tishigacha bo'lgan masofaga yana bir qarich qo'shing."
+    },
+    {
+     "text": "Qo'llaringizni yuving va bemorning o'ng tomonida turing."
+    },
+    {
+     "text": "Bemor og'zini katta ochsin, «a» deb tovush chiqarsin va burun orqali chuqur nafas olsin."
+    },
+    {
+     "text": "Zondni chaqqonlik bilan til ildizi orqasiga kiriting; bemor og'zini yumib, bir necha yutish harakati qilsin; so'ngra zondni qizilo'ngach bo'ylab suring."
+    },
+    {
+     "text": "Zond chiqib ketsa yoki buralib qolsa, uni chiqaring, bemorni tinchlantiring va yana kiriting."
+    },
+    {
+     "text": "Zond hiqildoqqa tushsa (bemor yo'taladi, bo'g'iladi, ko'karadi, tovushi chiqmay qoladi), zondni zudlik bilan chiqaring, bemorga biroz dam bering va qaytadan kiriting."
+    },
+    {
+     "text": "Birinchi bosqich: voronkani bemorning tizzasi sathida (yotgan bo'lsa, kushetkadan pastroqda) bir oz qiyalatib tuting va unga suyuqlik quyib, asta-sekin og'iz sathidan balandga ko'taring."
+    },
+    {
+     "text": "Suyuqlikning voronkadan me'daga batamom quyilishini kutmang, chunki me'daga havo so'rilib, me'da suyuqligining chiqishi qiyinlashadi."
+    },
+    {
+     "text": "Ikkinchi bosqich: suv voronka bo'g'zigacha yetganda, suyuqlik tushib ulgurmasdan voronkani bemorning tizzasi sathigacha yoki kushetkadan pastga tushiring va u me'da suyuqligi bilan to'lguncha kuting."
+    },
+    {
+     "text": "Voronkadagi suyuqlikni tog'ora yoki chelakka to'king; oqib chiqishi to'xtagach unga yana eritma to'ldiring."
+    },
+    {
+     "text": "Muolajani yuvindi suv tiniq bo'lib tushguncha bir necha marta takrorlang."
+    },
+    {
+     "text": "Yuvish vaqtida bemorning holatiga va yuvindi suvga e'tibor bering."
+    },
+    {
+     "text": "Me'dani yuvish kislotalardan zaharlanishga bog'liq bo'lmasa, ipir-ipir qon paydo bo'lganda muolajani to'xtating."
+    },
+    {
+     "text": "Kislotalardan zaharlanishda me'dani ehtiyotlik bilan, kichik-kichik porsiyalarda, qusish harakatlarini qo'zg'atmay yuving."
+    },
+    {
+     "text": "Muolaja tugagach voronkani bo'shating va zondni chaqqon harakatlar bilan chiqaring."
+    },
+    {
+     "text": "Voronka va zondni issiq suv oqimi ostida tozalab yuving, naychadan suv o'tkazing, bir necha marta yuqoridan pastga siqing, so'ngra qaynatib qo'ying."
+    },
+    {
+     "text": "Zond bo'lmasa va bemor behush bo'lmasa, zondsiz yuving: bemor 1 l suv ichadi, til ildizi qitiqlanib sun'iy qusish chaqiriladi; suv toza bo'lib chiqquncha davom ettiring."
+    },
+    {
+     "text": "Yuvish tugagach oshqozonga surgi sifatida 100-150 ml 30% li natriy sulfat yoki vazelin yog'ini kiriting."
+    },
+    {
+     "text": "Toksik vositalarni adsorbsiyalash uchun aktivlashtirilgan ko'mirning suvli bo'tqasidan me'dani yuvishdan oldin va keyin bir osh qoshiqdan ichiring."
+    },
+    {
+     "text": "Zaharlovchi vositadan tekshiruv uchun namuna olib qo'ying va DSNEMga shoshilinch xabarnoma yuboring."
+    }
+   ],
+   "checklist": [
+    "Zond va voronka 15-20 minut qaynatib sterillanganmi?",
+    "Bemor to'g'ri joylashtirilib, kleyonka fartuk taqilganmi?",
+    "Protez tishlar olinganmi?",
+    "Bemorga muolaja va nafas olish tushuntirilganmi?",
+    "Zond uzunligi (kindikdan kurak tishigacha + bir qarich) o'lchanganmi?",
+    "Zond til ildizi orqasiga kiritilib, yutish harakatlari bilan surilganmi?",
+    "Voronka avval ko'tarilib to'ldirilgan, so'ng tushirilib, me'da suyuqligi qaytarilganmi?",
+    "Jarayon yuvindi suv tiniq bo'lguncha takrorlanganmi?",
+    "Yuvindi suv va bemor holati kuzatilganmi (ipir-ipir qon belgisi)?",
+    "Zond, voronka yuvilib qaynatilganmi?"
+   ],
+   "risks": [
+    "Zond hiqildoqqa tushib qolishi: bemor yo'taladi, nafasi bo'g'iladi, ko'karib ketadi va tovushi chiqmay qoladi",
+    "Zond kiritilganda ko'ngil aynishi va qusish istagi paydo bo'lishi",
+    "Me'dani yuvish vaqtida ipir-ipir qon paydo bo'lishi (kislotalardan zaharlanish bo'lmasa muolaja to'xtatiladi)",
+    "Suyuqlikdan so'ng me'daga havo so'rilib, me'da suyuqligining chiqishi qiyinlashishi"
+   ],
+   "source": "Manba: Inomov Q.S., «Hamshiralik ishi asoslari», 4-nashr, Toshkent, 2007, 206, 323-325-bet (PDF)",
+   "pages": [
+    206,
+    323,
+    324,
+    325
+   ]
+  }
+ ]
+}

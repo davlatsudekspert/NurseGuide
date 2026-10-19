@@ -40,25 +40,31 @@ void main() {
   });
 
   for (final d in WorkDirection.values) {
-    test('${d.bank}: o‘z kunida faqat o‘z banki, umumiy kunida umumiy mavzular', () {
-      final own = dailyPoolFor(source, direction: d, kind: DailyKind.own);
-      expect(own.priority, isNotEmpty);
-      expect(own.others, isEmpty);
-      for (final id in own.priority) {
-        expect(bank.test(id)!.bank, d.bank, reason: id);
-      }
+    test(
+      '${d.bank}: o‘z kunida faqat o‘z banki, umumiy kunida umumiy mavzular',
+      () {
+        final own = dailyPoolFor(source, direction: d, kind: DailyKind.own);
+        expect(own.priority, isNotEmpty);
+        expect(own.others, isEmpty);
+        for (final id in own.priority) {
+          expect(bank.test(id)!.bank, d.bank, reason: id);
+        }
 
-      final general =
-          dailyPoolFor(source, direction: d, kind: DailyKind.general);
-      expect(general.priority, isNotEmpty);
-      for (final id in general.priority) {
-        expect(kGeneralTopics, contains(bank.test(id)!.topic), reason: id);
-      }
+        final general = dailyPoolFor(
+          source,
+          direction: d,
+          kind: DailyKind.general,
+        );
+        expect(general.priority, isNotEmpty);
+        for (final id in general.priority) {
+          expect(kGeneralTopics, contains(bank.test(id)!.topic), reason: id);
+        }
 
-      final mixed = dailyPoolFor(source, direction: d, kind: DailyKind.mixed);
-      expect(mixed.priority, own.priority);
-      expect(mixed.others, general.priority);
-    });
+        final mixed = dailyPoolFor(source, direction: d, kind: DailyKind.mixed);
+        expect(mixed.priority, own.priority);
+        expect(mixed.others, general.priority);
+      },
+    );
 
     test('${d.bank}: kunlik 5 savol, o‘z kunida hammasi o‘z bankidan', () {
       final pool = dailyPoolFor(source, direction: d, kind: DailyKind.own);
@@ -78,22 +84,25 @@ void main() {
     });
   }
 
-  test('manba id yo‘nalish va tur bo‘yicha farqlanadi (to‘plam yangilanadi)', () {
-    final a = dailyPoolFor(
-      source,
-      direction: WorkDirection.nursing,
-      kind: DailyKind.own,
-    ).sourceId;
-    final b = dailyPoolFor(
-      source,
-      direction: WorkDirection.higher,
-      kind: DailyKind.own,
-    ).sourceId;
-    final c = dailyPoolFor(
-      source,
-      direction: WorkDirection.nursing,
-      kind: DailyKind.general,
-    ).sourceId;
-    expect({a, b, c}, hasLength(3));
-  });
+  test(
+    'manba id yo‘nalish va tur bo‘yicha farqlanadi (to‘plam yangilanadi)',
+    () {
+      final a = dailyPoolFor(
+        source,
+        direction: WorkDirection.nursing,
+        kind: DailyKind.own,
+      ).sourceId;
+      final b = dailyPoolFor(
+        source,
+        direction: WorkDirection.higher,
+        kind: DailyKind.own,
+      ).sourceId;
+      final c = dailyPoolFor(
+        source,
+        direction: WorkDirection.nursing,
+        kind: DailyKind.general,
+      ).sourceId;
+      expect({a, b, c}, hasLength(3));
+    },
+  );
 }

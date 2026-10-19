@@ -5,6 +5,7 @@ import 'package:material_ui/material_ui.dart';
 import '../../app/app_scope.dart';
 import '../../app/shell.dart';
 import '../../app/widgets/lg_page.dart';
+import '../../design/glass_art.dart';
 import '../../design/widgets/lg_widgets.dart';
 import '../../l10n/gen/app_localizations.dart';
 import '../auth/ui/role_screen.dart';
@@ -30,6 +31,18 @@ class HomeAction {
 
   /// `openInTab` bilan ochiladi: tegishli tab o'z stacki bilan tanlanadi.
   final String location;
+
+  /// "Tiniq shisha" mavzusidagi 3D belgi (manzil bo'yicha).
+  LgArt get art => switch (location) {
+    '/procedures' => LgArt.syringe,
+    '/workplace' => LgArt.stethoscope,
+    '/library/saved' => LgArt.book,
+    '/learn/lecture' => LgArt.clipboard,
+    '/learn/quiz' => LgArt.droplet,
+    '/learn/exam' => LgArt.clipboard,
+    '/learn/classes' => LgArt.book,
+    _ => location.startsWith('/toifa') ? LgArt.cap : LgArt.heart,
+  };
 }
 
 /// Rolga mos bosh sahifa tarkibi. Rol faqat ustuvorlikni o'zgartiradi —
@@ -194,6 +207,7 @@ class HomeScreen extends StatelessWidget {
                       title: config.actions[i].label,
                       caption: config.actions[i].caption,
                       icon: config.actions[i].icon,
+                      art: config.actions[i].art,
                       highlighted: i == 0,
                       onTap: () => openInTab(
                         context,

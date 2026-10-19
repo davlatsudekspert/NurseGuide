@@ -1,4 +1,3 @@
-import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
 
 import '../../app/app_scope.dart';
@@ -10,31 +9,7 @@ import '../daily/daily_screens.dart' show DailyCard;
 import '../daily/daily_streak.dart' show dateOfDay;
 import '../settings/settings_controller.dart' show WorkDirection;
 
-/// Manipulyatsiyalar tabi. Kontent 4-bosqichda keladi; hozircha — to'g'ri
-/// bo'sh holat (ishlayotgandek ko'rsatilmaydi).
-class ProceduresScreen extends StatelessWidget {
-  const ProceduresScreen({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    final l = AppLocalizations.of(context);
-    return LgPage(
-      title: l.procTitle,
-      subtitle: l.procSub,
-      showBrand: true,
-      children: [
-        LgStateView(
-          key: const ValueKey('procedures-empty'),
-          kind: StateKind.empty,
-          title: l.procEmptyTitle,
-          message: l.procEmptyBody,
-          actionLabel: l.hubGoLearn,
-          onAction: () => context.go('/learn'),
-        ),
-      ],
-    );
-  }
-}
+export '../reference/reference_screens.dart' show ProceduresScreen;
 
 /// Ish joyi tabi (o'rtadagi katta tugma): ish yo'nalishi va unga moslangan
 /// kunlik savollar. Kalkulyatorlar va ma'lumotnoma keyingi qadamda keladi.
@@ -84,20 +59,34 @@ class WorkplaceScreen extends StatelessWidget {
               ],
             ),
             if (direction != null)
-              LgNotice(
-                switch (kind) {
-                  DailyKind.own => l.workTodayOwn,
-                  DailyKind.general => l.workTodayGeneral,
-                  DailyKind.mixed => l.workTodayMixed,
-                },
-                kind: NoticeKind.info,
-              ),
+              LgNotice(switch (kind) {
+                DailyKind.own => l.workTodayOwn,
+                DailyKind.general => l.workTodayGeneral,
+                DailyKind.mixed => l.workTodayMixed,
+              }, kind: NoticeKind.info),
             const DailyCard(),
             Padding(
               padding: const EdgeInsets.only(top: 4),
               child: Text(
                 l.workPlan,
                 style: Theme.of(context).textTheme.bodySmall,
+              ),
+            ),
+            LgSectionTitle(l.workVitalsTitle),
+            LgPanel(
+              key: const ValueKey('work-vitals'),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: [
+                  _VitalRow(l.workVitalTemp, '36–37 °C'),
+                  _VitalRow(l.workVitalPulse, '60–80 · ${l.workVitalPerMin}'),
+                  _VitalRow(l.workVitalResp, '16–20 · ${l.workVitalPerMin}'),
+                  const SizedBox(height: 8),
+                  Text(
+                    l.workVitalSource,
+                    style: Theme.of(context).textTheme.bodySmall,
+                  ),
+                ],
               ),
             ),
             LgNotice(
@@ -108,6 +97,27 @@ class WorkplaceScreen extends StatelessWidget {
           ],
         );
       },
+    );
+  }
+}
+
+class _VitalRow extends StatelessWidget {
+  const _VitalRow(this.label, this.value);
+
+  final String label;
+  final String value;
+
+  @override
+  Widget build(BuildContext context) {
+    final text = Theme.of(context).textTheme;
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 6),
+      child: Row(
+        children: [
+          Expanded(child: Text(label, style: text.bodyLarge)),
+          Text(value, style: text.titleMedium),
+        ],
+      ),
     );
   }
 }

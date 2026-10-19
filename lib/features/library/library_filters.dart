@@ -143,7 +143,7 @@ class LibraryFilterBar extends StatelessWidget {
       isScrollControlled: true,
       useSafeArea: true,
       showDragHandle: true,
-      backgroundColor: p.paper,
+      backgroundColor: p.paperSolid,
       useRootNavigator: true,
       builder: (context) => _FilterSheet(title: title, sections: sections),
     );

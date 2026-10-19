@@ -2970,8 +2970,8 @@
   "roleNurseDesc": "Certification and procedures",
   "procTitle": "Procedures",
   "procSub": "Step-by-step practical guides",
-  "procEmptyTitle": "Coming soon",
-  "procEmptyBody": "The procedures section is being prepared. Verified, sourced guides will appear in an upcoming update.",
+  "procEmptyTitle": "Procedures",
+  "procEmptyBody": "The procedure list did not load.",
   "workDirTitle": "Your work area",
   "workDirHint": "Daily questions are matched to this area.",
   "workDirPick": "Choose your work area — daily questions will follow it.",
@@ -2982,6 +2982,42 @@
   "workTodayGeneral": "Today: general questions (for every area)",
   "workTodayMixed": "Today: mixed — 3 from your area, 2 general",
   "workPlan": "Weekly plan: Monday–Thursday your area, Friday–Saturday general questions, Sunday mixed.",
+  "procGoal": "Purpose",
+  "procIndications": "Indications",
+  "procContra": "Contraindications",
+  "procEquipment": "Equipment",
+  "procSteps": "Steps",
+  "procChecklist": "Checklist",
+  "procRisks": "Risks and complications",
+  "procStepsCount": "{count} steps",
+  "@procStepsCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "procSourceNote": "Based on the textbook. Compare with your facility's current instruction and Ministry of Health orders.",
+  "procNotFound": "Procedure not found",
+  "glossaryTitle": "Glossary",
+  "glossarySub": "Exact definitions from the textbook",
+  "glossaryCount": "{count} terms",
+  "@glossaryCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "glossarySearch": "Search terms",
+  "glossaryNothing": "Nothing found",
+  "refUzbekOnly": "Text is in Uzbek (from the textbook); translation comes in a later update.",
+  "workVitalsTitle": "Vital signs",
+  "workVitalTemp": "Body temperature",
+  "workVitalPulse": "Pulse",
+  "workVitalResp": "Respiratory rate",
+  "workVitalPerMin": "per minute",
+  "workVitalSource": "Source: Inomov Q.S., “Fundamentals of Nursing” (Hamshiralik ishi asoslari), 4th ed., Tashkent, 2007, pp. 170/173/177 (PDF).",
   "workTitle": "Workplace",
   "workSub": "Quick reference for your shift",
   "workEmptyTitle": "Coming soon",

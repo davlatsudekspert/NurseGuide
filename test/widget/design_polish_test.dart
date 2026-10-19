@@ -22,7 +22,7 @@ void main() {
   // yo'q, yumshoq soya (LgShadow); tunda soya o'rniga juda xira chet.
   for (final dark in [false, true]) {
     testWidgets(
-      'toifa kirish kartasi: chegarasiz, soya (${dark ? 'tun' : 'kun'})',
+      'toifa kirish kartasi: shisha qirra va soya (${dark ? 'tun' : 'kun'})',
       (tester) async {
         final s = await makeServices(
           tester,
@@ -37,13 +37,9 @@ void main() {
             )
             .first;
         final d = tester.widget<DecoratedBox>(box).decoration as BoxDecoration;
-        if (dark) {
-          expect(d.boxShadow ?? const [], isEmpty);
-          expect(d.border, isNotNull);
-        } else {
-          expect(d.border, isNull);
-          expect(d.boxShadow, isNotEmpty);
-        }
+        // "Tiniq shisha": yorug' qirra (rim) va yumshoq soya — kun va tunda.
+        expect(d.border, isNotNull);
+        expect(d.boxShadow, isNotEmpty);
         expect(tester.takeException(), isNull);
       },
     );

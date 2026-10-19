@@ -9,6 +9,7 @@ import 'package:go_router/go_router.dart';
 import 'package:nurseguide/app/app.dart';
 import 'package:nurseguide/app/app_scope.dart';
 import 'package:nurseguide/app/widgets/lg_page.dart';
+import 'package:nurseguide/features/reference/reference_data.dart';
 import 'package:nurseguide/core/backend/app_backend.dart';
 import 'package:nurseguide/core/storage/kv_store.dart';
 import 'package:nurseguide/features/auth/otp_auth.dart';
@@ -26,7 +27,7 @@ import 'daily_fakes.dart';
 import 'fixtures.dart';
 import 'fake_qr_scanner.dart';
 
-/// Haqiqiy Inter va Material Icons shriftlarini yuklaydi: overflow
+/// Haqiqiy Manrope, Fraunces, Inter va Material Icons shriftlarini yuklaydi: overflow
 /// tekshiruvi test shriftida (har harf = kvadrat) emas, ilovadagi kabi
 /// matn kengligida o'tadi.
 Future<void> loadAppFonts() async {
@@ -37,6 +38,13 @@ Future<void> loadAppFonts() async {
     inter.addFont(file('assets/fonts/Inter-$w.ttf'));
   }
   await inter.load();
+  // "Tiniq shisha": Manrope (matn) va Fraunces (sarlavha).
+  await (FontLoader(
+    'Manrope',
+  )..addFont(file('assets/fonts/Manrope.ttf'))).load();
+  await (FontLoader(
+    'Fraunces',
+  )..addFont(file('assets/fonts/Fraunces.ttf'))).load();
   // Ivory mavzusining sarlavha shriftlari (D-64).
   await (FontLoader(
     'InstrumentSerif',
@@ -117,6 +125,10 @@ Future<AppServices> makeServices(
   // Barcha taqdimotlar katalogi (Ma'ruza ro'yxati va qidiruv).
   await tester.runAsync(
     () => DeckCatalog.load(services.curriculum.bundle ?? rootBundle),
+  );
+  // Muolajalar va atamalar lug'ati (Manipulyatsiyalar, Kutubxona).
+  await tester.runAsync(
+    () => ReferenceData.load(services.curriculum.bundle ?? rootBundle),
   );
   return services;
 }

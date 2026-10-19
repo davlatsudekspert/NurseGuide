@@ -33,17 +33,19 @@ void main() {
     expect(field.focusNode!.hasFocus, isTrue);
   });
 
-  testWidgets('library: sections shell is books · saved · sources only', (
-    tester,
-  ) async {
-    final s = await makeServices(tester);
-    await pumpApp(tester, s);
-    await goTo(tester, '/library');
-    expect(find.text(_uz.libBooks), findsOneWidget);
-    expect(find.text(_uz.featureSaved), findsOneWidget);
-    expect(find.text(_uz.libSources), findsOneWidget);
-    expect(find.byType(LgRow), findsNWidgets(3));
-  });
+  testWidgets(
+    'library: sections shell is glossary · books · saved · sources only',
+    (tester) async {
+      final s = await makeServices(tester);
+      await pumpApp(tester, s);
+      await goTo(tester, '/library');
+      expect(find.text(_uz.glossaryTitle), findsOneWidget);
+      expect(find.text(_uz.libBooks), findsOneWidget);
+      expect(find.text(_uz.featureSaved), findsOneWidget);
+      expect(find.text(_uz.libSources), findsOneWidget);
+      expect(find.byType(LgRow), findsNWidgets(4));
+    },
+  );
 
   testWidgets('save a material and find it under Saved; remove again', (
     tester,

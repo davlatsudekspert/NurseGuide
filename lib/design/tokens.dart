@@ -10,6 +10,12 @@ abstract final class LgBrand {
 
   /// Aksent: yalpiz (tunda asosiy rang sifatida ham ishlatiladi).
   static const mint = Color(0xFF7FD1B9);
+
+  /// Shampan: faqat metall detallar (shisha belgilar).
+  static const champagne = Color(0xFFD6BC84);
+
+  /// To'q teal (kunlik karta, chuqur sirtlar).
+  static const deep = Color(0xFF0B3340);
 }
 
 /// NurseGuide rang tokenlari. Kunduzgi: iliq fil suyagi fon va kartalar +
@@ -37,6 +43,9 @@ class LgPalette extends ThemeExtension<LgPalette> {
 
   /// Ekran foni.
   final Color bg;
+
+  /// [paper] ning [bg] ustidagi to'liq qoplamali ko'rinishi (dialog, menyu).
+  Color get paperSolid => Color.alphaBlend(paper, bg);
 
   /// Karta/panel foni.
   final Color paper;
@@ -83,16 +92,19 @@ class LgPalette extends ThemeExtension<LgPalette> {
   /// Aksent rangidagi kichik matn (eyebrow): fon/panel/soft ustida ≥ 4,5:1.
   final Color accentInk;
 
+  /// "Tiniq shisha": iliq-yashil marvarid fon, yarim shaffof oq kartalar
+  /// (shisha), chuqur teal brend. [paper] shaffof — kartalar fon gradienti
+  /// ustida shisha bo'lib ko'rinadi; to'liq qoplama kerak bo'lsa [paperSolid].
   static const light = LgPalette(
-    bg: Color(0xFFF3F1EC),
-    paper: Color(0xFFFCFBF8),
-    ink: Color(0xFF1A1917),
-    sub: Color(0xFF5B5750),
-    line: Color(0xFFE5E1D8),
-    outline: Color(0xFF857F75),
+    bg: Color(0xFFF1F5EE),
+    paper: Color(0xF2FFFFFF),
+    ink: Color(0xFF0A2A33),
+    sub: Color(0xFF47656A),
+    line: Color(0xFFD3E3DD),
+    outline: Color(0xFF6B8587),
     brand: LgBrand.primary,
     onBrand: Color(0xFFF6FAF8),
-    soft: Color(0xFFDDEBE8),
+    soft: Color(0xFFD3F1E7),
     amber: Color(0xFF7B4D0B),
     amberBg: Color(0xFFF8EDDA),
     danger: Color(0xFF9A2B1F),
@@ -102,15 +114,15 @@ class LgPalette extends ThemeExtension<LgPalette> {
   );
 
   static const dark = LgPalette(
-    bg: Color(0xFF0C1719),
-    paper: Color(0xFF14262A),
-    ink: Color(0xFFECF1EE),
-    sub: Color(0xFFA9BDB8),
-    line: Color(0xFF25393C),
-    outline: Color(0xFF628079),
+    bg: Color(0xFF061519),
+    paper: Color(0xEB0F2A30),
+    ink: Color(0xFFE9F4F1),
+    sub: Color(0xFFA8C3BF),
+    line: Color(0xFF1F3F45),
+    outline: Color(0xFF5E8A86),
     brand: LgBrand.mint,
-    onBrand: Color(0xFF0A2C2E),
-    soft: Color(0xFF1B3A3D),
+    onBrand: Color(0xFF062A2E),
+    soft: Color(0xFF1A4349),
     amber: Color(0xFFF0C586),
     amberBg: Color(0xFF3F3324),
     danger: Color(0xFFFFB4A6),
@@ -245,21 +257,36 @@ abstract final class LgShadow {
 
   /// Karta/panel (paper) uchun.
   static List<BoxShadow> card(BuildContext context) {
-    if (_dark(context)) return const [];
+    if (_dark(context)) {
+      return [
+        BoxShadow(
+          color: Colors.black.withValues(alpha: 0.35),
+          blurRadius: 30,
+          offset: const Offset(0, 14),
+        ),
+      ];
+    }
     final c = LgPalette.of(context).shadow;
     return [
       BoxShadow(
-        color: c.withValues(alpha: 0.045),
-        blurRadius: 28,
-        offset: const Offset(0, 10),
+        color: c.withValues(alpha: 0.12),
+        blurRadius: 34,
+        offset: const Offset(0, 16),
       ),
       BoxShadow(
-        color: c.withValues(alpha: 0.03),
-        blurRadius: 6,
+        color: c.withValues(alpha: 0.06),
+        blurRadius: 5,
         offset: const Offset(0, 2),
       ),
     ];
   }
+
+  /// Shisha qirrasi: yorug' ingichka chegara (kartalar uchun).
+  static Border rim(BuildContext context) => Border.all(
+    color: _dark(context)
+        ? Colors.white.withValues(alpha: 0.10)
+        : Colors.white.withValues(alpha: 0.95),
+  );
 
   /// Ko'tarilgan element (asosiy tugma, hero karta).
   static List<BoxShadow> raised(BuildContext context) {
@@ -305,13 +332,15 @@ abstract final class LgGlass {
   static const double blurSigma = 22;
 
   static double surfaceAlpha(Brightness brightness) =>
-      brightness == Brightness.dark ? 0.8 : 0.84;
+      brightness == Brightness.dark ? 0.88 : 0.84;
 
   static Color surface(
     LgPalette p,
     Brightness brightness, {
     bool solid = false,
-  }) => solid ? p.paper : p.paper.withValues(alpha: surfaceAlpha(brightness));
+  }) => solid
+      ? p.paperSolid
+      : p.paperSolid.withValues(alpha: surfaceAlpha(brightness));
 
   /// Yupqa chegara: shishaning qirrasi; qattiq rejimda — aniq `outline`.
   static Color border(LgPalette p, {bool solid = false}) =>

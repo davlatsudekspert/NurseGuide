@@ -4562,11 +4562,10 @@ class AppLocalizationsUz extends AppLocalizations {
   String get procSub => 'Bosqichma-bosqich amaliy ko‘rsatmalar';
 
   @override
-  String get procEmptyTitle => 'Tez orada';
+  String get procEmptyTitle => 'Muolajalar';
 
   @override
-  String get procEmptyBody =>
-      'Manipulyatsiyalar bo‘limi tayyorlanmoqda. Tekshirilgan, manbali ko‘rsatmalar keyingi yangilanishda paydo bo‘ladi.';
+  String get procEmptyBody => 'Muolajalar ro‘yxati yuklanmadi.';
 
   @override
   String get workDirTitle => 'Ish yo‘nalishingiz';
@@ -4601,6 +4600,79 @@ class AppLocalizationsUz extends AppLocalizations {
   @override
   String get workPlan =>
       'Hafta rejasi: dushanba–payshanba — o‘z yo‘nalishingiz, juma–shanba — umumiy savollar, yakshanba — aralash.';
+
+  @override
+  String get procGoal => 'Maqsad';
+
+  @override
+  String get procIndications => 'Ko‘rsatmalar';
+
+  @override
+  String get procContra => 'Qarshi ko‘rsatmalar';
+
+  @override
+  String get procEquipment => 'Kerakli jihozlar';
+
+  @override
+  String get procSteps => 'Qadamlar';
+
+  @override
+  String get procChecklist => 'Tekshiruv ro‘yxati';
+
+  @override
+  String get procRisks => 'Xavf va asoratlar';
+
+  @override
+  String procStepsCount(int count) {
+    return '$count qadam';
+  }
+
+  @override
+  String get procSourceNote =>
+      'Ma’lumot darslik asosida tayyorlangan. Muassasangizdagi amaldagi ko‘rsatma va SSV buyruqlari bilan solishtiring.';
+
+  @override
+  String get procNotFound => 'Muolaja topilmadi';
+
+  @override
+  String get glossaryTitle => 'Atamalar lug‘ati';
+
+  @override
+  String get glossarySub => 'Darslikdagi aniq ta’riflar';
+
+  @override
+  String glossaryCount(int count) {
+    return '$count ta atama';
+  }
+
+  @override
+  String get glossarySearch => 'Atama qidirish';
+
+  @override
+  String get glossaryNothing => 'Hech narsa topilmadi';
+
+  @override
+  String get refUzbekOnly =>
+      'Matn o‘zbekcha (darslik asosida); tarjima keyingi yangilanishda.';
+
+  @override
+  String get workVitalsTitle => 'Hayotiy ko‘rsatkichlar';
+
+  @override
+  String get workVitalTemp => 'Tana harorati';
+
+  @override
+  String get workVitalPulse => 'Puls';
+
+  @override
+  String get workVitalResp => 'Nafas soni';
+
+  @override
+  String get workVitalPerMin => '1 daqiqada';
+
+  @override
+  String get workVitalSource =>
+      'Manba: Inomov Q.S., «Hamshiralik ishi asoslari», 4-nashr, Toshkent, 2007, 170/173/177-bet (PDF).';
 
   @override
   String get workTitle => 'Ish joyi';

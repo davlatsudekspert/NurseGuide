@@ -78,11 +78,12 @@ final _labTerms = RegExp(
   unicode: true,
 );
 
-// assets/toifa va content_src — hamshiralik savollari: ularda «siydik», «laboratoriya»
+// assets/toifa, assets/content/reference va content_src — hamshiralik kontenti: ularda «siydik», «laboratoriya»
 // kabi so'zlar klinik ma'noda uchraydi. Ularga lab kontenti kirmasligi bank
 // manbalari (faqat hamshiralik banklari) bilan ta'minlanadi.
 bool _scanned(String p) =>
     !p.contains('assets/toifa/') &&
+    !p.contains('assets/content/reference/') &&
     !p.contains('content_src/') &&
     !p.contains('/l10n/gen/') &&
     !p.endsWith('no_lab_content_guard_test.dart') &&

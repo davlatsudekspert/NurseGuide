@@ -3886,7 +3886,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get complaintText => 'Текст';
 
   @override
-  String get complaintTextHint => 'Что случилось? Какой экран или пост?';
+  String get complaintTextHint => 'Что случилось? Какой экран или вопрос?';
 
   @override
   String complaintTarget(String ref) {

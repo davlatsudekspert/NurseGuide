@@ -1097,7 +1097,7 @@
   "complaintFormBody": "Напишите о неприемлемом контенте, ошибке или другой проблеме — команда NurseGuide рассмотрит.",
   "complaintKindLabel": "Тип",
   "complaintText": "Текст",
-  "complaintTextHint": "Что случилось? Какой экран или пост?",
+  "complaintTextHint": "Что случилось? Какой экран или вопрос?",
   "complaintTarget": "Ссылка: {ref}",
   "complaintSend": "Отправить жалобу",
   "complaintSent": "Отправлено. Спасибо — рассмотрим.",

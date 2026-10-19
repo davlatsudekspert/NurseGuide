@@ -2494,7 +2494,7 @@
   "complaintFormBody": "Tell us about objectionable content, a bug or another problem — the NurseGuide team will review it.",
   "complaintKindLabel": "Type",
   "complaintText": "Text",
-  "complaintTextHint": "What happened? Which screen or post?",
+  "complaintTextHint": "What happened? Which screen or question?",
   "complaintTarget": "Reference: {ref}",
   "@complaintTarget": {
     "placeholders": {

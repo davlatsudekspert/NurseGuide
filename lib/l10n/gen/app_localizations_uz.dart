@@ -509,7 +509,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get toifaMistakesRowEmpty => 'Hozircha xato yo‘q';
 
   @override
-  String get toifaProgressTitle => 'Rivojlanish';
+  String get toifaProgressTitle => 'Natijalar';
 
   @override
   String get toifaProgressRowSub => 'Mavzular bo‘yicha natija va tayyorlik';
@@ -1146,7 +1146,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get quizOtherTopic => 'Boshqa mavzu';
 
   @override
-  String get dailyTitle => 'Kunlik savol';
+  String get dailyTitle => 'Kunlik savollar';
 
   @override
   String get dailyCardStart => 'Bugungi 5 ta savol';
@@ -2755,7 +2755,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get libBackToCatalog => 'Katalogga qaytish';
 
   @override
-  String get readerTitle => 'O‘quvchi';
+  String get readerTitle => 'O‘qish';
 
   @override
   String readerPageOf(int page, int total) {
@@ -3831,7 +3831,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get complaintText => 'Matn';
 
   @override
-  String get complaintTextHint => 'Nima bo‘ldi? Qaysi ekran yoki post?';
+  String get complaintTextHint => 'Nima bo‘ldi? Qaysi ekran yoki savol?';
 
   @override
   String complaintTarget(String ref) {

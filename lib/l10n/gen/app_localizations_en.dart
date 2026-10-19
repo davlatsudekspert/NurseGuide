@@ -3889,7 +3889,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get complaintText => 'Text';
 
   @override
-  String get complaintTextHint => 'What happened? Which screen or post?';
+  String get complaintTextHint => 'What happened? Which screen or question?';
 
   @override
   String complaintTarget(String ref) {

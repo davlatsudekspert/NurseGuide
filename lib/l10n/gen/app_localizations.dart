@@ -6685,7 +6685,7 @@ abstract class AppLocalizations {
   /// No description provided for @complaintTextHint.
   ///
   /// In en, this message translates to:
-  /// **'What happened? Which screen or post?'**
+  /// **'What happened? Which screen or question?'**
   String get complaintTextHint;
 
   /// No description provided for @complaintTarget.

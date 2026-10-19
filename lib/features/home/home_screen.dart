@@ -180,7 +180,11 @@ class HomeScreen extends StatelessWidget {
           showBrand: true,
           compactTitle: true,
           children: [
-            // Rolning tezkor kartalari birinchi ekranda.
+            // Asosiy "ilgak": bugungi 5 ta savol — eng tepada, bitta katta tugma.
+            const DailyCard(),
+            // Oxirgi ochilgan joydan davom etish (tarix bo'lsa).
+            _HomeHero(config: config, role: role),
+            // Rolning tezkor kartalari.
             LgTwoColumnGrid(
               children: [
                 for (var i = 0; i < config.actions.length; i++)
@@ -200,10 +204,6 @@ class HomeScreen extends StatelessWidget {
                   ),
               ],
             ),
-            const SizedBox(height: 8),
-            _HomeHero(config: config, role: role),
-            // Kunlik 5 ta savol — har kuni qaytish uchun ixcham karta.
-            const DailyCard(),
             // Talabaga guruhda berilgan testlar (muddati bilan).
             const AssignedTestsCard(),
             // Toifa: hamshira uchun kirish kartasi, ochilgach — "Bugun".
@@ -274,6 +274,9 @@ class _HomeHero extends StatelessWidget {
         ),
       );
     }
+    // Hamshira: boshlang'ich amal (toifa) tezkor kartada allaqachon bor —
+    // bir xil narsani ikki marta ko'rsatmaymiz.
+    if (role == AppRole.nurse) return const SizedBox.shrink();
     return LgHeroCard(
       compact: true,
       image: kHeroImage,

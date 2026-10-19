@@ -561,9 +561,6 @@ TextStyle tabLabelStyle(
 /// ham bildiriladi (faqat rangga tayanmaydi).
 Color _tabColor(LgPalette p, bool selected) => selected ? p.brand : p.ink;
 
-/// Ish joyi tugmasi halqasi (brend logotipining oltin tusiga mos).
-const _kGold = Color(0xFFC9A55C);
-
 class _NavItem extends StatelessWidget {
   const _NavItem({
     required this.index,
@@ -723,12 +720,12 @@ class _CenterButton extends StatelessWidget {
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     color: p.brand,
-                    // Tiniq shisha (B): oltin halqa va brend logotipi.
+                    // Brend logotipi: halqa menyu rangida (oq), tanlanganda teal.
                     border: Border.all(
                       width: selected ? 4 : 3,
                       color: selected
-                          ? _kGold
-                          : _kGold.withValues(alpha: 0.75),
+                          ? p.brand.withValues(alpha: 0.45)
+                          : p.paper.withValues(alpha: 0.95),
                     ),
                     boxShadow: [
                       BoxShadow(

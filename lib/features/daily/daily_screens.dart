@@ -141,6 +141,16 @@ class DailyCard extends StatelessWidget {
                 streak.current > 0 ? l.dailyKeepStreak : l.dailyCardStartSub,
                 l.dailyStart,
               );
+        if (!done) {
+          return _DailyHero(
+            title: title,
+            body: body,
+            cta: cta,
+            set: set,
+            streakDays: streak.current,
+            onPressed: () => openInTab(context, kDailyLocation),
+          );
+        }
         return Padding(
           padding: const EdgeInsets.symmetric(vertical: 8),
           child: DecoratedBox(
@@ -224,13 +234,155 @@ class DailyCard extends StatelessWidget {
   }
 }
 
+const _kMint = Color(0xFF7FD1B9);
+const _kDeepTeal = Color(0xFF0B3340);
+
+/// Bosh sahifaning asosiy "ilgak"i: to'q teal shisha karta — bugungi
+/// savollar, jarayon nuqtalari, seriya va bitta katta tugma.
+class _DailyHero extends StatelessWidget {
+  const _DailyHero({
+    required this.title,
+    required this.body,
+    required this.cta,
+    required this.set,
+    required this.streakDays,
+    required this.onPressed,
+  });
+
+  final String title;
+  final String body;
+  final String cta;
+  final DailySet? set;
+  final int streakDays;
+  final VoidCallback onPressed;
+
+  @override
+  Widget build(BuildContext context) {
+    final text = Theme.of(context).textTheme;
+    return Padding(
+      padding: const EdgeInsets.symmetric(vertical: 8),
+      child: DecoratedBox(
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(28),
+          gradient: const LinearGradient(
+            begin: Alignment.topLeft,
+            end: Alignment.bottomRight,
+            colors: [Color(0xFF1F7A78), Color(0xFF0F4C5C), _kDeepTeal],
+          ),
+          border: Border.all(color: Colors.white24),
+          boxShadow: [
+            BoxShadow(
+              color: _kDeepTeal.withValues(alpha: 0.35),
+              blurRadius: 24,
+              offset: const Offset(0, 10),
+            ),
+          ],
+        ),
+        child: Padding(
+          padding: const EdgeInsets.fromLTRB(20, 20, 20, 18),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Row(
+                children: [
+                  Expanded(
+                    child: Semantics(
+                      header: true,
+                      child: Text(
+                        title,
+                        style: text.titleLarge?.copyWith(
+                          color: Colors.white,
+                          fontWeight: FontWeight.w700,
+                        ),
+                      ),
+                    ),
+                  ),
+                  if (streakDays > 0)
+                    ExcludeSemantics(
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          const Icon(
+                            Icons.local_fire_department_rounded,
+                            color: Color(0xFFFFC46B),
+                            size: 22,
+                          ),
+                          const SizedBox(width: 2),
+                          Text(
+                            '$streakDays',
+                            style: text.titleMedium?.copyWith(
+                              color: Colors.white,
+                              fontWeight: FontWeight.w700,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                ],
+              ),
+              const SizedBox(height: 6),
+              Text(
+                body,
+                style: text.bodyMedium?.copyWith(color: Colors.white70),
+              ),
+              const SizedBox(height: 14),
+              _Dots(set: set, onDark: true),
+              const SizedBox(height: 16),
+              Semantics(
+                button: true,
+                label: cta,
+                excludeSemantics: true,
+                onTap: onPressed,
+                child: Material(
+                  color: _kMint,
+                  borderRadius: BorderRadius.circular(26),
+                  child: InkWell(
+                    key: const ValueKey('daily-hero-cta'),
+                    borderRadius: BorderRadius.circular(26),
+                    onTap: onPressed,
+                    child: ConstrainedBox(
+                      constraints: const BoxConstraints(minHeight: 52),
+                      child: Center(
+                        child: Row(
+                          mainAxisSize: MainAxisSize.min,
+                          children: [
+                            const Icon(
+                              Icons.play_arrow_rounded,
+                              color: _kDeepTeal,
+                            ),
+                            const SizedBox(width: 6),
+                            Text(
+                              cta,
+                              style: text.titleMedium?.copyWith(
+                                color: _kDeepTeal,
+                                fontWeight: FontWeight.w700,
+                              ),
+                            ),
+                          ],
+                        ),
+                      ),
+                    ),
+                  ),
+                ),
+              ),
+            ],
+          ),
+        ),
+      ),
+    );
+  }
+}
+
 /// Besh nuqta: javob berilmagan / to'g'ri / noto'g'ri (shakl bilan ham
 /// farqlanadi — faqat rangga tayanmaydi).
 class _Dots extends StatelessWidget {
-  const _Dots({required this.set, this.current});
+  const _Dots({required this.set, this.current, this.onDark = false});
 
   final DailySet? set;
   final int? current;
+
+  /// To'q teal karta ustida: nuqtalar mint/oq rangda.
+  final bool onDark;
 
   @override
   Widget build(BuildContext context) {
@@ -250,7 +402,13 @@ class _Dots extends StatelessWidget {
                 builder: (context) {
                   final a = s == null ? null : s.answers[s.ids[i]];
                   final isCurrent = i == current && a == null;
-                  final color = a == null
+                  final color = onDark
+                      ? (a == null
+                            ? (isCurrent ? _kMint : Colors.white54)
+                            : a.correct
+                            ? _kMint
+                            : p.amber)
+                      : a == null
                       ? (isCurrent ? p.brand : p.line)
                       : a.correct
                       ? p.brand
@@ -271,7 +429,11 @@ class _Dots extends StatelessWidget {
                                 ? Icons.check_rounded
                                 : Icons.close_rounded,
                             size: 14,
-                            color: a.correct ? p.onBrand : p.paper,
+                            color: onDark && a.correct
+                                ? _kDeepTeal
+                                : a.correct
+                                ? p.onBrand
+                                : p.paper,
                           ),
                   );
                 },

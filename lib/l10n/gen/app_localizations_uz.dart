@@ -4693,7 +4693,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get dmedNote =>
-      'DMED xodimlari uchun video qo‘llanmalar asosidagi test (2025-yil iyun). Rasmiy ko‘rsatma emas: tizim yangilansa, tugma va bo‘lim nomlari o‘zgarishi mumkin.';
+      'DMED video qo‘llanmalari testi (2025-yil iyun) va ARGOS MED jadvali asosida. Rasmiy ko‘rsatma emas: tizim yangilansa, tugma va bo‘lim nomlari o‘zgarishi mumkin.';
 
   @override
   String get dmedShow => 'Javobni ko‘rish';

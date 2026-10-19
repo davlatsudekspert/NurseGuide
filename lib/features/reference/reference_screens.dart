@@ -418,24 +418,26 @@ class _DmedScreenState extends State<DmedScreen> {
                   label: l.dmedSearch,
                   onChanged: (v) => setState(() => _query = v),
                 ),
-                Padding(
-                  padding: const EdgeInsets.symmetric(vertical: 8),
-                  child: Wrap(
-                    spacing: 8,
-                    runSpacing: 8,
+                // Bitta qatorda yon tomonga suriladi: 18 ta guruh ekranni
+                // egallab, savollarni pastga itarib yubormasin.
+                SizedBox(
+                  height: 52,
+                  child: ListView(
+                    scrollDirection: Axis.horizontal,
+                    padding: const EdgeInsets.symmetric(vertical: 6),
                     children: [
-                      LgChoiceChip(
-                        key: const ValueKey('dmed-group-all'),
-                        label: l.dmedAllGroups,
-                        selected: _group == null,
-                        onTap: () => setState(() => _group = null),
-                      ),
-                      for (final g in data.dmedGroups)
-                        LgChoiceChip(
-                          key: ValueKey('dmed-group-${g.id}'),
-                          label: g.title,
-                          selected: _group == g.id,
-                          onTap: () => setState(() => _group = g.id),
+                      for (final (id, title) in [
+                        (null, l.dmedAllGroups),
+                        for (final g in data.dmedGroups) (g.id, g.title),
+                      ])
+                        Padding(
+                          padding: const EdgeInsets.only(right: 8),
+                          child: LgChoiceChip(
+                            key: ValueKey('dmed-group-${id ?? 'all'}'),
+                            label: title,
+                            selected: _group == id,
+                            onTap: () => setState(() => _group = id),
+                          ),
                         ),
                     ],
                   ),

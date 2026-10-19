@@ -1340,7 +1340,7 @@
   "dmedSub": "DMED tizimida ishlash: rollar, qabul, statsionar, hujjat shakllari",
   "dmedSearch": "Savol yoki javob qidirish",
   "dmedCount": "{count} ta savol",
-  "dmedNote": "DMED xodimlari uchun video qo‘llanmalar asosidagi test (2025-yil iyun). Rasmiy ko‘rsatma emas: tizim yangilansa, tugma va bo‘lim nomlari o‘zgarishi mumkin.",
+  "dmedNote": "DMED video qo‘llanmalari testi (2025-yil iyun) va ARGOS MED jadvali asosida. Rasmiy ko‘rsatma emas: tizim yangilansa, tugma va bo‘lim nomlari o‘zgarishi mumkin.",
   "dmedShow": "Javobni ko‘rish",
   "dmedHide": "Javobni yashirish",
   "dmedAllGroups": "Hammasi",

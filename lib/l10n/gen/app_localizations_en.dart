@@ -4776,7 +4776,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get dmedNote =>
-      'Based on a DMED staff training-video quiz (June 2025). Not an official instruction: button and section names may change when the system is updated.';
+      'Based on a DMED training-video quiz (June 2025) and the ARGOS MED table. Not an official instruction: button and section names may change when the system is updated.';
 
   @override
   String get dmedShow => 'Show answer';

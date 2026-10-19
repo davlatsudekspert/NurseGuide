@@ -22,6 +22,7 @@ void main() {
       '/learn/toifa/test',
       '/procedures/tozalovchi_huqna',
       '/library/glossary',
+      '/library/dmed',
       '/library/literature/inomov2007',
       '/library/saved',
     ]) {
@@ -47,6 +48,7 @@ void main() {
     '/learn/toifa/test',
     '/procedures/tozalovchi_huqna',
     '/library/glossary',
+    '/library/dmed',
   ]) {
     testWidgets('mehmon $path: ro‘yxatdan o‘tish so‘raladi', (tester) async {
       final s = await makeServices(tester, guest: true);

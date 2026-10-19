@@ -3011,6 +3011,29 @@
   },
   "glossarySearch": "Search terms",
   "glossaryNothing": "Nothing found",
+  "dmedTitle": "DMED: questions and answers",
+  "dmedSub": "How to work in the DMED system: roles, admission, inpatient care, forms",
+  "dmedSearch": "Search questions and answers",
+  "dmedCount": "{count} questions",
+  "@dmedCount": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
+  "dmedNote": "Based on a DMED staff training-video quiz (June 2025). Not an official instruction: button and section names may change when the system is updated.",
+  "dmedShow": "Show answer",
+  "dmedHide": "Hide answer",
+  "dmedAllGroups": "All",
+  "litCardsN": "{count} DMED Q&A",
+  "@litCardsN": {
+    "placeholders": {
+      "count": {
+        "type": "int"
+      }
+    }
+  },
   "refUzbekOnly": "Text is in Uzbek (from the textbook); translation comes in a later update.",
   "workVitalsTitle": "Vital signs",
   "workVitalTemp": "Body temperature",

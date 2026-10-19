@@ -1,0 +1,546 @@
+{
+ "version": 1,
+ "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)",
+ "groups": [
+  {
+   "id": "qabul",
+   "title": "Qabul va bemor"
+  },
+  {
+   "id": "shifokor",
+   "title": "Shifokor ish joyi"
+  },
+  {
+   "id": "retsept",
+   "title": "Retsept va dori-darmon"
+  },
+  {
+   "id": "patronaj",
+   "title": "Patronaj va sog‘liq guruhlari"
+  },
+  {
+   "id": "rollar",
+   "title": "Rollar va bo‘limlar"
+  },
+  {
+   "id": "laborant",
+   "title": "Laborant"
+  },
+  {
+   "id": "ombor",
+   "title": "Ombor va nomenklatura"
+  },
+  {
+   "id": "statsionar",
+   "title": "Statsionar va gospitalizatsiya"
+  },
+  {
+   "id": "hujjat",
+   "title": "Hujjat shakllari va epikriz"
+  },
+  {
+   "id": "kurs",
+   "title": "Davolash kursi va yo‘llanma"
+  },
+  {
+   "id": "tugruq",
+   "title": "Tug‘ruq"
+  },
+  {
+   "id": "jarrohlik",
+   "title": "Jarrohlik"
+  }
+ ],
+ "cards": [
+  {
+   "id": "dmed-001",
+   "group": "qabul",
+   "q": "Bemor birinchi marta tibbiyot muassasasiga murojaat qilganda qabulga yozilish qanday amalga oshiriladi?",
+   "a": "Pasport ma’lumotlari / metrika / FaceID bo‘yicha.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-002",
+   "group": "qabul",
+   "q": "Takroriy qabulga yozilish uchun qanday ma’lumotlar talab qilinadi?",
+   "a": "FaceID / MedID / bemorning FIO si.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-004",
+   "group": "rollar",
+   "q": "«Menejer» rolida qanday bo‘limlar mavjud?",
+   "a": "Qabullar / hujjatlar / bemorlar / statsionar / kassa / buyurtmalar / sozlamalar.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-005",
+   "group": "qabul",
+   "q": "Norezidentlar tizimga qanday qo‘shiladi?",
+   "a": "Hujjatlarsiz FIO / tug‘ilgan sana / jinsni ko‘rsatib.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-006",
+   "group": "qabul",
+   "q": "Norezident qidiruvi qanday amalga oshiriladi?",
+   "a": "FIO yoki medkarta bo‘yicha.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-007",
+   "group": "qabul",
+   "q": "«Qabullar — Faol» bo‘limida bemorlarning qanday statuslari mavjud?",
+   "a": "Taklif qilingan / qabulda / navbatda.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-008",
+   "group": "retsept",
+   "q": "Kompensatsiya (reimbursatsiya) retsepti bilan oddiy retsept o‘rtasidagi farq nimada?",
+   "a": "Kompensatsiya retseptlari Sug‘urta jamg‘armasi hisobidan qoplanadi, oddiy retseptlarni bemor o‘z hisobidan sotib oladi.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-009",
+   "group": "retsept",
+   "q": "Tibbiyot muassasasi omboridan dori vositalarini davolash kursiga qo‘shish mumkinmi?",
+   "a": "Ha.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-010",
+   "group": "shifokor",
+   "q": "Shifokor qaysi bo‘limda o‘ziga ko‘rik shablonlarini yarata oladi?",
+   "a": "«Sozlamalar — ko‘rik shablonlari» bo‘limida.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-011",
+   "group": "retsept",
+   "q": "Tibbiyot muassasasi dorixonasidan bepul retseptlar bo‘yicha sarflanadigan vositalar qanday ishlatiladi?",
+   "a": "Murojaat epizodida «bemor uchun sarf» bo‘limida.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-013",
+   "group": "shifokor",
+   "q": "Shifokor bemorning ko‘riklar tarixini ko‘ra oladimi?",
+   "a": "Ha, bemorning Medkartasida «Ko‘riklar» bo‘limida.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-014",
+   "group": "shifokor",
+   "q": "Shifokor tahlillar natijalarining tarixini ko‘ra oladimi?",
+   "a": "Ha, bemorning Medkartasida «Diagnostika» bo‘limida.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-141",
+   "group": "shifokor",
+   "q": "Shifokor boshqa shifokor yaratgan murojaat epizodini davom ettira oladimi?",
+   "a": "Ha, mumkin.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-015",
+   "group": "retsept",
+   "q": "Shifokorlarning qaysilari kompensatsiya (reimbursatsiya) retseptlarini yoza oladi?",
+   "a": "Oila shifokorlari.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-016",
+   "group": "retsept",
+   "q": "Shifokorlarning qaysilari oddiy retseptlarni yoza oladi?",
+   "a": "Barcha shifokorlar.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-017",
+   "group": "retsept",
+   "q": "Retsept yozishda kompensatsiya (reimbursatsiya) tugmasi faol bo‘lmasa, shifokor nima qilishi kerak?",
+   "a": "Imtiyozli toifani ko‘rsatish.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-018",
+   "group": "patronaj",
+   "q": "Bemorni patronaj rejasiga qo‘shish uchun qanday harakatlar qilish kerak?",
+   "a": "«Patronaj — Rejalashtirish» bo‘limida bemorni topib, amaliyotchi hamshirani tanlash, patronaj maqsadini ko‘rsatish, belgi qo‘yish.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-019",
+   "group": "patronaj",
+   "q": "Bemorni qanday sog‘liq guruhlariga qo‘yish mumkin?",
+   "a": "I–II–III–IV guruhlar.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-020",
+   "group": "rollar",
+   "q": "Direktor uchun qanday analitik ma’lumotlar mavjud?",
+   "a": "Qabullar / biriktirilgan aholi / yo‘nalishlar / statsionar.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-021",
+   "group": "rollar",
+   "q": "Tizimga yangi foydalanuvchi qanday qo‘shiladi?",
+   "a": "«Foydalanuvchilar / xodimlar» bo‘limida.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-022",
+   "group": "statsionar",
+   "q": "Bemorlarning tasdiqlangan gospitalizatsiyalarini qanday ko‘rish mumkin?",
+   "a": "«Gospitalizatsiya — tasdiqlangan» bo‘limida.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-024",
+   "group": "hujjat",
+   "q": "Barcha jurnallarni qaysi bo‘limda ko‘rish mumkin?",
+   "a": "«Hujjatlar — jurnallar» bo‘limida.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-025",
+   "group": "rollar",
+   "q": "Bir xodim uchun bir xil rol va mutaxassislik bilan ikkita hisob yaratish mumkinmi?",
+   "a": "Yo‘q, mumkin emas.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-026",
+   "group": "laborant",
+   "q": "Laborantga qanday bo‘limlar ochiq?",
+   "a": "Buyurtmalar / tahlillar / shablonlar / ref. guruhlar.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-027",
+   "group": "laborant",
+   "q": "Laborant tahlilni bekor qila oladimi?",
+   "a": "Ha.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-028",
+   "group": "laborant",
+   "q": "Laborant tizimga tahlil natijalarini kiritgandan so‘ng, shifokor va bemor natijalarni ko‘rishlari uchun nima qilishi kerak?",
+   "a": "Tahlilni tasdiqlash.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-029",
+   "group": "laborant",
+   "q": "Laborant tasdiqlagandan so‘ng tahlil natijalarini o‘zgartira oladimi?",
+   "a": "Yo‘q.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-030",
+   "group": "laborant",
+   "q": "Laborantning harakat tartibini ko‘rsating.",
+   "a": "Biomaterial olish → olishni tugatish → natijani kiritish → tasdiqlash.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-031",
+   "group": "rollar",
+   "q": "Hamshiraga qanday bo‘limlar ochiq?",
+   "a": "Qabullar / bemorlar / patronaj / statsionar / ombor.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-032",
+   "group": "kurs",
+   "q": "Fizioterapiya kursini o‘tkazishda hamshira qanday majburiy maydonlarni to‘ldirishi kerak?",
+   "a": "Sana / davomiylik / protsedura birligini ko‘rsatish.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-033",
+   "group": "ombor",
+   "q": "Ombordan hamshiraga qanday bo‘limlar ochiq?",
+   "a": "Hisob / sarf / nomenklatura / sterilizatsiya.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-035",
+   "group": "rollar",
+   "q": "Statist qanday hisobot turlarini shakllantiradi?",
+   "a": "SSV hisobotlari.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-038",
+   "group": "ombor",
+   "q": "Provizor (ombor mudiri)ga qanday bo‘limlar ochiq?",
+   "a": "Omborlar / hisob / ma’lumotnomalar.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-040",
+   "group": "ombor",
+   "q": "O‘lchov birligi bo‘lmagan tovarni nomenklaturaga qo‘shishda qanday majburiy maydonlarni to‘ldirish kerak?",
+   "a": "Tur / nomi / mamlakat / ishlab chiqaruvchi / idish / chiqarish shaklida miqdor.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-041",
+   "group": "ombor",
+   "q": "Shartnomalar qo‘shishda qanday majburiy maydonlarni to‘ldirish kerak?",
+   "a": "Yetkazib beruvchi nomi / shartnoma raqami / shartnoma muddati.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-042",
+   "group": "ombor",
+   "q": "Ombordan preparatlar qoldiqlarini qaysi bo‘limda ko‘rish mumkin?",
+   "a": "«Omborlar — qoldiq» bo‘limida.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-043",
+   "group": "statsionar",
+   "q": "Poliklinikadan gospitalizatsiyaga yo‘naltirilgan bemorlar tizimning qaysi bo‘limiga tushadi?",
+   "a": "«Gospitalizatsiya → Yaratilgan» bo‘limiga.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-044",
+   "group": "statsionar",
+   "q": "Yo‘naltirmasiz bemorni gospitalizatsiya qilishda uni qaysi hujjatlar bo‘yicha topish mumkin?",
+   "a": "PINFL, metrika, pasport seriyasi va raqami, MedID.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-045",
+   "group": "statsionar",
+   "q": "Statsionarda davolanayotgan bemorlar qaysi bo‘limga tushadi?",
+   "a": "«Davolanishda» bo‘limiga.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-046",
+   "group": "statsionar",
+   "q": "Bemorni statsionarga rasmiylashtirish paytida nima avtomatik ochiladi?",
+   "a": "Kasallik tarixi.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-047",
+   "group": "hujjat",
+   "q": "Kasallik tarixida 096 shakli qaysi muassasalarda avtomatik ochiladi?",
+   "a": "Tug‘ruqxona va perinatal markazlarda.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-048",
+   "group": "statsionar",
+   "q": "Bemorni statsionarga joylashtirish uchun qaysi bo‘limga kirish kerak?",
+   "a": "«Statsionar — qabul xonasi» bo‘limiga.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-049",
+   "group": "statsionar",
+   "q": "Bemorni statsionarga joylashtirishda qanday ma’lumotlarni albatta tanlash kerak?",
+   "a": "Bo‘lim / palata / gospitalizatsiya davri / navbatchi hamshira / davolovchi shifokor / narx ro‘yxati toifasi.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-050",
+   "group": "statsionar",
+   "q": "«Bemorni rasmiylashtirish» tugmasini bosganda qanday ko‘rik turlari mavjud?",
+   "a": "Birlamchi ko‘riksiz va birlamchi ko‘rik bilan.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-051",
+   "group": "statsionar",
+   "q": "Gospitalizatsiyani bekor qilish uchun nima qilish kerak?",
+   "a": "«Gospitalizatsiyani bekor qilish» tugmasini bosish.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-052",
+   "group": "statsionar",
+   "q": "Bemorni boshqa tibbiyot muassasasiga qayta yo‘naltirish uchun nima qilish kerak?",
+   "a": "«Qayta yo‘naltirish» tugmasini bosish.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-053",
+   "group": "hujjat",
+   "q": "Bemorning tibbiy kartasidan №027 shaklida ko‘chirma qanday ko‘riladi?",
+   "a": "Bemorning «Medkarta»siga o‘tish orqali.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-054",
+   "group": "hujjat",
+   "q": "Ko‘rik qo‘shish oynasida birlamchi ko‘rik uchun qaysi variantni tanlash kerak?",
+   "a": "«Birlamchi ko‘rik».",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-055",
+   "group": "hujjat",
+   "q": "003-tibbiy hujjat shaklini tahrirlash uchun qaysi tugmani bosish kerak?",
+   "a": "«Tahrirlash» tugmasini.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-056",
+   "group": "hujjat",
+   "q": "003 shaklini chop etishdan oldin nima paydo bo‘ladi?",
+   "a": "Oldindan ko‘rish oynasi.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-057",
+   "group": "statsionar",
+   "q": "Bemorni boshqa bo‘limga o‘tkazish uchun qaysi tugmani bosish kerak?",
+   "a": "«O‘tkazish» tugmasini.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-058",
+   "group": "kurs",
+   "q": "«Davolash kursi»ni qo‘shishda ijrochi rolida kimni tanlash kerak?",
+   "a": "Davolovchi shifokorni.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-059",
+   "group": "kurs",
+   "q": "Shifokor tugatilgan davolash kursini tahrirlashi mumkinmi?",
+   "a": "Yo‘q, tugatgandan so‘ng «tahrirlash» tugmasi faol emas.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-060",
+   "group": "kurs",
+   "q": "Tahlillar uchun yo‘naltirish uchun qaysi tugmani bosish kerak?",
+   "a": "«+Tahlillar» tugmasini.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-061",
+   "group": "kurs",
+   "q": "Tor mutaxassisga yo‘naltirish uchun qaysi tugmani bosish kerak?",
+   "a": "«+Ko‘rik» tugmasini.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-062",
+   "group": "kurs",
+   "q": "Mutaxassis konsultatsiyasiga yozilish paytida qanday ma’lumotlarni tanlash kerak?",
+   "a": "Shifokor va sanani.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-063",
+   "group": "hujjat",
+   "q": "Bosqichma-bosqich epikrizga qo‘shimcha hujjatlar qo‘shish uchun qaysi tugmani bosish kerak?",
+   "a": "«Hujjat qo‘shish» tugmasini.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-064",
+   "group": "tugruq",
+   "q": "«Tug‘ruq protokoli»ni saqlash uchun qanday majburiy maydonni to‘ldirish kerak?",
+   "a": "Homiladorlik muddatini ko‘rsatish.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-065",
+   "group": "tugruq",
+   "q": "«Tug‘ruq protokoli»ni saqlagandan so‘ng yangi tug‘ilganga Medkarta qanday beriladi?",
+   "a": "Tizim tomonidan avtomatik.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-066",
+   "group": "statsionar",
+   "q": "Gospitalizatsiyani tugatish uchun qaysi tugmani bosish kerak?",
+   "a": "«Gospitalizatsiyani tugatish» tugmasini.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-067",
+   "group": "statsionar",
+   "q": "Chiqarish epikrizini to‘ldirmasdan gospitalizatsiyani tugatish mumkinmi?",
+   "a": "Yo‘q, mumkin emas.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-068",
+   "group": "hujjat",
+   "q": "066 shaklini to‘ldirish oynasida ba’zi maydonlar qanday to‘ldiriladi?",
+   "a": "Bemorning tibbiy yozuvlaridan avtomatik olinadi.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-069",
+   "group": "hujjat",
+   "q": "«Gospitalizatsiyani tugatish» tugmasini bosgandan so‘ng tizim qaysi shaklni to‘ldirishni taklif qiladi?",
+   "a": "066 shaklini.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-070",
+   "group": "shifokor",
+   "q": "Shifokor bo‘limda o‘zining ko‘rigini tahrirlashi mumkinmi?",
+   "a": "Ha, mumkin.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-071",
+   "group": "retsept",
+   "q": "«Oddiy retsept»ni yozish uchun qaysi tugmani bosish kerak?",
+   "a": "«+Retsept» tugmasini bosib.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-072",
+   "group": "hujjat",
+   "q": "Tizimda nechta epikriz turi mavjud?",
+   "a": "4 ta.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-073",
+   "group": "hujjat",
+   "q": "Saqlangan epikrizlar qaysi bo‘limga tushadi?",
+   "a": "«Epikrizlar» bo‘limiga.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-074",
+   "group": "jarrohlik",
+   "q": "Jarrohlik aralashuvi paytida qaysi maydonni to‘ldirish kerak?",
+   "a": "ICHI kodi va nomi.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-075",
+   "group": "jarrohlik",
+   "q": "«Qo‘llanilgan anesteziologik preparatlar ro‘yxati va ularning dozalari»ni kim kiritadi?",
+   "a": "Anesteziolog shifokor.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-076",
+   "group": "shifokor",
+   "q": "Shifokorning aloqa raqamini qayerga kiritish kerak?",
+   "a": "Maxsus maydonga.",
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  }
+ ]
+}

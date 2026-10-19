@@ -16,7 +16,7 @@ import 'library_filters.dart';
 import 'library_widgets.dart';
 
 /// Kutubxona bo'limlari (qobiq): kitoblar, saqlanganlar, manbalar.
-enum LibrarySection { glossary, literature, books, saved, sources }
+enum LibrarySection { glossary, dmed, literature, books, saved, sources }
 
 class LibraryScreen extends StatelessWidget {
   const LibraryScreen({super.key});
@@ -88,6 +88,12 @@ class _SectionRow extends StatelessWidget {
         l.glossarySub,
         Icons.spellcheck_rounded,
         '/library/glossary',
+      ),
+      LibrarySection.dmed => (
+        l.dmedTitle,
+        l.dmedSub,
+        Icons.local_hospital_outlined,
+        '/library/dmed',
       ),
       LibrarySection.literature => (
         l.litTitle,

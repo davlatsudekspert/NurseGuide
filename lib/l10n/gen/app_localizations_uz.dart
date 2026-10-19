@@ -4652,6 +4652,39 @@ class AppLocalizationsUz extends AppLocalizations {
   String get glossaryNothing => 'Hech narsa topilmadi';
 
   @override
+  String get dmedTitle => 'DMED: savol-javob';
+
+  @override
+  String get dmedSub =>
+      'DMED tizimida ishlash: rollar, qabul, statsionar, hujjat shakllari';
+
+  @override
+  String get dmedSearch => 'Savol yoki javob qidirish';
+
+  @override
+  String dmedCount(int count) {
+    return '$count ta savol';
+  }
+
+  @override
+  String get dmedNote =>
+      'DMED xodimlari uchun video qo‘llanmalar asosidagi test (2025-yil iyun). Rasmiy ko‘rsatma emas: tizim yangilansa, tugma va bo‘lim nomlari o‘zgarishi mumkin.';
+
+  @override
+  String get dmedShow => 'Javobni ko‘rish';
+
+  @override
+  String get dmedHide => 'Javobni yashirish';
+
+  @override
+  String get dmedAllGroups => 'Hammasi';
+
+  @override
+  String litCardsN(int count) {
+    return '$count ta DMED savol-javob';
+  }
+
+  @override
   String get refUzbekOnly =>
       'Matn o‘zbekcha (darslik asosida); tarjima keyingi yangilanishda.';
 

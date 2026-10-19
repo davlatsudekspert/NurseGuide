@@ -17,6 +17,7 @@ const _baseRoutes = <String>[
   '/workplace',
   '/library',
   '/library/glossary',
+  '/library/dmed',
   '/library/literature',
   '/library/saved',
   '/library/sources',

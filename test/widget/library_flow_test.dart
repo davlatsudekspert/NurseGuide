@@ -1,3 +1,4 @@
+import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:nurseguide/design/widgets/lg_widgets.dart';
 import 'package:nurseguide/features/library/library_screens.dart';
@@ -34,18 +35,49 @@ void main() {
   });
 
   testWidgets(
-    'library: sections shell is glossary · literature · saved · sources',
+    'library: sections shell is glossary · DMED · literature · saved · sources',
     (tester) async {
       final s = await makeServices(tester);
       await pumpApp(tester, s);
       await goTo(tester, '/library');
       expect(find.text(_uz.glossaryTitle), findsOneWidget);
+      expect(find.text(_uz.dmedTitle), findsOneWidget);
       expect(find.text(_uz.litTitle), findsOneWidget);
       expect(find.text(_uz.featureSaved), findsOneWidget);
       expect(find.text(_uz.libSources), findsOneWidget);
-      expect(find.byType(LgRow), findsNWidgets(4));
+      expect(find.byType(LgRow), findsNWidgets(5));
     },
   );
+
+  testWidgets('DMED: filter by group, search, reveal answer', (tester) async {
+    final s = await makeServices(tester, bundle: rootBundle);
+    await pumpApp(tester, s, size: const Size(390, 3000));
+    await goTo(tester, '/library/dmed');
+    await tester.runAsync(
+      () => Future<void>.delayed(const Duration(milliseconds: 50)),
+    );
+    await tester.pumpAndSettle();
+    expect(find.text(_uz.dmedCount(70)), findsOneWidget);
+
+    await _tap(tester, find.byKey(const ValueKey('dmed-group-tugruq')));
+    expect(find.text(_uz.dmedCount(2)), findsOneWidget);
+    const first = ValueKey('dmed-dmed-064');
+    expect(find.byKey(first), findsOneWidget);
+    expect(find.text('Tizim tomonidan avtomatik.'), findsNothing);
+
+    await _tap(tester, find.byKey(const ValueKey('dmed-toggle-dmed-065')));
+    expect(find.text('Tizim tomonidan avtomatik.'), findsOneWidget);
+    expect(find.text(_uz.dmedHide), findsOneWidget);
+
+    await _tap(tester, find.byKey(const ValueKey('dmed-group-all')));
+    await tester.enterText(
+      find.byKey(const ValueKey('dmed-search')),
+      'epikriz',
+    );
+    await tester.pumpAndSettle();
+    expect(find.text(_uz.dmedCount(70)), findsNothing);
+    expect(find.textContaining('Manba: DMED'), findsWidgets);
+  });
 
   testWidgets('save a material and find it under Saved; remove again', (
     tester,

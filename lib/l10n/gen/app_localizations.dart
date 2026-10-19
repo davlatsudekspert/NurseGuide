@@ -8068,6 +8068,60 @@ abstract class AppLocalizations {
   /// **'Nothing found'**
   String get glossaryNothing;
 
+  /// No description provided for @dmedTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'DMED: questions and answers'**
+  String get dmedTitle;
+
+  /// No description provided for @dmedSub.
+  ///
+  /// In en, this message translates to:
+  /// **'How to work in the DMED system: roles, admission, inpatient care, forms'**
+  String get dmedSub;
+
+  /// No description provided for @dmedSearch.
+  ///
+  /// In en, this message translates to:
+  /// **'Search questions and answers'**
+  String get dmedSearch;
+
+  /// No description provided for @dmedCount.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} questions'**
+  String dmedCount(int count);
+
+  /// No description provided for @dmedNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Based on a DMED staff training-video quiz (June 2025). Not an official instruction: button and section names may change when the system is updated.'**
+  String get dmedNote;
+
+  /// No description provided for @dmedShow.
+  ///
+  /// In en, this message translates to:
+  /// **'Show answer'**
+  String get dmedShow;
+
+  /// No description provided for @dmedHide.
+  ///
+  /// In en, this message translates to:
+  /// **'Hide answer'**
+  String get dmedHide;
+
+  /// No description provided for @dmedAllGroups.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get dmedAllGroups;
+
+  /// No description provided for @litCardsN.
+  ///
+  /// In en, this message translates to:
+  /// **'{count} DMED Q&A'**
+  String litCardsN(int count);
+
   /// No description provided for @refUzbekOnly.
   ///
   /// In en, this message translates to:

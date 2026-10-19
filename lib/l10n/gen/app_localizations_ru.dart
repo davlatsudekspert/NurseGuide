@@ -4743,6 +4743,39 @@ class AppLocalizationsRu extends AppLocalizations {
   String get glossaryNothing => 'Ничего не найдено';
 
   @override
+  String get dmedTitle => 'DMED: вопросы и ответы';
+
+  @override
+  String get dmedSub =>
+      'Работа в системе DMED: роли, приём, стационар, формы документов';
+
+  @override
+  String get dmedSearch => 'Поиск вопроса или ответа';
+
+  @override
+  String dmedCount(int count) {
+    return 'Вопросов: $count';
+  }
+
+  @override
+  String get dmedNote =>
+      'По тесту из обучающих видео для сотрудников DMED (июнь 2025). Не официальная инструкция: названия кнопок и разделов могут измениться при обновлении системы.';
+
+  @override
+  String get dmedShow => 'Показать ответ';
+
+  @override
+  String get dmedHide => 'Скрыть ответ';
+
+  @override
+  String get dmedAllGroups => 'Все';
+
+  @override
+  String litCardsN(int count) {
+    return 'Вопросов DMED: $count';
+  }
+
+  @override
   String get refUzbekOnly =>
       'Текст на узбекском (по учебнику); перевод появится в следующем обновлении.';
 

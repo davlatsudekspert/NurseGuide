@@ -52,6 +52,7 @@ bool needsAccount(String loc) {
       loc.startsWith('/learn/') ||
       loc.startsWith('/procedures/') ||
       loc == '/library/glossary' ||
+      loc == '/library/dmed' ||
       loc.startsWith('/library/literature/') ||
       loc == '/library/saved';
 }
@@ -344,6 +345,10 @@ GoRouter buildRouter(
                   GoRoute(
                     path: 'glossary',
                     builder: (context, state) => const GlossaryScreen(),
+                  ),
+                  GoRoute(
+                    path: 'dmed',
+                    builder: (context, state) => const DmedScreen(),
                   ),
                   GoRoute(
                     path: 'literature',

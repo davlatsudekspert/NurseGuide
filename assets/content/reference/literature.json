@@ -271,6 +271,17 @@
     "Gastroenterol Hepatol"
    ],
    "url": "https://pubmed.ncbi.nlm.nih.gov"
+  },
+  {
+   "id": "dmed",
+   "group": "other",
+   "author": "DMED xodimlari uchun video qo‘llanmalar",
+   "year": 2025,
+   "title": "DMED tizimida ishlash bo‘yicha savol-javoblar",
+   "publisher": "Telegram (norasmiy to‘plam, 2025-06-17)",
+   "match": [
+    "DMED xodimlari"
+   ]
   }
  ]
 }

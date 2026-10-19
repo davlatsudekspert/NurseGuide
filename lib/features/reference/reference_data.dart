@@ -79,6 +79,40 @@ class GlossaryTerm {
   final int page;
 }
 
+/// DMED tizimida ishlash bo'yicha bitta savol-javob kartasi.
+class DmedCard {
+  const DmedCard({
+    required this.id,
+    required this.group,
+    required this.question,
+    required this.answer,
+    required this.source,
+  });
+
+  factory DmedCard.fromJson(Map<String, Object?> j) => DmedCard(
+    id: j['id']! as String,
+    group: j['group']! as String,
+    question: j['q']! as String,
+    answer: j['a']! as String,
+    source: j['source']! as String,
+  );
+
+  final String id;
+
+  /// [DmedGroup.id].
+  final String group;
+  final String question;
+  final String answer;
+  final String source;
+}
+
+class DmedGroup {
+  const DmedGroup(this.id, this.title);
+
+  final String id;
+  final String title;
+}
+
 /// Adabiyotlar ro'yxatidagi bitta manba (kitob, rasmiy hujjat, ochiq manba).
 /// [match] — savol/muolaja/atama `source` matnida uchraydigan satrlar:
 /// shu orqali material manbaga avtomatik biriktiriladi.
@@ -150,11 +184,17 @@ class LiteratureUsage {
   final questions = <SourcedQuestion>[];
   final procedures = <ProcedureDef>[];
   final terms = <GlossaryTerm>[];
+  final cards = <DmedCard>[];
 
-  int get total => questions.length + procedures.length + terms.length;
+  int get total =>
+      questions.length + procedures.length + terms.length + cards.length;
 
   /// Savollar mavzulari (soni bo'yicha kamayish tartibida) + bo'limlar.
-  List<String> topics(String proceduresLabel, String glossaryLabel) {
+  List<String> topics(
+    String proceduresLabel,
+    String glossaryLabel, [
+    String dmedLabel = 'DMED',
+  ]) {
     final counts = <String, int>{};
     for (final q in questions) {
       counts[q.topic] = (counts[q.topic] ?? 0) + 1;
@@ -165,6 +205,7 @@ class LiteratureUsage {
       ...sorted.take(4),
       if (procedures.isNotEmpty) proceduresLabel,
       if (terms.isNotEmpty) glossaryLabel,
+      if (cards.isNotEmpty) dmedLabel,
     ];
   }
 }
@@ -177,8 +218,12 @@ class ReferenceData {
     required this.glossary,
     required this.literature,
     required this.questions,
+    this.dmedGroups = const [],
+    this.dmed = const [],
   });
 
+  final List<DmedGroup> dmedGroups;
+  final List<DmedCard> dmed;
   final List<ProcedureDef> procedures;
   final List<GlossaryTerm> glossary;
   final List<LiteratureEntry> literature;
@@ -204,6 +249,9 @@ class ReferenceData {
     }
     for (final t in glossary) {
       map[entryFor(t.source)?.id]?.terms.add(t);
+    }
+    for (final c in dmed) {
+      map[entryFor(c.source)?.id]?.cards.add(c);
     }
     return [
       for (final e in literature)
@@ -231,6 +279,7 @@ class ReferenceData {
     final p = await json('procedures.json');
     final g = await json('glossary.json');
     final l = await json('literature.json');
+    final dm = await json('dmed.json');
     final t = (jsonDecode(
       await bundle.loadString('assets/toifa/tests.json'),
     ) as Map).cast<String, Object?>();
@@ -239,6 +288,14 @@ class ReferenceData {
         e.key as String: ((e.value as Map)['uz'] as String?) ?? e.key as String,
     };
     return ReferenceData(
+      dmedGroups: [
+        for (final e in (dm['groups']! as List))
+          DmedGroup((e as Map)['id']! as String, e['title']! as String),
+      ],
+      dmed: [
+        for (final e in (dm['cards']! as List))
+          DmedCard.fromJson((e as Map).cast<String, Object?>()),
+      ],
       literature: [
         for (final e in (l['entries']! as List))
           LiteratureEntry.fromJson((e as Map).cast<String, Object?>()),

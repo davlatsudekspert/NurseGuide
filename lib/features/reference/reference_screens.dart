@@ -371,6 +371,122 @@ class _GlossaryScreenState extends State<GlossaryScreen> {
   }
 }
 
+/// DMED tizimida ishlash bo'yicha savol-javob kartalari: guruh bo'yicha
+/// saralanadi, qidiriladi; javob bosilganda ochiladi.
+class DmedScreen extends StatefulWidget {
+  const DmedScreen({super.key});
+
+  @override
+  State<DmedScreen> createState() => _DmedScreenState();
+}
+
+class _DmedScreenState extends State<DmedScreen> {
+  String _query = '';
+  String? _group;
+  final _open = <String>{};
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context);
+    final text = Theme.of(context).textTheme;
+    return LgPage(
+      title: l.dmedTitle,
+      subtitle: l.dmedSub,
+      children: [
+        FutureBuilder<ReferenceData>(
+          future: ReferenceData.load(_bundle(context)),
+          builder: (context, snap) {
+            final data = snap.data;
+            if (data == null) return const SizedBox(height: 120);
+            final q = _query.trim().toLowerCase();
+            final cards = [
+              for (final c in data.dmed)
+                if ((_group == null || c.group == _group) &&
+                    (q.isEmpty ||
+                        c.question.toLowerCase().contains(q) ||
+                        c.answer.toLowerCase().contains(q)))
+                  c,
+            ];
+            return Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: [
+                _uzbekNote(context),
+                LgNotice(l.dmedNote, kind: NoticeKind.info),
+                LgField(
+                  key: const ValueKey('dmed-search'),
+                  label: l.dmedSearch,
+                  onChanged: (v) => setState(() => _query = v),
+                ),
+                Padding(
+                  padding: const EdgeInsets.symmetric(vertical: 8),
+                  child: Wrap(
+                    spacing: 8,
+                    runSpacing: 8,
+                    children: [
+                      LgChoiceChip(
+                        key: const ValueKey('dmed-group-all'),
+                        label: l.dmedAllGroups,
+                        selected: _group == null,
+                        onTap: () => setState(() => _group = null),
+                      ),
+                      for (final g in data.dmedGroups)
+                        LgChoiceChip(
+                          key: ValueKey('dmed-group-${g.id}'),
+                          label: g.title,
+                          selected: _group == g.id,
+                          onTap: () => setState(() => _group = g.id),
+                        ),
+                    ],
+                  ),
+                ),
+                Padding(
+                  padding: const EdgeInsets.only(bottom: 8),
+                  child: Text(l.dmedCount(cards.length), style: text.bodySmall),
+                ),
+                if (cards.isEmpty)
+                  Padding(
+                    padding: const EdgeInsets.symmetric(vertical: 24),
+                    child: Text(l.glossaryNothing, style: text.bodyMedium),
+                  ),
+                for (final c in cards)
+                  LgPanel(
+                    key: ValueKey('dmed-${c.id}'),
+                    child: Column(
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: [
+                        Text(c.question, style: text.titleMedium),
+                        const SizedBox(height: 8),
+                        if (_open.contains(c.id)) ...[
+                          Text(c.answer, style: text.bodyLarge),
+                          const SizedBox(height: 8),
+                        ],
+                        Align(
+                          alignment: Alignment.centerLeft,
+                          child: LgButton.secondary(
+                            key: ValueKey('dmed-toggle-${c.id}'),
+                            label: _open.contains(c.id)
+                                ? l.dmedHide
+                                : l.dmedShow,
+                            onPressed: () => setState(() {
+                              if (!_open.remove(c.id)) _open.add(c.id);
+                            }),
+                          ),
+                        ),
+                        const SizedBox(height: 8),
+                        Text(c.source, style: text.bodySmall),
+                      ],
+                    ),
+                  ),
+                const SizedBox(height: 24),
+              ],
+            );
+          },
+        ),
+      ],
+    );
+  }
+}
+
 /// Adabiyotlar: kitob, rasmiy hujjat va ochiq manbalar — har birining ostida
 /// ilovadagi nechta savol/muolaja/atama unga tayanishi (avtomatik hisob).
 class LiteratureScreen extends StatelessWidget {
@@ -431,12 +547,13 @@ class _LiteratureCard extends StatelessWidget {
       if (e.author.isNotEmpty) e.author,
       if (e.year != null) '${e.year}',
     ].join(', ');
-    final topics = usage.topics(l.procTitle, l.glossaryTitle);
+    final topics = usage.topics(l.procTitle, l.glossaryTitle, 'DMED');
     final relies = [
       if (usage.questions.isNotEmpty) l.litQuestionsN(usage.questions.length),
       if (usage.procedures.isNotEmpty)
         l.litProceduresN(usage.procedures.length),
       if (usage.terms.isNotEmpty) l.litTermsN(usage.terms.length),
+      if (usage.cards.isNotEmpty) l.litCardsN(usage.cards.length),
     ].join(' · ');
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 6),
@@ -588,6 +705,14 @@ class LiteratureDetailScreen extends StatelessWidget {
                 style: text.bodyLarge,
               ),
             ],
+            if (usage.cards.isNotEmpty)
+              LgRow(
+                key: const ValueKey('lit-dmed-open'),
+                title: l.dmedTitle,
+                subtitle: l.litCardsN(usage.cards.length),
+                icon: Icons.local_hospital_outlined,
+                onTap: () => context.push('/library/dmed'),
+              ),
             if (usage.questions.isNotEmpty) ...[
               LgSectionTitle(l.litQuestionsN(usage.questions.length)),
               for (final q in shown)

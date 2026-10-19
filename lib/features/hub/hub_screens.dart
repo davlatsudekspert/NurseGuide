@@ -1,3 +1,4 @@
+import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
 
 import '../../app/app_scope.dart';
@@ -71,6 +72,14 @@ class WorkplaceScreen extends StatelessWidget {
                 l.workPlan,
                 style: Theme.of(context).textTheme.bodySmall,
               ),
+            ),
+            LgRow(
+              key: const ValueKey('work-dmed'),
+              title: l.dmedTitle,
+              subtitle: l.dmedSub,
+              icon: Icons.local_hospital_outlined,
+              onTap: () => context.push('/library/dmed'),
+              divider: false,
             ),
             LgSectionTitle(l.workVitalsTitle),
             LgPanel(

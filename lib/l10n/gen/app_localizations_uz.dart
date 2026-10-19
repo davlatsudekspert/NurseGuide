@@ -72,7 +72,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get welcomeGuestNote =>
-      'Kontentni o‘qish uchun hisob shart emas. Kirish sinxronlash va guruhlar uchun kerak.';
+      'Mehmon rejimida faqat tanishib chiqish mumkin. Test, mashq, kunlik savol va guruhlar ro‘yxatdan o‘tgach ochiladi.';
 
   @override
   String get stateLoading => 'Yuklanmoqda…';
@@ -4733,6 +4733,37 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get litDetailEmpty => 'Bu manbaga tayangan material yo‘q.';
+
+  @override
+  String get admByPlatform => 'Platformalar';
+
+  @override
+  String get admPlatformIos => 'iPhone (iOS)';
+
+  @override
+  String get admPlatformAndroid => 'Android';
+
+  @override
+  String get admUnknown => 'Noma’lum';
+
+  @override
+  String get admByLogin => 'Ro‘yxatdan o‘tish usuli';
+
+  @override
+  String get admLoginEmail => 'Email kodi';
+
+  @override
+  String get accountRequiredTitle => 'Ro‘yxatdan o‘ting';
+
+  @override
+  String get accountRequiredBody =>
+      'Bu bo‘lim faqat ro‘yxatdan o‘tgan foydalanuvchilar uchun: test, mashq, kunlik savol, muolaja va atamalar. Apple, Google yoki email orqali kirish bepul va bir daqiqa oladi.';
+
+  @override
+  String get accountRequiredCta => 'Kirish yoki ro‘yxatdan o‘tish';
+
+  @override
+  String get accountRequiredHome => 'Bosh sahifaga qaytish';
 
   @override
   String get workTitle => 'Ish joyi';

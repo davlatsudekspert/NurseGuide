@@ -222,6 +222,8 @@ class AdminStats {
 
   Map<String, int> get byRole => _map('by_role');
   Map<String, int> get byLanguage => _map('by_language');
+  Map<String, int> get byPlatform => _map('by_platform');
+  Map<String, int> get byLoginMethod => _map('by_login_method');
   Map<String, int> get support => _map('support');
 }
 

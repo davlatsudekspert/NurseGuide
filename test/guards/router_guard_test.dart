@@ -22,6 +22,7 @@ const _externalEntry = {
   '/workplace': 'pastki menyu tabi (tab ildizi)',
   '/library': 'pastki menyu tabi (tab ildizi)',
   '/learn': 'pastki menyu tabi (tab ildizi)',
+  '/account-required': 'mehmon yopiq bo\'limga kirsa — redirect (router.dart) olib keladi',
 };
 
 class _R {

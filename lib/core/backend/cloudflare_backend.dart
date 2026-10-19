@@ -170,6 +170,13 @@ class CloudflareAppBackend
   }) async {
     final req = http.Request(method, config.resolve(path, query));
     req.headers['accept'] = 'application/json';
+    // Admin statistikasi uchun: faqat "ios" yoki "android" (qurilma modeli yo'q).
+    final platform = switch (defaultTargetPlatform) {
+      TargetPlatform.iOS => 'ios',
+      TargetPlatform.android => 'android',
+      _ => null,
+    };
+    if (platform != null) req.headers['x-app-platform'] = platform;
     if (optionalAuth) {
       // Mehmon ham o'qiydi; sessiya bo'lsa — token (ovoz/muallif belgisi).
       if (_token != null) req.headers['authorization'] = 'Bearer $_token';

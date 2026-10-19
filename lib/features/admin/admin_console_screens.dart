@@ -201,6 +201,47 @@ class _StatsBody extends StatelessWidget {
             ],
           ),
         ),
+        if (s.byPlatform.isNotEmpty) ...[
+          LgSectionTitle(l.admByPlatform),
+          LgPanel(
+            key: const ValueKey('admin-by-platform'),
+            child: Column(
+              children: [
+                for (final k in const ['ios', 'android', 'unknown'])
+                  if (s.byPlatform.containsKey(k))
+                    LgMetric(
+                      label: switch (k) {
+                        'ios' => l.admPlatformIos,
+                        'android' => l.admPlatformAndroid,
+                        _ => l.admUnknown,
+                      },
+                      value: num(s.byPlatform[k]),
+                    ),
+              ],
+            ),
+          ),
+        ],
+        if (s.byLoginMethod.isNotEmpty) ...[
+          LgSectionTitle(l.admByLogin),
+          LgPanel(
+            key: const ValueKey('admin-by-login'),
+            child: Column(
+              children: [
+                for (final k in const ['apple', 'google', 'otp', 'unknown'])
+                  if (s.byLoginMethod.containsKey(k))
+                    LgMetric(
+                      label: switch (k) {
+                        'apple' => 'Apple',
+                        'google' => 'Google',
+                        'otp' => l.admLoginEmail,
+                        _ => l.admUnknown,
+                      },
+                      value: num(s.byLoginMethod[k]),
+                    ),
+              ],
+            ),
+          ),
+        ],
         LgSectionTitle(l.admStatsObjects),
         LgPanel(
           child: Column(

@@ -97,12 +97,16 @@ export function makeServer(overrides: Partial<Env> = {}) {
   }
 
   /** Kod so'raydi, qutidan oladi va tasdiqlaydi. Har kirish — alohida IP. */
-  async function signIn(email: string, profile?: { role?: string; language?: string }) {
+  async function signIn(
+    email: string,
+    profile?: { role?: string; language?: string },
+    headers?: Record<string, string>,
+  ) {
     const ip = `198.51.100.${++ipSeq}`;
-    const req = await call('POST', '/v1/auth/otp/request', { body: { email }, ip });
+    const req = await call('POST', '/v1/auth/otp/request', { body: { email }, ip, headers });
     if (req.status !== 200) throw new Error(`request ${req.status} ${req.text}`);
     const code = outbox.filter((m) => m.to === email.trim().toLowerCase()).at(-1)!.code;
-    const v = await call('POST', '/v1/auth/otp/verify', { body: { email, code }, ip });
+    const v = await call('POST', '/v1/auth/otp/verify', { body: { email, code }, ip, headers });
     if (v.status !== 200) throw new Error(`verify ${v.status} ${v.text}`);
     const token = v.data.token as string;
     if (profile) {

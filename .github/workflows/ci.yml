@@ -10,7 +10,8 @@
 #   testflight — yuqoridagi + imzolangan IPA va TestFlight'ga YUKLASH,
 #                ichki (Internal) guruhlarga biriktirish va "What to Test".
 #                App Store review'ga YUBORILMAYDI, reliz QILINMAYDI.
-#              push'da commit xabarida [testflight] bo'lsa ham shu rejim.
+#              push'da commit xabarida [testflight] bo'lsa ham shu rejim;
+#              [deploy_api] bo'lsa — qo'shimcha ravishda server deploy ham.
 #   play_internal — testlar + release imzoli AAB va Google Play'ning
 #                `internal` trekiga yuklash (play_status: draft|completed).
 #                iOS job ishlamaydi. Production/yopiq trekka TEGMAYDI.
@@ -178,7 +179,7 @@ jobs:
   # wrangler'ga faqat stdin orqali beriladi.
   deploy_api:
     needs: worker
-    if: inputs.mode == 'deploy_api'
+    if: inputs.mode == 'deploy_api' || contains(github.event.head_commit.message, '[deploy_api]')
     runs-on: ubuntu-latest
     timeout-minutes: 15
     concurrency:

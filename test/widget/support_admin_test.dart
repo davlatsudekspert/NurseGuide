@@ -50,7 +50,7 @@ void main() {
   testWidgets('sozlanmagan build: murojaat “server ulanmagan” deydi', (
     tester,
   ) async {
-    final services = await makeServices(tester);
+    final services = await makeServices(guest: true, tester);
     await pumpApp(tester, services);
     await goTo(tester, '/profile');
     expect(find.text(_l.adminTitle), findsNothing);
@@ -68,7 +68,11 @@ void main() {
   });
 
   testWidgets('mehmon: murojaat uchun kirish so‘raladi', (tester) async {
-    final services = await makeServices(tester, backend: FakeBackend());
+    final services = await makeServices(
+      guest: true,
+      tester,
+      backend: FakeBackend(),
+    );
     await pumpApp(tester, services);
     await goTo(tester, '/profile/support');
     expect(find.text(_l.supportSignInTitle), findsOneWidget);
@@ -81,7 +85,7 @@ void main() {
     tester,
   ) async {
     final backend = FakeBackend();
-    final services = await makeServices(tester, backend: backend);
+    final services = await makeServices(guest: true, tester, backend: backend);
     await pumpApp(tester, services);
     await _signIn(tester, services, _a);
     expect(services.auth.hasAccount, isTrue);

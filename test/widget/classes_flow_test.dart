@@ -74,7 +74,7 @@ void main() {
   testWidgets('hisobsiz: kirish taklifi; guruh amallari ko‘rsatilmaydi', (
     tester,
   ) async {
-    final s = await makeServices(tester, backend: FakeBackend());
+    final s = await makeServices(guest: true, tester, backend: FakeBackend());
     await pumpApp(tester, s);
     await goTo(tester, '/learn/classes');
     expect(find.text(uz.classesSignInTitle), findsOneWidget);
@@ -88,7 +88,7 @@ void main() {
     tester,
   ) async {
     final b = _FlakyBackend();
-    final s = await makeServices(tester, backend: b);
+    final s = await makeServices(guest: true, tester, backend: b);
     await pumpApp(tester, s, size: _tall);
     final t = await _prepare(tester, s, b, minutes: 15);
     await _signIn(tester, s, 'student@example.com');
@@ -111,7 +111,7 @@ void main() {
 
   testWidgets('vaqt tugasa javoblar o‘zi yuboriladi', (tester) async {
     final b = FakeBackend();
-    final s = await makeServices(tester, backend: b);
+    final s = await makeServices(guest: true, tester, backend: b);
     var now = DateTime.utc(2026, 10, 9, 9);
     s.exams.now = () => now;
     b.groupClock = () => now;
@@ -133,7 +133,7 @@ void main() {
 
   testWidgets('muddat o‘tgan topshiriq boshlanmaydi', (tester) async {
     final b = FakeBackend();
-    final s = await makeServices(tester, backend: b);
+    final s = await makeServices(guest: true, tester, backend: b);
     var now = DateTime.now().toUtc();
     s.exams.now = () => now;
     b.groupClock = () => now;
@@ -158,7 +158,7 @@ void main() {
     tester,
   ) async {
     final b = FakeBackend();
-    final s = await makeServices(tester, backend: b);
+    final s = await makeServices(guest: true, tester, backend: b);
     await pumpApp(tester, s, size: _tall);
     final t = await _prepare(tester, s, b);
     for (final (email, name) in [
@@ -199,6 +199,7 @@ void main() {
           '${theme.name}', (tester) async {
         final b = FakeBackend();
         final s = await makeServices(
+          guest: true,
           tester,
           backend: b,
           language: lang,

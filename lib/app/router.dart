@@ -4,6 +4,7 @@ import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
 
 import '../features/admin/admin_console_screens.dart';
+import '../features/auth/ui/account_required_screen.dart';
 import '../features/admin/admin_screens.dart';
 import '../features/auth/ui/auth_screens.dart';
 import '../features/auth/ui/language_picker_screen.dart';
@@ -41,9 +42,24 @@ import 'shell.dart';
 /// Tablar: /home, /procedures, /workplace, /library, /learn — har biri o'z stacki bilan.
 /// Ichki sahifalar o'z tabining stekida ochiladi, shunda "orqaga"
 /// foydalanuvchini kelgan joyiga qaytaradi.
+/// Ro'yxatdan o'tmagan (mehmon) foydalanuvchiga yopiq bo'limlar: O'rganish
+/// (test, mashq, kunlik savol), muolaja tafsilotlari, atamalar, adabiyot
+/// tafsilotlari, saqlanganlar. Guruhlar (`/learn/classes`) o'z kirish
+/// taklifini ([ClassesGate]) ko'rsatadi, shuning uchun bu yerda emas.
+bool needsAccount(String loc) {
+  if (loc.startsWith('/learn/classes')) return false;
+  return loc == '/learn' ||
+      loc.startsWith('/learn/') ||
+      loc.startsWith('/procedures/') ||
+      loc == '/library/glossary' ||
+      loc.startsWith('/library/literature/') ||
+      loc == '/library/saved';
+}
+
 GoRouter buildRouter(
   SettingsController settings, {
   required Listenable refresh,
+  bool Function()? hasAccount,
 }) {
   final rootKey = GlobalKey<NavigatorState>(debugLabel: 'root');
   final tabMemory = TabMemory();
@@ -90,9 +106,27 @@ GoRouter buildRouter(
         pendingInvite = null;
         return invite ?? '/home';
       }
+      if (settings.onboarded) {
+        final signedIn = hasAccount?.call() ?? true;
+        if (!signedIn && needsAccount(loc)) {
+          return Uri(
+            path: '/account-required',
+            queryParameters: {'from': state.uri.toString()},
+          ).toString();
+        }
+        // Kirgach — dastlab so'ralgan sahifaga qaytadi.
+        if (signedIn && loc == '/account-required') {
+          final from = state.uri.queryParameters['from'];
+          return from != null && from.startsWith('/') ? from : '/home';
+        }
+      }
       return null;
     },
     routes: [
+      GoRoute(
+        path: '/account-required',
+        builder: (context, state) => const AccountRequiredScreen(),
+      ),
       GoRoute(
         path: '/welcome',
         builder: (context, state) => const WelcomeScreen(),

@@ -23,7 +23,7 @@ void main() {
   testWidgets('mehmon: guruhlar ekranida skaner yo‘q, kirish taklifi bor', (
     tester,
   ) async {
-    final s = await makeServices(tester, backend: FakeBackend());
+    final s = await makeServices(guest: true, tester, backend: FakeBackend());
     expect(s.auth.hasAccount, isFalse);
     await pumpApp(tester, s, size: const Size(390, 1400));
     await goTo(tester, '/learn/classes');
@@ -34,7 +34,7 @@ void main() {
   testWidgets('mehmon: taklif havolasi — kod maydoni emas, kirish taklifi', (
     tester,
   ) async {
-    final s = await makeServices(tester, backend: FakeBackend());
+    final s = await makeServices(guest: true, tester, backend: FakeBackend());
     await pumpApp(tester, s, size: const Size(390, 1400));
     await goTo(tester, '/j?c=ABCD2345');
     expect(find.text(uz.classesJoinSignInTitle), findsOneWidget);
@@ -45,7 +45,7 @@ void main() {
   testWidgets('hisobga kirgach: qo‘shilish ekranida QR skaner ochiladi', (
     tester,
   ) async {
-    final s = await makeServices(tester, backend: FakeBackend());
+    final s = await makeServices(guest: true, tester, backend: FakeBackend());
     await pumpApp(tester, s, size: const Size(390, 1400));
     await _signIn(tester, s);
     expect(s.auth.hasAccount, isTrue);

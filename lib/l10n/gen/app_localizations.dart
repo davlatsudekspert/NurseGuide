@@ -223,7 +223,7 @@ abstract class AppLocalizations {
   /// No description provided for @welcomeGuestNote.
   ///
   /// In en, this message translates to:
-  /// **'No account is needed to read content. Sign-in is used for sync and classes.'**
+  /// **'Guest mode is just a preview. Tests, practice, daily questions and groups open after you sign up.'**
   String get welcomeGuestNote;
 
   /// No description provided for @stateLoading.
@@ -8211,6 +8211,66 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'No material relies on this source.'**
   String get litDetailEmpty;
+
+  /// No description provided for @admByPlatform.
+  ///
+  /// In en, this message translates to:
+  /// **'Platforms'**
+  String get admByPlatform;
+
+  /// No description provided for @admPlatformIos.
+  ///
+  /// In en, this message translates to:
+  /// **'iPhone (iOS)'**
+  String get admPlatformIos;
+
+  /// No description provided for @admPlatformAndroid.
+  ///
+  /// In en, this message translates to:
+  /// **'Android'**
+  String get admPlatformAndroid;
+
+  /// No description provided for @admUnknown.
+  ///
+  /// In en, this message translates to:
+  /// **'Unknown'**
+  String get admUnknown;
+
+  /// No description provided for @admByLogin.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign-up method'**
+  String get admByLogin;
+
+  /// No description provided for @admLoginEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'Email code'**
+  String get admLoginEmail;
+
+  /// No description provided for @accountRequiredTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Please sign up'**
+  String get accountRequiredTitle;
+
+  /// No description provided for @accountRequiredBody.
+  ///
+  /// In en, this message translates to:
+  /// **'This section is for registered users only: tests, practice, daily questions, procedures and terms. Signing in with Apple, Google or email is free and takes a minute.'**
+  String get accountRequiredBody;
+
+  /// No description provided for @accountRequiredCta.
+  ///
+  /// In en, this message translates to:
+  /// **'Sign in or sign up'**
+  String get accountRequiredCta;
+
+  /// No description provided for @accountRequiredHome.
+  ///
+  /// In en, this message translates to:
+  /// **'Back to home'**
+  String get accountRequiredHome;
 
   /// No description provided for @workTitle.
   ///

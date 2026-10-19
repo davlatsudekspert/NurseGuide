@@ -27,14 +27,24 @@ class _NurseGuideAppState extends State<NurseGuideApp> {
   /// yopib turmasin.
   final _messenger = GlobalKey<ScaffoldMessengerState>();
   String? _location;
-  late final OnboardingChanges _routerRefresh = OnboardingChanges(_settings);
+  late final OnboardingChanges _onboarding = OnboardingChanges(_settings);
+  late final Listenable _routerRefresh = Listenable.merge([
+    _onboarding,
+    widget.services.auth,
+  ]);
 
   SettingsController get _settings => widget.services.settings;
+
+  GoRouter _build() => buildRouter(
+    _settings,
+    refresh: _routerRefresh,
+    hasAccount: () => widget.services.auth.hasAccount,
+  );
 
   @override
   void initState() {
     super.initState();
-    _router = buildRouter(_settings, refresh: _routerRefresh);
+    _router = _build();
     _router.routeInformationProvider.addListener(_onRoute);
     _wasOnboarded = _settings.onboarded;
     _settings.addListener(_onSettings);
@@ -61,7 +71,7 @@ class _NurseGuideAppState extends State<NurseGuideApp> {
     final onboarded = _settings.onboarded;
     if (_wasOnboarded && !onboarded) {
       final old = _router..routeInformationProvider.removeListener(_onRoute);
-      setState(() => _router = buildRouter(_settings, refresh: _routerRefresh));
+      setState(() => _router = _build());
       _router.routeInformationProvider.addListener(_onRoute);
       WidgetsBinding.instance.addPostFrameCallback((_) => old.dispose());
     }
@@ -87,7 +97,7 @@ class _NurseGuideAppState extends State<NurseGuideApp> {
     _settings.removeListener(_onSettings);
     widget.services.reminders.removeListener(_onReminder);
     _router.dispose();
-    _routerRefresh.dispose();
+    _onboarding.dispose();
     super.dispose();
   }
 

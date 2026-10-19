@@ -73,6 +73,13 @@ class AuthController extends ChangeNotifier {
     return at == null || after == null ? null : at.add(after);
   }
 
+  /// Faqat testlar: server va kod so'ramasdan hisobga kirgan holat.
+  @visibleForTesting
+  void debugSignIn(String email) {
+    _session = EmailSession(email, isDemo: false);
+    notifyListeners();
+  }
+
   Future<void> continueAsGuest() async {
     _session = const GuestSession();
     notifyListeners();

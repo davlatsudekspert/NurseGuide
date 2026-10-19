@@ -260,3 +260,26 @@ describe('admin panel: hisobni email bo‘yicha o‘chirish (D-63)', () => {
     expect(r.data.error).toBe('admin');
   });
 });
+
+describe('admin panel: platforma (iOS/Android) va kirish usuli statistikasi', () => {
+  it('by_platform va by_login_method sanaydi; sarlavha yo‘q bo‘lsa noma’lum', async () => {
+    const { s, boss } = await setup();
+    const before = (await s.call('GET', '/v1/admin/stats', { token: boss.token })).data;
+    await s.signIn(uniqueEmail('ios'), undefined, { 'x-app-platform': 'ios' });
+    await s.signIn(uniqueEmail('ios2'), undefined, { 'x-app-platform': 'IOS' });
+    const droid = await s.signIn(uniqueEmail('droid'), undefined, { 'x-app-platform': 'android' });
+    await s.signIn(uniqueEmail('web'), undefined, { 'x-app-platform': 'windows' });
+    const d = (await s.call('GET', '/v1/admin/stats', { token: boss.token })).data;
+    const delta = (k: string, key: string) => (d[k][key] ?? 0) - (before[k][key] ?? 0);
+    expect(delta('by_platform', 'ios')).toBe(2);
+    expect(delta('by_platform', 'android')).toBe(1);
+    expect(delta('by_platform', 'unknown')).toBe(1);
+    expect(delta('by_login_method', 'otp')).toBe(4);
+    // Faol so'rov platformani yangilaydi (masalan, boshqa qurilmadan kirgan).
+    await s.call('GET', '/v1/me', { token: droid.token, headers: { 'x-app-platform': 'ios' } });
+    const d2 = (await s.call('GET', '/v1/admin/stats', { token: boss.token })).data;
+    expect((d2.by_platform.ios ?? 0) - (before.by_platform.ios ?? 0)).toBe(3);
+    // Statistika faqat admin uchun, shaxsiy ma'lumot (email/IP/qurilma modeli) yo'q.
+    expect(JSON.stringify(d)).not.toMatch(/@/);
+  });
+});

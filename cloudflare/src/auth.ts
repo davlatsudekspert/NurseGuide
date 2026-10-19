@@ -188,6 +188,12 @@ export async function findOrCreateUser(
  * o'tadi) — `403 account_suspended`. [via] — kirish usuli (admin panel faqat
  * email kodi bilan ochilgan sessiyaga).
  */
+/** Ilova qaysi platformada ishlayotgani (`X-App-Platform`): faqat ios | android. */
+export function appPlatform(ctx: Ctx): 'ios' | 'android' | null {
+  const v = (ctx.req.headers.get('x-app-platform') ?? '').toLowerCase();
+  return v === 'ios' || v === 'android' ? v : null;
+}
+
 export async function createSession(
   ctx: Ctx,
   userId: string,
@@ -205,6 +211,13 @@ export async function createSession(
       'INSERT INTO sessions (token_hash, user_id, created_at, expires_at, aal, via) VALUES (?1, ?2, ?3, ?4, ?5, ?6)',
     )
     .bind(await sha256Hex(token), userId, ctx.now, expires, 'aal1', via)
+    .run();
+  // Statistika: ro'yxatdan o'tish usuli (birinchi kirish) va platforma.
+  await ctx.db
+    .prepare(
+      'UPDATE users SET signup_via = COALESCE(signup_via, ?2), platform = COALESCE(?3, platform) WHERE id = ?1',
+    )
+    .bind(userId, via, appPlatform(ctx))
     .run();
   return { token, user_id: userId, expires_at: iso(expires) };
 }
@@ -327,7 +340,7 @@ export async function requireSession(ctx: Ctx): Promise<Session> {
   const th = await sha256Hex(m[1]);
   const row = await ctx.db
     .prepare(
-      `SELECT s.user_id, s.aal, s.via, u.role, u.language, u.last_seen_at FROM sessions s
+      `SELECT s.user_id, s.aal, s.via, u.role, u.language, u.last_seen_at, u.platform FROM sessions s
        JOIN users u ON u.id = s.user_id
        WHERE s.token_hash = ?1 AND s.expires_at > ?2 AND u.suspended_at IS NULL`,
     )
@@ -339,6 +352,7 @@ export async function requireSession(ctx: Ctx): Promise<Session> {
       role: string;
       language: string;
       last_seen_at: number | null;
+      platform: string | null;
     }>();
   if (!row) throw unauthorized();
   // Faollik: faqat daqiqa aniqligida va daqiqasiga ko'pi bilan bir yozuv
@@ -349,6 +363,14 @@ export async function requireSession(ctx: Ctx): Promise<Session> {
     await ctx.db
       .prepare('UPDATE users SET last_seen_at = ?2, last_seen_on = ?3 WHERE id = ?1')
       .bind(row.user_id, minute, today)
+      .run();
+  }
+  // Platforma o'zgargan (yoki hali noma'lum) bo'lsa — yangilanadi.
+  const plat = appPlatform(ctx);
+  if (plat && plat !== row.platform) {
+    await ctx.db
+      .prepare('UPDATE users SET platform = ?2 WHERE id = ?1')
+      .bind(row.user_id, plat)
       .run();
   }
   return {

@@ -65,6 +65,7 @@ Future<AppServices> makeServices(
   AppLanguage language = AppLanguage.uz,
   AppRole? role = AppRole.nurse,
   bool onboarded = true,
+  bool guest = false,
   // Mavjud testlar /welcome'dan boshlanadi; til tanlash ekrani alohida sinaladi.
   bool languageChosen = true,
   ThemeMode themeMode = ThemeMode.light,
@@ -111,7 +112,13 @@ Future<AppServices> makeServices(
   if (appTheme != null) await services.settings.setAppTheme(appTheme);
   if (role != null) await services.settings.setRole(role);
   if (onboarded) {
-    await services.auth.continueAsGuest();
+    // Standart: ro'yxatdan o'tgan foydalanuvchi (mehmon bo'limlari cheklangan);
+    // mehmon holati — `guest: true`.
+    if (guest) {
+      await services.auth.continueAsGuest();
+    } else {
+      services.auth.debugSignIn('test@example.com');
+    }
     await services.settings.completeOnboarding();
   }
   await tester.runAsync(services.content.load);

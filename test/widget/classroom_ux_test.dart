@@ -45,7 +45,12 @@ void main() {
       '(Navigator duplicate key yo‘q)', (tester) async {
     installDeviceFakes();
     final b = FakeBackend();
-    final s = await makeServices(tester, backend: b, role: AppRole.teacher);
+    final s = await makeServices(
+      guest: true,
+      tester,
+      backend: b,
+      role: AppRole.teacher,
+    );
     await pumpApp(tester, s, size: _tall);
     await _signIn(tester, s, 'teacher@example.com');
     await b.registerTeacher();
@@ -70,7 +75,12 @@ void main() {
   ) async {
     installDeviceFakes();
     final b = FakeBackend();
-    final s = await makeServices(tester, backend: b, role: AppRole.teacher);
+    final s = await makeServices(
+      guest: true,
+      tester,
+      backend: b,
+      role: AppRole.teacher,
+    );
     await pumpApp(tester, s, size: _tall);
     await _signIn(tester, s, 'teacher@example.com');
     await b.registerTeacher();
@@ -121,7 +131,12 @@ void main() {
   ) async {
     installDeviceFakes();
     final b = FakeBackend();
-    final s = await makeServices(tester, backend: b, role: AppRole.teacher);
+    final s = await makeServices(
+      guest: true,
+      tester,
+      backend: b,
+      role: AppRole.teacher,
+    );
     await pumpApp(tester, s, size: _tall);
     await _signIn(tester, s, 'teacher@example.com');
     await b.registerTeacher();
@@ -151,7 +166,12 @@ void main() {
   testWidgets('4: QR bilan taxallussiz — avval taxallus so‘raladi; '
       'guruh sahifasida taxallusni o‘zgartirish', (tester) async {
     final b = FakeBackend();
-    final s = await makeServices(tester, backend: b, role: AppRole.student);
+    final s = await makeServices(
+      guest: true,
+      tester,
+      backend: b,
+      role: AppRole.student,
+    );
     await pumpApp(tester, s, size: _tall);
     await _signIn(tester, s, 'teacher@example.com');
     await b.registerTeacher();
@@ -199,7 +219,12 @@ void main() {
   testWidgets('5, 6, 9: muddatli vaqtsiz test — sana, taymer emas; ustozda '
       '«Yechmoqda»; uzun nom 2 qator, Test QR tepada', (tester) async {
     final b = FakeBackend();
-    final s = await makeServices(tester, backend: b, role: AppRole.student);
+    final s = await makeServices(
+      guest: true,
+      tester,
+      backend: b,
+      role: AppRole.student,
+    );
     await pumpApp(tester, s, size: const Size(390, 844));
     await _signIn(tester, s, 'teacher@example.com');
     await b.registerTeacher();
@@ -249,7 +274,12 @@ void main() {
 
   testWidgets('5b: vaqt chegarali testda taymer qoladi', (tester) async {
     final b = FakeBackend();
-    final s = await makeServices(tester, backend: b, role: AppRole.student);
+    final s = await makeServices(
+      guest: true,
+      tester,
+      backend: b,
+      role: AppRole.student,
+    );
     await pumpApp(tester, s, size: _tall);
     await _signIn(tester, s, 'teacher@example.com');
     await b.registerTeacher();
@@ -286,7 +316,12 @@ void main() {
   testWidgets('8: rol «Ustoz» (kirgan hisob) — bir bosishda ro‘yxatdan '
       'o‘tadi; kirmagan — tushuntirish', (tester) async {
     final b = FakeBackend();
-    final s = await makeServices(tester, backend: b, role: AppRole.nurse);
+    final s = await makeServices(
+      guest: true,
+      tester,
+      backend: b,
+      role: AppRole.nurse,
+    );
     await pumpApp(tester, s, size: _tall);
     // Kirmagan: tushuntirish.
     await goTo(tester, '/profile/role');

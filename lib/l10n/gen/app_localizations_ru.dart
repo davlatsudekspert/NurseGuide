@@ -72,7 +72,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get welcomeGuestNote =>
-      'Для чтения контента аккаунт не нужен. Вход нужен для синхронизации и групп.';
+      'В гостевом режиме можно только познакомиться. Тесты, практика, ежедневные вопросы и группы открываются после регистрации.';
 
   @override
   String get stateLoading => 'Загрузка…';
@@ -4824,6 +4824,37 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get litDetailEmpty => 'Материалов, опирающихся на этот источник, нет.';
+
+  @override
+  String get admByPlatform => 'Платформы';
+
+  @override
+  String get admPlatformIos => 'iPhone (iOS)';
+
+  @override
+  String get admPlatformAndroid => 'Android';
+
+  @override
+  String get admUnknown => 'Неизвестно';
+
+  @override
+  String get admByLogin => 'Способ регистрации';
+
+  @override
+  String get admLoginEmail => 'Код на email';
+
+  @override
+  String get accountRequiredTitle => 'Нужна регистрация';
+
+  @override
+  String get accountRequiredBody =>
+      'Этот раздел только для зарегистрированных: тесты, практика, ежедневные вопросы, манипуляции и термины. Вход через Apple, Google или email бесплатный и занимает минуту.';
+
+  @override
+  String get accountRequiredCta => 'Войти или зарегистрироваться';
+
+  @override
+  String get accountRequiredHome => 'На главную';
 
   @override
   String get workTitle => 'Рабочее место';

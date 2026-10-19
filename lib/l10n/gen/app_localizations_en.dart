@@ -72,7 +72,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get welcomeGuestNote =>
-      'No account is needed to read content. Sign-in is used for sync and classes.';
+      'Guest mode is just a preview. Tests, practice, daily questions and groups open after you sign up.';
 
   @override
   String get stateLoading => 'Loading…';
@@ -4816,6 +4816,37 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get litDetailEmpty => 'No material relies on this source.';
+
+  @override
+  String get admByPlatform => 'Platforms';
+
+  @override
+  String get admPlatformIos => 'iPhone (iOS)';
+
+  @override
+  String get admPlatformAndroid => 'Android';
+
+  @override
+  String get admUnknown => 'Unknown';
+
+  @override
+  String get admByLogin => 'Sign-up method';
+
+  @override
+  String get admLoginEmail => 'Email code';
+
+  @override
+  String get accountRequiredTitle => 'Please sign up';
+
+  @override
+  String get accountRequiredBody =>
+      'This section is for registered users only: tests, practice, daily questions, procedures and terms. Signing in with Apple, Google or email is free and takes a minute.';
+
+  @override
+  String get accountRequiredCta => 'Sign in or sign up';
+
+  @override
+  String get accountRequiredHome => 'Back to home';
 
   @override
   String get workTitle => 'Workplace';

@@ -71,7 +71,7 @@ export async function stats(ctx: Ctx): Promise<Response> {
   const midnight = tashkentMidnight(now);
   const today = tashkentDay(now);
   const db = ctx.db;
-  const [users, roles, langs, daily, objects, support] = await db.batch([
+  const [users, roles, langs, daily, objects, support, platforms, methods] = await db.batch([
     db
       .prepare(
         `SELECT COUNT(*) AS total, SUM(created_at >= ?1) AS today, SUM(created_at >= ?2) AS d7,
@@ -113,6 +113,8 @@ export async function stats(ctx: Ctx): Promise<Response> {
               SUM(admin_read_at IS NULL OR last_user_message_at > admin_read_at) AS unread
        FROM support_threads`,
     ),
+    db.prepare("SELECT COALESCE(platform, 'unknown') AS k, COUNT(*) AS n FROM users GROUP BY 1"),
+    db.prepare("SELECT COALESCE(signup_via, 'unknown') AS k, COUNT(*) AS n FROM users GROUP BY 1"),
   ]);
   const one = <T>(r: D1Result<unknown>) => (r.results[0] ?? {}) as T;
   const n = (v: Num | undefined) => Number(v ?? 0);
@@ -136,6 +138,8 @@ export async function stats(ctx: Ctx): Promise<Response> {
     without_profile: 0,
     by_role: map(roles),
     by_language: map(langs),
+    by_platform: map(platforms),
+    by_login_method: map(methods),
     new_by_day: Array.from({ length: 14 }, (_, i) => ({ day: tashkentDay(now, 13 - i), n: perDay.get(i) ?? 0 })),
     groups: {
       groups: n(o.groups_count),

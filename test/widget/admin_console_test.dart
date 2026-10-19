@@ -45,7 +45,12 @@ Future<AppServices> _setup(
   Size size = const Size(390, 844),
   double textScale = 1,
 }) async {
-  final s = await makeServices(tester, language: language, backend: server);
+  final s = await makeServices(
+    guest: true,
+    tester,
+    language: language,
+    backend: server,
+  );
   await pumpApp(tester, s, size: size, textScale: textScale);
   return s;
 }
@@ -146,7 +151,7 @@ void main() {
     testWidgets('server sozlanmagan build — faqat mailto (shakl yo‘q)', (
       tester,
     ) async {
-      final s = await makeServices(tester);
+      final s = await makeServices(guest: true, tester);
       await pumpApp(tester, s);
       await goTo(tester, '/profile/contact');
       expect(find.byKey(const ValueKey('complaint-form')), findsNothing);

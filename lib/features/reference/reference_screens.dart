@@ -449,7 +449,8 @@ class _DmedScreenState extends State<DmedScreen> {
                     children: [
                       for (final (id, title) in [
                         (null, l.dmedAllGroups),
-                        for (final g in data.dmedGroups) (g.id, g.title),
+                        for (final g in data.dmedGroups)
+                          (g.id, g.titleIn(_lang(context))),
                       ])
                         Padding(
                           padding: const EdgeInsets.only(right: 8),
@@ -669,7 +670,12 @@ class _LiteratureCard extends StatelessWidget {
       if (e.author.isNotEmpty) e.author,
       if (e.year != null) '${e.year}',
     ].join(', ');
-    final topics = usage.topics(l.procTitle, l.glossaryTitle, 'DMED');
+    final topics = usage.topics(
+      l.procTitle,
+      l.glossaryTitle,
+      'DMED',
+      Localizations.localeOf(context).languageCode,
+    );
     final relies = [
       if (usage.questions.isNotEmpty) l.litQuestionsN(usage.questions.length),
       if (usage.procedures.isNotEmpty)
@@ -814,7 +820,9 @@ class LiteratureDetailScreen extends StatelessWidget {
               LgSectionTitle(l.procTitle),
               for (final p in usage.procedures)
                 LgRow(
-                  title: p.title,
+                  title: p.titleIn(
+                    Localizations.localeOf(context).languageCode,
+                  ),
                   subtitle: l.procStepsCount(p.steps.length),
                   icon: Icons.checklist_rounded,
                   onTap: () => context.push('/procedures/${p.id}'),

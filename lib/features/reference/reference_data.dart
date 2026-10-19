@@ -151,10 +151,13 @@ class DmedCard {
 }
 
 class DmedGroup {
-  const DmedGroup(this.id, this.title);
+  const DmedGroup(this.id, this.title, [this.tr = const {}]);
 
   final String id;
   final String title;
+  final Map<String, String> tr;
+
+  String titleIn(String lang) => tr[lang] ?? title;
 }
 
 /// Adabiyotlar ro'yxatidagi bitta manba (kitob, rasmiy hujjat, ochiq manba).
@@ -210,11 +213,17 @@ class SourcedQuestion {
     required this.text,
     required this.source,
     required this.topic,
+    this.topicNames = const {},
   });
 
   final String id;
   final String text;
   final String source;
+
+  /// Mavzu nomi tillar bo'yicha (`uz`, `ru`, `en`).
+  final Map<String, String> topicNames;
+
+  String topicIn(String lang) => topicNames[lang] ?? topic;
 
   /// Mavzu nomi (o'zbekcha).
   final String topic;
@@ -238,10 +247,12 @@ class LiteratureUsage {
     String proceduresLabel,
     String glossaryLabel, [
     String dmedLabel = 'DMED',
+    String lang = 'uz',
   ]) {
     final counts = <String, int>{};
     for (final q in questions) {
-      counts[q.topic] = (counts[q.topic] ?? 0) + 1;
+      final name = q.topicIn(lang);
+      counts[name] = (counts[name] ?? 0) + 1;
     }
     final sorted = counts.keys.toList()
       ..sort((a, b) => counts[b]!.compareTo(counts[a]!));
@@ -331,14 +342,21 @@ class ReferenceData {
     final t = (jsonDecode(
       await bundle.loadString('assets/toifa/tests.json'),
     ) as Map).cast<String, Object?>();
-    final names = {
+    final allNames = {
       for (final e in ((t['topic_names'] as Map?) ?? const {}).entries)
-        e.key as String: ((e.value as Map)['uz'] as String?) ?? e.key as String,
+        e.key as String: (e.value as Map).cast<String, String>(),
+    };
+    final names = {
+      for (final e in allNames.entries) e.key: e.value['uz'] ?? e.key,
     };
     return ReferenceData(
       dmedGroups: [
         for (final e in (dm['groups']! as List))
-          DmedGroup((e as Map)['id']! as String, e['title']! as String),
+          DmedGroup(
+            (e as Map)['id']! as String,
+            e['title']! as String,
+            ((e['tr'] as Map?) ?? const {}).cast<String, String>(),
+          ),
       ],
       dmed: [
         for (final e in (dm['cards']! as List))
@@ -355,6 +373,7 @@ class ReferenceData {
             text: e['q']! as String,
             source: e['source'] as String? ?? '',
             topic: names[e['topic']] ?? e['topic']! as String,
+            topicNames: allNames[e['topic']] ?? const {},
           ),
       ],
       procedures: [
@@ -383,11 +402,11 @@ String localizedSource(String source, String lang) {
       )
       .replaceAll('Toshkent', ru ? 'Ташкент' : 'Tashkent')
       .replaceAllMapped(
-        RegExp(r', ([\d, \-–]+)-bet \(PDF\)'),
+        RegExp(r'(?<=\b\d{4}), ([\d, \-–]+)-bet \(PDF\)'),
         (m) => ru ? ', стр. ${m[1]} (PDF)' : ', pp. ${m[1]} (PDF)',
       )
       .replaceAllMapped(
-        RegExp(r', ([\d, \-–]+)-bet'),
+        RegExp(r'(?<=\b\d{4}), ([\d, \-–]+)-bet'),
         (m) => ru ? ', стр. ${m[1]}' : ', p. ${m[1]}',
       );
   out = out

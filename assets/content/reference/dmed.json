@@ -4,75 +4,147 @@
  "groups": [
   {
    "id": "qabul",
-   "title": "Qabul va bemor"
+   "title": "Qabul va bemor",
+   "tr": {
+    "ru": "Приём и пациент",
+    "en": "Admission and patient"
+   }
   },
   {
    "id": "shifokor",
-   "title": "Shifokor ish joyi"
+   "title": "Shifokor ish joyi",
+   "tr": {
+    "ru": "Рабочее место врача",
+    "en": "Doctor’s workstation"
+   }
   },
   {
    "id": "retsept",
-   "title": "Retsept va dori-darmon"
+   "title": "Retsept va dori-darmon",
+   "tr": {
+    "ru": "Рецепты и лекарства",
+    "en": "Prescriptions and medicines"
+   }
   },
   {
    "id": "patronaj",
-   "title": "Patronaj va sog‘liq guruhlari"
+   "title": "Patronaj va sog‘liq guruhlari",
+   "tr": {
+    "ru": "Патронаж и группы здоровья",
+    "en": "Patronage and health groups"
+   }
   },
   {
    "id": "rollar",
-   "title": "Rollar va bo‘limlar"
+   "title": "Rollar va bo‘limlar",
+   "tr": {
+    "ru": "Роли и разделы",
+    "en": "Roles and sections"
+   }
   },
   {
    "id": "laborant",
-   "title": "Laborant"
+   "title": "Laborant",
+   "tr": {
+    "ru": "Лаборант",
+    "en": "Laboratory technician"
+   }
   },
   {
    "id": "ombor",
-   "title": "Ombor va nomenklatura"
+   "title": "Ombor va nomenklatura",
+   "tr": {
+    "ru": "Склад и номенклатура",
+    "en": "Warehouse and nomenclature"
+   }
   },
   {
    "id": "statsionar",
-   "title": "Statsionar va gospitalizatsiya"
+   "title": "Statsionar va gospitalizatsiya",
+   "tr": {
+    "ru": "Стационар и госпитализация",
+    "en": "Inpatient care and hospitalisation"
+   }
   },
   {
    "id": "hujjat",
-   "title": "Hujjat shakllari va epikriz"
+   "title": "Hujjat shakllari va epikriz",
+   "tr": {
+    "ru": "Формы документов и эпикриз",
+    "en": "Document forms and discharge summary"
+   }
   },
   {
    "id": "kurs",
-   "title": "Davolash kursi va yo‘llanma"
+   "title": "Davolash kursi va yo‘llanma",
+   "tr": {
+    "ru": "Курс лечения и направление",
+    "en": "Treatment course and referral"
+   }
   },
   {
    "id": "tugruq",
-   "title": "Tug‘ruq"
+   "title": "Tug‘ruq",
+   "tr": {
+    "ru": "Роды",
+    "en": "Childbirth"
+   }
   },
   {
    "id": "jarrohlik",
-   "title": "Jarrohlik"
+   "title": "Jarrohlik",
+   "tr": {
+    "ru": "Хирургия",
+    "en": "Surgery"
+   }
   },
   {
    "id": "tizim",
-   "title": "DMED haqida umumiy"
+   "title": "DMED haqida umumiy",
+   "tr": {
+    "ru": "О системе DMED",
+    "en": "About the DMED system"
+   }
   },
   {
    "id": "kompyuter",
-   "title": "Kompyuter va qurilmalar"
+   "title": "Kompyuter va qurilmalar",
+   "tr": {
+    "ru": "Компьютер и устройства",
+    "en": "Computer and devices"
+   }
   },
   {
    "id": "word",
-   "title": "Microsoft Word"
+   "title": "Microsoft Word",
+   "tr": {
+    "ru": "Microsoft Word",
+    "en": "Microsoft Word"
+   }
   },
   {
    "id": "excel",
-   "title": "Microsoft Excel"
+   "title": "Microsoft Excel",
+   "tr": {
+    "ru": "Microsoft Excel",
+    "en": "Microsoft Excel"
+   }
   },
   {
    "id": "ppt",
-   "title": "PowerPoint"
+   "title": "PowerPoint",
+   "tr": {
+    "ru": "PowerPoint",
+    "en": "PowerPoint"
+   }
   },
   {
    "id": "internet",
-   "title": "Internet"
+   "title": "Internet",
+   "tr": {
+    "ru": "Интернет",
+    "en": "Internet"
+   }
   }
  ],
  "cards": [

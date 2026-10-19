@@ -14119,6 +14119,2169 @@
    "source": "Xalqaro tavsiya: CDC/HICPAC, Guidelines for the Prevention of Intravascular Catheter-Related Infections, 2011 (O'Grady NP va boshq., Clin Infect Dis 2011;52:e162, PMID 21460264)",
    "bank": "hamshiralik",
    "explanation": "Kateter bilan bog'liq infeksiyani oldini olishda asosiy va birinchi chora - aseptika qoidalariga qat'iy rioya qilish (qo'l gigiyenasi, steril texnika). Antibiotikni profilaktik berish tavsiya etilmaydi."
+  },
+  {
+   "id": "ng-h-002",
+   "n": 695,
+   "q": "Xalqaro hamshiralik kuni qachon nishonlanadi:",
+   "options": [
+    "12 may",
+    "9 may",
+    "25 noyabr",
+    "Noyabr oyining ikkinchi yakshanbasi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 7-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 12 may.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-003",
+   "n": 696,
+   "q": "Xalqaro hamshiralar kuni nechanchi yildan boshlab nishonlanadi:",
+   "options": [
+    "1971",
+    "1990",
+    "1890",
+    "1820"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 7-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 1971.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-004",
+   "n": 697,
+   "q": "Xalqaro hamshiralik assotsiyatsiyasiga qachon asos solingan:",
+   "options": [
+    "1899",
+    "1820",
+    "1971",
+    "1844"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 7-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 1899.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-005",
+   "n": 698,
+   "q": "Xalqaro hamshiralik assotsiyatsiyasi asosiy vazifasi:",
+   "options": [
+    "Hamshiralik ta'limini, hamshiraning vazifalarini, ish sharoitlarini yaxshilash normativlarni ishlab chiqarish, xalqaro konferensiyalarni o'tkazish",
+    "Hamshiralar bilan seminar trening va konferensiyalar o'tkazish",
+    "Hamshiralarni ish bilan ta'minlash",
+    "Hamshiralarni mukofotlash"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 7-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Hamshiralik ta'limini, hamshiraning vazifalarini, ish sharoitlarini yaxshilash normativlarni ishlab chiqarish, xalqaro konferensiyalarni o'tkazish.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-006",
+   "n": 699,
+   "q": "O'zbekistonda qizil hoj va qizil yarim oy jamiyati qachon tashkil etilgan:",
+   "options": [
+    "1925",
+    "1971",
+    "1919",
+    "1985"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 8-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 1925.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-010",
+   "n": 700,
+   "q": "“F. Naytingel” medali bilan taqdirlangan O'zbekistonlik hamshiralar kimlar:",
+   "options": [
+    "Rixsi Mo'minova",
+    "Zokirova Kamola",
+    "To'xtamatova Dilorom",
+    "Ziyayeva Mavluda"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 8-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Rixsi Mo'minova.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-013",
+   "n": 701,
+   "q": "F. Naytingel medali qaysi tashkilot tomonidan ta'sis etiladi:",
+   "options": [
+    "Xalqaro qizil Xoj",
+    "Birlashgan millatlar tashkiloti",
+    "Jahon sogliqni saqlash tashkiloti",
+    "Sogliqni saqlash vazirligi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 8-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Xalqaro qizil Xoj.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-015",
+   "n": 702,
+   "q": "Bemorlarni parvarish qilish tizimi asoschisi:",
+   "options": [
+    "Florens Naytingeyl",
+    "Yuliya Vrevskaya",
+    "Ekaterina Bakunina",
+    "Darya Sevastopolskaya"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 30-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Florens Naytingeyl.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-036",
+   "n": 703,
+   "q": "Dispanserizatsiya nima:",
+   "options": [
+    "Aholini yoppasiga tibbiy ko'rikdan o'tkazish",
+    "Aholini tibbiy madaniyatini oshirish",
+    "Aholiga birinchi tibbiy yordam ko'rsatish",
+    "Aholiga emlash ishlarini o'tkazish"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 71-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Aholini yoppasiga tibbiy ko'rikdan o'tkazish.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-039",
+   "n": 704,
+   "q": "(QVP) Qishloq vrachlik punkti nima:",
+   "options": [
+    "Qishloq vrachlik punkti",
+    "Qon quyish markazi",
+    "Qishloq vrachlik poliklinikasi",
+    "Tez yordam markazi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 40-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Qishloq vrachlik punkti.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-064",
+   "n": 705,
+   "q": "Davolash profilaktika muassasalarida harorat kuniga nechha marta o'lchanadi:",
+   "options": [
+    "Kuniga ikki marta – ertalab, kechqurun",
+    "Bir mahal – ertalab",
+    "Kechqurun",
+    "Kuniga uch mahal"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "vital_signs",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 168-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Kuniga ikki marta – ertalab, kechqurun.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-069",
+   "n": 706,
+   "q": "Katta yoshli odamda nafas soni normada 1 minutda:",
+   "options": [
+    "16-20",
+    "10-12",
+    "22-28",
+    "25-30"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 177-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 16-20.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-070",
+   "n": 707,
+   "q": "Katta yoshli odamda puls... 1 minutda:",
+   "options": [
+    "60-80",
+    "100-120",
+    "90-100",
+    "40-60"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "vital_signs",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 173-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 60-80.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-071",
+   "n": 708,
+   "q": "Sistolik arterial bosimning normadagi xajmi oshmasligi kerak:",
+   "options": [
+    "140 mm. sim. ust",
+    "100 mmsim. ust",
+    "110 mmsim. ust",
+    "160 mmsim. ust"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "vital_signs",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 175-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 140 mm. sim. ust.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-072",
+   "n": 709,
+   "q": "Diastolik arterial bosimning normadagi xajmi oshmasligi kerak:",
+   "options": [
+    "90 mm. sim. ust",
+    "60 mm. sim. ust",
+    "100 mm. sim. ust",
+    "120 mm. sim. ust"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "vital_signs",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 175-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 90 mm. sim. ust.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-075",
+   "n": 710,
+   "q": "To'lqinsimon istma bu…:",
+   "options": [
+    "Doimiy ko'tarilish davrlari subfebril yoki me'yoriy pasayish bilan harakterlanadi",
+    "Bir kecha kunduzda 4-5 ⁰C o'zgarib turishi bilan farqlanadigan istma",
+    "Ertalabki istmaning kechqurungi istmadan yuqori bo'lishi",
+    "Tana harorati yuqori darajaga ko'tarilib, me'yor darajasigacha pasaymay 1-1,5⁰C atrofida tebranadi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 171-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Doimiy ko'tarilish davrlari subfebril yoki me'yoriy pasayish bilan harakterlanadi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-076",
+   "n": 711,
+   "q": "Remittirlovchi istma bu…:",
+   "options": [
+    "Tana harorati yuqori darajaga ko'tarilib, me'yor darajasigacha pasaymay 1-1,5⁰C atrofida tebranadi",
+    "Doimiy ko'tarilish davrlari subfebril yoki me'yoriy pasayish bilan harakterlanadi",
+    "Ertalabki istmaning kechqurungi istmadan yuqori bo'lishi",
+    "Bir kecha kunduzda 4-5 ⁰C o'zgarib turishi bilan farqlanadigan istma"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 170-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Tana harorati yuqori darajaga ko'tarilib, me'yor darajasigacha pasaymay 1-1,5⁰C atrofida tebranadi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-077",
+   "n": 712,
+   "q": "Gektik istma bu…:",
+   "options": [
+    "Bir kecha kunduzda 4-5 ⁰C o'zgarib turishi va haroratning me'yor yoki subme'yor (36⁰dan past) raqamlarga tushib ketishi bilan ta'riflanadi",
+    "Tana harorati yuqori darajaga ko'tarilib, me'yor darajasigacha pasaymay 1-1,5⁰C atrofida tebranadi",
+    "Ertalabki istmaning kechqurungi istmadan yuqori bo'lishi",
+    "Doimiy ko'tarilish davrlari subfebril yoki me'yoriy pasayish bilan harakterlanadi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "vital_signs",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 170-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Bir kecha kunduzda 4-5 ⁰C o'zgarib turishi va haroratning me'yor yoki subme'yor (36⁰dan past) raqamlarga tushib ketishi bilan ta'riflanadi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-082",
+   "n": 713,
+   "q": "Salomatlik deganda nimani tushunasiz:",
+   "options": [
+    "Jismoniy tetiklik, ruhiy kayfiyat, ijtimoiy ta'minot",
+    "Yahshi yashash",
+    "Iqtisodiy holat",
+    "Kasal bo'lmaslik"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 66-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Jismoniy tetiklik, ruhiy kayfiyat, ijtimoiy ta'minot.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-086",
+   "n": 714,
+   "q": "Ratsional ovqatlanish nima:",
+   "options": [
+    "Miqdor va sifat jihatdan to'la qiymatli ovqatlanish, sog'lom odamlarning jinsi, yoshi, mehnat turi va boshqa omillarni hisobga olib ovqatlanish",
+    "Ovqatlanish odamning jinsiy yoshiga bog'liq emas",
+    "Kunlik ovqat miqdorini belgilamagan",
+    "Hohlagan vaqtda muntazam iste'mol qilmaslik"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 75-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Miqdor va sifat jihatdan to'la qiymatli ovqatlanish, sog'lom odamlarning jinsi, yoshi, mehnat turi va boshqa omillarni hisobga olib ovqatlanish.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-087",
+   "n": 715,
+   "q": "Isitmaning 38℃ gacha ko'tarilishi qanday ataladi:",
+   "options": [
+    "Subfebril isitma",
+    "To'lqinsimon isitma",
+    "Cho'zilgan isitma",
+    "Doimiy isitma"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 170-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Subfebril isitma.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-090",
+   "n": 716,
+   "q": "Haroratning tushishining qanday turlarini bilasiz:",
+   "options": [
+    "Kritik, litik",
+    "Febril, subfebril",
+    "Normal, sub narmal",
+    "Piretik, gireppiretik"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "vital_signs",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 172-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Kritik, litik.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-093",
+   "n": 717,
+   "q": "Nafas olishning buzilishi:",
+   "options": [
+    "Dispnoe",
+    "Bradipnoe",
+    "Apnoe",
+    "Taxipnoe"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 179-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Dispnoe.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-097",
+   "n": 718,
+   "q": "Yurak normal ritmining buzilishi:",
+   "options": [
+    "Aritmiya",
+    "Disfoniya",
+    "Atoniya",
+    "Gipotoniya"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 179-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Aritmiya.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-098",
+   "n": 719,
+   "q": "Yurakning qisqariashi natijasida qon tomirlarining ritmik tebranishi nima deyiladi:",
+   "options": [
+    "Puls",
+    "Arterial bosim",
+    "Arterial puls",
+    "Puls difitsiti"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "vital_signs",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 179-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Puls.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-102",
+   "n": 720,
+   "q": "Diurez nima:",
+   "options": [
+    "Siydik hosil bo'lishi va ajralish jarayoni",
+    "Bir sutkada ajralgan siydik miqdori",
+    "Sutkalik siydik miqdorini ko'payishi",
+    "Sutkalik siydik miqdorini kamayishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 178-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Siydik hosil bo'lishi va ajralish jarayoni.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-111",
+   "n": 721,
+   "q": "Meteorizm nima:",
+   "options": [
+    "Ichaklarda gazlarning ortiqcha to'planishi natijasida qorinning dam bo'lishi",
+    "Ichaklarning motor va sekretor funkstiyalarining buzilishi",
+    "Turli kasalliklarda ichak faolieatining buzilishi",
+    "Ichaklarning yallig'lanishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 209-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Ichaklarda gazlarning ortiqcha to'planishi natijasida qorinning dam bo'lishi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-112",
+   "n": 722,
+   "q": "Sifonli xuqnani bajarishga ko'rsatmalar:",
+   "options": [
+    "Tozalovchi xuqna yordam bermaganda, zaharlanishda",
+    "To'g'ri ichak tushishi",
+    "Yo'g'on ichak yallig'lanishi",
+    "Me'da-ichakdan qon ketish"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 212-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Tozalovchi xuqna yordam bermaganda, zaharlanishda.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-113",
+   "n": 723,
+   "q": "Dorili xuqna qo'yishdan 20-30 minut oldin bemorga … qilinadi:",
+   "options": [
+    "Tozalovchi xuqna",
+    "Gaz chiqaruvchi naycha",
+    "Sifonli xuqna",
+    "Gipertonik xuqna"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 214-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Tozalovchi xuqna.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-114",
+   "n": 724,
+   "q": "Qusuq massalaridan aspiratsiya bo'lishining eng ishonchli profilaktikasi:",
+   "options": [
+    "Bemorni yonboshlatib yotqizib qo'yish",
+    "Boshini bir tomonga o'girish",
+    "Bemorni bosh qismini baland qilib qo'yish",
+    "Bemorni o'zi hohlaganday uhlashga yotqizib qo'yish"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 206-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Boshini bir tomonga o'girish.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-115",
+   "n": 725,
+   "q": "Rektal ovqatlantirishdan oldin:",
+   "options": [
+    "Tozalovchi huqna qilish lozim",
+    "Pulsni o'lchash kerak",
+    "Arterial bosimni o'lchash kerak",
+    "Bemor tagini yuvish kerak"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "vital_signs",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 215-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Tozalovchi huqna qilish lozim.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-116",
+   "n": 726,
+   "q": "Kolit- bu…:",
+   "options": [
+    "Yo'g'on ichakning yallig'lanishi",
+    "Ingichka ichakning yallig'lanishi",
+    "Oshqozonning yallig'lanishi",
+    "O'n ikki barmoq ichakning yallig'lanishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 207-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Yo'g'on ichakning yallig'lanishi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-117",
+   "n": 727,
+   "q": "Enterit bu…:",
+   "options": [
+    "Ingichka ichakning yallig'lanishi",
+    "Yo'g'on ichakning yallig'lanishi",
+    "O'n ikki barmoq ichakning yallig'lanishi",
+    "Oshqozonning yallig'lanishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 207-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Ingichka ichakning yallig'lanishi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-118",
+   "n": 728,
+   "q": "Ishuriya bu…:",
+   "options": [
+    "Siydik tutilishi",
+    "Siydikda qon bo'lishi",
+    "Tungi siydikni oshishi",
+    "Siydikda oqsil bo'lishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 216-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Siydik tutilishi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-119",
+   "n": 729,
+   "q": "“Kofe quyqasi” rangidagi qusishda bemorga shoshilinch yordam berish:",
+   "options": [
+    "Gorizontal holatda, tinchlik, epigastral sohasiga muzli haltacha qo'yish",
+    "Qorin sohasiga isitgich qo'yish",
+    "Issiq choy va ovqat berish",
+    "Darhol me'dani yuvish"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 206-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Gorizontal holatda, tinchlik, epigastral sohasiga muzli haltacha qo'yish.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-121",
+   "n": 730,
+   "q": "Siydik qopini katetrlash nima maqsadda o'tkaziladi:",
+   "options": [
+    "Siydik chiqarish, qovuqni yuvish va dori yuborish",
+    "Tekashirish, boholash",
+    "Siydik tutilishi, siydik yo'lini to'silishi",
+    "Siydik yo'llaridan qon ketishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 217-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Siydik chiqarish, qovuqni yuvish va dori yuborish.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-122",
+   "n": 731,
+   "q": "Qusiq massasini ko'rilganda ovqat qoldiqlari, ko'fe quyqasi rangli qon mavjud. Bemor qanday holatda:",
+   "options": [
+    "Meda yoki 12 barmoqli ichakdan qon ketishi",
+    "O'pkaning qonashi",
+    "Qizilo'ngachdan qon ketishi",
+    "Yo'g'on ichakdan qon ketishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 206-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Meda yoki 12 barmoqli ichakdan qon ketishi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-123",
+   "n": 732,
+   "q": "Operatsiyadan oldin qanday huqna qo'llaniladi:",
+   "options": [
+    "Tozalovchi",
+    "Sifonli",
+    "Moyli",
+    "Emulsion"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 210-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Tozalovchi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-124",
+   "n": 733,
+   "q": "To'g'ri ichak yallig'lanishida nima qilib bo'lmaydi:",
+   "options": [
+    "Huqna",
+    "Inyeksiya",
+    "Rentgen",
+    "Qorinni paypaslab"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 211-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Huqna.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-125",
+   "n": 734,
+   "q": "Me'da va ichakda qon ketishi paytida qanday huqna qilinadi:",
+   "options": [
+    "Huqna qilinmaydi",
+    "Sifonli huqna",
+    "Tomchili huqna qilish kerak",
+    "Tozalovchi huqna"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 211-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Huqna qilinmaydi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-127",
+   "n": 735,
+   "q": "Yo'g'on ichakda oziq moddasi qancha vaqt muobaynida so'riladi:",
+   "options": [
+    "17-24 soat",
+    "5-17 soat",
+    "27-29 soat",
+    "11-12 soat"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 207-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 17-24 soat.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-136",
+   "n": 736,
+   "q": "Isitgichdan nima maqsadda foydalaniladi:",
+   "options": [
+    "Tanani isitish, qon aylanishini yaxshilash uchun",
+    "Qorin bo'shlig'ida o'tkir yallig'lanish jarayonida",
+    "Qonni to'xtatish uchun",
+    "Qonni to'xtatish, isitish uchun"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 190-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Tanani isitish, qon aylanishini yaxshilash uchun.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-141",
+   "n": 737,
+   "q": "Xantal qo'yishga ko'rsatmalar:",
+   "options": [
+    "Og'riq, tomirlar spazmida, yallig'lanish kasalliklarida",
+    "o'pka raki, o'pka sili, og'riqda",
+    "Og'riq, o'pka yallig'lanishida, teri kasalliklarida",
+    "Og'riq, o'pka yallig'lanishida, o'pka sili"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 183-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Og'riq, tomirlar spazmida, yallig'lanish kasalliklarida.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-142",
+   "n": 738,
+   "q": "Muzli xaltachani qo'yishga ko'rsatmalar:",
+   "options": [
+    "O'pka, me'da va bachadondan qon ketganda",
+    "Teri kasalliklari, o'tkir bronxit, bachadondan qon ketganda",
+    "Gipotoniyada, insultda, miokard infarktida",
+    "O'smalar, buyrak sanchig'ida"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 191-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: O'pka, me'da va bachadondan qon ketganda.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-143",
+   "n": 739,
+   "q": "Gidroterapiya nima:",
+   "options": [
+    "Suv bilan davolash",
+    "Qum bilan davolash",
+    "Balchiq bilan davolash",
+    "O'tlar bilan davolash"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 202-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Suv bilan davolash.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-144",
+   "n": 740,
+   "q": "Sterilizatsiyadan oldin tibbiy asboblarni tozalashda yuvish uchun qanday suvdan foydalaniladi:",
+   "options": [
+    "Distillangan",
+    "Oqava",
+    "Qaynatilgan",
+    "Steril"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "infection_control",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 341-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Distillangan.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-147",
+   "n": 741,
+   "q": "Teri orasiga qilinadigan Kasoni sinamasi nima maqsadda qilinadi:",
+   "options": [
+    "Exinokokkozni aniqlash maqsadida",
+    "Brusellyozni aniqlash maqsadi",
+    "Yashirin shishni aniqlash maqsadida",
+    "Silni aniqlash maqsadida"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 235-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Exinokokkozni aniqlash maqsadida.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-148",
+   "n": 742,
+   "q": "Teri orasiga qilinadigan Mak Klyur –Oldrich sinamasi nima maqsadda qilinadi:",
+   "options": [
+    "Yashirin shishni aniqlash maqsadida",
+    "Brusellyozni aniqlash maqsadi",
+    "Exinokokkozni aniqlash maqsadida",
+    "Silni aniqlash maqsadida"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 235-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Yashirin shishni aniqlash maqsadida.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-149",
+   "n": 743,
+   "q": "Teri orasiga qilinadigan Mantu sinamasi nima maqsadda qilinadi:",
+   "options": [
+    "Silni aniqlash maqsadida",
+    "Exinokokkozni aniqlash maqsadida",
+    "Yashirin shishni aniqlash maqsadida",
+    "Brusellyozni aniqlash maqsadi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 235-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Silni aniqlash maqsadida.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-150",
+   "n": 744,
+   "q": "Teri orasiga qilinadigan Byurne sinamasi nima maqsadda qilinadi:",
+   "options": [
+    "Brusellyozni aniqlash maqsadi",
+    "Silni aniqlash maqsadida",
+    "Exinokokkozni aniqlash maqsadida",
+    "Yashirin shishni aniqlash maqsadida"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 235-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Brusellyozni aniqlash maqsadi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-153",
+   "n": 745,
+   "q": "Eritilgan antibiotiklarni qancha vaqtgacha ishlatish mumkin:",
+   "options": [
+    "1 kun",
+    "2 kun",
+    "3 kun",
+    "4 kun"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 243-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 1 kun.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-161",
+   "n": 746,
+   "q": "Tomoq va burundan surtma olish uchun qaysi materiallardan foydalaniladi:",
+   "options": [
+    "Yiring, bodomcha bezlardan, tanglay ravoqlaridan karash",
+    "So'lak",
+    "Zararlangan joydan biopsiya olinadi",
+    "Qon"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 258-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Yiring, bodomcha bezlardan, tanglay ravoqlaridan karash.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-162",
+   "n": 747,
+   "q": "Qaysi usul bo'yicha siydik 3 soat ichida olinadi:",
+   "options": [
+    "Amburje, Zimnitskiy",
+    "Nicheporenko",
+    "Addis-Kakovskiy",
+    "Umumiy siydik tahlili"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 261-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Amburje, Zimnitskiy.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-164",
+   "n": 748,
+   "q": "Balg'amni sil mikobakteriyasiga qaysi usulda tekshiriladi:",
+   "options": [
+    "Flotatsiya usulida",
+    "Mantu sinamasi",
+    "Mak Klyur –Oldrich sinamasi",
+    "Byurne sinamasi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 260-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Flotatsiya usulida.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-165",
+   "n": 749,
+   "q": "Diastaza tekshiruviga qancha miqdorda sidik olinadi:",
+   "options": [
+    "50 ml",
+    "200 ml",
+    "10ml",
+    "1 litr"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 261-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 50 ml.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-168",
+   "n": 750,
+   "q": "Zimnitskiy sinamasi nima maqsadda qo'llaniladi:",
+   "options": [
+    "Buyraklar faoliyati va mochevina chiqarish hususiyatini aniqlash maqsadida",
+    "Eritrositlar sonini aniqlash uchun",
+    "Leykositlar sonini aniqlash uchun",
+    "Siydik elimentlarini hisoblash uchun"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 261-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Buyraklar faoliyati va mochevina chiqarish hususiyatini aniqlash maqsadida.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-175",
+   "n": 751,
+   "q": "Yashirin qonni aniqlashda ahlat qanday yig'iladi:",
+   "options": [
+    "Bemor uch kun mobaynida go'sht, baliq mahsulotlari, rangli sabzavotlar, yod, brom va temir saqlagan dorilarni iste'mol qilmaydi, keyin ahlat olinib labaratoriyaga jo'natiladi",
+    "Bemor baliq va go'sht mahsulotlarini is'temol qilmaydi, dorilarni bemalol ichvuradi",
+    "Bemorda shunchaki ahlatdan namuna olib berishi so'raladi",
+    "Bemor och qoringa kelishi va klizma uchun kerakli holatni egallashi aytiladi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 272-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Bemor uch kun mobaynida go'sht, baliq mahsulotlari, rangli sabzavotlar, yod, brom va temir saqlagan dorilarni iste'mol qilmaydi, keyin ahlat olinib labaratoriyaga jo'natiladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-176",
+   "n": 752,
+   "q": "Radiotelemetriya bu:",
+   "options": [
+    "Elektron moslama yordamida me'da shirasini tekshirish usuli",
+    "Organizmning funksional va morfologik hususatlarini aniqlash usuli",
+    "Tanani ichki tuzilishini tekshirish uchu qo'llaniladigann asbob",
+    "Ahlatda gijja tuhumlarini aniqlash usuli"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 273-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Elektron moslama yordamida me'da shirasini tekshirish usuli.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-177",
+   "n": 753,
+   "q": "Axlatni dizenteriya tayoqchalariga tekshirishda nima uchun ingliz aralashmasidan foydalaniladi:",
+   "options": [
+    "Axlatni istalgan paytda tekshirishga jo'natish uchun",
+    "Axlatni hidi chiqmasigi uchun",
+    "Axlat buzilmasligi uchun",
+    "Axlatni suyultirish uchun"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 272-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Axlatni istalgan paytda tekshirishga jo'natish uchun.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-184",
+   "n": 754,
+   "q": "Bemorni bronxografiyaga tayyorlashda fenobarbital necha daqiqa oldin beriladi:",
+   "options": [
+    "30-60 daqiqa",
+    "15-20 daqiqa",
+    "70-80 daqiqa",
+    "10-15 daqiqa"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 275-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 30-60 daqiqa.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-185",
+   "n": 755,
+   "q": "Ezofagoskopiya qachon qo'llaniladi:",
+   "options": [
+    "Qizilo'ngach devorini ko'zdann kechirishda, qizilo'ngach rakini aniqlashda",
+    "O'n ikki barmoq ichak shilliq pardasini ko'zdan kechirishda",
+    "Yo'g'on ichak shilliq pardasini ko'zdan kechirishda",
+    "To'g'ri ichak shilliq pardasini ko'zdam kechirishda"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 283-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Qizilo'ngach devorini ko'zdann kechirishda, qizilo'ngach rakini aniqlashda.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-186",
+   "n": 756,
+   "q": "Kolonoskopiya qachon qo'llaniladi:",
+   "options": [
+    "Yo'g'on ichak shilliq pardasini ko'zdan kechirishda",
+    "Me'da shilliq pardasini havfli va havfsiz o'smalarini aniqlashda, biopsiya olishda",
+    "To'g'ri ichak shilliq pardasini ko'zdam kechirishda",
+    "Qizilo'ngach rakini aniqlashda"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 283-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Yo'g'on ichak shilliq pardasini ko'zdan kechirishda.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-187",
+   "n": 757,
+   "q": "Rektoromonoskopiya qachon qo'llaniladi:",
+   "options": [
+    "To'g'ri ichak shilliq pardasini ko'zdan kechirishda",
+    "Qorin va kichik chanoq bo'shlig'i a'zolarini tekshirishda",
+    "O'n ikki barmoq ichak shilliq pardasini ko'zdan kechirishda",
+    "Yo'g'on ichak shilliq pardasini ko'zdan kechirishda"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 284-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: To'g'ri ichak shilliq pardasini ko'zdan kechirishda.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-188",
+   "n": 758,
+   "q": "Laporoskopiya qachon qo'llaniladi:",
+   "options": [
+    "Qorin va kichik chanoq bo'shlig'i a'zolarini tekshirishda",
+    "O'n ikki barmoq ichak shilliq pardasini ko'zdan kechirishda",
+    "Yo'g'on ichak shilliq pardasini ko'zdan kechirishda",
+    "To'g'ri ichak shilliq pardasini ko'zdam kechirishda"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 285-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Qorin va kichik chanoq bo'shlig'i a'zolarini tekshirishda.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-189",
+   "n": 759,
+   "q": "Sistoskopiya qachon qo'llaniladi:",
+   "options": [
+    "Qovuq shilliq pardasini ko'zdan kechirganda",
+    "Yo'g'on ichak shilliq pardasini ko'zdan kechirishda",
+    "To'g'ri ichak shilliq pardasini ko'zdam kechirishda",
+    "Qorin va kichik chanoq bo'shlig'i a'zolarini tekshirishda"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 285-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Qovuq shilliq pardasini ko'zdan kechirganda.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-191",
+   "n": 760,
+   "q": "Muloqot turlarini ko'rsating:",
+   "options": [
+    "Verbal va Noverbal",
+    "Rasmiy va norasmiy",
+    "Yozma va og'zaki",
+    "Bosma va televideniya"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 36-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Verbal va Noverbal.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-196",
+   "n": 761,
+   "q": "Komunikatsiya nima:",
+   "options": [
+    "Muloqot olib borish",
+    "Boshqaruvning yo'nalishi",
+    "Menejmentlik",
+    "Fizikal tekshiruv"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 36-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Muloqot olib borish.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-198",
+   "n": 762,
+   "q": "Hamshiralik ishida muloqot texnikasi nechta elementdan tashkil topgan:",
+   "options": [
+    "5 ta",
+    "4 ta",
+    "6 ta",
+    "3 ta"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 37-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 5 ta.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-201",
+   "n": 763,
+   "q": "Dezinfeksiya turlariga qaysilar kiradi:",
+   "options": [
+    "Kimyofiy, biologik, texnik",
+    "Profilaktik va o'choqli",
+    "Fizikaviy, kimyoviy, biologik",
+    "Mexanik, fizik, ijtimoiy"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "infection_control",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 44-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Profilaktik va o'choqli.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-210",
+   "n": 764,
+   "q": "Deontologiya so'zining ma'nosi nima:",
+   "options": [
+    "Yunoncha- yurish turish, axloq",
+    "Lotincha- zarur, lozim",
+    "Yunoncha – zarur, lozim",
+    "Lotincha – yurish turish, axloq"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 54-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Yunoncha – zarur, lozim.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-214",
+   "n": 765,
+   "q": "Yotoq yaralar tananing qaysi qishmida eng ko'p paydo bo'ladi:",
+   "options": [
+    "Dumg'azada",
+    "Kurakda",
+    "Yelkada",
+    "Tirsakda"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 143-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Dumg'azada.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-218",
+   "n": 766,
+   "q": "Quyidagi tekshiruvlardan qaysi biri rentgenologik tekshiruvga kirmaydi:",
+   "options": [
+    "Bronxografiya",
+    "Tomografiya",
+    "Bronxoskopiya",
+    "Flyurografiya"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 279-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Bronxoskopiya.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-225",
+   "n": 767,
+   "q": "Kasallik tarixi qayerda saqlanadi:",
+   "options": [
+    "Hamshira postidagi qulflanadigan qutida",
+    "Shifokorlar xonasida",
+    "Qabul bo'limida",
+    "Katta hamshira xonasida"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 253-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Hamshira postidagi qulflanadigan qutida.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-240",
+   "n": 768,
+   "q": "Tekshirish uchun balg'am qachon olinadi:",
+   "options": [
+    "ertalab",
+    "yarim tunda",
+    "kechqurun",
+    "kun davomida"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 259-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: ertalab.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-250",
+   "n": 769,
+   "q": "Kasallik tarixini passport qismi kim tomonidan to'ldiriladi:",
+   "options": [
+    "Tibbiyot hamshirasi",
+    "Qabul bo'limi shifokor",
+    "Bemorning o'zi",
+    "Bo'lim boshlig'i"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 253-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Tibbiyot hamshirasi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-257",
+   "n": 770,
+   "q": "Qabulxona bo'limlari nechi xil tuzilishga ega:",
+   "options": [
+    "Markazlashgan, markazlashmagan",
+    "Oddiy va murakkab",
+    "Katta bo'lim va kichik bo'lim",
+    "Ichki va tashqi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 129-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Markazlashgan, markazlashmagan.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-262",
+   "n": 771,
+   "q": "Sterlizatsiya nima:",
+   "options": [
+    "Mikroorganizm va ularning sporalarini yo'qotish",
+    "Hashorotlarni yo'qotish",
+    "Mikroorganizm va bakteriyalarni yo'qotish",
+    "Sporalarni yo'qotish"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 45-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Mikroorganizm va ularning sporalarini yo'qotish.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-265",
+   "n": 772,
+   "q": "Biks nima:",
+   "options": [
+    "Avtoklav jihozi",
+    "Sterillash buyumini olib boradiga asbob",
+    "Idishlar turadigan shkaf",
+    "Bog'lov materiallari uchun shkaf"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 121-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Sterillash buyumini olib boradiga asbob.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-270",
+   "n": 773,
+   "q": "Qo'ltiq osti sohasida haroratni o'lchash davomiyligi:",
+   "options": [
+    "10 minut",
+    "6 minut",
+    "8 minut",
+    "15 minut"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "vital_signs",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 168-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 10 minut.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-284",
+   "n": 774,
+   "q": "Isitmaning uzoq davom etishiga ko'ra turlari:",
+   "options": [
+    "Tez o'tib ketadigan, o'tkir, o'rtacha o'tkir, cho'ziladigan",
+    "Doimiy, noraso, gektik",
+    "O'rtacha, yuqori, o'ta yuqori",
+    "Subnormal, normal, subfebrile"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 170-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Tez o'tib ketadigan, o'tkir, o'rtacha o'tkir, cho'ziladigan.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-286",
+   "n": 775,
+   "q": "Tez o'tib ketadigan istima qancha davom etadi:",
+   "options": [
+    "Bir necha saotdan 1-2 kungacha",
+    "Bir necha daqiqadan 1-2 soatgacha",
+    "3-5 kungacha",
+    "20-30 daqiqa"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 170-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Bir necha saotdan 1-2 kungacha.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-287",
+   "n": 776,
+   "q": "O'tkir istma qancha vaqtgacha davom etadi:",
+   "options": [
+    "15 kungacha",
+    "2 kungacha",
+    "45 kungacha",
+    "1 oygacha"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 170-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 15 kungacha.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-288",
+   "n": 777,
+   "q": "Cho'zilgan istma qancha vaqt davom etadi:",
+   "options": [
+    "45 kun va undan ko'p",
+    "45 kun va undan kam",
+    "10 kungacha",
+    "1-2 soat"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 170-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 45 kun va undan ko'p.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-299",
+   "n": 778,
+   "q": "Plevra punktsiyasida foydalaniladi:",
+   "options": [
+    "Poten apparati",
+    "Darsenval apparatidan",
+    "Bronhofibroskopiya",
+    "Fibrogastroskopdan"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 291-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Poten apparati.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-301",
+   "n": 779,
+   "q": "Bronxial astmada balg'am:",
+   "options": [
+    "Shishasimon, oz miqdorda",
+    "Yiringli",
+    "Shilimshiq – yiringli",
+    "Shokolad tusida va ko'lansa hidli"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 298-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Shishasimon, oz miqdorda.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-304",
+   "n": 780,
+   "q": "Gipertonik krizda shoshilinch yordam:",
+   "options": [
+    "Gipotenzivlar",
+    "Nitratlar",
+    "Antibiotiklar",
+    "Antigistaminlar"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 311-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Gipotenzivlar.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-307",
+   "n": 781,
+   "q": "Miokard infarkti o'tkir davrida bemor yotoq rejimga:",
+   "options": [
+    "Qatiy rioya qilishi shart",
+    "Yotoq rejim shart emas",
+    "Jismoniy zo'riqish cheklanmagan",
+    "O'zini yahshi his qilsa, yotoq rejimi shart emas"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 308-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Qatiy rioya qilishi shart.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-311",
+   "n": 782,
+   "q": "Zimnitskiy sinamasi yordamida aniqlanadi:",
+   "options": [
+    "Kontsentrlash layoqati",
+    "Siydik reaktsiyasi",
+    "Siydikdagi qand miqdori",
+    "Oqsil bor-yo'qligi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 261-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Kontsentrlash layoqati.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-317",
+   "n": 783,
+   "q": "Astsit – bu:",
+   "options": [
+    "Qorin bo'shlig'iga suyuqlik to'planishi",
+    "Plevra bo'shlig'iga suyuqlik to'planishi",
+    "Qorin bo'shlig'ida biriktrruvchito'qima rivojlanishi",
+    "Orqa miya suyuqligi ko'payib ketishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 293-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Qorin bo'shlig'iga suyuqlik to'planishi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-335",
+   "n": 784,
+   "q": "Hamshiralik jarayonining ikkincni bosqichi qanday nomlanadi:",
+   "options": [
+    "Bemorni tekshirish",
+    "Hamshiralik tashxisi",
+    "Parvarish rejasini tuzish",
+    "Parvarish natijalarini baxolash"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 26-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Hamshiralik tashxisi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-391",
+   "n": 785,
+   "q": "Qandli diabetda qanday parhez buyuriladi:",
+   "options": [
+    "Parhez № 9",
+    "Parhez № 7",
+    "Parhez № 10",
+    "Parhez № 15"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 159-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Parhez № 9.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-427",
+   "n": 786,
+   "q": "Pul's sekinlashuviga nima deyiladi:",
+   "options": [
+    "Taxikardiya",
+    "Bradikardiya",
+    "Gipertoniya",
+    "Gipotoniya"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 179-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Bradikardiya.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-437",
+   "n": 787,
+   "q": "Hamshiralik jarayonining uchincni bosqichi qanday nomlanadi:",
+   "options": [
+    "Bemorni tekshirish",
+    "Hamshiralik tashxisi",
+    "Parvarish rejasini tuzish",
+    "Parvarish natijalarini baxolash"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 26-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Parvarish rejasini tuzish.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-444",
+   "n": 788,
+   "q": "Gipertonik krizning lkinik belgilari:",
+   "options": [
+    "Bemor og'zidan atseton hidi kelishi",
+    "Chanqash, sovuq ter bosishi",
+    "Ensa sohasida qattiq og'riq",
+    "Gematurya, proteinuriya"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 311-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Ensa sohasida qattiq og'riq.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-445",
+   "n": 789,
+   "q": "№10parhez stoli qaysi kasalliklarda beriladi:",
+   "options": [
+    "Yurak qon-tomir kasalliklarida",
+    "Buyrak kasalliklarida",
+    "Jigar kasalliklarida",
+    "Oshqozon - ichak kasalliklarida"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 159-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Yurak qon-tomir kasalliklarida.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-450",
+   "n": 790,
+   "q": "Miokard infarkti nima:",
+   "options": [
+    "Miokard yallig'lanishi",
+    "Yurak klapanlarning yetishmovchiligi",
+    "Yurak toj-tomirlarida qon aylanishining buzulishi",
+    "Yurak toj-tomirlarining torayishi"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 307-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Yurak toj-tomirlarida qon aylanishining buzulishi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-469",
+   "n": 791,
+   "q": "Duodenal tekshiruvda “B” portsiyada nima aniqlanadi:",
+   "options": [
+    "O't pufagidagi safro",
+    "12 barmoqli ichakni shirasi",
+    "Umumiy o't yo'li suyuqligi",
+    "Oshqozon shirasi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 267-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: O't pufagidagi safro.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-470",
+   "n": 792,
+   "q": "Duodenal tekshiruvda “C” portsiyada nima aniqlanadi:",
+   "options": [
+    "O't pufagidagi safro",
+    "12 barmoqli ichakni shirasi",
+    "Umumiy o't yo'li suyuqligi",
+    "Oshqozon shirasi"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 267-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Umumiy o't yo'li suyuqligi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-471",
+   "n": 793,
+   "q": "Duodenal tekshiruvda “A” portsiyada nima aniqlanadi:",
+   "options": [
+    "O't pufagidagi safro",
+    "12 barmoqli ichakni shirasi",
+    "Umumiy o't yo'li suyuqligi",
+    "Oshqozon shirasi"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 267-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 12 barmoqli ichakni shirasi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-474",
+   "n": 794,
+   "q": "Duodenal tekshiruvning “A” portsiyasi qanday rangda bo'ladi:",
+   "options": [
+    "Oqish rangda",
+    "To'q yashil rangda",
+    "Och sariq rangda",
+    "To'q sariq rangda"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 267-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Och sariq rangda.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-477",
+   "n": 795,
+   "q": "Me'dani yuvish amalga oshirilishi mumkin:",
+   "options": [
+    "Sun'iy usulda",
+    "Maxsus usulda",
+    "Laborator usulda",
+    "Zondli va zondsiz usulda"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 324-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Zondli va zondsiz usulda.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-479",
+   "n": 796,
+   "q": "Me'dani yuvish to'xtatiladi:",
+   "options": [
+    "Ovqat qoldiqlari chiqqach",
+    "Shilliq aralash suv kelgach",
+    "Suv toza bo'lib tushgach",
+    "Bemor ahvoli yaxshilangach"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 324-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Suv toza bo'lib tushgach.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-481",
+   "n": 797,
+   "q": "Huqna o'tkazish uchun bemor qaysi javobda to'g'ri tayyorlangan:",
+   "options": [
+    "Bemor kushetka chetiga chap yonboshi bilan yotqizilib oyoqlari qorniga taqalgan",
+    "Bemor kushetka chetiga o'ng yonboshi bilan yotqizilgan",
+    "Bemor chalqancha yotgan holatda",
+    "Bemor yuztuban yotgan holatda"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 211-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Bemor kushetka chetiga chap yonboshi bilan yotqizilib oyoqlari qorniga taqalgan.",
+   "bank": "hamshiralik"
   }
  ]
 }

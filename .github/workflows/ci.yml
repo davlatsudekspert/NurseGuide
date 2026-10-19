@@ -10,6 +10,7 @@
 #   testflight — yuqoridagi + imzolangan IPA va TestFlight'ga YUKLASH,
 #                ichki (Internal) guruhlarga biriktirish va "What to Test".
 #                App Store review'ga YUBORILMAYDI, reliz QILINMAYDI.
+#              push'da commit xabarida [testflight] bo'lsa ham shu rejim.
 #   play_internal — testlar + release imzoli AAB va Google Play'ning
 #                `internal` trekiga yuklash (play_status: draft|completed).
 #                iOS job ishlamaydi. Production/yopiq trekka TEGMAYDI.
@@ -73,7 +74,9 @@ permissions:
 
 env:
   FLUTTER_VERSION: 3.47.6
-  MODE: ${{ inputs.mode || 'build' }}
+  # push: commit xabarida [testflight] bo'lsa — TestFlight rejimi (qo'lda ishga
+  # tushirish imkoni bo'lmaganda ham relizni boshlash uchun).
+  MODE: ${{ inputs.mode || (contains(github.event.head_commit.message, '[testflight]') && 'testflight') || 'build' }}
   APPLE_SETUP: ${{ inputs.apple_setup || false }}
   # Cloudflare Worker API (sir emas; secret yoki repo variable). Ilova shu
   # serverga ulanadi; berilmasa — workers.dev dagi standart manzil.

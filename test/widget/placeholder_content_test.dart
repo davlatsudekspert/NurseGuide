@@ -76,13 +76,13 @@ void main() {
   });
 
   testWidgets(
-    'kontent: toifa banki yuklangan (847 test, 90 og‘zaki, 18 bilet), paket bo‘sh',
+    'kontent: toifa banki yuklangan (880 test, 90 og‘zaki, 18 bilet), paket bo‘sh',
     (tester) async {
       final s = await makeServices(tester, bundle: rootBundle);
       expect(s.content.pack, isNotNull);
       expect(s.content.pack!.quiz, isEmpty);
       expect(s.toifa.bank, isNotNull);
-      expect(s.toifa.bank!.tests.length, 847);
+      expect(s.toifa.bank!.tests.length, 880);
       expect(s.toifa.bank!.oral.length, 90);
       expect(s.toifa.bank!.tickets.length, 18);
     },

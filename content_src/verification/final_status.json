@@ -11160,13 +11160,16 @@
 "gospitalizm,",
 "egogeniya."
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 3,
 "key_candidate": 3,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 53-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 53-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: egogeniya..",
+"notes": " | inomov quote: 1. Egogeniya - bemorning kasalligi tufayli o'z-o'ziga ta'sir etishi bo'lib, salbiy yoki ijobiy mazmunda ifodalanishi mumkin.",
 "priority": false,
 "file_key": 3
 },
@@ -11285,13 +11288,16 @@
 "og'zaki muloqot,",
 "muloqotni samarali olib boorish,"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 54-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 54-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: imo-ishora, qo'l va gavda harakati bilan muomalada bo'lish,.",
+"notes": " | inomov quote: 2. Noverbal muloqot - gavda holati, yuz, (mimika), ko'z ifodasi, so'zlash ohangi va boshqalar.",
 "priority": false,
 "file_key": 1
 },
@@ -11306,13 +11312,13 @@
 "4t, a",
 "2ta."
 ],
-"status": "no_source",
+"status": "disputed",
 "key": null,
 "key_candidate": 3,
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | inomov: fayl 3 (2ta) vs kitob 0 (5ta): samarali muloqot elementlari 1 Yuboruvchi, 2 Ma'lumot, 3 Kanal, 4 Qabul qiluvchi, 5 Tasdiqlash",
 "priority": false,
 "file_key": 3
 },
@@ -11508,13 +11514,16 @@
 "12 may,",
 "12 aprel."
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 7-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 7-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: 12 may,.",
+"notes": " | inomov quote: Ushbu tashkilot tashabbusi bilan 1971-yildan boshlab 12-may (F.Naytingeyl tug'ilgan kun) «Hamshiralar kuni» sifatida bayram qilib kelinadi.",
 "priority": false,
 "file_key": 2
 },
@@ -11748,13 +11757,16 @@
 "kritik, litik,",
 "peretik, giperperetik, sistolik."
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": "",
-"source_ref": "",
-"explanation_uz": "",
-"notes": "Harorat tushishi turlari (kritik, litik) bo'yicha ochilgan valid manba yo'q (ng-h-090 bilan bir xil). Variant 2 yagona mantiqiy.",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 172-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 172-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: kritik, litik,.",
+"notes": "Harorat tushishi turlari (kritik, litik) bo'yicha ochilgan valid manba yo'q (ng-h-090 bilan bir xil). Variant 2 yagona mantiqiy. | inomov quote: Haroratning tez, bir necha soat ichida tushishi «krizis», bir necha kun mobaynida asta-sekin pasayishi «lizis» deyiladi.",
 "priority": true,
 "file_key": 2
 },
@@ -11769,13 +11781,16 @@
 "og'zaki muloqot,",
 "ichki shaxsiy muloqot."
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 36-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 36-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: og'zaki muloqot,.",
+"notes": " | inomov quote: Verbal yoki og'zaki muloqot ko'nikmalari faol tinglash, savol berish va ta'sirlanishdan iborat.",
 "priority": false,
 "file_key": 2
 },
@@ -11814,13 +11829,16 @@
 "kiyim va oqliklarda burmalarning hosil bo'lishi",
 "kam va sifatsiz ovqat yeyish"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 144-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 144-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: kiyim va oqliklarda burmalarning hosil bo'lishi.",
+"notes": " | inomov quote: Yotoq yaralarning yuzaga kelishiga ko'pincha bemorlarni yaxshi parvarish qilmaslik: notekis, qattiq o'rin, uning tez-tez to'g'rilanib turilmasligi, almashtirilmasligi va shu sababli choyshabda mayda ushoqlar, burmalar bo'lishi",
 "priority": false,
 "file_key": 2
 },
@@ -11924,13 +11942,16 @@
 "termometr",
 "tonometr"
 ],
-"status": "disputed",
-"key": null,
+"status": "verified",
+"key": 3,
 "key_candidate": null,
-"source": "",
-"source_ref": "",
-"explanation_uz": "",
-"notes": "Arterial bosim o'lchaydigan asbob rus/o'zbek amaliyotida 'tonometr', xalqaro adabiyotda sfigmomanometr; 'tonometr' O'zbekiston me'yorida ko'z bosimi asbobini ham bildiradi (PQ-4191). Manometr (0) sfigmomanometrning bir qismi. Aniq manba yo'q.",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 175-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 175-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: tonometr.",
+"notes": "Arterial bosim o'lchaydigan asbob rus/o'zbek amaliyotida 'tonometr', xalqaro adabiyotda sfigmomanometr; 'tonometr' O'zbekiston me'yorida ko'z bosimi asbobini ham bildiradi (PQ-4191). Manometr (0) sfigmomanometrning bir qismi. Aniq manba yo'q. | inomov quote: Prujinali manometri bo'lgan apparatlar - tonometrlar deyiladi.",
 "priority": true
 },
 {
@@ -12256,13 +12277,16 @@
 "Bemor xohishiga",
 "Tekshiruv natijasiga"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 27-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 27-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Hamshira tashxisiga.",
+"notes": " | inomov quote: Hamshira tashhisi hamshira yordamini ko'rsatish rejasini tuzishga asosdir.",
 "priority": false,
 "file_key": 1
 },
@@ -12366,13 +12390,16 @@
 "tromboflebit, gipertoniyada",
 "insult, miokard infarkti"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 186-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 186-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: gemofiliya, anemiya.",
+"notes": " | inomov quote: Qon ivish sistemasining buzilishlari, teri kasalliklari, kamqonlik va ayni vaqtda antikoagulyantlar bilan davolash vaqtida zuluklardan foydalanish mumkin emas.",
 "priority": false,
 "file_key": 1
 },
@@ -12429,13 +12456,16 @@
 "yangi ajratilgan najasning 3 shubhali joyidan",
 "gel'mentlarga qarshi dori vositalar qabul qilgandan so'ng"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 272-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 272-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: yangi ajratilgan najasning 3 shubhali joyidan.",
+"notes": " | inomov quote: Gijja tuxumlariga tekshirish uchun axlatning kamida uch joyidan olinadi va iliqligida laboratoriyaga jo'natiladi.",
 "priority": false,
 "file_key": 2
 },
@@ -12515,13 +12545,16 @@
 "organizmdan suyuqlikning ko'p ajralishi",
 "ichilgan va ajratilgan suyuqlik nisbati"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 3,
 "key_candidate": 3,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 179-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 179-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: ichilgan va ajratilgan suyuqlik nisbati.",
+"notes": " | inomov quote: Ichilgan suyuqlik miqdori bilan ajratilgan suyuqlik miqdori o'rtasidagi nisbat suv balansi deyiladi.",
 "priority": false,
 "file_key": 3
 },
@@ -12577,13 +12610,16 @@
 "o'pkadan, me'dadan va bachadondan qon ketganda",
 "o'smalar, buyrak sanchig'ida"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 191-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 191-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: o'pkadan, me'dadan va bachadondan qon ketganda.",
+"notes": " | inomov quote: Muz solingan xaltacha qon ketganda, o'tkir yallig'lanish jarayonlarining boshlan- g'ich bosqichlarida, lat yeganda (og'riqni kamaytirish uchun), hasharotlar chaqqanda, pediatriyada esa chaqaloqlarning miya ichi jarohatlarida ishlatiladi.",
 "priority": false,
 "file_key": 2
 },
@@ -12598,13 +12634,16 @@
 "“Spirometr”",
 "“Dinamometr”"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 193-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 193-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: “Bobrov”.",
+"notes": " | inomov quote: Kislorod namlagich (Bobrov apparati) orqali minutiga 2-3 l tezlikda beriladi.",
 "priority": false,
 "file_key": 1
 },
@@ -12619,13 +12658,13 @@
 "10-20 daqiqa",
 "2-3 daqiqa"
 ],
-"status": "no_source",
+"status": "disputed",
 "key": null,
 "key_candidate": 2,
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | inomov: fayl 2 (10-20 daqiqa) vs kitob 3 (2-3 daqiqa)",
 "priority": false,
 "file_key": 2
 },
@@ -12727,13 +12766,16 @@
 "tozalovchi huqna o'tkazilgandan so'ng",
 "kontrast modda yuborilgandan so'ng"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 272-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 272-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: 3 kun maxsus tayyorgarlikdan so'ng.",
+"notes": " | inomov quote: Axlatni yashirin qon oqishiga tekshirish uchun bemor uch kun mobaynida go'sht va baliq mahsulotlari, shuningdek, yod, brom va temir saqlagan dorilar iste'mol qilmaydi; to'rtinchi kuni axlat olinib laboratoriyaga jo'natiladi.",
 "priority": false,
 "file_key": 1
 },
@@ -12748,13 +12790,16 @@
 "toza, quruq, probirka",
 "konservantli idishga"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 272-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 272-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: toza, quruq bankaga.",
+"notes": " | inomov quote: Tekshiruvga olinadigan axlat toza, quruq va qattiqroq, imkon boricha shisha idishga yig'ilishi lozim.",
 "priority": false,
 "file_key": 1
 },
@@ -12814,13 +12859,13 @@
 "6-8 soatga",
 "24 soatga"
 ],
-"status": "no_source",
+"status": "disputed",
 "key": null,
 "key_candidate": 0,
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | inomov: fayl 0 (10-20 daqiqa) vs kitob 2 (6-8 soat); isituvchi kompress",
 "priority": false,
 "file_key": 0
 },
@@ -13046,13 +13091,13 @@
 "tana haroratini tushirish",
 "hansirashni kamaytirish"
 ],
-"status": "no_source",
+"status": "disputed",
 "key": null,
 "key_candidate": 0,
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | inomov: fayl 0 (bronxlarni kengaytirish) vs kitob 1 (balg'am ajralishini yaxshilash)",
 "priority": false,
 "file_key": 0
 },
@@ -13115,13 +13160,16 @@
 "bemorlarning tibbiyot xodimlariga bo'lgan munosabati",
 "bemorlarning kasalxona sharoitiga moslashguncha bo'lgan davri"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 3,
 "key_candidate": 3,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 57-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 57-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: bemorlarning kasalxona sharoitiga moslashguncha bo'lgan davri.",
+"notes": " | inomov quote: 7. Gospitalizm - bemorning kasalxona sharoitiga moslashgungacha bo'lgan holati.",
 "priority": false,
 "file_key": 3
 },
@@ -13136,13 +13184,13 @@
 "yunoncha –“yurish turish, odob, muloqot”",
 "yunoncha “burch yoki majburiyat”"
 ],
-"status": "no_source",
+"status": "disputed",
 "key": null,
 "key_candidate": 0,
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | inomov: fayl 0 (lotincha) kitobga zid: kitobda yunoncha 'deontos - zarur, lozim'; 1 va 3 variantlar orasidan kitob yagona javob ko'rsatmaydi (p38: deontologiya - burch haqidagi ta'limot)",
 "priority": false,
 "file_key": 0
 },
@@ -13226,13 +13274,16 @@
 "febril",
 "subfebril"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 3,
 "key_candidate": 3,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 170-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 170-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: subfebril.",
+"notes": " | inomov quote: Balandligiga qarab subnormal (35-36°C), normal (36-37°C) va subfebril (37-38°C) harorat tavofut qilinadi.",
 "priority": false,
 "file_key": 3
 },
@@ -14193,13 +14244,13 @@
 "qondagi elementlarning pasayishi",
 "ichki muhit doimiyligi"
 ],
-"status": "no_source",
+"status": "disputed",
 "key": null,
 "key_candidate": 1,
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "",
+"notes": " | inomov: fayl 1 (reflekslarning pasayishi) vs kitob: gomeostaz = tana harorati, AQB, qon elementlarining doimiyligi -> 3 (ichki muhit doimiyligi); 'ichki muhit' atamasi kitobda yo'q, bilvosita",
 "priority": false,
 "file_key": 1
 },
@@ -14339,13 +14390,16 @@
 "intoksifikatsiya",
 "ishuriya"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 220-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 220-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: defekatsiya.",
+"notes": " | inomov quote: 3. Defekatsiya - axlat massalarini tabiiy ravishda tashqariga chiqarish akti.",
 "priority": false,
 "file_key": 1
 },
@@ -14474,13 +14528,16 @@
 "asfiksiya",
 "intoksikatsiya"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 206-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 206-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: aspiratsiya.",
+"notes": " | inomov quote: Bunda qusuq massalaridan aspiratsiya bo'lish, aspiratsion pnevmoniya kelib chiqishi, ayrim hollarda bemor bo'g'ilib qolishi ham mumkin.",
 "priority": false,
 "file_key": 1
 },
@@ -14537,13 +14594,16 @@
 "imo-ishora, qo'l va gavda harakati bilan muomalada bo'lish",
 "bir shaxsdan ikkinchi shaxsga muomala davrida so'z bilan uzatiladigan axborot"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 3,
 "key_candidate": 3,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 54-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 54-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: bir shaxsdan ikkinchi shaxsga muomala davrida so'z bilan uzatiladigan axborot.",
+"notes": " | inomov quote: 1. Verbal muloqot - faol eshitish, savollar berish, javob qaytarish va reaksiya ko'rsatish san'ati.",
 "priority": false,
 "file_key": 3
 },
@@ -14558,13 +14618,16 @@
 "quyosh vannalarini qabul qilish",
 "terrenkur (poxodlarga chiqish)"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": "",
-"source_ref": "",
-"explanation_uz": null,
-"notes": "Gigiyenik muolaja turlari (dush/vanna) bo'yicha valid manba topilmadi; variantlar (havo, quyosh vannalari) ham gigiyenik muolajaga kiritilishi mumkin.",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 143-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 143-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: dush, vanna qabul qilish.",
+"notes": "Gigiyenik muolaja turlari (dush/vanna) bo'yicha valid manba topilmadi; variantlar (havo, quyosh vannalari) ham gigiyenik muolajaga kiritilishi mumkin. | inomov quote: Statsionarda yotgan bemorlar haftada bir marta gigiyenik vanna yoki dushda cho'miltiriladi.",
 "priority": true,
 "file_key": 1
 },
@@ -14774,13 +14837,16 @@
 "yelkada",
 "tirsakda"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 143-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 143-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: dumg'azada.",
+"notes": " | inomov quote: Yotoq yaralar eng ko'p paydo bo'ladigan soha dumg'azadir.",
 "priority": false,
 "file_key": 1
 },
@@ -14924,13 +14990,16 @@
 "bronxoskopiya",
 "flyurografiya"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 279-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 279-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: bronxoskopiya.",
+"notes": " | inomov quote: 2. Bronxoskopiya - kekirdak va bronxlar ichki yuzasini maxsus asbob - bronxoskop yordamida vizual (ko'z bilan) tekshirish usuli.",
 "priority": false,
 "file_key": 2
 },
@@ -16429,13 +16498,16 @@
 "Bel va sonlarini",
 "Son va boldirlarini"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 3,
 "key_candidate": 3,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "No citable source for which body parts the third person supports in a 3-person stretcher lift (StatPearls transfer page lists only head, shoulders, feet).",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 136-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 136-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Son va boldirlarini.",
+"notes": "No citable source for which body parts the third person supports in a 3-person stretcher lift (StatPearls transfer page lists only head, shoulders, feet). | inomov quote: Birinchi sanitar bemorning boshi, bo'yni va ko'kragining yuqori qismidan ushlaydi, ikkinchisi qo'lni beli va sonlarining yuqori qismidan o'tkazadi, uchinchisi esa son va boldirlaridan tutib turadi.",
 "priority": false,
 "file_key": 3
 },
@@ -17419,13 +17491,16 @@
 "60-80",
 "50-80"
 ],
-"status": "disputed",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": "",
-"source_ref": "",
-"explanation_uz": "",
-"notes": "O'rta yoshda puls me'yori: OpenStax 7.1 60-100/daq; 0-variant (80-100) va 2-variant (60-80) ikkalasi shu oraliqda. Mahalliy darslik 60-80 deydi.",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 173-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 173-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: 60-80.",
+"notes": "O'rta yoshda puls me'yori: OpenStax 7.1 60-100/daq; 0-variant (80-100) va 2-variant (60-80) ikkalasi shu oraliqda. Mahalliy darslik 60-80 deydi. | inomov quote: Puls normada minutiga 60 dan 80 gacha o'zgarib turadi.",
 "priority": true
 },
 {
@@ -17567,13 +17642,16 @@
 "4",
 "5"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": 2,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 144-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 144-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: 4.",
+"notes": " | inomov quote: 4-bosqich - bemorning mushak, suyak, hatto tayanch to'qimalarini qamrab oladigan chuqur zararlanishlar bilan xarakterlanadi.",
 "priority": false,
 "file_key": 2
 },
@@ -17588,13 +17666,13 @@
 "Ingalatsiya",
 "Ingkupatsiya"
 ],
-"status": "no_source",
+"status": "disputed",
 "key": null,
 "key_candidate": 2,
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "'Applikatsiya' for medication on oral mucosa is likely, but no valid source opened.",
+"notes": "'Applikatsiya' for medication on oral mucosa is likely, but no valid source opened. | inomov: fayl 2 (Ingalatsiya) vs kitob 1 (Applikatsiya): og'iz shilliq pardasiga dori bilan ta'sir = applikatsiya yoki chayish",
 "priority": false,
 "file_key": 2
 },
@@ -17860,13 +17938,16 @@
 "Bemorlarni zond orqali ovqatlantirish",
 "Bemorlarni gastrostoma orqali ovqatlantirish"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "'Faol/sust ovqatlantirish' terms not found in any citable source.",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 157-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 157-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Boshqa kishilar yordamiga muxtoj bo'lmagan bemorlarni ovqatlantirish.",
+"notes": "'Faol/sust ovqatlantirish' terms not found in any citable source. | inomov quote: Ko'p kasallar boshqa kishining yordamisiz o'zlari ovqatlana oladilar. Buni faol ovqatlanish deyiladi.",
 "priority": false,
 "file_key": 1
 },
@@ -17881,13 +17962,16 @@
 "Bemorlarni zond orqali ovqatlantirish",
 "Bemorlarni gastrostoma orqali ovqatlantirish"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "'Faol/sust ovqatlantirish' terms not found in any citable source.",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 157-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 157-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Boshqa kishilar yordamiga muxtoj bemorlarni ovqatlantirish.",
+"notes": "'Faol/sust ovqatlantirish' terms not found in any citable source. | inomov quote: Boshidan og'ir kasallikni kechirgan, quvvatsizlanib qolgan yoki operatsiyadan chiqqan kishilar mustaqil ovqatlana olmaydilar. Bu sust ovqatlanish deyiladi.",
 "priority": false,
 "file_key": 1
 },
@@ -18238,13 +18322,16 @@
 "Organizmni suyuqlikka va yog'lari bo'lgan extiyojini qondirish uchu",
 "Organizmni suyuqlik va uglevodlarga bo'lgan extiyojini qondirish uchun"
 ],
-"status": "disputed",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": null,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "To'g'ri ichak orqali sun'iy ovqatlantirish ko'rsatmalari eskirgan amaliyot; valid manba yo'q (suyuqlik va tuz/glyukoza variantlari).",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 162-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 162-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Organizmni suyuqlikka va osh tuziga bo'lgan extiyojini qondirish uchun.",
+"notes": "To'g'ri ichak orqali sun'iy ovqatlantirish ko'rsatmalari eskirgan amaliyot; valid manba yo'q (suyuqlik va tuz/glyukoza variantlari). | inomov quote: Rektal sun'iy ovqatlantirish - organizmning suyuqlikka va osh tuziga bo'lgan ehtiyojini ta'minlash maqsadida to'g'ri ichak orqali oziq moddalarni yuborishdir.",
 "priority": false
 },
 {
@@ -18432,13 +18519,16 @@
 "4ta",
 "8 ta"
 ],
-"status": "disputed",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": null,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "Sun'iy ovqatlantirish turlari soni (3 yoki 4) manbaga bog'liq tasnif; valid manba topilmadi.",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 160-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 160-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: 4ta.",
+"notes": "Sun'iy ovqatlantirish turlari soni (3 yoki 4) manbaga bog'liq tasnif; valid manba topilmadi. | inomov quote: 4. Parenteral (me'da-ichaklarni chetlab) ovqatlantirish.",
 "priority": false
 },
 {
@@ -18638,13 +18728,16 @@
 "500-600 ml",
 "500 ml"
 ],
-"status": "disputed",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": null,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "Bolalar kunlik ovqatida sut hajmi yosh guruhiga bog'liq; yagona qiymat va manba yo'q.",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 78-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 78-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: 600-800 ml.",
+"notes": "Bolalar kunlik ovqatida sut hajmi yosh guruhiga bog'liq; yagona qiymat va manba yo'q. | inomov quote: Bolalarning kunlik ovqati tarkibida 600-800 ml sut bo'lishi lozim.",
 "priority": false
 },
 {
@@ -20217,13 +20310,13 @@
 "Odam organizmiga tashqi muhitning ximiyaviy omillarini davolash va profilaktika maqsadida ta'sir etishi",
 "Odam organizmiga tashqi muhitning biologik omillarini davolash va profilaktika maqsadida ta'sir etishi"
 ],
-"status": "no_source",
+"status": "disputed",
 "key": null,
 "key_candidate": 3,
 "source": null,
 "source_ref": null,
 "explanation_uz": null,
-"notes": "Physiotherapy = therapeutic use of physical factors is almost certain, but no opened source states the definition (MeSH and PMC reviews do not).",
+"notes": "Physiotherapy = therapeutic use of physical factors is almost certain, but no opened source states the definition (MeSH and PMC reviews do not). | inomov: fayl 3 (biologik) vs kitob 1 (fizikaviy omillar)",
 "priority": false,
 "file_key": 3
 },
@@ -20238,13 +20331,16 @@
 "Bu qattiq to'qimaning yallig'lanishidir",
 "Qon tomir yoki limfa tomirlariga qon yoki limfa olib keluvchi bo'lakchalarning tiqilib qolishi"
 ],
-"status": "disputed",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": null,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "Nekroz variantlari garbled (flebit/yallig'lanish ta'riflari aralashgan); yagona javob aniqlanmadi.",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 248-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 248-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Venepunksiyada dori moddalarni ma'lum miqdorining teri ostiga ketishi asoratidir.",
+"notes": "Nekroz variantlari garbled (flebit/yallig'lanish ta'riflari aralashgan); yagona javob aniqlanmadi. | inomov quote: Bordi-yu, vena atrofidagi to'qimalarga kuchli ta'sir qiladigan moddadan ko'p miqdorda tushgan bo'lsa, to'qimalar halok bo'lishi, nekroz avj olishi mumkin.",
 "priority": false
 },
 {
@@ -20603,13 +20699,16 @@
 "yuqumli kasalliklarni profilaktikasi",
 "poliklinikada tozalash ishlarini nazorat qilish"
 ],
-"status": "disputed",
-"key": null,
+"status": "verified",
+"key": 1,
 "key_candidate": 1,
-"source": "",
-"source_ref": "",
-"explanation_uz": "",
-"notes": "Dezinfeksiya maqsadi: 1-variant (yuqumli kasalliklar paydo bo'lishi/tarqalishining oldini olish) va 2 (profilaktika) ma'nodosh.",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 43-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 43-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: DPM, aholi, bemorlar orasida yuqumli kasalliklar paydo bo'lishi, tarqalishini oldini olish.",
+"notes": "Dezinfeksiya maqsadi: 1-variant (yuqumli kasalliklar paydo bo'lishi/tarqalishining oldini olish) va 2 (profilaktika) ma'nodosh. | inomov quote: Dezinfeksiyaning asosiy maqsadi DPMlarda, aholi va bemorlar orasida yuqumli kasalliklar paydo bo'lishi va tarqalishining oldini olishdan iborat.",
 "priority": true
 },
 {
@@ -21415,13 +21514,16 @@
 "Tibbiy yordamga murojaat",
 "Antropometrik o'lchash"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": null,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 67-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 67-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Tibbiy yordamga murojaat.",
+"notes": " | inomov quote: a) davolash-profilaktika muassasalariga murojaat etishlarga qarab;",
 "priority": false
 },
 {
@@ -27616,13 +27718,16 @@
 "Og'riqsizlantirish",
 "Qon bosimining pasayishi"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 2,
 "key_candidate": null,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 293-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 293-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Og'riqsizlantirish.",
+"notes": " | inomov quote: Anesteziya - og'riqsizlantirish.",
 "priority": false
 },
 {
@@ -27848,13 +27953,16 @@
 "Davolash ishlarini olib borish",
 "4-yilda bir marta nazoratdan o'tish"
 ],
-"status": "no_source",
-"key": null,
+"status": "verified",
+"key": 0,
 "key_candidate": null,
-"source": null,
-"source_ref": null,
-"explanation_uz": null,
-"notes": "",
+"source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 71-bet (PDF)",
+"source_ref": {
+"file_or_url": "Inomov Q.S., Hamshiralik ishi asoslari, 2007 (Drive: Hamshiralik ishi.pdf)",
+"page_or_clause": "PDF 71-bet"
+},
+"explanation_uz": "Darslikka ko'ra to'g'ri javob: Yalpi aholini sog'lig'ini nazoratini uzluksiz olib borish.",
+"notes": " | inomov quote: Salomatlikni saqlash va kuzatishning faol turi dispanserizatsiya - aholini yalpi tibbiy ko'rikdan o'tkazish va uzluksiz nazorat ostiga olishdir.",
 "priority": false
 },
 {

@@ -1,0 +1,243 @@
+{"id": "ng-o-314", "status": "verified", "key": 0, "page": 71, "quote": "Salomatlikni saqlash va kuzatishning faol turi dispanserizatsiya - aholini yalpi tibbiy ko'rikdan o'tkazish va uzluksiz nazorat ostiga olishdir.", "note": "kitob ta'rifi 0-variantga mos"}
+{"id": "ng-o-303", "status": "verified", "key": 2, "page": 293, "quote": "Anesteziya - og'riqsizlantirish.", "note": "A.i. lug'at"}
+{"id": "ng-o-311", "status": "unchanged", "key": 2, "page": 307, "quote": "Ushbu og'riqlar bir necha soat, ba'zida esa bir necha kun davom etib, validol yoki nitroglitserin qabul qilingani bilan to'xtamaydi.", "note": "kitob yagona variantni aniq ajratmaydi (qo'lda pasaytirildi)"}
+{"id": "ng-o-009", "status": "verified", "key": 2, "page": 67, "quote": "a) davolash-profilaktika muassasalariga murojaat etishlarga qarab;", "note": "kitob: kasallanish ma'lumotlari manbalari: murojaat, tibbiy ko'rik, o'lim sabablari; boshqa variantlar yo'q"}
+{"id": "ng-p-030", "status": "verified", "key": 2, "page": 7, "quote": "Ushbu tashkilot tashabbusi bilan 1971-yildan boshlab 12-may (F.Naytingeyl tug'ilgan kun) «Hamshiralar kuni» sifatida bayram qilib kelinadi.", "note": "fayl kaliti bilan mos"}
+{"id": "ng-p-014", "status": "verified", "key": 3, "page": 53, "quote": "1. Egogeniya - bemorning kasalligi tufayli o'z-o'ziga ta'sir etishi bo'lib, salbiy yoki ijobiy mazmunda ifodalanishi mumkin.", "note": "fayl kaliti bilan mos"}
+{"id": "ng-p-104", "status": "verified", "key": 3, "page": 57, "quote": "7. Gospitalizm - bemorning kasalxona sharoitiga moslashgungacha bo'lgan holati.", "note": "1-variant egrotogeniya ta'rifi (p53), 3-variant gospitalizm"}
+{"id": "ng-p-020", "status": "verified", "key": 1, "page": 54, "quote": "2. Noverbal muloqot - gavda holati, yuz, (mimika), ko'z ifodasi, so'zlash ohangi va boshqalar.", "note": "fayl kaliti bilan mos; 1-variant (imo-ishora, qo'l, gavda harakati) kitobdagi noverbal ta'rifiga mos, boshqalar mos emas"}
+{"id": "ng-p-042", "status": "verified", "key": 2, "page": 36, "quote": "Verbal yoki og'zaki muloqot ko'nikmalari faol tinglash, savol berish va ta'sirlanishdan iborat.", "note": "fayl kaliti bilan mos; verbal = og'zaki"}
+{"id": "ng-p-170", "status": "verified", "key": 3, "page": 54, "quote": "1. Verbal muloqot - faol eshitish, savollar berish, javob qaytarish va reaksiya ko'rsatish san'ati.", "note": "fayl kaliti bilan mos; kitobda verbal = og'zaki (so'z bilan)"}
+{"id": "ng-p-181", "status": "verified", "key": 1, "page": 143, "quote": "Yotoq yaralar eng ko'p paydo bo'ladigan soha dumg'azadir.", "note": "fayl kaliti bilan mos"}
+{"id": "ng-p-021", "status": "disputed", "key": 0, "page": 37, "quote": "5. Tasdiqlash - yuborilgan ma'lumotni qabul qilinganligini bildirish yoki tasdiqlash.", "note": "fayl 3 (2ta) vs kitob 0 (5ta): samarali muloqot elementlari 1 Yuboruvchi, 2 Ma'lumot, 3 Kanal, 4 Qabul qiluvchi, 5 Tasdiqlash"}
+{"id": "ng-p-313", "status": "verified", "key": 2, "page": 144, "quote": "4-bosqich - bemorning mushak, suyak, hatto tayanch to'qimalarini qamrab oladigan chuqur zararlanishlar bilan xarakterlanadi.", "note": "kitob jadvali: yotoq yaralar 4 bosqichga bo'linadi (1-4)"}
+{"id": "ng-p-044", "status": "verified", "key": 2, "page": 144, "quote": "Yotoq yaralarning yuzaga kelishiga ko'pincha bemorlarni yaxshi parvarish qilmaslik: notekis, qattiq o'rin, uning tez-tez to'g'rilanib turilmasligi, almashtirilmasligi va shu sababli choyshabda mayda ushoqlar, burmalar bo'lishi", "note": "kitob 'tashqi' atamasini ishlatmaydi, lekin faqat 2-variant (burmalar) parvarish nuqsoni sifatida keltirilgan"}
+{"id": "ng-p-259", "status": "verified", "key": 3, "page": 136, "quote": "Birinchi sanitar bemorning boshi, bo'yni va ko'kragining yuqori qismidan ushlaydi, ikkinchisi qo'lni beli va sonlarining yuqori qismidan o'tkazadi, uchinchisi esa son va boldirlaridan tutib turadi.", "note": "fayl kaliti bilan mos"}
+{"id": "ng-p-171", "status": "verified", "key": 1, "page": 143, "quote": "Statsionarda yotgan bemorlar haftada bir marta gigiyenik vanna yoki dushda cho'miltiriladi.", "note": "fayl kaliti bilan mos; kitobda gigiyenik muolaja sifatida vanna/dush"}
+{"id": "ng-p-364", "status": "verified", "key": 1, "page": 78, "quote": "Bolalarning kunlik ovqati tarkibida 600-800 ml sut bo'lishi lozim.", "note": "kitob bilan mos"}
+{"id": "ng-p-327", "status": "verified", "key": 1, "page": 157, "quote": "Ko'p kasallar boshqa kishining yordamisiz o'zlari ovqatlana oladilar. Buni faol ovqatlanish deyiladi.", "note": "fayl kaliti bilan mos"}
+{"id": "ng-p-328", "status": "verified", "key": 1, "page": 157, "quote": "Boshidan og'ir kasallikni kechirgan, quvvatsizlanib qolgan yoki operatsiyadan chiqqan kishilar mustaqil ovqatlana olmaydilar. Bu sust ovqatlanish deyiladi.", "note": "fayl kaliti bilan mos; mustaqil ovqatlana olmaydiganlar = yordamga muhtoj"}
+{"id": "ng-p-354", "status": "verified", "key": 2, "page": 160, "quote": "4. Parenteral (me'da-ichaklarni chetlab) ovqatlantirish.", "note": "kitob sun'iy ovqatlantirishning 4 turini sanaydi: zond, gastrostoma/fistula, huqna, parenteral"}
+{"id": "ng-p-034", "status": "unchanged", "key": 2, "page": 160, "quote": "Sun'iy ovqatlantirish turlariga quyidagilar kiradi:", "note": "kitob yagona variantni aniq ajratmaydi (qo'lda pasaytirildi)"}
+{"id": "ng-p-345", "status": "verified", "key": 1, "page": 162, "quote": "Rektal sun'iy ovqatlantirish - organizmning suyuqlikka va osh tuziga bo'lgan ehtiyojini ta'minlash maqsadida to'g'ri ichak orqali oziq moddalarni yuborishdir.", "note": "kitob bilan mos"}
+{"id": "ng-p-174", "status": "unchanged", "key": 1, "page": 162, "quote": "Odamning qon plazmasidan tayyorlangan vositalar-albumin va protein, shuningdek, alvezin, levomin, poliamin va boshqa aminokislotalar kuniga 300-500 ml miqdorda venaga, tomchi usulida asta-sekin yuboriladi.", "note": "kitob yagona variantni aniq ajratmaydi (qo'lda pasaytirildi)"}
+{"id": "ng-p-450", "status": "unchanged", "key": 1, "page": 160, "quote": "Ovqatni yuta olmaydigan hushsiz yoki ovqatlanishni o'zicha istamagan (ruhiy kasalligi bo'lgan)lar uchun yuqorida ko'rsatilgan sust usul kifoya qilmaydi.", "note": "kitob yagona variantni aniq ajratmaydi (qo'lda pasaytirildi)"}
+{"id": "ng-p-325", "status": "unchanged", "key": 2, "page": 154, "quote": "Sog'lom odam ovqat ratsionidagi turli-tuman ovqatlardan 3000 dan 3100 kkal gacha oladi.", "note": "kitob yagona variantni aniq ajratmaydi (qo'lda pasaytirildi)"}
+{"id": "ng-p-358", "status": "unchanged", "key": 2, "page": 154, "quote": "Sog'lom odam ovqat ratsionidagi turli-tuman ovqatlardan 3000 dan 3100 kkal gacha oladi.", "note": "kitob yagona variantni aniq ajratmaydi (qo'lda pasaytirildi)"}
+{"id": "ng-p-109", "status": "verified", "key": 3, "page": 170, "quote": "Balandligiga qarab subnormal (35-36°C), normal (36-37°C) va subfebril (37-38°C) harorat tavofut qilinadi.", "note": "fayl kaliti bilan mos"}
+{"id": "ng-p-041", "status": "verified", "key": 2, "page": 172, "quote": "Haroratning tez, bir necha soat ichida tushishi «krizis», bir necha kun mobaynida asta-sekin pasayishi «lizis» deyiladi.", "note": "fayl kaliti bilan mos (kritik/litik = krizis/lizis)"}
+{"id": "ng-p-306", "status": "verified", "key": 2, "page": 173, "quote": "Puls normada minutiga 60 dan 80 gacha o'zgarib turadi.", "note": "fayl kaliti bilan mos (OCRda rasm belgisi 'a' gap o'rtasida)"}
+{"id": "ng-p-049", "status": "verified", "key": 3, "page": 175, "quote": "Prujinali manometri bo'lgan apparatlar - tonometrlar deyiladi.", "note": "kitob: AQB sfigmomanometr/tonometr bilan o'lchanadi; urometr/termometr emas"}
+{"id": "ng-p-076", "status": "verified", "key": 3, "page": 179, "quote": "Ichilgan suyuqlik miqdori bilan ajratilgan suyuqlik miqdori o'rtasidagi nisbat suv balansi deyiladi.", "note": "fayl kaliti bilan mos"}
+{"id": "ng-p-078", "status": "unchanged", "key": 1, "page": 183, "quote": "Xantalmalar og'riqda, o'pka yoki bronxlar yallig'lanishi, qon tomirlar spazmi va boshqa qator kasalliklarda qo'llaniladi.", "note": "kitob yagona variantni aniq ajratmaydi (qo'lda pasaytirildi)"}
+{"id": "ng-p-088", "status": "unchanged", "key": 1, "page": 184, "quote": "Teri kasalliklarida, ichki qon oqish xavfi, xantalga allergik reaksiyasi bo'lgan bemorlarga xantalma qo'yish mumkin emas.", "note": "kitob yagona variantni aniq ajratmaydi (qo'lda pasaytirildi)"}
+{"id": "ng-p-069", "status": "verified", "key": 1, "page": 186, "quote": "Qon ivish sistemasining buzilishlari, teri kasalliklari, kamqonlik va ayni vaqtda antikoagulyantlar bilan davolash vaqtida zuluklardan foydalanish mumkin emas.", "note": "fayl kaliti bilan mos (gemofiliya=qon ivishi buzilishi, anemiya=kamqonlik)"}
+{"id": "ng-p-081", "status": "disputed", "key": 3, "page": 189, "quote": "Sovuq kompress uchun bir necha qavat qilib buklangan doka yoki gazmol parchasi sovuq suvda ho'llanadi, siqiladi va kerakli joyga 2-3 daqiqa, kompress isiguncha qo'yiladi, so'ngra yangisi bilan almashtiriladi (64-rasm).", "note": "fayl 2 (10-20 daqiqa) vs kitob 3 (2-3 daqiqa)"}
+{"id": "ng-p-090", "status": "disputed", "key": 2, "page": 189, "quote": "Kompressni o'rta hisobda 6-8 soat qo'llash mumkin, biroq 12 soatdan oshmasligi kerak.", "note": "fayl 0 (10-20 daqiqa) vs kitob 2 (6-8 soat); isituvchi kompress"}
+{"id": "ng-p-084", "status": "unchanged", "key": 3, "page": 188, "quote": "Isituvchi kompress 3 qavatdan iborat: 1) toza, zich, gigroskopik gazmol (zig'irdan to'qilgan gazmol, bumazey parchasi va boshqalar xona haroratidagi spirtda ho'llanadi va yaxshilab siqiladi); 2) kleyonka yoki mum qog'oz; 3) paxta.", "note": "kitob yagona variantni aniq ajratmaydi (qo'lda pasaytirildi)"}
+{"id": "ng-p-068", "status": "unchanged", "key": 1, "page": 171, "quote": "Bunday vaqtlarda uni issiq qilib o'rab-chirmash, isitgich qo'yish, issiq ichimliklar (choy, kofe) ichirish kerak.", "note": "kitob yagona variantni aniq ajratmaydi (qo'lda pasaytirildi)"}
+{"id": "ng-p-080", "status": "verified", "key": 1, "page": 193, "quote": "Kislorod namlagich (Bobrov apparati) orqali minutiga 2-3 l tezlikda beriladi.", "note": "fayl kaliti bilan mos"}
+{"id": "ng-p-070", "status": "unchanged", "key": 3, "page": 193, "quote": "Bunda kislorodni namlash va og'iz qurishining oldini olish uchun mundshtukka nam doka o'raladi.", "note": "kitob yagona variantni aniq ajratmaydi (qo'lda pasaytirildi)"}
+{"id": "ng-p-079", "status": "verified", "key": 2, "page": 191, "quote": "Muz solingan xaltacha qon ketganda, o'tkir yallig'lanish jarayonlarining boshlan- g'ich bosqichlarida, lat yeganda (og'riqni kamaytirish uchun), hasharotlar chaqqanda, pediatriyada esa chaqaloqlarning miya ichi jarohatlarida ishlatiladi.", "note": "fayl kaliti bilan mos; boshqa variantlardagi holatlar kitobda muzli xaltacha uchun ko'rsatilmagan"}
+{"id": "ng-p-101", "status": "disputed", "key": 1, "page": 259, "quote": "Balg'am yaxshiroq ko'chishi uchun bemor yotganda eng qulay vaziyatni tanlashi lozim - bu vaziyat yordamida drenaj qilish deyiladi.", "note": "fayl 0 (bronxlarni kengaytirish) vs kitob 1 (balg'am ajralishini yaxshilash)"}
+{"id": "ng-p-072", "status": "verified", "key": 2, "page": 272, "quote": "Gijja tuxumlariga tekshirish uchun axlatning kamida uch joyidan olinadi va iliqligida laboratoriyaga jo'natiladi.", "note": "fayl kaliti bilan mos"}
+{"id": "ng-p-086", "status": "verified", "key": 1, "page": 272, "quote": "Axlatni yashirin qon oqishiga tekshirish uchun bemor uch kun mobaynida go'sht va baliq mahsulotlari, shuningdek, yod, brom va temir saqlagan dorilar iste'mol qilmaydi; to'rtinchi kuni axlat olinib laboratoriyaga jo'natiladi.", "note": "fayl kaliti bilan mos"}
+{"id": "ng-p-087", "status": "verified", "key": 1, "page": 272, "quote": "Tekshiruvga olinadigan axlat toza, quruq va qattiqroq, imkon boricha shisha idishga yig'ilishi lozim.", "note": "fayl kaliti bilan mos; karton/qog'oz idish tavsiya etilmaydi"}
+{"id": "ng-p-161", "status": "verified", "key": 1, "page": 220, "quote": "3. Defekatsiya - axlat massalarini tabiiy ravishda tashqariga chiqarish akti.", "note": "fayl kaliti bilan mos"}
+{"id": "ng-p-060", "status": "unchanged", "key": 2, "page": 204, "quote": "Qusish me'da-ichak yo'llari kasalliklari, tish ildizi va yumshoq tanglayni ta'sirlantirish oqibati bo'lishi mumkin. Bu periferik qusish deyiladi.", "note": "kitob yagona variantni aniq ajratmaydi (qo'lda pasaytirildi)"}
+{"id": "ng-p-167", "status": "verified", "key": 1, "page": 206, "quote": "Bunda qusuq massalaridan aspiratsiya bo'lish, aspiratsion pnevmoniya kelib chiqishi, ayrim hollarda bemor bo'g'ilib qolishi ham mumkin.", "note": "fayl kaliti bilan mos; kitobda qusuq massalaridan 'aspiratsiya' (asfiksiya - bo'g'ilish alohida atama, p220)"}
+{"id": "ng-p-348", "status": "disputed", "key": 3, "page": 214, "quote": "Tomchi usuli bilan kuniga 3 l gacha suyuqlik yuborish mumkin.", "note": "fayl 1 (2 litr) vs kitob p214 (tomchili huqna: kuniga 3 l gacha); p162 da ovqatli huqna tomchi usulida 1 l gacha bir marta, kuniga 3-4 marta"}
+{"id": "ng-p-314", "status": "disputed", "key": 1, "page": 149, "quote": "Og'iz bo'shlig'i shilliq pardasiga dori-darmonlar bilan ta'sir ko'rsatish applikatsiya yoki chayish muolajalaridan iborat.", "note": "fayl 2 (Ingalatsiya) vs kitob 1 (Applikatsiya): og'iz shilliq pardasiga dori bilan ta'sir = applikatsiya yoki chayish"}
+{"id": "ng-p-440", "status": "verified", "key": 1, "page": 248, "quote": "Bordi-yu, vena atrofidagi to'qimalarga kuchli ta'sir qiladigan moddadan ko'p miqdorda tushgan bo'lsa, to'qimalar halok bo'lishi, nekroz avj olishi mumkin.", "note": "kitob: venepunksiya muvaffaqiyatsiz bo'lib dori teri osti to'qimasiga tarqalganda nekroz mumkin; boshqa variantlar kitobda nekroz sababi sifatida yo'q"}
+{"id": "ng-p-154", "status": "disputed", "key": 3, "page": 84, "quote": "Biologik o'z-o'zini boshqarishga gomeostaz, ya'ni tana haroratining doimiyligi, arterial qon bosimi, qon shaklli elementlarining bir xilligini misol qilish mumkin (albuminlar, immunoglobinlar va hokazo).", "note": "fayl 1 (reflekslarning pasayishi) vs kitob: gomeostaz = tana harorati, AQB, qon elementlarining doimiyligi -> 3 (ichki muhit doimiyligi); 'ichki muhit' atamasi kitobda yo'q, bilvosita"}
+{"id": "ng-p-064", "status": "verified", "key": 1, "page": 27, "quote": "Hamshira tashhisi hamshira yordamini ko'rsatish rejasini tuzishga asosdir.", "note": "fayl kaliti bilan mos"}
+{"id": "ng-p-217", "status": "unchanged", "key": 0, "page": 96, "quote": "1. 60 dan 74 yoshgacha - yoshi ulug'lar. 2. 75 dan 89 yoshgacha - qarigan kishilar. 3. 90 dan oshganlar - uzoq umr ko'ruvchilar.", "note": "kitob yagona variantni aniq ajratmaydi (qo'lda pasaytirildi)"}
+{"id": "ng-p-188", "status": "verified", "key": 2, "page": 279, "quote": "2. Bronxoskopiya - kekirdak va bronxlar ichki yuzasini maxsus asbob - bronxoskop yordamida vizual (ko'z bilan) tekshirish usuli.", "note": "fayl kaliti bilan mos; kitobda bronxoskopiya endoskopik (vizual), bronxografiya rentgenologik (p275); tomografiya/flyurografiya kitobda yo'q"}
+{"id": "ng-p-439", "status": "disputed", "key": 1, "page": 202, "quote": "1. Fizioterapiya - odam organizmiga tashqi muhitning fizikaviy omillarini davolash va profilaktika maqsadida ta'sir ettirish.", "note": "fayl 3 (biologik) vs kitob 1 (fizikaviy omillar)"}
+{"id": "ng-p-457", "status": "verified", "key": 1, "page": 43, "quote": "Dezinfeksiyaning asosiy maqsadi DPMlarda, aholi va bemorlar orasida yuqumli kasalliklar paydo bo'lishi va tarqalishining oldini olishdan iborat.", "note": "fayl kaliti bilan mos"}
+{"id": "ng-p-105", "status": "disputed", "key": null, "page": 54, "quote": "Deontologiya (yunoncha-deontos-zarur, lozim bo'lgan narsa) aniq vaziyatda hamshiraning axloq-odobi, o'zini tuta bilishi va muomalasini amaliy faoliyatida qo'llanishidir.", "note": "fayl 0 (lotincha) kitobga zid: kitobda yunoncha 'deontos - zarur, lozim'; 1 va 3 variantlar orasidan kitob yagona javob ko'rsatmaydi (p38: deontologiya - burch haqidagi ta'limot)"}
+{"id": "ng-o-007", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-054", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda hamshiralik jarayoni 5 bosqichi bor (p26), lekin 'parvarish samaradorligini baholash' bosqichlari soni aniq ko'rsatilmagan"}
+{"id": "ng-o-058", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-062", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-065", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-071", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-072", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-084", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-091", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-093", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-114", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-125", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-146", "status": "disputed", "key": null, "page": null, "quote": null, "note": "me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi"}
+{"id": "ng-o-148", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda 'mexanik antiseptika' atamasi yo'q (faqat umumiy antiseptika ta'rifi p127)"}
+{"id": "ng-o-150", "status": "disputed", "key": null, "page": null, "quote": null, "note": "me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi"}
+{"id": "ng-o-151", "status": "disputed", "key": null, "page": null, "quote": null, "note": "me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi"}
+{"id": "ng-o-153", "status": "disputed", "key": null, "page": null, "quote": null, "note": "me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi"}
+{"id": "ng-o-154", "status": "disputed", "key": null, "page": null, "quote": null, "note": "me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi"}
+{"id": "ng-o-155", "status": "disputed", "key": null, "page": null, "quote": null, "note": "me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi"}
+{"id": "ng-o-156", "status": "disputed", "key": null, "page": null, "quote": null, "note": "me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi"}
+{"id": "ng-o-167", "status": "disputed", "key": null, "page": null, "quote": null, "note": "me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi"}
+{"id": "ng-o-244", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-259", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-263", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-266", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-267", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-268", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-270", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-273", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p91 kontrasepsiya usullari 5 guruh (an'anaviy, baryer, BIV, gormonal, xirurgik); variantlar qisman to'g'ri, yagona javob ajratilmaydi"}
+{"id": "ng-o-277", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-293", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-299", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-301", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-305", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda alkogoldan zaharlanish belgilari yo'q"}
+{"id": "ng-o-315", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-325", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-328", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-348", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-351", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-358", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-370", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-406", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-o-425", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-002", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-003", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-004", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-005", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-006", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-008", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda OIV virusining muzlatilgan zardobda saqlanish muddati yo'q"}
+{"id": "ng-p-011", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitob p320 OITS ta'rifi boshqacha, variantlar bilan mos emas"}
+{"id": "ng-p-013", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitob p16-17: patronaj hamshirasi vazifalari ro'yxati keng (emlash, profilaktika va b.), yagona variant ajratilmaydi"}
+{"id": "ng-p-015", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-016", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-017", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p71 sog'lom turmush tarzini tarkibiy qismlari orqali ta'riflaydi; variant matni kitobda yo'q"}
+{"id": "ng-p-018", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p71 sog'lom turmush tarzini tarkibiy qismlari orqali ta'riflaydi; variant matni kitobda yo'q"}
+{"id": "ng-p-019", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-027", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-029", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-031", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-032", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p143: yotoq yara joylari sanalgan, 'paydo bo'lmaydigan' joylar aniq aytilmagan"}
+{"id": "ng-p-036", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitob p173: isitish va issiq choy; shuningdek ahvol yaxshilangach ich kiyim almashtiriladi - 0 va 3 variant ikkalasi ham kitobda bor"}
+{"id": "ng-p-038", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-045", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-046", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-050", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-051", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p209: naycha to'g'ri ichakka '20-30-40 sm' kiritiladi - 20-30 va 30-40 variantlari aniq ajratilmaydi"}
+{"id": "ng-p-052", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda EKG yurak holatini aniqlash usuli deb ta'riflangan (p137) lekin 'asosiy usul' deb aytilmagan"}
+{"id": "ng-p-056", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-059", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-063", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-066", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-071", "status": "no_source", "key": null, "page": null, "quote": null, "note": "'girudoterapiya' atamasi kitobda yo'q (zuluklar p186)"}
+{"id": "ng-p-073", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p261: Nechiporenko uchun istalgan vaqtda yig'ish mumkin, ertalabki siydik ma'qul; 'o'rta qism' aniq ko'rsatilmagan"}
+{"id": "ng-p-074", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p260: atipik hujayralar uchun yangi ajratilgan balg'am darhol yuboriladi; variantlardan birortasi mos emas (3 kun - sil mikobakteriyalari uchun)"}
+{"id": "ng-p-077", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-083", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p190 isitgich suv harorati ko'rsatilmagan"}
+{"id": "ng-p-085", "status": "no_source", "key": null, "page": null, "quote": null, "note": "me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi"}
+{"id": "ng-p-092", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-093", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-094", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-095", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-096", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-097", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-098", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-099", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-100", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-110", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-111", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-112", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-113", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-114", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-115", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-116", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-117", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-118", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-119", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-121", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-122", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-123", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-124", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-125", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-126", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-127", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-128", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-129", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-130", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-131", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p244/p248: abssess, tromboflebit, shish va qon quyilishi keltirilgan - bir nechta variant qisman to'g'ri"}
+{"id": "ng-p-132", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-133", "status": "no_source", "key": null, "page": null, "quote": null, "note": "me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi"}
+{"id": "ng-p-134", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-135", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda 'patronaj' so'zi ma'nosi izohlanmagan"}
+{"id": "ng-p-141", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-145", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda nekroz ta'rifi aniq berilmagan (p248 da faqat 'to'qimalar halok bo'lishi, nekroz')"}
+{"id": "ng-p-146", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-147", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-149", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p91 kontrasepsiya usullari 5 guruh; variantlar qisman to'g'ri, yagona javob ajratilmaydi"}
+{"id": "ng-p-151", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-153", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p143: yotoq yara joylari sanalgan, 'paydo bo'lmaydigan' joylar aniq aytilmagan"}
+{"id": "ng-p-155", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-156", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-157", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda keksalar pulsi haqida ma'lumot yo'q"}
+{"id": "ng-p-158", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda transportirovka ta'rifi berilmagan (p135)"}
+{"id": "ng-p-159", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-160", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-162", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-165", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-168", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p160-161: qizilo'ngach torayganda gastrostoma ko'rsatilgan, variantlarda yo'q; zond ham ayrim hollarda ko'rsatiladi"}
+{"id": "ng-p-169", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-172", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-173", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-177", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-179", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-180", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p77: nonushta 20-25% (maktab yoshi 25%); variantlarda aynan mos yo'q"}
+{"id": "ng-p-182", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-183", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-184", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-185", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-186", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-192", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-193", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-194", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-195", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-196", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-197", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-198", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-199", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-200", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-205", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-212", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitob p16-17: patronaj hamshirasi vazifalari ro'yxati keng, 'birlamchi vazifa' ajratilmagan"}
+{"id": "ng-p-215", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-220", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-223", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-233", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda parvarish ta'rifi p101 da berilgan, variantlar bilan aniq mos kelmaydi"}
+{"id": "ng-p-239", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-244", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-245", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-247", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-252", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-253", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-261", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitob p135: aravada yoki zambilda - ikkala variant to'g'ri"}
+{"id": "ng-p-263", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p137: zambilni karavotga to'g'ri burchak/parallel/ketma-ket qo'yish mumkin; bosh tomon yo'nalishi aniq aytilmagan"}
+{"id": "ng-p-269", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-275", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-284", "status": "disputed", "key": null, "page": null, "quote": null, "note": "me'yoriy raqam: faqat SanQvaM 0342-17 / 0239-07/3 bilan tekshiriladi"}
+{"id": "ng-p-294", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitob p145-146: Norton, Vaterlou va Breyden shkalalari uchalasi ham keltirilgan"}
+{"id": "ng-p-298", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-307", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p210-213: zaharlanishda tozalash va sifonli huqna ko'rsatilgan; 'dorivor huqna' emas"}
+{"id": "ng-p-320", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-324", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitob p77: nonushta, tushlik, tolmachoy, kechki ovqat sanalgan, lekin kunlik ovqatlanish soni aniq aytilmagan"}
+{"id": "ng-p-331", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-332", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitob p158: diyetoterapiya - parhez taomlar bilan davolash; 1 va 2 variant ikkalasi mazmunan mos"}
+{"id": "ng-p-355", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p277: irrigoskopiya aralashmasi 1 l suv + 200 g bariy sulfat + 10 g tanin; variantlarda mos yo'q"}
+{"id": "ng-p-362", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitob p157: ovqatlanish oralig'i soni aniq ko'rsatilmagan"}
+{"id": "ng-p-367", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitob p178: tana vaznining o'rtacha 65% (45-75%); variantlarda aynan mos yo'q"}
+{"id": "ng-p-372", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-378", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-379", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-386", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-387", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda muzli xaltacha isitmaning qaysi davrida qo'llanishi ko'rsatilmagan (p191)"}
+{"id": "ng-p-393", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bo'y o'lchash vaqti ko'rsatilmagan (p131)"}
+{"id": "ng-p-417", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda patronaj ta'rifi (frans. patronage) yo'q"}
+{"id": "ng-p-426", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-478", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-479", "status": "no_source", "key": null, "page": null, "quote": null, "note": "kitobda bu savol bo'yicha aniq ko'rsatma topilmadi"}
+{"id": "ng-p-486", "status": "disputed", "key": null, "page": null, "quote": null, "note": "kitob p36: muloqot - kommunikatsiya; 'muloqot madaniyati' aniq berilmagan"}

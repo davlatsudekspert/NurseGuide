@@ -17332,6 +17332,699 @@
    "source": "Manba: Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., \"Hamshiralik ishi\" (oliy hamshiralik ishi darsligi), Toshkent, 2015, 88-bet (PDF)",
    "explanation": "Darslikka ko'ra to'g'ri javob: Bemorga.",
    "bank": "oliy_hamshiralik"
+  },
+  {
+   "id": "ng-p-014",
+   "n": 849,
+   "q": "Bemorning kasalligi tufayli o'z-o'ziga ta'sir etishi qanday ataladi:",
+   "options": [
+    "egrotogeniya,",
+    "yatrogeniya,",
+    "gospitalizm,",
+    "egogeniya."
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 53-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: egogeniya..",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-020",
+   "n": 850,
+   "q": "Noverbal muloqot qanday amalga oshadi:",
+   "options": [
+    "bir insonnig ko'p kishilik guruh bilan suhbati,",
+    "imo-ishora, qo'l va gavda harakati bilan muomalada bo'lish,",
+    "og'zaki muloqot,",
+    "muloqotni samarali olib boorish,"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 54-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: imo-ishora, qo'l va gavda harakati bilan muomalada bo'lish,.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-041",
+   "n": 851,
+   "q": "Harorat tushushining qanday turlarini bilasiz:",
+   "options": [
+    "febril, litik, gipertermik,",
+    "subnormal, normal,",
+    "kritik, litik,",
+    "peretik, giperperetik, sistolik."
+   ],
+   "key": [
+    2
+   ],
+   "topic": "vital_signs",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 172-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: kritik, litik,.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-042",
+   "n": 852,
+   "q": "Muloqotning verbal turiga qaysilar kiradi:",
+   "options": [
+    "yozma muloqot,",
+    "imo- ishira bilan muloqot,",
+    "og'zaki muloqot,",
+    "ichki shaxsiy muloqot."
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 36-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: og'zaki muloqot,.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-044",
+   "n": 853,
+   "q": "Yotoq yara hosil bo'lishining tashqi sabablariga kiradi:",
+   "options": [
+    "darmonsizlik, qarilik davri",
+    "gigiyenik muolajalarni to'g'ri bajarish",
+    "kiyim va oqliklarda burmalarning hosil bo'lishi",
+    "kam va sifatsiz ovqat yeyish"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 144-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: kiyim va oqliklarda burmalarning hosil bo'lishi.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-049",
+   "n": 854,
+   "q": "Arterial qon bosimi qaysi asbobda o'lchanadi:",
+   "options": [
+    "manometr",
+    "urometr",
+    "termometr",
+    "tonometr"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "vital_signs",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 175-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: tonometr.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-064",
+   "n": 855,
+   "q": "Hamshiralik jarayonini amalga oshirishda parvarish rejasini tuzish nimaga asoslanadi:",
+   "options": [
+    "Shifokor tashxisiga",
+    "Hamshira tashxisiga",
+    "Bemor xohishiga",
+    "Tekshiruv natijasiga"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 27-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Hamshira tashxisiga.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-069",
+   "n": 856,
+   "q": "Zuluklarni qo'llashga mon'elik qiluvchi holatlarga qaysi javoblar kiradi:",
+   "options": [
+    "hazm a'zolari tizimining surunkali kasalliklari",
+    "gemofiliya, anemiya",
+    "tromboflebit, gipertoniyada",
+    "insult, miokard infarkti"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 186-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: gemofiliya, anemiya.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-072",
+   "n": 857,
+   "q": "Najasni gijja tuxumlariga qanday yig'iladi:",
+   "options": [
+    "tozalovchi huqna o'tkazilgandan so'ng",
+    "bo'shashtiruvchi vositalarni qabul qilgandan so'ng",
+    "yangi ajratilgan najasning 3 shubhali joyidan",
+    "gel'mentlarga qarshi dori vositalar qabul qilgandan so'ng"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 272-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: yangi ajratilgan najasning 3 shubhali joyidan.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-076",
+   "n": 858,
+   "q": "Suv balansi nima:",
+   "options": [
+    "sutka davomida qabul qilingan suyuqlik miqdori",
+    "sutka davomida tekshrilgan suyuqlik miqdori",
+    "organizmdan suyuqlikning ko'p ajralishi",
+    "ichilgan va ajratilgan suyuqlik nisbati"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 179-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: ichilgan va ajratilgan suyuqlik nisbati.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-079",
+   "n": 859,
+   "q": "Muzli xalatachani qo'yishga ko'rsatmalar berilgan to'g'ri javobni tanlang:",
+   "options": [
+    "teri kasalliklari, o'tkir bronxit, o'tkir traxeitda",
+    "gipertonik kriz, insult, miokard infarktda, pnevmoniyada",
+    "o'pkadan, me'dadan va bachadondan qon ketganda",
+    "o'smalar, buyrak sanchig'ida"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 191-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: o'pkadan, me'dadan va bachadondan qon ketganda.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-080",
+   "n": 860,
+   "q": "Kislorodni namlashda qaysi apparatdan foydalaniladi:",
+   "options": [
+    "“Poten”",
+    "“Bobrov”",
+    "“Spirometr”",
+    "“Dinamometr”"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 193-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: “Bobrov”.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-086",
+   "n": 861,
+   "q": "Najasni yashirin qonga qachon yig'iladi:",
+   "options": [
+    "ertalab nonushtadan keyin simfonli huqnadan so'ng",
+    "3 kun maxsus tayyorgarlikdan so'ng",
+    "tozalovchi huqna o'tkazilgandan so'ng",
+    "kontrast modda yuborilgandan so'ng"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 272-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 3 kun maxsus tayyorgarlikdan so'ng.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-087",
+   "n": 862,
+   "q": "Umumiy tahlil uchun najas qanday idishga yig'iladi:",
+   "options": [
+    "karton qutiga",
+    "toza, quruq bankaga",
+    "toza, quruq, probirka",
+    "konservantli idishga"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 272-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: toza, quruq bankaga.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-104",
+   "n": 863,
+   "q": "Gospitalizm nima:",
+   "options": [
+    "bemorlarning o'zaro e'tiborsizligi",
+    "bemorlarning o'zaro ta'siri",
+    "bemorlarning tibbiyot xodimlariga bo'lgan munosabati",
+    "bemorlarning kasalxona sharoitiga moslashguncha bo'lgan davri"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 57-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: bemorlarning kasalxona sharoitiga moslashguncha bo'lgan davri.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-109",
+   "n": 864,
+   "q": "37.0-38.0 C atrofidagi isitma qanday isitma hisoblanadi:",
+   "options": [
+    "gipertermik",
+    "piretik",
+    "febril",
+    "subfebril"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 170-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: subfebril.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-161",
+   "n": 865,
+   "q": "Axlat massalarini tabiiy ravishda tashqariga chiqarish akti nima deyiladi:",
+   "options": [
+    "meteorizm",
+    "defekatsiya",
+    "intoksifikatsiya",
+    "ishuriya"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 220-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: defekatsiya.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-167",
+   "n": 866,
+   "q": "Qusuq massasini nafas yo'llariga tiqilishi qanday ataladi:",
+   "options": [
+    "abstruksiya",
+    "aspiratsiya",
+    "asfiksiya",
+    "intoksikatsiya"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 206-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: aspiratsiya.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-170",
+   "n": 867,
+   "q": "Verbal muloqot qanday amalga oshiriladi:",
+   "options": [
+    "ma'lumotlarni yozma, nashr qilingan holda uzatish",
+    "axborotlarni hurmat va samimiylik, qayg'udoshlik orqali namoyon qilish",
+    "imo-ishora, qo'l va gavda harakati bilan muomalada bo'lish",
+    "bir shaxsdan ikkinchi shaxsga muomala davrida so'z bilan uzatiladigan axborot"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 54-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: bir shaxsdan ikkinchi shaxsga muomala davrida so'z bilan uzatiladigan axborot.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-171",
+   "n": 868,
+   "q": "Qanday gigiyenik muolaja turlari mavjud:",
+   "options": [
+    "havo vannalarini qabul qilish",
+    "dush, vanna qabul qilish",
+    "quyosh vannalarini qabul qilish",
+    "terrenkur (poxodlarga chiqish)"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "iv_access",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 143-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: dush, vanna qabul qilish.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-181",
+   "n": 869,
+   "q": "Yotoq yaralar tananing qaysi qismida eng ko'p paydo bo'ladi:",
+   "options": [
+    "kurakda",
+    "dumg'azada",
+    "yelkada",
+    "tirsakda"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 143-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: dumg'azada.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-259",
+   "n": 870,
+   "q": "Og'ir ahvoldagi bemorlarni zambilga olib o'tish uchun uchinchi xodim bemorning qaysi sohalarini ko'tarib turadi:",
+   "options": [
+    "Bosh va bel qismini",
+    "Boldirlarini",
+    "Bel va sonlarini",
+    "Son va boldirlarini"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 136-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Son va boldirlarini.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-306",
+   "n": 871,
+   "q": "O'rta yoshli odamda puls normada 1 daqiqada necha marta uradi:",
+   "options": [
+    "80-100",
+    "30-60",
+    "60-80",
+    "50-80"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "vital_signs",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 173-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 60-80.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-313",
+   "n": 872,
+   "q": "Yotoq yaralarning nechta bosqichi mavjud:",
+   "options": [
+    "3",
+    "2",
+    "4",
+    "5"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 144-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 4.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-327",
+   "n": 873,
+   "q": "Faol ovaatlanish deb niniaga aytiladi:",
+   "options": [
+    "Boshqa kishilar yordamiga muxtoj bemorlarni ovqatlantirish",
+    "Boshqa kishilar yordamiga muxtoj bo'lmagan bemorlarni ovqatlantirish",
+    "Bemorlarni zond orqali ovqatlantirish",
+    "Bemorlarni gastrostoma orqali ovqatlantirish"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 157-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Boshqa kishilar yordamiga muxtoj bo'lmagan bemorlarni ovqatlantirish.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-328",
+   "n": 874,
+   "q": "Sust ovqatlanish deb niniaga aytiladi:",
+   "options": [
+    "Boshqa kishilar yordamiga muxtoj bulmagan bemorlarni ovqatlantirish",
+    "Boshqa kishilar yordamiga muxtoj bemorlarni ovqatlantirish",
+    "Bemorlarni zond orqali ovqatlantirish",
+    "Bemorlarni gastrostoma orqali ovqatlantirish"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 157-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Boshqa kishilar yordamiga muxtoj bemorlarni ovqatlantirish.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-345",
+   "n": 875,
+   "q": "Rektal sun'iy ovqatlantirish uchun ko'rsatmalar:",
+   "options": [
+    "Organizmni suyuqlikka va oqsilga bo'lgan extiyojini qondirish uchun",
+    "Organizmni suyuqlikka va osh tuziga bo'lgan extiyojini qondirish uchun",
+    "Organizmni suyuqlikka va yog'lari bo'lgan extiyojini qondirish uchu",
+    "Organizmni suyuqlik va uglevodlarga bo'lgan extiyojini qondirish uchun"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 162-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Organizmni suyuqlikka va osh tuziga bo'lgan extiyojini qondirish uchun.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-354",
+   "n": 876,
+   "q": "Sun'iy ovqatlantirish turlarini ko'rsating:",
+   "options": [
+    "3ta",
+    "5ta",
+    "4ta",
+    "8 ta"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 160-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 4ta.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-364",
+   "n": 877,
+   "q": "Bolalarning kunlik ovqati tarkibida necha ml sut bo'lishi lozim:",
+   "options": [
+    "1000 ml",
+    "600-800 ml",
+    "500-600 ml",
+    "500 ml"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 78-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: 600-800 ml.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-440",
+   "n": 878,
+   "q": "Nekroz nimadan keyin kelib chiqishi mumkin:",
+   "options": [
+    "Bu yumshoq to'qimalarning yiringli yallig'lanishidir",
+    "Venepunksiyada dori moddalarni ma'lum miqdorining teri ostiga ketishi asoratidir",
+    "Bu qattiq to'qimaning yallig'lanishidir",
+    "Qon tomir yoki limfa tomirlariga qon yoki limfa olib keluvchi bo'lakchalarning tiqilib qolishi"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 248-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Venepunksiyada dori moddalarni ma'lum miqdorining teri ostiga ketishi asoratidir.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-p-457",
+   "n": 879,
+   "q": "Dezinfeksiyaning asosiy maqsadi nimalardan iborat:",
+   "options": [
+    "asboblarni sterilitsiya qilish",
+    "DPM, aholi, bemorlar orasida yuqumli kasalliklar paydo bo'lishi, tarqalishini oldini olish",
+    "yuqumli kasalliklarni profilaktikasi",
+    "poliklinikada tozalash ishlarini nazorat qilish"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "infection_control",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 43-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: DPM, aholi, bemorlar orasida yuqumli kasalliklar paydo bo'lishi, tarqalishini oldini olish.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-o-009",
+   "n": 880,
+   "q": "Aholining kasallanish darajasini o'rganish usullariga nima kiradi:",
+   "options": [
+    "Aholini ro'yxatga olish",
+    "Bemorlarni ro'yxatga olish",
+    "Tibbiy yordamga murojaat",
+    "Antropometrik o'lchash"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 67-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Tibbiy yordamga murojaat.",
+   "bank": "oliy_hamshiralik"
+  },
+  {
+   "id": "ng-o-314",
+   "n": 881,
+   "q": "Dispanserizasiya nima:",
+   "options": [
+    "Yalpi aholini sog'lig'ini nazoratini uzluksiz olib borish",
+    "Epidemiyaga qarshi kurash",
+    "Davolash ishlarini olib borish",
+    "4-yilda bir marta nazoratdan o'tish"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-19",
+   "status": "verified",
+   "source": "Manba: Inomov Q.S., \"Hamshiralik ishi asoslari\", 4-nashr, Toshkent, 2007, 71-bet (PDF)",
+   "explanation": "Darslikka ko'ra to'g'ri javob: Yalpi aholini sog'lig'ini nazoratini uzluksiz olib borish.",
+   "bank": "oliy_hamshiralik"
   }
  ]
 }

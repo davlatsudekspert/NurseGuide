@@ -16,8 +16,8 @@
    ],
    "contraindications": [],
    "equipment": [
-    "Bir grammli yaxshi shpris",
-    "Uchi 40-45° qiyshiq kesilgan eng ingichka va kalta igna",
+    "1 ml li shpris (ishlatishga yaroqli)",
+    "Uchi qiyshiq kesilgan eng ingichka va kalta igna",
     "Dori ampulasi yoki flakoni",
     "Spirt",
     "Qo'lqoplar"
@@ -33,7 +33,7 @@
      "text": "Bemor bilan gaplashib, inyeksiya og'riqsiz o'tishini ayting; uning qanday yotishi va qanday nafas olishi kerakligini tushuntiring."
     },
     {
-     "text": "Uchi 40-45° qiyshiq kesilgan eng ingichka va kalta igna hamda bir grammli yaxshi shpris oling."
+     "text": "Uchi qiyshiq kesilgan eng ingichka va kalta igna hamda 1 ml li yaxshi shpris oling (bir martalik shpris bo'lsa, igna shpris bilan birga keladi)."
     },
     {
      "text": "Diagnostik, allergik sinamalar va dorilarga sezuvchanlikni aniqlash uchun inyeksiya joyini bilakning pastki uchdan bir qismidan tanlang."
@@ -66,7 +66,7 @@
    "checklist": [
     "Dori nomi, tiniqligi va yaroqlilik muddati tekshirildimi?",
     "Bemorga muolaja tushuntirildimi?",
-    "Eng ingichka va kalta igna (uchi 40-45° qiyshiq kesilgan) olindimi?",
+    "Eng ingichka va kalta igna olindimi?",
     "Qo'lqoplar kiyilib, joy spirt bilan artildimi va quritildimi?",
     "Igna teriga deyarli parallel, uchi yuqoriga qaragan holda kiritildimi?",
     "Faqat igna teshigi botguncha kiritildimi?",
@@ -98,8 +98,8 @@
      ],
      "contraindications": [],
      "equipment": [
-      "Исправный однограммовый шприц",
-      "Самая тонкая и короткая игла с косым срезом острия под углом 40-45°",
+      "Исправный шприц объёмом 1 мл",
+      "Самая тонкая и короткая игла с косым срезом острия",
       "Ампула или флакон с лекарственным средством",
       "Спирт",
       "Перчатки"
@@ -115,7 +115,7 @@
        "text": "Побеседуйте с пациентом, скажите, что инъекция пройдёт безболезненно; объясните, как ему следует лежать и как дышать."
       },
       {
-       "text": "Возьмите самую тонкую и короткую иглу с косым срезом острия под углом 40-45° и исправный однограммовый шприц."
+       "text": "Возьмите самую тонкую и короткую иглу с косым срезом острия и исправный шприц объёмом 1 мл (если шприц одноразовый, игла идёт в комплекте)."
       },
       {
        "text": "Для диагностических, аллергических проб и определения чувствительности к лекарственным препаратам выберите место инъекции в нижней трети предплечья."
@@ -148,7 +148,7 @@
      "checklist": [
       "Проверены ли название лекарства, его прозрачность и срок годности?",
       "Объяснена ли процедура пациенту?",
-      "Взята ли самая тонкая и короткая игла (с косым срезом острия под углом 40-45°)?",
+      "Взята ли самая тонкая и короткая игла?",
       "Надеты ли перчатки, протёрто ли место спиртом и высушено ли оно?",
       "Введена ли игла почти параллельно коже, срезом вверх?",
       "Введена ли игла только до погружения среза?",

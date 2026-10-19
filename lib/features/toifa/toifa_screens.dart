@@ -14,7 +14,9 @@ import '../../l10n/gen/app_localizations.dart';
 import '../learn/exam_question.dart';
 import '../learn/exam_screens.dart';
 import '../learn/exam_session.dart';
+import '../hub/hub_screens.dart' show WorkplaceScreen;
 import '../learn/exam_widgets.dart';
+import '../settings/settings_controller.dart' show WorkDirection;
 import '../share/result_share.dart';
 import 'toifa_bank.dart';
 import 'toifa_controller.dart';
@@ -190,6 +192,62 @@ class ToifaCategoryPicker extends StatelessWidget {
             ),
         ],
       ),
+    );
+  }
+}
+
+/// Test va mashq doirasi: yo'nalish tanlash (Hammasi + test banki bor
+/// yo'nalishlar). Tanlov [ToifaController.scopeFor] orqali o'qiladi.
+String? _scopeOf(BuildContext context) {
+  final services = context.services;
+  final work = services.settings.workDirection;
+  return services.toifa.scopeFor(
+    work == null || work == WorkDirection.dmed ? null : work.bank,
+  );
+}
+
+class _ScopeChips extends StatelessWidget {
+  const _ScopeChips({required this.bank});
+
+  final ToifaBank bank;
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context);
+    final toifa = context.services.toifa;
+    final scope = _scopeOf(context);
+    return Column(
+      crossAxisAlignment: CrossAxisAlignment.start,
+      children: [
+        LgSectionTitle(l.toifaScopeTitle),
+        Padding(
+          padding: const EdgeInsets.only(bottom: 8),
+          child: Text(
+            l.toifaScopeHint,
+            style: Theme.of(context).textTheme.bodyMedium,
+          ),
+        ),
+        Wrap(
+          spacing: 8,
+          runSpacing: 8,
+          children: [
+            LgChoiceChip(
+              key: const ValueKey('toifa-scope-all'),
+              label: l.toifaScopeAll,
+              selected: scope == null,
+              onTap: () => toifa.setScope(null),
+            ),
+            for (final d in WorkDirection.values)
+              if (toifaTestPool(bank, scope: d.bank).isNotEmpty)
+                LgChoiceChip(
+                  key: ValueKey('toifa-scope-${d.bank}'),
+                  label: WorkplaceScreen.directionLabel(l, d),
+                  selected: scope == d.bank,
+                  onTap: () => toifa.setScope(d.bank),
+                ),
+          ],
+        ),
+      ],
     );
   }
 }
@@ -553,6 +611,7 @@ class _ToifaTestScreenState extends State<ToifaTestScreen> {
     if (practice) return _startDrill(bank);
     final services = context.services;
     final exams = services.exams;
+    final pool = toifaTestPool(bank, scope: _scopeOf(context));
     if (exams.active != null) {
       final ok = await confirmDialog(
         context,
@@ -572,11 +631,7 @@ class _ToifaTestScreenState extends State<ToifaTestScreen> {
     final session = ExamSession.build(
       id: exams.newId(),
       mode: ExamMode.exam,
-      questions: drawQuestions(
-        toifaTestPool(bank),
-        ToifaFormat.testSize,
-        exams.random,
-      ),
+      questions: drawQuestions(pool, ToifaFormat.testSize, exams.random),
       random: exams.random,
       startedAt: exams.now(),
       sourceId: ToifaQuestionSource.sourceId,
@@ -593,6 +648,7 @@ class _ToifaTestScreenState extends State<ToifaTestScreen> {
   Future<void> _startDrill(ToifaBank bank) async {
     final l = AppLocalizations.of(context);
     final toifa = context.services.toifa;
+    final pool = toifaTestPool(bank, scope: _scopeOf(context));
     if (toifa.activeDrill != null) {
       final ok = await confirmDialog(
         context,
@@ -610,7 +666,7 @@ class _ToifaTestScreenState extends State<ToifaTestScreen> {
       mode: ToifaTestMode.practice,
     );
     await toifa.startDrill(
-      drawQuestions(toifaTestPool(bank), ToifaFormat.testSize, toifa.random),
+      drawQuestions(pool, ToifaFormat.testSize, toifa.random),
       pass: pass,
     );
     if (mounted) await context.push('$toifaBase/test/practice');
@@ -634,11 +690,13 @@ class _ToifaTestScreenState extends State<ToifaTestScreen> {
         : null;
     final drill = toifa.activeDrill;
     final practice = toifa.testMode == ToifaTestMode.practice;
-    final size = ToifaFormat.testSize.clamp(0, toifaTestPool(bank).length);
+    final pool = toifaTestPool(bank, scope: _scopeOf(context));
+    final size = ToifaFormat.testSize.clamp(0, pool.length);
     return [
       if (active != null) ActiveExamCard(session: active),
       if (drill != null) _ActiveDrillCard(drill: drill),
       const UzbekOnlyTag(),
+      _ScopeChips(bank: bank),
       LgSectionTitle(l.toifaModeTitle),
       _ModeOption(
         key: const ValueKey('toifa-mode-exam'),
@@ -658,7 +716,7 @@ class _ToifaTestScreenState extends State<ToifaTestScreen> {
       ),
       LgSectionTitle(l.toifaFormatTitle),
       LgSteps([
-        l.toifaFormatStep1(size, toifaTestPool(bank).length),
+        l.toifaFormatStep1(size, pool.length),
         if (practice) ...[
           l.toifaDrillStep2,
           l.toifaDrillStep3,
@@ -1061,13 +1119,25 @@ class ToifaPracticeListScreen extends StatelessWidget {
       subtitle: l.toifaPracticeSubtitle,
       builder: (context, bank) {
         final mistakes = _testMistakes(context, bank).length;
-        final topics = bank.source.topics;
+        final scope = _scopeOf(context);
+        final scoped = toifaTestPool(bank, scope: scope);
+        final topics = [
+          for (final t in bank.source.topics)
+            (
+              t,
+              [
+                for (final q in t.questions.cast<ToifaTestQuestion>())
+                  if (scope == null || q.bank == scope) q,
+              ],
+            ),
+        ].where((e) => e.$2.isNotEmpty).toList();
         return [
           const UzbekOnlyTag(),
+          _ScopeChips(bank: bank),
           LgSectionTitle(l.quizChooseTopic),
           LgRow(
             title: l.toifaPracticeMixed(_roundSize()),
-            subtitle: l.quizQuestionCount(bank.scorable.length),
+            subtitle: l.quizQuestionCount(scoped.length),
             icon: Icons.shuffle_rounded,
             onTap: () => context.push('$toifaBase/practice/$_mixed'),
           ),
@@ -1078,10 +1148,9 @@ class ToifaPracticeListScreen extends StatelessWidget {
               icon: Icons.replay_rounded,
               onTap: () => context.push('$toifaBase/practice/$_mistakes'),
             ),
-          for (final (i, t) in topics.indexed)
+          for (final (i, (t, qs)) in topics.indexed)
             Builder(
               builder: (context) {
-                final qs = t.questions.cast<ToifaTestQuestion>();
                 final (m, n) = _testMastery(context, qs);
                 return LgRow(
                   title: t.name(l, _lang(context)),
@@ -1130,10 +1199,10 @@ class _ToifaPracticeScreenState extends State<ToifaPracticeScreen> {
     final progress = context.services.quizProgress;
     final random = context.services.toifa.random;
     final pool = switch (widget.scope) {
-      _mixed => List.of(bank.scorable),
+      _mixed => List.of(toifaTestPool(bank, scope: _scopeOf(context))),
       _mistakes => _testMistakes(context, bank),
       final t => [
-        for (final q in bank.scorable)
+        for (final q in toifaTestPool(bank, scope: _scopeOf(context)))
           if (q.topic == t) q,
       ],
     }..shuffle(random);

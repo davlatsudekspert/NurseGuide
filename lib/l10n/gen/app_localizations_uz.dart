@@ -894,6 +894,15 @@ class AppLocalizationsUz extends AppLocalizations {
   String get toifaPlanTitle => 'Javob rejasi';
 
   @override
+  String get toifaScopeTitle => 'Yo‘nalish';
+
+  @override
+  String get toifaScopeHint => 'Savollar tanlangan yo‘nalishdan olinadi.';
+
+  @override
+  String get toifaScopeAll => 'Hammasi';
+
+  @override
   String get toifaLiteratureTitle => 'Adabiyotlar';
 
   @override

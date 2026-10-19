@@ -162,6 +162,20 @@ class ToifaController extends ChangeNotifier {
   int _ticketNo = 0;
   ToifaDrill? _drill;
 
+  /// Test va mashq doirasi: tanlangan yo'nalish banki; null — hammasi.
+  /// Hech qachon tanlanmagan bo'lsa, Ish joyidagi yo'nalish olinadi.
+  String? _scope;
+  bool _scopeChosen = false;
+
+  /// [workBank] — Ish joyidagi yo'nalish banki (test banki yo'q bo'lsa null).
+  String? scopeFor(String? workBank) => _scopeChosen ? _scope : workBank;
+
+  void setScope(String? bank) {
+    _scope = bank;
+    _scopeChosen = true;
+    notifyListeners();
+  }
+
   ToifaLoadState get state => _state;
   ToifaBank? get bank => _bank;
 

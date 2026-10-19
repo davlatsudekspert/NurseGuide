@@ -890,6 +890,15 @@ class AppLocalizationsEn extends AppLocalizations {
   String get toifaPlanTitle => 'Answer plan';
 
   @override
+  String get toifaScopeTitle => 'Work area';
+
+  @override
+  String get toifaScopeHint => 'Questions are taken from the chosen work area.';
+
+  @override
+  String get toifaScopeAll => 'All';
+
+  @override
   String get toifaLiteratureTitle => 'References';
 
   @override

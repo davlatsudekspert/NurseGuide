@@ -1594,6 +1594,24 @@ abstract class AppLocalizations {
   /// **'Answer plan'**
   String get toifaPlanTitle;
 
+  /// No description provided for @toifaScopeTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Work area'**
+  String get toifaScopeTitle;
+
+  /// No description provided for @toifaScopeHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Questions are taken from the chosen work area.'**
+  String get toifaScopeHint;
+
+  /// No description provided for @toifaScopeAll.
+  ///
+  /// In en, this message translates to:
+  /// **'All'**
+  String get toifaScopeAll;
+
   /// No description provided for @toifaLiteratureTitle.
   ///
   /// In en, this message translates to:

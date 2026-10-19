@@ -732,5 +732,12 @@ abstract final class ToifaFormat {
   static const practiceRound = 20;
 }
 
-/// Test uchun savollar to'plami: barcha rasmiy test savollari.
-List<ToifaTestQuestion> toifaTestPool(ToifaBank bank) => bank.scorable;
+/// Test uchun savollar to'plami: barcha rasmiy test savollari yoki
+/// ([scope] — savollar bankidagi `bank` qiymati) tanlangan yo'nalishdagi savollar.
+List<ToifaTestQuestion> toifaTestPool(ToifaBank bank, {String? scope}) =>
+    scope == null
+    ? bank.scorable
+    : [
+        for (final q in bank.scorable)
+          if (q.bank == scope) q,
+      ];

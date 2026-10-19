@@ -894,6 +894,15 @@ class AppLocalizationsRu extends AppLocalizations {
   String get toifaPlanTitle => 'План ответа';
 
   @override
+  String get toifaScopeTitle => 'Направление';
+
+  @override
+  String get toifaScopeHint => 'Вопросы берутся из выбранного направления.';
+
+  @override
+  String get toifaScopeAll => 'Все';
+
+  @override
   String get toifaLiteratureTitle => 'Литература';
 
   @override

@@ -894,6 +894,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get toifaPlanTitle => 'План ответа';
 
   @override
+  String get toifaLiteratureTitle => 'Литература';
+
+  @override
   String get toifaPlanPending => 'Подготовлено NurseGuide';
 
   @override

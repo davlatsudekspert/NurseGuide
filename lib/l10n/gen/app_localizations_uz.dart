@@ -894,6 +894,9 @@ class AppLocalizationsUz extends AppLocalizations {
   String get toifaPlanTitle => 'Javob rejasi';
 
   @override
+  String get toifaLiteratureTitle => 'Adabiyotlar';
+
+  @override
   String get toifaPlanPending => 'NurseGuide tayyorlagan';
 
   @override

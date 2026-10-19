@@ -249,6 +249,7 @@
   "toifaNewTicket": "Новый билет",
   "toifaNewTicketBody": "Вместо текущего билета будет взято 5 новых вопросов. Поставленные оценки сохранятся.",
   "toifaPlanTitle": "План ответа",
+  "toifaLiteratureTitle": "Литература",
   "toifaPlanPending": "Подготовлено NurseGuide",
   "toifaPlanMissing": "План для этого вопроса ещё не подготовлен.",
   "toifaPlanNotChecked": "К этому плану источник ещё не привязан.",

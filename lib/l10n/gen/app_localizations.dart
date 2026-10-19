@@ -1594,6 +1594,12 @@ abstract class AppLocalizations {
   /// **'Answer plan'**
   String get toifaPlanTitle;
 
+  /// No description provided for @toifaLiteratureTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'References'**
+  String get toifaLiteratureTitle;
+
   /// No description provided for @toifaPlanPending.
   ///
   /// In en, this message translates to:

@@ -581,6 +581,7 @@
   "toifaNewTicket": "New ticket",
   "toifaNewTicketBody": "Five new questions replace the current ticket. Ratings you gave are kept.",
   "toifaPlanTitle": "Answer plan",
+  "toifaLiteratureTitle": "References",
   "toifaPlanPending": "Prepared by NurseGuide",
   "toifaPlanMissing": "The plan for this question is not ready yet.",
   "toifaPlanNotChecked": "No source is attached to this plan yet.",

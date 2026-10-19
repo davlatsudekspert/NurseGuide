@@ -2076,6 +2076,18 @@ class _OralQuestionViewState extends State<_OralQuestionView> {
               icon: Icons.rule_rounded,
             ),
           if (q.pitfalls.isNotEmpty) _PitfallBlock(pitfalls: q.pitfalls),
+          if (q.literature.isNotEmpty) ...[
+            LgSectionTitle(l.toifaLiteratureTitle),
+            for (final (i, ref) in q.literature.indexed)
+              Padding(
+                padding: const EdgeInsets.only(bottom: 4),
+                child: Text(
+                  '${i + 1}. $ref',
+                  key: ValueKey('toifa-literature-$i'),
+                  style: text.bodySmall,
+                ),
+              ),
+          ],
           if (q.links.isNotEmpty) ...[
             LgSectionTitle(l.quizSources),
             for (final link in q.links) ExamLinkRow(link: link),

@@ -890,6 +890,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get toifaPlanTitle => 'Answer plan';
 
   @override
+  String get toifaLiteratureTitle => 'References';
+
+  @override
   String get toifaPlanPending => 'Prepared by NurseGuide';
 
   @override

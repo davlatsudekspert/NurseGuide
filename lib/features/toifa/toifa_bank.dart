@@ -351,6 +351,7 @@ class ToifaOralQuestion {
     required this.planReady,
     this.status,
     this.source,
+    this.literature = const [],
     this.plan = const [],
     this.reference = const [],
     this.cutoffs = const [],
@@ -414,6 +415,7 @@ class ToifaOralQuestion {
       planReady: _strings(j['plan']).isNotEmpty,
       status: ToifaStatus.tryParse(j['status']),
       source: j['source'] as String?,
+      literature: _strings(j['literature']),
       plan: _strings(j['plan']),
       reference: [for (final m in maps('reference')) OralFact.reference(m)],
       cutoffs: [for (final m in maps('cutoffs')) OralFact.cutoff(m)],
@@ -439,6 +441,10 @@ class ToifaOralQuestion {
 
   /// Manba (qo'llanma, buyruq yoki kitob) — erkin matn.
   final String? source;
+
+  /// «Adabiyotlar»: javob rejasi tayangan manbalar (muallif, nom, yil, bet
+  /// yoki havola); javob ostida ko'rsatiladi.
+  final List<String> literature;
   final List<String> plan;
 
   /// Me'yoriy ko'rsatkichlar (qiymat, birlik, sharoit).

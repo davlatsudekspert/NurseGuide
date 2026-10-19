@@ -72,7 +72,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get welcomeGuestNote =>
-      'Mehmon rejimida faqat tanishib chiqish mumkin. Test, mashq, kunlik savol va guruhlar ro‘yxatdan o‘tgach ochiladi.';
+      'Mehmon rejimida faqat tanishib chiqish mumkin: bosh sahifa, manipulyatsiyalar ro‘yxati, ish joyi va kutubxona. Test, mashq, kunlik savol, manipulyatsiya tafsilotlari va guruhlar ro‘yxatdan o‘tgach ochiladi.';
 
   @override
   String get stateLoading => 'Yuklanmoqda…';
@@ -130,7 +130,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get authUnavailableBody =>
-      'Mehmon sifatida bosh sahifa, muolajalar ro‘yxati, ish joyi va kutubxonani ko‘rish mumkin. Kirish hozircha mavjud emas.';
+      'Mehmon sifatida bosh sahifa, manipulyatsiyalar ro‘yxati, ish joyi va kutubxonani ko‘rish mumkin. Kirish hozircha mavjud emas.';
 
   @override
   String get authContinueGuest => 'Mehmon sifatida davom etish';
@@ -418,7 +418,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get toifaUzbekNotice =>
-      'Attestatsiya savollarining rasmiy matni o‘zbekcha. Interfeys tili rus yoki ingliz bo‘lsa — yordamchi tarjima ko‘rsatiladi, asl matnni istalgan vaqt ko‘rish mumkin. Baholash rasmiy o‘zbekcha matn va kalit bo‘yicha.';
+      'Attestatsiya savollarining rasmiy matni o‘zbekcha. Baholash rasmiy o‘zbekcha matn va kalit bo‘yicha.';
 
   @override
   String get toifaShowOriginal => 'Asl matnni ko‘rish';
@@ -1333,7 +1333,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get classesSignInBody =>
-      'Guruh yaratish, qo‘shilish va topshiriq yuborish hisobga bog‘langan. Kontentni o‘qish kirishsiz ochiq qoladi.';
+      'Guruh yaratish, qo‘shilish va topshiriq yuborish hisobga bog‘langan.';
 
   @override
   String get classesSignIn => 'Kirish';
@@ -1857,7 +1857,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get classesStudentNote =>
-      'Ustoz faqat siz yozgan ismni va topshiriq natijalaringizni ko‘radi.';
+      'Ustoz faqat sizning taxallusingiz (yoki tartib raqamingiz) va topshiriq natijalaringizni ko‘radi.';
 
   @override
   String get classesLeave => 'Guruhdan chiqish';
@@ -2107,7 +2107,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get themeClassicDesc => 'Yumshoq shisha va 3D belgilar';
 
   @override
-  String get themeIvoryName => 'Ivory';
+  String get themeIvoryName => 'Fil suyagi';
 
   @override
   String get themeIvoryDesc =>
@@ -2234,7 +2234,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get supportUnavailableBody =>
-      'Bu buildda hisoblar, murojaatlar va guruhlar serveri ulanmagan. Ulangach shu yerda ishlaydi.';
+      'Bu versiyada hisoblar, murojaatlar va guruhlar serveriga ulanib bo‘lmadi.';
 
   @override
   String get errNetwork => 'Internetga ulanib bo‘lmadi. Qayta urinib ko‘ring.';
@@ -2467,7 +2467,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get privacyBody =>
-      'Mehmon sifatida bosh sahifa, muolajalar ro‘yxati, ish joyi va kutubxonani ko‘rish mumkin; sozlamalar shu qurilmada saqlanadi. Testlar, mashq, kunlik savollar, muolaja tafsilotlari, guruhlar va “Taklif va yordam” uchun bepul hisob kerak (email kodi, Google yoki Apple bilan). Bunda ma’lumotlar Cloudflare serverida (Sharqiy Yevropa, O‘zbekistondan tashqarida) saqlanadi: email faqat hash va niqoblangan ko‘rinishda, kirish usuli, rol, til, oxirgi faollik vaqti (daqiqagacha); guruhda — taxallus yoki tartib raqami, test javoblari va ballar; murojaat va shikoyat matnlari. Google/Apple’dan faqat hisob identifikatori va email olinadi, token saqlanmaydi. Ustoz faqat o‘z guruhini ko‘radi. Reklama, analitika va kuzatuv yo‘q. Hisobni “Hisobni o‘chirish” tugmasi bilan istalgan vaqtda o‘chirishingiz mumkin. To‘liq matn — “Maxfiylik siyosati” havolasida.';
+      'Mehmon sifatida bosh sahifa, manipulyatsiyalar ro‘yxati, ish joyi va kutubxonani ko‘rish mumkin; sozlamalar shu qurilmada saqlanadi. Testlar, mashq, kunlik savollar, manipulyatsiya tafsilotlari, guruhlar va “Taklif va yordam” uchun bepul hisob kerak (email kodi, Google yoki Apple bilan). Bunda ma’lumotlar Cloudflare tarmog‘ida (serverlar O‘zbekistondan tashqarida bo‘lishi mumkin) saqlanadi: email faqat hash va niqoblangan ko‘rinishda, kirish usuli, rol, til, oxirgi faollik vaqti (daqiqagacha); guruhda — taxallus yoki tartib raqami, test javoblari va ballar; murojaat va shikoyat matnlari. Google/Apple’dan faqat hisob identifikatori va email olinadi, token saqlanmaydi. Ustoz faqat o‘z guruhini ko‘radi. Reklama, analitika va kuzatuv yo‘q. Hisobni “Hisobni o‘chirish” tugmasi bilan istalgan vaqtda o‘chirishingiz mumkin. To‘liq matn — “Maxfiylik siyosati” havolasida.';
 
   @override
   String get privacyBodyLocal =>
@@ -2477,7 +2477,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get privacyTerms => 'Foydalanish shartlari';
 
   @override
-  String get privacyTermsSub => 'Yakuniy matn tayyorlanadi';
+  String get privacyTermsSub => 'Ilovadan foydalanish qoidalari';
 
   @override
   String get privacyDeleteLocal => 'Lokal ma’lumotlarni o‘chirish';
@@ -2500,8 +2500,14 @@ class AppLocalizationsUz extends AppLocalizations {
   String get termsTitle => 'Foydalanish shartlari';
 
   @override
+  String get termsFullText => 'Shartlarning to‘liq matni';
+
+  @override
+  String get termsFullTextSub => 'nurseguide.nfcstore.uz saytida';
+
+  @override
   String get termsBody =>
-      'NurseGuide — hamshiralar uchun bepul ma’lumotnoma va o‘quv ilovasi. Ilovadan foydalanib, siz quyidagi shartlarga rozilik bildirasiz.\n\n1. Tibbiy cheklov. NurseGuide tashxis qo‘ymaydi, davolash yoki dori buyurmaydi va muassasangizning tasdiqlangan tartiblari, dori vositalari yo‘riqnomalari hamda shifokor buyrug‘ini almashtirmaydi. Har bir ma’lumot ostida manbasi ko‘rsatilgan; qaror qabul qilishda asl manba va o‘z muassasangiz qoidalariga tayaning.\n\n2. Hisob. Ba’zi imkoniyatlar (guruhlar, testlar, murojaatlar) uchun email orqali ro‘yxatdan o‘tish kerak. Hisobingiz xavfsizligi va u orqali qilingan harakatlar uchun o‘zingiz javobgarsiz. Hisobni istalgan vaqtda Profil → Maxfiylik va ma’lumotlar → Hisobni o‘chirish orqali o‘chirishingiz mumkin.\n\n3. Ustoz va talaba guruhlari. Talaba guruhga qo‘shilganda ustoz uning taxallusi (yoki tartib raqami) va test natijalarini ko‘radi. Ustoz guruhni faqat o‘quv maqsadida boshqaradi.\n\n4. Foydalanuvchi kontenti. Murojaatlarda yozganlaringiz uchun o‘zingiz javobgarsiz. Haqoratli, noqonuniy, reklama, boshqa shaxsning shaxsiy ma’lumoti yoki roziligisiz intim tasvirlar joylash qat’iyan taqiqlanadi. Bunday kontent o‘chiriladi, qoidabuzar hisobi cheklanishi yoki o‘chirilishi mumkin.\n\n5. Mualliflik huquqi. Ilova matnlari, slaydlari, testlari va dizayni NurseGuide mualliflariga tegishli; tashqi manbalar o‘z litsenziyasi bilan ko‘rsatilgan. Ularni tijorat maqsadida nusxalash va tarqatish mumkin emas.\n\n6. Xizmat. Ilova “boricha” taqdim etiladi; uzilishlar va xatolar bo‘lishi mumkin, biz ularni imkon qadar tez tuzatamiz. Shartlar o‘zgarsa, ilovada xabar beramiz.\n\n7. Maxfiylik. Ma’lumotlaringiz qanday ishlatilishi maxfiylik siyosatida yozilgan: nurseguide.nfcstore.uz/privacy\n\n8. Aloqa: nurseguide@nfcstore.uz';
+      'NurseGuide — hamshiralar uchun bepul ma’lumotnoma va o‘quv ilovasi. Ilovadan foydalanib, siz quyidagi shartlarga rozilik bildirasiz.\n\n1. Tibbiy cheklov. NurseGuide tashxis qo‘ymaydi, davolash yoki dori buyurmaydi va muassasangizning tasdiqlangan tartiblari, dori vositalari yo‘riqnomalari hamda shifokor buyrug‘ini almashtirmaydi. Har bir ma’lumot ostida manbasi ko‘rsatilgan; qaror qabul qilishda asl manba va o‘z muassasangiz qoidalariga tayaning.\n\n2. Hisob. Asosiy imkoniyatlar (testlar, mashq, kunlik savollar, manipulyatsiya tafsilotlari, guruhlar, murojaatlar) uchun ro‘yxatdan o‘tish kerak (email kodi yoki Apple orqali). Hisobingiz xavfsizligi va u orqali qilingan harakatlar uchun o‘zingiz javobgarsiz. Hisobni istalgan vaqtda Profil → Maxfiylik va ma’lumotlar → Hisobni o‘chirish orqali o‘chirishingiz mumkin.\n\n3. Ustoz va talaba guruhlari. Talaba guruhga qo‘shilganda ustoz uning taxallusi (yoki tartib raqami) va test natijalarini ko‘radi. Ustoz guruhni faqat o‘quv maqsadida boshqaradi.\n\n4. Foydalanuvchi kontenti. Murojaatlarda yozganlaringiz uchun o‘zingiz javobgarsiz. Haqoratli, noqonuniy, reklama, boshqa shaxsning shaxsiy ma’lumoti yoki roziligisiz intim tasvirlar joylash qat’iyan taqiqlanadi. Bunday kontent o‘chiriladi, qoidabuzar hisobi cheklanishi yoki o‘chirilishi mumkin.\n\n5. Mualliflik huquqi. Ilova matnlari, slaydlari, testlari va dizayni NurseGuide mualliflariga tegishli; tashqi manbalar o‘z litsenziyasi bilan ko‘rsatilgan. Ularni tijorat maqsadida nusxalash va tarqatish mumkin emas.\n\n6. Xizmat. Ilova “boricha” taqdim etiladi; uzilishlar va xatolar bo‘lishi mumkin, biz ularni imkon qadar tez tuzatamiz. Shartlar o‘zgarsa, ilovada xabar beramiz.\n\n7. Maxfiylik. Ma’lumotlaringiz qanday ishlatilishi maxfiylik siyosatida yozilgan: nurseguide.nfcstore.uz/privacy\n\n8. Aloqa: nurseguide@nfcstore.uz';
 
   @override
   String get rightsUnknown => 'Tarqatish huquqi tasdiqlanmagan';
@@ -2726,7 +2732,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get libStateLinked => 'Kartalarga bog‘langan';
 
   @override
-  String get libStateReviewed => 'Domla tasdiqlagan';
+  String get libStateReviewed => 'Ustoz tasdiqlagan';
 
   @override
   String get libProvidedByTeacher => 'Domla bergan material';
@@ -3816,7 +3822,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get complaintFormBody =>
-      'Nomaqbul kontent, xato yoki boshqa muammo haqida yozing — NurseGuide jamoasi ko‘rib chiqadi (odatda 24 soat ichida).';
+      'Nomaqbul kontent, xato yoki boshqa muammo haqida yozing — NurseGuide jamoasi ko‘rib chiqadi.';
 
   @override
   String get complaintKindLabel => 'Turi';
@@ -4110,10 +4116,10 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get topicTestAssignSub =>
-      'Talabalar QR yoki kod bilan qo\'shilib yechadi, natijalar sizda chiqadi';
+      'Talabalar QR yoki kod bilan qo‘shilib yechadi, natijalar sizda chiqadi';
 
   @override
-  String get topicTestSelf => 'O\'zim yechib ko\'rish';
+  String get topicTestSelf => 'O‘zim yechib ko‘rish';
 
   @override
   String get topicTestSelfSub =>
@@ -4574,10 +4580,10 @@ class AppLocalizationsUz extends AppLocalizations {
   String get procSub => 'Bosqichma-bosqich amaliy ko‘rsatmalar';
 
   @override
-  String get procEmptyTitle => 'Muolajalar';
+  String get procEmptyTitle => 'Manipulyatsiyalar';
 
   @override
-  String get procEmptyBody => 'Muolajalar ro‘yxati yuklanmadi.';
+  String get procEmptyBody => 'Manipulyatsiyalar ro‘yxati yuklanmadi.';
 
   @override
   String get workDirTitle => 'Ish yo‘nalishingiz';
@@ -4657,7 +4663,11 @@ class AppLocalizationsUz extends AppLocalizations {
       'Ma’lumot darslik asosida tayyorlangan. Muassasangizdagi amaldagi ko‘rsatma va SSV buyruqlari bilan solishtiring.';
 
   @override
-  String get procNotFound => 'Muolaja topilmadi';
+  String get procNoteUzText =>
+      'Qadamlar matni o‘zbekcha. Darslik asosida — muassasangizdagi amaldagi ko‘rsatma va SSV buyruqlari bilan solishtiring.';
+
+  @override
+  String get procNotFound => 'Manipulyatsiya topilmadi';
 
   @override
   String get glossaryTitle => 'Atamalar lug‘ati';
@@ -4766,7 +4776,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String litProceduresN(int count) {
-    return '$count muolaja';
+    return '$count manipulyatsiya';
   }
 
   @override
@@ -4814,7 +4824,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get accountRequiredBody =>
-      'Bu bo‘lim faqat ro‘yxatdan o‘tgan foydalanuvchilar uchun: test, mashq, kunlik savol, muolaja va atamalar. Apple, Google yoki email orqali kirish bepul va bir daqiqa oladi.';
+      'Bu bo‘lim faqat ro‘yxatdan o‘tgan foydalanuvchilar uchun: test, mashq, kunlik savol, manipulyatsiya tafsilotlari, atamalar va DMED savol-javoblari. Apple yoki email orqali kirish bepul va bir daqiqa oladi.';
 
   @override
   String get accountRequiredCta => 'Kirish yoki ro‘yxatdan o‘tish';

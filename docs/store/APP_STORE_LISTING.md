@@ -36,17 +36,17 @@ NurseGuide is a study and reference app for nurses, nursing students and nursing
 Study content is mostly in Uzbek. The app interface is available in Uzbek, Russian and English.
 
 WORKPLACE
-• Choose your work area — Nursing, Higher nursing, Patronage or DMED — and get 5 new questions every day, matched to it. After each answer you see an explanation and the source.
+• Choose your work area — Nursing, Higher nursing, Patronage or DMED — and get 5 new questions every day, matched to it. After each answer you see the source and, where available, an explanation.
 • A short vital-signs reference (temperature, pulse, respiratory rate) with its textbook source.
 • DMED: 150 questions and answers on working in the DMED system (roles, patient admission, inpatient care, document forms) and on basic computer skills (Word, Excel, PowerPoint, the Internet). Each card shows where it comes from.
 
 PROCEDURES
-Step-by-step guides with a checklist: intradermal, subcutaneous, intramuscular and intravenous injections, blood pressure, body temperature, pulse, bladder catheterisation, cleansing enema and gastric lavage. Every guide shows its purpose, indications, equipment and the textbook page it is based on.
+Step-by-step guides with a checklist: intradermal, subcutaneous, intramuscular and intravenous injections, blood pressure, body temperature, pulse, bladder catheterisation and cleansing enema. Every guide shows its steps and the textbook page it is based on.
 
 LEARN
-• Practice tests by topic and by work area, with the answer shown right after you choose.
+• Practice tests by topic and by work area, with the right answer and its source shown right after you choose.
 • Exam simulator: 50 questions drawn from the official question lists, with or without a time limit, followed by a review of your mistakes.
-• Oral exam tickets with answer plans and references (available when the app language is Uzbek).
+• Oral exam tickets with answer plans and references (the exam text is in Uzbek).
 • Teacher groups: a teacher assigns a test, joins students by code or QR, and sees results.
 
 LIBRARY
@@ -69,7 +69,7 @@ Contact: nurseguide@nfcstore.uz
 ## Keywords (max 100, comma-separated, no spaces)
 
 ```
-hamshira,медсестра,nurse,toifa,manipulyatsiya,patronaj,attestatsiya,DMED,inyeksiya,nursing,exam,test
+hamshira,медсестра,nurse,toifa,manipulyatsiya,patronaj,attestatsiya,DMED,inyeksiya,nursing
 ```
 
 ## Screenshots
@@ -151,10 +151,10 @@ HOW TO SEE THE APP
 2. Full access: tap "Sign in or sign up" and use any of:
    • Sign in with Apple (works with any Apple ID), or
    • E-mail: enter your own e-mail address; a one-time 6-digit code is sent to it (valid 10 minutes). No demo account or password is needed.
-3. After sign-in you can open: Learn (practice, exam simulator, daily questions), procedure details, glossary, DMED questions and answers (Library → DMED, or Workplace → choose DMED), and Groups.
+3. After sign-in you can open: Learn (qualification-category test, practice, oral tickets, daily questions), procedure details, glossary, DMED questions and answers (Library → DMED, or Workplace → choose DMED), and Groups.
 
 NOTES
-• Study content is in Uzbek (the interface is Uzbek, Russian or English). The oral-exam tickets and qualification-category exam sections appear when the app language is Uzbek.
+• Study content is in Uzbek (the interface is Uzbek, Russian or English). The qualification-category exam sections (tests, practice, oral tickets) are available in every interface language; their text is in Uzbek.
 • Camera is used only to scan a teacher's group QR code; nothing is saved.
 • Account deletion: Profile → Privacy and data → Delete account (immediate). Web page: https://nurseguide.nfcstore.uz/delete-account/
 • No ads, no purchases, no tracking SDKs.

@@ -1005,7 +1005,7 @@ class ToifaDrillScreen extends StatelessWidget {
           ),
         ),
         KeyCheckNote(question: q),
-        const OfficialListSource(),
+        OfficialListSource(question: q),
         const SizedBox(height: 14),
         LgButton(
           label: last ? l.quizFinish : l.quizNext,
@@ -1341,7 +1341,7 @@ class _ToifaPracticeScreenState extends State<ToifaPracticeScreen> {
           ),
         ),
         KeyCheckNote(question: q),
-        const OfficialListSource(),
+        OfficialListSource(question: q),
         const SizedBox(height: 14),
         LgButton(
           label: _index == round.length - 1 ? l.quizFinish : l.quizNext,

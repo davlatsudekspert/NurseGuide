@@ -13,6 +13,7 @@ import '../../core/device/feedback.dart';
 import '../../design/tokens.dart';
 import '../../design/widgets/lg_widgets.dart';
 import '../../l10n/gen/app_localizations.dart';
+import '../reference/reference_data.dart' show localizedSource;
 import '../classroom/topic_questions.dart';
 import '../content/ui/content_widgets.dart';
 import '../toifa/toifa_bank.dart';
@@ -1460,7 +1461,7 @@ class ExamReviewCard extends StatelessWidget {
             ),
             if (q is OfficialKeyQuestion) ...[
               KeyCheckNote(question: q),
-              const OfficialListSource(),
+              OfficialListSource(question: q),
             ] else ...[
               const SizedBox(height: 8),
               for (final i in right)
@@ -1736,29 +1737,48 @@ class _OfficialTextToggleState extends State<OfficialTextToggle> {
   }
 }
 
-/// Savol manbasi: rasmiy attestatsiya savollari ro'yxati.
+/// Savol manbasi va izohi: savolning o'z manbasi (bo'lsa) va javob izohi;
+/// aks holda — rasmiy attestatsiya savollari ro'yxati.
 class OfficialListSource extends StatelessWidget {
-  const OfficialListSource({super.key});
+  const OfficialListSource({super.key, this.question, this.showBasis = true});
+
+  final ExamQuestion? question;
+
+  /// Javob izohini shu yerda ko'rsatish (chaqiruvchi o'zi ko'rsatsa — false).
+  final bool showBasis;
 
   @override
   Widget build(BuildContext context) {
     final l = AppLocalizations.of(context);
     final p = LgPalette.of(context);
+    final text = Theme.of(context).textTheme;
+    final lang = Localizations.localeOf(context).languageCode;
+    final q = question;
+    final basis = showBasis ? q?.basis(lang) : null;
+    final own = q is OfficialKeyQuestion ? q.sourceNote : null;
+    final source = own == null || own.trim().isEmpty
+        ? l.toifaListSource
+        : localizedSource(own, lang);
     return Padding(
       padding: const EdgeInsets.only(top: 6),
-      child: Row(
+      child: Column(
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
-          Padding(
-            padding: const EdgeInsets.only(top: 1),
-            child: Icon(Icons.verified_outlined, size: 16, color: p.sub),
-          ),
-          const SizedBox(width: 6),
-          Expanded(
-            child: Text(
-              l.toifaListSource,
-              style: Theme.of(context).textTheme.bodySmall,
+          if (basis != null && basis.trim().isNotEmpty)
+            Padding(
+              padding: const EdgeInsets.only(bottom: 6),
+              child: Text(basis, style: text.bodyMedium),
             ),
+          Row(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Padding(
+                padding: const EdgeInsets.only(top: 1),
+                child: Icon(Icons.verified_outlined, size: 16, color: p.sub),
+              ),
+              const SizedBox(width: 6),
+              Expanded(child: Text(source, style: text.bodySmall)),
+            ],
           ),
         ],
       ),

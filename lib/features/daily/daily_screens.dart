@@ -10,7 +10,6 @@ import '../../design/tokens.dart';
 import '../../design/widgets/lg_widgets.dart';
 import '../../design/widgets/reveal_on_mount.dart';
 import '../../l10n/gen/app_localizations.dart';
-import '../content/ui/content_widgets.dart';
 import '../learn/exam_question.dart';
 import '../settings/settings_controller.dart' show WorkDirection;
 import '../learn/exam_widgets.dart';
@@ -91,12 +90,8 @@ class _DailySourceGate extends StatelessWidget {
   builder;
 
   @override
-  Widget build(BuildContext context) => toifaVisible(context)
-      ? ToifaBankGate(builder: (context, bank) => builder(context, bank.source))
-      : ContentGate(
-          builder: (context, pack) =>
-              builder(context, PackQuestionSource.of(pack)),
-        );
+  Widget build(BuildContext context) =>
+      ToifaBankGate(builder: (context, bank) => builder(context, bank.source));
 }
 
 String _time(BuildContext context, int hour, int minute) =>
@@ -646,7 +641,7 @@ class _DailyScreenState extends State<DailyScreen> {
           kind: a.correct ? NoticeKind.info : NoticeKind.warning,
         ),
         KeyCheckNote(question: q),
-        const OfficialListSource(),
+        OfficialListSource(question: q),
       ];
     }
     final explanations = [

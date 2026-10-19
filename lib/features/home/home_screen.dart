@@ -111,22 +111,16 @@ class RoleHome {
           heroLocation: '/learn/daily',
           actions: [
             HomeAction(
-              l.featureLessons,
-              Icons.co_present_outlined,
-              '/learn/lecture',
-              l.homeTileLessons,
+              l.navProcedures,
+              Icons.vaccines_outlined,
+              '/procedures',
+              l.homeTileProcedures,
             ),
             HomeAction(
-              l.featureTests,
-              Icons.quiz_outlined,
-              '/learn/quiz',
-              l.homeTileTests,
-            ),
-            HomeAction(
-              l.featureExam,
-              Icons.timer_outlined,
-              '/learn/exam',
-              l.homeTileExam,
+              l.navLibrary,
+              Icons.menu_book_outlined,
+              '/library',
+              l.libSubtitle,
             ),
             HomeAction(
               l.featureClasses,
@@ -154,12 +148,11 @@ class RoleHome {
               generalTestLocation,
               l.generalTestSub,
             ),
-            // Ma'ruza rejimi (D-45/47).
             HomeAction(
-              l.lectureTitle,
-              Icons.slideshow_rounded,
-              '/learn/lecture',
-              l.homeTileLecture,
+              l.navProcedures,
+              Icons.vaccines_outlined,
+              '/procedures',
+              l.homeTileProcedures,
             ),
             HomeAction(
               l.featureSaved,

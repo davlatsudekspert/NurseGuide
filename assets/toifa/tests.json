@@ -58,10 +58,9 @@
    "topic": "general",
    "verdict": "ok",
    "checked": "2026-10-18",
-   "status": "verified",
-   "source": "Xalqaro tavsiya: PubMed/PMC (Front Psychol), 2024, The relationship between personal and professional goals and emotional state, kirish: ethics from Greek ethos = custom, morality, tradition, manners",
-   "bank": "oliy_hamshiralik",
-   "explanation": "'Etika' so'zi qadimgi yunoncha 'ethos' dan olingan bo'lib, odat, xulq-atvor va axloq ma'nosini bildiradi."
+   "status": "official",
+   "source": "Manba: Sog'liqni saqlash vazirligi test savollar bazasi (TMBM, tmbm.ssv.uz); kalit — tayyorgarlik fayli bo'yicha, manbalar bilan tanlab tekshirilgan",
+   "bank": "oliy_hamshiralik"
   },
   {
    "id": "ng-o-002",
@@ -1041,10 +1040,9 @@
    "topic": "general",
    "verdict": "ok",
    "checked": "2026-10-18",
-   "status": "verified",
-   "source": "Xalqaro tavsiya: PubMed/PMC (Healthcare, Basel), 2026, Effect of a Nursing Process Training Program on Nurses' Knowledge and Skills, Introduction",
-   "bank": "oliy_hamshiralik",
-   "explanation": "Hamshiralik jarayoni besh bosqichdan iborat va amalga oshirish (implementatsiya) tartib bo'yicha 4-bosqich hisoblanadi."
+   "status": "official",
+   "source": "Manba: Sog'liqni saqlash vazirligi test savollar bazasi (TMBM, tmbm.ssv.uz); kalit — tayyorgarlik fayli bo'yicha, manbalar bilan tanlab tekshirilgan",
+   "bank": "oliy_hamshiralik"
   },
   {
    "id": "ng-o-055",
@@ -2607,7 +2605,8 @@
    "checked": "2026-10-18",
    "status": "official",
    "source": "Manba: Sog'liqni saqlash vazirligi test savollar bazasi (TMBM, tmbm.ssv.uz); kalit — tayyorgarlik fayli bo'yicha, manbalar bilan tanlab tekshirilgan",
-   "bank": "oliy_hamshiralik"
+   "bank": "oliy_hamshiralik",
+   "held": "Rasmiy kalit tibbiy jihatdan shubhali (xlorgeksidin biglyukonat 20% + 70% etil spirti); aniqlashtirilguncha testdan chiqarilgan."
   },
   {
    "id": "ng-o-144",
@@ -8224,10 +8223,9 @@
    "topic": "general",
    "verdict": "ok",
    "checked": "2026-10-18",
-   "status": "verified",
-   "source": "Xalqaro tavsiya: PubMed/PMC (West J Emerg Med), 2025, Comparison of Emergency Physicians' and Hospitalists' Attitudes Toward Fecal Occult Blood Testing, muhokama: red meat etc. cause false-positive",
-   "bank": "patronaj",
-   "explanation": "Yashirin qonga najas tahlilidan oldin go'sht mahsulotlari ratsiondan chiqariladi, chunki ular yolg'on musbat natija beradi; sut, guruch, makaron bunday ta'sir qilmaydi."
+   "status": "official",
+   "source": "Manba: Sog'liqni saqlash vazirligi test savollar bazasi (TMBM, tmbm.ssv.uz); kalit — tayyorgarlik fayli bo'yicha, manbalar bilan tanlab tekshirilgan",
+   "bank": "patronaj"
   },
   {
    "id": "ng-p-091",

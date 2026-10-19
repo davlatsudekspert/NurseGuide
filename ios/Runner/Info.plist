@@ -46,7 +46,7 @@
 	<key>NSPhotoLibraryAddUsageDescription</key>
 	<string>NurseGuide saves a result card to your photos only when you choose “Save Image” in the share sheet.</string>
 	<key>NSCameraUsageDescription</key>
-	<string>NurseGuide uses the camera only when you choose to scan a group or test QR code from your teacher (read on the device, no image is saved or sent) or to take a photo for a support request.</string>
+	<string>NurseGuide uses the camera only when you choose to scan a group or test QR code from your teacher (read on the device, no image is saved or sent).</string>
 	<key>ITSAppUsesNonExemptEncryption</key>
 	<false/>
 	<key>LSRequiresIPhoneOS</key>

@@ -377,8 +377,7 @@ class StoreConsolesPanel extends StatelessWidget {
             children: [
               Text(l.admStoreBody, style: text.bodyMedium),
               const SizedBox(height: 10),
-              Text(l.admSales, style: text.titleSmall),
-              const SizedBox(height: 12),
+              const SizedBox(height: 4),
               LgButton.secondary(
                 key: const ValueKey('admin-open-asc'),
                 label: l.admAppStoreConnect,

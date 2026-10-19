@@ -726,7 +726,7 @@ class _QuestionViewState extends State<_QuestionView> {
                 style: text.bodySmall!.copyWith(color: p.sub),
               ),
             if (q is OfficialKeyQuestion)
-              const OfficialListSource()
+              OfficialListSource(question: q, showBasis: false)
             else
               ExamSources(question: q),
           ],

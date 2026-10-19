@@ -12,6 +12,9 @@ import '../../l10n/gen/app_localizations.dart';
 import '../daily/daily_picker.dart';
 import 'reference_data.dart';
 
+String _lang(BuildContext context) =>
+    Localizations.localeOf(context).languageCode;
+
 AssetBundle _bundle(BuildContext context) =>
     context.services.curriculum.bundle ?? rootBundle;
 
@@ -31,6 +34,10 @@ Widget _uzbekNote(BuildContext context) {
     kind: NoticeKind.info,
   );
 }
+
+/// Bitta qisqa eslatma: manba + (inglizchada) qadamlar o'zbekcha ekani.
+String _procNote(AppLocalizations l, String lang) =>
+    lang == 'en' ? l.procNoteUzText : l.procSourceNote;
 
 /// Manipulyatsiyalar tabi: guruhlar bo'yicha muolajalar ro'yxati.
 class ProceduresScreen extends StatelessWidget {
@@ -61,13 +68,17 @@ class ProceduresScreen extends StatelessWidget {
             for (final p in data.procedures) {
               if (!groups.contains(p.group)) groups.add(p.group);
             }
+            final lang = Localizations.localeOf(context).languageCode;
             return Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [
-                _uzbekNote(context),
-                LgNotice(l.procSourceNote, kind: NoticeKind.info),
+                LgNotice(_procNote(l, lang), kind: NoticeKind.info),
                 for (final g in groups) ...[
-                  LgSectionTitle(g),
+                  LgSectionTitle(
+                    data.procedures
+                        .firstWhere((p) => p.group == g)
+                        .groupIn(lang),
+                  ),
                   for (final p in data.procedures.where((p) => p.group == g))
                     _ProcedureCard(def: p),
                 ],
@@ -91,6 +102,7 @@ class _ProcedureCard extends StatelessWidget {
     final p = LgPalette.of(context);
     final text = Theme.of(context).textTheme;
     final dark = Theme.of(context).brightness == Brightness.dark;
+    final lang = Localizations.localeOf(context).languageCode;
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 6),
       child: DecoratedBox(
@@ -104,7 +116,8 @@ class _ProcedureCard extends StatelessWidget {
           color: p.paper,
           border: LgShadow.rim(context),
           borderRadius: BorderRadius.circular(LgRadius.card),
-          semanticLabel: '${def.title}. ${l.procStepsCount(def.steps.length)}',
+          semanticLabel:
+              '${def.titleIn(lang)}. ${l.procStepsCount(def.steps.length)}',
           child: Padding(
             padding: const EdgeInsets.all(14),
             child: Row(
@@ -118,7 +131,7 @@ class _ProcedureCard extends StatelessWidget {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: [
-                        Text(def.title, style: text.titleMedium),
+                        Text(def.titleIn(lang), style: text.titleMedium),
                         const SizedBox(height: 2),
                         Text(
                           l.procStepsCount(def.steps.length),
@@ -167,40 +180,46 @@ class ProcedureDetailScreen extends StatelessWidget {
         }
         if (def == null) return LgPage(title: l.procTitle, children: const []);
         final text = Theme.of(context).textTheme;
+        final lang = Localizations.localeOf(context).languageCode;
+        final goal = def.goalIn(lang);
+        final indications = def.indicationsIn(lang);
+        final contra = def.contraindicationsIn(lang);
+        final equipment = def.equipmentIn(lang);
+        final checklist = def.checklistIn(lang);
+        final risks = def.risksIn(lang);
         return LgPage(
-          title: def.title,
-          subtitle: def.group,
+          title: def.titleIn(lang),
+          subtitle: def.groupIn(lang),
           children: [
-            _uzbekNote(context),
-            LgNotice(l.procSourceNote, kind: NoticeKind.info),
-            if (def.goal.isNotEmpty) ...[
+            LgNotice(_procNote(l, lang), kind: NoticeKind.info),
+            if (goal.isNotEmpty) ...[
               LgSectionTitle(l.procGoal),
-              Text(def.goal, style: text.bodyLarge),
+              Text(goal, style: text.bodyLarge),
             ],
-            if (def.indications.isNotEmpty) ...[
+            if (indications.isNotEmpty) ...[
               LgSectionTitle(l.procIndications),
-              _Bullets(def.indications),
+              _Bullets(indications),
             ],
-            if (def.contraindications.isNotEmpty) ...[
+            if (contra.isNotEmpty) ...[
               LgSectionTitle(l.procContra),
-              _Bullets(def.contraindications),
+              _Bullets(contra),
             ],
-            if (def.equipment.isNotEmpty) ...[
+            if (equipment.isNotEmpty) ...[
               LgSectionTitle(l.procEquipment),
-              _Bullets(def.equipment),
+              _Bullets(equipment),
             ],
             LgSectionTitle(l.procSteps),
-            LgSteps(def.steps),
-            if (def.checklist.isNotEmpty) ...[
+            LgSteps(def.stepsFor(lang)),
+            if (checklist.isNotEmpty) ...[
               LgSectionTitle(l.procChecklist),
-              _Checklist(key: ValueKey('check-$id'), items: def.checklist),
+              _Checklist(key: ValueKey('check-$id'), items: checklist),
             ],
-            if (def.risks.isNotEmpty) ...[
+            if (risks.isNotEmpty) ...[
               LgSectionTitle(l.procRisks),
-              _Bullets(def.risks),
+              _Bullets(risks),
             ],
             const SizedBox(height: 16),
-            Text(def.source, style: text.bodySmall),
+            Text(localizedSource(def.source, lang), style: text.bodySmall),
             const SizedBox(height: 24),
           ],
         );
@@ -359,7 +378,10 @@ class _GlossaryScreenState extends State<GlossaryScreen> {
                         const SizedBox(height: 4),
                         Text('«${t.definition}»', style: text.bodyLarge),
                         const SizedBox(height: 8),
-                        Text(t.source, style: text.bodySmall),
+                        Text(
+                          localizedSource(t.source, _lang(context)),
+                          style: text.bodySmall,
+                        ),
                       ],
                     ),
                   ),
@@ -485,7 +507,10 @@ class _DmedScreenState extends State<DmedScreen> {
                           ),
                         ),
                         const SizedBox(height: 8),
-                        Text(c.source, style: text.bodySmall),
+                        Text(
+                          localizedSource(c.source, _lang(context)),
+                          style: text.bodySmall,
+                        ),
                       ],
                     ),
                   ),
@@ -552,7 +577,10 @@ class _DmedTodayCardState extends State<DmedTodayCard> {
                         ),
                       ],
                       const SizedBox(height: 8),
-                      Text(byId[id]!.source, style: text.bodySmall),
+                      Text(
+                        localizedSource(byId[id]!.source, _lang(context)),
+                        style: text.bodySmall,
+                      ),
                       const SizedBox(height: 8),
                     ],
                     Align(

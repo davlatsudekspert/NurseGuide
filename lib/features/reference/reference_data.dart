@@ -19,9 +19,14 @@ class ProcedureDef {
     required this.risks,
     required this.source,
     required this.pages,
+    this.tr = const {},
+    this.groupNames = const {},
   });
 
-  factory ProcedureDef.fromJson(Map<String, Object?> j) {
+  factory ProcedureDef.fromJson(
+    Map<String, Object?> j, [
+    Map<String, Map<String, String>> groupTr = const {},
+  ]) {
     List<String> strings(Object? v) => [
       for (final e in (v as List? ?? const [])) e as String,
     ];
@@ -40,8 +45,42 @@ class ProcedureDef {
       risks: strings(j['risks']),
       source: j['source']! as String,
       pages: [for (final p in (j['pages'] as List? ?? const [])) p as int],
+      tr: {
+        for (final e in ((j['tr'] as Map?) ?? const {}).entries)
+          e.key as String: (e.value as Map).cast<String, Object?>(),
+      },
+      groupNames: groupTr[j['group']] ?? const {},
     );
   }
+
+  /// Til bo'yicha tarjimalar (`ru`, `en`): maydonlar faqat tarjima qilinganida
+  /// bo'ladi; qolgani o'zbekcha asl matn.
+  final Map<String, Map<String, Object?>> tr;
+  final Map<String, String> groupNames;
+
+  String titleIn(String lang) => (tr[lang]?['title'] as String?) ?? title;
+  String groupIn(String lang) => groupNames[lang] ?? group;
+
+  /// Qadamlar shu tilda yozilganmi (uz — asl; en hozircha yo'q).
+  bool stepsIn(String lang) =>
+      lang == 'uz' || ((tr[lang]?['steps'] as List?)?.isNotEmpty ?? false);
+
+  String goalIn(String lang) => (tr[lang]?['goal'] as String?) ?? goal;
+
+  List<String> _list(String lang, String key, List<String> base) {
+    final v = tr[lang]?[key];
+    if (v is! List) return base;
+    return [for (final e in v) e is Map ? e['text']! as String : e as String];
+  }
+
+  List<String> indicationsIn(String lang) =>
+      _list(lang, 'indications', indications);
+  List<String> contraindicationsIn(String lang) =>
+      _list(lang, 'contraindications', contraindications);
+  List<String> equipmentIn(String lang) => _list(lang, 'equipment', equipment);
+  List<String> stepsFor(String lang) => _list(lang, 'steps', steps);
+  List<String> checklistIn(String lang) => _list(lang, 'checklist', checklist);
+  List<String> risksIn(String lang) => _list(lang, 'risks', risks);
 
   final String id;
   final String title;
@@ -282,6 +321,10 @@ class ReferenceData {
         (jsonDecode(await bundle.loadString('$_dir/$name')) as Map)
             .cast<String, Object?>();
     final p = await json('procedures.json');
+    final groupTr = {
+      for (final e in ((p['group_tr'] as Map?) ?? const {}).entries)
+        e.key as String: (e.value as Map).cast<String, String>(),
+    };
     final g = await json('glossary.json');
     final l = await json('literature.json');
     final dm = await json('dmed.json');
@@ -316,7 +359,8 @@ class ReferenceData {
       ],
       procedures: [
         for (final e in (p['procedures']! as List))
-          ProcedureDef.fromJson((e as Map).cast<String, Object?>()),
+          if ((e as Map)['hidden'] != true)
+            ProcedureDef.fromJson(e.cast<String, Object?>(), groupTr),
       ],
       glossary: [
         for (final e in (g['terms']! as List))
@@ -324,4 +368,46 @@ class ReferenceData {
       ],
     );
   }
+}
+
+/// Ma'lumot manbasi qatorini interfeys tiliga o'tkazadi: "Manba:", nashr,
+/// shahar va bet raqamlari (kitob nomi va muallif asl holida qoladi).
+String localizedSource(String source, String lang) {
+  if (lang == 'uz') return source;
+  final ru = lang == 'ru';
+  var out = source
+      .replaceFirst('Manba:', ru ? 'Источник:' : 'Source:')
+      .replaceAllMapped(
+        RegExp(r'(\d+)-nashr'),
+        (m) => ru ? '${m[1]}-е изд.' : '${m[1]}th ed.',
+      )
+      .replaceAll('Toshkent', ru ? 'Ташкент' : 'Tashkent')
+      .replaceAllMapped(
+        RegExp(r', ([\d, \-–]+)-bet \(PDF\)'),
+        (m) => ru ? ', стр. ${m[1]} (PDF)' : ', pp. ${m[1]} (PDF)',
+      )
+      .replaceAllMapped(
+        RegExp(r', ([\d, \-–]+)-bet'),
+        (m) => ru ? ', стр. ${m[1]}' : ', p. ${m[1]}',
+      );
+  out = out
+      .replaceAll(
+        'DMED xodimlari uchun video qo‘llanmalar bo‘yicha test',
+        ru
+            ? 'тест по обучающим видео для сотрудников DMED'
+            : 'DMED staff training-video quiz',
+      )
+      .replaceAll(
+        'ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali',
+        ru
+            ? 'таблица «96 ответов на тест», распространяемая под названием ARGOS MED'
+            : 'the “96 test answers” table circulated as ARGOS MED',
+      );
+  out = out.replaceAll(
+    '«Hamshiralik ishi asoslari»',
+    ru
+        ? '«Hamshiralik ishi asoslari» (Основы сестринского дела)'
+        : '«Hamshiralik ishi asoslari» (Fundamentals of Nursing)',
+  );
+  return out;
 }

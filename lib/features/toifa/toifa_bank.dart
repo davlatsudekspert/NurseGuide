@@ -5,18 +5,14 @@ import '../content/content_model.dart';
 import '../learn/exam_question.dart';
 import '../settings/settings_controller.dart';
 
-/// Bo'lim faqat O'zbekiston foydalanuvchilariga: ilova tili o'zbekcha yoki
-/// qurilma mintaqasi (locale countryCode) — UZ. Malaka toifasi ishlayotgan
-/// hamshira uchun — talabaga ko'rsatilmaydi (talaba toifa topshirmaydi):
-/// kunlik savollar ham toifa bankidan olinmaydi.
+/// Malaka toifasi bo'limi hamma tilda ochiq (rasmiy matn o'zbekcha —
+/// “Rasmiy matn — o'zbekcha” belgisi bilan). Talabaga ko'rsatilmaydi
+/// (talaba toifa topshirmaydi); kunlik savollar esa hammaga beriladi.
 bool toifaAvailable(
   AppLanguage language,
   Iterable<Locale> deviceLocales, {
   AppRole? role,
-}) =>
-    role != AppRole.student &&
-    (language == AppLanguage.uz ||
-        deviceLocales.any((l) => l.countryCode?.toUpperCase() == 'UZ'));
+}) => role != AppRole.student;
 
 /// Malaka toifasi: og'zaki savollar ro'yxati toifa bo'yicha beriladi.
 enum ToifaCategory {
@@ -207,6 +203,9 @@ class ToifaTestQuestion implements OfficialKeyQuestion {
 
   @override
   bool hasTranslation(String lang) => translations.containsKey(lang);
+
+  @override
+  String? get sourceNote => source;
 
   @override
   String get officialPrompt => text;

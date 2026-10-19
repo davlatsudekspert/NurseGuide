@@ -72,7 +72,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get welcomeGuestNote =>
-      'Guest mode is just a preview. Tests, practice, daily questions and groups open after you sign up.';
+      'Guest mode is a preview: home, the procedures list, the workplace and the library. Tests, practice, daily questions, procedure details and groups open after you sign up.';
 
   @override
   String get stateLoading => 'Loading…';
@@ -416,7 +416,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get toifaUzbekNotice =>
-      'The official text of the certification questions is Uzbek. With a Russian or English interface an auxiliary translation is shown; the original can be opened at any time. Scoring follows the official Uzbek text and key.';
+      'The official text of the certification questions is in Uzbek. Scoring follows the official Uzbek text and key.';
 
   @override
   String get toifaShowOriginal => 'Show original text';
@@ -1351,7 +1351,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get classesSignInBody =>
-      'Creating, joining and submitting assignments is tied to an account. Reading content stays open without sign-in.';
+      'Creating, joining and submitting assignments is tied to an account.';
 
   @override
   String get classesSignIn => 'Sign in';
@@ -1896,7 +1896,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get classesStudentNote =>
-      'Your teacher sees only your name in the class and your assignment results.';
+      'Your teacher sees only your nickname (or seat number) and your assignment results.';
 
   @override
   String get classesLeave => 'Leave class';
@@ -2292,7 +2292,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get supportUnavailableBody =>
-      'This build has no account, feedback or groups server yet. Once connected, it works right here.';
+      'Could not reach the accounts, feedback and groups server in this version.';
 
   @override
   String get errNetwork =>
@@ -2526,7 +2526,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get privacyBody =>
-      'Guests can browse the home screen, the procedures list, the workplace and the library; settings stay on this device. Tests, practice, daily questions, procedure details, groups and “Feedback & help” need a free account (email code, Google or Apple). Then data is stored on a Cloudflare server (Eastern Europe, outside Uzbekistan): your email only as a hash and a masked form, sign-in method, role, language, last activity time (to the minute); in a group — your nickname or sequence number, test answers and scores; the text of requests and complaints. From Google/Apple only the account identifier and email are used; the token is not stored. A teacher sees only their own group. No ads, analytics or tracking. You can delete your account at any time with the “Delete account” button. Full text: the “Privacy policy” link.';
+      'Guests can browse the home screen, the procedures list, the workplace and the library; settings stay on this device. Tests, practice, daily questions, procedure details, groups and “Feedback & help” need a free account (email code, Google or Apple). Then data is stored on Cloudflare’s network (servers may be outside Uzbekistan): your email only as a hash and a masked form, sign-in method, role, language, last activity time (to the minute); in a group — your nickname or sequence number, test answers and scores; the text of requests and complaints. From Google/Apple only the account identifier and email are used; the token is not stored. A teacher sees only their own group. No ads, analytics or tracking. You can delete your account at any time with the “Delete account” button. Full text: the “Privacy policy” link.';
 
   @override
   String get privacyBodyLocal =>
@@ -2536,7 +2536,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get privacyTerms => 'Terms of use';
 
   @override
-  String get privacyTermsSub => 'Final text to be prepared';
+  String get privacyTermsSub => 'Rules for using the app';
 
   @override
   String get privacyDeleteLocal => 'Delete local data';
@@ -2559,8 +2559,14 @@ class AppLocalizationsEn extends AppLocalizations {
   String get termsTitle => 'Terms of use';
 
   @override
+  String get termsFullText => 'Full terms of use';
+
+  @override
+  String get termsFullTextSub => 'On the nurseguide.nfcstore.uz website';
+
+  @override
   String get termsBody =>
-      'NurseGuide is a free reference and learning app for nurses. By using the app you agree to these terms.\n\n1. Medical limitation. NurseGuide does not diagnose, prescribe treatment or medicines, and does not replace your institution\'s approved procedures, medicine instructions or a physician\'s orders. Every item shows its source; when making decisions, rely on the original source and your institution\'s rules.\n\n2. Account. Some features (groups, tests, support requests) require signing up with email. You are responsible for your account\'s security and for actions taken through it. You can delete your account at any time: Profile → Privacy and data → Delete account.\n\n3. Teacher and student groups. When a student joins a group, the teacher sees their nickname (or seat number) and test results. Teachers use groups for educational purposes only.\n\n4. User content. You are responsible for what you write in support requests. Abuse, illegal content, advertising, other people\'s personal data and non-consensual intimate images are strictly prohibited. Such content is removed, and the offending account may be restricted or deleted.\n\n5. Copyright. The app\'s texts, slides, tests and design belong to the NurseGuide authors; external sources are shown with their own licences. They may not be copied or distributed for commercial purposes.\n\n6. Service. The app is provided “as is”; outages and errors may occur, and we fix them as quickly as we can. We will notify you in the app if these terms change.\n\n7. Privacy. How your data is used is described in the privacy policy: nurseguide.nfcstore.uz/privacy\n\n8. Contact: nurseguide@nfcstore.uz';
+      'NurseGuide is a free reference and learning app for nurses. By using the app you agree to these terms.\n\n1. Medical limitation. NurseGuide does not diagnose, prescribe treatment or medicines, and does not replace your institution\'s approved procedures, medicine instructions or a physician\'s orders. Every item shows its source; when making decisions, rely on the original source and your institution\'s rules.\n\n2. Account. The main features (tests, practice, daily questions, procedure details, groups, support requests) require an account (email code or Apple). You are responsible for your account\'s security and for actions taken through it. You can delete your account at any time: Profile → Privacy and data → Delete account.\n\n3. Teacher and student groups. When a student joins a group, the teacher sees their nickname (or seat number) and test results. Teachers use groups for educational purposes only.\n\n4. User content. You are responsible for what you write in support requests. Abuse, illegal content, advertising, other people\'s personal data and non-consensual intimate images are strictly prohibited. Such content is removed, and the offending account may be restricted or deleted.\n\n5. Copyright. The app\'s texts, slides, tests and design belong to the NurseGuide authors; external sources are shown with their own licences. They may not be copied or distributed for commercial purposes.\n\n6. Service. The app is provided “as is”; outages and errors may occur, and we fix them as quickly as we can. We will notify you in the app if these terms change.\n\n7. Privacy. How your data is used is described in the privacy policy: nurseguide.nfcstore.uz/privacy\n\n8. Contact: nurseguide@nfcstore.uz';
 
   @override
   String get rightsUnknown => 'Distribution rights not confirmed';
@@ -3874,7 +3880,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get complaintFormBody =>
-      'Tell us about objectionable content, a bug or another problem — the NurseGuide team will review it (usually within 24 hours).';
+      'Tell us about objectionable content, a bug or another problem — the NurseGuide team will review it.';
 
   @override
   String get complaintKindLabel => 'Type';
@@ -4738,6 +4744,10 @@ class AppLocalizationsEn extends AppLocalizations {
       'Based on the textbook. Compare with your facility\'s current instruction and Ministry of Health orders.';
 
   @override
+  String get procNoteUzText =>
+      'Step text is in Uzbek. Based on the textbook — compare with your facility’s current instruction and Ministry of Health orders.';
+
+  @override
   String get procNotFound => 'Procedure not found';
 
   @override
@@ -4895,7 +4905,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get accountRequiredBody =>
-      'This section is for registered users only: tests, practice, daily questions, procedures and terms. Signing in with Apple, Google or email is free and takes a minute.';
+      'This section is for registered users only: tests, practice, daily questions, procedure details, the glossary and DMED questions. Signing in with Apple or email is free and takes a minute.';
 
   @override
   String get accountRequiredCta => 'Sign in or sign up';

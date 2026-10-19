@@ -103,6 +103,9 @@ abstract interface class OfficialKeyQuestion implements ExamQuestion {
 
   /// Rasmiy (o'zbekcha) variant matni.
   String officialOption(int index);
+
+  /// Savolning o'z manbasi ("Manba: …" matni; bo'lmasa — null).
+  String? get sourceNote;
 }
 
 extension ExamQuestionKeyX on ExamQuestion {

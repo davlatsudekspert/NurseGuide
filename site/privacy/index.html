@@ -57,13 +57,13 @@ Aloqa / Контакт / Contact: <strong><a href="mailto:nurseguide@nfcstore.uz
 <li><strong>Email manzil.</strong> Kirish kodini yuborish va hisobingizni tanish uchun. Email serverda o‘qiladigan ko‘rinishda saqlanmaydi: faqat qaytarib bo‘lmaydigan imzo (HMAC) va niqoblangan ko‘rinish (masalan, <em>ab***@gmail.com</em>).</li>
 <li><strong>Rol va til:</strong> hamshira, talaba yoki ustoz (o‘zingiz tanlaysiz) hamda ilova tili. “Ustoz” roli o‘zi guruh ochish huquqini bermaydi — ustozlikni server alohida tasdiqlaydi.</li>
 <li><strong>Ixtiyoriy ism yoki taxallus</strong> — faqat guruhda ko‘rinadi. Taxallus yozmasangiz, “Talaba 03” kabi tartib raqami ishlatiladi. Haqiqiy ismingizni yozish shart emas.</li>
-<li><strong>Guruh a’zoligi va natijalar:</strong> qaysi guruhdasiz, ustoz bergan testlardagi javoblaringiz, ballingiz va topshirgan vaqt, ustoz qo‘ygan savol-javob belgilari va baholari.</li>
+<li><strong>Guruh a’zoligi va natijalar:</strong> qaysi guruhdasiz, ustoz bergan testlardagi javoblaringiz, ballingiz va topshirgan vaqt.</li>
 <li><strong>Murojaatlar:</strong> “Taklif va yordam” orqali yozgan matningiz va admin javobi; ilova ichidan yuborgan shikoyatlar.</li>
 <li><strong>Kirish usuli:</strong> Google yoki Apple orqali kirsangiz — shu xizmatning sizga berilgan identifikatori (tokenlar saqlanmaydi).</li>
 <li><strong>Texnik ma’lumot:</strong> sessiya belgisi (faqat imzo ko‘rinishida), ilova platformasi (iOS yoki Android — umumiy statistika uchun), oxirgi faollik kuni va daqiqasi, suiiste’molga qarshi limit hisoblagichlari (IP manzil faqat imzolangan qisqa ko‘rinishda va bir sutkadan ortiq saqlanmaydi).</li>
 </ul>
 <h3 id="uz-3">3. Qurilmada qoladigan ma’lumotlar</h3>
-<p>Quyidagilar faqat qurilmangizda saqlanadi va serverga yuborilmaydi: o‘quv jarayoningiz (ko‘rilgan mavzular, xatcho‘plar, qaydlar), mashq va imtihon-simulyator natijalari, kunlik savol holati, eslatma sozlamalari, til va mavzu sozlamalari. Hisobsiz (mehmon sifatida) bosh sahifa, muolajalar ro‘yxati, ish joyi va kutubxonani ko‘rish mumkin; testlar, mashq, kunlik savollar, guruhlar va murojaatlar uchun bepul hisob kerak.</p>
+<p>Quyidagilar faqat qurilmangizda saqlanadi va serverga yuborilmaydi: o‘quv jarayoningiz (ko‘rilgan mavzular, xatcho‘plar, qaydlar), mashq va imtihon-simulyator natijalari, kunlik savol holati, eslatma sozlamalari, til va mavzu sozlamalari. Hisobsiz (mehmon sifatida) bosh sahifa, manipulyatsiyalar ro‘yxati, ish joyi va kutubxonani ko‘rish mumkin; testlar, mashq, kunlik savollar, guruhlar va murojaatlar uchun bepul hisob kerak.</p>
 <p>Qurilmadagi ma’lumotlar telefon sozlamalaringizga ko‘ra qurilmaning o‘z zaxira nusxasiga (iCloud yoki Google) tushishi mumkin. Sessiya belgisi qurilmaning xavfsiz omborida (iOS Keychain / Android Keystore) saqlanadi.</p>
 <h3 id="uz-4">4. Nima qilmaymiz</h3>
 <ul>
@@ -79,7 +79,7 @@ Aloqa / Контакт / Contact: <strong><a href="mailto:nurseguide@nfcstore.uz
 <p>Ma’lumotlarni faqat xizmatni ishlatish uchun zarur bo‘lgan quyidagi ishlov beruvchilar orqali qayta ishlaymiz:</p>
 <ul>
 <li><strong>Cloudflare, Inc.</strong> — API (Workers), ma’lumotlar bazasi (D1) va ushbu saytni joylashtirish.</li>
-<li><strong>Email yuboruvchi provayder</strong> (Resend yoki Brevo) — faqat bir martalik kodli xatni yetkazish uchun: u sizning email manzilingizni va xat matnini ko‘radi.</li>
+<li><strong>Email yuboruvchi provayder</strong> (Resend) — faqat bir martalik kodli xatni yetkazish uchun: u sizning email manzilingizni va xat matnini ko‘radi.</li>
 <li><strong>Google va Apple</strong> — faqat siz ularning kirish tugmasini tanlasangiz.</li>
 <li><strong>Apple App Store va Google Play</strong> — ilovani tarqatish (ularning o‘z siyosatlari amal qiladi).</li>
 </ul>
@@ -148,7 +148,7 @@ Aloqa / Контакт / Contact: <strong><a href="mailto:nurseguide@nfcstore.uz
 <li><strong>Адрес e-mail.</strong> Чтобы отправить код входа и узнавать ваш аккаунт. Сам адрес в читаемом виде не хранится: только необратимая подпись (HMAC) и маскированная форма (например, <em>ab***@gmail.com</em>).</li>
 <li><strong>Роль и язык:</strong> медсестра/медбрат (hamshira), студент (talaba) или преподаватель (ustoz) — вы выбираете сами — и язык приложения. Роль «преподаватель» сама по себе не даёт права создавать группы: статус преподавателя отдельно подтверждает сервер.</li>
 <li><strong>Необязательное имя или псевдоним</strong> — виден только в группе. Без псевдонима используется порядковый номер вида «Студент 03». Настоящее имя указывать не нужно.</li>
-<li><strong>Членство в группах и результаты:</strong> в каких группах вы состоите, ваши ответы и баллы в тестах преподавателя, время сдачи, отметки и оценки преподавателя за устные ответы.</li>
+<li><strong>Членство в группах и результаты:</strong> в каких группах вы состоите, ваши ответы и баллы в тестах преподавателя, время сдачи.</li>
 <li><strong>Обращения:</strong> текст, который вы пишете в «Предложения и помощь», и ответ администратора; жалобы, отправленные из приложения.</li>
 <li><strong>Способ входа:</strong> при входе через Google или Apple — выданный этим сервисом идентификатор (токены не сохраняются).</li>
 <li><strong>Технические данные:</strong> метка сессии (только в виде подписи), платформа приложения (iOS или Android — для общей статистики), день и минута последней активности, счётчики лимитов против злоупотреблений (IP-адрес — только в виде короткой подписи и не дольше суток).</li>
@@ -170,7 +170,7 @@ Aloqa / Контакт / Contact: <strong><a href="mailto:nurseguide@nfcstore.uz
 <p>Мы обрабатываем данные только через следующих исполнителей, необходимых для работы сервиса:</p>
 <ul>
 <li><strong>Cloudflare, Inc.</strong> — API (Workers), база данных (D1) и размещение этого сайта.</li>
-<li><strong>Провайдер отправки e-mail</strong> (Resend или Brevo) — только чтобы доставить письмо с одноразовым кодом: он видит ваш адрес и текст письма.</li>
+<li><strong>Провайдер отправки e-mail</strong> (Resend) — только чтобы доставить письмо с одноразовым кодом: он видит ваш адрес и текст письма.</li>
 <li><strong>Google и Apple</strong> — только если вы выбрали вход через них.</li>
 <li><strong>Apple App Store и Google Play</strong> — распространение приложения (действуют их собственные политики).</li>
 </ul>
@@ -239,7 +239,7 @@ Aloqa / Контакт / Contact: <strong><a href="mailto:nurseguide@nfcstore.uz
 <li><strong>E-mail address.</strong> To send your sign-in code and recognise your account. The address itself is not stored in readable form: only an irreversible signature (HMAC) and a masked form (for example <em>ab***@gmail.com</em>).</li>
 <li><strong>Role and language:</strong> nurse (hamshira), student (talaba) or teacher (ustoz) — your own choice — and the app language. The “teacher” role alone does not allow creating groups: teacher status is confirmed separately by the server.</li>
 <li><strong>Optional name or nickname</strong> — visible only inside a group. Without a nickname a seat number such as “Student 03” is used. You do not have to enter your real name.</li>
-<li><strong>Group membership and results:</strong> which groups you belong to, your answers and scores in the teacher’s tests, submission time, and the teacher’s marks and grades for oral answers.</li>
+<li><strong>Group membership and results:</strong> which groups you belong to, your answers and scores in the teacher’s tests, and submission time.</li>
 <li><strong>Requests:</strong> the text you write in “Suggestions and help” and the administrator’s reply; reports sent from inside the app.</li>
 <li><strong>Sign-in method:</strong> if you sign in with Google or Apple, the identifier that service issues to you (tokens are not stored).</li>
 <li><strong>Technical data:</strong> a session marker (stored only as a signature), the app platform (iOS or Android — for overall statistics), the day and minute of last activity, and abuse-prevention rate counters (an IP address only as a short signature and for no longer than one day).</li>
@@ -261,7 +261,7 @@ Aloqa / Контакт / Contact: <strong><a href="mailto:nurseguide@nfcstore.uz
 <p>We process data only through the following processors that are necessary to run the service:</p>
 <ul>
 <li><strong>Cloudflare, Inc.</strong> — the API (Workers), the database (D1) and hosting of this website.</li>
-<li><strong>E-mail delivery provider</strong> (Resend or Brevo) — only to deliver the one-time-code message: it sees your address and the message text.</li>
+<li><strong>E-mail delivery provider</strong> (Resend) — only to deliver the one-time-code message: it sees your address and the message text.</li>
 <li><strong>Google and Apple</strong> — only if you choose to sign in with them.</li>
 <li><strong>Apple App Store and Google Play</strong> — app distribution (their own policies apply).</li>
 </ul>

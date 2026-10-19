@@ -74,18 +74,20 @@ class LearnScreen extends StatelessWidget {
           ?generalTest,
           const SizedBox(height: 12),
         ],
-        LgHeroCard(
-          image: kHeroImage,
-          tag: l.learnHeroTag,
-          title: l.learnHeroTitle,
-          body: l.learnHeroBody,
-          action: LgButton(
-            label: l.learnHeroCta,
-            // Shu tab ichida — mashq mavzulari. Boshqa tabga o'tilsa, o'sha
-            // tabda oxirgi ochiq sahifa (masalan, ochiq imtihon) chiqardi.
-            onPressed: () => context.push('/learn/quiz'),
+        // Mashq mavzulari kontent paketidan: savollar bo'lmasa — yashirin.
+        if (quizCount > 0)
+          LgHeroCard(
+            image: kHeroImage,
+            tag: l.learnHeroTag,
+            title: l.learnHeroTitle,
+            body: l.learnHeroBody,
+            action: LgButton(
+              label: l.learnHeroCta,
+              // Shu tab ichida — mashq mavzulari. Boshqa tabga o'tilsa, o'sha
+              // tabda oxirgi ochiq sahifa (masalan, ochiq imtihon) chiqardi.
+              onPressed: () => context.push('/learn/quiz'),
+            ),
           ),
-        ),
         // Har kuni qaytish uchun: 5 ta savol va ketma-ketlik.
         const DailyCard(),
         // Guruhda berilgan (hali topshirilmagan) testlar — muddati bilan.
@@ -116,32 +118,39 @@ class LearnScreen extends StatelessWidget {
           },
         ),
         if (!classesFirst) ...[classes, ?generalTest],
-        // Ma'ruza rejimi: tayyor taqdimotlar katalogi (bo'sh bo'lsa — bo'sh
-        // holat sahifaning o'zida).
-        LgRow(
-          title: l.lectureListTitle,
-          subtitle: l.lectureListSub,
-          icon: Icons.slideshow_outlined,
-          onTap: () => context.push('/learn/lecture'),
-        ),
-        LgRow(
-          title: l.learnQuiz,
-          subtitle: l.learnQuizSub(quizCount),
-          icon: Icons.quiz_outlined,
-          onTap: () => context.push('/learn/quiz'),
-        ),
-        LgRow(
-          title: l.learnExam,
-          // Tugallanmagan imtihon bo'lsa — javoblar va qolgan vaqt.
-          subtitle: examRowSubtitle(context, l),
-          icon: Icons.timer_outlined,
-          onTap: () => context.push('/learn/exam'),
-          divider: false,
-        ),
+        // Ma'ruza rejimi: taqdimotlar katalogi tayyor bo'lguncha yashirin
+        // ([kLecturesEnabled]); mashq va imtihon — paketda savollar bo'lsa.
+        if (kLecturesEnabled)
+          LgRow(
+            title: l.lectureListTitle,
+            subtitle: l.lectureListSub,
+            icon: Icons.slideshow_outlined,
+            onTap: () => context.push('/learn/lecture'),
+          ),
+        if (quizCount > 0) ...[
+          LgRow(
+            title: l.learnQuiz,
+            subtitle: l.learnQuizSub(quizCount),
+            icon: Icons.quiz_outlined,
+            onTap: () => context.push('/learn/quiz'),
+          ),
+          LgRow(
+            title: l.learnExam,
+            // Tugallanmagan imtihon bo'lsa — javoblar va qolgan vaqt.
+            subtitle: examRowSubtitle(context, l),
+            icon: Icons.timer_outlined,
+            onTap: () => context.push('/learn/exam'),
+            divider: false,
+          ),
+        ],
       ],
     );
   }
 }
+
+/// Ma'ruza taqdimotlari katalogi (assets/lectures) bo'sh — bo'lim kod
+/// jihatidan tayyor, lekin tayyor taqdimotlar kelguncha ko'rsatilmaydi.
+const kLecturesEnabled = false;
 
 /// Mashq to'plami: mavzu (guruh), umumiy (mavzusiz) savollar yoki aralash
 /// tasodifiy savollar.

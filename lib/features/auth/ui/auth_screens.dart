@@ -469,6 +469,13 @@ class TermsScreen extends StatelessWidget {
           subtitle: l.contactPrivacyNote,
           icon: Icons.shield_outlined,
           onTap: () => openExternalLink(context, Contact.privacyPolicyUrl),
+        ),
+        LgRow(
+          key: const ValueKey('terms-full-link'),
+          title: l.termsFullText,
+          subtitle: l.termsFullTextSub,
+          icon: Icons.description_outlined,
+          onTap: () => openExternalLink(context, Contact.termsUrl),
           divider: false,
         ),
       ],

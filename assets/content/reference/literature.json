@@ -282,6 +282,16 @@
    "match": [
     "DMED xodimlari"
    ]
+  },
+  {
+   "id": "argos",
+   "group": "other",
+   "author": "ARGOS MED nomi bilan tarqalgan jadval",
+   "title": "DMED va kompyuter savodxonligi bo‘yicha 96 ta test javobi",
+   "publisher": "Telegram (norasmiy to‘plam)",
+   "match": [
+    "ARGOS MED"
+   ]
   }
  ]
 }

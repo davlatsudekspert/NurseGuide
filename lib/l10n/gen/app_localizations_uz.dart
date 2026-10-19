@@ -4590,6 +4590,19 @@ class AppLocalizationsUz extends AppLocalizations {
   String get workDirPatronage => 'Patronaj';
 
   @override
+  String get workDirDmed => 'DMED';
+
+  @override
+  String get workTodayDmed =>
+      'Bugun: DMED bo‘yicha 5 ta savol-javob; kunlik test — umumiy hamshiralik savollari';
+
+  @override
+  String get dmedTodayTitle => 'Bugungi DMED savollari';
+
+  @override
+  String get dmedAll => 'Barcha DMED savol-javoblari';
+
+  @override
   String get workTodayOwn => 'Bugun: o‘z yo‘nalishingiz bo‘yicha savollar';
 
   @override

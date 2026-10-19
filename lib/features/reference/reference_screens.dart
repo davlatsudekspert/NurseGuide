@@ -9,6 +9,7 @@ import '../../design/glass_art.dart';
 import '../../design/tokens.dart';
 import '../../design/widgets/lg_widgets.dart';
 import '../../l10n/gen/app_localizations.dart';
+import '../daily/daily_picker.dart';
 import 'reference_data.dart';
 
 AssetBundle _bundle(BuildContext context) =>
@@ -458,6 +459,16 @@ class _DmedScreenState extends State<DmedScreen> {
                         const SizedBox(height: 8),
                         if (_open.contains(c.id)) ...[
                           Text(c.answer, style: text.bodyLarge),
+                          if (c.note != null) ...[
+                            const SizedBox(height: 8),
+                            Text(
+                              c.note!,
+                              key: ValueKey('dmed-note-${c.id}'),
+                              style: text.bodySmall!.copyWith(
+                                color: LgPalette.of(context).amber,
+                              ),
+                            ),
+                          ],
                           const SizedBox(height: 8),
                         ],
                         Align(
@@ -483,6 +494,88 @@ class _DmedScreenState extends State<DmedScreen> {
           },
         ),
       ],
+    );
+  }
+}
+
+/// Ish joyi: DMED yo'nalishi tanlanganda bugungi 5 ta savol-javob (kunga
+/// qarab aylanadi); javob bosilganda ochiladi.
+class DmedTodayCard extends StatefulWidget {
+  const DmedTodayCard({super.key});
+
+  @override
+  State<DmedTodayCard> createState() => _DmedTodayCardState();
+}
+
+class _DmedTodayCardState extends State<DmedTodayCard> {
+  final _open = <String>{};
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context);
+    final text = Theme.of(context).textTheme;
+    final day = context.services.daily.today;
+    return FutureBuilder<ReferenceData>(
+      future: ReferenceData.load(_bundle(context)),
+      builder: (context, snap) {
+        final data = snap.data;
+        if (data == null) return const SizedBox(height: 24);
+        final byId = {for (final c in data.dmed) c.id: c};
+        final ids = pickDaily(
+          priority: byId.keys,
+          others: const [],
+          day: day,
+          seed: 17,
+        );
+        return Column(
+          crossAxisAlignment: CrossAxisAlignment.stretch,
+          children: [
+            LgSectionTitle(l.dmedTodayTitle),
+            for (final id in ids)
+              LgPanel(
+                key: ValueKey('dmed-today-$id'),
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    Text(byId[id]!.question, style: text.titleMedium),
+                    const SizedBox(height: 8),
+                    if (_open.contains(id)) ...[
+                      Text(byId[id]!.answer, style: text.bodyLarge),
+                      if (byId[id]!.note != null) ...[
+                        const SizedBox(height: 8),
+                        Text(
+                          byId[id]!.note!,
+                          style: text.bodySmall!.copyWith(
+                            color: LgPalette.of(context).amber,
+                          ),
+                        ),
+                      ],
+                      const SizedBox(height: 8),
+                      Text(byId[id]!.source, style: text.bodySmall),
+                      const SizedBox(height: 8),
+                    ],
+                    Align(
+                      alignment: Alignment.centerLeft,
+                      child: LgButton.secondary(
+                        key: ValueKey('dmed-today-toggle-$id'),
+                        label: _open.contains(id) ? l.dmedHide : l.dmedShow,
+                        onPressed: () => setState(() {
+                          if (!_open.remove(id)) _open.add(id);
+                        }),
+                      ),
+                    ),
+                  ],
+                ),
+              ),
+            LgButton.secondary(
+              key: const ValueKey('dmed-all'),
+              label: l.dmedAll,
+              icon: Icons.local_hospital_outlined,
+              onPressed: () => context.push('/library/dmed'),
+            ),
+          ],
+        );
+      },
     );
   }
 }

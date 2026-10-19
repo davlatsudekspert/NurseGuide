@@ -4675,6 +4675,19 @@ class AppLocalizationsEn extends AppLocalizations {
   String get workDirPatronage => 'Patronage';
 
   @override
+  String get workDirDmed => 'DMED';
+
+  @override
+  String get workTodayDmed =>
+      'Today: 5 DMED questions and answers; the daily test uses general nursing questions';
+
+  @override
+  String get dmedTodayTitle => 'DMED questions of the day';
+
+  @override
+  String get dmedAll => 'All DMED questions and answers';
+
+  @override
   String get workTodayOwn => 'Today: questions from your work area';
 
   @override

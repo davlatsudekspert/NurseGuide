@@ -7960,6 +7960,30 @@ abstract class AppLocalizations {
   /// **'Patronage'**
   String get workDirPatronage;
 
+  /// No description provided for @workDirDmed.
+  ///
+  /// In en, this message translates to:
+  /// **'DMED'**
+  String get workDirDmed;
+
+  /// No description provided for @workTodayDmed.
+  ///
+  /// In en, this message translates to:
+  /// **'Today: 5 DMED questions and answers; the daily test uses general nursing questions'**
+  String get workTodayDmed;
+
+  /// No description provided for @dmedTodayTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'DMED questions of the day'**
+  String get dmedTodayTitle;
+
+  /// No description provided for @dmedAll.
+  ///
+  /// In en, this message translates to:
+  /// **'All DMED questions and answers'**
+  String get dmedAll;
+
   /// No description provided for @workTodayOwn.
   ///
   /// In en, this message translates to:

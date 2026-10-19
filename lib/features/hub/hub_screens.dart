@@ -6,6 +6,7 @@ import '../../app/widgets/lg_page.dart';
 import '../../design/widgets/lg_widgets.dart';
 import '../../l10n/gen/app_localizations.dart';
 import '../daily/daily_picker.dart';
+import '../reference/reference_screens.dart' show DmedTodayCard;
 import '../daily/daily_screens.dart' show DailyCard;
 import '../daily/daily_streak.dart' show dateOfDay;
 import '../settings/settings_controller.dart' show WorkDirection;
@@ -22,6 +23,7 @@ class WorkplaceScreen extends StatelessWidget {
         WorkDirection.nursing => l.workDirNursing,
         WorkDirection.higher => l.workDirHigher,
         WorkDirection.patronage => l.workDirPatronage,
+        WorkDirection.dmed => l.workDirDmed,
       };
 
   @override
@@ -61,10 +63,12 @@ class WorkplaceScreen extends StatelessWidget {
             ),
             if (direction != null)
               LgNotice(switch (kind) {
+                _ when direction == WorkDirection.dmed => l.workTodayDmed,
                 DailyKind.own => l.workTodayOwn,
                 DailyKind.general => l.workTodayGeneral,
                 DailyKind.mixed => l.workTodayMixed,
               }, kind: NoticeKind.info),
+            if (direction == WorkDirection.dmed) const DmedTodayCard(),
             const DailyCard(),
             Padding(
               padding: const EdgeInsets.only(top: 4),

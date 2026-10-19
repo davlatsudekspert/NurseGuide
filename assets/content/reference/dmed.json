@@ -49,6 +49,30 @@
   {
    "id": "jarrohlik",
    "title": "Jarrohlik"
+  },
+  {
+   "id": "tizim",
+   "title": "DMED haqida umumiy"
+  },
+  {
+   "id": "kompyuter",
+   "title": "Kompyuter va qurilmalar"
+  },
+  {
+   "id": "word",
+   "title": "Microsoft Word"
+  },
+  {
+   "id": "excel",
+   "title": "Microsoft Excel"
+  },
+  {
+   "id": "ppt",
+   "title": "PowerPoint"
+  },
+  {
+   "id": "internet",
+   "title": "Internet"
   }
  ],
  "cards": [
@@ -64,7 +88,8 @@
    "group": "qabul",
    "q": "Takroriy qabulga yozilish uchun qanday ma’lumotlar talab qilinadi?",
    "a": "FaceID / MedID / bemorning FIO si.",
-   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)",
+   "note": "ARGOS MED jadvalida bu savolga «MyID / Med ID / FIO» deb javob berilgan."
   },
   {
    "id": "dmed-004",
@@ -85,7 +110,8 @@
    "group": "qabul",
    "q": "Norezident qidiruvi qanday amalga oshiriladi?",
    "a": "FIO yoki medkarta bo‘yicha.",
-   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)",
+   "note": "ARGOS MED jadvalida norezidentni qidirish «pasport ma’lumotlari bo‘yicha» deb berilgan."
   },
   {
    "id": "dmed-007",
@@ -148,7 +174,8 @@
    "group": "retsept",
    "q": "Shifokorlarning qaysilari kompensatsiya (reimbursatsiya) retseptlarini yoza oladi?",
    "a": "Oila shifokorlari.",
-   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)",
+   "note": "ARGOS MED jadvalida «reimbursatsiya retseptlarini barcha shifokorlar yozadi» deb berilgan: manbalar bir-biriga mos kelmaydi, tizimdagi amaldagi sozlamani tekshiring."
   },
   {
    "id": "dmed-016",
@@ -316,7 +343,8 @@
    "group": "statsionar",
    "q": "Yo‘naltirmasiz bemorni gospitalizatsiya qilishda uni qaysi hujjatlar bo‘yicha topish mumkin?",
    "a": "PINFL, metrika, pasport seriyasi va raqami, MedID.",
-   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+   "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)",
+   "note": "ARGOS MED jadvalida «yo‘naltirishisiz bemorni statsionarga rasmiylashtirish mumkin emas» deb berilgan: manbalar bir-biriga mos kelmaydi, tizimdagi amaldagi tartibni tekshiring."
   },
   {
    "id": "dmed-045",
@@ -541,6 +569,569 @@
    "q": "Shifokorning aloqa raqamini qayerga kiritish kerak?",
    "a": "Maxsus maydonga.",
    "source": "Manba: DMED xodimlari uchun video qo‘llanmalar bo‘yicha test (Telegram, 2025-06-17)"
+  },
+  {
+   "id": "dmed-a001",
+   "group": "tizim",
+   "q": "DMED tizimida avtorizatsiya qanday amalga oshiriladi?",
+   "a": "JSHSHIR va himoya kodi orqali.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a002",
+   "group": "tizim",
+   "q": "DMED tizimini joriy etishning asosiy vazifalari qanday?",
+   "a": "Elektron tibbiy hujjatlarni joriy etish; muassasa byudjetini nazorat qilish; dori vositalarini hisobga olish.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a003",
+   "group": "tizim",
+   "q": "DMED qo‘llab-quvvatlash xizmati bilan qanday usullar orqali bog‘lanish mumkin?",
+   "a": "Telefon raqami, Telegram bot va chat orqali.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a004",
+   "group": "tizim",
+   "q": "Bemor qaysi mobil ilova orqali shifokorga yozilishi mumkin?",
+   "a": "DMED.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a005",
+   "group": "tizim",
+   "q": "DMED tizimida bemorning yagona identifikatori (Med ID) qanday beriladi?",
+   "a": "Med ID tizim tomonidan avtomatik ravishda beriladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a006",
+   "group": "tizim",
+   "q": "Bemor o‘zini poliklinikaga mustaqil ravishda biriktirishi mumkinmi?",
+   "a": "Ha, mobil ilova yoki MyGov orqali.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a007",
+   "group": "tizim",
+   "q": "DMED tizimida rasmiy hujjat aylanishi reestri sifatida qaysi internetmanba ishlatiladi?",
+   "a": "docs.dmed.uz",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a008",
+   "group": "tizim",
+   "q": "DMED tizimida qanday maxfiylik turi mavjud?",
+   "a": "Shifokor darajasidagi maxfiylik.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a009",
+   "group": "qabul",
+   "q": "Bemor birinchi marta DTMga murojaat qilganda qabulga yozish qanday amalga oshiriladi?",
+   "a": "Pasport ma’lumotlari / tug‘ilganlik haqidagi guvohnoma bo‘yicha.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a010",
+   "group": "qabul",
+   "q": "Bemorni qayta qabulga yozish uchun qanday ma’lumotlar zarur?",
+   "a": "MyID / Med ID / bemorning FIO si.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)",
+   "note": "Video qo‘llanma testida bu savolga «FaceID / MedID / FIO» deb javob berilgan."
+  },
+  {
+   "id": "dmed-a011",
+   "group": "qabul",
+   "q": "Birinchi tashrif paytida bemorning rasmini qanday to‘g‘ri olish kerak?",
+   "a": "Bemorni topib, «Yangilash» tugmasini bosish, keyin bemorni fotoga olish.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a013",
+   "group": "qabul",
+   "q": "Tizimda xorijiy bemor (norezident)ni qidirish qanday ma’lumotlar bo‘yicha amalga oshiriladi?",
+   "a": "Pasport ma’lumotlari bo‘yicha.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)",
+   "note": "Video qo‘llanma testida bu savolga «FIO yoki medkarta bo‘yicha» deb javob berilgan."
+  },
+  {
+   "id": "dmed-a016",
+   "group": "retsept",
+   "q": "Reimbursatsiya retseptida «Tabletkalar» chiqarish shakli bo‘lgan preparatni bemorga qancha miqdorda yozish mumkin?",
+   "a": "30 yoki 60 dona miqdorida.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a017",
+   "group": "qabul",
+   "q": "Shifokor yoki amaliyotchi hamshira bemorni ko‘rigini boshlash uchun qanday harakatlarni qilishi kerak?",
+   "a": "«Qabullar — Aktiv» bo‘limida bemorni topish, uni qabulga chaqirish, qabulni boshlash, yangi murojaat epizodini yaratish yoki eskisini davom ettirish.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a018",
+   "group": "qabul",
+   "q": "Shifokor boshqa mutaxassisga yozilgan bemorni qabul qila oladimi?",
+   "a": "Ha.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a019",
+   "group": "qabul",
+   "q": "Bemorni vaqtga emas, balki jonli navbatga yozish mumkinmi? Masalan, vaqtga barcha yozuvlar band bo‘lsa.",
+   "a": "Ha, bemorni jonli navbatga yozish mumkin, lekin faqat joriy sanaga.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a020",
+   "group": "qabul",
+   "q": "Shifokor ko‘rik paytida bemorni boshqa mutaxassisga yo‘naltira oladimi?",
+   "a": "Ha, oladi, murojaat epizodidagi «+Uchrashuv» tugmasi orqali.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a021",
+   "group": "statsionar",
+   "q": "Qanday davolash turi bilan yo‘naltirish uchun direktor tasdig‘i kerak emas?",
+   "a": "Ambulator.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a022",
+   "group": "statsionar",
+   "q": "Gospitalizatsiya yo‘naltirishisiz bemorni statsionarga rasmiylashtirish mumkinmi?",
+   "a": "Yo‘q, statsionarga rasmiylashtirish uchun mutlaqo yo‘naltirish zarur.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)",
+   "note": "Video qo‘llanma testida «yo‘naltirmasiz bemorni gospitalizatsiya qilishda» uni topish hujjatlari (PINFL, metrika, pasport, MedID) sanalgan: manbalar bir-biriga mos kelmaydi, tizimdagi amaldagi tartibni tekshiring."
+  },
+  {
+   "id": "dmed-a023",
+   "group": "qabul",
+   "q": "Bemor profilida qanday ma’lumotlarni ko‘rish mumkin?",
+   "a": "Shaxsiy ma’lumotlar / pasport ma’lumotlari / manzil / boshqa; ish haqida / aloqa ma’lumotlari / hujjatlar; biriktirish / so‘rovnomalar / qarindoshlar / o‘lim haqida ma’lumot.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a024",
+   "group": "qabul",
+   "q": "O‘tkazilgan skrining ma’lumotlarini taxrirlash mumkinmi?",
+   "a": "Ha, lekin faqat to‘ldirgandan keyin 24 soat ichida.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a025",
+   "group": "qabul",
+   "q": "Bemorning antropometrik ma’lumotlari qayerga kiritiladi?",
+   "a": "Murojaat epizodidagi «Antropometriya» bo‘limida «Yangilash» tugmasi orqali.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a029",
+   "group": "kurs",
+   "q": "Bemorga bir vaqtning o‘zida bir nechta analizni tayinlash mumkinmi?",
+   "a": "Ha, turli guruhlardan bir nechta analizni birdan tanlash mumkin.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a030",
+   "group": "kurs",
+   "q": "Fizioterapevtik kursni qo‘shish uchun nima qilish kerak?",
+   "a": "Yaratilgan davolash kursi sahifasida «Davolash rejasini qo‘shish» tugmasini bosish va «Fizioterapiya»ni tanlash.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a031",
+   "group": "qabul",
+   "q": "Bemorning tibbiy kartasidagi «Joriy ko‘rik» bo‘limida «Homiladorlik (Hisobga olish)» murojaat epizodi avtomatik yaratilishi uchun nima qilish kerak?",
+   "a": "Murojaat epizodida O00–O99 guruhidan (homiladorlik, tug‘ish va tug‘ishdan keyingi davr) diagnoz tanlash.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a032",
+   "group": "kurs",
+   "q": "Biksni qayta sterilizatsiyaga yuborish mumkinmi?",
+   "a": "Ha, mumkin.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a035",
+   "group": "rollar",
+   "q": "Bitta xodimga bir nechta rolni biriktirish mumkinmi?",
+   "a": "Ha.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a037",
+   "group": "hujjat",
+   "q": "Tizimda avtomatik shakllantirilgan jurnallardagi ma’lumotlar qancha tezlikda yangilanadi?",
+   "a": "Ma’lumot tizimga kiritilgandan so‘ng darhol yangilanadi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a040",
+   "group": "kurs",
+   "q": "Davolash kursi paytida preparatga allergik reaksiya ko‘rsatilgandan so‘ng amalni bekor qilish mumkinmi?",
+   "a": "Ha, mumkin.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a041",
+   "group": "statsionar",
+   "q": "Agar shifokor murojaat epizodidan bemorni gospitalizatsiyaga yo‘naltirsa, nimani qilmaganda u gospitalizatsiya yo‘naltirishini yarata olmaydi?",
+   "a": "Murojaat epizodida MKB-10 bo‘yicha hech bo‘lmaganda bitta diagnoz qo‘ymaganda.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a042",
+   "group": "statsionar",
+   "q": "Yo‘naltirish yaratishda bir nechta gospitalizatsiya maqsadini tanlash mumkinmi?",
+   "a": "Ha, mumkin.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a044",
+   "group": "statsionar",
+   "q": "Shifokor qaysi statsionar ko‘rigini faqat bir marta o‘tkazishi mumkin?",
+   "a": "Birlamchi ko‘rik.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a047",
+   "group": "statsionar",
+   "q": "Bemorni statsionarning boshqa bo‘limiga ko‘chirish mumkinmi?",
+   "a": "Ha, mumkin, agar boshqa bo‘limda bo‘sh palatalar bo‘lsa.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a049",
+   "group": "ombor",
+   "q": "Hamshira qaysi omborning tovar qoldiqlarini ko‘rib chiqishga ruxsati bor?",
+   "a": "Ombor mudiri uni biriktirgan omborning tovar qoldiqlari.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a051",
+   "group": "kompyuter",
+   "q": "Quyidagi qurilmalarning qaysi biri yordamida Internetga ulanish mumkin?",
+   "a": "Modem yoki Wi-Fi router yordamida Internetga ulaniladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a052",
+   "group": "kompyuter",
+   "q": "Kursorni harakatlantirish uchun qaysi qurilma ishlatiladi?",
+   "a": "Sichqoncha (mouse) kursorni harakatlantirish uchun ishlatiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a053",
+   "group": "kompyuter",
+   "q": "Skaner nima?",
+   "a": "Skaner — qog‘ozdagi ma’lumotni (rasm, matn) kompyuterga o‘tkazuvchi qurilma.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a054",
+   "group": "kompyuter",
+   "q": "Printer qaysi turga kiradi?",
+   "a": "Printer chiqish (output) qurilmalari turiga kiradi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a055",
+   "group": "kompyuter",
+   "q": "Modem vazifasi nima?",
+   "a": "Modem — Internet signalini qabul qilish va yuborish vazifasini bajaradi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a056",
+   "group": "kompyuter",
+   "q": "Operatsion tizimning asosiy vazifalaridan biri nima?",
+   "a": "Operatsion tizim kompyuter resurslarini boshqaradi va dasturlar ishlashi uchun muhit yaratadi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a057",
+   "group": "kompyuter",
+   "q": "Operatsion tizimlar turlariga misol keltiring.",
+   "a": "Operatsion tizimlar: Windows, Linux, MacOS, Android, iOS.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a058",
+   "group": "word",
+   "q": "Microsoft Word dasturi nima uchun ishlatiladi?",
+   "a": "Microsoft Word matnli hujjatlar yaratish va tahrirlash uchun ishlatiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a059",
+   "group": "word",
+   "q": "Wordda fayl kengaytmasi qanday?",
+   "a": "Word fayl kengaytmasi: .doc yoki .docx.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a060",
+   "group": "word",
+   "q": "Word dasturida yangi hujjat qanday yaratiladi?",
+   "a": "Wordda File → New menyusi orqali yangi hujjat yaratiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a061",
+   "group": "word",
+   "q": "Ctrl + B tugmalari nima vazifa bajaradi?",
+   "a": "Ctrl + B — matnni qalin (Bold) qilish.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a062",
+   "group": "word",
+   "q": "Wordda shrift (font) o‘lchami qayerdan sozlanadi?",
+   "a": "Home menyusidagi Font Size oynasidan shrift o‘lchami sozlanadi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a063",
+   "group": "word",
+   "q": "Sahifa raqamini qanday qo‘shish mumkin?",
+   "a": "Insert → Page Number orqali sahifa raqami qo‘shiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a064",
+   "group": "word",
+   "q": "Ctrl + S tugmalari nima uchun ishlatiladi?",
+   "a": "Ctrl + S — hujjatni saqlash uchun ishlatiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a065",
+   "group": "word",
+   "q": "Wordda hujjatga rasmni qanday qo‘shiladi?",
+   "a": "Insert → Pictures orqali rasm qo‘shiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a066",
+   "group": "word",
+   "q": "Ctrl + C va Ctrl + V nima vazifani bajaradi?",
+   "a": "Ctrl + C — nusxa olish, Ctrl + V — qo‘yish (paste) vazifasini bajaradi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a067",
+   "group": "word",
+   "q": "Word hujjatini qanday chop etiladi?",
+   "a": "File → Print yoki Ctrl + P tugmalari bilan hujjat chop etiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a068",
+   "group": "word",
+   "q": "Wordda jadval (table) qanday qo‘shiladi?",
+   "a": "Insert → Table orqali jadval qo‘shiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a069",
+   "group": "word",
+   "q": "Hujjatni qanday saqlash mumkin?",
+   "a": "File → Save yoki Ctrl + S bilan saqlanadi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a070",
+   "group": "word",
+   "q": "Qaysi menyuda «Bold», «Italic», «Underline» opsiyalari mavjud?",
+   "a": "Home menyusida Bold, Italic, Underline opsiyalari mavjud.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a071",
+   "group": "word",
+   "q": "Ctrl + Z qanday vazifa bajaradi?",
+   "a": "Ctrl + Z — oxirgi harakatni bekor qiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a072",
+   "group": "word",
+   "q": "Qanday qilib hujjatni parol bilan himoyalash mumkin?",
+   "a": "File → Info → Protect Document → Encrypt with Password orqali parol qo‘yiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a073",
+   "group": "excel",
+   "q": "Excel dasturi asosan nima uchun ishlatiladi?",
+   "a": "Excel — asosan jadval asosida hisob-kitoblar va tahlillar uchun ishlatiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a074",
+   "group": "excel",
+   "q": "Excel fayllarining kengaytmasi nima?",
+   "a": "Excel fayl kengaytmasi: .xls yoki .xlsx.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a075",
+   "group": "excel",
+   "q": "Excelda formulani kiritish qanday belgidan boshlanadi?",
+   "a": "Excelda formula = belgisi bilan boshlanadi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a076",
+   "group": "excel",
+   "q": "Qanday funksiyalar asosiy matematik hisob-kitoblar uchun ishlatiladi?",
+   "a": "SUM, AVERAGE, MIN, MAX, COUNT kabi funksiyalar ishlatiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a077",
+   "group": "excel",
+   "q": "Excelda ustunlar qanday belgilanadi?",
+   "a": "Ustunlar harflar (A, B, C...) bilan belgilanadi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a078",
+   "group": "excel",
+   "q": "Excelda jadvalni qanday saqlash mumkin?",
+   "a": "File → Save yoki Ctrl + S orqali saqlanadi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a079",
+   "group": "excel",
+   "q": "Excelda Autosum tugmasi nima uchun kerak?",
+   "a": "Autosum — tezda yig‘indini hisoblash uchun ishlatiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a080",
+   "group": "excel",
+   "q": "Excelda katakdagi ma’lumotni nusxalash uchun qaysi tugmalar ishlatiladi?",
+   "a": "Ctrl + C (nusxa olish), Ctrl + V (qo‘yish) tugmalari.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a081",
+   "group": "excel",
+   "q": "Excelda ma’lumotlarni filtrlash qayerda amalga oshiriladi?",
+   "a": "Data → Filter menyusi orqali ma’lumotlar filtrlab olinadi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a082",
+   "group": "excel",
+   "q": "Excelda ustun yoki qatorni yashirish qayerdan amalga oshiriladi?",
+   "a": "Ustun yoki qator ustiga o‘ng tugma → Hide tanlanadi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a083",
+   "group": "ppt",
+   "q": "PowerPoint dasturining asosiy vazifasi nima?",
+   "a": "PowerPoint — taqdimotlar (slaydlar) yaratish uchun ishlatiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a084",
+   "group": "ppt",
+   "q": "PowerPoint fayllarining kengaytmasi nima?",
+   "a": "PowerPoint fayl kengaytmasi: .ppt yoki .pptx.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a085",
+   "group": "ppt",
+   "q": "Slaydga matn qanday qo‘shiladi?",
+   "a": "Slaydga matn Text Box orqali qo‘shiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a086",
+   "group": "ppt",
+   "q": "Qanday tugma yordamida taqdimotni ishga tushirish mumkin?",
+   "a": "F5 tugmasi bilan taqdimotni ishga tushirish mumkin.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a087",
+   "group": "ppt",
+   "q": "Qaysi menyuda slayd dizayni tanlanadi?",
+   "a": "Design menyusida slayd dizayni tanlanadi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a088",
+   "group": "ppt",
+   "q": "PowerPointda rasmni slaydga qanday qo‘shiladi?",
+   "a": "Insert → Pictures orqali rasm qo‘shiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a089",
+   "group": "ppt",
+   "q": "Animatsiya nima uchun kerak?",
+   "a": "Animatsiya slayd elementlarini harakatlantirish va e’tiborni jalb qilish uchun kerak.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a090",
+   "group": "internet",
+   "q": "Internet nima?",
+   "a": "Internet — global kompyuter tarmog‘i, axborot almashish vositasi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a091",
+   "group": "internet",
+   "q": "Veb-brauzer vazifasi nima?",
+   "a": "Veb-brauzer — internet sahifalarini ochish va ko‘rish uchun dastur (masalan, Chrome, Firefox, Yandex, Opera).",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a092",
+   "group": "internet",
+   "q": "Google Drive qanday xizmat turi?",
+   "a": "Google Drive — onlayn fayl saqlash va almashish xizmati.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a093",
+   "group": "internet",
+   "q": "YouTube qanday platforma?",
+   "a": "YouTube — video ko‘rish, yuklash va baham ko‘rish platformasi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a094",
+   "group": "internet",
+   "q": "Elektron pochta (email) nima uchun kerak?",
+   "a": "Email — elektron maktub yuborish va qabul qilish uchun ishlatiladi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a095",
+   "group": "internet",
+   "q": "URL nima?",
+   "a": "URL — internetdagi manzil (masalan: https://www.example.com).",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
+  },
+  {
+   "id": "dmed-a096",
+   "group": "internet",
+   "q": "Wi-Fi nima?",
+   "a": "Wi-Fi — simsiz internetga ulanish texnologiyasi.",
+   "source": "Manba: ARGOS MED nomi bilan tarqalgan «96 ta test javobi» jadvali (Telegram)"
   }
  ]
 }

@@ -4681,6 +4681,19 @@ class AppLocalizationsRu extends AppLocalizations {
   String get workDirPatronage => 'Патронаж';
 
   @override
+  String get workDirDmed => 'DMED';
+
+  @override
+  String get workTodayDmed =>
+      'Сегодня: 5 вопросов и ответов по DMED; ежедневный тест — общие вопросы по сестринскому делу';
+
+  @override
+  String get dmedTodayTitle => 'Вопросы DMED на сегодня';
+
+  @override
+  String get dmedAll => 'Все вопросы и ответы DMED';
+
+  @override
   String get workTodayOwn => 'Сегодня: вопросы по вашему направлению';
 
   @override

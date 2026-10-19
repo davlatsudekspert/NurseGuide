@@ -44,7 +44,11 @@ enum AppRole {
 enum WorkDirection {
   nursing('hamshiralik'),
   higher('oliy_hamshiralik'),
-  patronage('patronaj');
+  patronage('patronaj'),
+
+  /// DMED tizimida ishlash: savol-javob kartalari (test banki yo'q, kunlik
+  /// test umumiy savollardan).
+  dmed('dmed');
 
   const WorkDirection(this.bank);
 

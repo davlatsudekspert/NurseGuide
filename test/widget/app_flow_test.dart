@@ -179,6 +179,23 @@ void main() {
     await tester.pumpAndSettle();
     expect(s.settings.workDirection, WorkDirection.patronage);
     expect(find.text(uz.workDirHint), findsOneWidget);
+
+    // DMED — alohida yo'nalish: bugungi savol-javob kartalari chiqadi.
+    await tester.tap(find.byKey(const ValueKey('work-dir-dmed')));
+    await tester.pumpAndSettle();
+    await tester.runAsync(
+      () => Future<void>.delayed(const Duration(milliseconds: 50)),
+    );
+    await tester.pumpAndSettle();
+    expect(s.settings.workDirection, WorkDirection.dmed);
+    expect(find.text(uz.dmedTodayTitle), findsOneWidget);
+    expect(find.byKey(const ValueKey('dmed-all')), findsOneWidget);
+    expect(
+      find.byWidgetPredicate(
+        (w) => w.key.toString().contains('dmed-today-dmed-'),
+      ),
+      findsNWidgets(5),
+    );
   });
 
   testWidgets('3 til: tab nomlari tarjima qilingan', (tester) async {

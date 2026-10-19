@@ -57,7 +57,7 @@ void main() {
       () => Future<void>.delayed(const Duration(milliseconds: 50)),
     );
     await tester.pumpAndSettle();
-    expect(find.text(_uz.dmedCount(70)), findsOneWidget);
+    expect(find.text(_uz.dmedCount(150)), findsOneWidget);
 
     await _tap(tester, find.byKey(const ValueKey('dmed-group-tugruq')));
     expect(find.text(_uz.dmedCount(2)), findsOneWidget);
@@ -75,7 +75,7 @@ void main() {
       'epikriz',
     );
     await tester.pumpAndSettle();
-    expect(find.text(_uz.dmedCount(70)), findsNothing);
+    expect(find.text(_uz.dmedCount(150)), findsNothing);
     expect(find.textContaining('Manba: DMED'), findsWidgets);
   });
 

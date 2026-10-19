@@ -39,7 +39,8 @@ void main() {
     expect(pool.others, isNotEmpty);
   });
 
-  for (final d in WorkDirection.values) {
+  // DMED — test banki yo'q yo'nalish: alohida testda.
+  for (final d in WorkDirection.values.where((d) => d != WorkDirection.dmed)) {
     test(
       '${d.bank}: o‘z kunida faqat o‘z banki, umumiy kunida umumiy mavzular',
       () {
@@ -83,6 +84,24 @@ void main() {
       }
     });
   }
+
+  test(
+    'dmed: kunlik test hovuzi o‘z banki bo‘sh bo‘lgani uchun umumiyga o‘tadi',
+    () {
+      for (final k in DailyKind.values) {
+        final pool = dailyPoolFor(
+          source,
+          direction: WorkDirection.dmed,
+          kind: k,
+        );
+        final ids = [...pool.priority, ...pool.others];
+        expect(ids, isNotEmpty, reason: k.name);
+        for (final id in ids) {
+          expect(kGeneralTopics, contains(bank.test(id)!.topic), reason: id);
+        }
+      }
+    },
+  );
 
   test(
     'manba id yo‘nalish va tur bo‘yicha farqlanadi (to‘plam yangilanadi)',

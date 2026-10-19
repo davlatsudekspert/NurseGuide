@@ -87,6 +87,7 @@ class DmedCard {
     required this.question,
     required this.answer,
     required this.source,
+    this.note,
   });
 
   factory DmedCard.fromJson(Map<String, Object?> j) => DmedCard(
@@ -95,6 +96,7 @@ class DmedCard {
     question: j['q']! as String,
     answer: j['a']! as String,
     source: j['source']! as String,
+    note: j['note'] as String?,
   );
 
   final String id;
@@ -104,6 +106,9 @@ class DmedCard {
   final String question;
   final String answer;
   final String source;
+
+  /// Manbalar bir-biriga mos kelmasa — izoh.
+  final String? note;
 }
 
 class DmedGroup {

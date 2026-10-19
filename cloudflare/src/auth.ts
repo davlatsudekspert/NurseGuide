@@ -26,6 +26,7 @@ import {
 } from './http';
 import { hit } from './ratelimit';
 import { revokeAppleOnDelete } from './social';
+import { emailDiag } from './email';
 
 export const OTP_TTL_SEC = 600;
 export const OTP_MAX_ATTEMPTS = 5;
@@ -93,7 +94,7 @@ export async function requestCode(ctx: Ctx): Promise<Response> {
     await ctx.db.prepare('DELETE FROM otp_challenges WHERE email_hash = ?1').bind(eh).run();
     throw sent === 'not_configured'
       ? new ApiError(503, 'not_configured')
-      : new ApiError(502, 'email_failed');
+      : new ApiError(502, 'email_failed', { upstream: emailDiag.status });
   }
   return json({ status: 'sent', retry_after: OTP_RESEND_SEC, valid_for: OTP_TTL_SEC });
 }

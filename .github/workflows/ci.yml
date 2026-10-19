@@ -88,7 +88,8 @@ env:
   # Apple Developer'da App ID uchun "Sign in with Apple" imkoniyatini yoqqach
   # qo'yiladi: shunda testflight rejimi entitlement'ni IPA'ga qo'shadi.
   LG_GOOGLE_CLIENT_ID: ${{ vars.LG_GOOGLE_CLIENT_ID }}
-  LG_GOOGLE_IOS_CLIENT_ID: ${{ vars.LG_GOOGLE_IOS_CLIENT_ID }}
+  # iOS Google tugmasi faqat repo variable NG_GOOGLE_IOS_ENABLED=true bo'lganda (iOS OAuth client yaratilgach).
+  LG_GOOGLE_IOS_CLIENT_ID: ${{ vars.NG_GOOGLE_IOS_ENABLED == 'true' && vars.LG_GOOGLE_IOS_CLIENT_ID || '' }}
   LG_APPLE_SERVICE_ID: ${{ vars.LG_APPLE_SERVICE_ID }}
   LG_APPLE_SIGNIN: ${{ vars.LG_APPLE_SIGNIN || 'false' }}
 

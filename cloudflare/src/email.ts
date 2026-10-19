@@ -10,6 +10,11 @@ export type CodeSender = (env: Env, to: string, code: string, lang: string) => P
 const DEFAULT_SENDER = 'nurseguide@nfcstore.uz';
 const TIMEOUT_MS = 8000;
 
+/** Oxirgi muvaffaqiyatsiz yuborishning HTTP holati (0 — tarmoq xatosi). Faqat son:
+ *  javob tanasi, email yoki kod saqlanmaydi; xato javobiga `upstream` sifatida
+ *  qo'shiladi (provayder sozlamasini topish uchun). */
+export const emailDiag = { status: 0 };
+
 const SUBJECT: Record<string, string> = {
   uz: 'NurseGuide: kirish kodi',
   ru: 'NurseGuide: код входа',
@@ -51,9 +56,11 @@ async function post(label: string, url: string, headers: Record<string, string>,
     if (res.ok) return 'sent';
     // Faqat status (429 ham shu yerda); javob tanasi email/kod bo'lishi mumkin — logga yozilmaydi.
     console.warn(`${label}: status ${res.status}`);
+    emailDiag.status = res.status;
     return 'failed';
   } catch {
     console.warn(`${label}: network error`);
+    emailDiag.status = 0;
     return 'failed';
   }
 }

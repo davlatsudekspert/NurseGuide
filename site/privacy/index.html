@@ -52,7 +52,7 @@ Aloqa / Контакт / Contact: <strong><a href="mailto:nurseguide@nfcstore.uz
 <h3 id="uz-1">1. Kim ma’lumotlaringizni boshqaradi</h3>
 <p>NurseGuide — hamshiralar, hamshiralik ta’limi talabalari va ustozlari uchun imtihonga tayyorgarlik hamda ma’lumotnoma ilovasi. Ma’lumotlarni NurseGuide jamoasi boshqaradi; barcha savollar uchun: <a href="mailto:nurseguide@nfcstore.uz">nurseguide@nfcstore.uz</a>.</p>
 <h3 id="uz-2">2. Serverda nima saqlanadi</h3>
-<p>Hisob ochsangiz (ustoz guruhlari va “Taklif va yordam” murojaatlari uchun hisob kerak), serverda quyidagilar saqlanadi:</p>
+<p>Hisob ochsangiz (testlar, mashq, ustoz guruhlari va “Taklif va yordam” murojaatlari uchun hisob kerak), serverda quyidagilar saqlanadi:</p>
 <ul>
 <li><strong>Email manzil.</strong> Kirish kodini yuborish va hisobingizni tanish uchun. Email serverda o‘qiladigan ko‘rinishda saqlanmaydi: faqat qaytarib bo‘lmaydigan imzo (HMAC) va niqoblangan ko‘rinish (masalan, <em>ab***@gmail.com</em>).</li>
 <li><strong>Rol va til:</strong> hamshira, talaba yoki ustoz (o‘zingiz tanlaysiz) hamda ilova tili. “Ustoz” roli o‘zi guruh ochish huquqini bermaydi — ustozlikni server alohida tasdiqlaydi.</li>
@@ -60,10 +60,10 @@ Aloqa / Контакт / Contact: <strong><a href="mailto:nurseguide@nfcstore.uz
 <li><strong>Guruh a’zoligi va natijalar:</strong> qaysi guruhdasiz, ustoz bergan testlardagi javoblaringiz, ballingiz va topshirgan vaqt, ustoz qo‘ygan savol-javob belgilari va baholari.</li>
 <li><strong>Murojaatlar:</strong> “Taklif va yordam” orqali yozgan matningiz va admin javobi; ilova ichidan yuborgan shikoyatlar.</li>
 <li><strong>Kirish usuli:</strong> Google yoki Apple orqali kirsangiz — shu xizmatning sizga berilgan identifikatori (tokenlar saqlanmaydi).</li>
-<li><strong>Texnik ma’lumot:</strong> sessiya belgisi (faqat imzo ko‘rinishida), oxirgi faollik kuni va daqiqasi, suiiste’molga qarshi limit hisoblagichlari (IP manzil faqat imzolangan qisqa ko‘rinishda va bir sutkadan ortiq saqlanmaydi).</li>
+<li><strong>Texnik ma’lumot:</strong> sessiya belgisi (faqat imzo ko‘rinishida), ilova platformasi (iOS yoki Android — umumiy statistika uchun), oxirgi faollik kuni va daqiqasi, suiiste’molga qarshi limit hisoblagichlari (IP manzil faqat imzolangan qisqa ko‘rinishda va bir sutkadan ortiq saqlanmaydi).</li>
 </ul>
 <h3 id="uz-3">3. Qurilmada qoladigan ma’lumotlar</h3>
-<p>Quyidagilar faqat qurilmangizda saqlanadi va serverga yuborilmaydi: o‘quv jarayoningiz (ko‘rilgan mavzular, xatcho‘plar, qaydlar), mashq va imtihon-simulyator natijalari, kunlik savol holati, eslatma sozlamalari, til va mavzu sozlamalari. Hisobsiz ham ilovaning asosiy o‘quv imkoniyatlaridan foydalanish mumkin.</p>
+<p>Quyidagilar faqat qurilmangizda saqlanadi va serverga yuborilmaydi: o‘quv jarayoningiz (ko‘rilgan mavzular, xatcho‘plar, qaydlar), mashq va imtihon-simulyator natijalari, kunlik savol holati, eslatma sozlamalari, til va mavzu sozlamalari. Hisobsiz (mehmon sifatida) bosh sahifa, muolajalar ro‘yxati, ish joyi va kutubxonani ko‘rish mumkin; testlar, mashq, kunlik savollar, guruhlar va murojaatlar uchun bepul hisob kerak.</p>
 <p>Qurilmadagi ma’lumotlar telefon sozlamalaringizga ko‘ra qurilmaning o‘z zaxira nusxasiga (iCloud yoki Google) tushishi mumkin. Sessiya belgisi qurilmaning xavfsiz omborida (iOS Keychain / Android Keystore) saqlanadi.</p>
 <h3 id="uz-4">4. Nima qilmaymiz</h3>
 <ul>
@@ -143,7 +143,7 @@ Aloqa / Контакт / Contact: <strong><a href="mailto:nurseguide@nfcstore.uz
 <h3 id="ru-1">1. Кто управляет вашими данными</h3>
 <p>NurseGuide — приложение для подготовки к экзаменам и справочник для медицинских сестёр, студентов и преподавателей сестринского дела. Данными управляет команда NurseGuide; по всем вопросам: <a href="mailto:nurseguide@nfcstore.uz">nurseguide@nfcstore.uz</a>.</p>
 <h3 id="ru-2">2. Что хранится на сервере</h3>
-<p>Если вы создаёте аккаунт (он нужен для групп преподавателя и обращений «Предложения и помощь»), на сервере хранится:</p>
+<p>Если вы создаёте аккаунт (он нужен для тестов, тренировок, групп преподавателя и обращений «Предложения и помощь»), на сервере хранится:</p>
 <ul>
 <li><strong>Адрес e-mail.</strong> Чтобы отправить код входа и узнавать ваш аккаунт. Сам адрес в читаемом виде не хранится: только необратимая подпись (HMAC) и маскированная форма (например, <em>ab***@gmail.com</em>).</li>
 <li><strong>Роль и язык:</strong> медсестра/медбрат (hamshira), студент (talaba) или преподаватель (ustoz) — вы выбираете сами — и язык приложения. Роль «преподаватель» сама по себе не даёт права создавать группы: статус преподавателя отдельно подтверждает сервер.</li>
@@ -151,10 +151,10 @@ Aloqa / Контакт / Contact: <strong><a href="mailto:nurseguide@nfcstore.uz
 <li><strong>Членство в группах и результаты:</strong> в каких группах вы состоите, ваши ответы и баллы в тестах преподавателя, время сдачи, отметки и оценки преподавателя за устные ответы.</li>
 <li><strong>Обращения:</strong> текст, который вы пишете в «Предложения и помощь», и ответ администратора; жалобы, отправленные из приложения.</li>
 <li><strong>Способ входа:</strong> при входе через Google или Apple — выданный этим сервисом идентификатор (токены не сохраняются).</li>
-<li><strong>Технические данные:</strong> метка сессии (только в виде подписи), день и минута последней активности, счётчики лимитов против злоупотреблений (IP-адрес — только в виде короткой подписи и не дольше суток).</li>
+<li><strong>Технические данные:</strong> метка сессии (только в виде подписи), платформа приложения (iOS или Android — для общей статистики), день и минута последней активности, счётчики лимитов против злоупотреблений (IP-адрес — только в виде короткой подписи и не дольше суток).</li>
 </ul>
 <h3 id="ru-3">3. Что остаётся на устройстве</h3>
-<p>Только на вашем устройстве хранятся и не отправляются на сервер: учебный прогресс (просмотренные темы, закладки, заметки), результаты тренировок и экзаменационных симуляций, состояние ежедневного вопроса, настройки напоминаний, языка и темы. Основными учебными функциями можно пользоваться и без аккаунта.</p>
+<p>Только на вашем устройстве хранятся и не отправляются на сервер: учебный прогресс (просмотренные темы, закладки, заметки), результаты тренировок и экзаменационных симуляций, состояние ежедневного вопроса, настройки напоминаний, языка и темы. Без аккаунта (в гостевом режиме) можно смотреть главную, список процедур, рабочее место и библиотеку; для тестов, тренировок, ежедневных вопросов, групп и обращений нужен бесплатный аккаунт.</p>
 <p>Данные на устройстве могут попасть в резервную копию телефона (iCloud или Google) — в зависимости от его настроек. Метка сессии хранится в защищённом хранилище (iOS Keychain / Android Keystore).</p>
 <h3 id="ru-4">4. Чего мы не делаем</h3>
 <ul>
@@ -234,7 +234,7 @@ Aloqa / Контакт / Contact: <strong><a href="mailto:nurseguide@nfcstore.uz
 <h3 id="en-1">1. Who controls your data</h3>
 <p>NurseGuide is an exam-preparation and reference app for nurses, nursing students and nursing teachers. The NurseGuide team controls the data; for any question: <a href="mailto:nurseguide@nfcstore.uz">nurseguide@nfcstore.uz</a>.</p>
 <h3 id="en-2">2. What is stored on the server</h3>
-<p>If you create an account (needed for teacher groups and “Suggestions and help” requests), the server stores:</p>
+<p>If you create an account (needed for tests, practice, teacher groups and “Suggestions and help” requests), the server stores:</p>
 <ul>
 <li><strong>E-mail address.</strong> To send your sign-in code and recognise your account. The address itself is not stored in readable form: only an irreversible signature (HMAC) and a masked form (for example <em>ab***@gmail.com</em>).</li>
 <li><strong>Role and language:</strong> nurse (hamshira), student (talaba) or teacher (ustoz) — your own choice — and the app language. The “teacher” role alone does not allow creating groups: teacher status is confirmed separately by the server.</li>
@@ -242,10 +242,10 @@ Aloqa / Контакт / Contact: <strong><a href="mailto:nurseguide@nfcstore.uz
 <li><strong>Group membership and results:</strong> which groups you belong to, your answers and scores in the teacher’s tests, submission time, and the teacher’s marks and grades for oral answers.</li>
 <li><strong>Requests:</strong> the text you write in “Suggestions and help” and the administrator’s reply; reports sent from inside the app.</li>
 <li><strong>Sign-in method:</strong> if you sign in with Google or Apple, the identifier that service issues to you (tokens are not stored).</li>
-<li><strong>Technical data:</strong> a session marker (stored only as a signature), the day and minute of last activity, and abuse-prevention rate counters (an IP address only as a short signature and for no longer than one day).</li>
+<li><strong>Technical data:</strong> a session marker (stored only as a signature), the app platform (iOS or Android — for overall statistics), the day and minute of last activity, and abuse-prevention rate counters (an IP address only as a short signature and for no longer than one day).</li>
 </ul>
 <h3 id="en-3">3. What stays on your device</h3>
-<p>These are kept only on your device and are not sent to the server: your study progress (topics viewed, bookmarks, notes), practice and exam-simulator results, the daily-question state, reminder, language and theme settings. The main study features also work without an account.</p>
+<p>These are kept only on your device and are not sent to the server: your study progress (topics viewed, bookmarks, notes), practice and exam-simulator results, the daily-question state, reminder, language and theme settings. Without an account (as a guest) you can browse the home screen, the procedures list, the workplace and the library; tests, practice, daily questions, groups and requests need a free account.</p>
 <p>Data on the device may be included in your phone’s own backup (iCloud or Google), depending on its settings. The session marker is kept in the device’s secure storage (iOS Keychain / Android Keystore).</p>
 <h3 id="en-4">4. What we do not do</h3>
 <ul>

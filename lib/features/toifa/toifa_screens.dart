@@ -530,10 +530,13 @@ class _AboutPanel extends StatelessWidget {
     final ready = bank.oral.where((q) => q.planReady).length;
     final lines = [
       l.toifaAboutList(bank.tests.length, bank.oral.length),
-      l.toifaAboutKeys(
-        bank.verdictCount(KeyVerdict.disputed),
-        bank.verdictCount(KeyVerdict.ambiguous),
-      ),
+      if (bank.verdictCount(KeyVerdict.disputed) +
+              bank.verdictCount(KeyVerdict.ambiguous) >
+          0)
+        l.toifaAboutKeys(
+          bank.verdictCount(KeyVerdict.disputed),
+          bank.verdictCount(KeyVerdict.ambiguous),
+        ),
       if (bank.keyless > 0) l.toifaAboutKeyless(bank.keyless),
       l.toifaAboutOral(ready, bank.oral.length),
       if (bank.oral.where((q) => q.held != null).length + bank.heldTests

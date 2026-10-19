@@ -170,8 +170,7 @@ void main() {
       findsOneWidget,
     );
     await tapNavTab(tester, 2);
-    expect(find.byKey(const ValueKey('workplace-empty')), findsOneWidget);
-    expect(find.text(uz.workEmptyBody), findsOneWidget);
+    expect(find.byKey(const ValueKey('work-vitals')), findsOneWidget);
     // Ish joyi: yo'nalish tanlanadi va kunlik savol unga moslanadi.
     expect(find.text(uz.workDirPick), findsOneWidget);
     expect(s.settings.workDirection, isNull);

@@ -331,7 +331,7 @@ abstract class AppLocalizations {
   /// No description provided for @authUnavailableBody.
   ///
   /// In en, this message translates to:
-  /// **'All reading content is available to guests. Sign-in will be enabled once the email service is configured.'**
+  /// **'Guests can browse the home screen, the procedures list, the workplace and the library. Sign-in is not available right now.'**
   String get authUnavailableBody;
 
   /// No description provided for @authContinueGuest.
@@ -3565,7 +3565,7 @@ abstract class AppLocalizations {
   /// No description provided for @profileGuestSub.
   ///
   /// In en, this message translates to:
-  /// **'Content is open without an account'**
+  /// **'Guest: main sections are visible'**
   String get profileGuestSub;
 
   /// No description provided for @profileGuestLocal.
@@ -4309,7 +4309,7 @@ abstract class AppLocalizations {
   /// No description provided for @privacyBody.
   ///
   /// In en, this message translates to:
-  /// **'The core features work without an account (guest mode): settings, bookmarks and practice results stay on this device. An account is optional (email code, Google or Apple) and is needed for groups and “Feedback & help”. Then data is stored on a Cloudflare server (Eastern Europe, outside Uzbekistan): your email only as a hash and a masked form, sign-in method, role, language, last activity time (to the minute); in a group — your nickname or sequence number, test answers and scores; the text of requests and complaints. From Google/Apple only the account identifier and email are used; the token is not stored. A teacher sees only their own group. No ads, analytics or tracking. You can delete your account at any time with the “Delete account” button. Full text: the “Privacy policy” link.'**
+  /// **'Guests can browse the home screen, the procedures list, the workplace and the library; settings stay on this device. Tests, practice, daily questions, procedure details, groups and “Feedback & help” need a free account (email code, Google or Apple). Then data is stored on a Cloudflare server (Eastern Europe, outside Uzbekistan): your email only as a hash and a masked form, sign-in method, role, language, last activity time (to the minute); in a group — your nickname or sequence number, test answers and scores; the text of requests and complaints. From Google/Apple only the account identifier and email are used; the token is not stored. A teacher sees only their own group. No ads, analytics or tracking. You can delete your account at any time with the “Delete account” button. Full text: the “Privacy policy” link.'**
   String get privacyBody;
 
   /// No description provided for @privacyBodyLocal.
@@ -5251,7 +5251,7 @@ abstract class AppLocalizations {
   /// No description provided for @classroomNoCurriculumBody.
   ///
   /// In en, this message translates to:
-  /// **'The course plan (module → topic → materials) will come in a later app version. For now, use class assignments.'**
+  /// **'For now, use class assignments.'**
   String get classroomNoCurriculumBody;
 
   /// No description provided for @classroomCurriculumError.
@@ -7033,19 +7033,19 @@ abstract class AppLocalizations {
   /// No description provided for @topicTestPreparing.
   ///
   /// In en, this message translates to:
-  /// **'Questions for this topic are being prepared'**
+  /// **'There is no test for this topic'**
   String get topicTestPreparing;
 
   /// No description provided for @topicTestPreparingShort.
   ///
   /// In en, this message translates to:
-  /// **'Questions in preparation'**
+  /// **'No test'**
   String get topicTestPreparingShort;
 
   /// No description provided for @topicTestPreparingBody.
   ///
   /// In en, this message translates to:
-  /// **'Only verified questions go into the test. This topic has {count} so far — at least 3 are needed.'**
+  /// **'Only verified questions go into the test. This topic has {count} — at least 3 are needed.'**
   String topicTestPreparingBody(int count);
 
   /// No description provided for @topicTestIntro.
@@ -8173,7 +8173,7 @@ abstract class AppLocalizations {
   /// No description provided for @refUzbekOnly.
   ///
   /// In en, this message translates to:
-  /// **'Text is in Uzbek (from the textbook); translation comes in a later update.'**
+  /// **'Text is in Uzbek.'**
   String get refUzbekOnly;
 
   /// No description provided for @workVitalsTitle.
@@ -8386,18 +8386,6 @@ abstract class AppLocalizations {
   /// **'Quick reference for your shift'**
   String get workSub;
 
-  /// No description provided for @workEmptyTitle.
-  ///
-  /// In en, this message translates to:
-  /// **'Coming soon'**
-  String get workEmptyTitle;
-
-  /// No description provided for @workEmptyBody.
-  ///
-  /// In en, this message translates to:
-  /// **'In the next update: sterilisation regimes, an infection-control reference and calculators. Figures come only from the sanitary rules (SanQvaM) and official sources, with the source shown.'**
-  String get workEmptyBody;
-
   /// No description provided for @hubGoLearn.
   ///
   /// In en, this message translates to:
@@ -8527,13 +8515,13 @@ abstract class AppLocalizations {
   /// No description provided for @quizEmptyTitle.
   ///
   /// In en, this message translates to:
-  /// **'Questions are coming soon'**
+  /// **'No questions found'**
   String get quizEmptyTitle;
 
   /// No description provided for @quizEmptyBody.
   ///
   /// In en, this message translates to:
-  /// **'Practice questions will appear here once they are verified.'**
+  /// **'Questions did not load. Reopen the app.'**
   String get quizEmptyBody;
 
   /// No description provided for @profileFontSize.
@@ -8635,13 +8623,13 @@ abstract class AppLocalizations {
   /// No description provided for @toifaEmptyTitle.
   ///
   /// In en, this message translates to:
-  /// **'Certification questions are coming soon'**
+  /// **'No certification questions found'**
   String get toifaEmptyTitle;
 
   /// No description provided for @toifaEmptyBody.
   ///
   /// In en, this message translates to:
-  /// **'Official list questions will appear here once verified: test, oral ticket and mistakes review.'**
+  /// **'Questions did not load. Reopen the app.'**
   String get toifaEmptyBody;
 }
 

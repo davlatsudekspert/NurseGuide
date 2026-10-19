@@ -102,11 +102,6 @@ class WorkplaceScreen extends StatelessWidget {
                 ],
               ),
             ),
-            LgNotice(
-              l.workEmptyBody,
-              key: const ValueKey('workplace-empty'),
-              kind: NoticeKind.info,
-            ),
           ],
         );
       },

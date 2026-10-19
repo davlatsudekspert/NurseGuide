@@ -4,12 +4,14 @@
 // Overflow, istisno yoki "xom" kalit (l10n) chiqsa test yiqiladi.
 import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:material_ui/material_ui.dart' show Brightness, ThemeMode;
+import 'package:material_ui/material_ui.dart' show Brightness, Text, ThemeMode;
 import 'package:nurseguide/features/reference/reference_data.dart';
 import 'package:nurseguide/features/settings/settings_controller.dart';
 
 import '../helpers/fake_backend.dart';
 import '../helpers/harness.dart';
+
+final _zeroCount = RegExp(r'(^|[^\d.,])0 ta(?![a-zA-Z‘’\x27])');
 
 const _baseRoutes = <String>[
   '/home',
@@ -74,6 +76,11 @@ void main() {
         final e = tester.takeException();
         if (e != null) {
           problems.add('$route → ${e.toString().split('\n').first}');
+        }
+        // Do'kon talabi: "0 ta ..." kabi bo'sh sonli qatorlar ko'rinmasin.
+        for (final w in tester.widgetList<Text>(find.byType(Text))) {
+          final t = w.data ?? w.textSpan?.toPlainText() ?? '';
+          if (_zeroCount.hasMatch(t)) problems.add('$route → «$t»');
         }
       }
       expect(problems, isEmpty, reason: problems.join('\n'));

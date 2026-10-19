@@ -128,7 +128,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get authUnavailableBody =>
-      'All reading content is available to guests. Sign-in will be enabled once the email service is configured.';
+      'Guests can browse the home screen, the procedures list, the workplace and the library. Sign-in is not available right now.';
 
   @override
   String get authContinueGuest => 'Continue as guest';
@@ -2115,7 +2115,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get profileGuest => 'Guest';
 
   @override
-  String get profileGuestSub => 'Content is open without an account';
+  String get profileGuestSub => 'Guest: main sections are visible';
 
   @override
   String get profileGuestLocal => 'Data stays on this device only';
@@ -2526,7 +2526,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get privacyBody =>
-      'The core features work without an account (guest mode): settings, bookmarks and practice results stay on this device. An account is optional (email code, Google or Apple) and is needed for groups and “Feedback & help”. Then data is stored on a Cloudflare server (Eastern Europe, outside Uzbekistan): your email only as a hash and a masked form, sign-in method, role, language, last activity time (to the minute); in a group — your nickname or sequence number, test answers and scores; the text of requests and complaints. From Google/Apple only the account identifier and email are used; the token is not stored. A teacher sees only their own group. No ads, analytics or tracking. You can delete your account at any time with the “Delete account” button. Full text: the “Privacy policy” link.';
+      'Guests can browse the home screen, the procedures list, the workplace and the library; settings stay on this device. Tests, practice, daily questions, procedure details, groups and “Feedback & help” need a free account (email code, Google or Apple). Then data is stored on a Cloudflare server (Eastern Europe, outside Uzbekistan): your email only as a hash and a masked form, sign-in method, role, language, last activity time (to the minute); in a group — your nickname or sequence number, test answers and scores; the text of requests and complaints. From Google/Apple only the account identifier and email are used; the token is not stored. A teacher sees only their own group. No ads, analytics or tracking. You can delete your account at any time with the “Delete account” button. Full text: the “Privacy policy” link.';
 
   @override
   String get privacyBodyLocal =>
@@ -3065,8 +3065,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'The curriculum hasn’t been added yet';
 
   @override
-  String get classroomNoCurriculumBody =>
-      'The course plan (module → topic → materials) will come in a later app version. For now, use class assignments.';
+  String get classroomNoCurriculumBody => 'For now, use class assignments.';
 
   @override
   String get classroomCurriculumError => 'Couldn’t read the curriculum';
@@ -4124,15 +4123,14 @@ class AppLocalizationsEn extends AppLocalizations {
   String get topicTestAction => 'Topic test';
 
   @override
-  String get topicTestPreparing =>
-      'Questions for this topic are being prepared';
+  String get topicTestPreparing => 'There is no test for this topic';
 
   @override
-  String get topicTestPreparingShort => 'Questions in preparation';
+  String get topicTestPreparingShort => 'No test';
 
   @override
   String topicTestPreparingBody(int count) {
-    return 'Only verified questions go into the test. This topic has $count so far — at least 3 are needed.';
+    return 'Only verified questions go into the test. This topic has $count — at least 3 are needed.';
   }
 
   @override
@@ -4793,8 +4791,7 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get refUzbekOnly =>
-      'Text is in Uzbek (from the textbook); translation comes in a later update.';
+  String get refUzbekOnly => 'Text is in Uzbek.';
 
   @override
   String get workVitalsTitle => 'Vital signs';
@@ -4913,13 +4910,6 @@ class AppLocalizationsEn extends AppLocalizations {
   String get workSub => 'Quick reference for your shift';
 
   @override
-  String get workEmptyTitle => 'Coming soon';
-
-  @override
-  String get workEmptyBody =>
-      'In the next update: sterilisation regimes, an infection-control reference and calculators. Figures come only from the sanitary rules (SanQvaM) and official sources, with the source shown.';
-
-  @override
   String get hubGoLearn => 'Go to Learn';
 
   @override
@@ -4986,11 +4976,10 @@ class AppLocalizationsEn extends AppLocalizations {
   String get lectureProtocols => 'Ready decks';
 
   @override
-  String get quizEmptyTitle => 'Questions are coming soon';
+  String get quizEmptyTitle => 'No questions found';
 
   @override
-  String get quizEmptyBody =>
-      'Practice questions will appear here once they are verified.';
+  String get quizEmptyBody => 'Questions did not load. Reopen the app.';
 
   @override
   String get profileFontSize => 'Text size';
@@ -5042,9 +5031,8 @@ class AppLocalizationsEn extends AppLocalizations {
   String get actionUnsave => 'Remove from saved';
 
   @override
-  String get toifaEmptyTitle => 'Certification questions are coming soon';
+  String get toifaEmptyTitle => 'No certification questions found';
 
   @override
-  String get toifaEmptyBody =>
-      'Official list questions will appear here once verified: test, oral ticket and mistakes review.';
+  String get toifaEmptyBody => 'Questions did not load. Reopen the app.';
 }

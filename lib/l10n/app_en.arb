@@ -38,7 +38,7 @@
   "authViewTerms": "View terms",
   "authDemoNotice": "Debug build: demo sign-in. No email is sent; the code is shown on the next screen.",
   "authUnavailableTitle": "Email sign-in isn't connected yet",
-  "authUnavailableBody": "All reading content is available to guests. Sign-in will be enabled once the email service is configured.",
+  "authUnavailableBody": "Guests can browse the home screen, the procedures list, the workplace and the library. Sign-in is not available right now.",
   "authContinueGuest": "Continue as guest",
   "authRateLimited": "Too many requests. Try again in {seconds} s.",
   "@authRateLimited": {
@@ -1460,7 +1460,7 @@
   "classesInviteMore": "Invite more students",
   "profileTitle": "Profile and settings",
   "profileGuest": "Guest",
-  "profileGuestSub": "Content is open without an account",
+  "profileGuestSub": "Guest: main sections are visible",
   "profileGuestLocal": "Data stays on this device only",
   "profileDemoSession": "Demo session · debug build",
   "profileRole": "Role",
@@ -1639,7 +1639,7 @@
     }
   },
   "privacyTitle": "Privacy and data",
-  "privacyBody": "The core features work without an account (guest mode): settings, bookmarks and practice results stay on this device. An account is optional (email code, Google or Apple) and is needed for groups and “Feedback & help”. Then data is stored on a Cloudflare server (Eastern Europe, outside Uzbekistan): your email only as a hash and a masked form, sign-in method, role, language, last activity time (to the minute); in a group — your nickname or sequence number, test answers and scores; the text of requests and complaints. From Google/Apple only the account identifier and email are used; the token is not stored. A teacher sees only their own group. No ads, analytics or tracking. You can delete your account at any time with the “Delete account” button. Full text: the “Privacy policy” link.",
+  "privacyBody": "Guests can browse the home screen, the procedures list, the workplace and the library; settings stay on this device. Tests, practice, daily questions, procedure details, groups and “Feedback & help” need a free account (email code, Google or Apple). Then data is stored on a Cloudflare server (Eastern Europe, outside Uzbekistan): your email only as a hash and a masked form, sign-in method, role, language, last activity time (to the minute); in a group — your nickname or sequence number, test answers and scores; the text of requests and complaints. From Google/Apple only the account identifier and email are used; the token is not stored. A teacher sees only their own group. No ads, analytics or tracking. You can delete your account at any time with the “Delete account” button. Full text: the “Privacy policy” link.",
   "privacyBodyLocal": "This build has no server connected: the app sends nothing to a server. Settings, bookmarks and practice results stay on this device (they may be included in the device backup). No ads or tracking.",
   "privacyTerms": "Terms of use",
   "privacyTermsSub": "Final text to be prepared",
@@ -1969,7 +1969,7 @@
   "classroomStatusTestRunning": "Test in progress",
   "classroomStatusTestDone": "Test finished",
   "classroomNoCurriculumTitle": "The curriculum hasn’t been added yet",
-  "classroomNoCurriculumBody": "The course plan (module → topic → materials) will come in a later app version. For now, use class assignments.",
+  "classroomNoCurriculumBody": "For now, use class assignments.",
   "classroomCurriculumError": "Couldn’t read the curriculum",
   "classroomNoTopicsStudent": "Your teacher hasn’t opened any topics yet",
   "classroomNoTopicsStudentBody": "When a topic opens, its materials and test will appear here.",
@@ -2639,9 +2639,9 @@
   "lecturePresenterReset": "Reset timer",
   "lecturePresenterNote": "Presenter view is on this device only. When mirroring, the TV shows the same view — use “Full screen” for the audience.",
   "topicTestAction": "Topic test",
-  "topicTestPreparing": "Questions for this topic are being prepared",
-  "topicTestPreparingShort": "Questions in preparation",
-  "topicTestPreparingBody": "Only verified questions go into the test. This topic has {count} so far — at least 3 are needed.",
+  "topicTestPreparing": "There is no test for this topic",
+  "topicTestPreparingShort": "No test",
+  "topicTestPreparingBody": "Only verified questions go into the test. This topic has {count} — at least 3 are needed.",
   "@topicTestPreparingBody": {
     "placeholders": {
       "count": {
@@ -3042,7 +3042,7 @@
       }
     }
   },
-  "refUzbekOnly": "Text is in Uzbek (from the textbook); translation comes in a later update.",
+  "refUzbekOnly": "Text is in Uzbek.",
   "workVitalsTitle": "Vital signs",
   "workVitalTemp": "Body temperature",
   "workVitalPulse": "Pulse",
@@ -3106,8 +3106,6 @@
   "accountRequiredHome": "Back to home",
   "workTitle": "Workplace",
   "workSub": "Quick reference for your shift",
-  "workEmptyTitle": "Coming soon",
-  "workEmptyBody": "In the next update: sterilisation regimes, an infection-control reference and calculators. Figures come only from the sanitary rules (SanQvaM) and official sources, with the source shown.",
   "hubGoLearn": "Go to Learn",
   "homeHeroNurseTitle": "Prepare for certification with confidence",
   "homeHeroNurseBody": "Certification questions, oral answers and daily practice in one place.",
@@ -3129,8 +3127,8 @@
   "lectureUnverifiedNotice": "This deck has not been verified yet — review the content before class",
   "classroomKindProtocol": "Deck",
   "lectureProtocols": "Ready decks",
-  "quizEmptyTitle": "Questions are coming soon",
-  "quizEmptyBody": "Practice questions will appear here once they are verified.",
+  "quizEmptyTitle": "No questions found",
+  "quizEmptyBody": "Questions did not load. Reopen the app.",
   "profileFontSize": "Text size",
   "fontSizeSmall": "Small",
   "fontSizeNormal": "Normal",
@@ -3147,6 +3145,6 @@
   "welcomeBenefitTeacherBody": "Groups, assignments and big screen",
   "actionSave": "Save",
   "actionUnsave": "Remove from saved",
-  "toifaEmptyTitle": "Certification questions are coming soon",
-  "toifaEmptyBody": "Official list questions will appear here once verified: test, oral ticket and mistakes review."
+  "toifaEmptyTitle": "No certification questions found",
+  "toifaEmptyBody": "Questions did not load. Reopen the app."
 }

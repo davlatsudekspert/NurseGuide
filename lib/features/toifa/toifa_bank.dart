@@ -540,6 +540,22 @@ class ToifaTicketDef {
 }
 
 /// Ikkala bank: test va og'zaki savollar.
+ToifaOralQuestion? _shownOral(ToifaOralQuestion q) =>
+    q.planReady &&
+        q.held == null &&
+        (q.literature.isNotEmpty || (q.source ?? '').trim().isNotEmpty)
+    ? q
+    : null;
+
+/// Bilet faqat barcha savollari ko'rinadigan bo'lsa qoladi.
+ToifaTicketDef? _ticketIfComplete(
+  ToifaTicketDef t,
+  List<ToifaOralQuestion> shown,
+) {
+  final ids = {for (final q in shown) q.id};
+  return t.questionIds.every(ids.contains) ? t : null;
+}
+
 class ToifaBank {
   ToifaBank({
     required this.topicOrder,
@@ -557,6 +573,14 @@ class ToifaBank {
     if (tests['version'] != 1 || oral['version'] != 1) {
       throw const FormatException('toifa version');
     }
+    // Ilovada faqat javobi (reja) yozilgan va manbasi ko'rsatilgan og'zaki
+    // savollar ko'rinadi; javobsizlari yoki manbasizlari chiqmaydi.
+    final oralList = [
+      for (final q in oral['questions']! as List)
+        ?_shownOral(
+          ToifaOralQuestion.fromJson((q as Map).cast<String, Object?>()),
+        ),
+    ];
     final bank = ToifaBank(
       topicOrder: _strings(tests['topics']),
       topicNames: {
@@ -571,13 +595,13 @@ class ToifaBank {
         for (final q in tests['questions']! as List)
           ToifaTestQuestion.fromJson((q as Map).cast<String, Object?>()),
       ],
-      oral: [
-        for (final q in oral['questions']! as List)
-          ToifaOralQuestion.fromJson((q as Map).cast<String, Object?>()),
-      ],
+      oral: oralList,
       tickets: [
         for (final t in oral['tickets'] as List? ?? const [])
-          ToifaTicketDef.fromJson((t as Map).cast<String, Object?>()),
+          ?_ticketIfComplete(
+            ToifaTicketDef.fromJson((t as Map).cast<String, Object?>()),
+            oralList,
+          ),
       ],
     );
     bank._validate();

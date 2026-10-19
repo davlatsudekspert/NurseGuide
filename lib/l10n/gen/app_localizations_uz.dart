@@ -130,7 +130,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get authUnavailableBody =>
-      'Barcha o‘qish kontenti mehmon uchun ochiq. Email xizmati sozlangach kirish yoqiladi.';
+      'Mehmon sifatida bosh sahifa, muolajalar ro‘yxati, ish joyi va kutubxonani ko‘rish mumkin. Kirish hozircha mavjud emas.';
 
   @override
   String get authContinueGuest => 'Mehmon sifatida davom etish';
@@ -2062,7 +2062,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get profileGuest => 'Mehmon';
 
   @override
-  String get profileGuestSub => 'Kontent hisobsiz ochiq';
+  String get profileGuestSub => 'Mehmon: asosiy bo‘limlar ko‘rinadi';
 
   @override
   String get profileGuestLocal => 'Ma’lumotlar faqat shu qurilmada';
@@ -2467,7 +2467,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get privacyBody =>
-      'Asosiy bo‘limlar hisobsiz (mehmon rejimida) ishlaydi: sozlamalar, xatcho‘plar va mashq natijalari shu qurilmada saqlanadi. Hisob ixtiyoriy (email kodi, Google yoki Apple bilan) — guruhlar va “Taklif va yordam” uchun kerak. Bunda ma’lumotlar Cloudflare serverida (Sharqiy Yevropa, O‘zbekistondan tashqarida) saqlanadi: email faqat hash va niqoblangan ko‘rinishda, kirish usuli, rol, til, oxirgi faollik vaqti (daqiqagacha); guruhda — taxallus yoki tartib raqami, test javoblari va ballar; murojaat va shikoyat matnlari. Google/Apple’dan faqat hisob identifikatori va email olinadi, token saqlanmaydi. Ustoz faqat o‘z guruhini ko‘radi. Reklama, analitika va kuzatuv yo‘q. Hisobni “Hisobni o‘chirish” tugmasi bilan istalgan vaqtda o‘chirishingiz mumkin. To‘liq matn — “Maxfiylik siyosati” havolasida.';
+      'Mehmon sifatida bosh sahifa, muolajalar ro‘yxati, ish joyi va kutubxonani ko‘rish mumkin; sozlamalar shu qurilmada saqlanadi. Testlar, mashq, kunlik savollar, muolaja tafsilotlari, guruhlar va “Taklif va yordam” uchun bepul hisob kerak (email kodi, Google yoki Apple bilan). Bunda ma’lumotlar Cloudflare serverida (Sharqiy Yevropa, O‘zbekistondan tashqarida) saqlanadi: email faqat hash va niqoblangan ko‘rinishda, kirish usuli, rol, til, oxirgi faollik vaqti (daqiqagacha); guruhda — taxallus yoki tartib raqami, test javoblari va ballar; murojaat va shikoyat matnlari. Google/Apple’dan faqat hisob identifikatori va email olinadi, token saqlanmaydi. Ustoz faqat o‘z guruhini ko‘radi. Reklama, analitika va kuzatuv yo‘q. Hisobni “Hisobni o‘chirish” tugmasi bilan istalgan vaqtda o‘chirishingiz mumkin. To‘liq matn — “Maxfiylik siyosati” havolasida.';
 
   @override
   String get privacyBodyLocal =>
@@ -3007,7 +3007,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get classroomNoCurriculumBody =>
-      'Kurs jadvali (modul → mavzu → materiallar) ilovaning keyingi versiyasida keladi. Hozircha guruh topshiriqlaridan foydalaning.';
+      'Hozircha guruh topshiriqlaridan foydalaning.';
 
   @override
   String get classroomCurriculumError => 'O‘quv dasturini o‘qib bo‘lmadi';
@@ -4042,14 +4042,14 @@ class AppLocalizationsUz extends AppLocalizations {
   String get topicTestAction => 'Mavzu testi';
 
   @override
-  String get topicTestPreparing => 'Bu mavzu uchun savollar tayyorlanmoqda';
+  String get topicTestPreparing => 'Bu mavzu bo‘yicha test mavjud emas';
 
   @override
-  String get topicTestPreparingShort => 'Savollar tayyorlanmoqda';
+  String get topicTestPreparingShort => 'Test mavjud emas';
 
   @override
   String topicTestPreparingBody(int count) {
-    return 'Testga faqat tekshirilgan savollar qo‘yiladi. Hozircha bu mavzu bo‘yicha $count ta bor — kamida 3 ta kerak.';
+    return 'Testga faqat tekshirilgan savollar qo‘yiladi. Bu mavzu bo‘yicha $count ta bor — kamida 3 ta kerak.';
   }
 
   @override
@@ -4710,8 +4710,7 @@ class AppLocalizationsUz extends AppLocalizations {
   }
 
   @override
-  String get refUzbekOnly =>
-      'Matn o‘zbekcha (darslik asosida); tarjima keyingi yangilanishda.';
+  String get refUzbekOnly => 'Matn o‘zbek tilida.';
 
   @override
   String get workVitalsTitle => 'Hayotiy ko‘rsatkichlar';
@@ -4830,13 +4829,6 @@ class AppLocalizationsUz extends AppLocalizations {
   String get workSub => 'Smena davomida kerak bo‘ladigan ma’lumotlar';
 
   @override
-  String get workEmptyTitle => 'Tez orada';
-
-  @override
-  String get workEmptyBody =>
-      'Keyingi yangilanishda: sterilizatsiya rejimlari, infeksion nazorat ma’lumotnomasi va kalkulyatorlar. Raqamlar faqat SanQvaM va rasmiy manbalar bo‘yicha, manbasi bilan beriladi.';
-
-  @override
   String get hubGoLearn => 'O‘rganishga o‘tish';
 
   @override
@@ -4903,11 +4895,10 @@ class AppLocalizationsUz extends AppLocalizations {
   String get lectureProtocols => 'Tayyor taqdimotlar';
 
   @override
-  String get quizEmptyTitle => 'Savollar tez orada';
+  String get quizEmptyTitle => 'Savollar topilmadi';
 
   @override
-  String get quizEmptyBody =>
-      'Mashq savollari tekshiruvdan o‘tgach shu yerda paydo bo‘ladi.';
+  String get quizEmptyBody => 'Savollar yuklanmadi. Ilovani qayta oching.';
 
   @override
   String get profileFontSize => 'Matn o‘lchami';
@@ -4960,9 +4951,8 @@ class AppLocalizationsUz extends AppLocalizations {
   String get actionUnsave => 'Saqlanganlardan olib tashlash';
 
   @override
-  String get toifaEmptyTitle => 'Toifa savollari tez orada';
+  String get toifaEmptyTitle => 'Toifa savollari topilmadi';
 
   @override
-  String get toifaEmptyBody =>
-      'Rasmiy ro‘yxat savollari tekshiruvdan o‘tgach shu yerda paydo bo‘ladi: test, og‘zaki bilet va xatolar ustida ishlash.';
+  String get toifaEmptyBody => 'Savollar yuklanmadi. Ilovani qayta oching.';
 }

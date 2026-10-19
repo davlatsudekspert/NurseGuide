@@ -27,7 +27,7 @@ import 'features/settings/settings_controller.dart';
 import 'features/share/result_share.dart';
 import 'features/toifa/toifa_controller.dart';
 
-const _appVersion = '0.1.0';
+const _appVersion = '1.0.0';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();

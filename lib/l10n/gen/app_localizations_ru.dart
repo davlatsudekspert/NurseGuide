@@ -129,7 +129,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get authUnavailableBody =>
-      'Весь контент для чтения доступен гостю. Вход включится после настройки почтового сервиса.';
+      'Гость может смотреть главную, список процедур, рабочее место и библиотеку. Вход пока недоступен.';
 
   @override
   String get authContinueGuest => 'Продолжить как гость';
@@ -2119,7 +2119,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get profileGuest => 'Гость';
 
   @override
-  String get profileGuestSub => 'Контент доступен без аккаунта';
+  String get profileGuestSub => 'Гость: основные разделы видны';
 
   @override
   String get profileGuestLocal => 'Данные только на этом устройстве';
@@ -2523,7 +2523,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get privacyBody =>
-      'Основные разделы работают без аккаунта (гостевой режим): настройки, закладки и результаты тренировок хранятся на этом устройстве. Аккаунт по желанию (код по email, Google или Apple) — нужен для групп и «Предложений и помощи». Тогда данные хранятся на сервере Cloudflare (Восточная Европа, за пределами Узбекистана): email — только в виде хеша и маскированного вида, способ входа, роль, язык, время последней активности (до минуты); в группе — псевдоним или порядковый номер, ответы и баллы; тексты обращений и жалоб. От Google/Apple берутся только идентификатор аккаунта и email, токен не хранится. Преподаватель видит только свою группу. Без рекламы, аналитики и отслеживания. Аккаунт можно удалить в любой момент кнопкой «Удалить аккаунт». Полный текст — по ссылке «Политика конфиденциальности».';
+      'Гость может смотреть главную, список процедур, рабочее место и библиотеку; настройки хранятся на этом устройстве. Для тестов, тренировок, ежедневных вопросов, описаний процедур, групп и «Предложений и помощи» нужен бесплатный аккаунт (код по email, Google или Apple). Тогда данные хранятся на сервере Cloudflare (Восточная Европа, за пределами Узбекистана): email — только в виде хеша и маскированного вида, способ входа, роль, язык, время последней активности (до минуты); в группе — псевдоним или порядковый номер, ответы и баллы; тексты обращений и жалоб. От Google/Apple берутся только идентификатор аккаунта и email, токен не хранится. Преподаватель видит только свою группу. Без рекламы, аналитики и отслеживания. Аккаунт можно удалить в любой момент кнопкой «Удалить аккаунт». Полный текст — по ссылке «Политика конфиденциальности».';
 
   @override
   String get privacyBodyLocal =>
@@ -3062,8 +3062,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get classroomNoCurriculumTitle => 'Учебная программа ещё не добавлена';
 
   @override
-  String get classroomNoCurriculumBody =>
-      'План курса (модуль → тема → материалы) появится в следующей версии приложения. Пока используйте задания группы.';
+  String get classroomNoCurriculumBody => 'Пока используйте задания группы.';
 
   @override
   String get classroomCurriculumError =>
@@ -4130,14 +4129,14 @@ class AppLocalizationsRu extends AppLocalizations {
   String get topicTestAction => 'Тест по теме';
 
   @override
-  String get topicTestPreparing => 'Вопросы по этой теме готовятся';
+  String get topicTestPreparing => 'Теста по этой теме нет';
 
   @override
-  String get topicTestPreparingShort => 'Вопросы готовятся';
+  String get topicTestPreparingShort => 'Теста нет';
 
   @override
   String topicTestPreparingBody(int count) {
-    return 'В тест входят только проверенные вопросы. Сейчас по этой теме их $count — нужно не меньше 3.';
+    return 'В тест входят только проверенные вопросы. По этой теме их $count — нужно не меньше 3.';
   }
 
   @override
@@ -4801,8 +4800,7 @@ class AppLocalizationsRu extends AppLocalizations {
   }
 
   @override
-  String get refUzbekOnly =>
-      'Текст на узбекском (по учебнику); перевод появится в следующем обновлении.';
+  String get refUzbekOnly => 'Текст на узбекском языке.';
 
   @override
   String get workVitalsTitle => 'Жизненные показатели';
@@ -4921,13 +4919,6 @@ class AppLocalizationsRu extends AppLocalizations {
   String get workSub => 'Справочное для рабочей смены';
 
   @override
-  String get workEmptyTitle => 'Скоро';
-
-  @override
-  String get workEmptyBody =>
-      'В следующем обновлении: режимы стерилизации, справочник по инфекционному контролю и калькуляторы. Цифры — только по СанПиН и официальным источникам, с указанием источника.';
-
-  @override
   String get hubGoLearn => 'Перейти к обучению';
 
   @override
@@ -4994,11 +4985,11 @@ class AppLocalizationsRu extends AppLocalizations {
   String get lectureProtocols => 'Готовые презентации';
 
   @override
-  String get quizEmptyTitle => 'Вопросы скоро появятся';
+  String get quizEmptyTitle => 'Вопросы не найдены';
 
   @override
   String get quizEmptyBody =>
-      'Практические вопросы появятся здесь после проверки.';
+      'Вопросы не загрузились. Откройте приложение заново.';
 
   @override
   String get profileFontSize => 'Размер текста';
@@ -5050,9 +5041,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get actionUnsave => 'Убрать из сохранённых';
 
   @override
-  String get toifaEmptyTitle => 'Вопросы аттестации скоро появятся';
+  String get toifaEmptyTitle => 'Вопросы аттестации не найдены';
 
   @override
   String get toifaEmptyBody =>
-      'Официальные вопросы появятся здесь после проверки: тест, устный билет и работа над ошибками.';
+      'Вопросы не загрузились. Откройте приложение заново.';
 }

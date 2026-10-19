@@ -420,11 +420,10 @@ class _DmedScreenState extends State<DmedScreen> {
                 ),
                 // Bitta qatorda yon tomonga suriladi: 18 ta guruh ekranni
                 // egallab, savollarni pastga itarib yubormasin.
-                SizedBox(
-                  height: 52,
-                  child: ListView(
-                    scrollDirection: Axis.horizontal,
-                    padding: const EdgeInsets.symmetric(vertical: 6),
+                SingleChildScrollView(
+                  scrollDirection: Axis.horizontal,
+                  padding: const EdgeInsets.symmetric(vertical: 6),
+                  child: Row(
                     children: [
                       for (final (id, title) in [
                         (null, l.dmedAllGroups),

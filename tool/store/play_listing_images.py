@@ -46,10 +46,10 @@ def main() -> int:
     if not langs:
         print('Do\'kon sahifasida til yo\'q — avval Play Console\'da sahifani yarating.', file=sys.stderr)
         return 3
-    icon = os.path.join(ROOT, 'google_play_icon_512.png')
-    feature = os.path.join(ROOT, 'google_play_feature_graphic.png')
+    icon = os.path.join(ROOT, 'play', 'app_icon_512.png')
+    feature = os.path.join(ROOT, 'play', 'feature_graphic_1024x500.png')
     for lang in langs:
-        shots = sorted(glob.glob(os.path.join(ROOT, 'screenshots_play', folder_for(lang), '*.png')))[:8]
+        shots = sorted(glob.glob(os.path.join(ROOT, 'play', 'screenshots', '*.png')))[:8]
         plan = [('icon', [icon]), ('featureGraphic', [feature]), ('phoneScreenshots', shots)]
         for kind, files in plan:
             edits.images().deleteall(packageName=PACKAGE, editId=edit_id,

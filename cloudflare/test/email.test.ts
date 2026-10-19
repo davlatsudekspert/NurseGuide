@@ -39,6 +39,16 @@ describe('Resend va provayder tanlash', () => {
     expect(bodyOf(spy).from).toBe('NurseGuide <nurseguide@nfcstore.uz>');
   });
 
+  it("noto'g'ri formatdagi LG_SENDER_EMAIL (Ism <manzil>, boshqa domen) — standart manzil", async () => {
+    const spy = vi.spyOn(globalThis, 'fetch').mockResolvedValue(new Response('{}', { status: 200 }));
+    for (const bad of ['NurseGuide <nurseguide@nfcstore.uz>', 'x@gmail.com', 'nurseguide', ' ']) {
+      await resendSender({ RESEND_API_KEY: 'k', LG_SENDER_EMAIL: bad } as Env, 'a@b.uz', '111111', 'uz');
+    }
+    for (let i = 0; i < 4; i++) expect(bodyOf(spy, i).from).toBe('NurseGuide <nurseguide@nfcstore.uz>');
+    await resendSender({ RESEND_API_KEY: 'k', LG_SENDER_EMAIL: 'hello@nfcstore.uz' } as Env, 'a@b.uz', '111111', 'uz');
+    expect(bodyOf(spy, 4).from).toBe('NurseGuide <hello@nfcstore.uz>');
+  });
+
   it('4xx/429/5xx va tarmoq xatosi — failed; kalit, email va kod logga chiqmaydi', async () => {
     const warn = vi.spyOn(console, 'warn').mockImplementation(() => {});
     for (const status of [401, 422, 429, 500]) {

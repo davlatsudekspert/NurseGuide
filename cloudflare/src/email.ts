@@ -38,8 +38,11 @@ export function composeMessage(code: string, lang: string): { subject: string; t
   return { subject: SUBJECT[l], text, html };
 }
 
+/** Faqat tekshirilgan `@nfcstore.uz` manzil olinadi; noto'g'ri formatdagi
+ *  secret (masalan, "Ism <manzil>") Resend'da 422 beradi — standartga qaytiladi. */
 function senderEmail(env: Env): string {
-  return env.LG_SENDER_EMAIL || DEFAULT_SENDER;
+  const v = (env.LG_SENDER_EMAIL || '').trim();
+  return /^[A-Za-z0-9._+-]+@nfcstore\.uz$/i.test(v) ? v : DEFAULT_SENDER;
 }
 function senderName(env: Env): string {
   return env.LG_SENDER_NAME || 'NurseGuide';

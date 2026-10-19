@@ -42,6 +42,9 @@ void main() {
       platformBrightness: dark ? Brightness.dark : Brightness.light,
     );
     await goTo(tester, route);
+    await tester.runAsync(
+      () => Future<void>.delayed(const Duration(milliseconds: 80)),
+    );
     await tester.pumpAndSettle(const Duration(milliseconds: 300));
     // Rasmlar testda asinxron yuklanadi: avval keshga olamiz.
     await tester.runAsync(() async {
@@ -70,6 +73,9 @@ void main() {
     ('11_home_student', '/home', AppRole.student),
     ('12_home_teacher', '/home', AppRole.teacher),
     ('13_classes_teacher', '/learn/classes', AppRole.teacher),
+    ('14_procedure', '/procedures/teri_ichiga_inyeksiya', AppRole.nurse),
+    ('15_glossary', '/library/glossary', AppRole.nurse),
+    ('16_literature', '/library/literature', AppRole.nurse),
   ];
   for (final (name, route, role) in screens) {
     testWidgets(
@@ -78,7 +84,7 @@ void main() {
       skip: !_on,
     );
   }
-  for (final (name, route, role) in screens.take(9)) {
+  for (final (name, route, role) in [...screens.take(9), ...screens.skip(13)]) {
     testWidgets(
       'dark $name',
       (t) => shot(t, 'dark_$name', route, role: role, dark: true),

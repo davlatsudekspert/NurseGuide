@@ -27,6 +27,7 @@ import 'features/settings/settings_controller.dart';
 import 'features/share/result_share.dart';
 import 'features/toifa/toifa_controller.dart';
 
+// 1.0.0 — birinchi do'kon versiyasi (TestFlight → App Store).
 const _appVersion = '1.0.0';
 
 Future<void> main() async {

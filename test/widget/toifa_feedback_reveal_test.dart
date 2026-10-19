@@ -65,6 +65,10 @@ void main() {
     s.toifa.random = Random(2);
     await pumpApp(tester, s, size: _small, textScale: 1.3);
     await goTo(tester, '/learn/toifa/test');
+    await tester.ensureVisible(
+      find.byKey(const ValueKey('toifa-mode-practice')),
+    );
+    await tester.pumpAndSettle();
     await tester.tap(find.byKey(const ValueKey('toifa-mode-practice')));
     await tester.pumpAndSettle();
     await tapScroll(tester, uz.toifaDrillStart);

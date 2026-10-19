@@ -24,6 +24,8 @@ Future<void> _walk(
   s.toifa.random = Random(seed);
   await pumpApp(tester, s, size: size, textScale: scale);
   await goTo(tester, '/learn/toifa/test');
+  await tester.ensureVisible(find.byKey(const ValueKey('toifa-mode-practice')));
+  await tester.pumpAndSettle();
   await tester.tap(find.byKey(const ValueKey('toifa-mode-practice')));
   await tester.pumpAndSettle();
   await tapScroll(tester, uz.toifaDrillStart);

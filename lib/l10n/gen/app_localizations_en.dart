@@ -4654,6 +4654,38 @@ class AppLocalizationsEn extends AppLocalizations {
       'The procedures section is being prepared. Verified, sourced guides will appear in an upcoming update.';
 
   @override
+  String get workDirTitle => 'Your work area';
+
+  @override
+  String get workDirHint => 'Daily questions are matched to this area.';
+
+  @override
+  String get workDirPick =>
+      'Choose your work area — daily questions will follow it.';
+
+  @override
+  String get workDirNursing => 'Nursing';
+
+  @override
+  String get workDirHigher => 'Higher nursing';
+
+  @override
+  String get workDirPatronage => 'Patronage';
+
+  @override
+  String get workTodayOwn => 'Today: questions from your work area';
+
+  @override
+  String get workTodayGeneral => 'Today: general questions (for every area)';
+
+  @override
+  String get workTodayMixed => 'Today: mixed — 3 from your area, 2 general';
+
+  @override
+  String get workPlan =>
+      'Weekly plan: Monday–Thursday your area, Friday–Saturday general questions, Sunday mixed.';
+
+  @override
   String get workTitle => 'Workplace';
 
   @override
@@ -4664,7 +4696,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get workEmptyBody =>
-      'The workplace section is being prepared: dosing, calculators and a quick reference will live here.';
+      'Coming soon: calculators, vital-sign norms, sterilisation regimes and an infection-control reference will live here.';
 
   @override
   String get hubGoLearn => 'Go to Learn';

@@ -11,11 +11,13 @@ import '../../design/widgets/reveal_on_mount.dart';
 import '../../l10n/gen/app_localizations.dart';
 import '../content/ui/content_widgets.dart';
 import '../learn/exam_question.dart';
+import '../settings/settings_controller.dart' show WorkDirection;
 import '../learn/exam_widgets.dart';
 import '../share/result_share.dart';
 import '../toifa/toifa_bank.dart';
 import '../toifa/toifa_screens.dart';
 import 'daily_controller.dart';
+import 'daily_picker.dart';
 import 'daily_reminder.dart';
 import 'daily_streak.dart';
 
@@ -28,16 +30,44 @@ const kDailyLocation = '/learn/daily';
 /// tekshiruvi kutilayotganlari chiqarilgan) va kaliti NurseGuide tekshiruvidan
 /// o'tgan (bahsli/noaniq yoki manbasiz izohli emas) savollar.
 /// Kontent paketi: manbasi ko'rsatilgan savollar.
-DailyPool dailyPoolFor(ExamQuestionSource source) {
+///
+/// Ish yo'nalishi ([direction]) tanlangan bo'lsa, hafta kuniga qarab
+/// ([kind]): o'z yo'nalishi banki, umumiy mavzular yoki aralash (3 + 2).
+DailyPool dailyPoolFor(
+  ExamQuestionSource source, {
+  WorkDirection? direction,
+  DailyKind kind = DailyKind.mixed,
+}) {
   if (source is ToifaQuestionSource) {
+    final ok = [
+      for (final q in source.bank.scorable)
+        if (q.keyCheck.verdict == KeyVerdict.ok && !q.keyCheck.unverified) q,
+    ];
+    if (direction == null) {
+      return DailyPool(
+        sourceId: source.id,
+        priority: const [],
+        others: [for (final q in ok) q.id],
+      );
+    }
+    final own = [
+      for (final q in ok)
+        if (q.bank == direction.bank) q.id,
+    ];
+    final general = [
+      for (final q in ok)
+        if (kGeneralTopics.contains(q.topic)) q.id,
+    ];
+    // Hovuz bo'sh qolmasligi uchun: o'z banki bo'sh bo'lsa umumiyga o'tadi.
+    final (prio, rest) = switch (kind) {
+      DailyKind.own => (own.isEmpty ? general : own, const <String>[]),
+      DailyKind.general => (general.isEmpty ? own : general, const <String>[]),
+      DailyKind.mixed => (own, general),
+    };
     return DailyPool(
-      sourceId: source.id,
-      priority: const [],
-      others: [
-        for (final q in source.bank.scorable)
-          if (q.keyCheck.verdict == KeyVerdict.ok && !q.keyCheck.unverified)
-            q.id,
-      ],
+      sourceId: '${source.id}:${direction.bank}:${kind.name}',
+      priority: prio,
+      others: rest,
     );
   }
   return DailyPool(
@@ -296,7 +326,11 @@ class _DailyScreenState extends State<DailyScreen> {
         builder: (context, source) {
           final daily = services.daily;
           final set = daily.ensureToday(
-            dailyPoolFor(source),
+            dailyPoolFor(
+              source,
+              direction: services.settings.workDirection,
+              kind: dailyKindFor(dateOfDay(daily.today).weekday),
+            ),
             exists: (id) => source.question(id) != null,
           );
           // Yarim tunda yangi kun — yangi to'plam boshidan.

@@ -49,3 +49,23 @@ List<String> pickDaily({
   }
   return out;
 }
+
+/// Kunlik to'plam turi (hafta kuniga qarab): haftada 4 kun — o'z
+/// yo'nalishi, 2 kun — umumiy, yakshanba — aralash.
+enum DailyKind { own, general, mixed }
+
+/// [weekday] — `DateTime.weekday` (1 = dushanba … 7 = yakshanba).
+DailyKind dailyKindFor(int weekday) => switch (weekday) {
+  DateTime.friday || DateTime.saturday => DailyKind.general,
+  DateTime.sunday => DailyKind.mixed,
+  _ => DailyKind.own,
+};
+
+/// Yo'nalishdan qat'i nazar hamma uchun umumiy mavzular (infeksion
+/// nazorat, hayotiy ko'rsatkichlar, tomir ichiga va inyeksiya texnikasi).
+const kGeneralTopics = {
+  'infection_control',
+  'vital_signs',
+  'iv_access',
+  'injection',
+};

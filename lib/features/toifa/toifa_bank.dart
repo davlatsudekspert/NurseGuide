@@ -140,6 +140,7 @@ class ToifaTestQuestion implements OfficialKeyQuestion {
     this.source,
     this.answerExplanation,
     this.held,
+    this.bank,
     this.translations = const {},
   });
 
@@ -168,6 +169,7 @@ class ToifaTestQuestion implements OfficialKeyQuestion {
       source: j['source'] as String?,
       answerExplanation: j['explanation'] as String?,
       held: j['held'] as String?,
+      bank: j['bank'] as String?,
       translations: translations,
     );
   }
@@ -196,6 +198,9 @@ class ToifaTestQuestion implements OfficialKeyQuestion {
 
   /// Aniqlashtirilguncha baholanadigan tanlovdan chiqarilgan (sabab).
   final String? held;
+
+  /// Qaysi bankdan (`hamshiralik`, `oliy_hamshiralik`, `patronaj`).
+  final String? bank;
 
   /// Yordamchi tarjimalar (`ru`, `en`); bo'sh bo'lsa — faqat rasmiy matn.
   final Map<String, TestTranslation> translations;

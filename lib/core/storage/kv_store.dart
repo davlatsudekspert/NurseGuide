@@ -28,6 +28,9 @@ abstract final class StoreKeys {
   static const sounds = 'settings.sounds';
   static const haptics = 'settings.haptics';
   static const role = 'settings.role';
+
+  /// Ish yo'nalishi (savol banki): kunlik savollar shunga moslanadi.
+  static const workDirection = 'settings.workDirection';
   static const onboarded = 'settings.onboarded';
   static const languageChosen = 'settings.languageChosen';
   static const session = 'auth.session';
@@ -85,6 +88,7 @@ abstract final class StoreKeys {
     sounds,
     haptics,
     role,
+    workDirection,
     onboarded,
     languageChosen,
     session,

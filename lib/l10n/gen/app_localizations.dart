@@ -7918,6 +7918,66 @@ abstract class AppLocalizations {
   /// **'The procedures section is being prepared. Verified, sourced guides will appear in an upcoming update.'**
   String get procEmptyBody;
 
+  /// No description provided for @workDirTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Your work area'**
+  String get workDirTitle;
+
+  /// No description provided for @workDirHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily questions are matched to this area.'**
+  String get workDirHint;
+
+  /// No description provided for @workDirPick.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose your work area — daily questions will follow it.'**
+  String get workDirPick;
+
+  /// No description provided for @workDirNursing.
+  ///
+  /// In en, this message translates to:
+  /// **'Nursing'**
+  String get workDirNursing;
+
+  /// No description provided for @workDirHigher.
+  ///
+  /// In en, this message translates to:
+  /// **'Higher nursing'**
+  String get workDirHigher;
+
+  /// No description provided for @workDirPatronage.
+  ///
+  /// In en, this message translates to:
+  /// **'Patronage'**
+  String get workDirPatronage;
+
+  /// No description provided for @workTodayOwn.
+  ///
+  /// In en, this message translates to:
+  /// **'Today: questions from your work area'**
+  String get workTodayOwn;
+
+  /// No description provided for @workTodayGeneral.
+  ///
+  /// In en, this message translates to:
+  /// **'Today: general questions (for every area)'**
+  String get workTodayGeneral;
+
+  /// No description provided for @workTodayMixed.
+  ///
+  /// In en, this message translates to:
+  /// **'Today: mixed — 3 from your area, 2 general'**
+  String get workTodayMixed;
+
+  /// No description provided for @workPlan.
+  ///
+  /// In en, this message translates to:
+  /// **'Weekly plan: Monday–Thursday your area, Friday–Saturday general questions, Sunday mixed.'**
+  String get workPlan;
+
   /// No description provided for @workTitle.
   ///
   /// In en, this message translates to:
@@ -7939,7 +7999,7 @@ abstract class AppLocalizations {
   /// No description provided for @workEmptyBody.
   ///
   /// In en, this message translates to:
-  /// **'The workplace section is being prepared: dosing, calculators and a quick reference will live here.'**
+  /// **'Coming soon: calculators, vital-sign norms, sterilisation regimes and an infection-control reference will live here.'**
   String get workEmptyBody;
 
   /// No description provided for @hubGoLearn.

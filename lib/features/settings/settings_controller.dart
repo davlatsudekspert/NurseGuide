@@ -38,6 +38,26 @@ enum AppRole {
   }
 }
 
+/// Ish yo'nalishi: kunlik savollar shu bankdan olinadi. [bank] — savollar
+/// bankidagi `bank` qiymati. Akusherlik va Davolash ishi keyingi
+/// yangilanishda qo'shiladi.
+enum WorkDirection {
+  nursing('hamshiralik'),
+  higher('oliy_hamshiralik'),
+  patronage('patronaj');
+
+  const WorkDirection(this.bank);
+
+  final String bank;
+
+  static WorkDirection? tryBank(String? raw) {
+    for (final d in values) {
+      if (d.bank == raw) return d;
+    }
+    return null;
+  }
+}
+
 /// Qo'llab-quvvatlanadigan interfeys tillari.
 enum AppLanguage {
   uz,
@@ -98,6 +118,9 @@ class SettingsController extends ChangeNotifier {
           LgThemeId.tryParse(_store.getString(StoreKeys.appTheme)) ??
           LgThemeId.classic,
       _role = _parseRole(_store.getString(StoreKeys.role)),
+      _direction = WorkDirection.tryBank(
+        _store.getString(StoreKeys.workDirection),
+      ),
       _onboarded = _store.getBool(StoreKeys.onboarded) ?? false,
       // Migratsiya: onboarding tugatgan foydalanuvchi tilni tanlagan deb
       // hisoblanadi — eski o'rnatmalarda til tanlash ekrani chiqmaydi.
@@ -114,6 +137,7 @@ class SettingsController extends ChangeNotifier {
   ThemeMode _themeMode;
   LgThemeId _appTheme;
   AppRole? _role;
+  WorkDirection? _direction;
   bool _onboarded;
   bool _languageChosen;
 
@@ -133,6 +157,9 @@ class SettingsController extends ChangeNotifier {
 
   /// Onboardingda hali tanlanmagan bo'lsa `null`.
   AppRole? get role => _role;
+
+  /// Ish yo'nalishi; tanlanmagan bo'lsa `null` (kunlik savollar umumiy).
+  WorkDirection? get workDirection => _direction;
 
   /// Bosh sahifa uchun: tanlanmagan bo'lsa hamshira ko'rinishi.
   AppRole get effectiveRole => _role ?? AppRole.nurse;
@@ -203,6 +230,13 @@ class SettingsController extends ChangeNotifier {
     await _store.setString(StoreKeys.role, value.wire);
   }
 
+  Future<void> setWorkDirection(WorkDirection value) async {
+    if (_direction == value) return;
+    _direction = value;
+    notifyListeners();
+    await _store.setString(StoreKeys.workDirection, value.bank);
+  }
+
   Future<void> completeOnboarding() async {
     if (_onboarded) return;
     _onboarded = true;
@@ -227,6 +261,7 @@ class SettingsController extends ChangeNotifier {
     _themeMode = ThemeMode.system;
     _appTheme = LgThemeId.classic;
     _role = null;
+    _direction = null;
     _onboarded = false;
     _languageChosen = false;
     notifyListeners();

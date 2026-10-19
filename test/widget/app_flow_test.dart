@@ -167,11 +167,14 @@ void main() {
     expect(find.text(uz.procEmptyTitle), findsOneWidget);
     await tapNavTab(tester, 2);
     expect(find.byKey(const ValueKey('workplace-empty')), findsOneWidget);
-    expect(find.text(uz.workEmptyTitle), findsOneWidget);
-    // O'rganishga o'tish tugmasi ishlaydi.
-    await tester.tap(find.text(uz.hubGoLearn));
+    expect(find.text(uz.workEmptyBody), findsOneWidget);
+    // Ish joyi: yo'nalish tanlanadi va kunlik savol unga moslanadi.
+    expect(find.text(uz.workDirPick), findsOneWidget);
+    expect(s.settings.workDirection, isNull);
+    await tester.tap(find.byKey(const ValueKey('work-dir-patronaj')));
     await tester.pumpAndSettle();
-    expect(routerOf(tester).state.uri.path, '/learn');
+    expect(s.settings.workDirection, WorkDirection.patronage);
+    expect(find.text(uz.workDirHint), findsOneWidget);
   });
 
   testWidgets('3 til: tab nomlari tarjima qilingan', (tester) async {

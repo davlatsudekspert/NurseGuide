@@ -4659,6 +4659,41 @@ class AppLocalizationsRu extends AppLocalizations {
       'Раздел манипуляций готовится. Проверенные инструкции с источниками появятся в следующем обновлении.';
 
   @override
+  String get workDirTitle => 'Ваше направление работы';
+
+  @override
+  String get workDirHint =>
+      'Ежедневные вопросы подбираются под это направление.';
+
+  @override
+  String get workDirPick =>
+      'Выберите направление — ежедневные вопросы подстроятся под него.';
+
+  @override
+  String get workDirNursing => 'Сестринское дело';
+
+  @override
+  String get workDirHigher => 'Высшее сестринское дело';
+
+  @override
+  String get workDirPatronage => 'Патронаж';
+
+  @override
+  String get workTodayOwn => 'Сегодня: вопросы по вашему направлению';
+
+  @override
+  String get workTodayGeneral =>
+      'Сегодня: общие вопросы (для всех направлений)';
+
+  @override
+  String get workTodayMixed =>
+      'Сегодня: смешанный набор — 3 по вашему направлению, 2 общих';
+
+  @override
+  String get workPlan =>
+      'План недели: понедельник–четверг — ваше направление, пятница–суббота — общие вопросы, воскресенье — смешанный набор.';
+
+  @override
   String get workTitle => 'Рабочее место';
 
   @override
@@ -4669,7 +4704,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get workEmptyBody =>
-      'Раздел рабочего места готовится: здесь будут дозировки, калькуляторы и быстрый справочник.';
+      'Скоро здесь появятся калькуляторы, нормы жизненных показателей, режимы стерилизации и справочник по инфекционному контролю.';
 
   @override
   String get hubGoLearn => 'Перейти к обучению';

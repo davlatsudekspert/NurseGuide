@@ -4569,6 +4569,40 @@ class AppLocalizationsUz extends AppLocalizations {
       'Manipulyatsiyalar bo‘limi tayyorlanmoqda. Tekshirilgan, manbali ko‘rsatmalar keyingi yangilanishda paydo bo‘ladi.';
 
   @override
+  String get workDirTitle => 'Ish yo‘nalishingiz';
+
+  @override
+  String get workDirHint => 'Kunlik savollar shu yo‘nalishga moslanadi.';
+
+  @override
+  String get workDirPick =>
+      'Yo‘nalishingizni tanlang — kunlik savollar shunga moslanadi.';
+
+  @override
+  String get workDirNursing => 'Hamshiralik';
+
+  @override
+  String get workDirHigher => 'Oliy hamshiralik';
+
+  @override
+  String get workDirPatronage => 'Patronaj';
+
+  @override
+  String get workTodayOwn => 'Bugun: o‘z yo‘nalishingiz bo‘yicha savollar';
+
+  @override
+  String get workTodayGeneral =>
+      'Bugun: umumiy savollar (hamma yo‘nalish uchun)';
+
+  @override
+  String get workTodayMixed =>
+      'Bugun: aralash — 3 ta o‘z yo‘nalishingizdan, 2 ta umumiy';
+
+  @override
+  String get workPlan =>
+      'Hafta rejasi: dushanba–payshanba — o‘z yo‘nalishingiz, juma–shanba — umumiy savollar, yakshanba — aralash.';
+
+  @override
   String get workTitle => 'Ish joyi';
 
   @override
@@ -4579,7 +4613,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get workEmptyBody =>
-      'Ish joyi bo‘limi tayyorlanmoqda: dori dozalari, hisoblagichlar va tezkor ma’lumotnoma shu yerda bo‘ladi.';
+      'Tez orada: kalkulyatorlar, hayotiy ko‘rsatkichlar me’yorlari, sterilizatsiya rejimlari va infeksion nazorat ma’lumotnomasi shu yerda bo‘ladi.';
 
   @override
   String get hubGoLearn => 'O‘rganishga o‘tish';

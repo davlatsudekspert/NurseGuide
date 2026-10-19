@@ -4745,7 +4745,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get workEmptyBody =>
-      'Tez orada: kalkulyatorlar, hayotiy ko‘rsatkichlar me’yorlari, sterilizatsiya rejimlari va infeksion nazorat ma’lumotnomasi shu yerda bo‘ladi.';
+      'Keyingi yangilanishda: sterilizatsiya rejimlari, infeksion nazorat ma’lumotnomasi va kalkulyatorlar. Raqamlar faqat SanQvaM va rasmiy manbalar bo‘yicha, manbasi bilan beriladi.';
 
   @override
   String get hubGoLearn => 'O‘rganishga o‘tish';

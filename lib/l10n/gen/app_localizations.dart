@@ -8233,7 +8233,7 @@ abstract class AppLocalizations {
   /// No description provided for @workEmptyBody.
   ///
   /// In en, this message translates to:
-  /// **'Coming soon: calculators, vital-sign norms, sterilisation regimes and an infection-control reference will live here.'**
+  /// **'In the next update: sterilisation regimes, an infection-control reference and calculators. Figures come only from the sanitary rules (SanQvaM) and official sources, with the source shown.'**
   String get workEmptyBody;
 
   /// No description provided for @hubGoLearn.

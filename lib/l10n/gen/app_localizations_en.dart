@@ -4828,7 +4828,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get workEmptyBody =>
-      'Coming soon: calculators, vital-sign norms, sterilisation regimes and an infection-control reference will live here.';
+      'In the next update: sterilisation regimes, an infection-control reference and calculators. Figures come only from the sanitary rules (SanQvaM) and official sources, with the source shown.';
 
   @override
   String get hubGoLearn => 'Go to Learn';

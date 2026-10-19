@@ -332,7 +332,7 @@ abstract final class LgGlass {
   static const double blurSigma = 22;
 
   static double surfaceAlpha(Brightness brightness) =>
-      brightness == Brightness.dark ? 0.88 : 0.84;
+      brightness == Brightness.dark ? 0.82 : 0.74;
 
   static Color surface(
     LgPalette p,

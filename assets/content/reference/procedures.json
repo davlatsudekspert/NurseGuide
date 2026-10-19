@@ -16,8 +16,8 @@
    ],
    "contraindications": [],
    "equipment": [
-    "1 ml li shpris (ishlatishga yaroqli)",
-    "Uchi qiyshiq kesilgan eng ingichka va kalta igna",
+    "1 ml li bir martalik steril shpris (igna bilan birga)",
+    "Eng ingichka va kalta igna (shpris bilan birga keladi)",
     "Dori ampulasi yoki flakoni",
     "Spirt",
     "Qo'lqoplar"
@@ -33,7 +33,7 @@
      "text": "Bemor bilan gaplashib, inyeksiya og'riqsiz o'tishini ayting; uning qanday yotishi va qanday nafas olishi kerakligini tushuntiring."
     },
     {
-     "text": "Uchi qiyshiq kesilgan eng ingichka va kalta igna hamda 1 ml li yaxshi shpris oling (bir martalik shpris bo'lsa, igna shpris bilan birga keladi)."
+     "text": "Bir martalik steril 1 ml li shpris oling (eng ingichka va kalta igna bilan birga)."
     },
     {
      "text": "Diagnostik, allergik sinamalar va dorilarga sezuvchanlikni aniqlash uchun inyeksiya joyini bilakning pastki uchdan bir qismidan tanlang."
@@ -60,13 +60,13 @@
      "text": "Mantu sinamasi natijasini odatda 72 soatdan so'ng, Byurne va Kasoni sinamalarini 24-48 soatdan so'ng baholang."
     },
     {
-     "text": "Shpris va ignani o'sha zahoti oqar suv tagida yuvib, ishlatilgan asboblar uchun ajratilgan idishga qo'ying."
+     "text": "Ishlatilgan shpris va ignani yuvmasdan, o'tkir chiqindilar uchun ajratilgan idishga tashlang."
     }
    ],
    "checklist": [
     "Dori nomi, tiniqligi va yaroqlilik muddati tekshirildimi?",
     "Bemorga muolaja tushuntirildimi?",
-    "Eng ingichka va kalta igna olindimi?",
+    "Bir martalik steril 1 ml li shpris (eng ingichka va kalta igna bilan) olindimi?",
     "Qo'lqoplar kiyilib, joy spirt bilan artildimi va quritildimi?",
     "Igna teriga deyarli parallel, uchi yuqoriga qaragan holda kiritildimi?",
     "Faqat igna teshigi botguncha kiritildimi?",
@@ -98,8 +98,8 @@
      ],
      "contraindications": [],
      "equipment": [
-      "Исправный шприц объёмом 1 мл",
-      "Самая тонкая и короткая игла с косым срезом острия",
+      "Одноразовый стерильный шприц объёмом 1 мл (с иглой)",
+      "Самая тонкая и короткая игла (поставляется со шприцем)",
       "Ампула или флакон с лекарственным средством",
       "Спирт",
       "Перчатки"
@@ -115,7 +115,7 @@
        "text": "Побеседуйте с пациентом, скажите, что инъекция пройдёт безболезненно; объясните, как ему следует лежать и как дышать."
       },
       {
-       "text": "Возьмите самую тонкую и короткую иглу с косым срезом острия и исправный шприц объёмом 1 мл (если шприц одноразовый, игла идёт в комплекте)."
+       "text": "Возьмите одноразовый стерильный шприц объёмом 1 мл (с самой тонкой и короткой иглой)."
       },
       {
        "text": "Для диагностических, аллергических проб и определения чувствительности к лекарственным препаратам выберите место инъекции в нижней трети предплечья."
@@ -142,13 +142,13 @@
        "text": "Результат пробы Манту оценивайте обычно через 72 часа, пробы Бюрне и Касони — через 24-48 часов."
       },
       {
-       "text": "Сразу же промойте шприц и иглу под проточной водой и поместите их в ёмкость, предназначенную для использованных инструментов."
+       "text": "Использованные шприц и иглу не промывайте, а выбросьте в ёмкость для острых отходов."
       }
      ],
      "checklist": [
       "Проверены ли название лекарства, его прозрачность и срок годности?",
       "Объяснена ли процедура пациенту?",
-      "Взята ли самая тонкая и короткая игла?",
+      "Взят ли одноразовый стерильный шприц объёмом 1 мл (с самой тонкой и короткой иглой)?",
       "Надеты ли перчатки, протёрто ли место спиртом и высушено ли оно?",
       "Введена ли игла почти параллельно коже, срезом вверх?",
       "Введена ли игла только до погружения среза?",
@@ -183,7 +183,7 @@
     "Teri ostiga dori quyishda: ko'rsatilgan sohalardagi teri kasalliklari va yiringli jarayonlar monelik qiladi"
    ],
    "equipment": [
-    "Shpris va igna (teri osti inyeksiyalari uchun uzunligi 3-4 sm, bo'shlig'i 0,5 dan 1 mm gacha)",
+    "Bir martalik steril shpris va igna (teri osti inyeksiyalari uchun uzunligi 3-4 sm, bo'shlig'i 0,5 dan 1 mm gacha)",
     "Eritmalar uchun ingichka igna, moylar uchun yo'g'onroq igna",
     "Spirt shimdirilgan steril paxta sharchalar",
     "Yodning spirtli eritmasi",
@@ -255,7 +255,7 @@
      "text": "Bemorni inyeksiyadan keyingi dastlabki daqiqalarda sinchkovlik bilan kuzating."
     },
     {
-     "text": "Shpris va ignani o'sha zahoti oqar suv tagida yuvib, ishlatilgan asboblar idishiga qo'ying; ularni ikkinchi inyeksiyada ishlatmang."
+     "text": "Ishlatilgan shpris va ignani yuvmasdan, o'tkir chiqindilar idishiga tashlang; ularni ikkinchi inyeksiyada ishlatmang."
     }
    ],
    "checklist": [
@@ -269,7 +269,7 @@
     "Igna taxminan 2/3 qismigacha kiritildimi?",
     "Dori yuborilgach, joy yangi spirtli paxta sharcha bilan bosilib, yengil uqalandimi?",
     "Bemor dastlabki daqiqalarda kuzatildimi?",
-    "Shpris va igna bir marta ishlatilib, yuvilib, idishga qo'yildimi?"
+    "Shpris va igna bir marta ishlatilib, o'tkir chiqindilar idishiga tashlandimi?"
    ],
    "risks": [
     "Infiltrat (turli hajm va qattiqlikdagi), yallig'lanish mahsulotlari to'planib joyning berchlashib qolishi; ba'zan infiltrat erib abssess yoki oqma yara hosil qiladi",
@@ -308,7 +308,7 @@
       "При подкожных вливаниях: противопоказаны кожные заболевания и гнойные процессы в указанных областях"
      ],
      "equipment": [
-      "Шприц и игла (для подкожных инъекций — длиной 3-4 см, с просветом от 0,5 до 1 мм)",
+      "Одноразовые стерильные шприц и игла (для подкожных инъекций — длиной 3-4 см, с просветом от 0,5 до 1 мм)",
       "Тонкая игла для растворов, более толстая игла для масляных растворов",
       "Стерильные ватные шарики, смоченные спиртом",
       "Спиртовой раствор йода",
@@ -380,7 +380,7 @@
        "text": "Внимательно наблюдайте за пациентом в первые минуты после инъекции."
       },
       {
-       "text": "Сразу же промойте шприц и иглу под проточной водой и поместите их в ёмкость для использованных инструментов; не используйте их для второй инъекции."
+       "text": "Использованные шприц и иглу не промывайте, а выбросьте в ёмкость для острых отходов; не используйте их для второй инъекции."
       }
      ],
      "checklist": [
@@ -394,7 +394,7 @@
       "Введена ли игла примерно на 2/3 длины?",
       "Прижато ли после введения лекарства место новым спиртовым ватным шариком и слегка помассировано?",
       "Наблюдали ли за пациентом в первые минуты?",
-      "Использованы ли шприц и игла однократно, промыты ли и помещены ли в ёмкость?"
+      "Использованы ли шприц и игла однократно и выброшены ли в ёмкость для острых отходов?"
      ],
      "risks": [
       "Инфильтрат (различного размера и плотности) — уплотнение места вследствие скопления продуктов воспаления; иногда инфильтрат расплавляется с образованием абсцесса или свища",
@@ -424,8 +424,8 @@
    ],
    "contraindications": [],
    "equipment": [
-    "Lyuer shprisi yoki «Rekord» shprisi",
-    "Uzunligi 8-10 sm bo'lgan igna",
+    "Bir martalik steril shpris (igna bilan birga)",
+    "Mushak ichiga inyeksiya uchun mos uzunlikdagi igna",
     "Spirt va spirtga ho'llangan paxta bo'lakchalari",
     "Antibiotik kristalli kukun bo'lsa: natriy xloridning steril izotonik eritmasi, ikki marta distillangan suv yoki 0,5% li novokain eritmasi",
     "Qo'lqoplar"
@@ -462,7 +462,7 @@
      "text": "Bemor qizarsa yoki yurak, to'sh ostida nohush sezgilar paydo bo'lsa, ikkinchi qismni yubormang, shifokorni chaqiring va uning ko'rsatmalarini bajaring."
     },
     {
-     "text": "Shprisni yig'ishdan oldin qo'lingizni sovunlab oqar suvda yuving; toza qo'llar bilan boshqa narsalarga tegmang."
+     "text": "Inyeksiyadan oldin qo'lingizni sovunlab oqar suvda yuving; toza qo'llar bilan boshqa narsalarga tegmang."
     },
     {
      "text": "Spirtga ho'llangan paxta bo'lakchasi bilan tirnoqlaringizni, so'ng boshqa paxta bo'lagi bilan bemor terisini arting."
@@ -477,7 +477,7 @@
      "text": "Shprisni ushlang: 1-2-barmoq porshenni, 5-barmoq igna muftasini, qolgan barmoqlar silindrni tutadi; shprisni tana yuzasiga perpendikular tuting."
     },
     {
-     "text": "Ignani dadil harakat bilan teri burmasining o'rtasiga 7-8 sm ichkariga kiriting, mufta ustidan 1 sm qoldiring, chunki igna ko'pincha shu joydan sinadi."
+     "text": "Ignani dadil harakat bilan teri burmasining o'rtasiga kiriting, mufta ustidan 1 sm qoldiring, chunki igna ko'pincha shu joydan sinadi."
     },
     {
      "text": "Porshenni o'zingizga torting va shprisda qon paydo bo'lmasligiga, ya'ni igna qon tomiriga tushmaganligiga ishonch hosil qiling."
@@ -500,7 +500,7 @@
     "Bemor to'g'ri vaziyatga yotqizildimi?",
     "Dumbaning yuqori tashqi kvadrati tanlandimi?",
     "Shpris tana yuzasiga perpendikular tutildimi?",
-    "Igna 7-8 sm kiritilib, mufta ustidan 1 sm qoldirildimi?",
+    "Igna kiritilib, mufta ustidan 1 sm qoldirildimi?",
     "Porshen tortilib, shprisda qon yo'qligi tekshirildimi?",
     "Eritma asta-sekin yuborildimi?",
     "Igna chaqqon chiqarilib, spirtli paxta tampon bosildimi?"
@@ -532,8 +532,8 @@
      ],
      "contraindications": [],
      "equipment": [
-      "Шприц Люэра или шприц «Рекорд»",
-      "Игла длиной 8-10 см",
+      "Одноразовый стерильный шприц (с иглой)",
+      "Игла подходящей длины для внутримышечной инъекции",
       "Спирт и кусочки ваты, смоченные спиртом",
       "Если антибиотик — кристаллический порошок: стерильный изотонический раствор натрия хлорида, дважды дистиллированная вода или 0,5% раствор новокаина",
       "Перчатки"
@@ -570,7 +570,7 @@
        "text": "Если пациент покраснеет или появятся неприятные ощущения в области сердца, за грудиной, вторую часть не вводите, вызовите врача и выполняйте его указания."
       },
       {
-       "text": "Перед сборкой шприца вымойте руки с мылом под проточной водой; чистыми руками не прикасайтесь к другим предметам."
+       "text": "Перед инъекцией вымойте руки с мылом под проточной водой; чистыми руками не прикасайтесь к другим предметам."
       },
       {
        "text": "Протрите ногти кусочком ваты, смоченным спиртом, затем другим кусочком ваты — кожу пациента."
@@ -585,7 +585,7 @@
        "text": "Держите шприц так: 1-2-й пальцы удерживают поршень, 5-й палец — муфту иглы, остальные пальцы — цилиндр; держите шприц перпендикулярно поверхности тела."
       },
       {
-       "text": "Решительным движением введите иглу в середину кожной складки на глубину 7-8 см, оставив над муфтой 1 см, так как игла чаще всего ломается именно в этом месте."
+       "text": "Решительным движением введите иглу в середину кожной складки, оставив над муфтой 1 см, так как игла чаще всего ломается именно в этом месте."
       },
       {
        "text": "Потяните поршень на себя и убедитесь, что в шприце не появилась кровь, то есть игла не попала в кровеносный сосуд."
@@ -608,7 +608,7 @@
       "Уложен ли пациент в правильное положение?",
       "Выбран ли верхний наружный квадрант ягодицы?",
       "Держали ли шприц перпендикулярно поверхности тела?",
-      "Введена ли игла на 7-8 см с оставлением 1 см над муфтой?",
+      "Введена ли игла с оставлением 1 см над муфтой?",
       "Потянут ли поршень и проверено ли отсутствие крови в шприце?",
       "Медленно ли введён раствор?",
       "Быстро ли извлечена игла и прижат ли спиртовой ватный тампон?"

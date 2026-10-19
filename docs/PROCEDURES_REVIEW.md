@@ -127,3 +127,8 @@ qo‘shilmadi: eskirgan tafsilotlar olib tashlandi yoki zamonaviy standart bilan
 **Ochiq (mutaxassis qarori kerak):** simobli termometr/sfigmomanometr (elektron muqobil ko‘rsatilmagan);
 teri osti inyeksiyada yod nastoykasi; mushak ichiga antibiotik sinamasi (teri ostiga/ichiga — amaldagi tartib);
 pulsning me’yori (60–80 → 60–100); IM inyeksiya: igna kiritish chuqurligi tavsifi.
+
+**Qo‘shimcha (2026-10-19, ikkinchi tur):** teri ichiga/ostiga/mushak ichiga inyeksiyalarda «bir martalik steril shpris
+(igna bilan)» deb yozildi; «ishlatilgan shpris va ignani yuvib qo‘ying» → «yuvmasdan, o‘tkir chiqindilar idishiga tashlang»;
+«Lyuer/Rekord shprisi», «shprisni yig‘ish» olib tashlandi; mushak ichiga igna uzunligi (8–10 sm) va kiritish chuqurligi (7–8 sm)
+raqamlari olib tashlandi («mos uzunlikdagi igna»; «mufta ustidan 1 sm qoldiring» qoldi).

@@ -3205,5 +3205,6 @@
   "examNoQuestions": "There are no exam questions available right now.",
   "workDirObstetrics": "Obstetrics",
   "toifaScopeUnofficial": "These questions come from an unofficial collection; the answer key follows the file and has not been checked by a medical specialist. Study material, not the official exam list.",
-  "workDirRadiology": "X-ray technician"
+  "workDirRadiology": "X-ray technician",
+  "toifaNoGuarantee": "Prepared for study: the questions follow the official list, but the app cannot guarantee that these exact questions will appear in your exam. Please study every topic thoroughly."
 }

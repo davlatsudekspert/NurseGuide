@@ -5107,4 +5107,8 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get workDirRadiology => 'Rentgen laborant';
+
+  @override
+  String get toifaNoGuarantee =>
+      'Tayyorgarlik uchun: savollar rasmiy ro‘yxat asosida tuzilgan, lekin imtihonda aynan shu savollar tushishiga ilova kafolat bera olmaydi. Shuning uchun barcha mavzularni to‘liq o‘rganing.';
 }

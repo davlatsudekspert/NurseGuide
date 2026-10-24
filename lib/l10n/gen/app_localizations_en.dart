@@ -5188,4 +5188,8 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get workDirRadiology => 'X-ray technician';
+
+  @override
+  String get toifaNoGuarantee =>
+      'Prepared for study: the questions follow the official list, but the app cannot guarantee that these exact questions will appear in your exam. Please study every topic thoroughly.';
 }

@@ -1466,5 +1466,6 @@
   "examNoQuestions": "Hozir imtihon uchun savollar mavjud emas.",
   "workDirObstetrics": "Akusherlik",
   "toifaScopeUnofficial": "Bu yo‘nalish savollari norasmiy to‘plamdan olingan; to‘g‘ri javob fayl bo‘yicha va tibbiy mutaxassis tekshiruvidan o‘tmagan. O‘quv materiali, rasmiy imtihon ro‘yxati emas.",
-  "workDirRadiology": "Rentgen laborant"
+  "workDirRadiology": "Rentgen laborant",
+  "toifaNoGuarantee": "Tayyorgarlik uchun: savollar rasmiy ro‘yxat asosida tuzilgan, lekin imtihonda aynan shu savollar tushishiga ilova kafolat bera olmaydi. Shuning uchun barcha mavzularni to‘liq o‘rganing."
 }

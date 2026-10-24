@@ -20,6 +20,7 @@ import '../settings/settings_controller.dart' show WorkDirection;
 import '../share/result_share.dart';
 import 'toifa_bank.dart';
 import '../../design/widgets/study_only_note.dart';
+import '../../design/widgets/no_guarantee_note.dart';
 import 'toifa_controller.dart';
 import 'toifa_daily.dart';
 import 'toifa_today.dart';
@@ -310,7 +311,11 @@ class _ToifaPage extends StatelessWidget {
           title: title,
           subtitle: subtitle,
           showProfile: false,
-          children: builder(context, bank),
+          children: [
+            ...builder(context, bank),
+            // Savol ustidagi sahifalarda (pageKey bor) yozuv chiqmaydi.
+            if (pageKey == null) const NoGuaranteeNote(),
+          ],
         ),
       ),
     );

@@ -5199,4 +5199,8 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get workDirRadiology => 'Рентген-лаборант';
+
+  @override
+  String get toifaNoGuarantee =>
+      'Вопросы — учебный материал, подготовленный по официальному списку. Приложение не гарантирует, что на экзамене попадутся именно эти вопросы.';
 }

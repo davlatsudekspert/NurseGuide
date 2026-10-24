@@ -8901,6 +8901,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'X-ray technician'**
   String get workDirRadiology;
+
+  /// No description provided for @toifaNoGuarantee.
+  ///
+  /// In en, this message translates to:
+  /// **'The questions are study material prepared from the official list. The app does not guarantee that these exact questions will appear in the exam.'**
+  String get toifaNoGuarantee;
 }
 
 class _AppLocalizationsDelegate

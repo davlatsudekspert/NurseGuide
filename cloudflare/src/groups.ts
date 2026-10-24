@@ -17,6 +17,7 @@ import {
   readJson,
 } from './http';
 import { guardAbuse } from './moderation';
+import { hasGrantTier } from './pro';
 import { hit } from './ratelimit';
 import { drawVariant } from './variants';
 
@@ -190,6 +191,10 @@ export async function isTeacherAccount(ctx: Ctx, uid: string): Promise<boolean> 
  */
 export async function registerTeacher(ctx: Ctx): Promise<Response> {
   const s = await requireSession(ctx);
+  // Talaba ustoz bo'lib o'ta olmasin: yoqilsa, Ustoz/Mutaxassis Pro talab qilinadi.
+  if (ctx.env.LG_TEACHER_REQUIRES_PRO === '1' && !(await hasGrantTier(ctx, s.userId, ['teacher', 'specialist']))) {
+    throw forbidden('pro_required');
+  }
   const r = await ctx.db
     .prepare(
       `INSERT INTO teacher_accounts (user_id, registered_at)

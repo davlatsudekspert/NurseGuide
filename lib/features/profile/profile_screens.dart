@@ -226,6 +226,14 @@ class ProfileScreen extends StatelessWidget {
                 icon: Icons.admin_panel_settings_outlined,
                 onTap: () => context.push('/profile/admin'),
               ),
+            if (AppScope.of(context).billing.enabled)
+              LgRow(
+                key: const ValueKey('profile-subscription'),
+                title: l.paywallProfileRow,
+                subtitle: l.paywallTitle,
+                icon: Icons.workspace_premium_outlined,
+                onTap: () => context.push('/paywall'),
+              ),
             LgRow(
               title: l.profilePrivacy,
               subtitle: l.profilePrivacySub,

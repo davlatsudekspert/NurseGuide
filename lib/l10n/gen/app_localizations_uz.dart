@@ -4965,4 +4965,136 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get toifaEmptyBody => 'Savollar yuklanmadi. Ilovani qayta oching.';
+
+  @override
+  String get paywallTitle => 'NurseGuide Pro';
+
+  @override
+  String get paywallLocked => 'Bu bo‘lim obunaga kiradi.';
+
+  @override
+  String get paywallLead =>
+      'Hamshiralik imtihoniga tayyorgarlik uchun testlar, imtihon rejimi, og‘zaki biletlar va boshqa o‘quv bo‘limlari.';
+
+  @override
+  String get paywallTrial =>
+      'Dastlabki 30 kun bepul: shu qurilma va hisobda birinchi kirishdan boshlab (bir martalik). Keyin reja tanlanadi. Istalgan vaqtda bekor qilish mumkin.';
+
+  @override
+  String get planStudent => 'Talaba';
+
+  @override
+  String get planSpecialist => 'Mutaxassis';
+
+  @override
+  String get planTeacher => 'Ustoz';
+
+  @override
+  String get planStudentDesc =>
+      'Testlar, mashq, imtihon rejimi, og‘zaki biletlar, saqlanganlar';
+
+  @override
+  String get planSpecialistDesc =>
+      'Ustoz rejasidagi hammasi, qo‘shimcha DMED savol-javoblari va atamalar';
+
+  @override
+  String get planTeacherDesc =>
+      'Talaba rejasidagi hammasi, qo‘shimcha guruhlar va natijalar';
+
+  @override
+  String get periodMonthly => 'oyiga';
+
+  @override
+  String get periodYearly => 'yiliga';
+
+  @override
+  String get paywallStart => 'Obuna bo‘lish';
+
+  @override
+  String get paywallRestore => 'Xaridni tiklash';
+
+  @override
+  String get paywallLegal =>
+      'Obuna har davr (oy yoki yil) oxirida avtomatik yangilanadi, agar uni kamida 24 soat oldin bekor qilmasangiz. To‘lov App Store yoki Google Play hisobingizdan olinadi; obunani do‘kon obuna sozlamalarida boshqarish va bekor qilish mumkin.';
+
+  @override
+  String get paywallTerms => 'Foydalanish shartlari';
+
+  @override
+  String get paywallPrivacy => 'Maxfiylik siyosati';
+
+  @override
+  String get paywallUnavailable =>
+      'Do‘kon bilan aloqa yo‘q. Internetni tekshirib, qayta urinib ko‘ring.';
+
+  @override
+  String get paywallError => 'Xarid bajarilmadi.';
+
+  @override
+  String get paywallActive => 'Obunangiz faol.';
+
+  @override
+  String get paywallFreeNote =>
+      'Bepul: bosh sahifa, manipulyatsiyalar, kutubxona va kunlik savollar.';
+
+  @override
+  String get paywallBack => 'Bosh sahifaga qaytish';
+
+  @override
+  String get paywallProfileRow => 'Obuna';
+
+  @override
+  String get studyOnlyNote =>
+      'Imtihonga tayyorgarlik uchun o‘quv materiali. Davolash yoki klinik qaror uchun emas: muassasangizdagi amaldagi ko‘rsatmaga amal qiling.';
+
+  @override
+  String get adminPro => 'Pro obunalar';
+
+  @override
+  String get adminProSub => 'Istalgan emailga Pro berish yoki olib tashlash';
+
+  @override
+  String get adminProEmail => 'Foydalanuvchi emaili';
+
+  @override
+  String get adminProDays => 'Kun (bo‘sh = muddatsiz)';
+
+  @override
+  String get adminProGive => 'Pro berish';
+
+  @override
+  String get adminProRemove => 'Pro ni olib tashlash';
+
+  @override
+  String get adminProDone => 'Saqlandi';
+
+  @override
+  String get adminProInvalid =>
+      'To‘g‘ri email va (kerak bo‘lsa) kun sonini kiriting.';
+
+  @override
+  String adminProUntil(String date) {
+    return '$date gacha';
+  }
+
+  @override
+  String get adminProForever => 'muddatsiz';
+
+  @override
+  String get rolesTeacherNeedsPlan =>
+      'Ustoz roli uchun Ustoz yoki Mutaxassis rejasi kerak (Profil → Obuna).';
+
+  @override
+  String paywallTrialActive(String date) {
+    return 'Bepul sinov $date gacha';
+  }
+
+  @override
+  String get paywallRestored => 'Xaridlar tiklandi.';
+
+  @override
+  String get paywallNothingToRestore => 'Tiklash uchun xarid topilmadi.';
+
+  @override
+  String get examNoQuestions => 'Hozir imtihon uchun savollar mavjud emas.';
 }

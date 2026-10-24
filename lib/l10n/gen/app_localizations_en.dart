@@ -5045,4 +5045,137 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get toifaEmptyBody => 'Questions did not load. Reopen the app.';
+
+  @override
+  String get paywallTitle => 'NurseGuide Pro';
+
+  @override
+  String get paywallLocked => 'This section is part of the subscription.';
+
+  @override
+  String get paywallLead =>
+      'Tests, exam mode, oral tickets and other study sections for nursing exam preparation.';
+
+  @override
+  String get paywallTrial =>
+      'Free for 30 days from your first sign-in on this device and account (one time only). Then choose a plan. Cancel any time.';
+
+  @override
+  String get planStudent => 'Student';
+
+  @override
+  String get planSpecialist => 'Specialist';
+
+  @override
+  String get planTeacher => 'Teacher';
+
+  @override
+  String get planStudentDesc =>
+      'Tests, practice, exam mode, oral tickets, saved items';
+
+  @override
+  String get planSpecialistDesc =>
+      'Everything in Teacher, plus DMED questions and the glossary';
+
+  @override
+  String get planTeacherDesc =>
+      'Everything in Student, plus groups and results';
+
+  @override
+  String get periodMonthly => 'per month';
+
+  @override
+  String get periodYearly => 'per year';
+
+  @override
+  String get paywallStart => 'Subscribe';
+
+  @override
+  String get paywallRestore => 'Restore purchases';
+
+  @override
+  String get paywallLegal =>
+      'The subscription renews automatically at the end of each period (month or year) unless you cancel it at least 24 hours before. Payment is charged to your App Store or Google Play account; manage or cancel it in the store subscription settings.';
+
+  @override
+  String get paywallTerms => 'Terms of use';
+
+  @override
+  String get paywallPrivacy => 'Privacy policy';
+
+  @override
+  String get paywallUnavailable =>
+      'The store is not reachable. Check your connection and try again.';
+
+  @override
+  String get paywallError => 'The purchase did not go through.';
+
+  @override
+  String get paywallActive => 'Your subscription is active.';
+
+  @override
+  String get paywallFreeNote =>
+      'Free: home, procedures, library and daily questions.';
+
+  @override
+  String get paywallBack => 'Back to home';
+
+  @override
+  String get paywallProfileRow => 'Subscription';
+
+  @override
+  String get studyOnlyNote =>
+      'Study material for exams. Not for treatment or clinical decisions: follow your facility’s current instructions.';
+
+  @override
+  String get adminPro => 'Pro subscriptions';
+
+  @override
+  String get adminProSub => 'Give or remove Pro for any email';
+
+  @override
+  String get adminProEmail => 'User email';
+
+  @override
+  String get adminProDays => 'Days (empty = no end date)';
+
+  @override
+  String get adminProGive => 'Give Pro';
+
+  @override
+  String get adminProRemove => 'Remove Pro';
+
+  @override
+  String get adminProDone => 'Saved';
+
+  @override
+  String get adminProInvalid =>
+      'Enter a valid email and, if used, a number of days.';
+
+  @override
+  String adminProUntil(String date) {
+    return 'until $date';
+  }
+
+  @override
+  String get adminProForever => 'no end date';
+
+  @override
+  String get rolesTeacherNeedsPlan =>
+      'The Teacher role needs the Teacher or Specialist plan (Profile → Subscription).';
+
+  @override
+  String paywallTrialActive(String date) {
+    return 'Free trial active until $date';
+  }
+
+  @override
+  String get paywallRestored => 'Purchases restored.';
+
+  @override
+  String get paywallNothingToRestore => 'No purchases found to restore.';
+
+  @override
+  String get examNoQuestions =>
+      'There are no exam questions available right now.';
 }

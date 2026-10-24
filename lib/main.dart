@@ -5,6 +5,8 @@ import 'package:flutter/services.dart';
 import 'package:material_ui/material_ui.dart';
 
 import 'app/app.dart';
+import 'core/device/device_identity.dart';
+import 'features/billing/billing_controller.dart';
 import 'app/app_scope.dart';
 import 'core/backend/access_controller.dart';
 import 'core/backend/cloudflare_backend.dart';
@@ -67,6 +69,7 @@ AppServices createServices({
   Curriculum? curriculum,
   SocialAuthService? socialAuth,
   QrScanner? qrScanner,
+  BillingController? billing,
 }) {
   const config = AppConfig(appVersion: _appVersion, showDebugBadge: kDebugMode);
   final server = backend ?? _defaultBackend();
@@ -114,6 +117,7 @@ AppServices createServices({
     curriculum: CurriculumController(bundle: bundle, curriculum: curriculum),
     classroom: ClassroomLocal(store),
     topicTests: TopicTestController(store, clock: clock),
+    billing: billing ?? BillingController(store: store, now: clock),
     qrScanner: qrScanner ?? const MobileQrScanner(),
   )..watchAccess();
 }
@@ -123,6 +127,10 @@ AppServices createServices({
 AppBackend _defaultBackend() {
   const api = ApiConfig.fromEnvironment;
   return api.isConfigured
-      ? CloudflareAppBackend(api)
+      // Qurilma identifikatori faqat obuna yoqilganda (bepul sinov uchun) yuboriladi.
+      ? CloudflareAppBackend(
+          api,
+          device: kBillingEnabled ? DeviceIdentity() : null,
+        )
       : const UnconfiguredBackend();
 }

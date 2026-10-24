@@ -5056,4 +5056,137 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get toifaEmptyBody =>
       'Вопросы не загрузились. Откройте приложение заново.';
+
+  @override
+  String get paywallTitle => 'NurseGuide Pro';
+
+  @override
+  String get paywallLocked => 'Этот раздел входит в подписку.';
+
+  @override
+  String get paywallLead =>
+      'Тесты, режим экзамена, устные билеты и другие учебные разделы для подготовки к экзамену.';
+
+  @override
+  String get paywallTrial =>
+      '30 дней бесплатно с первого входа на этом устройстве и аккаунте (один раз). Затем выберите план. Отменить можно в любой момент.';
+
+  @override
+  String get planStudent => 'Студент';
+
+  @override
+  String get planSpecialist => 'Специалист';
+
+  @override
+  String get planTeacher => 'Преподаватель';
+
+  @override
+  String get planStudentDesc =>
+      'Тесты, практика, режим экзамена, устные билеты, сохранённое';
+
+  @override
+  String get planSpecialistDesc =>
+      'Всё из плана «Преподаватель», плюс вопросы DMED и глоссарий';
+
+  @override
+  String get planTeacherDesc =>
+      'Всё из плана «Студент», плюс группы и результаты';
+
+  @override
+  String get periodMonthly => 'в месяц';
+
+  @override
+  String get periodYearly => 'в год';
+
+  @override
+  String get paywallStart => 'Оформить подписку';
+
+  @override
+  String get paywallRestore => 'Восстановить покупки';
+
+  @override
+  String get paywallLegal =>
+      'Подписка автоматически продлевается в конце каждого периода (месяц или год), если вы не отмените её не позднее чем за 24 часа. Оплата списывается с вашего аккаунта App Store или Google Play; управлять подпиской и отменять её можно в настройках подписок магазина.';
+
+  @override
+  String get paywallTerms => 'Условия использования';
+
+  @override
+  String get paywallPrivacy => 'Политика конфиденциальности';
+
+  @override
+  String get paywallUnavailable =>
+      'Магазин недоступен. Проверьте соединение и повторите попытку.';
+
+  @override
+  String get paywallError => 'Покупка не выполнена.';
+
+  @override
+  String get paywallActive => 'Подписка активна.';
+
+  @override
+  String get paywallFreeNote =>
+      'Бесплатно: главная, манипуляции, библиотека и ежедневные вопросы.';
+
+  @override
+  String get paywallBack => 'На главную';
+
+  @override
+  String get paywallProfileRow => 'Подписка';
+
+  @override
+  String get studyOnlyNote =>
+      'Учебный материал для подготовки к экзамену. Не для лечения и клинических решений: следуйте действующим инструкциям вашего учреждения.';
+
+  @override
+  String get adminPro => 'Pro-подписки';
+
+  @override
+  String get adminProSub => 'Выдать или снять Pro для любого email';
+
+  @override
+  String get adminProEmail => 'Email пользователя';
+
+  @override
+  String get adminProDays => 'Дней (пусто = без срока)';
+
+  @override
+  String get adminProGive => 'Выдать Pro';
+
+  @override
+  String get adminProRemove => 'Снять Pro';
+
+  @override
+  String get adminProDone => 'Сохранено';
+
+  @override
+  String get adminProInvalid =>
+      'Введите корректный email и, если нужно, число дней.';
+
+  @override
+  String adminProUntil(String date) {
+    return 'до $date';
+  }
+
+  @override
+  String get adminProForever => 'без срока';
+
+  @override
+  String get rolesTeacherNeedsPlan =>
+      'Для роли преподавателя нужен план «Преподаватель» или «Специалист» (Профиль → Подписка).';
+
+  @override
+  String paywallTrialActive(String date) {
+    return 'Бесплатный период до $date';
+  }
+
+  @override
+  String get paywallRestored => 'Покупки восстановлены.';
+
+  @override
+  String get paywallNothingToRestore =>
+      'Покупки для восстановления не найдены.';
+
+  @override
+  String get examNoQuestions => 'Сейчас нет доступных вопросов для экзамена.';
 }

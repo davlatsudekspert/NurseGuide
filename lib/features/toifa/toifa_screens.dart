@@ -19,6 +19,7 @@ import '../learn/exam_widgets.dart';
 import '../settings/settings_controller.dart' show WorkDirection;
 import '../share/result_share.dart';
 import 'toifa_bank.dart';
+import '../../design/widgets/study_only_note.dart';
 import 'toifa_controller.dart';
 import 'toifa_daily.dart';
 import 'toifa_today.dart';
@@ -2097,6 +2098,7 @@ class _OralQuestionViewState extends State<_OralQuestionView> {
                   )
                 else
                   LgSteps(q.plan),
+                const StudyOnlyNote(),
                 if (!q.planReady || q.note != null)
                   Padding(
                     padding: const EdgeInsets.only(top: 6),

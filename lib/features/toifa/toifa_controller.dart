@@ -177,7 +177,19 @@ class ToifaController extends ChangeNotifier {
   }
 
   ToifaLoadState get state => _state;
-  ToifaBank? get bank => _bank;
+
+  /// Test banki, interfeys tiliga ko'ra ko'rinadigan savollar bilan.
+  ToifaBank? get bank => _bank?.forLanguage(_language);
+
+  String _language = 'uz';
+
+  /// Interfeys tili o'zgardi: tarjimasi yo'q savollar (masalan, inglizchada
+  /// yangi yo'nalishlar) ko'rinmaydi.
+  void useLanguage(String lang) {
+    if (lang == _language) return;
+    _language = lang;
+    notifyListeners();
+  }
 
   /// Mavzuning interfeys tilidagi nomi (bank yuklanmagan bo'lsa — id).
   String topicName(AppLocalizations l, String id) =>

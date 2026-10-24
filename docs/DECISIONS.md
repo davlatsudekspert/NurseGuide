@@ -87,3 +87,11 @@ o‘chirib bo‘lmaydi; o‘chirish foydalanuvchi o‘zi o‘chirgandagi yo‘l 
 Topshiriqda savollar hovuzi va `per_student`; talaba to‘plami saqlanmaydi — `SHA-256("<topshiriq id>:<user id>:<savol id>")`
 bo‘yicha deterministik tanlanadi (server `cloudflare/src/variants.ts` ↔ Dart `variant_draw.dart`, umumiy vektorlar
 `cloudflare/test/variant_vectors.json`). Natijalar savol bo‘yicha faqat savol tushgan talabalar orasida hisoblanadi.
+
+### N-08. O‘rta tibbiyot laborantlari NurseGuide’da; vrach-laborantlar LabGuide’da (2026-10-24)
+NurseGuide — o‘rta tibbiyot xodimlari (hamshira, akusher, davolash ishi, rentgen laborant va boshqa
+mutaxassisliklar) uchun. Vrach-laborantlar uchun LabGuide alohida ilova. Shu sababli «laborant»
+so‘zi NurseGuide’da taqiqlanmaydi (yo‘nalish nomi); `no_lab_content_guard_test` qolgan
+laboratoriya atamalarini (sitologiya, spermogramma, analizator va h.k.) kod/ARB’da taqiqlashda
+davom etadi. Savollar `tmbm.ssv.uz` dagi rasmiy ro‘yxatlar va Drive’dagi to‘plamlardan keladi;
+har bir yo‘nalish faqat kontenti (javobli savollar) bo‘lganda ko‘rinadi.

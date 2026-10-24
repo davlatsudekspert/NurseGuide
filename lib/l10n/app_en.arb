@@ -3202,5 +3202,8 @@
   },
   "paywallRestored": "Purchases restored.",
   "paywallNothingToRestore": "No purchases found to restore.",
-  "examNoQuestions": "There are no exam questions available right now."
+  "examNoQuestions": "There are no exam questions available right now.",
+  "workDirObstetrics": "Obstetrics",
+  "toifaScopeUnofficial": "These questions come from an unofficial collection; the answer key follows the file and has not been checked by a medical specialist. Study material, not the official exam list.",
+  "workDirRadiology": "X-ray technician"
 }

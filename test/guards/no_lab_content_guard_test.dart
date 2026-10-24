@@ -16,11 +16,9 @@ final _labTerms = RegExp(
   [
     r'leyko\w*formula',
     r'leukoformula',
-    r'laborant',
     r'laborator',
     r'laboratory',
     r'laboratori',
-    r'лаборант',
     r'лаборатор',
     r'спермограмм',
     r'spermogram',
@@ -117,7 +115,6 @@ void main() {
   test('guard o‘zi ishlaydi: lab atamalari topiladi', () {
     for (final w in [
       'Leykoformula',
-      'laborant',
       'Klinik laboratoriya',
       'Spermogramma',
       'Qon guruhi',
@@ -125,7 +122,6 @@ void main() {
       'Kalibrlash',
       'Analit kartasi',
       'QC jurnali',
-      'Лаборант',
       'Группа крови',
     ]) {
       expect(_labTerms.hasMatch(w), isTrue, reason: w);

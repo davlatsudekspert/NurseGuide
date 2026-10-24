@@ -202,9 +202,25 @@ class ToifaCategoryPicker extends StatelessWidget {
 String? _scopeOf(BuildContext context) {
   final services = context.services;
   final work = services.settings.workDirection;
-  return services.toifa.scopeFor(
+  final scope = services.toifa.scopeFor(
     work == null || work == WorkDirection.dmed ? null : work.bank,
   );
+  // Tanlangan yo'nalishda shu tilda savol yo'q (masalan, inglizcha interfeys)
+  // bo'lsa — hammasi.
+  final bank = services.toifa.bank;
+  if (scope != null &&
+      bank != null &&
+      toifaTestPool(bank, scope: scope).isEmpty) {
+    return null;
+  }
+  return scope;
+}
+
+/// Tanlangan yo'nalish savollarining hammasi rasmiy/tekshirilgan darajasiz
+/// (norasmiy to'plam) bo'lsa — foydalanuvchiga aytiladi.
+bool _unofficial(ToifaBank bank, String scope) {
+  final pool = toifaTestPool(bank, scope: scope);
+  return pool.isNotEmpty && pool.every((q) => q.status == null);
 }
 
 class _ScopeChips extends StatelessWidget {
@@ -248,6 +264,15 @@ class _ScopeChips extends StatelessWidget {
                 ),
           ],
         ),
+        if (scope != null && _unofficial(bank, scope))
+          Padding(
+            padding: const EdgeInsets.only(top: 12),
+            child: LgNotice(
+              l.toifaScopeUnofficial,
+              key: const ValueKey('toifa-scope-unofficial'),
+              kind: NoticeKind.info,
+            ),
+          ),
       ],
     );
   }

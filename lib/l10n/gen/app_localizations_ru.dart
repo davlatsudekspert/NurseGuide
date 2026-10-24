@@ -5189,4 +5189,14 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get examNoQuestions => 'Сейчас нет доступных вопросов для экзамена.';
+
+  @override
+  String get workDirObstetrics => 'Акушерство';
+
+  @override
+  String get toifaScopeUnofficial =>
+      'Эти вопросы взяты из неофициального сборника; ключ ответов — по файлу и не проверен медицинским специалистом. Учебный материал, а не официальный список экзамена.';
+
+  @override
+  String get workDirRadiology => 'Рентген-лаборант';
 }

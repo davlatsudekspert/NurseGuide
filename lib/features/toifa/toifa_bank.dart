@@ -138,6 +138,7 @@ class ToifaTestQuestion implements OfficialKeyQuestion {
     this.held,
     this.bank,
     this.translations = const {},
+    this.langs,
   });
 
   factory ToifaTestQuestion.fromJson(Map<String, Object?> j) {
@@ -167,6 +168,7 @@ class ToifaTestQuestion implements OfficialKeyQuestion {
       held: j['held'] as String?,
       bank: j['bank'] as String?,
       translations: translations,
+      langs: (j['langs'] as List?)?.cast<String>().toSet(),
     );
   }
 
@@ -197,6 +199,12 @@ class ToifaTestQuestion implements OfficialKeyQuestion {
 
   /// Qaysi bankdan (`hamshiralik`, `oliy_hamshiralik`, `patronaj`).
   final String? bank;
+
+  /// Savol ko'rinadigan interfeys tillari (`null` — hammasida). Tarjimasi yo'q
+  /// yangi savollar faqat o'zbekcha/ruscha interfeysda ko'rinadi.
+  final Set<String>? langs;
+
+  bool visibleIn(String lang) => langs == null || langs!.contains(lang);
 
   /// Yordamchi tarjimalar (`ru`, `en`); bo'sh bo'lsa — faqat rasmiy matn.
   final Map<String, TestTranslation> translations;
@@ -608,6 +616,28 @@ class ToifaBank {
   }
 
   final List<String> topicOrder;
+
+  final Map<String, ToifaBank> _views = {};
+
+  /// Interfeys tili uchun ko'rinish: shu tilda ko'rinmaydigan (tarjimasi yo'q)
+  /// test savollari olib tashlanadi. Hammasi ko'rinsa — shu bankning o'zi.
+  ToifaBank forLanguage(String lang) {
+    if (tests.every((q) => q.visibleIn(lang))) return this;
+    return _views.putIfAbsent(
+      lang,
+      () => ToifaBank(
+        topicOrder: topicOrder,
+        tests: [
+          for (final q in tests)
+            if (q.visibleIn(lang)) q,
+        ],
+        oral: oral,
+        tickets: tickets,
+        topicNames: topicNames,
+        auditCheckedAt: auditCheckedAt,
+      ),
+    );
+  }
 
   /// Mavzu nomlari: `topic_names: {id: {uz, ru, en}}` (ixtiyoriy). Yo'q
   /// bo'lsa — id odam o'qiydigan ko'rinishga keltiriladi.

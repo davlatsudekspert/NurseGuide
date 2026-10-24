@@ -5097,4 +5097,14 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get examNoQuestions => 'Hozir imtihon uchun savollar mavjud emas.';
+
+  @override
+  String get workDirObstetrics => 'Akusherlik';
+
+  @override
+  String get toifaScopeUnofficial =>
+      'Bu yo‘nalish savollari norasmiy to‘plamdan olingan; to‘g‘ri javob fayl bo‘yicha va tibbiy mutaxassis tekshiruvidan o‘tmagan. O‘quv materiali, rasmiy imtihon ro‘yxati emas.';
+
+  @override
+  String get workDirRadiology => 'Rentgen laborant';
 }

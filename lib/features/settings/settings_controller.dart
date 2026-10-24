@@ -39,12 +39,17 @@ enum AppRole {
 }
 
 /// Ish yo'nalishi: kunlik savollar shu bankdan olinadi. [bank] — savollar
-/// bankidagi `bank` qiymati. Akusherlik va Davolash ishi keyingi
-/// yangilanishda qo'shiladi.
+/// bankidagi `bank` qiymati.
 enum WorkDirection {
   nursing('hamshiralik'),
   higher('oliy_hamshiralik'),
   patronage('patronaj'),
+
+  /// Akusherlik ishi (o'rta tibbiyot xodimlari): test banki `akusherlik`.
+  obstetrics('akusherlik'),
+
+  /// Rentgen laborant (o'rta tibbiyot xodimlari): test banki `rentgen_laborant`.
+  radiology('rentgen_laborant'),
 
   /// DMED tizimida ishlash: savol-javob kartalari (test banki yo'q, kunlik
   /// test umumiy savollardan).

@@ -159,6 +159,7 @@ class AppServices {
       }
     });
     settings.addListener(() {
+      toifa.useLanguage(settings.language.name);
       if (settings.role == role && settings.language == language) return;
       role = settings.role;
       language = settings.language;

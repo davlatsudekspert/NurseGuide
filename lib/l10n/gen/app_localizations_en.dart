@@ -5178,4 +5178,14 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get examNoQuestions =>
       'There are no exam questions available right now.';
+
+  @override
+  String get workDirObstetrics => 'Obstetrics';
+
+  @override
+  String get toifaScopeUnofficial =>
+      'These questions come from an unofficial collection; the answer key follows the file and has not been checked by a medical specialist. Study material, not the official exam list.';
+
+  @override
+  String get workDirRadiology => 'X-ray technician';
 }

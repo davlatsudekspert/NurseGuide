@@ -1463,5 +1463,8 @@
   "paywallTrialActive": "Bepul sinov {date} gacha",
   "paywallRestored": "Xaridlar tiklandi.",
   "paywallNothingToRestore": "Tiklash uchun xarid topilmadi.",
-  "examNoQuestions": "Hozir imtihon uchun savollar mavjud emas."
+  "examNoQuestions": "Hozir imtihon uchun savollar mavjud emas.",
+  "workDirObstetrics": "Akusherlik",
+  "toifaScopeUnofficial": "Bu yo‘nalish savollari norasmiy to‘plamdan olingan; to‘g‘ri javob fayl bo‘yicha va tibbiy mutaxassis tekshiruvidan o‘tmagan. O‘quv materiali, rasmiy imtihon ro‘yxati emas.",
+  "workDirRadiology": "Rentgen laborant"
 }

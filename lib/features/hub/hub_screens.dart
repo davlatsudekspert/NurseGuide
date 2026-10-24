@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
 
@@ -10,11 +12,25 @@ import '../reference/reference_screens.dart' show DmedTodayCard;
 import '../daily/daily_screens.dart' show DailyCard;
 import '../daily/daily_streak.dart' show dateOfDay;
 import '../settings/settings_controller.dart' show WorkDirection;
+import '../toifa/toifa_bank.dart' show ToifaBank, toifaTestPool;
 
 export '../reference/reference_screens.dart' show ProceduresScreen;
 
 /// Ish joyi tabi (o'rtadagi katta tugma): ish yo'nalishi va unga moslangan
 /// kunlik savollar. Kalkulyatorlar va ma'lumotnoma keyingi qadamda keladi.
+/// Asosiy yo'nalishlar doim ko'rinadi; qo'shimchalari — faqat shu tilda
+/// savoli bor bo'lsa (tarjimasiz yo'nalish inglizcha interfeysda yashirin).
+const _baseDirections = {
+  WorkDirection.nursing,
+  WorkDirection.higher,
+  WorkDirection.patronage,
+  WorkDirection.dmed,
+};
+
+bool _directionShown(WorkDirection d, ToifaBank? bank) =>
+    _baseDirections.contains(d) ||
+    (bank != null && toifaTestPool(bank, scope: d.bank).isNotEmpty);
+
 class WorkplaceScreen extends StatelessWidget {
   const WorkplaceScreen({super.key});
 
@@ -23,6 +39,8 @@ class WorkplaceScreen extends StatelessWidget {
         WorkDirection.nursing => l.workDirNursing,
         WorkDirection.higher => l.workDirHigher,
         WorkDirection.patronage => l.workDirPatronage,
+        WorkDirection.obstetrics => l.workDirObstetrics,
+        WorkDirection.radiology => l.workDirRadiology,
         WorkDirection.dmed => l.workDirDmed,
       };
 
@@ -31,8 +49,14 @@ class WorkplaceScreen extends StatelessWidget {
     final l = AppLocalizations.of(context);
     final services = context.services;
     return ListenableBuilder(
-      listenable: Listenable.merge([services.settings, services.daily]),
+      listenable: Listenable.merge([
+        services.settings,
+        services.daily,
+        services.toifa,
+      ]),
       builder: (context, _) {
+        unawaited(services.toifa.ensureLoaded());
+        final bank = services.toifa.bank;
         final direction = services.settings.workDirection;
         final kind = dailyKindFor(dateOfDay(services.daily.today).weekday);
         return LgPage(
@@ -53,12 +77,13 @@ class WorkplaceScreen extends StatelessWidget {
               runSpacing: 8,
               children: [
                 for (final d in WorkDirection.values)
-                  LgChoiceChip(
-                    key: ValueKey('work-dir-${d.bank}'),
-                    label: directionLabel(l, d),
-                    selected: d == direction,
-                    onTap: () => services.settings.setWorkDirection(d),
-                  ),
+                  if (_directionShown(d, bank))
+                    LgChoiceChip(
+                      key: ValueKey('work-dir-${d.bank}'),
+                      label: directionLabel(l, d),
+                      selected: d == direction,
+                      onTap: () => services.settings.setWorkDirection(d),
+                    ),
               ],
             ),
             if (direction != null)

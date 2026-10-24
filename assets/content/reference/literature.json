@@ -302,6 +302,16 @@
    "match": [
     "Akusherlik ishi mutaxassisligi bo'yicha test savollari"
    ]
+  },
+  {
+   "id": "patronajlar_test",
+   "group": "other",
+   "author": "Patronaj hamshiralari uchun test savollari",
+   "title": "Hamshiralik ishi (patronaj hamshiralari) test savollari ro‘yxati (Patronajlar)",
+   "publisher": "Telegram (norasmiy to‘plam)",
+   "match": [
+    "Patronajlar, norasmiy"
+   ]
   }
  ]
 }

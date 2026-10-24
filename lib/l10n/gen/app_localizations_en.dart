@@ -5048,4 +5048,8 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get workDirObstetrics => 'Obstetrics';
+
+  @override
+  String get toifaScopeUnofficial =>
+      'These questions come from an unofficial collection; the answer key follows the file and has not been checked by a medical specialist. Study material, not the official exam list.';
 }

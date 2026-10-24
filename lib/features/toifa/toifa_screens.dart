@@ -206,6 +206,13 @@ String? _scopeOf(BuildContext context) {
   );
 }
 
+/// Tanlangan yo'nalish savollarining hammasi rasmiy/tekshirilgan darajasiz
+/// (norasmiy to'plam) bo'lsa — foydalanuvchiga aytiladi.
+bool _unofficial(ToifaBank bank, String scope) {
+  final pool = toifaTestPool(bank, scope: scope);
+  return pool.isNotEmpty && pool.every((q) => q.status == null);
+}
+
 class _ScopeChips extends StatelessWidget {
   const _ScopeChips({required this.bank});
 
@@ -247,6 +254,15 @@ class _ScopeChips extends StatelessWidget {
                 ),
           ],
         ),
+        if (scope != null && _unofficial(bank, scope))
+          Padding(
+            padding: const EdgeInsets.only(top: 12),
+            child: LgNotice(
+              l.toifaScopeUnofficial,
+              key: const ValueKey('toifa-scope-unofficial'),
+              kind: NoticeKind.info,
+            ),
+          ),
       ],
     );
   }

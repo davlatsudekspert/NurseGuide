@@ -3150,5 +3150,6 @@
   "actionUnsave": "Remove from saved",
   "toifaEmptyTitle": "No certification questions found",
   "toifaEmptyBody": "Questions did not load. Reopen the app.",
-  "workDirObstetrics": "Obstetrics"
+  "workDirObstetrics": "Obstetrics",
+  "toifaScopeUnofficial": "These questions come from an unofficial collection; the answer key follows the file and has not been checked by a medical specialist. Study material, not the official exam list."
 }

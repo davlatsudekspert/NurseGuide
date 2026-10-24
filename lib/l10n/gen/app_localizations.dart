@@ -8655,6 +8655,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Obstetrics'**
   String get workDirObstetrics;
+
+  /// No description provided for @toifaScopeUnofficial.
+  ///
+  /// In en, this message translates to:
+  /// **'These questions come from an unofficial collection; the answer key follows the file and has not been checked by a medical specialist. Study material, not the official exam list.'**
+  String get toifaScopeUnofficial;
 }
 
 class _AppLocalizationsDelegate

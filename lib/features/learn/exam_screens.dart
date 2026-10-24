@@ -146,6 +146,14 @@ class _ExamSetupScreenState extends State<ExamSetupScreen> {
   Widget _setup(BuildContext context, ExamQuestionSource source) {
     final l = AppLocalizations.of(context);
     final text = Theme.of(context).textTheme;
+    if (source.questions.isEmpty) {
+      return LgStateView(
+        key: const ValueKey('exam-no-questions'),
+        kind: StateKind.empty,
+        title: l.examTitle,
+        message: l.examNoQuestions,
+      );
+    }
     final pool = examPool(source, _topics);
     final max = pool.length;
     final hasUnverified = pool.any((q) => q.isUnverified);

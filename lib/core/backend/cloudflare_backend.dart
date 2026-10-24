@@ -1,4 +1,7 @@
 import 'dart:async';
+
+import '../device/device_identity.dart';
+
 import 'dart:convert';
 import 'dart:io';
 
@@ -125,11 +128,14 @@ class CloudflareAppBackend
     http.Client? httpClient,
     DateTime Function()? clock,
     this.timeout = const Duration(seconds: 20),
-  }) : _sessions = sessionStore ?? const SecureApiSessionStore(),
+    DeviceIdentity? device,
+  }) : _device = device, // ignore: prefer_initializing_formals
+       _sessions = sessionStore ?? const SecureApiSessionStore(),
        _http = httpClient ?? http.Client(),
        _clock = clock ?? DateTime.now;
 
   final ApiConfig config;
+  final DeviceIdentity? _device;
   final SessionStore _sessions;
   final http.Client _http;
   final DateTime Function() _clock;
@@ -177,6 +183,10 @@ class CloudflareAppBackend
       _ => null,
     };
     if (platform != null) req.headers['x-app-platform'] = platform;
+    // Bepul sinov qurilma bo'yicha bir martalik (serverda HMAC, ochiq emas).
+    final dev = _device;
+    final did = await dev?.get();
+    if (did != null) req.headers['x-device-id'] = did;
     if (optionalAuth) {
       // Mehmon ham o'qiydi; sessiya bo'lsa — token (ovoz/muallif belgisi).
       if (_token != null) req.headers['authorization'] = 'Bearer $_token';
@@ -1113,6 +1123,27 @@ class CloudflareAppBackend
       (r.map['total'] as num?)?.toInt() ?? 0,
     );
   }
+
+  @override
+  Future<void> adminGrantPro({
+    required String email,
+    required String tier,
+    int? days,
+  }) => _admin(
+    'POST',
+    '/v1/admin/pro',
+    body: {'email': email.trim(), 'tier': tier, 'days': ?days},
+  );
+
+  @override
+  Future<void> adminRevokePro(String email) =>
+      _admin('DELETE', '/v1/admin/pro', body: {'email': email.trim()});
+
+  @override
+  Future<List<ProGrantRow>> adminProGrants() async =>
+      _rows((await _admin('GET', '/v1/admin/pro')).map['grants'])
+          .map(ProGrantRow.fromJson)
+          .toList();
 
   String _user(String id, String action) =>
       '/v1/admin/users/${_seg(id)}/$action';

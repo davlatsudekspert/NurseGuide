@@ -75,13 +75,14 @@ describe('qorovul: marshrutlar', () => {
     }
   });
 
-  it('D-58: /v1/me tarifni (`plan`) bermaydi', async () => {
+  it('D-58: /v1/me tarif/obuna sxemasini bermaydi; faqat admin bergan `pro` (egasi qarori: Pro obuna)', async () => {
     const s = makeServer();
     const u = await s.signIn(uniqueEmail('guard'));
     const me = await s.call('GET', '/v1/me', { token: u.token });
     expect(me.status).toBe(200);
+    expect(me.data.pro).toBeNull();
     expect(Object.keys(me.data)).not.toContain('plan');
-    expect(me.text).not.toMatch(/"(plan|pro|subscription|entitlements?)"\s*:/);
+    expect(me.text).not.toMatch(/"(plan|subscription|entitlements?)"\s*:/);
   });
 });
 

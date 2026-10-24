@@ -10,6 +10,7 @@ import '../../design/tokens.dart';
 import '../../design/widgets/lg_widgets.dart';
 import '../../l10n/gen/app_localizations.dart';
 import '../daily/daily_picker.dart';
+import '../../design/widgets/study_only_note.dart';
 import 'reference_data.dart';
 
 String _lang(BuildContext context) =>
@@ -416,6 +417,7 @@ class _DmedScreenState extends State<DmedScreen> {
       title: l.dmedTitle,
       subtitle: l.dmedSub,
       children: [
+        const StudyOnlyNote(),
         FutureBuilder<ReferenceData>(
           future: ReferenceData.load(_bundle(context)),
           builder: (context, snap) {

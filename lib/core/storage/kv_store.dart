@@ -32,6 +32,14 @@ abstract final class StoreKeys {
   /// Ish yo'nalishi (savol banki): kunlik savollar shunga moslanadi.
   static const workDirection = 'settings.workDirection';
   static const onboarded = 'settings.onboarded';
+
+  /// Obuna darajasi va amal qilish muddati (do'kon hodisalaridan).
+  static const billingTier = 'billing.tier';
+  static const billingUntil = 'billing.until';
+  static const billingTrial = 'billing.trial';
+  static const billingGrantTier = 'billing.grantTier';
+  static const billingGrantUntil = 'billing.grantUntil';
+  static const billingTeacher = 'billing.teacher';
   static const languageChosen = 'settings.languageChosen';
   static const session = 'auth.session';
   static const bookmarks = 'content.bookmarks';
@@ -113,6 +121,12 @@ abstract final class StoreKeys {
     topicTests,
     lectureOrientation,
     homeResume,
+    billingTier,
+    billingUntil,
+    billingTrial,
+    billingGrantTier,
+    billingGrantUntil,
+    billingTeacher,
   };
 }
 

@@ -1,5 +1,6 @@
 // Email OTP, sessiyalar, profil, admin TOTP va hisobni o'chirish.
 
+import { activePro, trialInfo } from './pro';
 import type { Ctx, Session } from './context';
 import { iso } from './context';
 import {
@@ -462,6 +463,10 @@ export async function me(ctx: Ctx): Promise<Response> {
     teacher: f.teacher,
     // Bog'langan kirish usullari (Google/Apple); email kodi doim mavjud.
     identities: ids.results.map((r) => r.provider),
+    // Admin bergan Pro (do'kon xaridiga bog'liq emas); yo'q bo'lsa null.
+    pro: await activePro(ctx, s.userId),
+    // 30 kunlik bepul sinov (hisob + qurilma bo'yicha bir martalik); yo'q bo'lsa null.
+    trial: await trialInfo(ctx, s.userId),
   });
 }
 
@@ -515,6 +520,7 @@ export async function deleteUserData(ctx: Ctx, u: string, adminActor?: string): 
     `UPDATE complaints SET user_id = NULL WHERE user_id = ?1`,
     `DELETE FROM totp_factors WHERE user_id = ?1`,
     `DELETE FROM teacher_accounts WHERE user_id = ?1`,
+    `DELETE FROM pro_grants WHERE email_hash = (SELECT email_hash FROM users WHERE id = ?1)`,
     `DELETE FROM admins WHERE user_id = ?1`,
     `DELETE FROM sessions WHERE user_id = ?1`,
     `DELETE FROM auth_identities WHERE user_id = ?1`,

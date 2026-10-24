@@ -7,6 +7,7 @@ import * as complaints from './complaints';
 import type { Ctx, Deps } from './context';
 import { deriveKeys, hex, hmac } from './crypto';
 import * as groups from './groups';
+import * as pro from './pro';
 import * as social from './social';
 import * as support from './support';
 import {
@@ -92,7 +93,7 @@ const routes: Route[] = [
   r('DELETE', '/v1/admin/admins/:id', admins.removeAdmin),
 
   // Taklif va yordam, shikoyatlar, egasi admin paneli (support.ts, complaints.ts, adminconsole.ts).
-  ...[...support.ROUTES, ...complaints.ROUTES, ...adminConsole.ROUTES].map(([m, p, h]) => r(m, p, h)),
+  ...[...support.ROUTES, ...complaints.ROUTES, ...adminConsole.ROUTES, ...pro.ROUTES].map(([m, p, h]) => r(m, p, h)),
 ];
 
 const MIN_SECRET = 32;

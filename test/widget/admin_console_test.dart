@@ -101,6 +101,29 @@ void main() {
     expect(find.text(l.admComplaintsEmpty), findsOneWidget);
   });
 
+  testWidgets('admin emailga Pro beradi va olib tashlaydi', (tester) async {
+    final l = _l(AppLanguage.uz);
+    final server = FakeAdminConsoleBackend(adminEmails: const {_owner});
+    final s = await _setup(tester, server);
+    await _signIn(tester, s, _owner);
+    routerOf(tester).go('/profile/admin/pro');
+    await tester.pumpAndSettle();
+    await tester.enterText(
+      find.byKey(const ValueKey('pro-email')),
+      'ali@mail.uz',
+    );
+    await tester.enterText(find.byKey(const ValueKey('pro-days')), '30');
+    await _tap(tester, find.byKey(const ValueKey('pro-tier-specialist')));
+    await _tap(tester, find.byKey(const ValueKey('pro-give')));
+    expect(server.proGrants['ali@mail.uz']?.tier, 'specialist');
+    expect(find.textContaining(l.planSpecialist), findsWidgets);
+    await _tap(tester, find.byKey(const ValueKey('pro-remove')));
+    expect(server.proGrants, isEmpty);
+    await tester.enterText(find.byKey(const ValueKey('pro-email')), 'nope');
+    await _tap(tester, find.byKey(const ValueKey('pro-give')));
+    expect(find.text(l.adminProInvalid), findsOneWidget);
+  });
+
   group('Aloqa va shikoyat: ilova ichidagi shakl', () {
     testWidgets('mehmon va hisobli yuboradi; 6-chisi — soatiga 5 ta xabari', (
       tester,

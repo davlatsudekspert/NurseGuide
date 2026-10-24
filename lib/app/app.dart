@@ -31,6 +31,8 @@ class _NurseGuideAppState extends State<NurseGuideApp> {
   late final Listenable _routerRefresh = Listenable.merge([
     _onboarding,
     widget.services.auth,
+    // Billing o'chiq bo'lsa yo'l hech qachon o'zgarmaydi: routerni bejiz yangilamaymiz.
+    if (widget.services.billing.enabled) widget.services.billing,
   ]);
 
   SettingsController get _settings => widget.services.settings;
@@ -39,6 +41,7 @@ class _NurseGuideAppState extends State<NurseGuideApp> {
     _settings,
     refresh: _routerRefresh,
     hasAccount: () => widget.services.auth.hasAccount,
+    billingAllows: widget.services.billing.allows,
   );
 
   @override
@@ -47,6 +50,7 @@ class _NurseGuideAppState extends State<NurseGuideApp> {
     _router = _build();
     _router.routeInformationProvider.addListener(_onRoute);
     _wasOnboarded = _settings.onboarded;
+    widget.services.billing.start();
     _settings.addListener(_onSettings);
     widget.services.reminders.addListener(_onReminder);
     WidgetsBinding.instance.addPostFrameCallback((_) => _onReminder());

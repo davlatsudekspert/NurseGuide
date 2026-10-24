@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:go_router/go_router.dart';
+import 'package:nurseguide/features/billing/billing_controller.dart';
 import 'package:nurseguide/app/app.dart';
 import 'package:nurseguide/app/app_scope.dart';
 import 'package:nurseguide/app/widgets/lg_page.dart';
@@ -84,6 +85,8 @@ Future<AppServices> makeServices(
   // false — toifa banki oldindan yuklanmaydi (ilova sovuq ochilgandek:
   // bank faqat kerakli sahifa so'raganda yuklanadi).
   bool loadToifa = true,
+  // Obuna (Pro) yoqilgan holatni sinash: berilmasa — o'chiq (hamma ochiq).
+  bool billingEnabled = false,
 }) async {
   final s = store ?? MemoryKeyValueStore();
   final services = createServices(
@@ -102,6 +105,9 @@ Future<AppServices> makeServices(
     clock: clock,
     socialAuth: socialAuth ?? SocialAuthService.none(),
     qrScanner: qrScanner ?? FakeQrScanner(),
+    billing: billingEnabled
+        ? BillingController(store: s, enabled: true, now: clock)
+        : null,
   );
   if (languageChosen) {
     await services.settings.chooseLanguage(language);

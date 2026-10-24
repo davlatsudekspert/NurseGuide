@@ -486,6 +486,13 @@ class _AdminHomeScreenState extends State<AdminHomeScreen> {
           onTap: () => _open('/profile/admin/users'),
         ),
         LgRow(
+          key: const ValueKey('admin-row-pro'),
+          title: l.adminPro,
+          subtitle: l.adminProSub,
+          icon: Icons.workspace_premium_outlined,
+          onTap: () => _open('/profile/admin/pro'),
+        ),
+        LgRow(
           key: const ValueKey('admin-row-audit'),
           title: l.adminAudit,
           subtitle: l.admAuditSub,

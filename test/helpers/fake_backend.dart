@@ -1472,6 +1472,35 @@ class FakeAdminConsoleBackend extends FakeAdminTeamBackend
     );
   }
 
+  final Map<String, ProGrantRow> proGrants = {};
+
+  @override
+  Future<void> adminGrantPro({
+    required String email,
+    required String tier,
+    int? days,
+  }) async {
+    _panel();
+    proGrants[email.trim().toLowerCase()] = ProGrantRow(
+      emailMasked: '${email.substring(0, 2)}***',
+      tier: tier,
+      until: days == null ? null : DateTime.now().add(Duration(days: days)),
+      active: true,
+    );
+  }
+
+  @override
+  Future<void> adminRevokePro(String email) async {
+    _panel();
+    proGrants.remove(email.trim().toLowerCase());
+  }
+
+  @override
+  Future<List<ProGrantRow>> adminProGrants() async {
+    _panel();
+    return proGrants.values.toList();
+  }
+
   @override
   Future<void> adminSetRole(String userId, String role) async {
     _panel();

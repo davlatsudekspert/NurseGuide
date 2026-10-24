@@ -23,6 +23,7 @@ class WorkplaceScreen extends StatelessWidget {
         WorkDirection.nursing => l.workDirNursing,
         WorkDirection.higher => l.workDirHigher,
         WorkDirection.patronage => l.workDirPatronage,
+        WorkDirection.obstetrics => l.workDirObstetrics,
         WorkDirection.dmed => l.workDirDmed,
       };
 

@@ -1,4 +1,4 @@
-// Foydalanuvchi yo'li, HAQIQIY savollar ro'yxati (880 ta): toifa mashq rejimida
+// Foydalanuvchi yo'li, HAQIQIY savollar ro'yxati: toifa mashq rejimida
 // 50 savolning hammasi ekrandan javoblanadi (oddiy va kichik ekranda), natija
 // ko'rinadi; istisno yoki overflow bo'lmasligi shart.
 import 'dart:math';
@@ -24,7 +24,11 @@ Future<void> _walk(
   s.toifa.random = Random(seed);
   await pumpApp(tester, s, size: size, textScale: scale);
   await goTo(tester, '/learn/toifa/test');
-  await tester.ensureVisible(find.byKey(const ValueKey('toifa-mode-practice')));
+  await tester.scrollUntilVisible(
+    find.byKey(const ValueKey('toifa-mode-practice')),
+    200,
+    scrollable: find.byType(Scrollable).first,
+  );
   await tester.pumpAndSettle();
   await tester.tap(find.byKey(const ValueKey('toifa-mode-practice')));
   await tester.pumpAndSettle();

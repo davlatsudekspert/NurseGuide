@@ -3149,5 +3149,6 @@
   "actionSave": "Save",
   "actionUnsave": "Remove from saved",
   "toifaEmptyTitle": "No certification questions found",
-  "toifaEmptyBody": "Questions did not load. Reopen the app."
+  "toifaEmptyBody": "Questions did not load. Reopen the app.",
+  "workDirObstetrics": "Obstetrics"
 }

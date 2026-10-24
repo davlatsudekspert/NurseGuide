@@ -4965,4 +4965,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get toifaEmptyBody => 'Savollar yuklanmadi. Ilovani qayta oching.';
+
+  @override
+  String get workDirObstetrics => 'Akusherlik';
 }

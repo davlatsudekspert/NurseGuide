@@ -5045,4 +5045,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get toifaEmptyBody => 'Questions did not load. Reopen the app.';
+
+  @override
+  String get workDirObstetrics => 'Obstetrics';
 }

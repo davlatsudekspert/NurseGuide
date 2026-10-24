@@ -8649,6 +8649,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Questions did not load. Reopen the app.'**
   String get toifaEmptyBody;
+
+  /// No description provided for @workDirObstetrics.
+  ///
+  /// In en, this message translates to:
+  /// **'Obstetrics'**
+  String get workDirObstetrics;
 }
 
 class _AppLocalizationsDelegate

@@ -5056,4 +5056,7 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get toifaEmptyBody =>
       'Вопросы не загрузились. Откройте приложение заново.';
+
+  @override
+  String get workDirObstetrics => 'Акушерство';
 }

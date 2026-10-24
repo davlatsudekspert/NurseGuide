@@ -292,6 +292,16 @@
    "match": [
     "ARGOS MED"
    ]
+  },
+  {
+   "id": "akusherlik_test",
+   "group": "other",
+   "author": "O‘rta tibbiyot xodimlari uchun akusherlik ishi test savollari",
+   "title": "Akusherlik ishi mutaxassisligi bo‘yicha test savollari ro‘yxati",
+   "publisher": "Telegram (norasmiy to‘plam)",
+   "match": [
+    "Akusherlik ishi mutaxassisligi bo'yicha test savollari"
+   ]
   }
  ]
 }

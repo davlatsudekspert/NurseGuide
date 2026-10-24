@@ -1424,5 +1424,6 @@
   "actionSave": "Saqlash",
   "actionUnsave": "Saqlanganlardan olib tashlash",
   "toifaEmptyTitle": "Toifa savollari topilmadi",
-  "toifaEmptyBody": "Savollar yuklanmadi. Ilovani qayta oching."
+  "toifaEmptyBody": "Savollar yuklanmadi. Ilovani qayta oching.",
+  "workDirObstetrics": "Akusherlik"
 }

@@ -116,6 +116,9 @@ def main():
                 'checked': CHECKED,
                 'source': cfg['source'],
                 'bank': cfg['bank'],
+                # Tarjimasi yo'q: inglizcha interfeysda ko'rinmaydi (ru uchun rasmiy
+                # ruscha fayllar keyin qo'shiladi).
+                'langs': ['uz', 'ru'],
             })
         if cfg['topic'] not in tests['topics']:
             tests['topics'].append(cfg['topic'])

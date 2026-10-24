@@ -72,7 +72,8 @@ AppServices createServices({
   final server = backend ?? _defaultBackend();
   final settings = SettingsController(store, systemLocales: systemLocales);
   final daily = DailyController(store, clock: clock);
-  final toifa = ToifaController(store, bundle: bundle, clock: clock);
+  final toifa = ToifaController(store, bundle: bundle, clock: clock)
+    ..useLanguage(settings.language.name);
   return AppServices(
     config: config,
     store: store,

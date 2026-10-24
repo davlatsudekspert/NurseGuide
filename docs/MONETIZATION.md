@@ -80,13 +80,17 @@ mahsulotlar yaratilmaguncha hech narsa yopilmaydi.
 4. Apple/Google reviewer va demo hisob: admin panel → "Pro obunalar" dan
    reviewer emailiga **Mutaxassis**, muddatsiz Pro bering (sinov muddatiga
    bog'lanib qolmaydi). Review izohiga shu hisobni yozing.
-5. Do'kon maxfiylik shakllari: App Store "App Privacy" → Device ID (App
+5. Huquqiy matnlar: `python3 -I tool/apply_billing_legal.py` (ilova shartlari/maxfiylik
+   va sayt `privacy`/`terms` ni obuna, sinov va qurilma id matnlari bilan almashtiradi;
+   manba `docs/legal_billing/`), so'ng `flutter gen-l10n`. Bu matnlar obuna bilan
+   BIRGA chiqishi kerak. Qurilma identifikatori faqat billing yoqilganda yuboriladi.
+6. Do'kon maxfiylik shakllari: App Store "App Privacy" → Device ID (App
    Functionality, hisobga bog'lanmagan, kuzatuv uchun emas); Play "Data safety" →
    Device or other IDs (App functionality). Ilova matnlari va sayt (`site/privacy`,
    `site/terms`) shunga mos yangilangan.
-6. CI: repo variable `NG_BILLING_ENABLED=true`, yangi TestFlight build; sandbox
+7. CI: repo variable `NG_BILLING_ENABLED=true`, yangi TestFlight build; sandbox
    (TestFlight) va license-tester orqali sinash.
-7. Keyin: server tomonda kvitansiya tekshiruvi (App Store Server API / Play
+8. Keyin: server tomonda kvitansiya tekshiruvi (App Store Server API / Play
    Developer API); shundan so'ng `LG_TEACHER_REQUIRES_PRO=1`.
 
 ## Ma'lum cheklovlar

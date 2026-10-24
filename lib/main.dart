@@ -127,6 +127,10 @@ AppServices createServices({
 AppBackend _defaultBackend() {
   const api = ApiConfig.fromEnvironment;
   return api.isConfigured
-      ? CloudflareAppBackend(api, device: DeviceIdentity())
+      // Qurilma identifikatori faqat obuna yoqilganda (bepul sinov uchun) yuboriladi.
+      ? CloudflareAppBackend(
+          api,
+          device: kBillingEnabled ? DeviceIdentity() : null,
+        )
       : const UnconfiguredBackend();
 }

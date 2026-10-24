@@ -1,1 +1,104 @@
-[]
+[
+ {
+  "id": "or-1-0001",
+  "q": "1-2 yoshli bolalarda 1 minutdagi nafas soni nechaga teng?",
+  "cat": "1",
+  "held": "manba matnida (OCR) 30-40 / 30-35 raqamlari aniq emas; tekshirish kerak"
+ },
+ {
+  "id": "or-1-0002",
+  "q": "1 yoshgacha bo'lgan bolalarni patronaj hamshira tomonidan olib boriladigan kuzatuvi.",
+  "cat": "1",
+  "held": "Manbalarda 1 yoshgacha bolalarni patronaj kuzatuvi tartibi (muddatlar, tashrif soni) topilmadi; faqat umumiy eslatma bor."
+ },
+ {
+  "id": "or-1-0005",
+  "q": "Adenoid bu-",
+  "cat": "1",
+  "held": "Test bo'lagi ('Adenoid bu-'), variantlarsiz og'zaki javob bo'lmaydi."
+ },
+ {
+  "id": "or-1-0006",
+  "q": "Adenoidlar o'sishi asosan qaysi yoshlarda uchraydi?",
+  "cat": "1",
+  "held": "Manbada adenoid o'sishining aniq yosh oralig'i yozilmagan (faqat 4-5 yoshda bodomcha bezlar yaxshi rivojlanishi eslatilgan)."
+ },
+ {
+  "id": "or-1-0011",
+  "q": "Allergik sinama «tomchi usulda» bemorga sinama qanday qo'yiladi?",
+  "cat": "1",
+  "held": "Allergik sinamani 'tomchi usulida' qo'yish texnikasi manbalarda topilmadi."
+ },
+ {
+  "id": "or-1-0012",
+  "q": "Amenoreya – bu:",
+  "cat": "1",
+  "held": "Test bo'lagi ('Amenoreya - bu:') va manbalarda ta'rif topilmadi."
+ },
+ {
+  "id": "or-1-0013",
+  "q": "Anaerob infeksiyalarda o'tkazilgan opreatsiyalarda ishlatilgan instrumentlarni zararsizlantirish.",
+  "cat": "1",
+  "held": "Manba (2007) anaerob infeksiyada asboblarni qaynatib 2-3 marta sterillashni ko'rsatadi; bu amaliyot eskirgan, amaldagi SanQvaM talabi bilan solishtirish kerak."
+ },
+ {
+  "id": "or-1-0014",
+  "q": "Anafilaktik shokda qanday yordam ko'rsatiladi?",
+  "cat": "1",
+  "held": "Manba protokoli (jgut, mahalliy adrenalin, antigistamin va steroid) zamonaviy mushak ichiga adrenalin protokoliga to'liq mos emas; klinik tekshiruvsiz yozilmadi."
+ },
+ {
+  "id": "or-1-0015",
+  "q": "Anafilaktik shokning belgilari, tez tibbiy yordam, hamshiralik parvarishi.",
+  "cat": "1",
+  "held": "Shoshilinch yordam qismi manbada eskirgan protokolga asoslangan (savol 0014 bilan bir xil sabab); klinik tekshiruv kerak."
+ },
+ {
+  "id": "or-1-0017",
+  "q": "Anafilaktik shok va birinchi tibbiy yordam. Kvinke shishini xarakterlang.",
+  "cat": "1",
+  "held": "Shoshilinch yordam qismi eskirgan protokolga asoslangan; Kvinke shishi manbalarda faqat tilga olingan, tavsifi yo'q."
+ },
+ {
+  "id": "or-1-0018",
+  "q": "Anemiyaning turlari va belgilari, hamshiralik parvarishini yuritish.",
+  "cat": "1",
+  "held": "Anemiya turlari, belgilari va parvarishi manbalarda yo'q (faqat boshqa mavzularda tilga olingan)."
+ },
+ {
+  "id": "or-1-0020",
+  "q": "Antiseptika - bu:",
+  "cat": "1",
+  "held": "Test bo'lagi ('Antiseptika - bu:'); variantlarsiz og'zaki savol emas."
+ },
+ {
+  "id": "or-1-0021",
+  "q": "Antiseptika turlari:",
+  "cat": "1",
+  "held": "Test bo'lagi ('Antiseptika turlari:'); manbalarda turlari bo'yicha tasnif topilmadi."
+ },
+ {
+  "id": "or-1-0023",
+  "q": "Arterial (tashqi) qon ketishi, sabablari, belgilari, tez tibbiy yordam ko'rsatish.",
+  "cat": "1",
+  "held": "Arterial qon ketishi bo'yicha manbalarda tegishli bo'lim topilmadi."
+ },
+ {
+  "id": "or-1-0026",
+  "q": "Aseptika – bu:",
+  "cat": "1",
+  "held": "Test bo'lagi ('Aseptika - bu:'); variantlarsiz og'zaki savol emas."
+ },
+ {
+  "id": "or-1-0029",
+  "q": "Ayolning muntazam spirtli ichimliklar iste'mol qilish natijasida qanday holat kelib chiqadi?",
+  "cat": "1",
+  "held": "Test bo'lagi; manbada ayolga xos oqibat ko'rsatilmagan, faqat umumiy alkogolizm ta'siri bor."
+ },
+ {
+  "id": "or-1-0030",
+  "q": "Bavosil (gemorroy) kasalligi, sababi, belgilari va hamshiralik parvarishi.",
+  "cat": "1",
+  "held": "Bavosil (gemorroy) manbalarda faqat huqnaga monelik sifatida tilga olingan; sabablari, belgilari, parvarishi yo'q."
+ }
+]

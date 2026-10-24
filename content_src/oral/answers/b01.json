@@ -1,0 +1,249 @@
+[
+ {
+  "id": "or-1-0001",
+  "held": "manba matnida (OCR) 30-40 / 30-35 raqamlari aniq emas; tekshirish kerak"
+ },
+ {
+  "id": "or-1-0003",
+  "topic": "general",
+  "plan": [
+   "9-parhez stoli qandli diabetli bemorlarga tayinlanadi.",
+   "Bu parhezda uglevod saqlovchi moddalar berilmaydi.",
+   "Oqsil va vitaminlarga boy ovqatlar beriladi.",
+   "Parhez stolining tartib raqami kasallik tarixiga yozib qo'yiladi."
+  ],
+  "literature": [
+   "Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., «Hamshiralik ishi (oliy hamshiralik ishi uchun darslik)», Toshkent, 2015, «Parhez stollari» bo'limi (Parhez №9)",
+   "Inomov Q.S., «Hamshiralik ishi asoslari», Toshkent: O'zbekiston milliy ensiklopediyasi, 2007, palata rejimi va kasallik tarixini yuritish bo'limi"
+  ]
+ },
+ {
+  "id": "or-1-0004",
+  "topic": "general",
+  "plan": [
+   "Abort - bola oldirish, ya'ni homila hali hayotga layoqatsiz davrida homiladorlikni to'xtatish.",
+   "Abortni oliy tibbiy ma'lumotga ega bo'lmagan shaxs qilishi ayolning hayoti va sog'lig'i uchun nihoyatda xavfli.",
+   "Gayriqonuniy abort qilish tibbiy xodim uchun huquqbuzarlik hisoblanadi."
+  ],
+  "literature": [
+   "Inomov Q.S., «Hamshiralik ishi asoslari», Toshkent: O'zbekiston milliy ensiklopediyasi, 2007, tibbiy xodimning huquqiy javobgarligi bo'limi (gayriqonuniy abort)",
+   "Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., «Hamshiralik ishi (oliy hamshiralik ishi uchun darslik)», Toshkent, 2015, glossariy («Abort»)"
+  ]
+ },
+ {
+  "id": "or-1-0007",
+  "topic": "general",
+  "plan": [
+   "Qon guruhi standart zardoblar (O(I), A(II), B(III)) bilan aralashtirilib, agglyutinatsiya bor-yo'qligiga qarab aniqlanadi.",
+   "Agar uchala standart zardobda ham agglyutinatsiya yuz bersa, tekshirilayotgan qon AB (IV) to'rtinchi guruhga mansub.",
+   "Xatoga yo'l qo'ymaslik uchun IV guruh qon AB (IV) zardobi bilan qo'shimcha tekshiriladi.",
+   "5 daqiqadan keyin zardoblarga 1 tomchidan fiziologik eritma qo'shiladi (soxta agglyutinatsiyani bartaraf etish uchun)."
+  ],
+  "literature": [
+   "Inomov Q.S., «Hamshiralik ishi asoslari», Toshkent: O'zbekiston milliy ensiklopediyasi, 2007, 12.7-bo'lim «Qon guruhlarini aniqlash» (standart zardoblar bo'yicha)"
+  ]
+ },
+ {
+  "id": "or-1-0008",
+  "topic": "general",
+  "plan": [
+   "Qon guruhi standart zardoblar (O(I), A(II), B(III)) bilan aralashtirilib, agglyutinatsiya bor-yo'qligiga qarab aniqlanadi.",
+   "B (III) zardob bilan agglyutinatsiya bo'lmasdan, qolgan zardoblar (O va A) bilan agglyutinatsiya sodir bo'lsa, qon uchinchi guruhga mansub.",
+   "Ya'ni 1 va 2 zardoblarda agglyutinatsiya kuzatilsa, javob - III (B) guruh.",
+   "Soxta agglyutinatsiyani bartaraf etish uchun 5 daqiqadan keyin 1 tomchi fiziologik eritma qo'shiladi."
+  ],
+  "literature": [
+   "Inomov Q.S., «Hamshiralik ishi asoslari», Toshkent: O'zbekiston milliy ensiklopediyasi, 2007, 12.7-bo'lim «Qon guruhlarini aniqlash» (standart zardoblar bo'yicha)"
+  ]
+ },
+ {
+  "id": "or-1-0009",
+  "topic": "general",
+  "plan": [
+   "Qon guruhi standart zardoblar (O(I), A(II), B(III)) bilan aralashtirilib, agglyutinatsiya bor-yo'qligiga qarab aniqlanadi.",
+   "A (II) zardobda agglyutinatsiya bo'lmasdan, qolgan zardoblar (O va B) bilan agglyutinatsiya sodir bo'lsa, qon ikkinchi guruhga mansub.",
+   "Ya'ni 1 va 3 zardoblarda agglyutinatsiya kuzatilsa, javob - II (A) guruh.",
+   "Zardoblar albatta turli pipetkalar bilan olinadi, qon va zardoblar alohida shisha tayoqchalar bilan aralashtiriladi."
+  ],
+  "literature": [
+   "Inomov Q.S., «Hamshiralik ishi asoslari», Toshkent: O'zbekiston milliy ensiklopediyasi, 2007, 12.7-bo'lim «Qon guruhlarini aniqlash» (standart zardoblar bo'yicha)"
+  ]
+ },
+ {
+  "id": "or-1-0010",
+  "topic": "general",
+  "plan": [
+   "Qon guruhi standart zardoblar (O(I), A(II), B(III)) bilan aralashtirilib, agglyutinatsiya bor-yo'qligiga qarab aniqlanadi.",
+   "Uchala juft tomchida agglyutinatsiya yuz bermasa, tekshirilayotgan qon O (I) birinchi guruhga kiradi.",
+   "Zardoblar buyum oynasi yoki chinni tarelkaga tushiriladi, har bir seriyadan 2 tomchidan.",
+   "Tekshiriladigan bemor barmog'i spirt bilan artilib, maxsus skarifikator igna bilan teshiladi."
+  ],
+  "literature": [
+   "Inomov Q.S., «Hamshiralik ishi asoslari», Toshkent: O'zbekiston milliy ensiklopediyasi, 2007, 12.7-bo'lim «Qon guruhlarini aniqlash» (standart zardoblar bo'yicha)"
+  ]
+ },
+ {
+  "id": "or-1-0016",
+  "topic": "general",
+  "plan": [
+   "Anafilaktik shok - organizmning sezuvchanligi yuqori bo'lgan moddalar qayta tushganda yuzaga keladigan javob reaksiyasi.",
+   "Sabablari: allergen sifatidagi dori moddalari, oqsil preparatlari va oziq-ovqat mahsulotlari; ayniqsa antibiotiklar kiritilganda shok yuz berishi mumkin.",
+   "Belgilari: rang to'satdan oqarishi, badanda sovuq yopishqoq ter, keyin siyanoz paydo bo'lishi.",
+   "Yurak tonlari bo'g'iq, puls ipsimon, arterial bosim keskin pasayadi.",
+   "Ko'krak qafasi dam bo'lib quruq xirillashlar eshitiladi; talvasa, qayt qilish.",
+   "Kechishiga qarab yashin tezligida, o'tkir, o'rtacha o'tkir va yengil turlari farqlanadi."
+  ],
+  "literature": [
+   "Inomov Q.S., «Hamshiralik ishi asoslari», Toshkent: O'zbekiston milliy ensiklopediyasi, 2007, «Shok» va «Anafilaktik shok» bo'limi (shoshilinch yordam bobi)",
+   "Inomov Q.S., «Hamshiralik ishi asoslari», Toshkent: O'zbekiston milliy ensiklopediyasi, 2007, teri ostiga va mushak orasiga dori yuborish bo'limlari (allergik reaksiyalar)"
+  ]
+ },
+ {
+  "id": "or-1-0019",
+  "topic": "general",
+  "plan": [
+   "Antibiotiklar maxsus flakonlarda kristalli kukun ko'rinishida chiqariladi.",
+   "Ishlatishdan oldin natriy xloridning steril izotonik eritmasida, ikki marta distillangan suvda yoki 0,5% li novokain eritmasida eritiladi.",
+   "Erituvchi miqdori antibiotikning ta'sir birligiga qarab olinadi: 100000 TB ga 1 ml, 500000 TB ga 5 ml.",
+   "Antibiotik eritmasini isitish mumkin emas, chunki harorat ta'sirida parchalanadi; eritilgan holda 1 kundan ko'p saqlab bo'lmaydi.",
+   "Yod antibiotiklarni parchalaydi, shuning uchun flakon qopqog'i va inyeksiya joyi yod nastoykasi bilan artilmaydi."
+  ],
+  "literature": [
+   "Inomov Q.S., «Hamshiralik ishi asoslari», Toshkent: O'zbekiston milliy ensiklopediyasi, 2007, «Dori moddalarini mushak orasiga yuborish» bo'limi"
+  ]
+ },
+ {
+  "id": "or-1-0022",
+  "topic": "general",
+  "plan": [
+   "Antropometriya - odamning jismoniy rivojlanganligini, tanasi va uning qismlarini o'lchash usullari majmui.",
+   "Gavda vazni nahorga o'lchanadi, ich kiyimda, yaxshisi qovuq va ichak bo'shatilgandan keyin.",
+   "Vazn to'g'ri o'rnatilgan va muvozanatga keltirilgan tibbiy tarozida o'lchanadi.",
+   "Bo'y bo'y o'lchagich (rostomer) bilan, ko'krak qafasi aylanasi santimetrli lenta bilan o'lchanadi.",
+   "Eng oddiy antropometrik tekshirishlarni tibbiyot hamshiralari o'tkazadi."
+  ],
+  "literature": [
+   "Inomov Q.S., «Hamshiralik ishi asoslari», Toshkent: O'zbekiston milliy ensiklopediyasi, 2007, 4-bob, qabulxona bo'limi: «Antropometriya»"
+  ]
+ },
+ {
+  "id": "or-1-0024",
+  "topic": "general",
+  "plan": [
+   "Asboblar yuvilgandan keyin yuvish sifati nazorat qilinadi.",
+   "Asbob-anjomlardagi oqsil qoldiqlari toza yuvilganligi amidopirin va azopiram sinamalari yordamida aniqlanadi.",
+   "Yuvish eritmasi qoldig'i fenolftalein sinamasi yordamida aniqlanadi.",
+   "Sinamadan o'tgan asboblar quritish shkafida 85 °C haroratda yaxshilab quritiladi, so'ng sterilizatsiyaga yuboriladi."
+  ],
+  "literature": [
+   "Inomov Q.S., «Hamshiralik ishi asoslari», Toshkent: O'zbekiston milliy ensiklopediyasi, 2007, ilova: sterilizatsiyadan oldingi tozalash tartibi (asboblarni yuvish)"
+  ]
+ },
+ {
+  "id": "or-1-0025",
+  "topic": "general",
+  "plan": [
+   "Quruq issiqlik bilan sterillash metall asboblar uchun qo'llaniladi, maxsus quruq issiqlik shkaflarida (sterilizatorlarda) o'tkaziladi.",
+   "Quruq havo bilan sterillash rejimlari: 200 °C da 30 daqiqa.",
+   "180 °C da 60 daqiqa.",
+   "160 °C da 150 daqiqa.",
+   "Bu usul ishonchli, lekin asboblar qaynatishga nisbatan tezroq ishdan chiqadi."
+  ],
+  "literature": [
+   "Inomov Q.S., «Hamshiralik ishi asoslari», Toshkent: O'zbekiston milliy ensiklopediyasi, 2007, «Sterillash usullari»; ilova: «Yuqori darajali quruq havo yordamida sterillash usullari» jadvali"
+  ]
+ },
+ {
+  "id": "or-1-0027",
+  "topic": "general",
+  "plan": [
+   "Auskultatsiya - ichki a'zolar chiqaradigan tovushlarni eshitib ko'rish usuli.",
+   "Bemorni tekshirish ko'zdan kechirish, paypaslab ko'rish, tukillatib va eshitib ko'rishdan iborat.",
+   "Nafas tizimi auskultatsiyasida bemor o'tirgan yoki yotgan holatda eshitiladi, avvalo nafas shovqini xarakteri baholanadi.",
+   "Yurak auskultatsiyasida yurak tonlari va shovqinlarining xususiyatlariga e'tibor beriladi.",
+   "Yosh bolalarni eshitishda pediatrik stetoskopning ko'krak qafasiga qo'yiladigan sathi 20 mm dan oshmasligi lozim."
+  ],
+  "literature": [
+   "Inomov Q.S., «Hamshiralik ishi asoslari», Toshkent: O'zbekiston milliy ensiklopediyasi, 2007, kasallik tarixi bo'limi (tekshirish usullari)",
+   "Ahmedova D.I., Tahirova R.N., Grunina O.S., Grunina I.I., «Hamshiralik ishi (oliy hamshiralik ishi uchun darslik)», Toshkent, 2015, 4.4.6 «Nafas olish tizimini auskultatsiyasi»"
+  ]
+ },
+ {
+  "id": "or-1-0028",
+  "topic": "general",
+  "plan": [
+   "Zaharli va kuchli ta'sir qiladigan dori moddalari alohida sharoitda, kichik seyflarda saqlanadi.",
+   "A ro'yxat (A shkaf): zaharli moddalar - narkotiklar, strixnin, mishyak.",
+   "B ro'yxat (B shkaf): kuchli ta'sir qiluvchi moddalar (kodein, adrenalin) va uxlatadigan moddalar.",
+   "Seyfning ichki devoriga saqlanishi lozim bo'lgan dorilar ro'yxati osib qo'yiladi.",
+   "Sarfni hisoblash uchun 2 ta nomerlangan, ip o'tkazilgan va muhrlangan daftar yuritiladi; noto'g'ri saqlagan xodim javobgarlikka tortiladi."
+  ],
+  "literature": [
+   "Inomov Q.S., «Hamshiralik ishi asoslari», Toshkent: O'zbekiston milliy ensiklopediyasi, 2007, 10-bob, «Dori vositalarini saqlash va tarqatish» bo'limi"
+  ]
+ },
+ {
+  "id": "or-1-0002",
+  "held": "Manbalarda 1 yoshgacha bolalarni patronaj kuzatuvi tartibi (muddatlar, tashrif soni) topilmadi; faqat umumiy eslatma bor."
+ },
+ {
+  "id": "or-1-0005",
+  "held": "Test bo'lagi ('Adenoid bu-'), variantlarsiz og'zaki javob bo'lmaydi."
+ },
+ {
+  "id": "or-1-0006",
+  "held": "Manbada adenoid o'sishining aniq yosh oralig'i yozilmagan (faqat 4-5 yoshda bodomcha bezlar yaxshi rivojlanishi eslatilgan)."
+ },
+ {
+  "id": "or-1-0011",
+  "held": "Allergik sinamani 'tomchi usulida' qo'yish texnikasi manbalarda topilmadi."
+ },
+ {
+  "id": "or-1-0012",
+  "held": "Test bo'lagi ('Amenoreya - bu:') va manbalarda ta'rif topilmadi."
+ },
+ {
+  "id": "or-1-0013",
+  "held": "Manba (2007) anaerob infeksiyada asboblarni qaynatib 2-3 marta sterillashni ko'rsatadi; bu amaliyot eskirgan, amaldagi SanQvaM talabi bilan solishtirish kerak."
+ },
+ {
+  "id": "or-1-0014",
+  "held": "Manba protokoli (jgut, mahalliy adrenalin, antigistamin va steroid) zamonaviy mushak ichiga adrenalin protokoliga to'liq mos emas; klinik tekshiruvsiz yozilmadi."
+ },
+ {
+  "id": "or-1-0015",
+  "held": "Shoshilinch yordam qismi manbada eskirgan protokolga asoslangan (savol 0014 bilan bir xil sabab); klinik tekshiruv kerak."
+ },
+ {
+  "id": "or-1-0017",
+  "held": "Shoshilinch yordam qismi eskirgan protokolga asoslangan; Kvinke shishi manbalarda faqat tilga olingan, tavsifi yo'q."
+ },
+ {
+  "id": "or-1-0018",
+  "held": "Anemiya turlari, belgilari va parvarishi manbalarda yo'q (faqat boshqa mavzularda tilga olingan)."
+ },
+ {
+  "id": "or-1-0020",
+  "held": "Test bo'lagi ('Antiseptika - bu:'); variantlarsiz og'zaki savol emas."
+ },
+ {
+  "id": "or-1-0021",
+  "held": "Test bo'lagi ('Antiseptika turlari:'); manbalarda turlari bo'yicha tasnif topilmadi."
+ },
+ {
+  "id": "or-1-0023",
+  "held": "Arterial qon ketishi bo'yicha manbalarda tegishli bo'lim topilmadi."
+ },
+ {
+  "id": "or-1-0026",
+  "held": "Test bo'lagi ('Aseptika - bu:'); variantlarsiz og'zaki savol emas."
+ },
+ {
+  "id": "or-1-0029",
+  "held": "Test bo'lagi; manbada ayolga xos oqibat ko'rsatilmagan, faqat umumiy alkogolizm ta'siri bor."
+ },
+ {
+  "id": "or-1-0030",
+  "held": "Bavosil (gemorroy) manbalarda faqat huqnaga monelik sifatida tilga olingan; sabablari, belgilari, parvarishi yo'q."
+ }
+]

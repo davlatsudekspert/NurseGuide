@@ -5,6 +5,7 @@ import 'package:material_ui/material_ui.dart';
 
 import '../features/admin/admin_console_screens.dart';
 import '../features/auth/ui/account_required_screen.dart';
+import '../features/billing/paywall_screen.dart';
 import '../features/admin/admin_screens.dart';
 import '../features/auth/ui/auth_screens.dart';
 import '../features/auth/ui/language_picker_screen.dart';
@@ -61,6 +62,7 @@ GoRouter buildRouter(
   SettingsController settings, {
   required Listenable refresh,
   bool Function()? hasAccount,
+  bool Function(String loc)? billingAllows,
 }) {
   final rootKey = GlobalKey<NavigatorState>(debugLabel: 'root');
   final tabMemory = TabMemory();
@@ -115,6 +117,12 @@ GoRouter buildRouter(
             queryParameters: {'from': state.uri.toString()},
           ).toString();
         }
+        if (signedIn && !(billingAllows?.call(loc) ?? true)) {
+          return Uri(
+            path: '/paywall',
+            queryParameters: {'from': state.uri.toString()},
+          ).toString();
+        }
         // Kirgach — dastlab so'ralgan sahifaga qaytadi.
         if (signedIn && loc == '/account-required') {
           final from = state.uri.queryParameters['from'];
@@ -124,6 +132,11 @@ GoRouter buildRouter(
       return null;
     },
     routes: [
+      GoRoute(
+        path: '/paywall',
+        builder: (context, state) =>
+            PaywallScreen(from: state.uri.queryParameters['from']),
+      ),
       GoRoute(
         path: '/account-required',
         builder: (context, state) => const AccountRequiredScreen(),

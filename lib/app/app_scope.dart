@@ -8,6 +8,7 @@ import '../core/backend/admin_team.dart';
 import '../core/backend/app_backend.dart';
 import '../core/storage/kv_store.dart';
 import '../features/auth/auth_controller.dart';
+import '../features/billing/billing_controller.dart';
 import '../features/classroom/classroom_local.dart';
 import '../features/classroom/curriculum.dart';
 import '../features/classroom/qr_scanner.dart';
@@ -64,6 +65,7 @@ class AppServices {
     required this.curriculum,
     required this.classroom,
     required this.topicTests,
+    required this.billing,
     this.qrScanner = const MobileQrScanner(),
   });
 
@@ -72,6 +74,9 @@ class AppServices {
   final SettingsController settings;
   final AuthController auth;
   final ContentController content;
+
+  /// Obuna darajasi (billing o'chiq bo'lsa — hamma bo'lim ochiq).
+  final BillingController billing;
   final BookmarksController bookmarks;
   final QuizProgressController quizProgress;
 

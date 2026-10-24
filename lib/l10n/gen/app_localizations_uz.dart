@@ -4965,4 +4965,81 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get toifaEmptyBody => 'Savollar yuklanmadi. Ilovani qayta oching.';
+
+  @override
+  String get paywallTitle => 'NurseGuide Pro';
+
+  @override
+  String get paywallLocked => 'Bu bo‘lim obunaga kiradi.';
+
+  @override
+  String get paywallLead =>
+      'Hamshiralik imtihoniga tayyorgarlik uchun testlar, imtihon rejimi, og‘zaki biletlar va boshqa o‘quv bo‘limlari.';
+
+  @override
+  String get paywallTrial =>
+      'Dastlabki 30 kun bepul, keyin tanlangan reja narxi. Istalgan vaqtda bekor qilish mumkin.';
+
+  @override
+  String get planStudent => 'Talaba';
+
+  @override
+  String get planSpecialist => 'Mutaxassis';
+
+  @override
+  String get planTeacher => 'Ustoz';
+
+  @override
+  String get planStudentDesc =>
+      'Testlar, mashq, imtihon rejimi, og‘zaki biletlar, saqlanganlar';
+
+  @override
+  String get planSpecialistDesc =>
+      'Talaba rejasidagi hammasi, qo‘shimcha DMED savol-javoblari va atamalar';
+
+  @override
+  String get planTeacherDesc =>
+      'Mutaxassis rejasidagi hammasi, qo‘shimcha guruhlar va natijalar';
+
+  @override
+  String get periodMonthly => 'oyiga';
+
+  @override
+  String get periodYearly => 'yiliga';
+
+  @override
+  String get paywallStart => '30 kun bepul boshlash';
+
+  @override
+  String get paywallRestore => 'Xaridni tiklash';
+
+  @override
+  String get paywallLegal =>
+      'Obuna bepul davrdan keyin avtomatik yangilanadi. Uni App Store yoki Google Play obuna sozlamalarida bekor qilish mumkin.';
+
+  @override
+  String get paywallTerms => 'Foydalanish shartlari';
+
+  @override
+  String get paywallPrivacy => 'Maxfiylik siyosati';
+
+  @override
+  String get paywallUnavailable =>
+      'Do‘kon bilan aloqa yo‘q. Internetni tekshirib, qayta urinib ko‘ring.';
+
+  @override
+  String get paywallError => 'Xarid bajarilmadi.';
+
+  @override
+  String get paywallActive => 'Obunangiz faol.';
+
+  @override
+  String get paywallFreeNote =>
+      'Bepul: bosh sahifa, manipulyatsiyalar, kutubxona va kunlik savollar.';
+
+  @override
+  String get paywallBack => 'Bosh sahifaga qaytish';
+
+  @override
+  String get paywallProfileRow => 'Obuna';
 }

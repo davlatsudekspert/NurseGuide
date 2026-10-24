@@ -8649,6 +8649,144 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Questions did not load. Reopen the app.'**
   String get toifaEmptyBody;
+
+  /// No description provided for @paywallTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'NurseGuide Pro'**
+  String get paywallTitle;
+
+  /// No description provided for @paywallLocked.
+  ///
+  /// In en, this message translates to:
+  /// **'This section is part of the subscription.'**
+  String get paywallLocked;
+
+  /// No description provided for @paywallLead.
+  ///
+  /// In en, this message translates to:
+  /// **'Tests, exam mode, oral tickets and other study sections for nursing exam preparation.'**
+  String get paywallLead;
+
+  /// No description provided for @paywallTrial.
+  ///
+  /// In en, this message translates to:
+  /// **'First 30 days free, then the price of the plan you choose. Cancel any time.'**
+  String get paywallTrial;
+
+  /// No description provided for @planStudent.
+  ///
+  /// In en, this message translates to:
+  /// **'Student'**
+  String get planStudent;
+
+  /// No description provided for @planSpecialist.
+  ///
+  /// In en, this message translates to:
+  /// **'Specialist'**
+  String get planSpecialist;
+
+  /// No description provided for @planTeacher.
+  ///
+  /// In en, this message translates to:
+  /// **'Teacher'**
+  String get planTeacher;
+
+  /// No description provided for @planStudentDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Tests, practice, exam mode, oral tickets, saved items'**
+  String get planStudentDesc;
+
+  /// No description provided for @planSpecialistDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Everything in Student, plus DMED questions and the glossary'**
+  String get planSpecialistDesc;
+
+  /// No description provided for @planTeacherDesc.
+  ///
+  /// In en, this message translates to:
+  /// **'Everything in Specialist, plus groups and results'**
+  String get planTeacherDesc;
+
+  /// No description provided for @periodMonthly.
+  ///
+  /// In en, this message translates to:
+  /// **'per month'**
+  String get periodMonthly;
+
+  /// No description provided for @periodYearly.
+  ///
+  /// In en, this message translates to:
+  /// **'per year'**
+  String get periodYearly;
+
+  /// No description provided for @paywallStart.
+  ///
+  /// In en, this message translates to:
+  /// **'Start 30 days free'**
+  String get paywallStart;
+
+  /// No description provided for @paywallRestore.
+  ///
+  /// In en, this message translates to:
+  /// **'Restore purchases'**
+  String get paywallRestore;
+
+  /// No description provided for @paywallLegal.
+  ///
+  /// In en, this message translates to:
+  /// **'The subscription renews automatically after the free trial. You can cancel it in your App Store or Google Play subscription settings.'**
+  String get paywallLegal;
+
+  /// No description provided for @paywallTerms.
+  ///
+  /// In en, this message translates to:
+  /// **'Terms of use'**
+  String get paywallTerms;
+
+  /// No description provided for @paywallPrivacy.
+  ///
+  /// In en, this message translates to:
+  /// **'Privacy policy'**
+  String get paywallPrivacy;
+
+  /// No description provided for @paywallUnavailable.
+  ///
+  /// In en, this message translates to:
+  /// **'The store is not reachable. Check your connection and try again.'**
+  String get paywallUnavailable;
+
+  /// No description provided for @paywallError.
+  ///
+  /// In en, this message translates to:
+  /// **'The purchase did not go through.'**
+  String get paywallError;
+
+  /// No description provided for @paywallActive.
+  ///
+  /// In en, this message translates to:
+  /// **'Your subscription is active.'**
+  String get paywallActive;
+
+  /// No description provided for @paywallFreeNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Free: home, procedures, library and daily questions.'**
+  String get paywallFreeNote;
+
+  /// No description provided for @paywallBack.
+  ///
+  /// In en, this message translates to:
+  /// **'Back to home'**
+  String get paywallBack;
+
+  /// No description provided for @paywallProfileRow.
+  ///
+  /// In en, this message translates to:
+  /// **'Subscription'**
+  String get paywallProfileRow;
 }
 
 class _AppLocalizationsDelegate

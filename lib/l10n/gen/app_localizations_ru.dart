@@ -5056,4 +5056,81 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get toifaEmptyBody =>
       'Вопросы не загрузились. Откройте приложение заново.';
+
+  @override
+  String get paywallTitle => 'NurseGuide Pro';
+
+  @override
+  String get paywallLocked => 'Этот раздел входит в подписку.';
+
+  @override
+  String get paywallLead =>
+      'Тесты, режим экзамена, устные билеты и другие учебные разделы для подготовки к экзамену.';
+
+  @override
+  String get paywallTrial =>
+      'Первые 30 дней бесплатно, затем цена выбранного плана. Отменить можно в любой момент.';
+
+  @override
+  String get planStudent => 'Студент';
+
+  @override
+  String get planSpecialist => 'Специалист';
+
+  @override
+  String get planTeacher => 'Преподаватель';
+
+  @override
+  String get planStudentDesc =>
+      'Тесты, практика, режим экзамена, устные билеты, сохранённое';
+
+  @override
+  String get planSpecialistDesc =>
+      'Всё из плана «Студент», плюс вопросы DMED и глоссарий';
+
+  @override
+  String get planTeacherDesc =>
+      'Всё из плана «Специалист», плюс группы и результаты';
+
+  @override
+  String get periodMonthly => 'в месяц';
+
+  @override
+  String get periodYearly => 'в год';
+
+  @override
+  String get paywallStart => 'Начать 30 дней бесплатно';
+
+  @override
+  String get paywallRestore => 'Восстановить покупки';
+
+  @override
+  String get paywallLegal =>
+      'Подписка продлевается автоматически после бесплатного периода. Отменить её можно в настройках подписок App Store или Google Play.';
+
+  @override
+  String get paywallTerms => 'Условия использования';
+
+  @override
+  String get paywallPrivacy => 'Политика конфиденциальности';
+
+  @override
+  String get paywallUnavailable =>
+      'Магазин недоступен. Проверьте соединение и повторите попытку.';
+
+  @override
+  String get paywallError => 'Покупка не выполнена.';
+
+  @override
+  String get paywallActive => 'Подписка активна.';
+
+  @override
+  String get paywallFreeNote =>
+      'Бесплатно: главная, манипуляции, библиотека и ежедневные вопросы.';
+
+  @override
+  String get paywallBack => 'На главную';
+
+  @override
+  String get paywallProfileRow => 'Подписка';
 }

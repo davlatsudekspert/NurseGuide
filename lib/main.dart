@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:material_ui/material_ui.dart';
 
 import 'app/app.dart';
+import 'features/billing/billing_controller.dart';
 import 'app/app_scope.dart';
 import 'core/backend/access_controller.dart';
 import 'core/backend/cloudflare_backend.dart';
@@ -114,6 +115,7 @@ AppServices createServices({
     curriculum: CurriculumController(bundle: bundle, curriculum: curriculum),
     classroom: ClassroomLocal(store),
     topicTests: TopicTestController(store, clock: clock),
+    billing: BillingController(store: store, now: clock),
     qrScanner: qrScanner ?? const MobileQrScanner(),
   )..watchAccess();
 }

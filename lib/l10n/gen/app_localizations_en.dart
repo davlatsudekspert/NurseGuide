@@ -5045,4 +5045,81 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get toifaEmptyBody => 'Questions did not load. Reopen the app.';
+
+  @override
+  String get paywallTitle => 'NurseGuide Pro';
+
+  @override
+  String get paywallLocked => 'This section is part of the subscription.';
+
+  @override
+  String get paywallLead =>
+      'Tests, exam mode, oral tickets and other study sections for nursing exam preparation.';
+
+  @override
+  String get paywallTrial =>
+      'First 30 days free, then the price of the plan you choose. Cancel any time.';
+
+  @override
+  String get planStudent => 'Student';
+
+  @override
+  String get planSpecialist => 'Specialist';
+
+  @override
+  String get planTeacher => 'Teacher';
+
+  @override
+  String get planStudentDesc =>
+      'Tests, practice, exam mode, oral tickets, saved items';
+
+  @override
+  String get planSpecialistDesc =>
+      'Everything in Student, plus DMED questions and the glossary';
+
+  @override
+  String get planTeacherDesc =>
+      'Everything in Specialist, plus groups and results';
+
+  @override
+  String get periodMonthly => 'per month';
+
+  @override
+  String get periodYearly => 'per year';
+
+  @override
+  String get paywallStart => 'Start 30 days free';
+
+  @override
+  String get paywallRestore => 'Restore purchases';
+
+  @override
+  String get paywallLegal =>
+      'The subscription renews automatically after the free trial. You can cancel it in your App Store or Google Play subscription settings.';
+
+  @override
+  String get paywallTerms => 'Terms of use';
+
+  @override
+  String get paywallPrivacy => 'Privacy policy';
+
+  @override
+  String get paywallUnavailable =>
+      'The store is not reachable. Check your connection and try again.';
+
+  @override
+  String get paywallError => 'The purchase did not go through.';
+
+  @override
+  String get paywallActive => 'Your subscription is active.';
+
+  @override
+  String get paywallFreeNote =>
+      'Free: home, procedures, library and daily questions.';
+
+  @override
+  String get paywallBack => 'Back to home';
+
+  @override
+  String get paywallProfileRow => 'Subscription';
 }

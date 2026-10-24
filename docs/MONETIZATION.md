@@ -68,11 +68,38 @@ Billing kodi `--dart-define=NG_BILLING_ENABLED=true` bilan yoqiladi (CI
 o'zgaruvchisi `NG_BILLING_ENABLED`). Standart holatda o'chiq: do'konda
 mahsulotlar yaratilmaguncha hech narsa yopilmaydi.
 
-1. App Store Connect → Subscriptions: "NurseGuide Pro" guruhi, 3 daraja × 2
-   davr, har biriga 30 kunlik bepul sinov (intro offer).
-2. Google Play → Monetize → Subscriptions: 3 obuna, har birida 2 base plan
-   (monthly/yearly) va 30 kunlik bepul sinov offeri.
-3. CI: repo variable `NG_BILLING_ENABLED=true`, yangi TestFlight build.
-4. Sandbox (TestFlight) va license-tester orqali sinash.
-5. Keyin: server tomonda kvitansiya tekshiruvi (App Store Server API / Play
-   Developer API), hozircha mijoz tomonida tekshiruv (StoreKit/Billing).
+1. App Store Connect → Subscriptions: bitta "NurseGuide Pro" guruhi, 6 obuna
+   (3 daraja × 2 davr), **sinov taklifi YO'Q** (sinovni server beradi).
+   Daraja tartibi guruh ichida: Mutaxassis > Ustoz > Talaba (yuqoriga o'tish — upgrade).
+2. Google Play → Monetize → Subscriptions: **6 ta alohida obuna** (iOS bilan bir xil
+   ID), har birida bitta base plan; sinov offeri YO'Q. (Bitta obunada 2 base plan
+   qilinmaydi: kod mahsulotni ID bo'yicha topadi.)
+3. Server: `LG_BILLING_LAUNCH` = yoqilish sanasi (ISO, masalan `2026-12-01T00:00:00Z`).
+   Shu sanadan oldin ochilgan hisoblar ham yoqilish kunidan 30 kun sinov oladi
+   (mavjud foydalanuvchilar birinchi kuniyoq to'siqqa duch kelmasin).
+4. Apple/Google reviewer va demo hisob: admin panel → "Pro obunalar" dan
+   reviewer emailiga **Mutaxassis**, muddatsiz Pro bering (sinov muddatiga
+   bog'lanib qolmaydi). Review izohiga shu hisobni yozing.
+5. Do'kon maxfiylik shakllari: App Store "App Privacy" → Device ID (App
+   Functionality, hisobga bog'lanmagan, kuzatuv uchun emas); Play "Data safety" →
+   Device or other IDs (App functionality). Ilova matnlari va sayt (`site/privacy`,
+   `site/terms`) shunga mos yangilangan.
+6. CI: repo variable `NG_BILLING_ENABLED=true`, yangi TestFlight build; sandbox
+   (TestFlight) va license-tester orqali sinash.
+7. Keyin: server tomonda kvitansiya tekshiruvi (App Store Server API / Play
+   Developer API); shundan so'ng `LG_TEACHER_REQUIRES_PRO=1`.
+
+## Ma'lum cheklovlar
+
+- Xarid muddati qurilmada hisoblanadi (iOS: xarid sanasi + davr; Android: egalik
+  qilinayotgan obuna ishga tushganda tiklanadi). Aniq muddat — server kvitansiya
+  tekshiruvidan keyin.
+- `X-Device-Id` sarlavhasi tasdiqlanmaydi (App Attest / Play Integrity yo'q):
+  o'zgartirilgan mijoz har safar yangi id bilan sinovni aylanib o'tishi mumkin;
+  bir hisobdan sutkada 5 tadan ortiq yangi qurilma yozilmaydi.
+- Avvaldan ro'yxatdan o'tgan ustozlar sinov davrida guruhlarini saqlaydi;
+  sinovdan keyin Ustoz/Mutaxassis rejasi kerak.
+- Admin bergan Pro emailga bog'lanadi: Apple "Hide My Email" yoki boshqa
+  Google email bilan kirgan foydalanuvchi shu emailga mos kelmaydi.
+- `/learn/classes` da faqat ustoz sahifalari (yaratish, reja, topshiriq,
+  natijalar) obunani talab qiladi; qo'shilish va talaba sahifalari bepul.

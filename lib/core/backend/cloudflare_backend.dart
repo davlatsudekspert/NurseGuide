@@ -185,7 +185,8 @@ class CloudflareAppBackend
     if (platform != null) req.headers['x-app-platform'] = platform;
     // Bepul sinov qurilma bo'yicha bir martalik (serverda HMAC, ochiq emas).
     final dev = _device;
-    if (dev != null) req.headers['x-device-id'] = await dev.get();
+    final did = await dev?.get();
+    if (did != null) req.headers['x-device-id'] = did;
     if (optionalAuth) {
       // Mehmon ham o'qiydi; sessiya bo'lsa — token (ovoz/muallif belgisi).
       if (_token != null) req.headers['authorization'] = 'Bearer $_token';

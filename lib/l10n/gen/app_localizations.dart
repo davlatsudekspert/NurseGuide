@@ -4309,7 +4309,7 @@ abstract class AppLocalizations {
   /// No description provided for @privacyBody.
   ///
   /// In en, this message translates to:
-  /// **'Guests can browse the home screen, the procedures list, the workplace and the library; settings stay on this device. Tests, practice, daily questions, procedure details, groups and “Feedback & help” need a free account (email code, Google or Apple). Then data is stored on Cloudflare’s network (servers may be outside Uzbekistan): your email only as a hash and a masked form, sign-in method, role, language, last activity time (to the minute); in a group — your nickname or sequence number, test answers and scores; the text of requests and complaints. From Google/Apple only the account identifier and email are used; the token is not stored. A teacher sees only their own group. No ads, analytics or tracking. You can delete your account at any time with the “Delete account” button. Full text: the “Privacy policy” link.'**
+  /// **'Guests can browse the home screen, the procedures list, the workplace and the library; settings stay on this device. Tests, practice, daily questions, procedure details, groups and “Feedback & help” need a free account (email code, Google or Apple). Then data is stored on Cloudflare’s network (servers may be outside Uzbekistan): your email only as a hash and a masked form, sign-in method, role, language, last activity time (to the minute); in a group — your nickname or sequence number, test answers and scores; the text of requests and complaints. From Google/Apple only the account identifier and email are used; the token is not stored. A teacher sees only their own group. No ads, analytics or tracking. You can delete your account at any time with the “Delete account” button. Full text: the “Privacy policy” link. For the free trial, a device identifier is stored only as an irreversible signature (HMAC). We do not receive payment details.'**
   String get privacyBody;
 
   /// No description provided for @privacyBodyLocal.
@@ -4381,7 +4381,7 @@ abstract class AppLocalizations {
   /// No description provided for @termsBody.
   ///
   /// In en, this message translates to:
-  /// **'NurseGuide is a free reference and learning app for nurses. By using the app you agree to these terms.\n\n1. Medical limitation. NurseGuide does not diagnose, prescribe treatment or medicines, and does not replace your institution\'s approved procedures, medicine instructions or a physician\'s orders. Every item shows its source; when making decisions, rely on the original source and your institution\'s rules.\n\n2. Account. The main features (tests, practice, daily questions, procedure details, groups, support requests) require an account (email code, Apple or Google). You are responsible for your account\'s security and for actions taken through it. You can delete your account at any time: Profile → Privacy and data → Delete account.\n\n3. Teacher and student groups. When a student joins a group, the teacher sees their nickname (or seat number) and test results. Teachers use groups for educational purposes only.\n\n4. User content. You are responsible for what you write in support requests. Abuse, illegal content, advertising, other people\'s personal data and non-consensual intimate images are strictly prohibited. Such content is removed, and the offending account may be restricted or deleted.\n\n5. Copyright. The app\'s texts, slides, tests and design belong to the NurseGuide authors; external sources are shown with their own licences. They may not be copied or distributed for commercial purposes.\n\n6. Service. The app is provided “as is”; outages and errors may occur, and we fix them as quickly as we can. We will notify you in the app if these terms change.\n\n7. Privacy. How your data is used is described in the privacy policy: nurseguide.nfcstore.uz/privacy\n\n8. Contact: nurseguide@nfcstore.uz'**
+  /// **'NurseGuide is a reference and learning app for nurses (part is free; full access needs a paid subscription). By using the app you agree to these terms.\n\n1. Medical limitation. NurseGuide does not diagnose, prescribe treatment or medicines, and does not replace your institution\'s approved procedures, medicine instructions or a physician\'s orders. Every item shows its source; when making decisions, rely on the original source and your institution\'s rules.\n\n2. Account. The main features (tests, practice, daily questions, procedure details, groups, support requests) require an account (email code, Apple or Google). You are responsible for your account\'s security and for actions taken through it. You can delete your account at any time: Profile → Privacy and data → Delete account.\n\n3. Teacher and student groups. When a student joins a group, the teacher sees their nickname (or seat number) and test results. Teachers use groups for educational purposes only.\n\n4. User content. You are responsible for what you write in support requests. Abuse, illegal content, advertising, other people\'s personal data and non-consensual intimate images are strictly prohibited. Such content is removed, and the offending account may be restricted or deleted.\n\n5. Copyright. The app\'s texts, slides, tests and design belong to the NurseGuide authors; external sources are shown with their own licences. They may not be copied or distributed for commercial purposes.\n\n6. Service. The app is provided “as is”; outages and errors may occur, and we fix them as quickly as we can. We will notify you in the app if these terms change.\n\n7. Privacy. How your data is used is described in the privacy policy: nurseguide.nfcstore.uz/privacy\n\n8. Contact: nurseguide@nfcstore.uz\n\nSubscription: some sections are unlocked with a paid subscription; payment is charged to your App Store or Google Play account, renews automatically at the end of the period and is cancelled in the store settings. The 30-day free trial is given once per account and per device.'**
   String get termsBody;
 
   /// No description provided for @rightsUnknown.
@@ -8737,7 +8737,7 @@ abstract class AppLocalizations {
   /// No description provided for @paywallLegal.
   ///
   /// In en, this message translates to:
-  /// **'The subscription renews automatically after the free trial. You can cancel it in your App Store or Google Play subscription settings.'**
+  /// **'The subscription renews automatically at the end of each period (month or year) unless you cancel it at least 24 hours before. Payment is charged to your App Store or Google Play account; manage or cancel it in the store subscription settings.'**
   String get paywallLegal;
 
   /// No description provided for @paywallTerms.
@@ -8865,6 +8865,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Free trial active until {date}'**
   String paywallTrialActive(String date);
+
+  /// No description provided for @paywallRestored.
+  ///
+  /// In en, this message translates to:
+  /// **'Purchases restored.'**
+  String get paywallRestored;
+
+  /// No description provided for @paywallNothingToRestore.
+  ///
+  /// In en, this message translates to:
+  /// **'No purchases found to restore.'**
+  String get paywallNothingToRestore;
 }
 
 class _AppLocalizationsDelegate

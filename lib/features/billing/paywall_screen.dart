@@ -6,6 +6,7 @@ import '../../app/app_scope.dart';
 import '../../app/widgets/lg_page.dart';
 import '../../design/widgets/lg_widgets.dart';
 import '../../l10n/gen/app_localizations.dart';
+import 'billing_controller.dart';
 import 'billing_plan.dart';
 
 /// Obuna ekrani: 3 daraja × oylik/yillik, 30 kun bepul sinov, tiklash va
@@ -21,6 +22,33 @@ class PaywallScreen extends StatefulWidget {
 
 class _PaywallScreenState extends State<PaywallScreen> {
   BillingPeriod _period = BillingPeriod.yearly;
+  BillingController? _billing;
+
+  /// Kirish ochilgach (xarid, tiklash, sinov yoki server bergan Pro) —
+  /// foydalanuvchi so'ragan sahifaga qaytadi.
+  void _maybeReturn() {
+    final from = widget.from;
+    final billing = AppScope.of(context).billing;
+    if (from != null && from.startsWith('/') && billing.allows(from)) {
+      context.go(from);
+    }
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      if (!mounted) return;
+      _billing = AppScope.of(context).billing..addListener(_maybeReturn);
+      _maybeReturn();
+    });
+  }
+
+  @override
+  void dispose() {
+    _billing?.removeListener(_maybeReturn);
+    super.dispose();
+  }
 
   String _name(AppLocalizations l, BillingTier t) => switch (t) {
     BillingTier.student => l.planStudent,
@@ -93,7 +121,8 @@ class _PaywallScreenState extends State<PaywallScreen> {
                   title: _name(l, plan.tier),
                   subtitle: _desc(l, plan.tier),
                   trailing: Text(
-                    billing.products[plan.productId]?.price ?? plan.fallbackUsd,
+                    '${billing.products[plan.productId]?.price ?? plan.fallbackUsd}'
+                    ' ${plan.period == BillingPeriod.monthly ? l.periodMonthly : l.periodYearly}',
                   ),
                   onTap: billing.busy ? null : () => billing.buy(plan),
                 ),
@@ -103,7 +132,24 @@ class _PaywallScreenState extends State<PaywallScreen> {
             const SizedBox(height: 8),
             LgButton.secondary(
               label: l.paywallRestore,
-              onPressed: billing.busy ? null : billing.restore,
+              onPressed: billing.busy
+                  ? null
+                  : () async {
+                      final messenger = ScaffoldMessenger.of(context);
+                      await billing.restore();
+                      await Future<void>.delayed(const Duration(seconds: 2));
+                      messenger
+                        ..hideCurrentSnackBar()
+                        ..showSnackBar(
+                          SnackBar(
+                            content: Text(
+                              billing.tier != BillingTier.free
+                                  ? l.paywallRestored
+                                  : l.paywallNothingToRestore,
+                            ),
+                          ),
+                        );
+                    },
             ),
             const SizedBox(height: 12),
             Text(l.paywallFreeNote),

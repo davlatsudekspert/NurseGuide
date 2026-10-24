@@ -36,6 +36,10 @@ abstract final class StoreKeys {
   /// Obuna darajasi va amal qilish muddati (do'kon hodisalaridan).
   static const billingTier = 'billing.tier';
   static const billingUntil = 'billing.until';
+  static const billingTrial = 'billing.trial';
+  static const billingGrantTier = 'billing.grantTier';
+  static const billingGrantUntil = 'billing.grantUntil';
+  static const billingTeacher = 'billing.teacher';
   static const languageChosen = 'settings.languageChosen';
   static const session = 'auth.session';
   static const bookmarks = 'content.bookmarks';
@@ -119,6 +123,10 @@ abstract final class StoreKeys {
     homeResume,
     billingTier,
     billingUntil,
+    billingTrial,
+    billingGrantTier,
+    billingGrantUntil,
+    billingTeacher,
   };
 }
 

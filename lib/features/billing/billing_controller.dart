@@ -1,7 +1,7 @@
 import 'dart:async';
 
+import 'package:flutter/foundation.dart';
 import 'package:in_app_purchase/in_app_purchase.dart';
-import 'package:material_ui/material_ui.dart';
 
 import '../../core/storage/kv_store.dart';
 import 'billing_plan.dart';
@@ -59,17 +59,22 @@ class BillingController extends ChangeNotifier {
     PurchaseGateway? gateway,
     bool? enabled,
     DateTime Function()? now,
-  }) : _gateway = gateway ?? (kBillingEnabled ? StorePurchaseGateway() : null),
+    bool? isAndroid,
+  }) : _isAndroid =
+           isAndroid ?? defaultTargetPlatform == TargetPlatform.android,
+       _gateway = gateway ?? (kBillingEnabled ? StorePurchaseGateway() : null),
        _store = store, // ignore: prefer_initializing_formals
        _now = now ?? DateTime.now,
        enabled = enabled ?? kBillingEnabled {
     _tier = _readTier();
+    _loadServerState();
   }
 
   final KeyValueStore _store;
   final DateTime Function() _now;
   final PurchaseGateway? _gateway;
   final bool enabled;
+  final bool _isAndroid;
 
   StreamSubscription<List<PurchaseDetails>>? _sub;
   BillingTier _tier = BillingTier.free;
@@ -79,18 +84,57 @@ class BillingController extends ChangeNotifier {
   bool _busy = false;
 
   BillingTier _granted = BillingTier.free;
+  DateTime? _grantUntil;
+  bool _teacherRegistered = false;
+  DateTime? _untilStored;
 
-  /// Do'kon xaridi yoki admin bergan Pro dan yuqorisi.
-  BillingTier get tier => _granted.index > _tier.index ? _granted : _tier;
+  /// Do'kon xaridi yoki admin bergan Pro dan yuqorisi (muddati o'tgani sanalmaydi).
+  BillingTier get tier {
+    final grantLive =
+        _granted != BillingTier.free &&
+        (_grantUntil == null || _grantUntil!.isAfter(_now()));
+    final g = grantLive ? _granted : BillingTier.free;
+    return g.index > _tier.index ? g : _tier;
+  }
 
   /// Server (`/v1/me`) admin bergan Prosini xabar qiladi; `null` — yo'q.
+  /// Qurilmada saqlanadi: internet yo'q holda ham ochiq qoladi.
   void applyGrant(String? wire, DateTime? until) {
     final t = BillingTier.values.where((e) => e.name == wire).firstOrNull;
-    final live = t != null && (until == null || until.isAfter(_now()));
-    final next = live ? t : BillingTier.free;
-    if (next == _granted) return;
+    final next = t ?? BillingTier.free;
+    if (next == _granted && until == _grantUntil) return;
     _granted = next;
+    _grantUntil = until;
+    unawaited(_store.setString(StoreKeys.billingGrantTier, next.name));
+    unawaited(
+      _store.setString(
+        StoreKeys.billingGrantUntil,
+        until?.toIso8601String() ?? '',
+      ),
+    );
     notifyListeners();
+  }
+
+  /// Avvaldan ro'yxatdan o'tgan ustozlar sinov davrida guruhlarini yo'qotmaydi.
+  void applyTeacher(bool registered) {
+    if (registered == _teacherRegistered) return;
+    _teacherRegistered = registered;
+    unawaited(_store.setBool(StoreKeys.billingTeacher, registered));
+    notifyListeners();
+  }
+
+  void _loadServerState() {
+    _trialUntil = DateTime.tryParse(
+      _store.getString(StoreKeys.billingTrial) ?? '',
+    );
+    final g = _store.getString(StoreKeys.billingGrantTier);
+    _granted =
+        BillingTier.values.where((e) => e.name == g).firstOrNull ??
+        BillingTier.free;
+    _grantUntil = DateTime.tryParse(
+      _store.getString(StoreKeys.billingGrantUntil) ?? '',
+    );
+    _teacherRegistered = _store.getBool(StoreKeys.billingTeacher) ?? false;
   }
 
   Map<String, ProductDetails> get products => _products;
@@ -107,7 +151,10 @@ class BillingController extends ChangeNotifier {
 
   /// Daraja yoki faol bepul sinov shu imkoniyatni beradimi.
   bool has(BillingFeature f) =>
-      tier.features.contains(f) || (trialActive && trialFeatures.contains(f));
+      tier.features.contains(f) ||
+      (trialActive &&
+          (trialFeatures.contains(f) ||
+              (f == BillingFeature.groups && _teacherRegistered)));
 
   DateTime? _trialUntil;
 
@@ -119,6 +166,9 @@ class BillingController extends ChangeNotifier {
   void applyTrial(DateTime? until) {
     if (until == _trialUntil) return;
     _trialUntil = until;
+    unawaited(
+      _store.setString(StoreKeys.billingTrial, until?.toIso8601String() ?? ''),
+    );
     notifyListeners();
   }
 
@@ -129,6 +179,7 @@ class BillingController extends ChangeNotifier {
     final until = DateTime.tryParse(
       _store.getString(StoreKeys.billingUntil) ?? '',
     );
+    _untilStored = until;
     if (until == null || !until.isAfter(_now())) return BillingTier.free;
     final raw = _store.getString(StoreKeys.billingTier);
     for (final t in BillingTier.values) {
@@ -142,9 +193,16 @@ class BillingController extends ChangeNotifier {
       ? const Duration(days: 368)
       : const Duration(days: 33);
 
-  DateTime _purchasedAt(PurchaseDetails p) {
+  /// Xarid amal qilish muddati tugashi. Yangi xarid — hozirdan; tiklangan:
+  /// Android'da egalik qilinayotgan (faol) obuna — hozirdan, iOS'da — xarid
+  /// sanasidan (sana yo'q bo'lsa hisobga olinmaydi: eski obuna qayta ochilmasin).
+  DateTime? _endOf(PurchaseDetails p, BillingPlan plan) {
+    final len = validFor(plan.period);
+    if (p.status == PurchaseStatus.purchased || _isAndroid) {
+      return _now().add(len);
+    }
     final ms = int.tryParse(p.transactionDate ?? '');
-    return ms == null ? _now() : DateTime.fromMillisecondsSinceEpoch(ms);
+    return ms == null ? null : DateTime.fromMillisecondsSinceEpoch(ms).add(len);
   }
 
   Future<void> start() async {
@@ -160,6 +218,8 @@ class BillingController extends ChangeNotifier {
     _storeReady = await gw.isAvailable();
     if (_storeReady) _products = await gw.products(BillingPlan.productIds);
     notifyListeners();
+    // Android: egalik qilinayotgan obunalar so'rovsiz tiklanadi (yangilanishlar).
+    if (_storeReady && _isAndroid) unawaited(restore(silent: true));
   }
 
   Future<void> buy(BillingPlan plan) async {
@@ -182,19 +242,23 @@ class BillingController extends ChangeNotifier {
     }
   }
 
-  Future<void> restore() async {
+  Future<void> restore({bool silent = false}) async {
     final gw = _gateway;
     if (gw == null) return;
-    _busy = true;
-    _error = null;
-    notifyListeners();
+    if (!silent) {
+      _busy = true;
+      _error = null;
+      notifyListeners();
+    }
     try {
       await gw.restore();
     } catch (e) {
-      _error = e.toString();
+      if (!silent) _error = e.toString();
     }
-    _busy = false;
-    notifyListeners();
+    if (!silent) {
+      _busy = false;
+      notifyListeners();
+    }
   }
 
   Future<void> _onPurchases(List<PurchaseDetails> list) async {
@@ -206,9 +270,10 @@ class BillingController extends ChangeNotifier {
       switch (p.status) {
         case PurchaseStatus.purchased:
         case PurchaseStatus.restored:
-          final end = _purchasedAt(p).add(validFor(plan.period));
-          if (!end.isAfter(_now())) break;
-          if (plan.tier.index > best.index) {
+          final end = _endOf(p, plan);
+          if (end == null || !end.isAfter(_now())) break;
+          if (plan.tier.index > best.index ||
+              (plan.tier == best && end.isAfter(until!))) {
             best = plan.tier;
             until = end;
           }
@@ -221,10 +286,23 @@ class BillingController extends ChangeNotifier {
       if (p.pendingCompletePurchase) await _gateway?.complete(p);
     }
     _busy = false;
-    if (best.index > BillingTier.free.index) {
-      _tier = best;
-      await _store.setString(StoreKeys.billingTier, best.name);
-      await _store.setString(StoreKeys.billingUntil, until!.toIso8601String());
+    // Past daraja yuqori saqlangan darajani pasaytirmaydi.
+    final storedAlive =
+        _tier != BillingTier.free && (_untilStored?.isAfter(_now()) ?? false);
+    final better =
+        best.index > _tier.index ||
+        (best == _tier &&
+            (_untilStored == null || until!.isAfter(_untilStored!)));
+    if (best != BillingTier.free && (!storedAlive || better)) {
+      if (!(storedAlive && best.index < _tier.index)) {
+        _tier = best;
+        _untilStored = until;
+        await _store.setString(StoreKeys.billingTier, best.name);
+        await _store.setString(
+          StoreKeys.billingUntil,
+          until!.toIso8601String(),
+        );
+      }
     }
     notifyListeners();
   }

@@ -40,12 +40,23 @@ const DEVICE_RE = /^[A-Za-z0-9._:-]{16,128}$/;
  * Bepul sinov: `X-Device-Id` sarlavhasi bo'lsa qurilma birinchi marta
  * ro'yxatga olinadi (keyingi hisoblar uning soatini YANGILAMAYDI). Sinov
  * muddati — hisob va qurilmaning eng erta vaqti + 30 kun. Sarlavha yo'q yoki
- * noto'g'ri — sinov berilmaydi (null).
+ * noto'g'ri — sinov berilmaydi (null). `LG_BILLING_LAUNCH` (ISO sana) bo'lsa,
+ * sinov shu sanadan oldin boshlanmaydi: obuna yoqilishidan oldingi hisoblar ham
+ * yoqilish kunidan 30 kun oladi. Bir hisobdan sutkada 5 tadan ortiq yangi
+ * qurilma yozilmaydi (jadval ko'payib ketmasin).
  */
 export async function trialInfo(ctx: Ctx, userId: string): Promise<{ until: string } | null> {
   const raw = ctx.req.headers.get('x-device-id') ?? '';
   if (!DEVICE_RE.test(raw)) return null;
   const dh = await hmacHex(ctx, `dev:${raw}`);
+  const known = await ctx.db.prepare('SELECT 1 AS x FROM device_trials WHERE device_hash = ?1').bind(dh).first();
+  if (!known) {
+    try {
+      await hit(ctx.db, `dev-new:${userId}`, 5, 86400, ctx.now);
+    } catch {
+      return null;
+    }
+  }
   await ctx.db
     .prepare('INSERT OR IGNORE INTO device_trials (device_hash, first_seen) VALUES (?1, ?2)')
     .bind(dh, ctx.now)
@@ -58,7 +69,9 @@ export async function trialInfo(ctx: Ctx, userId: string): Promise<{ until: stri
     .bind(userId, dh)
     .first<{ start: number }>();
   if (!r) return null;
-  const end = r.start + TRIAL_DAYS * DAY;
+  const launch = Date.parse(ctx.env.LG_BILLING_LAUNCH ?? '');
+  const start = Number.isNaN(launch) ? r.start : Math.max(r.start, launch);
+  const end = start + TRIAL_DAYS * DAY;
   return end > ctx.now ? { until: new Date(end).toISOString() } : null;
 }
 
@@ -122,7 +135,7 @@ export async function revoke(ctx: Ctx): Promise<Response> {
 export async function list(ctx: Ctx): Promise<Response> {
   await panel(ctx, false);
   const rows = await ctx.db
-    .prepare('SELECT email_masked, tier, until, created_at FROM pro_grants ORDER BY created_at DESC LIMIT 200')
+    .prepare('SELECT email_masked, tier, until, created_at FROM pro_grants ORDER BY created_at DESC LIMIT 500')
     .all<{ email_masked: string; tier: string; until: number | null; created_at: number }>();
   return json({
     grants: rows.results.map((g) => ({

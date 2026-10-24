@@ -28,11 +28,14 @@ A) App Store Connect > NurseGuide > Monetization > Subscriptions
 9. Under App Information confirm the Privacy Policy URL and add "Terms of Use (EULA)" if asked: https://nurseguide.nfcstore.uz/terms/ (use the real URLs from docs/store/APP_STORE_LISTING.md).
 
 B) Google Play Console > NurseGuide > Monetize with Play > Products > Subscriptions
-1. Create 3 subscriptions with product IDs: uz.nurseguide.app.student, uz.nurseguide.app.pro, uz.nurseguide.app.teacher
-   (names: Student, Specialist, Teacher). Each has 2 base plans: id "monthly" (1 month, auto-renewing) and "yearly" (1 year, auto-renewing), prices from the table (USD, auto-convert other countries).
-   NOTE: if Play requires the same product-id style as the iOS ids, report the exact ids it produced; the app expects uz.nurseguide.app.<plan>.<period>. If Play does not accept dots/underscores in a base-plan id, tell me and stop.
-2. Do NOT add any free-trial offer.
-3. Activate the base plans. Add the license testers (Settings > License testing) only if I give you emails.
+1. Create SIX subscriptions, each with exactly one base plan, product IDs identical to the iOS ones:
+   uz.nurseguide.app.student.monthly, uz.nurseguide.app.student.yearly,
+   uz.nurseguide.app.teacher.monthly, uz.nurseguide.app.teacher.yearly,
+   uz.nurseguide.app.pro.monthly,     uz.nurseguide.app.pro.yearly.
+   Billing period 1 month (monthly) or 1 year (yearly), auto-renewing, prices from the table (USD; auto-convert other countries).
+   If Play does not accept these product IDs (dots), tell me the exact rule and stop.
+2. Do NOT add any free-trial offer or introductory price.
+3. Activate the base plans. Add license testers (Settings > License testing) only if I give you emails.
 4. If Play says a payments profile or merchant account is required, stop and report exactly what is missing.
 
 Report: every created product id, price, trial status, and anything that blocked you. Do not guess; if a field is unclear, stop and ask.

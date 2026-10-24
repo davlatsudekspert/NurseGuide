@@ -90,9 +90,14 @@ class BillingPlan {
   }
 }
 
+final _teacherOnly = RegExp(
+  r'^/learn/classes/(new$|test$|g/[^/]+/(plan|assign|topic-test|t/|a/[^/]+/(board|s/)))',
+);
+
 /// Qaysi yo'l qaysi imkoniyatni talab qiladi (`null` — bepul).
 BillingFeature? requiredFeature(String loc) {
-  if (loc.startsWith('/learn/classes')) return BillingFeature.groups;
+  // Faqat ustoz (guruh egasi) sahifalari; qo'shilish va talaba sahifalari bepul.
+  if (_teacherOnly.hasMatch(loc)) return BillingFeature.groups;
   if (loc == '/library/dmed' || loc == '/library/glossary') {
     return BillingFeature.dmed;
   }

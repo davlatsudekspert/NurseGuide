@@ -143,6 +143,7 @@ class AppServices {
     access.addListener(() {
       billing.applyGrant(access.access.proTier, access.access.proUntil);
       billing.applyTrial(access.access.trialUntil);
+      billing.applyTeacher(access.access.teacher);
     });
     auth.addListener(() {
       if (auth.hasAccount == signedIn) return;

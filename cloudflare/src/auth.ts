@@ -520,6 +520,7 @@ export async function deleteUserData(ctx: Ctx, u: string, adminActor?: string): 
     `UPDATE complaints SET user_id = NULL WHERE user_id = ?1`,
     `DELETE FROM totp_factors WHERE user_id = ?1`,
     `DELETE FROM teacher_accounts WHERE user_id = ?1`,
+    `DELETE FROM pro_grants WHERE email_hash = (SELECT email_hash FROM users WHERE id = ?1)`,
     `DELETE FROM admins WHERE user_id = ?1`,
     `DELETE FROM sessions WHERE user_id = ?1`,
     `DELETE FROM auth_identities WHERE user_id = ?1`,

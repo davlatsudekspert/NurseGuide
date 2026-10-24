@@ -63,6 +63,7 @@ void main() {
         store: MemoryKeyValueStore(),
         gateway: gw,
         enabled: true,
+        isAndroid: false,
         now: () => now,
       );
       await c.start();
@@ -71,7 +72,9 @@ void main() {
       expect(c.allows('/learn/daily'), isTrue);
       expect(c.allows('/learn/toifa/test'), isFalse);
       expect(c.allows('/library/dmed'), isFalse);
-      expect(c.allows('/learn/classes/g/1'), isFalse);
+      expect(c.allows('/learn/classes/new'), isFalse);
+      expect(c.allows('/learn/classes/join'), isTrue);
+      expect(c.allows('/learn/classes/g/1'), isTrue);
 
       gw.ctl.add([_p('uz.nurseguide.app.student.monthly', now)]);
       await Future<void>.delayed(const Duration(milliseconds: 20));
@@ -84,7 +87,7 @@ void main() {
       await Future<void>.delayed(const Duration(milliseconds: 20));
       expect(c.tier, BillingTier.teacher);
       expect(c.allows('/library/dmed'), isFalse);
-      expect(c.allows('/learn/classes/g/1'), isTrue);
+      expect(c.allows('/learn/classes/new'), isTrue);
 
       gw.ctl.add([_p('uz.nurseguide.app.pro.yearly', now, restored: true)]);
       await Future<void>.delayed(const Duration(milliseconds: 20));
@@ -99,6 +102,7 @@ void main() {
       store: MemoryKeyValueStore(),
       gateway: gw,
       enabled: true,
+      isAndroid: false,
       now: () => now,
     );
     await c.start();
@@ -106,6 +110,7 @@ void main() {
       _p(
         'uz.nurseguide.app.pro.monthly',
         now.subtract(const Duration(days: 90)),
+        restored: true,
       ),
     ]);
     await Future<void>.delayed(const Duration(milliseconds: 20));
@@ -117,6 +122,7 @@ void main() {
     final c = BillingController(
       store: MemoryKeyValueStore(),
       enabled: true,
+      isAndroid: false,
       now: () => t,
     );
     expect(c.allows('/library/dmed'), isFalse);
@@ -135,6 +141,10 @@ void main() {
     expect(requiredFeature('/learn/toifa/oral'), BillingFeature.study);
     expect(requiredFeature('/library/dmed'), BillingFeature.dmed);
     expect(requiredFeature('/learn/classes/new'), BillingFeature.groups);
+    expect(requiredFeature('/learn/classes/join'), isNull);
+    expect(requiredFeature('/learn/classes/g/1'), isNull);
+    expect(requiredFeature('/learn/classes/g/1/assign'), BillingFeature.groups);
+    expect(requiredFeature('/learn/classes/g/1/a/2/run'), isNull);
   });
 
   test('bepul sinov: o‘rganish va DMED ochiladi, guruhlar (ustoz) yopiq', () {
@@ -142,6 +152,7 @@ void main() {
     final c = BillingController(
       store: MemoryKeyValueStore(),
       enabled: true,
+      isAndroid: false,
       now: () => t,
     );
     expect(c.allows('/learn/toifa/test'), isFalse);
@@ -153,5 +164,105 @@ void main() {
     c.applyTrial(now.subtract(const Duration(days: 1)));
     expect(c.allows('/learn/toifa/test'), isFalse);
     expect(c.trialUntil, isNull);
+  });
+
+  test(
+    'Android: egalik qilinayotgan obuna tiklanganda faol (yangilanish)',
+    () async {
+      final gw = _Gw();
+      final c = BillingController(
+        store: MemoryKeyValueStore(),
+        gateway: gw,
+        enabled: true,
+        isAndroid: true,
+        now: () => now,
+      );
+      await c.start();
+      gw.ctl.add([
+        _p(
+          'uz.nurseguide.app.student.monthly',
+          now.subtract(const Duration(days: 200)),
+          restored: true,
+        ),
+      ]);
+      await Future<void>.delayed(const Duration(milliseconds: 20));
+      expect(c.tier, BillingTier.student);
+    },
+  );
+
+  test('iOS: sanasiz tiklangan eski obuna qayta ochilmaydi', () async {
+    final gw = _Gw();
+    final c = BillingController(
+      store: MemoryKeyValueStore(),
+      gateway: gw,
+      enabled: true,
+      isAndroid: false,
+      now: () => now,
+    );
+    await c.start();
+    gw.ctl.add([
+      PurchaseDetails(
+        productID: 'uz.nurseguide.app.pro.monthly',
+        verificationData: PurchaseVerificationData(
+          localVerificationData: '',
+          serverVerificationData: '',
+          source: 'test',
+        ),
+        transactionDate: null,
+        status: PurchaseStatus.restored,
+      ),
+    ]);
+    await Future<void>.delayed(const Duration(milliseconds: 20));
+    expect(c.tier, BillingTier.free);
+  });
+
+  test('sinov, admin Pro va ustoz belgisi qurilmada saqlanadi (offline ishga tushish)', () {
+    final store = MemoryKeyValueStore();
+    final a = BillingController(
+      store: store,
+      enabled: true,
+      isAndroid: false,
+      now: () => now,
+    );
+    a.applyTrial(now.add(const Duration(days: 10)));
+    a.applyGrant('specialist', null);
+    a.applyTeacher(true);
+    final b = BillingController(
+      store: store,
+      enabled: true,
+      isAndroid: false,
+      now: () => now,
+    );
+    expect(b.trialActive, isTrue);
+    expect(b.tier, BillingTier.specialist);
+    expect(b.allows('/library/dmed'), isTrue);
+    // Faqat sinov + avvaldan ustoz: guruhlar ochiq (muhlat).
+    final c = BillingController(
+      store: MemoryKeyValueStore(),
+      enabled: true,
+      isAndroid: false,
+      now: () => now,
+    );
+    c.applyTrial(now.add(const Duration(days: 10)));
+    expect(c.allows('/learn/classes/new'), isFalse);
+    c.applyTeacher(true);
+    expect(c.allows('/learn/classes/new'), isTrue);
+  });
+
+  test('past daraja yuqori saqlangan darajani pasaytirmaydi', () async {
+    final gw = _Gw();
+    final c = BillingController(
+      store: MemoryKeyValueStore(),
+      gateway: gw,
+      enabled: true,
+      isAndroid: false,
+      now: () => now,
+    );
+    await c.start();
+    gw.ctl.add([_p('uz.nurseguide.app.pro.yearly', now)]);
+    await Future<void>.delayed(const Duration(milliseconds: 20));
+    gw.ctl.add([_p('uz.nurseguide.app.student.monthly', now)]);
+    await Future<void>.delayed(const Duration(milliseconds: 20));
+    expect(c.tier, BillingTier.specialist);
   });
 }

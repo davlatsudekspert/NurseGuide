@@ -115,3 +115,46 @@ describe('ustoz bo‘lib o‘tish cheklovi', () => {
     expect((await s.call('POST', '/v1/me/teacher', { token: u.token })).status).toBe(200);
   });
 });
+
+describe('hisob o‘chirilganda', () => {
+  it('admin bergan Pro ham o‘chadi', async () => {
+    const owner = uniqueEmail('owner');
+    const s = makeServer({ ADMIN_EMAILS: owner, LG_ADMIN_EMAILS: '' } as never);
+    const boss = await s.signIn(owner);
+    const email = uniqueEmail('del');
+    const u = await s.signIn(email);
+    await s.call('POST', '/v1/admin/pro', { token: boss.token, body: { email, tier: 'student' } });
+    const before = await s.env.DB.prepare('SELECT COUNT(*) AS n FROM pro_grants').first<{ n: number }>();
+    expect((await s.call('DELETE', '/v1/me', { token: u.token })).status).toBe(204);
+    const after = await s.env.DB.prepare('SELECT COUNT(*) AS n FROM pro_grants').first<{ n: number }>();
+    expect(after!.n).toBe(before!.n - 1);
+  });
+});
+
+describe('sinov: yoqilish sanasi va cheklov', () => {
+  it('LG_BILLING_LAUNCH: eski hisob ham yoqilish kunidan 30 kun oladi', async () => {
+    const launch = '2026-12-01T00:00:00Z';
+    const s = makeServer({ LG_BILLING_LAUNCH: launch } as never);
+    const u = await s.signIn(uniqueEmail('old'));
+    s.clock.now = Date.parse('2026-12-10T00:00:00Z');
+    const r = await s.call('GET', '/v1/me', { token: u.token, headers: { 'x-device-id': 'device-launchaaaaaaaaa' } });
+    expect(r.data.trial).not.toBeNull();
+    expect(Date.parse(r.data.trial.until)).toBe(Date.parse(launch) + 30 * DAY);
+    const plain = makeServer();
+    const p = await plain.signIn(uniqueEmail('old2'));
+    plain.clock.now += 40 * DAY;
+    const r2 = await plain.call('GET', '/v1/me', { token: p.token, headers: { 'x-device-id': 'device-launchbbbbbbbbb' } });
+    expect(r2.data.trial).toBeNull();
+  });
+
+  it('bir hisobdan sutkada 5 tadan ortiq yangi qurilma yozilmaydi', async () => {
+    const s = makeServer();
+    const u = await s.signIn(uniqueEmail('many'));
+    let last = null as unknown;
+    for (let i = 0; i < 7; i++) {
+      const r = await s.call('GET', '/v1/me', { token: u.token, headers: { 'x-device-id': `device-many-${i}-aaaaaaaa` } });
+      last = r.data.trial;
+    }
+    expect(last).toBeNull();
+  });
+});

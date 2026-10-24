@@ -1,5 +1,3 @@
-import 'dart:math';
-
 import 'package:android_id/android_id.dart';
 import 'package:device_info_plus/device_info_plus.dart';
 import 'package:flutter/foundation.dart';
@@ -7,8 +5,7 @@ import 'package:flutter/foundation.dart';
 /// Qurilmaning barqaror identifikatori — faqat bepul sinovni qurilma bo'yicha
 /// bir martalik qilish uchun. Serverga yuboriladi, u yerda HMAC bilan
 /// saqlanadi (ochiq emas). iOS: identifierForVendor; Android: ANDROID_ID.
-/// Olib bo'lmasa — shu ishga tushirishga xos tasodifiy qiymat (qurilma bo'yicha
-/// cheklov ishlamaydi, hisob bo'yicha ishlaydi).
+/// Olib bo'lmasa — hech narsa yuborilmaydi (sinov berilmaydi).
 class DeviceIdentity {
   DeviceIdentity({Future<String?> Function()? reader})
     : _reader = reader ?? _platformId;
@@ -16,7 +13,7 @@ class DeviceIdentity {
   final Future<String?> Function() _reader;
   String? _cached;
 
-  Future<String> get() async {
+  Future<String?> get() async {
     final c = _cached;
     if (c != null) return c;
     String? id;
@@ -26,12 +23,9 @@ class DeviceIdentity {
       id = null;
     }
     final ok = id != null && RegExp(r'^[A-Za-z0-9._:-]{8,100}$').hasMatch(id);
-    return _cached = ok ? 'ng-$id' : 'ng-tmp-${_random()}';
-  }
-
-  static String _random() {
-    final r = Random.secure();
-    return List.generate(24, (_) => r.nextInt(16).toRadixString(16)).join();
+    // Olib bo'lmasa — sarlavha yuborilmaydi (sinov berilmaydi, qurilma bo'yicha
+    // yozuv ko'paymaydi).
+    return ok ? _cached = 'ng-$id' : null;
   }
 
   static Future<String?> _platformId() async {

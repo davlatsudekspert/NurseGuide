@@ -31,7 +31,8 @@ class _NurseGuideAppState extends State<NurseGuideApp> {
   late final Listenable _routerRefresh = Listenable.merge([
     _onboarding,
     widget.services.auth,
-    widget.services.billing,
+    // Billing o'chiq bo'lsa yo'l hech qachon o'zgarmaydi: routerni bejiz yangilamaymiz.
+    if (widget.services.billing.enabled) widget.services.billing,
   ]);
 
   SettingsController get _settings => widget.services.settings;

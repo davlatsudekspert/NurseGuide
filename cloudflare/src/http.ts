@@ -37,6 +37,8 @@ export interface Env {
   APPLE_SIGNIN_SERVICE_ID?: string;
   /** "1" bo'lsa: ustoz sifatida ro'yxatdan o'tish uchun admin bergan Ustoz/Mutaxassis kerak (kvitansiya tekshiruvi tayyor bo'lgach yoqiladi). */
   LG_TEACHER_REQUIRES_PRO?: string;
+  /** ISO sana: obuna yoqilgan kun. Bepul sinov shundan oldin boshlanmaydi (mavjud hisoblar uchun muhlat). */
+  LG_BILLING_LAUNCH?: string;
 }
 
 export class ApiError extends Error {
@@ -122,7 +124,7 @@ export function corsHeaders(req: Request, env: Env): Record<string, string> | nu
   return {
     'access-control-allow-origin': origin,
     'access-control-allow-methods': 'GET, POST, PUT, PATCH, DELETE',
-    'access-control-allow-headers': 'authorization, content-type',
+    'access-control-allow-headers': 'authorization, content-type, x-device-id, x-app-platform',
     'access-control-max-age': '600',
     vary: 'Origin',
   };

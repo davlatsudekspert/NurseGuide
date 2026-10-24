@@ -99,7 +99,28 @@ class BillingController extends ChangeNotifier {
   bool get busy => _busy;
 
   /// Yo'l ochiqmi (billing o'chiq bo'lsa — doim ochiq).
-  bool allows(String loc) => !enabled || tier.includes(requiredTier(loc));
+  bool allows(String loc) {
+    if (!enabled) return true;
+    final need = requiredFeature(loc);
+    return need == null || has(need);
+  }
+
+  /// Daraja yoki faol bepul sinov shu imkoniyatni beradimi.
+  bool has(BillingFeature f) =>
+      tier.features.contains(f) || (trialActive && trialFeatures.contains(f));
+
+  DateTime? _trialUntil;
+
+  bool get trialActive => _trialUntil?.isAfter(_now()) ?? false;
+  DateTime? get trialUntil => trialActive ? _trialUntil : null;
+
+  /// Server (`/v1/me`) bepul sinov muddatini xabar qiladi (hisob + qurilma
+  /// bo'yicha bir martalik); `null` — sinov yo'q yoki tugagan.
+  void applyTrial(DateTime? until) {
+    if (until == _trialUntil) return;
+    _trialUntil = until;
+    notifyListeners();
+  }
 
   /// Saqlangan daraja, muddati o'tmagan bo'lsa. Do'kon yangilanishlarni
   /// (uzaytirishni) har ishga tushganda yetkazadi; bekor qilingan obuna

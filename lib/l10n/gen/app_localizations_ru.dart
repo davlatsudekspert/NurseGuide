@@ -5069,7 +5069,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get paywallTrial =>
-      'Первые 30 дней бесплатно, затем цена выбранного плана. Отменить можно в любой момент.';
+      '30 дней бесплатно с первого входа на этом устройстве и аккаунте (один раз). Затем выберите план. Отменить можно в любой момент.';
 
   @override
   String get planStudent => 'Студент';
@@ -5099,7 +5099,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get periodYearly => 'в год';
 
   @override
-  String get paywallStart => 'Начать 30 дней бесплатно';
+  String get paywallStart => 'Оформить подписку';
 
   @override
   String get paywallRestore => 'Восстановить покупки';
@@ -5170,4 +5170,13 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get adminProForever => 'без срока';
+
+  @override
+  String get rolesTeacherNeedsPlan =>
+      'Для роли преподавателя нужен план «Преподаватель» или «Специалист» (Профиль → Подписка).';
+
+  @override
+  String paywallTrialActive(String date) {
+    return 'Бесплатный период до $date';
+  }
 }

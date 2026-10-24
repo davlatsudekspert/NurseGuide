@@ -140,9 +140,10 @@ class AppServices {
     var role = settings.role;
     var language = settings.language;
     // Admin bergan Pro (server `/v1/me`) — billing darajasiga qo'shiladi.
-    access.addListener(
-      () => billing.applyGrant(access.access.proTier, access.access.proUntil),
-    );
+    access.addListener(() {
+      billing.applyGrant(access.access.proTier, access.access.proUntil);
+      billing.applyTrial(access.access.trialUntil);
+    });
     auth.addListener(() {
       if (auth.hasAccount == signedIn) return;
       signedIn = auth.hasAccount;

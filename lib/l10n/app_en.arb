@@ -3153,7 +3153,7 @@
   "paywallTitle": "NurseGuide Pro",
   "paywallLocked": "This section is part of the subscription.",
   "paywallLead": "Tests, exam mode, oral tickets and other study sections for nursing exam preparation.",
-  "paywallTrial": "First 30 days free, then the price of the plan you choose. Cancel any time.",
+  "paywallTrial": "Free for 30 days from your first sign-in on this device and account (one time only). Then choose a plan. Cancel any time.",
   "planStudent": "Student",
   "planSpecialist": "Specialist",
   "planTeacher": "Teacher",
@@ -3162,7 +3162,7 @@
   "planTeacherDesc": "Everything in Student, plus groups and results",
   "periodMonthly": "per month",
   "periodYearly": "per year",
-  "paywallStart": "Start 30 days free",
+  "paywallStart": "Subscribe",
   "paywallRestore": "Restore purchases",
   "paywallLegal": "The subscription renews automatically after the free trial. You can cancel it in your App Store or Google Play subscription settings.",
   "paywallTerms": "Terms of use",
@@ -3185,6 +3185,15 @@
   "adminProUntil": "until {date}",
   "adminProForever": "no end date",
   "@adminProUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  },
+  "rolesTeacherNeedsPlan": "The Teacher role needs the Teacher or Specialist plan (Profile → Subscription).",
+  "paywallTrialActive": "Free trial active until {date}",
+  "@paywallTrialActive": {
     "placeholders": {
       "date": {
         "type": "String"

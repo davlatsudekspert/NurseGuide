@@ -9,6 +9,25 @@ enum BillingTier {
   bool includes(BillingTier other) => index >= other.index;
 }
 
+/// Obuna ochadigan imkoniyat turlari.
+enum BillingFeature { study, dmed, groups }
+
+extension BillingTierFeatures on BillingTier {
+  Set<BillingFeature> get features => switch (this) {
+    BillingTier.free => const {},
+    BillingTier.student => const {BillingFeature.study},
+    BillingTier.teacher => const {BillingFeature.study, BillingFeature.groups},
+    BillingTier.specialist => const {
+      BillingFeature.study,
+      BillingFeature.dmed,
+      BillingFeature.groups,
+    },
+  };
+}
+
+/// 30 kunlik bepul sinov: o'rganish va DMED. Guruhlar (ustoz) sinovga kirmaydi.
+const trialFeatures = {BillingFeature.study, BillingFeature.dmed};
+
 enum BillingPeriod { monthly, yearly }
 
 /// Do'kon mahsuloti. Narx faqat zaxira matn: asl narx do'kondan keladi.
@@ -71,18 +90,18 @@ class BillingPlan {
   }
 }
 
-/// Qaysi yo'l qaysi darajani talab qiladi (billing yoqilgan bo'lsa).
-BillingTier requiredTier(String loc) {
-  if (loc.startsWith('/learn/classes')) return BillingTier.teacher;
+/// Qaysi yo'l qaysi imkoniyatni talab qiladi (`null` — bepul).
+BillingFeature? requiredFeature(String loc) {
+  if (loc.startsWith('/learn/classes')) return BillingFeature.groups;
   if (loc == '/library/dmed' || loc == '/library/glossary') {
-    return BillingTier.specialist;
+    return BillingFeature.dmed;
   }
   if (loc.startsWith('/learn/toifa') ||
       loc.startsWith('/learn/exam') ||
       loc.startsWith('/learn/practice') ||
       loc.startsWith('/learn/quiz') ||
       loc == '/library/saved') {
-    return BillingTier.student;
+    return BillingFeature.study;
   }
-  return BillingTier.free;
+  return null;
 }

@@ -1,6 +1,6 @@
 // Email OTP, sessiyalar, profil, admin TOTP va hisobni o'chirish.
 
-import { activePro } from './pro';
+import { activePro, trialInfo } from './pro';
 import type { Ctx, Session } from './context';
 import { iso } from './context';
 import {
@@ -465,6 +465,8 @@ export async function me(ctx: Ctx): Promise<Response> {
     identities: ids.results.map((r) => r.provider),
     // Admin bergan Pro (do'kon xaridiga bog'liq emas); yo'q bo'lsa null.
     pro: await activePro(ctx, s.userId),
+    // 30 kunlik bepul sinov (hisob + qurilma bo'yicha bir martalik); yo'q bo'lsa null.
+    trial: await trialInfo(ctx, s.userId),
   });
 }
 

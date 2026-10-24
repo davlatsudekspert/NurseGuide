@@ -55,6 +55,7 @@ class AccessInfo {
     this.panelAdmin = false,
     this.proTier,
     this.proUntil,
+    this.trialUntil,
   });
 
   factory AccessInfo.fromJson(Map<String, Object?> json) => AccessInfo(
@@ -66,6 +67,9 @@ class AccessInfo {
     proTier: (json['pro'] as Map?)?['tier'] as String?,
     proUntil: DateTime.tryParse(
       ((json['pro'] as Map?)?['until'] as String?) ?? '',
+    ),
+    trialUntil: DateTime.tryParse(
+      ((json['trial'] as Map?)?['until'] as String?) ?? '',
     ),
   );
 
@@ -91,6 +95,9 @@ class AccessInfo {
   /// (`null` — muddatsiz). Faqat ko'rinish; server bergan.
   final String? proTier;
   final DateTime? proUntil;
+
+  /// 30 kunlik bepul sinov tugashi (hisob + qurilma bo'yicha bir martalik).
+  final DateTime? trialUntil;
 
   /// Admin panelni ochish mumkin (hisob + ikki bosqichli tasdiq).
   bool get admin => adminAccount && aal2;

@@ -1,4 +1,5 @@
 import 'package:go_router/go_router.dart';
+import 'package:intl/intl.dart';
 import 'package:material_ui/material_ui.dart';
 
 import '../../app/app_scope.dart';
@@ -51,6 +52,16 @@ class _PaywallScreenState extends State<PaywallScreen> {
             const SizedBox(height: 8),
             Text(l.paywallTrial),
             const SizedBox(height: 12),
+            if (billing.trialUntil case final until?) ...[
+              Text(
+                l.paywallTrialActive(
+                  DateFormat.yMMMd(Localizations.localeOf(context).toString())
+                      .format(until),
+                ),
+                key: const ValueKey('paywall-trial'),
+              ),
+              const SizedBox(height: 12),
+            ],
             if (active) ...[
               Text(l.paywallActive, key: const ValueKey('paywall-active')),
               const SizedBox(height: 12),

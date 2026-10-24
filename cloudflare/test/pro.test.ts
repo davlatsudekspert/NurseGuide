@@ -58,3 +58,60 @@ describe('admin: emailga Pro berish', () => {
     expect((await post({ email: uniqueEmail('a'), tier: 'student', days: 99999 })).status).toBe(400);
   });
 });
+
+describe('30 kunlik sinov: hisob + qurilma bo‘yicha bir martalik', () => {
+  const DEV = 'device-aaaaaaaaaaaaaaaa';
+  const me = (s: ReturnType<typeof makeServer>, token: string, dev: string | null = DEV) =>
+    s.call('GET', '/v1/me', { token, headers: dev ? { 'x-device-id': dev } : {} });
+
+  it('yangi hisob + yangi qurilma: 30 kun; sarlavhasiz — sinov yo‘q', async () => {
+    const s = makeServer();
+    const u = await s.signIn(uniqueEmail('t1'));
+    expect((await me(s, u.token, null)).data.trial).toBeNull();
+    const r = await me(s, u.token, 'device-bbbbbbbbbbbbbbbb');
+    expect(Date.parse(r.data.trial.until) - s.clock.now).toBeGreaterThan(29 * DAY);
+    expect(Date.parse(r.data.trial.until) - s.clock.now).toBeLessThanOrEqual(30 * DAY);
+  });
+
+  it('bitta telefondan yangi email: sinov qayta berilmaydi', async () => {
+    const s = makeServer();
+    const first = await s.signIn(uniqueEmail('a'));
+    expect((await me(s, first.token)).data.trial).not.toBeNull();
+    s.clock.now += 31 * DAY;
+    const second = await s.signIn(uniqueEmail('b'));
+    expect((await me(s, second.token)).data.trial).toBeNull();
+  });
+
+  it('eski email yangi telefonda: sinov qayta berilmaydi', async () => {
+    const s = makeServer();
+    const email = uniqueEmail('c');
+    const u = await s.signIn(email);
+    s.clock.now += 31 * DAY;
+    expect((await me(s, u.token, 'device-cccccccccccccccc')).data.trial).toBeNull();
+  });
+
+  it('qurilma identifikatori javobda yo‘q', async () => {
+    const s = makeServer();
+    const u = await s.signIn(uniqueEmail('d'));
+    expect((await me(s, u.token)).text).not.toContain(DEV);
+  });
+});
+
+describe('ustoz bo‘lib o‘tish cheklovi', () => {
+  it('LG_TEACHER_REQUIRES_PRO=1: talaba ro‘yxatdan o‘ta olmaydi, admin bergan Ustoz o‘tadi', async () => {
+    const owner = uniqueEmail('owner');
+    const s = makeServer({ ADMIN_EMAILS: owner, LG_ADMIN_EMAILS: '', LG_TEACHER_REQUIRES_PRO: '1' } as never);
+    const boss = await s.signIn(owner);
+    const email = uniqueEmail('stu');
+    const u = await s.signIn(email);
+    expect((await s.call('POST', '/v1/me/teacher', { token: u.token })).status).toBe(403);
+    await s.call('POST', '/v1/admin/pro', { token: boss.token, body: { email, tier: 'teacher' } });
+    expect((await s.call('POST', '/v1/me/teacher', { token: u.token })).status).toBe(200);
+  });
+
+  it('standart (o‘chiq): oldingidek ro‘yxatdan o‘tadi', async () => {
+    const s = makeServer();
+    const u = await s.signIn(uniqueEmail('x'));
+    expect((await s.call('POST', '/v1/me/teacher', { token: u.token })).status).toBe(200);
+  });
+});

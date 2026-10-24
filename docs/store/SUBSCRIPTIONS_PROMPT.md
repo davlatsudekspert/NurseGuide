@@ -10,14 +10,14 @@ Plan table (USD base price; use the closest valid price point; other regions: ac
 - Student    monthly $1.49  id uz.nurseguide.app.student.monthly | yearly $9.99   id uz.nurseguide.app.student.yearly
 - Teacher    monthly $2.49  id uz.nurseguide.app.teacher.monthly | yearly $24.99  id uz.nurseguide.app.teacher.yearly
 - Specialist monthly $3.49  id uz.nurseguide.app.pro.monthly     | yearly $34.99  id uz.nurseguide.app.pro.yearly
-Every product has a FREE TRIAL of 30 days (1 month) for new subscribers.
+Do NOT add any free trial / introductory offer: the 30-day trial is handled by the app and server.
 
 A) App Store Connect > NurseGuide > Monetization > Subscriptions
 1. Create one subscription group named "NurseGuide Pro".
 2. Create the 6 subscriptions with exactly the product IDs above (reference name = plan + period).
    Duration: 1 month or 1 year. Order inside the group (highest first): Specialist > Teacher > Student, same-tier yearly above monthly.
 3. Price each one as in the table (start price, United States; accept auto-conversion for other territories).
-4. Add an introductory offer to each: Free, duration 1 month, all eligible territories, new subscribers.
+4. Do NOT add an introductory offer (no free trial).
 5. Localizations for each subscription (display name + description), three languages:
    - English: "Student" / "Tests, practice, exam mode, oral tickets"; "Specialist" / "Everything in Student plus DMED questions and glossary"; "Teacher" / "Everything in Specialist plus groups and results".
    - Russian: «Студент» / «Тесты, практика, режим экзамена, устные билеты»; «Специалист» / «Всё из плана «Студент», плюс вопросы DMED и глоссарий»; «Преподаватель» / «Всё из плана «Специалист», плюс группы и результаты».
@@ -31,7 +31,7 @@ B) Google Play Console > NurseGuide > Monetize with Play > Products > Subscripti
 1. Create 3 subscriptions with product IDs: uz.nurseguide.app.student, uz.nurseguide.app.pro, uz.nurseguide.app.teacher
    (names: Student, Specialist, Teacher). Each has 2 base plans: id "monthly" (1 month, auto-renewing) and "yearly" (1 year, auto-renewing), prices from the table (USD, auto-convert other countries).
    NOTE: if Play requires the same product-id style as the iOS ids, report the exact ids it produced; the app expects uz.nurseguide.app.<plan>.<period>. If Play does not accept dots/underscores in a base-plan id, tell me and stop.
-2. Add a free-trial offer (30 days, new subscribers) to each base plan.
+2. Do NOT add any free-trial offer.
 3. Activate the base plans. Add the license testers (Settings > License testing) only if I give you emails.
 4. If Play says a payments profile or merchant account is required, stop and report exactly what is missing.
 

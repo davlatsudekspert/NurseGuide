@@ -8671,7 +8671,7 @@ abstract class AppLocalizations {
   /// No description provided for @paywallTrial.
   ///
   /// In en, this message translates to:
-  /// **'First 30 days free, then the price of the plan you choose. Cancel any time.'**
+  /// **'Free for 30 days from your first sign-in on this device and account (one time only). Then choose a plan. Cancel any time.'**
   String get paywallTrial;
 
   /// No description provided for @planStudent.
@@ -8725,7 +8725,7 @@ abstract class AppLocalizations {
   /// No description provided for @paywallStart.
   ///
   /// In en, this message translates to:
-  /// **'Start 30 days free'**
+  /// **'Subscribe'**
   String get paywallStart;
 
   /// No description provided for @paywallRestore.
@@ -8853,6 +8853,18 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'no end date'**
   String get adminProForever;
+
+  /// No description provided for @rolesTeacherNeedsPlan.
+  ///
+  /// In en, this message translates to:
+  /// **'The Teacher role needs the Teacher or Specialist plan (Profile → Subscription).'**
+  String get rolesTeacherNeedsPlan;
+
+  /// No description provided for @paywallTrialActive.
+  ///
+  /// In en, this message translates to:
+  /// **'Free trial active until {date}'**
+  String paywallTrialActive(String date);
 }
 
 class _AppLocalizationsDelegate

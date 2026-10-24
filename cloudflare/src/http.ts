@@ -35,6 +35,8 @@ export interface Env {
   APPLE_SIGNIN_CLIENT_ID?: string;
   /** Ixtiyoriy: Android veb-oqimi uchun Apple Services ID (qo'shimcha `aud`). */
   APPLE_SIGNIN_SERVICE_ID?: string;
+  /** "1" bo'lsa: ustoz sifatida ro'yxatdan o'tish uchun admin bergan Ustoz/Mutaxassis kerak (kvitansiya tekshiruvi tayyor bo'lgach yoqiladi). */
+  LG_TEACHER_REQUIRES_PRO?: string;
 }
 
 export class ApiError extends Error {

@@ -1428,7 +1428,7 @@
   "paywallTitle": "NurseGuide Pro",
   "paywallLocked": "Bu bo‘lim obunaga kiradi.",
   "paywallLead": "Hamshiralik imtihoniga tayyorgarlik uchun testlar, imtihon rejimi, og‘zaki biletlar va boshqa o‘quv bo‘limlari.",
-  "paywallTrial": "Dastlabki 30 kun bepul, keyin tanlangan reja narxi. Istalgan vaqtda bekor qilish mumkin.",
+  "paywallTrial": "Dastlabki 30 kun bepul: shu qurilma va hisobda birinchi kirishdan boshlab (bir martalik). Keyin reja tanlanadi. Istalgan vaqtda bekor qilish mumkin.",
   "planStudent": "Talaba",
   "planSpecialist": "Mutaxassis",
   "planTeacher": "Ustoz",
@@ -1437,7 +1437,7 @@
   "planTeacherDesc": "Talaba rejasidagi hammasi, qo‘shimcha guruhlar va natijalar",
   "periodMonthly": "oyiga",
   "periodYearly": "yiliga",
-  "paywallStart": "30 kun bepul boshlash",
+  "paywallStart": "Obuna bo‘lish",
   "paywallRestore": "Xaridni tiklash",
   "paywallLegal": "Obuna bepul davrdan keyin avtomatik yangilanadi. Uni App Store yoki Google Play obuna sozlamalarida bekor qilish mumkin.",
   "paywallTerms": "Foydalanish shartlari",
@@ -1458,5 +1458,7 @@
   "adminProDone": "Saqlandi",
   "adminProInvalid": "To‘g‘ri email va (kerak bo‘lsa) kun sonini kiriting.",
   "adminProUntil": "{date} gacha",
-  "adminProForever": "muddatsiz"
+  "adminProForever": "muddatsiz",
+  "rolesTeacherNeedsPlan": "Ustoz roli uchun Ustoz yoki Mutaxassis rejasi kerak (Profil → Obuna).",
+  "paywallTrialActive": "Bepul sinov {date} gacha"
 }

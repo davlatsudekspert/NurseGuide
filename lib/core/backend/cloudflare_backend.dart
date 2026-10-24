@@ -1,4 +1,7 @@
 import 'dart:async';
+
+import '../device/device_identity.dart';
+
 import 'dart:convert';
 import 'dart:io';
 
@@ -125,11 +128,14 @@ class CloudflareAppBackend
     http.Client? httpClient,
     DateTime Function()? clock,
     this.timeout = const Duration(seconds: 20),
-  }) : _sessions = sessionStore ?? const SecureApiSessionStore(),
+    DeviceIdentity? device,
+  }) : _device = device, // ignore: prefer_initializing_formals
+       _sessions = sessionStore ?? const SecureApiSessionStore(),
        _http = httpClient ?? http.Client(),
        _clock = clock ?? DateTime.now;
 
   final ApiConfig config;
+  final DeviceIdentity? _device;
   final SessionStore _sessions;
   final http.Client _http;
   final DateTime Function() _clock;
@@ -177,6 +183,9 @@ class CloudflareAppBackend
       _ => null,
     };
     if (platform != null) req.headers['x-app-platform'] = platform;
+    // Bepul sinov qurilma bo'yicha bir martalik (serverda HMAC, ochiq emas).
+    final dev = _device;
+    if (dev != null) req.headers['x-device-id'] = await dev.get();
     if (optionalAuth) {
       // Mehmon ham o'qiydi; sessiya bo'lsa — token (ovoz/muallif belgisi).
       if (_token != null) req.headers['authorization'] = 'Bearer $_token';

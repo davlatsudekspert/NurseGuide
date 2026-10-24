@@ -4,7 +4,7 @@
 // audit_log ga (id emas — niqoblangan email va daraja), soatiga 120 ta.
 import { audit, emailHash, maskEmail, normalizeEmail, requirePanelAdmin } from './auth';
 import type { Ctx } from './context';
-import { sha256Hex } from './crypto';
+import { hex, hmac, sha256Hex } from './crypto';
 import { badRequest, json, notFound, readJson } from './http';
 import { hit } from './ratelimit';
 
@@ -12,6 +12,8 @@ export const PRO_TIERS = ['student', 'teacher', 'specialist'] as const;
 export type ProTier = (typeof PRO_TIERS)[number];
 const DAY = 86400_000;
 const MAX_DAYS = 3650;
+
+const hmacHex = async (ctx: Ctx, v: string) => hex(await hmac(ctx.keys.uid, v));
 
 type Handler = (ctx: Ctx, ...params: string[]) => Promise<Response>;
 
@@ -29,6 +31,41 @@ export async function activePro(
     .bind(userId, ctx.now)
     .first<{ tier: ProTier; until: number | null }>();
   return r ? { tier: r.tier, until: r.until === null ? null : new Date(r.until).toISOString() } : null;
+}
+
+const TRIAL_DAYS = 30;
+const DEVICE_RE = /^[A-Za-z0-9._:-]{16,128}$/;
+
+/**
+ * Bepul sinov: `X-Device-Id` sarlavhasi bo'lsa qurilma birinchi marta
+ * ro'yxatga olinadi (keyingi hisoblar uning soatini YANGILAMAYDI). Sinov
+ * muddati — hisob va qurilmaning eng erta vaqti + 30 kun. Sarlavha yo'q yoki
+ * noto'g'ri — sinov berilmaydi (null).
+ */
+export async function trialInfo(ctx: Ctx, userId: string): Promise<{ until: string } | null> {
+  const raw = ctx.req.headers.get('x-device-id') ?? '';
+  if (!DEVICE_RE.test(raw)) return null;
+  const dh = await hmacHex(ctx, `dev:${raw}`);
+  await ctx.db
+    .prepare('INSERT OR IGNORE INTO device_trials (device_hash, first_seen) VALUES (?1, ?2)')
+    .bind(dh, ctx.now)
+    .run();
+  const r = await ctx.db
+    .prepare(
+      `SELECT MIN(u.created_at, d.first_seen) AS start
+       FROM users u, device_trials d WHERE u.id = ?1 AND d.device_hash = ?2`,
+    )
+    .bind(userId, dh)
+    .first<{ start: number }>();
+  if (!r) return null;
+  const end = r.start + TRIAL_DAYS * DAY;
+  return end > ctx.now ? { until: new Date(end).toISOString() } : null;
+}
+
+/** Admin bergan faol Pro darajasi berilgan ro'yxatdagimi (ustoz cheklovi uchun). */
+export async function hasGrantTier(ctx: Ctx, userId: string, tiers: ProTier[]): Promise<boolean> {
+  const p = await activePro(ctx, userId);
+  return p !== null && tiers.includes(p.tier);
 }
 
 async function panel(ctx: Ctx, write: boolean) {

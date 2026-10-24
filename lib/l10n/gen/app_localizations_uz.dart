@@ -4978,7 +4978,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get paywallTrial =>
-      'Dastlabki 30 kun bepul, keyin tanlangan reja narxi. Istalgan vaqtda bekor qilish mumkin.';
+      'Dastlabki 30 kun bepul: shu qurilma va hisobda birinchi kirishdan boshlab (bir martalik). Keyin reja tanlanadi. Istalgan vaqtda bekor qilish mumkin.';
 
   @override
   String get planStudent => 'Talaba';
@@ -5008,7 +5008,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get periodYearly => 'yiliga';
 
   @override
-  String get paywallStart => '30 kun bepul boshlash';
+  String get paywallStart => 'Obuna bo‘lish';
 
   @override
   String get paywallRestore => 'Xaridni tiklash';
@@ -5079,4 +5079,13 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get adminProForever => 'muddatsiz';
+
+  @override
+  String get rolesTeacherNeedsPlan =>
+      'Ustoz roli uchun Ustoz yoki Mutaxassis rejasi kerak (Profil → Obuna).';
+
+  @override
+  String paywallTrialActive(String date) {
+    return 'Bepul sinov $date gacha';
+  }
 }

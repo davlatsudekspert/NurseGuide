@@ -5058,7 +5058,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get paywallTrial =>
-      'First 30 days free, then the price of the plan you choose. Cancel any time.';
+      'Free for 30 days from your first sign-in on this device and account (one time only). Then choose a plan. Cancel any time.';
 
   @override
   String get planStudent => 'Student';
@@ -5088,7 +5088,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get periodYearly => 'per year';
 
   @override
-  String get paywallStart => 'Start 30 days free';
+  String get paywallStart => 'Subscribe';
 
   @override
   String get paywallRestore => 'Restore purchases';
@@ -5159,4 +5159,13 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get adminProForever => 'no end date';
+
+  @override
+  String get rolesTeacherNeedsPlan =>
+      'The Teacher role needs the Teacher or Specialist plan (Profile → Subscription).';
+
+  @override
+  String paywallTrialActive(String date) {
+    return 'Free trial active until $date';
+  }
 }

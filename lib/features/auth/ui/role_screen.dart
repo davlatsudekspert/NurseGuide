@@ -50,8 +50,12 @@ class _RoleScreenState extends State<RoleScreen> {
   /// huquq — faqat o'z guruhlari). Mehmon uchun karta qulflangan.
   bool get _teacherAvailable {
     final s = context.services;
-    return s.backend.isConfigured && s.auth.hasAccount;
+    return s.backend.isConfigured && s.auth.hasAccount && _teacherPlan;
   }
+
+  /// Ustoz (guruhlar) obunasi bor (billing o'chiq bo'lsa — doim). Talaba
+  /// o'z profilini ustozga o'tkaza olmaydi.
+  bool get _teacherPlan => context.services.billing.allows('/learn/classes');
 
   Future<void> _continue() async {
     final services = context.services;
@@ -109,7 +113,9 @@ class _RoleScreenState extends State<RoleScreen> {
           ),
         if (!_teacherAvailable)
           LgNotice(
-            l.rolesTeacherSignInNote,
+            context.services.auth.hasAccount && !_teacherPlan
+                ? l.rolesTeacherNeedsPlan
+                : l.rolesTeacherSignInNote,
             key: const ValueKey('role-teacher-note'),
             kind: NoticeKind.info,
           )

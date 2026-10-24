@@ -113,7 +113,7 @@ void main() {
   });
 
   test('admin bergan Pro: daraja oshadi, muddati o‘tsa yo‘qoladi', () {
-    var t = now;
+    final t = now;
     final c = BillingController(
       store: MemoryKeyValueStore(),
       enabled: true,
@@ -130,10 +130,28 @@ void main() {
   });
 
   test('yo‘l talablari', () {
-    expect(requiredTier('/learn'), BillingTier.free);
-    expect(requiredTier('/learn/daily'), BillingTier.free);
-    expect(requiredTier('/learn/toifa/oral'), BillingTier.student);
-    expect(requiredTier('/library/dmed'), BillingTier.specialist);
-    expect(requiredTier('/learn/classes/new'), BillingTier.teacher);
+    expect(requiredFeature('/learn'), isNull);
+    expect(requiredFeature('/learn/daily'), isNull);
+    expect(requiredFeature('/learn/toifa/oral'), BillingFeature.study);
+    expect(requiredFeature('/library/dmed'), BillingFeature.dmed);
+    expect(requiredFeature('/learn/classes/new'), BillingFeature.groups);
+  });
+
+  test('bepul sinov: o‘rganish va DMED ochiladi, guruhlar (ustoz) yopiq', () {
+    final t = now;
+    final c = BillingController(
+      store: MemoryKeyValueStore(),
+      enabled: true,
+      now: () => t,
+    );
+    expect(c.allows('/learn/toifa/test'), isFalse);
+    c.applyTrial(now.add(const Duration(days: 20)));
+    expect(c.allows('/learn/toifa/test'), isTrue);
+    expect(c.allows('/library/dmed'), isTrue);
+    expect(c.allows('/learn/classes/new'), isFalse);
+    expect(c.trialUntil, isNotNull);
+    c.applyTrial(now.subtract(const Duration(days: 1)));
+    expect(c.allows('/learn/toifa/test'), isFalse);
+    expect(c.trialUntil, isNull);
   });
 }

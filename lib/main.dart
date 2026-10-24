@@ -5,6 +5,7 @@ import 'package:flutter/services.dart';
 import 'package:material_ui/material_ui.dart';
 
 import 'app/app.dart';
+import 'core/device/device_identity.dart';
 import 'features/billing/billing_controller.dart';
 import 'app/app_scope.dart';
 import 'core/backend/access_controller.dart';
@@ -125,6 +126,6 @@ AppServices createServices({
 AppBackend _defaultBackend() {
   const api = ApiConfig.fromEnvironment;
   return api.isConfigured
-      ? CloudflareAppBackend(api)
+      ? CloudflareAppBackend(api, device: DeviceIdentity())
       : const UnconfiguredBackend();
 }

@@ -43203,6 +43203,741 @@
    "source": "Manba: MSD Manual Professional Edition: Lung Abscess (https://www.merckmanuals.com/professional/pulmonary-disorders/lung-abscess/lung-abscess)",
    "explanation": "O'pka absessi tashxisi asosan ko'krak qafasi rentgenografiyasiga asoslanadi.",
    "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-094",
+   "n": 1980,
+   "q": "Nafas olishning yo'qolishi:",
+   "options": [
+    "Apnoe",
+    "Bradipnoe",
+    "Taxipnoe",
+    "Dispnoe"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Breathing - slowed or stopped (Medical Encyclopedia) (https://medlineplus.gov/ency/article/003069.htm)",
+   "explanation": "Nafas to'xtashi (yo'qolishi) sababidan qat'i nazar apnoe deb ataladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-096",
+   "n": 1981,
+   "q": "Termoregulyatsiya markazi:",
+   "options": [
+    "Miyaning gipotalamus qismi",
+    "Miyaning tepa va chakka qismi",
+    "Miyaning ensa qismi",
+    "Miyaning chakka qismi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: OpenStax Anatomy and Physiology 2e, 24.6 Energy and Heat Balance, 2022 (https://openstax.org/books/anatomy-and-physiology-2e/pages/24-6-energy-and-heat-balance)",
+   "explanation": "Tana harorati (termoregulyatsiya) boshqaruvi miyaning gipotalamusida joylashgan; u termostat vazifasini bajaradi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-103",
+   "n": 1982,
+   "q": "Ichakdan qon ketishiga xos belgi:",
+   "options": [
+    "Qoramoysimon ahlat",
+    "Defekastiya aktining buzilishi",
+    "Tez-tez ich ketishi",
+    "Najasni oqarib ketishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Black or tarry stools (Medical Encyclopedia), reviewed 2024 (https://medlineplus.gov/ency/article/003130.htm)",
+   "explanation": "Qora, smolasimon najas (melena) oshqozon-ichak traktining yuqori qismidan qon ketishining belgisidir.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-129",
+   "n": 1983,
+   "q": "Me'dadan qon ketganda ahlatni rangi qanaqa bo'ladi:",
+   "options": [
+    "Qoramtir",
+    "Qizil",
+    "Rangsiz",
+    "Och sariq"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Black or tarry stools (Medical Encyclopedia), reviewed 2024 (https://medlineplus.gov/ency/article/003130.htm)",
+   "explanation": "Oshqozondan qon ketganda najas qoramtir, smolasimon (melena) bo'ladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-110",
+   "n": 1984,
+   "q": "Appendisit qaysi a'zoning yallig'lanishi:",
+   "options": [
+    "Chuvalchangsimon o'simta",
+    "To'g'ri ichak",
+    "Yo'g'on ichak",
+    "Ingichka ichak"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Appendicitis (Medical Encyclopedia), current (https://medlineplus.gov/ency/article/000256.htm)",
+   "explanation": "Appenditsit - chuvalchangsimon o'simta (appendiks) ning yallig'lanishi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-151",
+   "n": 1985,
+   "q": "Mantu sinamasiga qancha vaqtdan so'ng baho beriladi:",
+   "options": [
+    "48 soatdan- 72 soatgacha",
+    "Bir hafta muobaynida",
+    "2 soat ichida",
+    "12 soat ichida"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: CDC, Clinical Testing Guidance for Tuberculosis: Tuberculin Skin Test (https://www.cdc.gov/tb/hcp/testing-diagnosis/tuberculin-skin-test.html)",
+   "explanation": "Mantu (tuberkulin) sinamasi natijasi yuborilgandan 48 soatdan 72 soatgacha bo'lgan oraliqda baholanadi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-154",
+   "n": 1986,
+   "q": "Emboliya bu …:",
+   "options": [
+    "Qon tomirlarga qonda oqib keluvchi yot modda bo'lakchalarining (havo) tiqilib qolishi",
+    "Qon tomirlarni buklanib qolishi",
+    "Qon tomir devorini butunligini buzilishi",
+    "Qonning suyulib ketishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MSD Manual Consumer Version, Pulmonary Embolism (PE) (https://www.msdmanuals.com/home/lung-and-airway-disorders/pulmonary-embolism/pulmonary-embolism-pe)",
+   "explanation": "Emboliya - qon oqimi bilan keltirilgan yot modda (tromb, havo pufakchalari, yog' va b.) tomirni tiqib qo'yishidir.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-203",
+   "n": 1987,
+   "q": "Yurak astmasi xurujida bemor ko'pincha qanday holatda bo'ladi:",
+   "options": [
+    "Qorniga oyog'ini tortgan holatda",
+    "Majburiy (ortopnoe) holatda",
+    "Chalqancha yostiqsiz yotgan holatda",
+    "Yuztuban yotgan holatda"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MSD Manual Professional, Chronic Heart Failure (https://www.msdmanuals.com/professional/cardiovascular-disorders/heart-failure/chronic-heart-failure)",
+   "explanation": "Yurak yetishmovchiligida (yurak astmasi) nafas qisishi yotganda kuchayib, o'tirganda yengillashadi, shuning uchun bemor majburiy (ortopnoe) holatda bo'ladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-204",
+   "n": 1988,
+   "q": "Etiologiya – bu:",
+   "options": [
+    "Kasallik paydo bo'lish sabablari",
+    "Kasallik namoyon bo'lishi va belgilari",
+    "Kasallik oqibati",
+    "Kasallikni oldini olish"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Etiology (MedlinePlus Medical Encyclopedia) (https://medlineplus.gov/ency/article/002356.htm)",
+   "explanation": "Etiologiya - kasallikning paydo bo'lish sababi yoki sabablari.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-217",
+   "n": 1989,
+   "q": "Obyektiv tekshirish usullarini ko'rsating:",
+   "options": [
+    "Palpatsiya",
+    "Hayot anamnezini yig'ish",
+    "Bemor shikoyatini so'rab- surishtirish",
+    "Pasport qismini to'ldirish"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Physical examination, current (https://medlineplus.gov/ency/article/002274.htm)",
+   "explanation": "Palpatsiya (qo'l bilan paypaslash) jismoniy ko'rik, ya'ni obyektiv tekshiruvning usullaridan biri; boshqa variantlar anamnez va shikoyatlarni so'rashga tegishli.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-231",
+   "n": 1990,
+   "q": "Leykoz …:",
+   "options": [
+    "oq qon kasalligi leykemiya",
+    "jigar kasalligi",
+    "taloq kasalligi",
+    "ichak kasalligi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Leukemia, current (https://medlineplus.gov/leukemia.html)",
+   "explanation": "Leykoz (leykemiya) - qon hujayralarining saratoni, ya'ni oq qon kasalligi; suyak ko'migida boshlanadi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-234",
+   "n": 1991,
+   "q": "Tromboz nima:",
+   "options": [
+    "qonning ivishi",
+    "qonni ivimasligi",
+    "gemopoez",
+    "qonning qovushqoqligi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Blood Clots, current (https://medlineplus.gov/bloodclots.html)",
+   "explanation": "Tromboz - qon tomirida qon laxtasining (ivigan qonning) hosil bo'lishi, masalan chuqur vena trombozi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-238",
+   "n": 1992,
+   "q": "Seroz suyuqligi qanday nomlanadi:",
+   "options": [
+    "ekssudat, transsudat",
+    "ekssudat, likvor",
+    "likvor, transsudat",
+    "serum suyuqligi, likvor"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus Medical Encyclopedia, Pleural effusion, current (https://medlineplus.gov/ency/article/000086.htm)",
+   "explanation": "Seroz bo'shliq suyuqligi (masalan plevra suyuqligi) ikki xil bo'ladi: transsudat va ekssudat.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-239",
+   "n": 1993,
+   "q": "Qaysi kasallikda balg'am mikroskopik tekshiriladi:",
+   "options": [
+    "o'pka silida",
+    "meningitda",
+    "loringitda",
+    "faringitda"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Acid-Fast Bacillus (AFB) Tests, current (https://medlineplus.gov/lab-tests/acid-fast-bacillus-afb-tests/)",
+   "explanation": "Balg'am surtmasi mikroskopda tekshirilishi sil (TB) tashxisida qo'llanadi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-241",
+   "n": 1994,
+   "q": "Zaxm kasalligini nima qo'zg'atadi:",
+   "options": [
+    "rangsiz spiroxetalar",
+    "gonokokk",
+    "virus",
+    "stafilokokk"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus Medical Encyclopedia, Syphilis, current (https://medlineplus.gov/ency/article/000861.htm)",
+   "explanation": "Zaxm (sifilis) rangsiz (pallidum) spiroxeta - Treponema pallidum bakteriyasi qo'zg'atadi; boshqa variantlar sababchi emas.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-322",
+   "n": 1995,
+   "q": "Endemik buqoqning asosiy sababchisi:",
+   "options": [
+    "Yod tanqisligi",
+    "Insulin",
+    "Jarohatlar",
+    "Infektsiyalar"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Goiter (Medical Encyclopedia) (https://medlineplus.gov/ency/article/001178.htm)",
+   "explanation": "Buqoqning eng ko'p uchraydigan sababi yod tanqisligidir.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-328",
+   "n": 1996,
+   "q": "Qandli diabetda qanday o'zgarishlar bo'ladi:",
+   "options": [
+    "Qonda qand miqdori ortib ketadi",
+    "Siydikda qon paydo bo'ladi",
+    "Qonda leykotsit paydo bo'ladi",
+    "Qonda bilirubin ortib ketadi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Diabetes (https://medlineplus.gov/diabetes.html)",
+   "explanation": "Qandli diabetda qondagi glyukoza (qand) miqdori me'yoridan oshib ketadi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-341",
+   "n": 1997,
+   "q": "Qalqonsimon bez kasalliklarini aniqlashda qo'llaniladigan tekshirish:",
+   "options": [
+    "Skanirlash, qondagi gormonlar miqdorini tekshirish",
+    "Rentgenografiya, qonning umumiy tahlili",
+    "Laporoskopiya tekshiruvi",
+    "EFGDS(ezofagogastroduodenoskopiya)"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Hyperthyroidism (https://medlineplus.gov/hyperthyroidism.html)",
+   "explanation": "Qalqonsimon bez kasalliklarini aniqlashda qondagi gormonlar (TTG, T3, T4) tekshiriladi va skanirlash kabi tasvirli usullar qo'llaniladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-349",
+   "n": 1998,
+   "q": "Glomerulonefrit uchun hos bo'lgan siydik sindromini toping:",
+   "options": [
+    "Proteinuriya, gematuriya, tsilindruriya",
+    "Piuriya, gematuriya, glyukozuriya",
+    "Proteinuriya, leykotsituriya",
+    "Leykotsituriya, glyukozuriya, tsilindruriya"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MSD Manual Professional, Overview of Glomerular Disorders (https://www.msdmanuals.com/professional/genitourinary-disorders/glomerular-disorders/overview-of-glomerular-disorders)",
+   "explanation": "Glomerulyar kasalliklarda siydik tahlilida gematuriya (ko'pincha tsilindrlar bilan) va proteinuriya aniqlanadi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-321",
+   "n": 1999,
+   "q": "Birdaniga ko'p qon yo'qotish sababli kelib chiqadigan anemiya –bu:",
+   "options": [
+    "O'tkir postgemorragik anemiya",
+    "Surunkali postgemorragik anemiya",
+    "Folat defitsit anemiyasi",
+    "Temir defitsit anemiyasi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MSD Manual Consumer, Anemia Due to Excessive Bleeding (https://www.msdmanuals.com/home/blood-disorders/anemia/anemia-due-to-excessive-bleeding)",
+   "explanation": "Birdaniga ko'p qon yo'qotish (jarohat, operatsiya, tug'ruq) natijasida tez rivojlanadigan kamqonlik o'tkir postgemorragik anemiyadir.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-365",
+   "n": 2000,
+   "q": "Qandli diabet davosi:",
+   "options": [
+    "Insulin",
+    "Antibiotiklar",
+    "Parhez №5",
+    "Sedativ vositalar"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Type 1 diabetes (Medical Encyclopedia), current (https://medlineplus.gov/ency/article/000305.htm)",
+   "explanation": "Qandli diabetda (1-tur) davo insulin bilan olib boriladi: 1-tur diabet bilan kasallangan har bir bemor har kuni insulin qabul qilishi shart.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-367",
+   "n": 2001,
+   "q": "Gipotireozda qalqonsimon bez faoliyati qanday o'zgaradi:",
+   "options": [
+    "Pasayadi",
+    "Ko'payadi",
+    "Normada",
+    "O'zgarmaydi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Hypothyroidism (Medical Encyclopedia), current (https://medlineplus.gov/ency/article/000353.htm)",
+   "explanation": "Gipotireozda qalqonsimon bez yetarli gormon ishlab chiqarmaydi, ya'ni uning faoliyati pasayadi (bez \"sust ishlaydi\").",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-381",
+   "n": 2002,
+   "q": "Gipoglikemik komaga sabab:",
+   "options": [
+    "Insulin olgandan song ovqatlanmaslik",
+    "Insulinni kam yuborish",
+    "Och qolish",
+    "Ko'p ovqat yeyish"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Hypoglycemia (health topic), current (https://medlineplus.gov/hypoglycemia.html)",
+   "explanation": "Gipoglikemiya insulinning ta'siri tufayli va yetarli ovqat (uglevod) qabul qilinmaganda yuzaga keladi; shuning uchun insulin olgach ovqatlanmaslik uning sababi bo'ladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-413",
+   "n": 2003,
+   "q": "Astmatik status nima:",
+   "options": [
+    "Bo'g'ilish xurujlari kam, yiliga 3-4 marta",
+    "Xuruj yaqin soatlari va kunlar ichida bosilmaydi",
+    "Xurujlar ko'proq va davomliroq yiliga 10 marta, adrenalin eufilindan keyin bosiladi",
+    "Xurujdan tashqarida yengil nafas qisib turishi"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MSD Manual Professional, Asthma, current (https://www.msdmanuals.com/professional/pulmonary-disorders/asthma-and-related-disorders/asthma)",
+   "explanation": "Astmatik status - davolashga javob bermaydigan og'ir, uzoq davom etuvchi bronxospazm, ya'ni xuruj bosilmay qoladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-433",
+   "n": 2004,
+   "q": "Onkologik bemorlarda muhim diagnostika usuli qaysi:",
+   "options": [
+    "Rentgenografiya va biopsiya",
+    "Faqat qon bosimini o'lchash",
+    "Yurak ultratovushi",
+    "To'liq qon tahlili"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: National Cancer Institute, Cancer Diagnosis, current (https://www.cancer.gov/about-cancer/diagnosis-staging/diagnosis)",
+   "explanation": "Saratonni aniqlashda tasvirlash usullari (rentgen va boshqa skanerlar) hamda biopsiya qo'llanadi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-448",
+   "n": 2005,
+   "q": "O'pka abstsessi qanday kasallik:",
+   "options": [
+    "O'pkaning bir segmentini yalliglanishi",
+    "O'pkaning butun bir bolyagining yalliglanishi",
+    "O'pka to'qimasining gangrenasi",
+    "O'pka to'qimasining cheklangan holda yiringlashi"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MSD Manual Professional, Lung Abscess, 2025 (https://www.merckmanuals.com/professional/pulmonary-disorders/lung-abscess/lung-abscess)",
+   "explanation": "O'pka absessi - o'pkada yiring bilan to'lgan, cheklangan (chegaralangan) bo'shliq hosil qiluvchi nekrotik infeksiya, ya'ni to'qimaning cheklangan yiringlashi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-452",
+   "n": 2006,
+   "q": "O'pka abstsessi gangrenadan nima bilan farq qiladi:",
+   "options": [
+    "Patologik o'choq butun o'pkada tarqalgan",
+    "Patologik o'choq aniq ajralib turadigan chegarali bo'lmaydi",
+    "Patologik o'choq aniq chegarali bo'ladi",
+    "Ikkala o'pka to'qimasining yalliglanishi"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MSD Manual Professional, Lung Abscess, 2025 (https://www.merckmanuals.com/professional/pulmonary-disorders/lung-abscess/lung-abscess)",
+   "explanation": "Absessda o'choq aniq chegaralangan (sirkumskript) bo'shliq bo'ladi, gangrenada esa nekroz keng tarqalgan bo'ladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-483",
+   "n": 2007,
+   "q": "Qon tupurish va o'pkadan qon ketish qaysi kasalliklarda kuzatiladi:",
+   "options": [
+    "O'pka absessi",
+    "Bronxial astma",
+    "O'tkir bronxit",
+    "Ekssudativ plevrit"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MSD Manual Professional, Lung Abscess, 2025 (https://www.merckmanuals.com/professional/pulmonary-disorders/lung-abscess/lung-abscess)",
+   "explanation": "O'pka absessi bilan og'rigan bemorlarda qon tupurish (gemoptoz) va plevritik ko'krak og'rig'i kuzatilishi mumkin.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-484",
+   "n": 2008,
+   "q": "Qaysi kasallikda yiringli balg'am ajraladi:",
+   "options": [
+    "O'pka absessi",
+    "Bronxial astma",
+    "O'tkir bronxit",
+    "Ekssudativ plevrit"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MSD Manual Professional, Lung Abscess, 2025 (https://www.merckmanuals.com/professional/pulmonary-disorders/lung-abscess/lung-abscess)",
+   "explanation": "O'pka absessida balg'am yiringli yoki qon aralash bo'lishi va odatda sassiq hidli bo'lishi mumkin.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-487",
+   "n": 2009,
+   "q": "Yo'tal vaqtida kuchayuvchi ko'krak qafasidagi og'riq, plevra ishqalanish shovqini qaysi kasallik uchun xos:",
+   "options": [
+    "Bronxit",
+    "Bronxial astma",
+    "Quruq plevrit",
+    "Ekssudativ plevrit"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus Medical Encyclopedia, Pleurisy, current (https://medlineplus.gov/ency/article/001371.htm)",
+   "explanation": "Plevritda (quruq plevrit) plevra varaqlari g'adir-budir bo'lib ishqalanadi va plevra ishqalanish shovqini eshitiladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-488",
+   "n": 2010,
+   "q": "Ovoz titrashi va perkutor tovush susayishi qaysi kasallikda kuzatiladi:",
+   "options": [
+    "Bronxit",
+    "Bronxial astma",
+    "Quruq plevrit",
+    "Ekssudativ plevrit"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MSD Manual Professional, Pleural Effusion, current (https://www.msdmanuals.com/professional/pulmonary-disorders/mediastinal-and-pleural-disorders/pleural-effusion)",
+   "explanation": "Plevra bo'shlig'ida suyuqlik (ekssudativ plevrit) bo'lganda perkussiyada tovush bo'g'iqlashadi va ovoz titrashi susayadi yoki yo'qoladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-489",
+   "n": 2011,
+   "q": "Antiseptik va aseptika o'rtasidagi asosiy farq nimada:",
+   "options": [
+    "Ikkalasi ham infektsiyani davolashga qaratilgan",
+    "Antiseptika mikroblarni yo'q qilish, aseptika ularni kiritmaslikka qaratilgan",
+    "Aseptika faqat dori vositalarini nazorat qiladi",
+    "Antiseptika operatsiya davomida ishlatiladi, aseptika esa yo'q"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: CDC, Guideline for Disinfection and Sterilization, Glossary, 2008 (https://www.cdc.gov/infection-control/hcp/disinfection-sterilization/glossary.html)",
+   "explanation": "Antiseptika mikroorganizmlar o'sishini to'xtatish yoki ularni yo'qotishga, aseptika esa mikroorganizmlar bilan aloqani oldini olishga qaratilgan.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-463",
+   "n": 2012,
+   "q": "Arterial bosimning idora etilishida buyraklarnig vazifasi:",
+   "options": [
+    "Renin ishlab chiqariladi",
+    "Oqsillar siydikda chiqariladi",
+    "Suv va tuzlar chiqariladi",
+    "Azot qoldiqlaridan organizm tozalanadi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Renin Test, current (https://medlineplus.gov/lab-tests/renin-test/)",
+   "explanation": "Qon bosimi pasayganda buyraklar renin ajratadi; renin qon bosimini boshqarishda ishtirok etadi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-465",
+   "n": 2013,
+   "q": "Buyrak eklampsiyasining asosiy belgisini ko'rsating:",
+   "options": [
+    "Holsizlik",
+    "Bosh og'rig'i",
+    "Tutqanoqlar",
+    "Shishlar"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus Medical Encyclopedia, Eclampsia, current (https://medlineplus.gov/ency/article/000899.htm)",
+   "explanation": "Eklampsiyaning asosiy belgisi tutqanoq (talvasa) xurujlaridir.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-o-311",
+   "n": 2014,
+   "q": "65 yoshli bemor to'sh ostidagi “hanjarsimon” og'riq va bu og'riqning chap qo'l, kurak, jag'ning pastki qismiga tarqalayotganidan shikoyat qilyapti. Og'riq 30 daqiqadan ortiq davom etgani va nitrogliserin ta'siridan og'riq qolmaganligi aniqlandi. Qanday kasallik haqida o'ylash mumkin:",
+   "options": [
+    "Stenokardiya",
+    "Gipertoniya kasalligi",
+    "O'tkir miokard infarkti",
+    "Kollaps"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus, Heart attack (Medical Encyclopedia), current (https://medlineplus.gov/ency/article/000195.htm)",
+   "explanation": "Ko'krak og'rig'i 20 daqiqadan uzoq davom etib, nitroglitserin bilan to'liq qolmasa, bu o'tkir miokard infarkti (yurak xuruji) belgisidir; stenokardiya og'rig'i esa odatda dam olish yoki nitroglitserindan o'tadi.",
+   "bank": "oliy_hamshiralik"
   }
  ]
 }

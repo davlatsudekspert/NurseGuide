@@ -237,7 +237,9 @@
    "title": "HIV Treatment Basics",
    "publisher": "NIH",
    "match": [
-    "NIH"
+    "NIH",
+    "NIDDK",
+    "National Cancer Institute"
    ],
    "url": "https://hivinfo.nih.gov"
   },
@@ -322,6 +324,28 @@
    "match": [
     "«Rentgen laboranti» test savollari"
    ]
+  },
+  {
+   "id": "medlineplus",
+   "group": "open",
+   "author": "U.S. National Library of Medicine (NIH)",
+   "title": "MedlinePlus: sog‘liq mavzulari va tibbiy entsiklopediya",
+   "publisher": "NLM / NIH",
+   "match": [
+    "MedlinePlus"
+   ],
+   "url": "https://medlineplus.gov"
+  },
+  {
+   "id": "msd",
+   "group": "open",
+   "author": "Merck & Co. (MSD Manual)",
+   "title": "MSD Manual Professional Edition",
+   "publisher": "MSD",
+   "match": [
+    "MSD Manual"
+   ],
+   "url": "https://www.msdmanuals.com"
   }
  ]
 }

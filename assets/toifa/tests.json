@@ -42300,6 +42300,909 @@
     "uz",
     "ru"
    ]
+  },
+  {
+   "id": "ng-h-233",
+   "n": 1937,
+   "q": "Gemoglobin qaerda bo'ladi:",
+   "options": [
+    "eritrotsit tarkibida",
+    "leykotsit tarkibida",
+    "trombotsit tarkibida",
+    "retikulotsit tarkibida"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: OpenStax Anatomy and Physiology 2e, 18.3 Erythrocytes, 2022 (https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes)",
+   "explanation": "Gemoglobin eritrotsitlarning (qizil qon tanachalarining) ichida joylashgan va kislorod tashiydi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-454",
+   "n": 1938,
+   "q": "Yurakni o'rta qavati nima deb ataladi:",
+   "options": [
+    "Endokard",
+    "Miokard",
+    "Perikard",
+    "Serroz parda"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: OpenStax Anatomy and Physiology 2e, 19.1 Heart Anatomy, 2022 (https://openstax.org/books/anatomy-and-physiology-2e/pages/19-1-heart-anatomy)",
+   "explanation": "Yurak devori uch qavatdan iborat: epikard, miokard va endokard; o'rta qavat miokard deyiladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-079",
+   "n": 1939,
+   "q": "Aholi salomatligiga qanday omillar ta'sir etadi:",
+   "options": [
+    "Biologik, ijtimoiy-iqtisodiy, iqlim-geografik, ekologik",
+    "Ichki omillar",
+    "Aholi soni",
+    "Kasallanish darajasi, tug'ilish darajasi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: WHO Determinants of health (Q&A) (https://www.who.int/news-room/questions-and-answers/item/determinants-of-health)",
+   "explanation": "Aholi salomatligiga ijtimoiy-iqtisodiy muhit, jismoniy (ekologik, iqlim-geografik) muhit va shaxsning biologik xususiyatlari hamda xulq-atvori ta'sir qiladi. Bu 1-variantga mos keladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-435",
+   "n": 1940,
+   "q": "Kimyoterapiya davolashning qanday ta'siri bor:",
+   "options": [
+    "Faqat og'riqni kamaytiradi",
+    "O'sma hujayralarini yo'q qiladi, ammo sog'lom hujayralarga ham zarar yetkazishi mumkin",
+    "Faqat infektsiyalarga qarshi kurashadi",
+    "Qon bosimini oshiradi"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: National Cancer Institute: Chemotherapy to Treat Cancer (https://www.cancer.gov/about-cancer/treatment/types/chemotherapy)",
+   "explanation": "Kimyoterapiya o'sma hujayralarini yo'q qiladi, lekin tez bo'linadigan sog'lom hujayralarga ham zarar yetkazishi mumkin.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-461",
+   "n": 1941,
+   "q": "Birlamchi siydikdagi glukoza va suvning qayta qonga so'rilishi qanday ataladi:",
+   "options": [
+    "Filtratsiya",
+    "Reobsorbsiya",
+    "Aspiratsiya",
+    "Rezorbsiya"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: OpenStax Fundamentals of Nursing: Ch. 26 Key Terms (https://openstax.org/books/fundamentals-nursing/pages/26-key-terms)",
+   "explanation": "Birlamchi siydikdan glyukoza va suvning qonga qaytib so'rilishi reabsorbsiya (qayta so'rilish) deyiladi; filtratsiya esa siydik hosil bo'lishining birinchi bosqichi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-o-406",
+   "n": 1942,
+   "q": "Qaysi gepatitlar kontakt yo'l orqali yuqadi:",
+   "options": [
+    "A, Ye",
+    "A, V, Ye",
+    "V, S, D",
+    "S, A, D"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: WHO Fact sheet: Hepatitis C (https://www.who.int/news-room/fact-sheets/detail/hepatitis-c)",
+   "explanation": "V, S va D gepatitlari qon va tana suyuqliklari orqali (kontakt yo'li bilan) yuqadi, A va E gepatitlari esa ifloslangan ovqat va suv orqali (fekal-oral yo'l).",
+   "bank": "oliy_hamshiralik"
+  },
+  {
+   "id": "ng-h-429",
+   "n": 1943,
+   "q": "Onkologik kasalliklarning asosiy belgilari qaysilar:",
+   "options": [
+    "Qon bosimi ko'tarilishi va bosh og'rig'i",
+    "Mushaklarning kuchayishi va charchoq",
+    "To'qimalarda tugun paydo bo'lishi, vazn yo'qotish, qon ketish",
+    "Doimiy isitma va quruq yo'tal"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: National Cancer Institute: Cancer Symptoms (2019) (https://www.cancer.gov/about-cancer/diagnosis-staging/symptoms)",
+   "explanation": "Onkologik kasalliklarning asosiy belgilariga to'qimalarda bo'rtma yoki tugun paydo bo'lishi, sababsiz vazn o'zgarishi va qon ketish kiradi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-386",
+   "n": 1944,
+   "q": "Polifagiya – bu …:",
+   "options": [
+    "Ko'p ovqat yeyish",
+    "Ko'p siyish",
+    "Ko'p suv ichish",
+    "Zarda qaynashi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus Medical Encyclopedia: Appetite - increased (https://medlineplus.gov/ency/article/003134.htm)",
+   "explanation": "Polifagiya - ortiqcha ko'p ovqat yeyish, to'ymaslik holati.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-043",
+   "n": 1945,
+   "q": "Qon yoki biologik suyuqliklar ko'zga sachraganda birinchi bo'lib qilinishi lozim bo'lgan hatti harakat:",
+   "options": [
+    "Darhol oqar suvda yuvib tashlanadi",
+    "Dez eritma bilan yoki sovunlab yuviladi",
+    "Kaliy permanganat bilan yuviladi,",
+    "Sanitar epidemiologik stantsiya ga murojat qilinadi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: CDC, Blood and Body Fluid Exposure fact sheet, 2023 (https://reach.cdc.gov/sites/default/files/job-aids-resources/Blood_and_Body_Fluid_Exposure_508_0.pdf)",
+   "explanation": "Qon yoki suyuqlik ko'zga sachrasa, birinchi navbatda ko'zni ko'p miqdordagi oqar suv yoki fiziologik eritma bilan darhol yuvish kerak. Dezinfektant yoki sovun ishlatilmaydi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-430",
+   "n": 1946,
+   "q": "Saraton kasalligida davolash usullaridan biri emas:",
+   "options": [
+    "Kimyoterapiya",
+    "Radiatsion terapiya",
+    "Antibiotiklar qabul qilish",
+    "Jarrohlik aralashuvi"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: National Cancer Institute, Types of Cancer Treatment (https://www.cancer.gov/about-cancer/treatment/types)",
+   "explanation": "Saraton davosi usullari: jarrohlik, kimyoterapiya, nur terapiyasi va boshqalar. Antibiotiklar saratonni davolash usuli emas.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-436",
+   "n": 1947,
+   "q": "Onkologik kasallikda parvarishlashda asosiy e'tibor qaysiga qaratiladi:",
+   "options": [
+    "Faqat dori berishga",
+    "Og'riqni boshqarish va ruhiy qo'llab-quvvatlashga",
+    "Faqat parhezga",
+    "Harakatlarni cheklashga"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: WHO, Palliative care fact sheet (https://www.who.int/news-room/fact-sheets/detail/palliative-care)",
+   "explanation": "Palliativ (qo'llab-quvvatlovchi) parvarishda asosiy e'tibor og'riqni nazorat qilish hamda ruhiy va ijtimoiy yordam ko'rsatishga qaratiladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-462",
+   "n": 1948,
+   "q": "Ikkilamchi siydik birlamchi siydikdan qanday farq qiladi:",
+   "options": [
+    "Oqsillar borligi bilan",
+    "Konsentratsiyasi yuqoriligi, miqdori kamligi bilan",
+    "Glukoza saqlashi bilan",
+    "Xolesterin borligi bilan"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: OpenStax, Anatomy and Physiology 2e, 25.6 Tubular Reabsorption (https://openstax.org/books/anatomy-and-physiology-2e/pages/25-6-tubular-reabsorption)",
+   "explanation": "Birlamchi siydikdagi suvning deyarli hammasi naychalarda qayta so'riladi, shuning uchun ikkilamchi (yakuniy) siydik kam miqdorda va konsentratsiyasi yuqori bo'ladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-318",
+   "n": 1949,
+   "q": "Jigar tsirrozi sababchisi:",
+   "options": [
+    "Virusli gepatit",
+    "Revmatizm",
+    "Me'da yara kasalligi",
+    "Enteritlar"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: NLM MedlinePlus, Cirrhosis health topic, 2026 (https://medlineplus.gov/cirrhosis.html)",
+   "explanation": "Jigar sirrozining eng ko'p uchraydigan sabablaridan biri gepatit (virusli gepatit); boshqa variantlar sirroz sababi emas.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-382",
+   "n": 1950,
+   "q": "Gipoterioz kasalligida quyidagi belgilar kuzatiladi:",
+   "options": [
+    "Bradikardiya, gipotermiya, apatiya, soch to'kilishi",
+    "Taxikardiya, tez charchash, tirnoqlarni sinishi",
+    "Taxikardiya, qizish, bosh og'rishi",
+    "Amenoreya, mimikani yo'qligi, semirish"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: NLM MedlinePlus, Hypothyroidism health topic, 2026 (https://medlineplus.gov/hypothyroidism.html)",
+   "explanation": "Gipotireozda moddalar almashinuvi sekinlashadi: yurak urishi sekinlashadi (bradikardiya), sovuqqa chidamsizlik, soch to'kilishi kuzatiladi; taxikardiya xos emas.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-376",
+   "n": 1951,
+   "q": "Insulin yetishmovchiligi nimaga olib keladi:",
+   "options": [
+    "Gipoglikemiyaga",
+    "Giperglikemiyaga",
+    "Kaheksiyaga",
+    "Oliguriyaga"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: NLM MedlinePlus, Diabetes Type 1 health topic, 2026 (https://medlineplus.gov/diabetestype1.html)",
+   "explanation": "Insulin yetishmasa glyukoza hujayralarga o'tmaydi va qonda to'planadi, ya'ni giperglikemiya rivojlanadi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-345",
+   "n": 1952,
+   "q": "Revmatoid artrit klinik manzarasi uchun hos bo'lgan belgini toping:",
+   "options": [
+    "Mayda bo'g'imlar zararlanadi",
+    "Yirik bo'g'imlar (son, to'piq, tizza, tirsak kabi) bo'g'imlar zararlanadi",
+    "Bo'g'imlardagi og'riqlar “uchuvchi” bo'lishi",
+    "Zararlangan bo'g'im sohasida mahalliy harorat past bo'lishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: NLM MedlinePlus, Rheumatoid Arthritis health topic, 2026 (https://medlineplus.gov/rheumatoidarthritis.html)",
+   "explanation": "Revmatoid artrit ko'pincha bilak va barmoqlarning mayda bo'g'imlarini zararlaydi, shuning uchun mayda bo'g'imlar zararlanishi xarakterli.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-403",
+   "n": 1953,
+   "q": "Bemor yotgan joyda uzoq vaqt harakatsiz yotgan bo'lsa, hamshira nima qilish kerak:",
+   "options": [
+    "Haroratini tushirish",
+    "Oyoqlarini massaj qilish",
+    "Har 2 soatda holatini o'zgartirish",
+    "Suv ichirishni ko'paytirish"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: NLM MedlinePlus, Pressure Sores health topic, 2026 (https://medlineplus.gov/pressuresores.html)",
+   "explanation": "Uzoq yotgan bemorda yotoq yara oldini olish uchun har 2 soatda holatini o'zgartirish kerak.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-397",
+   "n": 1954,
+   "q": "Uzoq muddat ta'sir qiladigan insulin qatoriga kiradi:",
+   "options": [
+    "Glargin (Lantus) insulin",
+    "Oddiy insulin",
+    "Butamid",
+    "Maninil"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: StatPearls, Glargine Insulin, 2022 (https://pubmed.ncbi.nlm.nih.gov/32491688/)",
+   "explanation": "Glargin (Lantus) uzoq ta'sir qiluvchi insulin bo'lib, kun bo'yi bazal insulin darajasini ta'minlaydi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-p-165",
+   "n": 1955,
+   "q": "Nikturiya bu nima:",
+   "options": [
+    "siydik rangining o'zgarishi",
+    "siydikda oqsil paydo bo'lishi",
+    "siydikda leykositlar paydo bo'lishi",
+    "tungi diurezning ortishi"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: StatPearls, Nocturia, 2024 (https://pubmed.ncbi.nlm.nih.gov/30085529/)",
+   "explanation": "Nikturiya - tunda siyish uchun uyg'onish, ya'ni tungi diurezning ortishi.",
+   "bank": "patronaj"
+  },
+  {
+   "id": "ng-h-359",
+   "n": 1956,
+   "q": "Suvda eriydigan vitaminlarga kiradi:",
+   "options": [
+    "Askorbin kislota",
+    "D vitamin",
+    "Tokoferol atsetat",
+    "K vitamini"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: StatPearls, Vitamin C (Ascorbic Acid), 2026 (https://pubmed.ncbi.nlm.nih.gov/29763052/)",
+   "explanation": "Askorbin kislota (vitamin C) suvda eriydigan vitamindir; D, K vitaminlari va tokoferol yog'da eriydi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-100",
+   "n": 1957,
+   "q": "O't qopining yallig'lanishi nima deyiladi:",
+   "options": [
+    "Xolesistit",
+    "Appendistit",
+    "Peritonit",
+    "Sistit"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NLM) Acute cholecystitis 2024 (https://medlineplus.gov/ency/article/000264.htm)",
+   "explanation": "O't qopining o'tkir yallig'lanishi xolesistit deb ataladi. Appendisit - ko'richak o'simtasi, peritonit - qorin parda, sistit - siydik pufagi yallig'lanishi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-171",
+   "n": 1958,
+   "q": "Tungi diurezni oshishi bu:",
+   "options": [
+    "Nikturiya",
+    "Proteinuriya",
+    "Gematuriya",
+    "Poliuriya"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NLM) Urinating more at night (https://medlineplus.gov/ency/article/003141.htm)",
+   "explanation": "Tunda siyish va tungi diurezning ortishi nikturiya deb ataladi; proteinuriya - siydikda oqsil, gematuriya - qon, poliuriya - kunlik siydik hajmining ortishi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-205",
+   "n": 1959,
+   "q": "Yurak qisqarishi nima deyiladi:",
+   "options": [
+    "Sistola",
+    "Diastola",
+    "Yurak dam olishi",
+    "Yurakning tez urishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: OpenStax Anatomy and Physiology 2e, 19.3 Cardiac Cycle (https://openstax.org/books/anatomy-and-physiology-2e/pages/19-3-cardiac-cycle)",
+   "explanation": "Yurakning qisqarish davri sistola deb ataladi, bo'shashish va qon bilan to'lish davri esa diastola.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-390",
+   "n": 1960,
+   "q": "Anafilaktik shokda ishlatiladi:",
+   "options": [
+    "Adrenalin",
+    "Papaverin",
+    "Morfiy",
+    "Dimedrol"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NLM) Anaphylaxis (https://medlineplus.gov/ency/article/000844.htm)",
+   "explanation": "Anafilaktik shokda birinchi navbatda epinefrin (adrenalin) yuboriladi; papaverin, morfin va dimedrol shokning asosiy davosi emas.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-339",
+   "n": 1961,
+   "q": "Gipoglikemik koma sabablari:",
+   "options": [
+    "Insulin miqdorini ko'payib ketishi",
+    "Insulin miqdorini kamayib ketishi",
+    "Engil hazm bo'ladigan uglevodlarga boy mahsulotlar",
+    "Kuchli his-hayajon"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NLM) Low blood sugar (https://medlineplus.gov/ency/article/000386.htm)",
+   "explanation": "Qondagi qand miqdori pasayishi (gipoglikemiya) qonda insulin miqdori haddan tashqari ko'payganda yuzaga keladi; insulin yetishmasligi esa giperglikemiyaga olib keladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-360",
+   "n": 1962,
+   "q": "Yog'larda eriydigan vitaminni aniqlang:",
+   "options": [
+    "Vitamin E",
+    "Riboflavin",
+    "Rutin",
+    "Piridoksin"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NLM) Vitamin E (https://medlineplus.gov/ency/article/002406.htm)",
+   "explanation": "E vitamini yog'da eriydigan vitamin; riboflavin va piridoksin suvda eriydigan vitaminlardir.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-369",
+   "n": 1963,
+   "q": "Qandli diabetda siydikdagi o'zgarishlar:",
+   "options": [
+    "Glukozuriya",
+    "Gematuriya",
+    "Oliguriya",
+    "Gipoizostenuriya"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NLM) Glucose urine test (https://medlineplus.gov/ency/article/003581.htm)",
+   "explanation": "Qandli diabetda siydikda glyukoza miqdori oshadi, bu glyukozuriya deb ataladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-325",
+   "n": 1964,
+   "q": "Diffuz toksik buqoqda ko'zning chaqchayib turishi – bu:",
+   "options": [
+    "Ekzoftalm",
+    "Gitelfag simptomi",
+    "Mebius belgisi",
+    "Endoftalm"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NLM) Eyes - bulging (https://medlineplus.gov/ency/article/003033.htm)",
+   "explanation": "Diffuz toksik buqoq (Greyvs kasalligi)da ko'zning bo'rtib chiqishi ekzoftalm deb ataladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-404",
+   "n": 1965,
+   "q": "Hujayralar va to'qimalarga kislorod yetkazib berishda eng muhim rolni nima bajaradi:",
+   "options": [
+    "Limfa",
+    "Eritrotsitlar",
+    "Leikotsitlar",
+    "Trombositlar"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: OpenStax Anatomy and Physiology 2e, 18.3 Erythrocytes (https://openstax.org/books/anatomy-and-physiology-2e/pages/18-3-erythrocytes)",
+   "explanation": "Kislorodni o'pkadan to'qimalarga eritrotsitlar tashiydi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-107",
+   "n": 1966,
+   "q": "Aspiratsiya sabablari:",
+   "options": [
+    "Qusuq moddalarning nafas yo'llariga o'tib ketishi",
+    "Arterial bosimning ko'tarilishi",
+    "Qon aralash qayt qilish",
+    "Qon aralash ich kelishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NLM) Aspiration pneumonia (https://medlineplus.gov/ency/article/000121.htm)",
+   "explanation": "Aspiratsiya - qusuq massalari, so'lak yoki ovqatning nafas yo'llariga o'tib ketishi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-319",
+   "n": 1967,
+   "q": "O't-tosh kasalligida qanday sariqlik kuzatiladi:",
+   "options": [
+    "Mexanik sariqlik",
+    "Gemolitik sariqlik",
+    "Parenhimatoz sariqlik",
+    "Ruhiy sariqlik"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NLM) Jaundice (https://medlineplus.gov/ency/article/000210.htm)",
+   "explanation": "O't-tosh kasalligida tosh o't yo'lini bekitib qo'yadi, shuning uchun mexanik (obstruktiv) sariqlik kuzatiladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-244",
+   "n": 1968,
+   "q": "Buyraklarning siydikni konsentrlay olish yoki suyultira olish xossasini ko'rsatadigan mezon bu …:",
+   "options": [
+    "siydikning solishtirma og'irligi",
+    "kislota-ishqoriy ko'rsatgichi",
+    "rangli ko'rsatkich koeffitsienti",
+    "gemotokrit hajmi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NLM) Urine specific gravity test (https://medlineplus.gov/ency/article/003587.htm)",
+   "explanation": "Siydikning solishtirma og'irligi buyrakning siydikni quyultirish va suyultirish qobiliyatini ko'rsatadi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-293",
+   "n": 1969,
+   "q": "Patogenlik – bu:",
+   "options": [
+    "Sindrom",
+    "Etiologiya",
+    "Diagnoz",
+    "Kasallik keltirib chiqarish"
+   ],
+   "key": [
+    3
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: OpenStax Microbiology, E Glossary (https://openstax.org/books/microbiology/pages/e-glossary)",
+   "explanation": "Patogenlik - mikroorganizmning kasallik chaqirish qobiliyati.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-475",
+   "n": 1970,
+   "q": "Qusayotgan bemor zaif bo'lsa qanday parvarish muhim:",
+   "options": [
+    "Bemorning boshini baland qilib qo'yiladi",
+    "Qusayotgan vaqtida boshini yon tomonga burib qo'yiladi",
+    "Bemor bilan chalg'ituvchi suhbat o'tkaziladi",
+    "Bemorni o'rnidan turg'iziladi"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NLM) Unconsciousness - first aid (https://medlineplus.gov/ency/article/000022.htm)",
+   "explanation": "Qusayotgan zaif bemorda qusuq massasi nafas yo'llariga o'tmasligi uchun bosh va tana yon tomonga buriladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-101",
+   "n": 1971,
+   "q": "Stistit – bu...:",
+   "options": [
+    "Siydik qopining yallig'lanishi",
+    "O't qopining yallig'lanishi",
+    "Qorin pardaning yallig'lanishi",
+    "Ichaklarning teshilishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NIH/NLM) Health Topic: Bladder Diseases (https://medlineplus.gov/bladderdiseases.html)",
+   "explanation": "Sistit – siydik pufagi (qopi)ning yallig'lanishi bo'lib, ko'pincha infeksiya tufayli yuzaga keladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-310",
+   "n": 1972,
+   "q": "Yara kasalligi qon ketishi bilan asoratlanganda ich kelishi:",
+   "options": [
+    "Ich qoramoysimon",
+    "O'zgarishsiz",
+    "Ahlat oqargan",
+    "Ich to'htovsiz ketadi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NIH/NLM) Medical Encyclopedia: Black or tarry stools (https://medlineplus.gov/ency/article/003130.htm)",
+   "explanation": "Me'da yarasidan qon ketganda qon ovqat hazm qilish yo'lida o'zgarib, najas qora, qatronsimon (qoramoysimon) bo'ladi (melena).",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-326",
+   "n": 1973,
+   "q": "Qalqonsimon bez funktsiyasi kamayganligi – bu:",
+   "options": [
+    "Gipotireoz",
+    "Gipertireoz",
+    "Eutireoz",
+    "Tireotoksikoz"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NIH/NLM) Medical Encyclopedia: Hypothyroidism (https://medlineplus.gov/ency/article/000353.htm)",
+   "explanation": "Qalqonsimon bez funksiyasining pasayishi (yetarli gormon ishlab chiqarmasligi) gipotireoz deyiladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-378",
+   "n": 1974,
+   "q": "Polidipsiya – bu …:",
+   "options": [
+    "Ko'p suv ichish",
+    "Ko'p siyish",
+    "Ko'p ovqat yeyish",
+    "Zarda qaynashi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: NIDDK (NIH) Dictionary: polydipsia (https://www.niddk.nih.gov/Dictionary/P/polydipsia)",
+   "explanation": "Polidipsiya – haddan tashqari ko'p va tez-tez chanqash, ya'ni ko'p suv ichish.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-392",
+   "n": 1975,
+   "q": "Tremor – bu …:",
+   "options": [
+    "Qo'llar titrashi",
+    "Ko'p terlash",
+    "Kaftlar qizarishi",
+    "Yurakni tez urishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NIH/NLM) Health Topic: Tremor (https://medlineplus.gov/tremor.html)",
+   "explanation": "Tremor – tananing bir yoki bir necha qismining, ko'pincha qo'llarning beixtiyor titrashi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-399",
+   "n": 1976,
+   "q": "Tez paydo bo'ladigan reaktsiyalarga kiradi:",
+   "options": [
+    "Anafilaktik shok",
+    "Zardob kasalligi",
+    "Kardiogen shok",
+    "Giperglikemik koma"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NIH/NLM) Medical Encyclopedia: Anaphylaxis (https://medlineplus.gov/ency/article/000844.htm)",
+   "explanation": "Anafilaktik shok allergen ta'siridan soniyalar yoki daqiqalar ichida rivojlanadi, shuning uchun u tez paydo bo'ladigan reaksiyalarga kiradi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-407",
+   "n": 1977,
+   "q": "Bronxit deganda nimani tushunasiz:",
+   "options": [
+    "O'pkaning yallig'lanishi",
+    "Bronxlarning yallig'lanishi",
+    "Plevraning yallig'lanishi",
+    "Bronxoektatik kasallik"
+   ],
+   "key": [
+    1
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MedlinePlus (NIH/NLM) Health Topic: Acute Bronchitis (https://medlineplus.gov/acutebronchitis.html)",
+   "explanation": "Bronxit – bronxlarning (nafas yo'llarining) yallig'lanishi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-420",
+   "n": 1978,
+   "q": "Absess bronxga yorilsa kuzatiladi:",
+   "options": [
+    "˝Og'iz to'la˝ balg'am ajralishi",
+    "Zangsimon balg'am ajralish",
+    "Qon tupurish",
+    "Ko'piksimon balg'am ajralishi"
+   ],
+   "key": [
+    0
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MSD Manual Professional Edition: Lung Abscess (https://www.merckmanuals.com/professional/pulmonary-disorders/lung-abscess/lung-abscess)",
+   "explanation": "Absess bronxga yorilganda uning yiringli tarkibi yo'tal bilan chiqadi, shuning uchun og'iz to'la balg'am ajraladi.",
+   "bank": "hamshiralik"
+  },
+  {
+   "id": "ng-h-485",
+   "n": 1979,
+   "q": "O'pka absessiga tashxis qo'yish uchun qaysi tekshiruv o'tkaziladi:",
+   "options": [
+    "Qon analizi",
+    "Balg'am analizi",
+    "Rentgenografiya",
+    "Spirometriya"
+   ],
+   "key": [
+    2
+   ],
+   "topic": "general",
+   "verdict": "ok",
+   "checked": "2026-10-24",
+   "status": "verified",
+   "source": "Manba: MSD Manual Professional Edition: Lung Abscess (https://www.merckmanuals.com/professional/pulmonary-disorders/lung-abscess/lung-abscess)",
+   "explanation": "O'pka absessi tashxisi asosan ko'krak qafasi rentgenografiyasiga asoslanadi.",
+   "bank": "hamshiralik"
   }
  ]
 }

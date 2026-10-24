@@ -5191,5 +5191,5 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get toifaNoGuarantee =>
-      'The questions are study material prepared from the official list. The app does not guarantee that these exact questions will appear in the exam.';
+      'Prepared for study: the questions follow the official list, but the app cannot guarantee that these exact questions will appear in your exam. Please study every topic thoroughly.';
 }

@@ -5110,5 +5110,5 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get toifaNoGuarantee =>
-      'Savollar rasmiy ro‘yxat asosida tayyorlangan o‘quv materiali. Ilova imtihonda aynan shu savollar tushishiga kafolat bermaydi.';
+      'Tayyorgarlik uchun: savollar rasmiy ro‘yxat asosida tuzilgan, lekin imtihonda aynan shu savollar tushishiga ilova kafolat bera olmaydi. Shuning uchun barcha mavzularni to‘liq o‘rganing.';
 }

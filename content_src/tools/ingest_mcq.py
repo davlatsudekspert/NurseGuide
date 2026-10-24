@@ -75,16 +75,28 @@ def key(s):
     return ' '.join(re.sub(r"[^a-z0-9' ]+", ' ', clean(s).lower()).split())
 
 
+def _similar(a, b, thr):
+    sm = difflib.SequenceMatcher(None, a, b)
+    return (sm.real_quick_ratio() >= thr and sm.quick_ratio() >= thr
+            and sm.ratio() >= thr)
+
+
+def correct_text(q):
+    return key(' | '.join(q['options'][i] for i in q['key']))
+
+
 def main():
     tests = json.load(open(TESTS, encoding='utf-8'))
     prefixes = tuple(c['prefix'] for c in CONFIGS)
     keep = [q for q in tests['questions'] if not q['id'].startswith(prefixes)]
     seen = [(q['id'], key(q['q'])) for q in keep]
+    existing = {q['id']: q for q in keep}
     base = max(q['n'] for q in keep)  # test n lari butun bank bo'yicha takrorlanmaydi
     out = list(keep)
     for cfg in CONFIGS:
         src = json.load(open(cfg['src'], encoding='utf-8'))['items']
         added = nokey = dup = 0
+        conflicts = []
         for it in src:
             if it.get('answerIndex') is None:
                 nokey += 1
@@ -92,10 +104,23 @@ def main():
             q = clean(it['q'])
             opts = [clean(o) for o in it['options']]
             k = key(q)
-            if any(abs(len(p) - len(k)) < 30
-                   and difflib.SequenceMatcher(None, k, p).ratio() >= 0.9
+            if any(abs(len(p) - len(k)) < 30 and _similar(k, p, 0.9)
                    for _, p in seen):
                 dup += 1
+                continue
+            # Mavjud (rasmiy) savolga juda o'xshash (0.8–0.9), lekin to'g'ri javobi boshqa —
+            # qo'shilmaydi: bankda bir savolga ikki xil javob bo'lmasin.
+            conflict = None
+            ans_txt = key(opts[it['answerIndex']])
+            for eid, p in seen:
+                e = existing.get(eid)
+                if not e or abs(len(p) - len(k)) >= 30:
+                    continue
+                if _similar(k, p, 0.8) and correct_text(e) != ans_txt:
+                    conflict = eid
+                    break
+            if conflict:
+                conflicts.append((cfg['prefix'] + str(it['n']), conflict))
                 continue
             seen.append((f'{cfg["prefix"]}{it["n"]}', k))
             order = list(range(len(opts)))
@@ -124,7 +149,8 @@ def main():
             tests['topics'].append(cfg['topic'])
         if cfg['topic_names']:
             tests['topic_names'][cfg['topic']] = cfg['topic_names']
-        print(f"{cfg['bank']}: qo'shildi {added}, kalitsiz {nokey}, takror {dup}")
+        print(f"{cfg['bank']}: qo'shildi {added}, kalitsiz {nokey}, takror {dup}, "
+              f"javobi ziddiyatli (qo'shilmadi) {len(conflicts)}")
     tests['questions'] = out
     json.dump(tests, open(TESTS, 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
     open(TESTS, 'a').write('\n')

@@ -1426,5 +1426,6 @@
   "toifaEmptyTitle": "Toifa savollari topilmadi",
   "toifaEmptyBody": "Savollar yuklanmadi. Ilovani qayta oching.",
   "workDirObstetrics": "Akusherlik",
-  "toifaScopeUnofficial": "Bu yo‘nalish savollari norasmiy to‘plamdan olingan; to‘g‘ri javob fayl bo‘yicha va tibbiy mutaxassis tekshiruvidan o‘tmagan. O‘quv materiali, rasmiy imtihon ro‘yxati emas."
+  "toifaScopeUnofficial": "Bu yo‘nalish savollari norasmiy to‘plamdan olingan; to‘g‘ri javob fayl bo‘yicha va tibbiy mutaxassis tekshiruvidan o‘tmagan. O‘quv materiali, rasmiy imtihon ro‘yxati emas.",
+  "workDirRadiology": "Rentgen laborant"
 }

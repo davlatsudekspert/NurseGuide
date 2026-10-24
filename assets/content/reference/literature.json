@@ -312,6 +312,16 @@
    "match": [
     "Patronajlar, norasmiy"
    ]
+  },
+  {
+   "id": "rentgen_test",
+   "group": "other",
+   "author": "Rentgen laboranti (o‘rta tibbiyot xodimlari) uchun test savollari",
+   "title": "Rentgen laboranti test savollari ro‘yxati",
+   "publisher": "Telegram (norasmiy to‘plam)",
+   "match": [
+    "«Rentgen laboranti» test savollari"
+   ]
   }
  ]
 }

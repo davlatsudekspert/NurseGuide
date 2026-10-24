@@ -30,6 +30,18 @@ CONFIGS = [
         ),
     },
     {
+        'src': 'content_src/rentgen/rentgen-laborant.json',
+        'prefix': 'ng-rl-',
+        'bank': 'rentgen_laborant',
+        'topic': 'radiology',
+        'topic_names': {'uz': 'Rentgenologiya', 'ru': 'Рентгенология', 'en': 'Radiology'},
+        'source': (
+            "Manba: «Rentgen laboranti» test savollari ro'yxati (o'rta tibbiyot xodimlari "
+            "uchun norasmiy to'plam); to'g'ri javob fayldagi belgi bo'yicha, tibbiy "
+            "mutaxassis tekshiruvidan o'tmagan"
+        ),
+    },
+    {
         'src': 'content_src/patronaj/patronajlar.json',
         'prefix': 'ng-pc-',
         'bank': 'patronaj',
@@ -44,12 +56,13 @@ CONFIGS = [
 ]
 
 # Kirillcha harf shakli bir xil lotin harflari (matnda adashib tushgan).
-HOMO = str.maketrans('аоесрхуАВЕНКМОРСТ', 'aoecpxyABEHKMOPCT')
+HOMO = str.maketrans('аоесрхумАВЕНКМОРСТ', 'aoecpxymABEHKMOPCT')
 FIXED_OPT = re.compile(
     r"(hammasi|barcha|hech biri|to'g'ri javob yo'q|yuqoridagi|ham .* ham)", re.I)
 
 
 def clean(s):
+    s = re.sub(r'\s*\([^)]*[Ѐ-ӿ][^)]*\)', '', s)  # ruscha izoh (qavs ichida) tashlanadi
     s = s.translate(HOMO)
     s = re.sub(r'(?<=[A-Za-z])[ийы]\b', '', s)  # lotin so'z oxiriga yopishgan kirill harf (nusxa xatosi)
     for ch in '’ʼʻ‘`´':

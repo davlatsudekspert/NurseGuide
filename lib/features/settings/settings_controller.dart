@@ -48,6 +48,9 @@ enum WorkDirection {
   /// Akusherlik ishi (o'rta tibbiyot xodimlari): test banki `akusherlik`.
   obstetrics('akusherlik'),
 
+  /// Rentgen laborant (o'rta tibbiyot xodimlari): test banki `rentgen_laborant`.
+  radiology('rentgen_laborant'),
+
   /// DMED tizimida ishlash: savol-javob kartalari (test banki yo'q, kunlik
   /// test umumiy savollardan).
   dmed('dmed');

@@ -78,14 +78,28 @@ class BillingController extends ChangeNotifier {
   String? _error;
   bool _busy = false;
 
-  BillingTier get tier => _tier;
+  BillingTier _granted = BillingTier.free;
+
+  /// Do'kon xaridi yoki admin bergan Pro dan yuqorisi.
+  BillingTier get tier => _granted.index > _tier.index ? _granted : _tier;
+
+  /// Server (`/v1/me`) admin bergan Prosini xabar qiladi; `null` — yo'q.
+  void applyGrant(String? wire, DateTime? until) {
+    final t = BillingTier.values.where((e) => e.name == wire).firstOrNull;
+    final live = t != null && (until == null || until.isAfter(_now()));
+    final next = live ? t : BillingTier.free;
+    if (next == _granted) return;
+    _granted = next;
+    notifyListeners();
+  }
+
   Map<String, ProductDetails> get products => _products;
   bool get storeReady => _storeReady;
   String? get error => _error;
   bool get busy => _busy;
 
   /// Yo'l ochiqmi (billing o'chiq bo'lsa — doim ochiq).
-  bool allows(String loc) => !enabled || _tier.includes(requiredTier(loc));
+  bool allows(String loc) => !enabled || tier.includes(requiredTier(loc));
 
   /// Saqlangan daraja, muddati o'tmagan bo'lsa. Do'kon yangilanishlarni
   /// (uzaytirishni) har ishga tushganda yetkazadi; bekor qilingan obuna

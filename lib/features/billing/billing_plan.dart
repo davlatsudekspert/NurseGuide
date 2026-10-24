@@ -1,9 +1,10 @@
-/// Obuna darajasi. Yuqori daraja pastkisining hamma imkoniyatini o'z ichiga oladi.
+/// Obuna darajasi (narx tartibida). Yuqori daraja pastkisining hamma imkoniyatini
+/// o'z ichiga oladi: Talaba < Ustoz (+guruhlar) < Mutaxassis (+DMED, atamalar).
 enum BillingTier {
   free,
   student,
-  specialist,
-  teacher;
+  teacher,
+  specialist;
 
   bool includes(BillingTier other) => index >= other.index;
 }
@@ -32,31 +33,31 @@ class BillingPlan {
       BillingTier.student,
       BillingPeriod.yearly,
       'uz.nurseguide.app.student.yearly',
-      r'$12.99',
-    ),
-    BillingPlan(
-      BillingTier.specialist,
-      BillingPeriod.monthly,
-      'uz.nurseguide.app.pro.monthly',
-      r'$2.99',
-    ),
-    BillingPlan(
-      BillingTier.specialist,
-      BillingPeriod.yearly,
-      'uz.nurseguide.app.pro.yearly',
-      r'$24.99',
+      r'$9.99',
     ),
     BillingPlan(
       BillingTier.teacher,
       BillingPeriod.monthly,
       'uz.nurseguide.app.teacher.monthly',
-      r'$4.99',
+      r'$2.49',
     ),
     BillingPlan(
       BillingTier.teacher,
       BillingPeriod.yearly,
       'uz.nurseguide.app.teacher.yearly',
-      r'$39.99',
+      r'$24.99',
+    ),
+    BillingPlan(
+      BillingTier.specialist,
+      BillingPeriod.monthly,
+      'uz.nurseguide.app.pro.monthly',
+      r'$3.49',
+    ),
+    BillingPlan(
+      BillingTier.specialist,
+      BillingPeriod.yearly,
+      'uz.nurseguide.app.pro.yearly',
+      r'$34.99',
     ),
   ];
 
@@ -72,12 +73,8 @@ class BillingPlan {
 
 /// Qaysi yo'l qaysi darajani talab qiladi (billing yoqilgan bo'lsa).
 BillingTier requiredTier(String loc) {
-  if (loc.startsWith('/learn/classes') || loc.startsWith('/admin')) {
-    return BillingTier.teacher;
-  }
-  if (loc == '/library/dmed' ||
-      loc == '/library/glossary' ||
-      loc == '/workplace/dmed') {
+  if (loc.startsWith('/learn/classes')) return BillingTier.teacher;
+  if (loc == '/library/dmed' || loc == '/library/glossary') {
     return BillingTier.specialist;
   }
   if (loc.startsWith('/learn/toifa') ||

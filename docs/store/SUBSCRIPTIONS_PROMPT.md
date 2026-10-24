@@ -7,15 +7,15 @@ it must not submit the app for review and must not change any other setting.
 Task: create the NurseGuide Pro subscription products. Bundle / package: uz.nurseguide.app.
 
 Plan table (USD base price; use the closest valid price point; other regions: accept the store's automatic price conversion):
-- Student   monthly  $1.49   id uz.nurseguide.app.student.monthly   | yearly $12.99  id uz.nurseguide.app.student.yearly
-- Specialist monthly $2.99   id uz.nurseguide.app.pro.monthly       | yearly $24.99  id uz.nurseguide.app.pro.yearly
-- Teacher   monthly  $4.99   id uz.nurseguide.app.teacher.monthly   | yearly $39.99  id uz.nurseguide.app.teacher.yearly
+- Student    monthly $1.49  id uz.nurseguide.app.student.monthly | yearly $9.99   id uz.nurseguide.app.student.yearly
+- Teacher    monthly $2.49  id uz.nurseguide.app.teacher.monthly | yearly $24.99  id uz.nurseguide.app.teacher.yearly
+- Specialist monthly $3.49  id uz.nurseguide.app.pro.monthly     | yearly $34.99  id uz.nurseguide.app.pro.yearly
 Every product has a FREE TRIAL of 30 days (1 month) for new subscribers.
 
 A) App Store Connect > NurseGuide > Monetization > Subscriptions
 1. Create one subscription group named "NurseGuide Pro".
 2. Create the 6 subscriptions with exactly the product IDs above (reference name = plan + period).
-   Duration: 1 month or 1 year. Order inside the group: Teacher (highest) > Specialist > Student, same-tier yearly above monthly.
+   Duration: 1 month or 1 year. Order inside the group (highest first): Specialist > Teacher > Student, same-tier yearly above monthly.
 3. Price each one as in the table (start price, United States; accept auto-conversion for other territories).
 4. Add an introductory offer to each: Free, duration 1 month, all eligible territories, new subscribers.
 5. Localizations for each subscription (display name + description), three languages:

@@ -3158,8 +3158,8 @@
   "planSpecialist": "Specialist",
   "planTeacher": "Teacher",
   "planStudentDesc": "Tests, practice, exam mode, oral tickets, saved items",
-  "planSpecialistDesc": "Everything in Student, plus DMED questions and the glossary",
-  "planTeacherDesc": "Everything in Specialist, plus groups and results",
+  "planSpecialistDesc": "Everything in Teacher, plus DMED questions and the glossary",
+  "planTeacherDesc": "Everything in Student, plus groups and results",
   "periodMonthly": "per month",
   "periodYearly": "per year",
   "paywallStart": "Start 30 days free",
@@ -3172,5 +3172,23 @@
   "paywallActive": "Your subscription is active.",
   "paywallFreeNote": "Free: home, procedures, library and daily questions.",
   "paywallBack": "Back to home",
-  "paywallProfileRow": "Subscription"
+  "paywallProfileRow": "Subscription",
+  "studyOnlyNote": "Study material for exams. Not for treatment or clinical decisions: follow your facility’s current instructions.",
+  "adminPro": "Pro subscriptions",
+  "adminProSub": "Give or remove Pro for any email",
+  "adminProEmail": "User email",
+  "adminProDays": "Days (empty = no end date)",
+  "adminProGive": "Give Pro",
+  "adminProRemove": "Remove Pro",
+  "adminProDone": "Saved",
+  "adminProInvalid": "Enter a valid email and, if used, a number of days.",
+  "adminProUntil": "until {date}",
+  "adminProForever": "no end date",
+  "@adminProUntil": {
+    "placeholders": {
+      "date": {
+        "type": "String"
+      }
+    }
+  }
 }

@@ -4995,11 +4995,11 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get planSpecialistDesc =>
-      'Talaba rejasidagi hammasi, qo‘shimcha DMED savol-javoblari va atamalar';
+      'Ustoz rejasidagi hammasi, qo‘shimcha DMED savol-javoblari va atamalar';
 
   @override
   String get planTeacherDesc =>
-      'Mutaxassis rejasidagi hammasi, qo‘shimcha guruhlar va natijalar';
+      'Talaba rejasidagi hammasi, qo‘shimcha guruhlar va natijalar';
 
   @override
   String get periodMonthly => 'oyiga';
@@ -5042,4 +5042,41 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get paywallProfileRow => 'Obuna';
+
+  @override
+  String get studyOnlyNote =>
+      'Imtihonga tayyorgarlik uchun o‘quv materiali. Davolash yoki klinik qaror uchun emas: muassasangizdagi amaldagi ko‘rsatmaga amal qiling.';
+
+  @override
+  String get adminPro => 'Pro obunalar';
+
+  @override
+  String get adminProSub => 'Istalgan emailga Pro berish yoki olib tashlash';
+
+  @override
+  String get adminProEmail => 'Foydalanuvchi emaili';
+
+  @override
+  String get adminProDays => 'Kun (bo‘sh = muddatsiz)';
+
+  @override
+  String get adminProGive => 'Pro berish';
+
+  @override
+  String get adminProRemove => 'Pro ni olib tashlash';
+
+  @override
+  String get adminProDone => 'Saqlandi';
+
+  @override
+  String get adminProInvalid =>
+      'To‘g‘ri email va (kerak bo‘lsa) kun sonini kiriting.';
+
+  @override
+  String adminProUntil(String date) {
+    return '$date gacha';
+  }
+
+  @override
+  String get adminProForever => 'muddatsiz';
 }

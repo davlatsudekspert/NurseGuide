@@ -1433,8 +1433,8 @@
   "planSpecialist": "Специалист",
   "planTeacher": "Преподаватель",
   "planStudentDesc": "Тесты, практика, режим экзамена, устные билеты, сохранённое",
-  "planSpecialistDesc": "Всё из плана «Студент», плюс вопросы DMED и глоссарий",
-  "planTeacherDesc": "Всё из плана «Специалист», плюс группы и результаты",
+  "planSpecialistDesc": "Всё из плана «Преподаватель», плюс вопросы DMED и глоссарий",
+  "planTeacherDesc": "Всё из плана «Студент», плюс группы и результаты",
   "periodMonthly": "в месяц",
   "periodYearly": "в год",
   "paywallStart": "Начать 30 дней бесплатно",
@@ -1447,5 +1447,16 @@
   "paywallActive": "Подписка активна.",
   "paywallFreeNote": "Бесплатно: главная, манипуляции, библиотека и ежедневные вопросы.",
   "paywallBack": "На главную",
-  "paywallProfileRow": "Подписка"
+  "paywallProfileRow": "Подписка",
+  "studyOnlyNote": "Учебный материал для подготовки к экзамену. Не для лечения и клинических решений: следуйте действующим инструкциям вашего учреждения.",
+  "adminPro": "Pro-подписки",
+  "adminProSub": "Выдать или снять Pro для любого email",
+  "adminProEmail": "Email пользователя",
+  "adminProDays": "Дней (пусто = без срока)",
+  "adminProGive": "Выдать Pro",
+  "adminProRemove": "Снять Pro",
+  "adminProDone": "Сохранено",
+  "adminProInvalid": "Введите корректный email и, если нужно, число дней.",
+  "adminProUntil": "до {date}",
+  "adminProForever": "без срока"
 }

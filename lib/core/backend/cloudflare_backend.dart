@@ -1114,6 +1114,27 @@ class CloudflareAppBackend
     );
   }
 
+  @override
+  Future<void> adminGrantPro({
+    required String email,
+    required String tier,
+    int? days,
+  }) => _admin(
+    'POST',
+    '/v1/admin/pro',
+    body: {'email': email.trim(), 'tier': tier, 'days': ?days},
+  );
+
+  @override
+  Future<void> adminRevokePro(String email) =>
+      _admin('DELETE', '/v1/admin/pro', body: {'email': email.trim()});
+
+  @override
+  Future<List<ProGrantRow>> adminProGrants() async =>
+      _rows((await _admin('GET', '/v1/admin/pro')).map['grants'])
+          .map(ProGrantRow.fromJson)
+          .toList();
+
   String _user(String id, String action) =>
       '/v1/admin/users/${_seg(id)}/$action';
 

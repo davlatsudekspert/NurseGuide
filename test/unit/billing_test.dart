@@ -83,37 +83,15 @@ void main() {
       gw.ctl.add([_p('uz.nurseguide.app.teacher.yearly', now, restored: true)]);
       await Future<void>.delayed(const Duration(milliseconds: 20));
       expect(c.tier, BillingTier.teacher);
-      expect(c.allows('/library/dmed'), isTrue);
+      expect(c.allows('/library/dmed'), isFalse);
       expect(c.allows('/learn/classes/g/1'), isTrue);
+
+      gw.ctl.add([_p('uz.nurseguide.app.pro.yearly', now, restored: true)]);
+      await Future<void>.delayed(const Duration(milliseconds: 20));
+      expect(c.tier, BillingTier.specialist);
+      expect(c.allows('/library/dmed'), isTrue);
     },
   );
-
-  test('muddati o‘tgan obuna bepulga qaytadi', () async {
-    final store = MemoryKeyValueStore();
-    final gw = _Gw();
-    var t = now;
-    final c = BillingController(
-      store: store,
-      gateway: gw,
-      enabled: true,
-      now: () => t,
-    );
-    await c.start();
-    gw.ctl.add([_p('uz.nurseguide.app.pro.monthly', now)]);
-    await Future<void>.delayed(const Duration(milliseconds: 20));
-    expect(c.tier, BillingTier.specialist);
-
-    t = now.add(const Duration(days: 20));
-    expect(
-      BillingController(store: store, enabled: true, now: () => t).tier,
-      BillingTier.specialist,
-    );
-    t = now.add(const Duration(days: 40));
-    expect(
-      BillingController(store: store, enabled: true, now: () => t).tier,
-      BillingTier.free,
-    );
-  });
 
   test('eski xarid (muddati o‘tgan) darajani bermaydi', () async {
     final gw = _Gw();
@@ -131,6 +109,23 @@ void main() {
       ),
     ]);
     await Future<void>.delayed(const Duration(milliseconds: 20));
+    expect(c.tier, BillingTier.free);
+  });
+
+  test('admin bergan Pro: daraja oshadi, muddati o‘tsa yo‘qoladi', () {
+    var t = now;
+    final c = BillingController(
+      store: MemoryKeyValueStore(),
+      enabled: true,
+      now: () => t,
+    );
+    expect(c.allows('/library/dmed'), isFalse);
+    c.applyGrant('specialist', null);
+    expect(c.tier, BillingTier.specialist);
+    expect(c.allows('/library/dmed'), isTrue);
+    c.applyGrant(null, null);
+    expect(c.tier, BillingTier.free);
+    c.applyGrant('teacher', now.subtract(const Duration(days: 1)));
     expect(c.tier, BillingTier.free);
   });
 

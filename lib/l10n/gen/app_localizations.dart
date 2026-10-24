@@ -8701,13 +8701,13 @@ abstract class AppLocalizations {
   /// No description provided for @planSpecialistDesc.
   ///
   /// In en, this message translates to:
-  /// **'Everything in Student, plus DMED questions and the glossary'**
+  /// **'Everything in Teacher, plus DMED questions and the glossary'**
   String get planSpecialistDesc;
 
   /// No description provided for @planTeacherDesc.
   ///
   /// In en, this message translates to:
-  /// **'Everything in Specialist, plus groups and results'**
+  /// **'Everything in Student, plus groups and results'**
   String get planTeacherDesc;
 
   /// No description provided for @periodMonthly.
@@ -8787,6 +8787,72 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Subscription'**
   String get paywallProfileRow;
+
+  /// No description provided for @studyOnlyNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Study material for exams. Not for treatment or clinical decisions: follow your facility’s current instructions.'**
+  String get studyOnlyNote;
+
+  /// No description provided for @adminPro.
+  ///
+  /// In en, this message translates to:
+  /// **'Pro subscriptions'**
+  String get adminPro;
+
+  /// No description provided for @adminProSub.
+  ///
+  /// In en, this message translates to:
+  /// **'Give or remove Pro for any email'**
+  String get adminProSub;
+
+  /// No description provided for @adminProEmail.
+  ///
+  /// In en, this message translates to:
+  /// **'User email'**
+  String get adminProEmail;
+
+  /// No description provided for @adminProDays.
+  ///
+  /// In en, this message translates to:
+  /// **'Days (empty = no end date)'**
+  String get adminProDays;
+
+  /// No description provided for @adminProGive.
+  ///
+  /// In en, this message translates to:
+  /// **'Give Pro'**
+  String get adminProGive;
+
+  /// No description provided for @adminProRemove.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove Pro'**
+  String get adminProRemove;
+
+  /// No description provided for @adminProDone.
+  ///
+  /// In en, this message translates to:
+  /// **'Saved'**
+  String get adminProDone;
+
+  /// No description provided for @adminProInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'Enter a valid email and, if used, a number of days.'**
+  String get adminProInvalid;
+
+  /// No description provided for @adminProUntil.
+  ///
+  /// In en, this message translates to:
+  /// **'until {date}'**
+  String adminProUntil(String date);
+
+  /// No description provided for @adminProForever.
+  ///
+  /// In en, this message translates to:
+  /// **'no end date'**
+  String get adminProForever;
 }
 
 class _AppLocalizationsDelegate

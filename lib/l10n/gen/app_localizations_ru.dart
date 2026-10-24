@@ -5086,11 +5086,11 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get planSpecialistDesc =>
-      'Всё из плана «Студент», плюс вопросы DMED и глоссарий';
+      'Всё из плана «Преподаватель», плюс вопросы DMED и глоссарий';
 
   @override
   String get planTeacherDesc =>
-      'Всё из плана «Специалист», плюс группы и результаты';
+      'Всё из плана «Студент», плюс группы и результаты';
 
   @override
   String get periodMonthly => 'в месяц';
@@ -5133,4 +5133,41 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get paywallProfileRow => 'Подписка';
+
+  @override
+  String get studyOnlyNote =>
+      'Учебный материал для подготовки к экзамену. Не для лечения и клинических решений: следуйте действующим инструкциям вашего учреждения.';
+
+  @override
+  String get adminPro => 'Pro-подписки';
+
+  @override
+  String get adminProSub => 'Выдать или снять Pro для любого email';
+
+  @override
+  String get adminProEmail => 'Email пользователя';
+
+  @override
+  String get adminProDays => 'Дней (пусто = без срока)';
+
+  @override
+  String get adminProGive => 'Выдать Pro';
+
+  @override
+  String get adminProRemove => 'Снять Pro';
+
+  @override
+  String get adminProDone => 'Сохранено';
+
+  @override
+  String get adminProInvalid =>
+      'Введите корректный email и, если нужно, число дней.';
+
+  @override
+  String adminProUntil(String date) {
+    return 'до $date';
+  }
+
+  @override
+  String get adminProForever => 'без срока';
 }

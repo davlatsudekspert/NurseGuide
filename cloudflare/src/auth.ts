@@ -1,5 +1,6 @@
 // Email OTP, sessiyalar, profil, admin TOTP va hisobni o'chirish.
 
+import { activePro } from './pro';
 import type { Ctx, Session } from './context';
 import { iso } from './context';
 import {
@@ -462,6 +463,8 @@ export async function me(ctx: Ctx): Promise<Response> {
     teacher: f.teacher,
     // Bog'langan kirish usullari (Google/Apple); email kodi doim mavjud.
     identities: ids.results.map((r) => r.provider),
+    // Admin bergan Pro (do'kon xaridiga bog'liq emas); yo'q bo'lsa null.
+    pro: await activePro(ctx, s.userId),
   });
 }
 

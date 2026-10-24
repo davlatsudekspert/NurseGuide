@@ -25,6 +25,16 @@ abstract interface class AdminConsoleBackend {
 
   Future<AdminUserDetail> adminUserDetail(String userId);
 
+  /// Istalgan emailga qo'lda Pro berish ([days] `null` — muddatsiz) va olib
+  /// tashlash. Server HMAC bilan saqlaydi; ro'yxatda faqat niqoblangan email.
+  Future<void> adminGrantPro({
+    required String email,
+    required String tier,
+    int? days,
+  });
+  Future<void> adminRevokePro(String email);
+  Future<List<ProGrantRow>> adminProGrants();
+
   /// Profil roli: hamshira / talaba / ustoz (o'zini emas).
   Future<void> adminSetRole(String userId, String role);
 
@@ -281,4 +291,27 @@ extension OwnerStats on AdminStats {
   ];
 
   DateTime? get generatedAt => _date(json['generated_at']);
+}
+
+/// Admin bergan Pro (niqoblangan email).
+@immutable
+class ProGrantRow {
+  const ProGrantRow({
+    required this.emailMasked,
+    required this.tier,
+    required this.until,
+    required this.active,
+  });
+
+  factory ProGrantRow.fromJson(Map<String, Object?> j) => ProGrantRow(
+    emailMasked: '${j['email_masked']}',
+    tier: '${j['tier']}',
+    until: DateTime.tryParse('${j['until']}'),
+    active: j['active'] == true,
+  );
+
+  final String emailMasked;
+  final String tier;
+  final DateTime? until;
+  final bool active;
 }

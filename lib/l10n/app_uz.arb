@@ -1433,8 +1433,8 @@
   "planSpecialist": "Mutaxassis",
   "planTeacher": "Ustoz",
   "planStudentDesc": "Testlar, mashq, imtihon rejimi, og‘zaki biletlar, saqlanganlar",
-  "planSpecialistDesc": "Talaba rejasidagi hammasi, qo‘shimcha DMED savol-javoblari va atamalar",
-  "planTeacherDesc": "Mutaxassis rejasidagi hammasi, qo‘shimcha guruhlar va natijalar",
+  "planSpecialistDesc": "Ustoz rejasidagi hammasi, qo‘shimcha DMED savol-javoblari va atamalar",
+  "planTeacherDesc": "Talaba rejasidagi hammasi, qo‘shimcha guruhlar va natijalar",
   "periodMonthly": "oyiga",
   "periodYearly": "yiliga",
   "paywallStart": "30 kun bepul boshlash",
@@ -1447,5 +1447,16 @@
   "paywallActive": "Obunangiz faol.",
   "paywallFreeNote": "Bepul: bosh sahifa, manipulyatsiyalar, kutubxona va kunlik savollar.",
   "paywallBack": "Bosh sahifaga qaytish",
-  "paywallProfileRow": "Obuna"
+  "paywallProfileRow": "Obuna",
+  "studyOnlyNote": "Imtihonga tayyorgarlik uchun o‘quv materiali. Davolash yoki klinik qaror uchun emas: muassasangizdagi amaldagi ko‘rsatmaga amal qiling.",
+  "adminPro": "Pro obunalar",
+  "adminProSub": "Istalgan emailga Pro berish yoki olib tashlash",
+  "adminProEmail": "Foydalanuvchi emaili",
+  "adminProDays": "Kun (bo‘sh = muddatsiz)",
+  "adminProGive": "Pro berish",
+  "adminProRemove": "Pro ni olib tashlash",
+  "adminProDone": "Saqlandi",
+  "adminProInvalid": "To‘g‘ri email va (kerak bo‘lsa) kun sonini kiriting.",
+  "adminProUntil": "{date} gacha",
+  "adminProForever": "muddatsiz"
 }

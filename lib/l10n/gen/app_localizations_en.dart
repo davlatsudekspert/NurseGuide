@@ -5075,11 +5075,11 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get planSpecialistDesc =>
-      'Everything in Student, plus DMED questions and the glossary';
+      'Everything in Teacher, plus DMED questions and the glossary';
 
   @override
   String get planTeacherDesc =>
-      'Everything in Specialist, plus groups and results';
+      'Everything in Student, plus groups and results';
 
   @override
   String get periodMonthly => 'per month';
@@ -5122,4 +5122,41 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get paywallProfileRow => 'Subscription';
+
+  @override
+  String get studyOnlyNote =>
+      'Study material for exams. Not for treatment or clinical decisions: follow your facility’s current instructions.';
+
+  @override
+  String get adminPro => 'Pro subscriptions';
+
+  @override
+  String get adminProSub => 'Give or remove Pro for any email';
+
+  @override
+  String get adminProEmail => 'User email';
+
+  @override
+  String get adminProDays => 'Days (empty = no end date)';
+
+  @override
+  String get adminProGive => 'Give Pro';
+
+  @override
+  String get adminProRemove => 'Remove Pro';
+
+  @override
+  String get adminProDone => 'Saved';
+
+  @override
+  String get adminProInvalid =>
+      'Enter a valid email and, if used, a number of days.';
+
+  @override
+  String adminProUntil(String date) {
+    return 'until $date';
+  }
+
+  @override
+  String get adminProForever => 'no end date';
 }

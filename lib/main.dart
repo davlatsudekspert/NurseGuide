@@ -69,6 +69,7 @@ AppServices createServices({
   Curriculum? curriculum,
   SocialAuthService? socialAuth,
   QrScanner? qrScanner,
+  BillingController? billing,
 }) {
   const config = AppConfig(appVersion: _appVersion, showDebugBadge: kDebugMode);
   final server = backend ?? _defaultBackend();
@@ -116,7 +117,7 @@ AppServices createServices({
     curriculum: CurriculumController(bundle: bundle, curriculum: curriculum),
     classroom: ClassroomLocal(store),
     topicTests: TopicTestController(store, clock: clock),
-    billing: BillingController(store: store, now: clock),
+    billing: billing ?? BillingController(store: store, now: clock),
     qrScanner: qrScanner ?? const MobileQrScanner(),
   )..watchAccess();
 }

@@ -55,7 +55,8 @@ class _RoleScreenState extends State<RoleScreen> {
 
   /// Ustoz (guruhlar) obunasi bor (billing o'chiq bo'lsa — doim). Talaba
   /// o'z profilini ustozga o'tkaza olmaydi.
-  bool get _teacherPlan => context.services.billing.allows('/learn/classes');
+  bool get _teacherPlan =>
+      context.services.billing.allows('/learn/classes/new');
 
   Future<void> _continue() async {
     final services = context.services;

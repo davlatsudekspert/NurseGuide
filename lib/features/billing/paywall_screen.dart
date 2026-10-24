@@ -100,9 +100,9 @@ class _PaywallScreenState extends State<PaywallScreen> {
                   Padding(
                     padding: const EdgeInsets.only(right: 8),
                     child: LgChoiceChip(
-                      label: p == BillingPeriod.monthly
+                      label: _capital(p == BillingPeriod.monthly
                           ? l.periodMonthly
-                          : l.periodYearly,
+                          : l.periodYearly),
                       selected: _period == p,
                       onTap: () => setState(() => _period = p),
                     ),
@@ -177,3 +177,6 @@ class _PaywallScreenState extends State<PaywallScreen> {
     );
   }
 }
+
+String _capital(String s) =>
+    s.isEmpty ? s : s[0].toUpperCase() + s.substring(1);

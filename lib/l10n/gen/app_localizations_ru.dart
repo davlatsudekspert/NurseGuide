@@ -5186,4 +5186,7 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get paywallNothingToRestore =>
       'Покупки для восстановления не найдены.';
+
+  @override
+  String get examNoQuestions => 'Сейчас нет доступных вопросов для экзамена.';
 }

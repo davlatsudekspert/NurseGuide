@@ -1462,5 +1462,6 @@
   "rolesTeacherNeedsPlan": "Ustoz roli uchun Ustoz yoki Mutaxassis rejasi kerak (Profil → Obuna).",
   "paywallTrialActive": "Bepul sinov {date} gacha",
   "paywallRestored": "Xaridlar tiklandi.",
-  "paywallNothingToRestore": "Tiklash uchun xarid topilmadi."
+  "paywallNothingToRestore": "Tiklash uchun xarid topilmadi.",
+  "examNoQuestions": "Hozir imtihon uchun savollar mavjud emas."
 }

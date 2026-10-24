@@ -5094,4 +5094,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get paywallNothingToRestore => 'Tiklash uchun xarid topilmadi.';
+
+  @override
+  String get examNoQuestions => 'Hozir imtihon uchun savollar mavjud emas.';
 }

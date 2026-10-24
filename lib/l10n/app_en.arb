@@ -3201,5 +3201,6 @@
     }
   },
   "paywallRestored": "Purchases restored.",
-  "paywallNothingToRestore": "No purchases found to restore."
+  "paywallNothingToRestore": "No purchases found to restore.",
+  "examNoQuestions": "There are no exam questions available right now."
 }

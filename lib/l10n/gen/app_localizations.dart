@@ -8877,6 +8877,12 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'No purchases found to restore.'**
   String get paywallNothingToRestore;
+
+  /// No description provided for @examNoQuestions.
+  ///
+  /// In en, this message translates to:
+  /// **'There are no exam questions available right now.'**
+  String get examNoQuestions;
 }
 
 class _AppLocalizationsDelegate

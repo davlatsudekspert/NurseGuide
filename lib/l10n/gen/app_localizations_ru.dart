@@ -1020,8 +1020,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get toifaReadyTitle => 'Примерная готовность';
 
   @override
-  String get toifaReadyCaption =>
-      'Среднее теста и устной части. Расчёт NurseGuide — не официальная оценка.';
+  String get toifaReadyCaption => 'Среднее теста и устной части.';
 
   @override
   String toifaReadyTestDetail(int done, int total) {

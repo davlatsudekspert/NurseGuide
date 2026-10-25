@@ -285,7 +285,7 @@
   "toifaNothingHere": "Здесь пока ничего нет.",
   "toifaProgressSubtitle": "Результаты по темам и готовность",
   "toifaReadyTitle": "Примерная готовность",
-  "toifaReadyCaption": "Среднее теста и устной части. Расчёт NurseGuide — не официальная оценка.",
+  "toifaReadyCaption": "Среднее теста и устной части.",
   "toifaReadyTestDetail": "Тест: освоено {done} / {total} вопросов",
   "toifaReadyOralDetail": "Устно: {done} / {total} «знал»",
   "toifaProgressPickCategory": "Устный результат считается по списку вашей категории — выберите категорию:",

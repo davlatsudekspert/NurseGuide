@@ -285,7 +285,7 @@
   "toifaNothingHere": "Bu yerda hozircha hech narsa yo‘q.",
   "toifaProgressSubtitle": "Mavzular bo‘yicha natija va tayyorlik",
   "toifaReadyTitle": "Taxminiy tayyorlik",
-  "toifaReadyCaption": "Test va og‘zaki natijalar o‘rtachasi. NurseGuide hisobi — rasmiy baho emas.",
+  "toifaReadyCaption": "Test va og‘zaki natijalar o‘rtachasi.",
   "toifaReadyTestDetail": "Test: {done} / {total} savol o‘zlashtirildi",
   "toifaReadyOralDetail": "Og‘zaki: {done} / {total} “bildim”",
   "toifaProgressPickCategory": "Og‘zaki natija toifangiz ro‘yxati bo‘yicha hisoblanadi — toifani tanlang:",

@@ -1016,8 +1016,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get toifaReadyTitle => 'Estimated readiness';
 
   @override
-  String get toifaReadyCaption =>
-      'Average of test and oral results. A NurseGuide estimate, not an official grade.';
+  String get toifaReadyCaption => 'Average of test and oral results.';
 
   @override
   String toifaReadyTestDetail(int done, int total) {

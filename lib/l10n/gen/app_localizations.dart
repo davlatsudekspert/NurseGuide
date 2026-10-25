@@ -1813,7 +1813,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaReadyCaption.
   ///
   /// In en, this message translates to:
-  /// **'Average of test and oral results. A NurseGuide estimate, not an official grade.'**
+  /// **'Average of test and oral results.'**
   String get toifaReadyCaption;
 
   /// No description provided for @toifaReadyTestDetail.

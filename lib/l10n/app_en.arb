@@ -672,7 +672,7 @@
   "toifaNothingHere": "Nothing here yet.",
   "toifaProgressSubtitle": "Results by topic and readiness",
   "toifaReadyTitle": "Estimated readiness",
-  "toifaReadyCaption": "Average of test and oral results. A NurseGuide estimate, not an official grade.",
+  "toifaReadyCaption": "Average of test and oral results.",
   "toifaReadyTestDetail": "Test: {done} / {total} questions mastered",
   "@toifaReadyTestDetail": {
     "placeholders": {

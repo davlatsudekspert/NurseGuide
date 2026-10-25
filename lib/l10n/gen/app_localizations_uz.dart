@@ -1020,8 +1020,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get toifaReadyTitle => 'Taxminiy tayyorlik';
 
   @override
-  String get toifaReadyCaption =>
-      'Test va og‘zaki natijalar o‘rtachasi. NurseGuide hisobi — rasmiy baho emas.';
+  String get toifaReadyCaption => 'Test va og‘zaki natijalar o‘rtachasi.';
 
   @override
   String toifaReadyTestDetail(int done, int total) {

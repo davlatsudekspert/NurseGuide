@@ -377,7 +377,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get learnExamSub => 'Время, тема и вопросы';
 
   @override
-  String get toifaTitle => 'Подготовка к экзамену на категорию';
+  String get toifaTitle => 'Проверка знаний и компетенций';
 
   @override
   String get toifaSubtitle => 'Квалификационная категория по сестринскому делу';
@@ -859,10 +859,6 @@ class AppLocalizationsRu extends AppLocalizations {
   @override
   String get toifaOralStep3 =>
       'Посмотрите план ответа и оцените себя: знал, частично или не знал.';
-
-  @override
-  String get toifaPlanDisclaimer =>
-      'Планы ответов — учебная помощь, подготовленная NurseGuide. Это не официальные ответы.';
 
   @override
   String get toifaPickCategoryFirst => 'Сначала выберите категорию';
@@ -5194,13 +5190,5 @@ class AppLocalizationsRu extends AppLocalizations {
   String get workDirObstetrics => 'Акушерство';
 
   @override
-  String get toifaScopeUnofficial =>
-      'Эти вопросы взяты из неофициального сборника; ключ ответов — по файлу и не проверен медицинским специалистом. Учебный материал, а не официальный список экзамена.';
-
-  @override
   String get workDirRadiology => 'Рентген-лаборант';
-
-  @override
-  String get toifaNoGuarantee =>
-      'Для подготовки: вопросы составлены по официальному списку, но приложение не может гарантировать, что на вашем экзамене попадутся именно они. Изучайте все темы полностью.';
 }

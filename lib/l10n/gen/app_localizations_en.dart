@@ -373,7 +373,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get learnExamSub => 'Time, topic and questions';
 
   @override
-  String get toifaTitle => 'Qualification category exam prep';
+  String get toifaTitle => 'Knowledge & Skills Assessment';
 
   @override
   String get toifaSubtitle => 'Nursing qualification category';
@@ -855,10 +855,6 @@ class AppLocalizationsEn extends AppLocalizations {
   @override
   String get toifaOralStep3 =>
       'Check the answer plan and rate yourself: knew, partly or didn’t know.';
-
-  @override
-  String get toifaPlanDisclaimer =>
-      'Answer plans are a study aid prepared by NurseGuide. They are not official answers.';
 
   @override
   String get toifaPickCategoryFirst => 'Choose a category first';
@@ -5183,13 +5179,5 @@ class AppLocalizationsEn extends AppLocalizations {
   String get workDirObstetrics => 'Obstetrics';
 
   @override
-  String get toifaScopeUnofficial =>
-      'These questions come from an unofficial collection; the answer key follows the file and has not been checked by a medical specialist. Study material, not the official exam list.';
-
-  @override
   String get workDirRadiology => 'X-ray technician';
-
-  @override
-  String get toifaNoGuarantee =>
-      'Prepared for study: the questions follow the official list, but the app cannot guarantee that these exact questions will appear in your exam. Please study every topic thoroughly.';
 }

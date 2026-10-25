@@ -757,7 +757,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaTitle.
   ///
   /// In en, this message translates to:
-  /// **'Qualification category exam prep'**
+  /// **'Knowledge & Skills Assessment'**
   String get toifaTitle;
 
   /// No description provided for @toifaSubtitle.
@@ -1533,12 +1533,6 @@ abstract class AppLocalizations {
   /// In en, this message translates to:
   /// **'Check the answer plan and rate yourself: knew, partly or didn’t know.'**
   String get toifaOralStep3;
-
-  /// No description provided for @toifaPlanDisclaimer.
-  ///
-  /// In en, this message translates to:
-  /// **'Answer plans are a study aid prepared by NurseGuide. They are not official answers.'**
-  String get toifaPlanDisclaimer;
 
   /// No description provided for @toifaPickCategoryFirst.
   ///
@@ -8890,23 +8884,11 @@ abstract class AppLocalizations {
   /// **'Obstetrics'**
   String get workDirObstetrics;
 
-  /// No description provided for @toifaScopeUnofficial.
-  ///
-  /// In en, this message translates to:
-  /// **'These questions come from an unofficial collection; the answer key follows the file and has not been checked by a medical specialist. Study material, not the official exam list.'**
-  String get toifaScopeUnofficial;
-
   /// No description provided for @workDirRadiology.
   ///
   /// In en, this message translates to:
   /// **'X-ray technician'**
   String get workDirRadiology;
-
-  /// No description provided for @toifaNoGuarantee.
-  ///
-  /// In en, this message translates to:
-  /// **'Prepared for study: the questions follow the official list, but the app cannot guarantee that these exact questions will appear in your exam. Please study every topic thoroughly.'**
-  String get toifaNoGuarantee;
 }
 
 class _AppLocalizationsDelegate

@@ -158,7 +158,7 @@
   },
   "learnExam": "Exam mode",
   "learnExamSub": "Time, topic and questions",
-  "toifaTitle": "Qualification category exam prep",
+  "toifaTitle": "Knowledge & Skills Assessment",
   "toifaSubtitle": "Nursing qualification category",
   "toifaEyebrow": "Nurse · category",
   "toifaEntryBody": "Questions from the official certification list: a 50-question test, topic practice, oral ticket and mistake review.",
@@ -571,7 +571,6 @@
   },
   "toifaOralStep2": "Prepare your answers — in your head or on paper.",
   "toifaOralStep3": "Check the answer plan and rate yourself: knew, partly or didn’t know.",
-  "toifaPlanDisclaimer": "Answer plans are a study aid prepared by NurseGuide. They are not official answers.",
   "toifaPickCategoryFirst": "Choose a category first",
   "toifaDrawTicket": "Draw a ticket",
   "toifaTicketTitle": "Your ticket",
@@ -3204,7 +3203,5 @@
   "paywallNothingToRestore": "No purchases found to restore.",
   "examNoQuestions": "There are no exam questions available right now.",
   "workDirObstetrics": "Obstetrics",
-  "toifaScopeUnofficial": "These questions come from an unofficial collection; the answer key follows the file and has not been checked by a medical specialist. Study material, not the official exam list.",
-  "workDirRadiology": "X-ray technician",
-  "toifaNoGuarantee": "Prepared for study: the questions follow the official list, but the app cannot guarantee that these exact questions will appear in your exam. Please study every topic thoroughly."
+  "workDirRadiology": "X-ray technician"
 }

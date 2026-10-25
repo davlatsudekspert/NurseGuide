@@ -375,7 +375,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get learnExamSub => 'Vaqt, mavzu va savollar';
 
   @override
-  String get toifaTitle => 'Toifa imtihoniga tayyorgarlik';
+  String get toifaTitle => 'Bilim va malakani baholash';
 
   @override
   String get toifaSubtitle => 'Hamshiralik ishi bo‘yicha malaka toifasi';
@@ -859,10 +859,6 @@ class AppLocalizationsUz extends AppLocalizations {
   @override
   String get toifaOralStep3 =>
       'Javob rejasini ko‘rib, o‘zingizni baholang: bildim, qisman yoki bilmadim.';
-
-  @override
-  String get toifaPlanDisclaimer =>
-      'Javob rejalari — NurseGuide tayyorlagan o‘quv yordami. Ular rasmiy javob emas.';
 
   @override
   String get toifaPickCategoryFirst => 'Avval toifani tanlang';
@@ -5102,13 +5098,5 @@ class AppLocalizationsUz extends AppLocalizations {
   String get workDirObstetrics => 'Akusherlik';
 
   @override
-  String get toifaScopeUnofficial =>
-      'Bu yo‘nalish savollari norasmiy to‘plamdan olingan; to‘g‘ri javob fayl bo‘yicha va tibbiy mutaxassis tekshiruvidan o‘tmagan. O‘quv materiali, rasmiy imtihon ro‘yxati emas.';
-
-  @override
   String get workDirRadiology => 'Rentgen laborant';
-
-  @override
-  String get toifaNoGuarantee =>
-      'Tayyorgarlik uchun: savollar rasmiy ro‘yxat asosida tuzilgan, lekin imtihonda aynan shu savollar tushishiga ilova kafolat bera olmaydi. Shuning uchun barcha mavzularni to‘liq o‘rganing.';
 }

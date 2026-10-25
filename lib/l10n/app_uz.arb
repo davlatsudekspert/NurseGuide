@@ -109,7 +109,7 @@
   "learnQuizSub": "{count, plural, other{{count} ta mashq savoli}}",
   "learnExam": "Imtihon rejimi",
   "learnExamSub": "Vaqt, mavzu va savollar",
-  "toifaTitle": "Toifa imtihoniga tayyorgarlik",
+  "toifaTitle": "Bilim va malakani baholash",
   "toifaSubtitle": "Hamshiralik ishi bo‘yicha malaka toifasi",
   "toifaEyebrow": "Hamshira · malaka toifasi",
   "toifaEntryBody": "Rasmiy attestatsiya ro‘yxatidagi savollar: 50 savollik test, mavzu bo‘yicha mashq, og‘zaki bilet va xatolar ustida ishlash.",
@@ -239,7 +239,6 @@
   "toifaOralStep1": "Toifangiz ro‘yxatidan tasodifiy {count} ta savol.",
   "toifaOralStep2": "Javoblarni o‘ylab yoki yozib tayyorlaning.",
   "toifaOralStep3": "Javob rejasini ko‘rib, o‘zingizni baholang: bildim, qisman yoki bilmadim.",
-  "toifaPlanDisclaimer": "Javob rejalari — NurseGuide tayyorlagan o‘quv yordami. Ular rasmiy javob emas.",
   "toifaPickCategoryFirst": "Avval toifani tanlang",
   "toifaDrawTicket": "Bilet olish",
   "toifaTicketTitle": "Biletingiz",
@@ -1465,7 +1464,5 @@
   "paywallNothingToRestore": "Tiklash uchun xarid topilmadi.",
   "examNoQuestions": "Hozir imtihon uchun savollar mavjud emas.",
   "workDirObstetrics": "Akusherlik",
-  "toifaScopeUnofficial": "Bu yo‘nalish savollari norasmiy to‘plamdan olingan; to‘g‘ri javob fayl bo‘yicha va tibbiy mutaxassis tekshiruvidan o‘tmagan. O‘quv materiali, rasmiy imtihon ro‘yxati emas.",
-  "workDirRadiology": "Rentgen laborant",
-  "toifaNoGuarantee": "Tayyorgarlik uchun: savollar rasmiy ro‘yxat asosida tuzilgan, lekin imtihonda aynan shu savollar tushishiga ilova kafolat bera olmaydi. Shuning uchun barcha mavzularni to‘liq o‘rganing."
+  "workDirRadiology": "Rentgen laborant"
 }

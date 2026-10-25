@@ -20,7 +20,6 @@ import '../settings/settings_controller.dart' show WorkDirection;
 import '../share/result_share.dart';
 import 'toifa_bank.dart';
 import '../../design/widgets/study_only_note.dart';
-import '../../design/widgets/no_guarantee_note.dart';
 import 'toifa_controller.dart';
 import 'toifa_daily.dart';
 import 'toifa_today.dart';
@@ -217,13 +216,6 @@ String? _scopeOf(BuildContext context) {
   return scope;
 }
 
-/// Tanlangan yo'nalish savollarining hammasi rasmiy/tekshirilgan darajasiz
-/// (norasmiy to'plam) bo'lsa — foydalanuvchiga aytiladi.
-bool _unofficial(ToifaBank bank, String scope) {
-  final pool = toifaTestPool(bank, scope: scope);
-  return pool.isNotEmpty && pool.every((q) => q.status == null);
-}
-
 class _ScopeChips extends StatelessWidget {
   const _ScopeChips({required this.bank});
 
@@ -265,15 +257,6 @@ class _ScopeChips extends StatelessWidget {
                 ),
           ],
         ),
-        if (scope != null && _unofficial(bank, scope))
-          Padding(
-            padding: const EdgeInsets.only(top: 12),
-            child: LgNotice(
-              l.toifaScopeUnofficial,
-              key: const ValueKey('toifa-scope-unofficial'),
-              kind: NoticeKind.info,
-            ),
-          ),
       ],
     );
   }
@@ -311,11 +294,7 @@ class _ToifaPage extends StatelessWidget {
           title: title,
           subtitle: subtitle,
           showProfile: false,
-          children: [
-            ...builder(context, bank),
-            // Savol ustidagi sahifalarda (pageKey bor) yozuv chiqmaydi.
-            if (pageKey == null) const NoGuaranteeNote(),
-          ],
+          children: [...builder(context, bank)],
         ),
       ),
     );
@@ -1591,8 +1570,6 @@ class ToifaOralScreen extends StatelessWidget {
         l.toifaOralStep2,
         l.toifaOralStep3,
       ]),
-      const SizedBox(height: 8),
-      LgNotice(l.toifaPlanDisclaimer),
       const SizedBox(height: 8),
       LgButton(
         label: cat == null ? l.toifaPickCategoryFirst : l.toifaDrawTicket,

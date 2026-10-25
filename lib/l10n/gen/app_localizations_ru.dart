@@ -5146,7 +5146,13 @@ class AppLocalizationsRu extends AppLocalizations {
   String get adminProEmail => 'Email пользователя';
 
   @override
-  String get adminProDays => 'Дней (пусто = без срока)';
+  String get adminProDays => 'Срок (пусто = бессрочно)';
+
+  @override
+  String get adminProUnitDays => 'Дни';
+
+  @override
+  String get adminProUnitMonths => 'Месяцы';
 
   @override
   String get adminProGive => 'Выдать Pro';
@@ -5159,7 +5165,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get adminProInvalid =>
-      'Введите корректный email и, если нужно, число дней.';
+      'Введите корректный email и (при необходимости) срок: 1–3650 дней или 1–120 месяцев.';
 
   @override
   String adminProUntil(String date) {

@@ -5136,7 +5136,13 @@ class AppLocalizationsEn extends AppLocalizations {
   String get adminProEmail => 'User email';
 
   @override
-  String get adminProDays => 'Days (empty = no end date)';
+  String get adminProDays => 'Duration (empty = no expiry)';
+
+  @override
+  String get adminProUnitDays => 'Days';
+
+  @override
+  String get adminProUnitMonths => 'Months';
 
   @override
   String get adminProGive => 'Give Pro';
@@ -5149,7 +5155,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get adminProInvalid =>
-      'Enter a valid email and, if used, a number of days.';
+      'Enter a valid email and (if needed) a duration: 1–3650 days or 1–120 months.';
 
   @override
   String adminProUntil(String date) {

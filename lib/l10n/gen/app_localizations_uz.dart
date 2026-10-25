@@ -5057,7 +5057,13 @@ class AppLocalizationsUz extends AppLocalizations {
   String get adminProEmail => 'Foydalanuvchi emaili';
 
   @override
-  String get adminProDays => 'Kun (bo‘sh = muddatsiz)';
+  String get adminProDays => 'Muddat (bo‘sh = muddatsiz)';
+
+  @override
+  String get adminProUnitDays => 'Kun';
+
+  @override
+  String get adminProUnitMonths => 'Oy';
 
   @override
   String get adminProGive => 'Pro berish';
@@ -5070,7 +5076,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get adminProInvalid =>
-      'To‘g‘ri email va (kerak bo‘lsa) kun sonini kiriting.';
+      'To‘g‘ri email va (kerak bo‘lsa) muddatni kiriting: 1–3650 kun yoki 1–120 oy.';
 
   @override
   String adminProUntil(String date) {

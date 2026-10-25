@@ -25,12 +25,13 @@ abstract interface class AdminConsoleBackend {
 
   Future<AdminUserDetail> adminUserDetail(String userId);
 
-  /// Istalgan emailga qo'lda Pro berish ([days] `null` — muddatsiz) va olib
+  /// Istalgan emailga qo'lda Pro berish ([days] yoki [months]; ikkalasi `null` — muddatsiz) va olib
   /// tashlash. Server HMAC bilan saqlaydi; ro'yxatda faqat niqoblangan email.
   Future<void> adminGrantPro({
     required String email,
     required String tier,
     int? days,
+    int? months,
   });
   Future<void> adminRevokePro(String email);
   Future<List<ProGrantRow>> adminProGrants();

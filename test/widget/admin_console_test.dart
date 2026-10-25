@@ -124,6 +124,30 @@ void main() {
     expect(find.text(l.adminProInvalid), findsOneWidget);
   });
 
+  testWidgets('Pro muddati oyda belgilanadi', (tester) async {
+    final l = _l(AppLanguage.uz);
+    final server = FakeAdminConsoleBackend(adminEmails: const {_owner});
+    final s = await _setup(tester, server);
+    await _signIn(tester, s, _owner);
+    routerOf(tester).go('/profile/admin/pro');
+    await tester.pumpAndSettle();
+    await tester.enterText(
+      find.byKey(const ValueKey('pro-email')),
+      'vali@mail.uz',
+    );
+    await tester.enterText(find.byKey(const ValueKey('pro-days')), '6');
+    await _tap(tester, find.byKey(const ValueKey('pro-unit-months')));
+    await _tap(tester, find.byKey(const ValueKey('pro-give')));
+    final until = server.proGrants['vali@mail.uz']?.until;
+    expect(until, isNotNull);
+    final days = until!.difference(DateTime.now()).inDays;
+    expect(days, inInclusiveRange(178, 186));
+    // 121 oy — chegaradan tashqari.
+    await tester.enterText(find.byKey(const ValueKey('pro-days')), '121');
+    await _tap(tester, find.byKey(const ValueKey('pro-give')));
+    expect(find.text(l.adminProInvalid), findsOneWidget);
+  });
+
   group('Aloqa va shikoyat: ilova ichidagi shakl', () {
     testWidgets('mehmon va hisobli yuboradi; 6-chisi — soatiga 5 ta xabari', (
       tester,

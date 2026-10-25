@@ -2,7 +2,7 @@
 // Xavfsizlik: yo'llar — faqat panel admin (email kodi bilan kirgan egasi),
 // email HMAC bilan saqlanadi (javobda faqat niqoblangan), yozish amallari
 // audit_log ga (id emas — niqoblangan email va daraja), soatiga 120 ta.
-import { audit, emailHash, maskEmail, normalizeEmail, requirePanelAdmin } from './auth';
+import { audit, emailHash, isSuperAdmin, maskEmail, normalizeEmail, requirePanelAdmin } from './auth';
 import type { Ctx } from './context';
 import { hex, hmac, sha256Hex } from './crypto';
 import { badRequest, json, notFound, readJson } from './http';
@@ -12,6 +12,7 @@ export const PRO_TIERS = ['student', 'teacher', 'specialist'] as const;
 export type ProTier = (typeof PRO_TIERS)[number];
 const DAY = 86400_000;
 const MAX_DAYS = 3650;
+const MAX_MONTHS = 120;
 
 const hmacHex = async (ctx: Ctx, v: string) => hex(await hmac(ctx.keys.uid, v));
 
@@ -22,6 +23,8 @@ export async function activePro(
   ctx: Ctx,
   userId: string,
 ): Promise<{ tier: ProTier; until: string | null } | null> {
+  // Egasi (super admin) — doim to'liq (Mutaxassis) kirish, muddatsiz.
+  if (await isSuperAdmin(ctx, userId)) return { tier: 'specialist', until: null };
   const r = await ctx.db
     .prepare(
       `SELECT g.tier AS tier, g.until AS until
@@ -89,7 +92,7 @@ async function panel(ctx: Ctx, write: boolean) {
   return s;
 }
 
-/** POST /v1/admin/pro {email, tier, days?} — days bo'lmasa muddatsiz. */
+/** POST /v1/admin/pro {email, tier, days? | months?} — ikkalasi ham bo'lmasa muddatsiz. */
 export async function grant(ctx: Ctx): Promise<Response> {
   const s = await panel(ctx, true);
   const body = await readJson(ctx.req);
@@ -98,10 +101,19 @@ export async function grant(ctx: Ctx): Promise<Response> {
   const tier = typeof body.tier === 'string' ? body.tier : '';
   if (!(PRO_TIERS as readonly string[]).includes(tier)) throw badRequest('invalid_tier');
   let until: number | null = null;
-  if (body.days !== undefined && body.days !== null) {
+  const hasDays = body.days !== undefined && body.days !== null;
+  const hasMonths = body.months !== undefined && body.months !== null;
+  if (hasDays && hasMonths) throw badRequest('invalid_days');
+  if (hasDays) {
     const d = body.days;
     if (typeof d !== 'number' || !Number.isInteger(d) || d < 1 || d > MAX_DAYS) throw badRequest('invalid_days');
     until = ctx.now + d * DAY;
+  } else if (hasMonths) {
+    const m = body.months;
+    if (typeof m !== 'number' || !Number.isInteger(m) || m < 1 || m > MAX_MONTHS) throw badRequest('invalid_days');
+    const at = new Date(ctx.now);
+    at.setUTCMonth(at.getUTCMonth() + m);
+    until = at.getTime();
   }
   const masked = maskEmail(email);
   await ctx.db

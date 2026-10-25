@@ -1479,12 +1479,18 @@ class FakeAdminConsoleBackend extends FakeAdminTeamBackend
     required String email,
     required String tier,
     int? days,
+    int? months,
   }) async {
     _panel();
+    final now = DateTime.now();
     proGrants[email.trim().toLowerCase()] = ProGrantRow(
       emailMasked: '${email.substring(0, 2)}***',
       tier: tier,
-      until: days == null ? null : DateTime.now().add(Duration(days: days)),
+      until: months != null
+          ? DateTime(now.year, now.month + months, now.day)
+          : days == null
+          ? null
+          : now.add(Duration(days: days)),
       active: true,
     );
   }

@@ -1129,10 +1129,16 @@ class CloudflareAppBackend
     required String email,
     required String tier,
     int? days,
+    int? months,
   }) => _admin(
     'POST',
     '/v1/admin/pro',
-    body: {'email': email.trim(), 'tier': tier, 'days': ?days},
+    body: {
+      'email': email.trim(),
+      'tier': tier,
+      'days': ?days,
+      'months': ?months,
+    },
   );
 
   @override

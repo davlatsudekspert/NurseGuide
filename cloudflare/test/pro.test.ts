@@ -49,6 +49,28 @@ describe('admin: emailga Pro berish', () => {
     expect((await s.call('DELETE', '/v1/admin/pro', { token: boss.token, body: { email } })).status).toBe(404);
   });
 
+  it('egasi (super admin) doim Mutaxassis, muddatsiz; oddiy foydalanuvchi — yo‘q', async () => {
+    const { s, boss } = await setup();
+    const me = await s.call('GET', '/v1/me', { token: boss.token });
+    expect(me.data.pro).toEqual({ tier: 'specialist', until: null });
+    const user = await s.signIn(uniqueEmail('plain2'));
+    expect((await s.call('GET', '/v1/me', { token: user.token })).data.pro).toBeNull();
+  });
+
+  it('muddat oyda: kalendar oy bo‘yicha; kun va oy birga — rad', async () => {
+    const { s, boss } = await setup();
+    const post = (body: unknown) => s.call('POST', '/v1/admin/pro', { token: boss.token, body });
+    const r = await post({ email: uniqueEmail('m'), tier: 'teacher', months: 3 });
+    expect(r.status).toBe(200);
+    const left = Date.parse(r.data.until) - s.clock.now;
+    expect(left).toBeGreaterThanOrEqual(89 * DAY);
+    expect(left).toBeLessThanOrEqual(93 * DAY);
+    expect((await post({ email: uniqueEmail('m'), tier: 'student', months: 0 })).status).toBe(400);
+    expect((await post({ email: uniqueEmail('m'), tier: 'student', months: 121 })).status).toBe(400);
+    expect((await post({ email: uniqueEmail('m'), tier: 'student', months: 1.5 })).status).toBe(400);
+    expect((await post({ email: uniqueEmail('m'), tier: 'student', days: 5, months: 1 })).status).toBe(400);
+  });
+
   it('noto‘g‘ri kirishlar', async () => {
     const { s, boss } = await setup();
     const post = (body: unknown) => s.call('POST', '/v1/admin/pro', { token: boss.token, body });

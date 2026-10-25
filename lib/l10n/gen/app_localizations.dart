@@ -8821,8 +8821,20 @@ abstract class AppLocalizations {
   /// No description provided for @adminProDays.
   ///
   /// In en, this message translates to:
-  /// **'Days (empty = no end date)'**
+  /// **'Duration (empty = no expiry)'**
   String get adminProDays;
+
+  /// No description provided for @adminProUnitDays.
+  ///
+  /// In en, this message translates to:
+  /// **'Days'**
+  String get adminProUnitDays;
+
+  /// No description provided for @adminProUnitMonths.
+  ///
+  /// In en, this message translates to:
+  /// **'Months'**
+  String get adminProUnitMonths;
 
   /// No description provided for @adminProGive.
   ///
@@ -8845,7 +8857,7 @@ abstract class AppLocalizations {
   /// No description provided for @adminProInvalid.
   ///
   /// In en, this message translates to:
-  /// **'Enter a valid email and, if used, a number of days.'**
+  /// **'Enter a valid email and (if needed) a duration: 1–3650 days or 1–120 months.'**
   String get adminProInvalid;
 
   /// No description provided for @adminProUntil.

@@ -24,6 +24,7 @@ class _AdminProScreenState extends State<AdminProScreen> {
   final _email = TextEditingController();
   final _days = TextEditingController();
   String _tier = 'student';
+  bool _months = false;
   bool _busy = false;
   String? _error;
   List<ProGrantRow> _grants = const [];
@@ -60,11 +61,12 @@ class _AdminProScreenState extends State<AdminProScreen> {
     final l = AppLocalizations.of(context);
     final email = normalizeEmail(_email.text);
     final raw = _days.text.trim();
-    final days = raw.isEmpty ? null : int.tryParse(raw);
+    final amount = raw.isEmpty ? null : int.tryParse(raw);
     final api = _api;
+    final max = _months ? 120 : 3650;
     if (api == null ||
         !isValidEmail(email) ||
-        (raw.isNotEmpty && (days == null || days < 1))) {
+        (raw.isNotEmpty && (amount == null || amount < 1 || amount > max))) {
       setState(() => _error = l.adminProInvalid);
       return;
     }
@@ -118,6 +120,24 @@ class _AdminProScreenState extends State<AdminProScreen> {
                   controller: _days,
                   keyboardType: TextInputType.number,
                 ),
+                const SizedBox(height: 8),
+                Wrap(
+                  spacing: 8,
+                  children: [
+                    LgChoiceChip(
+                      key: const ValueKey('pro-unit-days'),
+                      label: l.adminProUnitDays,
+                      selected: !_months,
+                      onTap: () => setState(() => _months = false),
+                    ),
+                    LgChoiceChip(
+                      key: const ValueKey('pro-unit-months'),
+                      label: l.adminProUnitMonths,
+                      selected: _months,
+                      onTap: () => setState(() => _months = true),
+                    ),
+                  ],
+                ),
                 const SizedBox(height: 12),
                 Wrap(
                   spacing: 8,
@@ -147,7 +167,12 @@ class _AdminProScreenState extends State<AdminProScreen> {
                           (api) => api.adminGrantPro(
                             email: normalizeEmail(_email.text),
                             tier: _tier,
-                            days: int.tryParse(_days.text.trim()),
+                            days: _months
+                                ? null
+                                : int.tryParse(_days.text.trim()),
+                            months: _months
+                                ? int.tryParse(_days.text.trim())
+                                : null,
                           ),
                         ),
                 ),

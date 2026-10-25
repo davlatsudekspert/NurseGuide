@@ -1439,6 +1439,7 @@
   "periodYearly": "yiliga",
   "paywallStart": "Obuna bo‘lish",
   "paywallRestore": "Xaridni tiklash",
+  "paywallManage": "Obunani do‘konda boshqarish",
   "paywallLegal": "Obuna har davr (oy yoki yil) oxirida avtomatik yangilanadi, agar uni kamida 24 soat oldin bekor qilmasangiz. To‘lov App Store yoki Google Play hisobingizdan olinadi; obunani do‘kon obuna sozlamalarida boshqarish va bekor qilish mumkin.",
   "paywallTerms": "Foydalanish shartlari",
   "paywallPrivacy": "Maxfiylik siyosati",

@@ -5100,6 +5100,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get paywallRestore => 'Восстановить покупки';
 
   @override
+  String get paywallManage => 'Управление подпиской в магазине';
+
+  @override
   String get paywallLegal =>
       'Подписка автоматически продлевается в конце каждого периода (месяц или год), если вы не отмените её не позднее чем за 24 часа. Оплата списывается с вашего аккаунта App Store или Google Play; управлять подпиской и отменять её можно в настройках подписок магазина.';
 

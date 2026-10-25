@@ -5091,6 +5091,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get paywallRestore => 'Restore purchases';
 
   @override
+  String get paywallManage => 'Manage subscription in the store';
+
+  @override
   String get paywallLegal =>
       'The subscription renews automatically at the end of each period (month or year) unless you cancel it at least 24 hours before. Payment is charged to your App Store or Google Play account; manage or cancel it in the store subscription settings.';
 

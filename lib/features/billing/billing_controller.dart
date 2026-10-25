@@ -137,6 +137,11 @@ class BillingController extends ChangeNotifier {
     _teacherRegistered = _store.getBool(StoreKeys.billingTeacher) ?? false;
   }
 
+  /// Do'kon obuna sozlamalari (bekor qilish/o'zgartirish) sahifasi.
+  String get manageUrl => _isAndroid
+      ? 'https://play.google.com/store/account/subscriptions'
+      : 'https://apps.apple.com/account/subscriptions';
+
   Map<String, ProductDetails> get products => _products;
   bool get storeReady => _storeReady;
   String? get error => _error;

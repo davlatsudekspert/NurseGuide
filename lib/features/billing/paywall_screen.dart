@@ -4,6 +4,7 @@ import 'package:material_ui/material_ui.dart';
 
 import '../../app/app_scope.dart';
 import '../../app/widgets/lg_page.dart';
+import '../../app/widgets/links.dart';
 import '../../design/widgets/lg_widgets.dart';
 import '../../l10n/gen/app_localizations.dart';
 import 'billing_controller.dart';
@@ -166,6 +167,12 @@ class _PaywallScreenState extends State<PaywallScreen> {
                           ),
                         );
                     },
+            ),
+            const SizedBox(height: 8),
+            LgButton.secondary(
+              key: const ValueKey('paywall-manage'),
+              label: l.paywallManage,
+              onPressed: () => openExternalLink(context, billing.manageUrl),
             ),
             const SizedBox(height: 12),
             Text(l.paywallFreeNote),

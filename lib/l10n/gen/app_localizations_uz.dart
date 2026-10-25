@@ -5011,6 +5011,9 @@ class AppLocalizationsUz extends AppLocalizations {
   String get paywallRestore => 'Xaridni tiklash';
 
   @override
+  String get paywallManage => 'Obunani do‘konda boshqarish';
+
+  @override
   String get paywallLegal =>
       'Obuna har davr (oy yoki yil) oxirida avtomatik yangilanadi, agar uni kamida 24 soat oldin bekor qilmasangiz. To‘lov App Store yoki Google Play hisobingizdan olinadi; obunani do‘kon obuna sozlamalarida boshqarish va bekor qilish mumkin.';
 

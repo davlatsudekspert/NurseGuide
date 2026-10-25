@@ -8734,6 +8734,12 @@ abstract class AppLocalizations {
   /// **'Restore purchases'**
   String get paywallRestore;
 
+  /// No description provided for @paywallManage.
+  ///
+  /// In en, this message translates to:
+  /// **'Manage subscription in the store'**
+  String get paywallManage;
+
   /// No description provided for @paywallLegal.
   ///
   /// In en, this message translates to:

@@ -64,7 +64,7 @@ class _AdminProScreenState extends State<AdminProScreen> {
     final api = _api;
     if (api == null ||
         !isValidEmail(email) ||
-        (raw.isNotEmpty && days == null)) {
+        (raw.isNotEmpty && (days == null || days < 1))) {
       setState(() => _error = l.adminProInvalid);
       return;
     }

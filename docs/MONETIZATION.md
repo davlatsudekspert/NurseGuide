@@ -88,7 +88,7 @@ mahsulotlar yaratilmaguncha hech narsa yopilmaydi.
    Functionality, hisobga bog'lanmagan, kuzatuv uchun emas); Play "Data safety" →
    Device or other IDs (App functionality). Ilova matnlari va sayt (`site/privacy`,
    `site/terms`) shunga mos yangilangan.
-7. CI: repo variable `NG_BILLING_ENABLED=true`, yangi TestFlight build; sandbox
+7. CI: repo variables `NG_BILLING_ENABLED=true` va `LG_BILLING_LAUNCH` (deploy_api shuni serverga beradi), yangi TestFlight build (qadamlar: `docs/store/LAUNCH_STEPS.md`); sandbox
    (TestFlight) va license-tester orqali sinash.
 8. Keyin: server tomonda kvitansiya tekshiruvi (App Store Server API / Play
    Developer API); shundan so'ng `LG_TEACHER_REQUIRES_PRO=1`.

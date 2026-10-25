@@ -92,6 +92,9 @@ env:
   LG_GOOGLE_IOS_CLIENT_ID: ${{ vars.NG_GOOGLE_IOS_ENABLED == 'true' && vars.LG_GOOGLE_IOS_CLIENT_ID || '' }}
   LG_APPLE_SERVICE_ID: ${{ vars.LG_APPLE_SERVICE_ID }}
   LG_APPLE_SIGNIN: ${{ vars.LG_APPLE_SIGNIN || 'false' }}
+  # Obuna (Free/Pro): repo variable NG_BILLING_ENABLED=true bo'lgandagina yoqiladi
+  # (do'konda 6 ta mahsulot yaratilgach; docs/MONETIZATION.md "Yoqish tartibi").
+  NG_BILLING_ENABLED: ${{ vars.NG_BILLING_ENABLED || 'false' }}
 
 jobs:
   tests:
@@ -256,11 +259,14 @@ jobs:
         if: steps.ready.outputs.ready == 'true'
         env:
           EMAIL_PROVIDER: ${{ vars.EMAIL_PROVIDER }}
+          # Obuna yoqilish sanasi (ISO): shundan oldingi hisoblar ham shu kundan 30 kun sinov oladi.
+          LG_BILLING_LAUNCH: ${{ vars.LG_BILLING_LAUNCH }}
         run: |
           set -euo pipefail
           # EMAIL_PROVIDER: repo variable (resend | brevo); bo'sh bo'lsa wrangler.toml'dagi "resend".
           VARS=()
           if [ -n "$EMAIL_PROVIDER" ]; then VARS=(--var "EMAIL_PROVIDER:$EMAIL_PROVIDER"); fi
+          if [ -n "$LG_BILLING_LAUNCH" ]; then VARS+=(--var "LG_BILLING_LAUNCH:$LG_BILLING_LAUNCH"); fi
           npx wrangler deploy "${VARS[@]}" 2>&1 | tee "$RUNNER_TEMP/deploy.log"
           URL=$(grep -oE 'https://nurseguide-api\.[a-z0-9-]+\.workers\.dev' "$RUNNER_TEMP/deploy.log" | head -1 || true)
           echo "API_URL=$URL" >> "$GITHUB_ENV"
@@ -394,12 +400,12 @@ jobs:
             --build-number="${{ github.run_number }}" \
             --dart-define=LG_API_URL="$LG_API_URL" \
             --dart-define=LG_GOOGLE_CLIENT_ID="$LG_GOOGLE_CLIENT_ID" --dart-define=LG_GOOGLE_IOS_CLIENT_ID="$LG_GOOGLE_IOS_CLIENT_ID" \
-            --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN"
+            --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN" --dart-define=NG_BILLING_ENABLED="$NG_BILLING_ENABLED"
           if [ "${ANDROID_SIGNED:-false}" = true ]; then
             flutter build appbundle --release --build-number="${{ github.run_number }}" \
               --dart-define=LG_API_URL="$LG_API_URL" \
               --dart-define=LG_GOOGLE_CLIENT_ID="$LG_GOOGLE_CLIENT_ID" --dart-define=LG_GOOGLE_IOS_CLIENT_ID="$LG_GOOGLE_IOS_CLIENT_ID" \
-              --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN"
+              --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN" --dart-define=NG_BILLING_ENABLED="$NG_BILLING_ENABLED"
           fi
           cd build/app/outputs/flutter-apk
           VERSION=$(grep '^version:' "$GITHUB_WORKSPACE/pubspec.yaml" | sed 's/version: *//; s/+.*//')
@@ -565,7 +571,7 @@ jobs:
             --build-name="$IOS_VERSION" --build-number="$IOS_BUILD_NUMBER" \
             --dart-define=LG_API_URL="$LG_API_URL" \
             --dart-define=LG_GOOGLE_CLIENT_ID="$LG_GOOGLE_CLIENT_ID" --dart-define=LG_GOOGLE_IOS_CLIENT_ID="$LG_GOOGLE_IOS_CLIENT_ID" \
-            --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN=false
+            --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN=false --dart-define=NG_BILLING_ENABLED="$NG_BILLING_ENABLED"
           APP=build/ios/iphoneos/Runner.app
           PB=/usr/libexec/PlistBuddy
           ID=$($PB -c 'Print :CFBundleIdentifier' "$APP/Info.plist")
@@ -960,7 +966,7 @@ jobs:
               --build-name="$IOS_VERSION" --build-number="$IOS_BUILD_NUMBER" \
               --dart-define=LG_API_URL="$LG_API_URL" \
               --dart-define=LG_GOOGLE_CLIENT_ID="$LG_GOOGLE_CLIENT_ID" --dart-define=LG_GOOGLE_IOS_CLIENT_ID="$LG_GOOGLE_IOS_CLIENT_ID" \
-              --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN" \
+              --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN" --dart-define=NG_BILLING_ENABLED="$NG_BILLING_ENABLED" \
               --export-options-plist="$SIGN_DIR/ExportOptions.plist"
           else
             # Arxiv imzosiz; eksportda Xcode bulut sertifikati va avtomatik
@@ -969,7 +975,7 @@ jobs:
               --build-name="$IOS_VERSION" --build-number="$IOS_BUILD_NUMBER" \
               --dart-define=LG_API_URL="$LG_API_URL" \
               --dart-define=LG_GOOGLE_CLIENT_ID="$LG_GOOGLE_CLIENT_ID" --dart-define=LG_GOOGLE_IOS_CLIENT_ID="$LG_GOOGLE_IOS_CLIENT_ID" \
-              --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN"
+              --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN" --dart-define=NG_BILLING_ENABLED="$NG_BILLING_ENABLED"
             xcodebuild -workspace ios/Runner.xcworkspace -scheme Runner \
               -configuration Release -destination 'generic/platform=iOS' \
               -archivePath build/ios/archive/Runner.xcarchive \

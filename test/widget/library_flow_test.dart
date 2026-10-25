@@ -23,15 +23,13 @@ Future<void> _tapText(WidgetTester tester, String text) =>
 void main() {
   setUpAll(loadAppFonts);
 
-  testWidgets('library search entry opens the catalog with the keyboard', (
+  testWidgets('library: search entry is hidden while the catalog is empty', (
     tester,
   ) async {
     final s = await makeServices(tester);
     await pumpApp(tester, s);
     await goTo(tester, '/library');
-    await _tapText(tester, _uz.libSearchEntry);
-    final field = tester.widget<TextField>(find.byType(TextField));
-    expect(field.focusNode!.hasFocus, isTrue);
+    expect(find.text(_uz.libSearchEntry), findsNothing);
   });
 
   testWidgets(

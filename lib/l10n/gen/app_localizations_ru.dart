@@ -59,7 +59,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get welcomeSubtitle =>
-      'Аттестация, манипуляции и обучение в одном месте.';
+      'Проверка знаний, манипуляции и обучение в одном месте.';
 
   @override
   String get welcomeGetStarted => 'Начать / зарегистрироваться';
@@ -380,7 +380,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get toifaTitle => 'Проверка знаний и компетенций';
 
   @override
-  String get toifaSubtitle => 'Квалификационная категория по сестринскому делу';
+  String get toifaSubtitle => 'Тесты, устные вопросы и результаты';
 
   @override
   String get toifaEyebrow => 'Медсестра · категория';
@@ -520,7 +520,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get toifaAboutTitle => 'Источник и проверка';
 
   @override
-  String get toifaListSource => 'Источник: официальный список вопросов';
+  String get toifaListSource => 'Источник: списки вопросов и учебные сборники';
 
   @override
   String toifaAboutList(int tests, int oral) {
@@ -544,7 +544,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String toifaTestSubtitle(int count) {
-    return '$count вопросов · случайно из официального списка';
+    return '$count вопросов · случайно из списка';
   }
 
   @override
@@ -561,7 +561,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get toifaFormatStep3 =>
-      'В конце разбор ошибок: официальный ключ и пояснение NurseGuide.';
+      'В конце разбор ошибок: ключ и пояснение NurseGuide.';
 
   @override
   String get toifaTimeLabel => 'Время, минут';
@@ -591,7 +591,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get toifaScoringNotice =>
-      'Баллы считаются по официальному ключу — на экзамене требуется именно он. Для спорных ключей в результатах есть пояснение NurseGuide.';
+      'Баллы считаются по ключу — верным считается ответ, отмеченный в нём. Для спорных ключей в результатах есть пояснение NurseGuide.';
 
   @override
   String get toifaTestStart => 'Начать тест';
@@ -913,7 +913,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get toifaReferenceTitle => 'Нормативные показатели';
 
   @override
-  String get toifaCutoffTitle => 'Диагностический порог (руководство)';
+  String get toifaCutoffTitle => 'Порог (руководство)';
 
   @override
   String get toifaWrongLabel => 'Неверно';
@@ -1333,8 +1333,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get shareFooter => 'Справочник и тренировки для медсестёр';
 
   @override
-  String get shareToifaNote =>
-      'Не официально — результат тренировки в NurseGuide';
+  String get shareToifaNote => 'Результат тренировки в NurseGuide';
 
   @override
   String shareText(String kind, int correct, int total, int percent) {
@@ -4654,7 +4653,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get roleNurse => 'Медсестра';
 
   @override
-  String get roleNurseDesc => 'Аттестация и манипуляции';
+  String get roleNurseDesc => 'Проверка знаний и манипуляции';
 
   @override
   String get procTitle => 'Манипуляции';
@@ -4972,6 +4971,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get rolesTeacherLocked => 'Только для вошедших в аккаунт';
 
   @override
+  String get rolesTeacherPlanLabel => 'Нужен план «Учитель» или «Специалист»';
+
+  @override
   String get rolesTeacherFailed =>
       'Сервер не подтвердил роль преподавателя. Проверьте интернет и повторите.';
 
@@ -5075,8 +5077,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get planTeacher => 'Преподаватель';
 
   @override
-  String get planStudentDesc =>
-      'Тесты, практика, режим экзамена, устные билеты, сохранённое';
+  String get planStudentDesc => 'Тесты, практика, режим экзамена, сохранённое';
 
   @override
   String get planSpecialistDesc =>
@@ -5123,7 +5124,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get paywallFreeNote =>
-      'Бесплатно: главная, манипуляции, библиотека и ежедневные вопросы.';
+      'Бесплатно: главная, манипуляции и ежедневные вопросы.';
 
   @override
   String get paywallBack => 'На главную';

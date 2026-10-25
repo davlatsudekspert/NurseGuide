@@ -539,7 +539,7 @@ class _AboutPanel extends StatelessWidget {
     final text = Theme.of(context).textTheme;
     final ready = bank.oral.where((q) => q.planReady).length;
     final lines = [
-      l.toifaAboutList(bank.tests.length, bank.oral.length),
+      l.toifaAboutList(bank.tests.length - bank.heldTests, bank.oral.length),
       if (bank.verdictCount(KeyVerdict.disputed) +
               bank.verdictCount(KeyVerdict.ambiguous) >
           0)
@@ -549,9 +549,6 @@ class _AboutPanel extends StatelessWidget {
         ),
       if (bank.keyless > 0) l.toifaAboutKeyless(bank.keyless),
       l.toifaAboutOral(ready, bank.oral.length),
-      if (bank.oral.where((q) => q.held != null).length + bank.heldTests
-          case final held when held > 0)
-        l.toifaAboutHeld(held),
       if (bank.auditCheckedAt case final date?) l.toifaAgentChecked(date),
     ];
     return LgPanel(

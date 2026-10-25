@@ -1509,9 +1509,33 @@ class _AssignedTestsCardState extends State<AssignedTestsCard> {
     _exams = context.services.exams..addListener(_examsChanged);
   }
 
+  GoRouter? _router;
+  String _lastPath = '';
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    final router = GoRouter.of(context);
+    if (!identical(router, _router)) {
+      _router?.routerDelegate.removeListener(_routeChanged);
+      _router = router..routerDelegate.addListener(_routeChanged);
+      _lastPath = router.routeInformationProvider.value.uri.path;
+    }
+  }
+
+  /// Guruhga qo'shilgach (yoki chiqqach) bosh sahifa/O'rganishga qaytilganda
+  /// topshiriqlar ro'yxati qayta yuklanadi.
+  void _routeChanged() {
+    final path = _router?.routeInformationProvider.value.uri.path ?? '';
+    final back = path != _lastPath && (path == '/home' || path == '/learn');
+    _lastPath = path;
+    if (back && mounted && _loadedFor != null) unawaited(_load(_loadedFor));
+  }
+
   @override
   void dispose() {
     _exams?.removeListener(_examsChanged);
+    _router?.routerDelegate.removeListener(_routeChanged);
     super.dispose();
   }
 

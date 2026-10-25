@@ -378,7 +378,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get toifaTitle => 'Bilim va malakani baholash';
 
   @override
-  String get toifaSubtitle => 'Hamshiralik ishi bo‘yicha malaka toifasi';
+  String get toifaSubtitle => 'Testlar, og‘zaki savollar va natijalar';
 
   @override
   String get toifaEyebrow => 'Hamshira · malaka toifasi';
@@ -518,7 +518,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get toifaAboutTitle => 'Manba va tekshiruv';
 
   @override
-  String get toifaListSource => 'Manba: rasmiy savollar ro‘yxati';
+  String get toifaListSource => 'Manba: savollar ro‘yxati va o‘quv to‘plamlari';
 
   @override
   String toifaAboutList(int tests, int oral) {
@@ -542,7 +542,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String toifaTestSubtitle(int count) {
-    return '$count ta savol · rasmiy ro‘yxatdan tasodifiy';
+    return '$count ta savol · ro‘yxatdan tasodifiy';
   }
 
   @override
@@ -559,7 +559,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get toifaFormatStep3 =>
-      'Yakunda xatolar tahlili: rasmiy kalit va NurseGuide izohi.';
+      'Yakunda xatolar tahlili: kalit va NurseGuide izohi.';
 
   @override
   String get toifaTimeLabel => 'Vaqt, daqiqa';
@@ -591,7 +591,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get toifaScoringNotice =>
-      'Ball rasmiy kalit bo‘yicha hisoblanadi — imtihonda shu javob talab qilinadi. Kalit bahsli savollarda natijada NurseGuide izohi ham ko‘rsatiladi.';
+      'Ball kalit bo‘yicha hisoblanadi — to‘g‘ri javob shu belgi bo‘yicha. Kalit bahsli savollarda natijada NurseGuide izohi ham ko‘rsatiladi.';
 
   @override
   String get toifaTestStart => 'Testni boshlash';
@@ -914,7 +914,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get toifaReferenceTitle => 'Me’yoriy ko‘rsatkichlar';
 
   @override
-  String get toifaCutoffTitle => 'Diagnostik chegara (qo‘llanma)';
+  String get toifaCutoffTitle => 'Chegara (qo‘llanma)';
 
   @override
   String get toifaWrongLabel => 'Noto‘g‘ri';
@@ -1302,7 +1302,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get shareFooter => 'Hamshiralar uchun qo‘llanma va mashqlar';
 
   @override
-  String get shareToifaNote => 'Rasmiy emas, NurseGuide mashq natijasi';
+  String get shareToifaNote => 'NurseGuide mashq natijasi';
 
   @override
   String shareText(String kind, int correct, int total, int percent) {
@@ -4883,6 +4883,9 @@ class AppLocalizationsUz extends AppLocalizations {
   String get rolesTeacherLocked => 'Hisobga kirgan foydalanuvchilar uchun';
 
   @override
+  String get rolesTeacherPlanLabel => 'Ustoz yoki Mutaxassis rejasi kerak';
+
+  @override
   String get rolesTeacherFailed =>
       'Server ustoz rolini tasdiqlamadi. Internetni tekshirib, qayta urinib ko‘ring.';
 
@@ -4985,8 +4988,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get planTeacher => 'Ustoz';
 
   @override
-  String get planStudentDesc =>
-      'Testlar, mashq, imtihon rejimi, og‘zaki biletlar, saqlanganlar';
+  String get planStudentDesc => 'Testlar, mashq, imtihon rejimi, saqlanganlar';
 
   @override
   String get planSpecialistDesc =>
@@ -5033,7 +5035,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get paywallFreeNote =>
-      'Bepul: bosh sahifa, manipulyatsiyalar, kutubxona va kunlik savollar.';
+      'Bepul: bosh sahifa, manipulyatsiyalar va kunlik savollar.';
 
   @override
   String get paywallBack => 'Bosh sahifaga qaytish';

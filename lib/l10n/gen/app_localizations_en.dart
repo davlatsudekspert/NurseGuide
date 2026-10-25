@@ -376,7 +376,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get toifaTitle => 'Knowledge & Skills Assessment';
 
   @override
-  String get toifaSubtitle => 'Nursing qualification category';
+  String get toifaSubtitle => 'Tests, oral questions and results';
 
   @override
   String get toifaEyebrow => 'Nurse · category';
@@ -516,7 +516,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get toifaAboutTitle => 'Source and review';
 
   @override
-  String get toifaListSource => 'Source: official question list';
+  String get toifaListSource => 'Source: question lists and study collections';
 
   @override
   String toifaAboutList(int tests, int oral) {
@@ -540,7 +540,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String toifaTestSubtitle(int count) {
-    return '$count questions · drawn from the official list';
+    return '$count questions · drawn from the list';
   }
 
   @override
@@ -557,7 +557,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get toifaFormatStep3 =>
-      'At the end: mistake review with the official key and NurseGuide note.';
+      'At the end: mistake review with the key and NurseGuide note.';
 
   @override
   String get toifaTimeLabel => 'Time, minutes';
@@ -587,7 +587,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get toifaScoringNotice =>
-      'Scoring follows the official key — that is what the exam expects. Where the key is disputed, the results also show a NurseGuide note.';
+      'Scoring follows the key — the marked answer counts as correct. Where the key is disputed, the results also show a NurseGuide note.';
 
   @override
   String get toifaTestStart => 'Start test';
@@ -910,7 +910,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get toifaReferenceTitle => 'Reference values';
 
   @override
-  String get toifaCutoffTitle => 'Diagnostic cut-off (guideline)';
+  String get toifaCutoffTitle => 'Cut-off (guideline)';
 
   @override
   String get toifaWrongLabel => 'Wrong';
@@ -1320,7 +1320,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get shareFooter => 'Nursing reference and practice';
 
   @override
-  String get shareToifaNote => 'Not official — NurseGuide practice result';
+  String get shareToifaNote => 'NurseGuide practice result';
 
   @override
   String shareText(String kind, int correct, int total, int percent) {
@@ -4964,6 +4964,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get rolesTeacherLocked => 'For signed-in accounts only';
 
   @override
+  String get rolesTeacherPlanLabel => 'Teacher or Specialist plan required';
+
+  @override
   String get rolesTeacherFailed =>
       'The server did not confirm the teacher role. Check your connection and try again.';
 
@@ -5065,8 +5068,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get planTeacher => 'Teacher';
 
   @override
-  String get planStudentDesc =>
-      'Tests, practice, exam mode, oral tickets, saved items';
+  String get planStudentDesc => 'Tests, practice, exam mode, saved items';
 
   @override
   String get planSpecialistDesc =>
@@ -5112,8 +5114,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get paywallCurrentPlan => 'Current plan';
 
   @override
-  String get paywallFreeNote =>
-      'Free: home, procedures, library and daily questions.';
+  String get paywallFreeNote => 'Free: home, procedures and daily questions.';
 
   @override
   String get paywallBack => 'Back to home';

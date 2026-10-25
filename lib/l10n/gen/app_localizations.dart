@@ -763,7 +763,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'Nursing qualification category'**
+  /// **'Tests, oral questions and results'**
   String get toifaSubtitle;
 
   /// No description provided for @toifaEyebrow.
@@ -1003,7 +1003,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaListSource.
   ///
   /// In en, this message translates to:
-  /// **'Source: official question list'**
+  /// **'Source: question lists and study collections'**
   String get toifaListSource;
 
   /// No description provided for @toifaAboutList.
@@ -1033,7 +1033,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaTestSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'{count} questions · drawn from the official list'**
+  /// **'{count} questions · drawn from the list'**
   String toifaTestSubtitle(int count);
 
   /// No description provided for @toifaFormatTitle.
@@ -1057,7 +1057,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaFormatStep3.
   ///
   /// In en, this message translates to:
-  /// **'At the end: mistake review with the official key and NurseGuide note.'**
+  /// **'At the end: mistake review with the key and NurseGuide note.'**
   String get toifaFormatStep3;
 
   /// No description provided for @toifaTimeLabel.
@@ -1111,7 +1111,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaScoringNotice.
   ///
   /// In en, this message translates to:
-  /// **'Scoring follows the official key — that is what the exam expects. Where the key is disputed, the results also show a NurseGuide note.'**
+  /// **'Scoring follows the key — the marked answer counts as correct. Where the key is disputed, the results also show a NurseGuide note.'**
   String get toifaScoringNotice;
 
   /// No description provided for @toifaTestStart.
@@ -1639,7 +1639,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaCutoffTitle.
   ///
   /// In en, this message translates to:
-  /// **'Diagnostic cut-off (guideline)'**
+  /// **'Cut-off (guideline)'**
   String get toifaCutoffTitle;
 
   /// No description provided for @toifaWrongLabel.
@@ -2281,7 +2281,7 @@ abstract class AppLocalizations {
   /// No description provided for @shareToifaNote.
   ///
   /// In en, this message translates to:
-  /// **'Not official — NurseGuide practice result'**
+  /// **'NurseGuide practice result'**
   String get shareToifaNote;
 
   /// No description provided for @shareText.
@@ -8494,6 +8494,12 @@ abstract class AppLocalizations {
   /// **'For signed-in accounts only'**
   String get rolesTeacherLocked;
 
+  /// No description provided for @rolesTeacherPlanLabel.
+  ///
+  /// In en, this message translates to:
+  /// **'Teacher or Specialist plan required'**
+  String get rolesTeacherPlanLabel;
+
   /// No description provided for @rolesTeacherFailed.
   ///
   /// In en, this message translates to:
@@ -8689,7 +8695,7 @@ abstract class AppLocalizations {
   /// No description provided for @planStudentDesc.
   ///
   /// In en, this message translates to:
-  /// **'Tests, practice, exam mode, oral tickets, saved items'**
+  /// **'Tests, practice, exam mode, saved items'**
   String get planStudentDesc;
 
   /// No description provided for @planSpecialistDesc.
@@ -8773,7 +8779,7 @@ abstract class AppLocalizations {
   /// No description provided for @paywallFreeNote.
   ///
   /// In en, this message translates to:
-  /// **'Free: home, procedures, library and daily questions.'**
+  /// **'Free: home, procedures and daily questions.'**
   String get paywallFreeNote;
 
   /// No description provided for @paywallBack.

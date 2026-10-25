@@ -34,9 +34,12 @@ class LibraryScreen extends StatelessWidget {
             .where((i) => libraryItemAvailableIn(i, uiLang))
             .length;
         // Katalog bo'sh bo'lsa "0 ta manba" qatori ko'rsatilmaydi.
+        final sourcesCount = services.content.pack?.sources.length ?? 0;
         final sections = [
           for (final s in LibrarySection.values)
-            if (s != LibrarySection.books || (count ?? 0) > 0) s,
+            if ((s != LibrarySection.books || (count ?? 0) > 0) &&
+                (s != LibrarySection.sources || sourcesCount > 0))
+              s,
         ];
         return LgPage(
           title: l.libTitle,
@@ -44,10 +47,11 @@ class LibraryScreen extends StatelessWidget {
           showBrand: true,
           children: [
             const _ContinueReadingCard(),
-            _SearchEntry(
-              label: l.libSearchEntry,
-              onTap: () => context.push('/library/books?search=1'),
-            ),
+            if ((count ?? 0) > 0)
+              _SearchEntry(
+                label: l.libSearchEntry,
+                onTap: () => context.push('/library/books?search=1'),
+              ),
             for (final (i, s) in sections.indexed)
               _SectionRow(
                 section: s,
@@ -244,8 +248,10 @@ class SavedScreen extends StatelessWidget {
                   kind: StateKind.empty,
                   title: l.savedEmptyTitle,
                   message: l.savedEmptyBody,
-                  actionLabel: l.libBooks,
-                  onAction: () => context.push('/library/books'),
+                  actionLabel: pack.library.isEmpty ? null : l.libBooks,
+                  onAction: pack.library.isEmpty
+                      ? null
+                      : () => context.push('/library/books'),
                 );
               }
               return Column(

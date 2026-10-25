@@ -91,7 +91,8 @@ class BillingPlan {
 }
 
 final _teacherOnly = RegExp(
-  r'^/learn/classes/(new$|test$|g/[^/]+/(plan|assign|topic-test|t/|a/[^/]+/(board|s/)))',
+  r'^/learn/classes/(new$|test$|g/[^/]+/(plan|assign|topic-test|t/|a/[^/]+/(board|s/)))'
+  r'|^/learn/lecture/test/[^/]+/assign',
 );
 
 /// Qaysi yo'l qaysi imkoniyatni talab qiladi (`null` — bepul).

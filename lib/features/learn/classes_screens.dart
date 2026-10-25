@@ -1230,7 +1230,8 @@ class _GroupScreenState extends State<GroupScreen> with _AccountReload {
         if (inviteFirst) _InviteCard(group: d.group),
         _planRow(d.group),
         ...assignments,
-        LgSectionTitle(l.classesMembersTitle(students.length)),
+        if (students.isNotEmpty)
+          LgSectionTitle(l.classesMembersTitle(students.length)),
         if (students.isEmpty)
           Text(l.classesNoStudents, style: text.bodyMedium)
         else

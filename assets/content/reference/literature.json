@@ -28,7 +28,7 @@
    "id": "tmbm",
    "group": "official",
    "author": "Tibbiyot va farmatsevtika xodimlarining malakasini baholash markazi",
-   "title": "Attestatsiya test savollari bazasi (Hamshiralik ishi, Oliy hamshiralik ishi, Patronaj)",
+   "title": "Malaka baholash test savollari bazasi (Hamshiralik ishi, Oliy hamshiralik ishi, Patronaj)",
    "publisher": "O‘zR Sog‘liqni saqlash vazirligi",
    "match": [
     "TMBM"
@@ -280,7 +280,7 @@
    "author": "DMED xodimlari uchun video qo‘llanmalar",
    "year": 2025,
    "title": "DMED tizimida ishlash bo‘yicha savol-javoblar",
-   "publisher": "Telegram (norasmiy to‘plam, 2025-06-17)",
+   "publisher": "Telegram (o‘quv to‘plami, 2025-06-17)",
    "match": [
     "DMED xodimlari"
    ]
@@ -290,7 +290,7 @@
    "group": "other",
    "author": "ARGOS MED nomi bilan tarqalgan jadval",
    "title": "DMED va kompyuter savodxonligi bo‘yicha 96 ta test javobi",
-   "publisher": "Telegram (norasmiy to‘plam)",
+   "publisher": "Telegram (o‘quv to‘plami)",
    "match": [
     "ARGOS MED"
    ]
@@ -300,7 +300,7 @@
    "group": "other",
    "author": "O‘rta tibbiyot xodimlari uchun akusherlik ishi test savollari",
    "title": "Akusherlik ishi mutaxassisligi bo‘yicha test savollari ro‘yxati",
-   "publisher": "Telegram (norasmiy to‘plam)",
+   "publisher": "Telegram (o‘quv to‘plami)",
    "match": [
     "Akusherlik ishi mutaxassisligi bo'yicha test savollari"
    ]
@@ -310,9 +310,9 @@
    "group": "other",
    "author": "Patronaj hamshiralari uchun test savollari",
    "title": "Hamshiralik ishi (patronaj hamshiralari) test savollari ro‘yxati (Patronajlar)",
-   "publisher": "Telegram (norasmiy to‘plam)",
+   "publisher": "Telegram (o‘quv to‘plami)",
    "match": [
-    "Patronajlar, norasmiy"
+    "Patronajlar, o'quv to'plami"
    ]
   },
   {
@@ -320,7 +320,7 @@
    "group": "other",
    "author": "Rentgen laboranti (o‘rta tibbiyot xodimlari) uchun test savollari",
    "title": "Rentgen laboranti test savollari ro‘yxati",
-   "publisher": "Telegram (norasmiy to‘plam)",
+   "publisher": "Telegram (o‘quv to‘plami)",
    "match": [
     "«Rentgen laboranti» test savollari"
    ]

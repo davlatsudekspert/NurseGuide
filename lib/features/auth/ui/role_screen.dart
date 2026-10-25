@@ -107,6 +107,9 @@ class _RoleScreenState extends State<RoleScreen> {
             role: role,
             selected: role == _selected,
             locked: role == AppRole.teacher && !_teacherAvailable,
+            lockedLabel: context.services.auth.hasAccount && !_teacherPlan
+                ? l.rolesTeacherPlanLabel
+                : null,
             onTap: () => setState(() {
               _selected = role;
               _teacherFailed = false;
@@ -146,6 +149,7 @@ class RoleCard extends StatelessWidget {
     required this.selected,
     required this.onTap,
     this.locked = false,
+    this.lockedLabel,
   });
 
   final AppRole role;
@@ -154,6 +158,9 @@ class RoleCard extends StatelessWidget {
 
   /// Qulflangan karta (masalan, mehmon uchun “Ustoz”): tanlanmaydi.
   final bool locked;
+
+  /// Qulf sababi yorlig'i; berilmasa — «hisobga kirgan foydalanuvchilar uchun».
+  final String? lockedLabel;
 
   @override
   Widget build(BuildContext context) {
@@ -176,7 +183,7 @@ class RoleCard extends StatelessWidget {
           color: selected && !locked ? p.soft : p.paper,
           borderRadius: BorderRadius.circular(18),
           semanticLabel:
-              '${role.title(l)}. ${locked ? l.rolesTeacherLocked : role.description(l)}',
+              '${role.title(l)}. ${locked ? (lockedLabel ?? l.rolesTeacherLocked) : role.description(l)}',
           child: ExcludeSemantics(
             child: Padding(
               padding: const EdgeInsets.all(16),
@@ -199,7 +206,9 @@ class RoleCard extends StatelessWidget {
                         Text(role.title(l), style: text.titleMedium),
                         const SizedBox(height: 3),
                         Text(
-                          locked ? l.rolesTeacherLocked : role.description(l),
+                          locked
+                              ? (lockedLabel ?? l.rolesTeacherLocked)
+                              : role.description(l),
                           style: text.bodySmall,
                         ),
                       ],

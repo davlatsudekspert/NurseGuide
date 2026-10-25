@@ -159,7 +159,7 @@
   "learnExam": "Exam mode",
   "learnExamSub": "Time, topic and questions",
   "toifaTitle": "Knowledge & Skills Assessment",
-  "toifaSubtitle": "Nursing qualification category",
+  "toifaSubtitle": "Tests, oral questions and results",
   "toifaEyebrow": "Nurse · category",
   "toifaEntryBody": "Questions from the official list: a 50-question test, topic practice, oral ticket and mistake review.",
   "toifaEntryBodyShort": "Test, oral ticket and mistake review — based on the official list.",
@@ -266,7 +266,7 @@
   "toifaProgressTitle": "Progress",
   "toifaProgressRowSub": "Results by topic and readiness",
   "toifaAboutTitle": "Source and review",
-  "toifaListSource": "Source: official question list",
+  "toifaListSource": "Source: question lists and study collections",
   "toifaAboutList": "The list has {tests} test and {oral} oral questions (duplicates across categories merged).",
   "@toifaAboutList": {
     "placeholders": {
@@ -308,7 +308,7 @@
       }
     }
   },
-  "toifaTestSubtitle": "{count} questions · drawn from the official list",
+  "toifaTestSubtitle": "{count} questions · drawn from the list",
   "@toifaTestSubtitle": {
     "placeholders": {
       "count": {
@@ -329,7 +329,7 @@
     }
   },
   "toifaFormatStep2": "One answer per question; options in list order.",
-  "toifaFormatStep3": "At the end: mistake review with the official key and NurseGuide note.",
+  "toifaFormatStep3": "At the end: mistake review with the key and NurseGuide note.",
   "toifaTimeLabel": "Time, minutes",
   "toifaNoTime": "No time limit",
   "toifaTimeHelper": "No official time limit is set in the app — choose your own or leave empty.",
@@ -338,7 +338,7 @@
   "toifaNoPass": "Not set",
   "toifaPassHelper": "This is your own threshold, not the official pass mark.",
   "toifaPassError": "Enter 1 to 100 % or leave empty",
-  "toifaScoringNotice": "Scoring follows the official key — that is what the exam expects. Where the key is disputed, the results also show a NurseGuide note.",
+  "toifaScoringNotice": "Scoring follows the key — the marked answer counts as correct. Where the key is disputed, the results also show a NurseGuide note.",
   "toifaTestStart": "Start test",
   "toifaTodayEyebrow": "Today",
   "toifaTodayGoal": "Goal: {count} questions or 1 ticket",
@@ -588,7 +588,7 @@
   "toifaPlanMissing": "The plan for this question is not ready yet.",
   "toifaPlanNotChecked": "No source is attached to this plan yet.",
   "toifaReferenceTitle": "Reference values",
-  "toifaCutoffTitle": "Diagnostic cut-off (guideline)",
+  "toifaCutoffTitle": "Cut-off (guideline)",
   "toifaWrongLabel": "Wrong",
   "toifaRightLabel": "Right",
   "toifaNeedsSource": "Source needed — being checked with a teacher",
@@ -893,7 +893,7 @@
   "shareKindToifa": "Category test practice",
   "shareCorrectCaption": "correct answers",
   "shareFooter": "Nursing reference and practice",
-  "shareToifaNote": "Not official — NurseGuide practice result",
+  "shareToifaNote": "NurseGuide practice result",
   "shareText": "NurseGuide · {kind}: {correct}/{total} ({percent}%)",
   "@shareText": {
     "placeholders": {
@@ -3124,6 +3124,7 @@
   "catExams": "Exams and assessment",
   "kindGuideline": "Guideline",
   "rolesTeacherLocked": "For signed-in accounts only",
+  "rolesTeacherPlanLabel": "Teacher or Specialist plan required",
   "rolesTeacherFailed": "The server did not confirm the teacher role. Check your connection and try again.",
   "toifaTopicOther": "Other",
   "lectureUnverifiedNotice": "This deck has not been verified yet — review the content before class",
@@ -3156,7 +3157,7 @@
   "planStudent": "Student",
   "planSpecialist": "Specialist",
   "planTeacher": "Teacher",
-  "planStudentDesc": "Tests, practice, exam mode, oral tickets, saved items",
+  "planStudentDesc": "Tests, practice, exam mode, saved items",
   "planSpecialistDesc": "Everything in Teacher, plus DMED questions and the glossary",
   "planTeacherDesc": "Everything in Student, plus groups and results",
   "periodMonthly": "per month",
@@ -3170,7 +3171,7 @@
   "paywallError": "The purchase did not go through.",
   "paywallActive": "Your subscription is active.",
   "paywallCurrentPlan": "Current plan",
-  "paywallFreeNote": "Free: home, procedures, library and daily questions.",
+  "paywallFreeNote": "Free: home, procedures and daily questions.",
   "paywallBack": "Back to home",
   "paywallProfileRow": "Subscription",
   "studyOnlyNote": "Study material for exams. Not for treatment or clinical decisions: follow your facility’s current instructions.",

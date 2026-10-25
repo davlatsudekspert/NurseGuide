@@ -78,11 +78,12 @@ class _PaywallScreenState extends State<PaywallScreen> {
           children: [
             Text(l.paywallLead),
             const SizedBox(height: 8),
-            if (!active) ...[
+            if (!active && billing.trialUntil == null) ...[
               Text(l.paywallTrial),
               const SizedBox(height: 12),
             ],
-            if (billing.trialUntil case final until?) ...[
+            if (billing.trialUntil case final until?
+                when until.isAfter(DateTime.now())) ...[
               Text(
                 l.paywallTrialActive(
                   DateFormat.yMMMd(Localizations.localeOf(context).toString())
@@ -102,9 +103,11 @@ class _PaywallScreenState extends State<PaywallScreen> {
                   Padding(
                     padding: const EdgeInsets.only(right: 8),
                     child: LgChoiceChip(
-                      label: _capital(p == BillingPeriod.monthly
-                          ? l.periodMonthly
-                          : l.periodYearly),
+                      label: _capital(
+                        p == BillingPeriod.monthly
+                            ? l.periodMonthly
+                            : l.periodYearly,
+                      ),
                       selected: _period == p,
                       onTap: () => setState(() => _period = p),
                     ),
@@ -115,21 +118,30 @@ class _PaywallScreenState extends State<PaywallScreen> {
             for (final plan in BillingPlan.all.where(
               (p) => p.period == _period,
             ))
-              Padding(
-                padding: const EdgeInsets.only(bottom: 12),
-                child: LgRow(
-                  key: ValueKey('plan-${plan.productId}'),
-                  icon: Icons.workspace_premium_outlined,
-                  title: plan.tier == billing.tier
-                      ? '${_name(l, plan.tier)} · ${l.paywallCurrentPlan}'
-                      : _name(l, plan.tier),
-                  subtitle: _desc(l, plan.tier),
-                  trailing: Text(
-                    '${billing.products[plan.productId]?.price ?? plan.fallbackUsd}'
-                    ' ${plan.period == BillingPeriod.monthly ? l.periodMonthly : l.periodYearly}',
-                  ),
-                  onTap: billing.busy ? null : () => billing.buy(plan),
-                ),
+              Builder(
+                builder: (context) {
+                  final price =
+                      '${billing.products[plan.productId]?.price ?? plan.fallbackUsd}'
+                      ' ${plan.period == BillingPeriod.monthly ? l.periodMonthly : l.periodYearly}';
+                  // Katta shriftda narx tor ustunda harflarga bo'linmasin:
+                  // u tavsif ostiga tushadi.
+                  final big = MediaQuery.textScalerOf(context).scale(10) > 13;
+                  return Padding(
+                    padding: const EdgeInsets.only(bottom: 12),
+                    child: LgRow(
+                      key: ValueKey('plan-${plan.productId}'),
+                      icon: Icons.workspace_premium_outlined,
+                      title: plan.tier == billing.tier
+                          ? '${_name(l, plan.tier)} · ${l.paywallCurrentPlan}'
+                          : _name(l, plan.tier),
+                      subtitle: big
+                          ? '${_desc(l, plan.tier)}\n$price'
+                          : _desc(l, plan.tier),
+                      trailing: big ? null : Text(price),
+                      onTap: billing.busy ? null : () => billing.buy(plan),
+                    ),
+                  );
+                },
               ),
             if (!billing.storeReady) Text(l.paywallUnavailable),
             if (billing.error != null) Text(l.paywallError),
@@ -159,7 +171,7 @@ class _PaywallScreenState extends State<PaywallScreen> {
             Text(l.paywallFreeNote),
             const SizedBox(height: 8),
             Text(l.paywallLegal),
-            Row(
+            Wrap(
               children: [
                 TextButton(
                   onPressed: () => context.push('/terms'),

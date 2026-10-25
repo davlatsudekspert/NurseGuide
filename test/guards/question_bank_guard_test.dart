@@ -47,6 +47,10 @@ List<String> checkBank(Json tests, Json oral) {
     if (n is! int || !numbers.add(n)) bad('test n takror/yo‘q: $id');
     final options = (q['options'] as List? ?? const []).cast<String>();
     if (options.length < 3 || options.length > 4) bad('variantlar soni: $id');
+    if (options.map((o) => normalizeForSearch(o)).toSet().length !=
+        options.length) {
+      bad('takroriy variant: $id');
+    }
     final key = (q['key'] as List? ?? const []).cast<int>();
     if (key.length > 1) bad('bittadan ko‘p kalit: $id');
     for (final k in key) {
@@ -175,6 +179,13 @@ void main() {
       final t = tests();
       qs(t)[1]['q'] = qs(t)[0]['q'];
       expect(checkBank(t, oral()), anyElement(contains('takroriy')));
+    });
+
+    test('bir xil variantlar topiladi', () {
+      final t = tests();
+      final o = (qs(t)[0]['options']! as List).cast<String>();
+      qs(t)[0]['options'] = [...o.take(o.length - 1), o.first];
+      expect(checkBank(t, oral()), anyElement(contains('takroriy variant')));
     });
 
     test('bilet noma’lum savolga havola qilsa topiladi', () {

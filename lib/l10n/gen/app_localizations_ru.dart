@@ -387,7 +387,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get toifaEntryBody =>
-      'Вопросы из официального списка аттестации: тест из 50 вопросов, практика по темам, устный билет и работа над ошибками.';
+      'Вопросы из официального списка: тест из 50 вопросов, практика по темам, устный билет и работа над ошибками.';
 
   @override
   String get toifaEntryBodyShort =>
@@ -410,7 +410,7 @@ class AppLocalizationsRu extends AppLocalizations {
   }
 
   @override
-  String get toifaOpen => 'Начать подготовку';
+  String get toifaOpen => 'Начать';
 
   @override
   String get toifaContinue => 'Продолжить';
@@ -420,7 +420,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get toifaUzbekNotice =>
-      'Официальный текст вопросов аттестации — на узбекском. Оценка — по официальному узбекскому тексту и ключу.';
+      'Официальный текст вопросов — на узбекском. Оценка — по официальному узбекскому тексту и ключу.';
 
   @override
   String get toifaShowOriginal => 'Показать оригинал';
@@ -520,8 +520,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get toifaAboutTitle => 'Источник и проверка';
 
   @override
-  String get toifaListSource =>
-      'Источник: официальный список вопросов аттестации';
+  String get toifaListSource => 'Источник: официальный список вопросов';
 
   @override
   String toifaAboutList(int tests, int oral) {
@@ -1249,7 +1248,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get dailySourceToifa =>
-      'Вопросы берутся из официального списка аттестации — только те, чей ключ прошёл проверку NurseGuide.';
+      'Вопросы берутся из официального списка — только те, чей ключ прошёл проверку NurseGuide.';
 
   @override
   String get dailyReminderTitle => 'NurseGuide: вопросы дня';
@@ -3036,7 +3035,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get classroomTypeSeminar => 'Семинар';
 
   @override
-  String get classroomTypeAttestation => 'Аттестация';
+  String get classroomTypeAttestation => 'Проверка знаний';
 
   @override
   String get classroomTypeOther => 'Занятие';
@@ -4151,7 +4150,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get topicTestSourcesNote =>
-      'Вопросы только из проверенных источников: официальные вопросы аттестации с подтверждённым ключом и учебные вопросы с указанным источником.';
+      'Вопросы только из проверенных источников: официальные вопросы с подтверждённым ключом и учебные вопросы с указанным источником.';
 
   @override
   String get topicTestStart => 'Начать тест';
@@ -4927,14 +4926,14 @@ class AppLocalizationsRu extends AppLocalizations {
   String get hubGoLearn => 'Перейти к обучению';
 
   @override
-  String get homeHeroNurseTitle => 'Готовьтесь к аттестации уверенно';
+  String get homeHeroNurseTitle => 'Проверка знаний и компетенций';
 
   @override
   String get homeHeroNurseBody =>
-      'Вопросы аттестации, устные ответы и ежедневная практика — в одном месте.';
+      'Тест, устные ответы и ежедневная практика — в одном месте.';
 
   @override
-  String get homeHeroNurseCta => 'Подготовка к категории';
+  String get homeHeroNurseCta => 'Начать проверку';
 
   @override
   String get homeTileToifa => 'Тест, устный билет и ошибки';
@@ -4964,7 +4963,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get catPharmacology => 'Фармакология';
 
   @override
-  String get catExams => 'Экзамены и аттестация';
+  String get catExams => 'Экзамены и проверка знаний';
 
   @override
   String get kindGuideline => 'Клиническое руководство';
@@ -5025,7 +5024,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get welcomeBenefitNurseBody =>
-      'Тесты на категорию, устные билеты и манипуляции';
+      'Тесты знаний, устные билеты и манипуляции';
 
   @override
   String get welcomeBenefitStudentTitle => 'Студенту';
@@ -5046,7 +5045,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get actionUnsave => 'Убрать из сохранённых';
 
   @override
-  String get toifaEmptyTitle => 'Вопросы аттестации не найдены';
+  String get toifaEmptyTitle => 'Вопросы не найдены';
 
   @override
   String get toifaEmptyBody =>

@@ -59,7 +59,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get welcomeSubtitle =>
-      'Certification, procedures and learning in one place.';
+      'Knowledge assessment, procedures and learning in one place.';
 
   @override
   String get welcomeGetStarted => 'Get started / sign up';
@@ -383,7 +383,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get toifaEntryBody =>
-      'Questions from the official certification list: a 50-question test, topic practice, oral ticket and mistake review.';
+      'Questions from the official list: a 50-question test, topic practice, oral ticket and mistake review.';
 
   @override
   String get toifaEntryBodyShort =>
@@ -406,7 +406,7 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get toifaOpen => 'Start preparing';
+  String get toifaOpen => 'Start';
 
   @override
   String get toifaContinue => 'Continue';
@@ -416,7 +416,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get toifaUzbekNotice =>
-      'The official text of the certification questions is in Uzbek. Scoring follows the official Uzbek text and key.';
+      'The official text of the questions is in Uzbek. Scoring follows the official Uzbek text and key.';
 
   @override
   String get toifaShowOriginal => 'Show original text';
@@ -516,7 +516,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get toifaAboutTitle => 'Source and review';
 
   @override
-  String get toifaListSource => 'Source: official certification question list';
+  String get toifaListSource => 'Source: official question list';
 
   @override
   String toifaAboutList(int tests, int oral) {
@@ -1236,7 +1236,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get dailySourceToifa =>
-      'Questions come from the official certification list — only those whose key passed the NurseGuide check.';
+      'Questions come from the official list — only those whose key passed the NurseGuide check.';
 
   @override
   String get dailyReminderTitle => 'NurseGuide: daily questions';
@@ -4145,7 +4145,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get topicTestSourcesNote =>
-      'Questions come only from verified sources: official certification questions with a confirmed key and practice questions with a cited source.';
+      'Questions come only from verified sources: official questions with a confirmed key and practice questions with a cited source.';
 
   @override
   String get topicTestStart => 'Start the test';
@@ -4649,7 +4649,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get roleNurse => 'Nurse';
 
   @override
-  String get roleNurseDesc => 'Certification and procedures';
+  String get roleNurseDesc => 'Knowledge assessment and procedures';
 
   @override
   String get procTitle => 'Procedures';
@@ -4918,14 +4918,14 @@ class AppLocalizationsEn extends AppLocalizations {
   String get hubGoLearn => 'Go to Learn';
 
   @override
-  String get homeHeroNurseTitle => 'Prepare for certification with confidence';
+  String get homeHeroNurseTitle => 'Knowledge & Skills Assessment';
 
   @override
   String get homeHeroNurseBody =>
-      'Certification questions, oral answers and daily practice in one place.';
+      'Test, oral answers and daily practice in one place.';
 
   @override
-  String get homeHeroNurseCta => 'Certification prep';
+  String get homeHeroNurseCta => 'Start assessment';
 
   @override
   String get homeTileToifa => 'Test, oral ticket and mistakes';
@@ -4955,7 +4955,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get catPharmacology => 'Pharmacology';
 
   @override
-  String get catExams => 'Exams and certification';
+  String get catExams => 'Exams and assessment';
 
   @override
   String get kindGuideline => 'Guideline';
@@ -5015,7 +5015,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get welcomeBenefitNurseBody =>
-      'Certification tests, oral tickets and procedures';
+      'Assessment tests, oral tickets and procedures';
 
   @override
   String get welcomeBenefitStudentTitle => 'For students';
@@ -5036,7 +5036,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get actionUnsave => 'Remove from saved';
 
   @override
-  String get toifaEmptyTitle => 'No certification questions found';
+  String get toifaEmptyTitle => 'No questions found';
 
   @override
   String get toifaEmptyBody => 'Questions did not load. Reopen the app.';

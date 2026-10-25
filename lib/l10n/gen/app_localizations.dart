@@ -199,7 +199,7 @@ abstract class AppLocalizations {
   /// No description provided for @welcomeSubtitle.
   ///
   /// In en, this message translates to:
-  /// **'Certification, procedures and learning in one place.'**
+  /// **'Knowledge assessment, procedures and learning in one place.'**
   String get welcomeSubtitle;
 
   /// No description provided for @welcomeGetStarted.
@@ -775,7 +775,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaEntryBody.
   ///
   /// In en, this message translates to:
-  /// **'Questions from the official certification list: a 50-question test, topic practice, oral ticket and mistake review.'**
+  /// **'Questions from the official list: a 50-question test, topic practice, oral ticket and mistake review.'**
   String get toifaEntryBody;
 
   /// No description provided for @toifaEntryBodyShort.
@@ -811,7 +811,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaOpen.
   ///
   /// In en, this message translates to:
-  /// **'Start preparing'**
+  /// **'Start'**
   String get toifaOpen;
 
   /// No description provided for @toifaContinue.
@@ -829,7 +829,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaUzbekNotice.
   ///
   /// In en, this message translates to:
-  /// **'The official text of the certification questions is in Uzbek. Scoring follows the official Uzbek text and key.'**
+  /// **'The official text of the questions is in Uzbek. Scoring follows the official Uzbek text and key.'**
   String get toifaUzbekNotice;
 
   /// No description provided for @toifaShowOriginal.
@@ -1003,7 +1003,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaListSource.
   ///
   /// In en, this message translates to:
-  /// **'Source: official certification question list'**
+  /// **'Source: official question list'**
   String get toifaListSource;
 
   /// No description provided for @toifaAboutList.
@@ -2131,7 +2131,7 @@ abstract class AppLocalizations {
   /// No description provided for @dailySourceToifa.
   ///
   /// In en, this message translates to:
-  /// **'Questions come from the official certification list — only those whose key passed the NurseGuide check.'**
+  /// **'Questions come from the official list — only those whose key passed the NurseGuide check.'**
   String get dailySourceToifa;
 
   /// No description provided for @dailyReminderTitle.
@@ -7069,7 +7069,7 @@ abstract class AppLocalizations {
   /// No description provided for @topicTestSourcesNote.
   ///
   /// In en, this message translates to:
-  /// **'Questions come only from verified sources: official certification questions with a confirmed key and practice questions with a cited source.'**
+  /// **'Questions come only from verified sources: official questions with a confirmed key and practice questions with a cited source.'**
   String get topicTestSourcesNote;
 
   /// No description provided for @topicTestStart.
@@ -7921,7 +7921,7 @@ abstract class AppLocalizations {
   /// No description provided for @roleNurseDesc.
   ///
   /// In en, this message translates to:
-  /// **'Certification and procedures'**
+  /// **'Knowledge assessment and procedures'**
   String get roleNurseDesc;
 
   /// No description provided for @procTitle.
@@ -8407,19 +8407,19 @@ abstract class AppLocalizations {
   /// No description provided for @homeHeroNurseTitle.
   ///
   /// In en, this message translates to:
-  /// **'Prepare for certification with confidence'**
+  /// **'Knowledge & Skills Assessment'**
   String get homeHeroNurseTitle;
 
   /// No description provided for @homeHeroNurseBody.
   ///
   /// In en, this message translates to:
-  /// **'Certification questions, oral answers and daily practice in one place.'**
+  /// **'Test, oral answers and daily practice in one place.'**
   String get homeHeroNurseBody;
 
   /// No description provided for @homeHeroNurseCta.
   ///
   /// In en, this message translates to:
-  /// **'Certification prep'**
+  /// **'Start assessment'**
   String get homeHeroNurseCta;
 
   /// No description provided for @homeTileToifa.
@@ -8479,7 +8479,7 @@ abstract class AppLocalizations {
   /// No description provided for @catExams.
   ///
   /// In en, this message translates to:
-  /// **'Exams and certification'**
+  /// **'Exams and assessment'**
   String get catExams;
 
   /// No description provided for @kindGuideline.
@@ -8593,7 +8593,7 @@ abstract class AppLocalizations {
   /// No description provided for @welcomeBenefitNurseBody.
   ///
   /// In en, this message translates to:
-  /// **'Certification tests, oral tickets and procedures'**
+  /// **'Assessment tests, oral tickets and procedures'**
   String get welcomeBenefitNurseBody;
 
   /// No description provided for @welcomeBenefitStudentTitle.
@@ -8635,7 +8635,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaEmptyTitle.
   ///
   /// In en, this message translates to:
-  /// **'No certification questions found'**
+  /// **'No questions found'**
   String get toifaEmptyTitle;
 
   /// No description provided for @toifaEmptyBody.

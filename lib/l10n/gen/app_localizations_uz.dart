@@ -59,7 +59,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get welcomeSubtitle =>
-      'Attestatsiya, manipulyatsiyalar va o‘rganish — bir joyda.';
+      'Bilim va malakani baholash, manipulyatsiyalar va o‘rganish — bir joyda.';
 
   @override
   String get welcomeGetStarted => 'Boshlash / ro‘yxatdan o‘tish';
@@ -385,7 +385,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get toifaEntryBody =>
-      'Rasmiy attestatsiya ro‘yxatidagi savollar: 50 savollik test, mavzu bo‘yicha mashq, og‘zaki bilet va xatolar ustida ishlash.';
+      'Rasmiy ro‘yxatdagi savollar: 50 savollik test, mavzu bo‘yicha mashq, og‘zaki bilet va xatolar ustida ishlash.';
 
   @override
   String get toifaEntryBodyShort =>
@@ -408,7 +408,7 @@ class AppLocalizationsUz extends AppLocalizations {
   }
 
   @override
-  String get toifaOpen => 'Tayyorgarlikni boshlash';
+  String get toifaOpen => 'Boshlash';
 
   @override
   String get toifaContinue => 'Davom ettirish';
@@ -418,7 +418,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get toifaUzbekNotice =>
-      'Attestatsiya savollarining rasmiy matni o‘zbekcha. Baholash rasmiy o‘zbekcha matn va kalit bo‘yicha.';
+      'Savollarning rasmiy matni o‘zbekcha. Baholash rasmiy o‘zbekcha matn va kalit bo‘yicha.';
 
   @override
   String get toifaShowOriginal => 'Asl matnni ko‘rish';
@@ -518,7 +518,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get toifaAboutTitle => 'Manba va tekshiruv';
 
   @override
-  String get toifaListSource => 'Manba: Rasmiy attestatsiya savollari ro‘yxati';
+  String get toifaListSource => 'Manba: rasmiy savollar ro‘yxati';
 
   @override
   String toifaAboutList(int tests, int oral) {
@@ -2980,7 +2980,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get classroomTypeSeminar => 'Seminar';
 
   @override
-  String get classroomTypeAttestation => 'Attestatsiya';
+  String get classroomTypeAttestation => 'Baholash';
 
   @override
   String get classroomTypeOther => 'Mashg‘ulot';
@@ -4566,7 +4566,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get roleNurse => 'Hamshira';
 
   @override
-  String get roleNurseDesc => 'Attestatsiya va manipulyatsiyalar';
+  String get roleNurseDesc => 'Bilim baholash va manipulyatsiyalar';
 
   @override
   String get procTitle => 'Manipulyatsiyalar';
@@ -4837,14 +4837,14 @@ class AppLocalizationsUz extends AppLocalizations {
   String get hubGoLearn => 'O‘rganishga o‘tish';
 
   @override
-  String get homeHeroNurseTitle => 'Attestatsiyaga ishonch bilan tayyorlaning';
+  String get homeHeroNurseTitle => 'Bilim va malakani baholash';
 
   @override
   String get homeHeroNurseBody =>
-      'Toifa savollari, og‘zaki javoblar va kunlik mashq — bir joyda.';
+      'Test, og‘zaki javoblar va kunlik mashq — bir joyda.';
 
   @override
-  String get homeHeroNurseCta => 'Toifa tayyorgarligi';
+  String get homeHeroNurseCta => 'Baholashni boshlash';
 
   @override
   String get homeTileToifa => 'Test, og‘zaki bilet va xatolar';
@@ -4874,7 +4874,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get catPharmacology => 'Farmakologiya';
 
   @override
-  String get catExams => 'Imtihon va attestatsiya';
+  String get catExams => 'Imtihon va baholash';
 
   @override
   String get kindGuideline => 'Klinik tavsiya';
@@ -4934,7 +4934,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get welcomeBenefitNurseBody =>
-      'Toifa testlari, og‘zaki biletlar va manipulyatsiyalar';
+      'Bilim va malaka testlari, og‘zaki biletlar va manipulyatsiyalar';
 
   @override
   String get welcomeBenefitStudentTitle => 'Talaba uchun';

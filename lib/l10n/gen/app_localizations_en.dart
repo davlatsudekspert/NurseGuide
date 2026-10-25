@@ -5109,6 +5109,9 @@ class AppLocalizationsEn extends AppLocalizations {
   String get paywallActive => 'Your subscription is active.';
 
   @override
+  String get paywallCurrentPlan => 'Current plan';
+
+  @override
   String get paywallFreeNote =>
       'Free: home, procedures, library and daily questions.';
 

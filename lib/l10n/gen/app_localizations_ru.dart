@@ -5119,6 +5119,9 @@ class AppLocalizationsRu extends AppLocalizations {
   String get paywallActive => 'Подписка активна.';
 
   @override
+  String get paywallCurrentPlan => 'Текущий план';
+
+  @override
   String get paywallFreeNote =>
       'Бесплатно: главная, манипуляции, библиотека и ежедневные вопросы.';
 

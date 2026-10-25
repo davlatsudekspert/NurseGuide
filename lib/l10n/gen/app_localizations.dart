@@ -8764,6 +8764,12 @@ abstract class AppLocalizations {
   /// **'Your subscription is active.'**
   String get paywallActive;
 
+  /// No description provided for @paywallCurrentPlan.
+  ///
+  /// In en, this message translates to:
+  /// **'Current plan'**
+  String get paywallCurrentPlan;
+
   /// No description provided for @paywallFreeNote.
   ///
   /// In en, this message translates to:

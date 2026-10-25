@@ -5029,6 +5029,9 @@ class AppLocalizationsUz extends AppLocalizations {
   String get paywallActive => 'Obunangiz faol.';
 
   @override
+  String get paywallCurrentPlan => 'Joriy reja';
+
+  @override
   String get paywallFreeNote =>
       'Bepul: bosh sahifa, manipulyatsiyalar, kutubxona va kunlik savollar.';
 

@@ -115,4 +115,25 @@ void main() {
     await _shot(tester, 'billing_trial', '4_teacher_page_with_pro');
     expect(s.billing.tier, BillingTier.specialist);
   }, skip: !_on);
+
+  for (final tier in ['student', 'teacher', 'specialist']) {
+    testWidgets('obuna: $tier tarifi', (tester) async {
+      final s = await makeServices(
+        tester,
+        bundle: rootBundle,
+        backend: FakeBackend(),
+        billingEnabled: true,
+      );
+      await pumpApp(tester, s, size: const Size(390, 844));
+      s.billing.applyGrant(tier, null);
+      await goTo(tester, '/profile');
+      await _shot(tester, 'tier_$tier', '1_profile');
+      await goTo(tester, '/learn/toifa/test');
+      await _shot(tester, 'tier_$tier', '2_toifa_test');
+      await goTo(tester, '/library/dmed');
+      await _shot(tester, 'tier_$tier', '3_dmed');
+      await goTo(tester, '/learn/classes/new');
+      await _shot(tester, 'tier_$tier', '4_teacher_page');
+    }, skip: !_on);
+  }
 }

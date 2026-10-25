@@ -1444,6 +1444,7 @@
   "paywallUnavailable": "Do‘kon bilan aloqa yo‘q. Internetni tekshirib, qayta urinib ko‘ring.",
   "paywallError": "Xarid bajarilmadi.",
   "paywallActive": "Obunangiz faol.",
+  "paywallCurrentPlan": "Joriy reja",
   "paywallFreeNote": "Bepul: bosh sahifa, manipulyatsiyalar, kutubxona va kunlik savollar.",
   "paywallBack": "Bosh sahifaga qaytish",
   "paywallProfileRow": "Obuna",

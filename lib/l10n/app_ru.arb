@@ -1444,6 +1444,7 @@
   "paywallUnavailable": "Магазин недоступен. Проверьте соединение и повторите попытку.",
   "paywallError": "Покупка не выполнена.",
   "paywallActive": "Подписка активна.",
+  "paywallCurrentPlan": "Текущий план",
   "paywallFreeNote": "Бесплатно: главная, манипуляции, библиотека и ежедневные вопросы.",
   "paywallBack": "На главную",
   "paywallProfileRow": "Подписка",

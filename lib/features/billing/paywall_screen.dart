@@ -78,8 +78,10 @@ class _PaywallScreenState extends State<PaywallScreen> {
           children: [
             Text(l.paywallLead),
             const SizedBox(height: 8),
-            Text(l.paywallTrial),
-            const SizedBox(height: 12),
+            if (!active) ...[
+              Text(l.paywallTrial),
+              const SizedBox(height: 12),
+            ],
             if (billing.trialUntil case final until?) ...[
               Text(
                 l.paywallTrialActive(
@@ -118,7 +120,9 @@ class _PaywallScreenState extends State<PaywallScreen> {
                 child: LgRow(
                   key: ValueKey('plan-${plan.productId}'),
                   icon: Icons.workspace_premium_outlined,
-                  title: _name(l, plan.tier),
+                  title: plan.tier == billing.tier
+                      ? '${_name(l, plan.tier)} · ${l.paywallCurrentPlan}'
+                      : _name(l, plan.tier),
                   subtitle: _desc(l, plan.tier),
                   trailing: Text(
                     '${billing.products[plan.productId]?.price ?? plan.fallbackUsd}'

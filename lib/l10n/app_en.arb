@@ -3169,6 +3169,7 @@
   "paywallUnavailable": "The store is not reachable. Check your connection and try again.",
   "paywallError": "The purchase did not go through.",
   "paywallActive": "Your subscription is active.",
+  "paywallCurrentPlan": "Current plan",
   "paywallFreeNote": "Free: home, procedures, library and daily questions.",
   "paywallBack": "Back to home",
   "paywallProfileRow": "Subscription",

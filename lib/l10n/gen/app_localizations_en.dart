@@ -379,7 +379,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get toifaSubtitle => 'Tests, oral questions and results';
 
   @override
-  String get toifaEyebrow => 'Nurse · category';
+  String get toifaEyebrow => 'Nurse · level';
 
   @override
   String get toifaEntryBody =>
@@ -435,24 +435,24 @@ class AppLocalizationsEn extends AppLocalizations {
   String get toifaLoadError => 'Could not open the question list';
 
   @override
-  String get toifaYourCategory => 'Your category';
+  String get toifaYourCategory => 'Your level';
 
   @override
-  String get toifaCatSecond => 'Second category';
+  String get toifaCatSecond => 'Second level';
 
   @override
-  String get toifaCatFirst => 'First category';
+  String get toifaCatFirst => 'First level';
 
   @override
-  String get toifaCatHighest => 'Highest category';
+  String get toifaCatHighest => 'Highest level';
 
   @override
   String get toifaTransitionNote =>
-      'The category test prepares you for the qualification-category system that applies until 2030. State registration of medical staff starts on 1 July 2027; categories granted before 2030 stay valid until they expire (Presidential Decree PF-192, 10.09.2026).';
+      'This section helps you prepare for the qualification-level assessment. State registration of medical staff starts on 1 July 2027; levels granted before 2030 stay valid until they expire (Presidential Decree PF-192, 10.09.2026).';
 
   @override
   String get toifaCategoryHint =>
-      'The oral ticket is drawn from this category’s list. Test questions are shared by all categories.';
+      'The oral ticket is drawn from this level’s list. Test questions are shared by all levels.';
 
   @override
   String get toifaReadyTest => 'Test';
@@ -464,7 +464,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get toifaPrepare => 'Preparation';
 
   @override
-  String get toifaTestTitle => 'Category test';
+  String get toifaTestTitle => 'Assessment test';
 
   @override
   String toifaTestRowSub(int count, int bank) {
@@ -488,7 +488,7 @@ class AppLocalizationsEn extends AppLocalizations {
   }
 
   @override
-  String get toifaOralRowPick => 'Choose your category first';
+  String get toifaOralRowPick => 'Choose your level first';
 
   @override
   String toifaOralRowActive(int done, int total) {
@@ -520,7 +520,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String toifaAboutList(int tests, int oral) {
-    return 'The list has $tests test and $oral oral questions (duplicates across categories merged).';
+    return 'The list has $tests test and $oral oral questions (duplicates across levels merged).';
   }
 
   @override
@@ -845,7 +845,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String toifaOralStep1(int count) {
-    return '$count random questions from your category list.';
+    return '$count random questions from your level list.';
   }
 
   @override
@@ -857,7 +857,7 @@ class AppLocalizationsEn extends AppLocalizations {
       'Check the answer plan and rate yourself: knew, partly or didn’t know.';
 
   @override
-  String get toifaPickCategoryFirst => 'Choose a category first';
+  String get toifaPickCategoryFirst => 'Choose a level first';
 
   @override
   String get toifaDrawTicket => 'Draw a ticket';
@@ -1030,7 +1030,7 @@ class AppLocalizationsEn extends AppLocalizations {
 
   @override
   String get toifaProgressPickCategory =>
-      'Oral results use your category list — choose a category:';
+      'Oral results use your level list — choose a level:';
 
   @override
   String get toifaRecentTests => 'Recent tests';
@@ -1311,7 +1311,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get shareKindExam => 'Practice exam';
 
   @override
-  String get shareKindToifa => 'Category test practice';
+  String get shareKindToifa => 'Assessment test practice';
 
   @override
   String get shareCorrectCaption => 'correct answers';
@@ -4586,7 +4586,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get generalTestSearchHint => 'Search topics (e.g. anaemia)';
 
   @override
-  String get generalSourceToifa => 'Category exam questions';
+  String get generalSourceToifa => 'Assessment questions';
 
   @override
   String get generalSourceToifaSub => 'Official list, keys checked';
@@ -4604,7 +4604,7 @@ class AppLocalizationsEn extends AppLocalizations {
   String get generalSourcePackSub => 'Questions from topic groups';
 
   @override
-  String get generalSourceToifaShort => 'Category';
+  String get generalSourceToifaShort => 'Assessment';
 
   @override
   String get generalSourceLectureShort => 'Lectures';

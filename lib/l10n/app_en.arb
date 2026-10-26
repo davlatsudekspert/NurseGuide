@@ -160,7 +160,7 @@
   "learnExamSub": "Time, topic and questions",
   "toifaTitle": "Knowledge & Skills Assessment",
   "toifaSubtitle": "Tests, oral questions and results",
-  "toifaEyebrow": "Nurse · category",
+  "toifaEyebrow": "Nurse · level",
   "toifaEntryBody": "Questions from the official list: a 50-question test, topic practice, oral ticket and mistake review.",
   "toifaEntryBodyShort": "Test, oral ticket and mistake review — based on the official list.",
   "toifaEntryTagTest": "Test · 50 questions",
@@ -196,16 +196,16 @@
   "toifaOriginalTitle": "Official text (Uzbek)",
   "toifaTranslationAux": "The translation is auxiliary; scoring follows the official Uzbek text.",
   "toifaLoadError": "Could not open the question list",
-  "toifaYourCategory": "Your category",
-  "toifaCatSecond": "Second category",
-  "toifaCatFirst": "First category",
-  "toifaCatHighest": "Highest category",
-  "toifaTransitionNote": "The category test prepares you for the qualification-category system that applies until 2030. State registration of medical staff starts on 1 July 2027; categories granted before 2030 stay valid until they expire (Presidential Decree PF-192, 10.09.2026).",
-  "toifaCategoryHint": "The oral ticket is drawn from this category’s list. Test questions are shared by all categories.",
+  "toifaYourCategory": "Your level",
+  "toifaCatSecond": "Second level",
+  "toifaCatFirst": "First level",
+  "toifaCatHighest": "Highest level",
+  "toifaTransitionNote": "This section helps you prepare for the qualification-level assessment. State registration of medical staff starts on 1 July 2027; levels granted before 2030 stay valid until they expire (Presidential Decree PF-192, 10.09.2026).",
+  "toifaCategoryHint": "The oral ticket is drawn from this level’s list. Test questions are shared by all levels.",
   "toifaReadyTest": "Test",
   "toifaReadyOral": "Oral",
   "toifaPrepare": "Preparation",
-  "toifaTestTitle": "Category test",
+  "toifaTestTitle": "Assessment test",
   "toifaTestRowSub": "{count} random questions · {bank} in total",
   "@toifaTestRowSub": {
     "placeholders": {
@@ -238,7 +238,7 @@
       }
     }
   },
-  "toifaOralRowPick": "Choose your category first",
+  "toifaOralRowPick": "Choose your level first",
   "toifaOralRowActive": "In progress: {done} / {total} rated",
   "@toifaOralRowActive": {
     "placeholders": {
@@ -267,7 +267,7 @@
   "toifaProgressRowSub": "Results by topic and readiness",
   "toifaAboutTitle": "Source and review",
   "toifaListSource": "Source: question lists and study collections",
-  "toifaAboutList": "The list has {tests} test and {oral} oral questions (duplicates across categories merged).",
+  "toifaAboutList": "The list has {tests} test and {oral} oral questions (duplicates across levels merged).",
   "@toifaAboutList": {
     "placeholders": {
       "tests": {
@@ -561,7 +561,7 @@
     }
   },
   "toifaOralHowTitle": "How it works",
-  "toifaOralStep1": "{count} random questions from your category list.",
+  "toifaOralStep1": "{count} random questions from your level list.",
   "@toifaOralStep1": {
     "placeholders": {
       "count": {
@@ -571,7 +571,7 @@
   },
   "toifaOralStep2": "Prepare your answers — in your head or on paper.",
   "toifaOralStep3": "Check the answer plan and rate yourself: knew, partly or didn’t know.",
-  "toifaPickCategoryFirst": "Choose a category first",
+  "toifaPickCategoryFirst": "Choose a level first",
   "toifaDrawTicket": "Draw a ticket",
   "toifaTicketTitle": "Your ticket",
   "toifaPrepHint": "No typing needed. Think through each answer — say it out loud or jot it on paper. Then compare with the answer plan and rate yourself.",
@@ -695,7 +695,7 @@
       }
     }
   },
-  "toifaProgressPickCategory": "Oral results use your category list — choose a category:",
+  "toifaProgressPickCategory": "Oral results use your level list — choose a level:",
   "toifaRecentTests": "Recent tests",
   "toifaPassedShort": "Passed",
   "toifaNotPassedShort": "Below mark",
@@ -890,7 +890,7 @@
   "shareFailed": "Couldn’t open the share sheet. Please try again.",
   "shareKindDaily": "Daily questions",
   "shareKindExam": "Practice exam",
-  "shareKindToifa": "Category test practice",
+  "shareKindToifa": "Assessment test practice",
   "shareCorrectCaption": "correct answers",
   "shareFooter": "Nursing reference and practice",
   "shareToifaNote": "NurseGuide practice result",
@@ -2929,13 +2929,13 @@
   "generalTestIntro": "Pick topics — questions are spread evenly across them. Students take the test on their phones; the server scores it.",
   "generalTestSources": "Where questions come from",
   "generalTestSearchHint": "Search topics (e.g. anaemia)",
-  "generalSourceToifa": "Category exam questions",
+  "generalSourceToifa": "Assessment questions",
   "generalSourceToifaSub": "Official list, keys checked",
   "generalSourceLecture": "Lecture topics",
   "generalSourceLectureSub": "A whole module or single days",
   "generalSourcePack": "By practice questions",
   "generalSourcePackSub": "Questions from topic groups",
-  "generalSourceToifaShort": "Category",
+  "generalSourceToifaShort": "Assessment",
   "generalSourceLectureShort": "Lectures",
   "generalSourcePackShort": "Practice",
   "generalSelectAll": "Select all",

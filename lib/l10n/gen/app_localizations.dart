@@ -769,7 +769,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaEyebrow.
   ///
   /// In en, this message translates to:
-  /// **'Nurse · category'**
+  /// **'Nurse · level'**
   String get toifaEyebrow;
 
   /// No description provided for @toifaEntryBody.
@@ -865,37 +865,37 @@ abstract class AppLocalizations {
   /// No description provided for @toifaYourCategory.
   ///
   /// In en, this message translates to:
-  /// **'Your category'**
+  /// **'Your level'**
   String get toifaYourCategory;
 
   /// No description provided for @toifaCatSecond.
   ///
   /// In en, this message translates to:
-  /// **'Second category'**
+  /// **'Second level'**
   String get toifaCatSecond;
 
   /// No description provided for @toifaCatFirst.
   ///
   /// In en, this message translates to:
-  /// **'First category'**
+  /// **'First level'**
   String get toifaCatFirst;
 
   /// No description provided for @toifaCatHighest.
   ///
   /// In en, this message translates to:
-  /// **'Highest category'**
+  /// **'Highest level'**
   String get toifaCatHighest;
 
   /// No description provided for @toifaTransitionNote.
   ///
   /// In en, this message translates to:
-  /// **'The category test prepares you for the qualification-category system that applies until 2030. State registration of medical staff starts on 1 July 2027; categories granted before 2030 stay valid until they expire (Presidential Decree PF-192, 10.09.2026).'**
+  /// **'This section helps you prepare for the qualification-level assessment. State registration of medical staff starts on 1 July 2027; levels granted before 2030 stay valid until they expire (Presidential Decree PF-192, 10.09.2026).'**
   String get toifaTransitionNote;
 
   /// No description provided for @toifaCategoryHint.
   ///
   /// In en, this message translates to:
-  /// **'The oral ticket is drawn from this category’s list. Test questions are shared by all categories.'**
+  /// **'The oral ticket is drawn from this level’s list. Test questions are shared by all levels.'**
   String get toifaCategoryHint;
 
   /// No description provided for @toifaReadyTest.
@@ -919,7 +919,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaTestTitle.
   ///
   /// In en, this message translates to:
-  /// **'Category test'**
+  /// **'Assessment test'**
   String get toifaTestTitle;
 
   /// No description provided for @toifaTestRowSub.
@@ -955,7 +955,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaOralRowPick.
   ///
   /// In en, this message translates to:
-  /// **'Choose your category first'**
+  /// **'Choose your level first'**
   String get toifaOralRowPick;
 
   /// No description provided for @toifaOralRowActive.
@@ -1009,7 +1009,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaAboutList.
   ///
   /// In en, this message translates to:
-  /// **'The list has {tests} test and {oral} oral questions (duplicates across categories merged).'**
+  /// **'The list has {tests} test and {oral} oral questions (duplicates across levels merged).'**
   String toifaAboutList(int tests, int oral);
 
   /// No description provided for @toifaAboutKeys.
@@ -1519,7 +1519,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaOralStep1.
   ///
   /// In en, this message translates to:
-  /// **'{count} random questions from your category list.'**
+  /// **'{count} random questions from your level list.'**
   String toifaOralStep1(int count);
 
   /// No description provided for @toifaOralStep2.
@@ -1537,7 +1537,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaPickCategoryFirst.
   ///
   /// In en, this message translates to:
-  /// **'Choose a category first'**
+  /// **'Choose a level first'**
   String get toifaPickCategoryFirst;
 
   /// No description provided for @toifaDrawTicket.
@@ -1831,7 +1831,7 @@ abstract class AppLocalizations {
   /// No description provided for @toifaProgressPickCategory.
   ///
   /// In en, this message translates to:
-  /// **'Oral results use your category list — choose a category:'**
+  /// **'Oral results use your level list — choose a level:'**
   String get toifaProgressPickCategory;
 
   /// No description provided for @toifaRecentTests.
@@ -2263,7 +2263,7 @@ abstract class AppLocalizations {
   /// No description provided for @shareKindToifa.
   ///
   /// In en, this message translates to:
-  /// **'Category test practice'**
+  /// **'Assessment test practice'**
   String get shareKindToifa;
 
   /// No description provided for @shareCorrectCaption.
@@ -7807,7 +7807,7 @@ abstract class AppLocalizations {
   /// No description provided for @generalSourceToifa.
   ///
   /// In en, this message translates to:
-  /// **'Category exam questions'**
+  /// **'Assessment questions'**
   String get generalSourceToifa;
 
   /// No description provided for @generalSourceToifaSub.
@@ -7843,7 +7843,7 @@ abstract class AppLocalizations {
   /// No description provided for @generalSourceToifaShort.
   ///
   /// In en, this message translates to:
-  /// **'Category'**
+  /// **'Assessment'**
   String get generalSourceToifaShort;
 
   /// No description provided for @generalSourceLectureShort.

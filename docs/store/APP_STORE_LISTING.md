@@ -31,7 +31,7 @@ Study for your nursing certification: step-by-step procedures, daily questions, 
 ## Description (max 4000)
 
 ```
-NurseGuide is a study and reference app for nurses, nursing students and nursing teachers in Uzbekistan. It is built around the nurse's real workday and the qualification-category (attestation) exam.
+NurseGuide is a study and reference app for nurses, nursing students and nursing teachers in Uzbekistan. It is built around the nurse's real workday and knowledge and skills assessment.
 
 Study content is mostly in Uzbek. The app interface is available in Uzbek, Russian and English.
 
@@ -151,10 +151,10 @@ HOW TO SEE THE APP
 2. Full access: tap "Sign in or sign up" and use any of:
    • Sign in with Apple (works with any Apple ID), or
    • E-mail: enter your own e-mail address; a one-time 6-digit code is sent to it (valid 10 minutes). No demo account or password is needed.
-3. After sign-in you can open: Learn (qualification-category test, practice, oral tickets, daily questions), procedure details, glossary, DMED questions and answers (Library → DMED, or Workplace → choose DMED), and Groups.
+3. After sign-in you can open: Learn (Knowledge & Skills Assessment: test, practice, oral tickets, daily questions), procedure details, glossary, DMED questions and answers (Library → DMED, or Workplace → choose DMED), and Groups.
 
 NOTES
-• Study content is in Uzbek (the interface is Uzbek, Russian or English). The qualification-category exam sections (tests, practice, oral tickets) are available in every interface language; their text is in Uzbek.
+• Study content is in Uzbek (the interface is Uzbek, Russian or English). The Knowledge & Skills Assessment sections (tests, practice, oral tickets) are available in every interface language; their text is in Uzbek.
 • Camera is used only to scan a teacher's group QR code; nothing is saved.
 • Account deletion: Profile → Privacy and data → Delete account (immediate). Web page: https://nurseguide.nfcstore.uz/delete-account/
 • No ads, no purchases, no tracking SDKs.

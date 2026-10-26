@@ -383,7 +383,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get toifaSubtitle => 'Тесты, устные вопросы и результаты';
 
   @override
-  String get toifaEyebrow => 'Медсестра · категория';
+  String get toifaEyebrow => 'Медсестра · уровень';
 
   @override
   String get toifaEntryBody =>
@@ -439,24 +439,24 @@ class AppLocalizationsRu extends AppLocalizations {
   String get toifaLoadError => 'Не удалось открыть список вопросов';
 
   @override
-  String get toifaYourCategory => 'Ваша категория';
+  String get toifaYourCategory => 'Ваш уровень';
 
   @override
-  String get toifaCatSecond => '2 категория';
+  String get toifaCatSecond => '2 уровень';
 
   @override
-  String get toifaCatFirst => '1 категория';
+  String get toifaCatFirst => '1 уровень';
 
   @override
-  String get toifaCatHighest => 'Высшая категория';
+  String get toifaCatHighest => 'Высший уровень';
 
   @override
   String get toifaTransitionNote =>
-      'Тест категории — подготовка к системе квалификационных категорий, действующей до 2030 года. С 1 июля 2027 года вводится государственная регистрация медработников; категории, присвоенные до 2030 года, действуют до истечения срока (ПФ-192, 10.09.2026).';
+      'Раздел помогает подготовиться к проверке квалификационного уровня. С 1 июля 2027 года вводится государственная регистрация медработников; уровни, присвоенные до 2030 года, действуют до истечения срока (ПФ-192, 10.09.2026).';
 
   @override
   String get toifaCategoryHint =>
-      'Устный билет составляется из списка этой категории. Тестовые вопросы общие для всех категорий.';
+      'Устный билет составляется из списка этого уровня. Тестовые вопросы общие для всех уровней.';
 
   @override
   String get toifaReadyTest => 'Тест';
@@ -468,7 +468,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get toifaPrepare => 'Подготовка';
 
   @override
-  String get toifaTestTitle => 'Тест на категорию';
+  String get toifaTestTitle => 'Тест на проверку знаний';
 
   @override
   String toifaTestRowSub(int count, int bank) {
@@ -492,7 +492,7 @@ class AppLocalizationsRu extends AppLocalizations {
   }
 
   @override
-  String get toifaOralRowPick => 'Сначала выберите категорию';
+  String get toifaOralRowPick => 'Сначала выберите уровень';
 
   @override
   String toifaOralRowActive(int done, int total) {
@@ -524,7 +524,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String toifaAboutList(int tests, int oral) {
-    return 'В списке $tests тестовых и $oral устных вопросов (повторы между категориями объединены).';
+    return 'В списке $tests тестовых и $oral устных вопросов (повторы между уровнями объединены).';
   }
 
   @override
@@ -650,15 +650,15 @@ class AppLocalizationsRu extends AppLocalizations {
   String get toifaGoalHint => 'Или 1 устный билет — что будет раньше.';
 
   @override
-  String get toifaReminderTitle => 'NurseGuide · Категория';
+  String get toifaReminderTitle => 'NurseGuide · Проверка знаний';
 
   @override
   String toifaReminderBody(int count) {
-    return 'Сегодняшняя подготовка к категории ждёт вас — $count вопросов или 1 билет';
+    return 'Сегодняшняя проверка знаний ждёт вас — $count вопросов или 1 билет';
   }
 
   @override
-  String get toifaReminderChannel => 'Напоминание о категории';
+  String get toifaReminderChannel => 'Напоминание о проверке знаний';
 
   @override
   String get toifaOfferTitle => 'Продолжим завтра?';
@@ -849,7 +849,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String toifaOralStep1(int count) {
-    return '$count случайных вопросов из списка вашей категории.';
+    return '$count случайных вопросов из списка вашего уровня.';
   }
 
   @override
@@ -860,7 +860,7 @@ class AppLocalizationsRu extends AppLocalizations {
       'Посмотрите план ответа и оцените себя: знал, частично или не знал.';
 
   @override
-  String get toifaPickCategoryFirst => 'Сначала выберите категорию';
+  String get toifaPickCategoryFirst => 'Сначала выберите уровень';
 
   @override
   String get toifaDrawTicket => 'Взять билет';
@@ -1033,7 +1033,7 @@ class AppLocalizationsRu extends AppLocalizations {
 
   @override
   String get toifaProgressPickCategory =>
-      'Устный результат считается по списку вашей категории — выберите категорию:';
+      'Устный результат считается по списку вашего уровня — выберите уровень:';
 
   @override
   String get toifaRecentTests => 'Последние тесты';
@@ -1324,7 +1324,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get shareKindExam => 'Тренировочный экзамен';
 
   @override
-  String get shareKindToifa => 'Тренировка теста на категорию';
+  String get shareKindToifa => 'Тренировка проверки знаний';
 
   @override
   String get shareCorrectCaption => 'верных ответов';
@@ -4590,7 +4590,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get generalTestSearchHint => 'Найти тему (например, анемия)';
 
   @override
-  String get generalSourceToifa => 'Вопросы на категорию';
+  String get generalSourceToifa => 'Вопросы проверки знаний';
 
   @override
   String get generalSourceToifaSub => 'Официальный список, ключи проверены';
@@ -4608,7 +4608,7 @@ class AppLocalizationsRu extends AppLocalizations {
   String get generalSourcePackSub => 'Вопросы тематических групп';
 
   @override
-  String get generalSourceToifaShort => 'Категория';
+  String get generalSourceToifaShort => 'Проверка знаний';
 
   @override
   String get generalSourceLectureShort => 'Лекции';

@@ -381,7 +381,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get toifaSubtitle => 'Testlar, og‘zaki savollar va natijalar';
 
   @override
-  String get toifaEyebrow => 'Hamshira · malaka toifasi';
+  String get toifaEyebrow => 'Hamshira · malaka darajasi';
 
   @override
   String get toifaEntryBody =>
@@ -437,24 +437,24 @@ class AppLocalizationsUz extends AppLocalizations {
   String get toifaLoadError => 'Savollar ro‘yxatini ochib bo‘lmadi';
 
   @override
-  String get toifaYourCategory => 'Toifangiz';
+  String get toifaYourCategory => 'Darajangiz';
 
   @override
-  String get toifaCatSecond => '2-toifa';
+  String get toifaCatSecond => '2-daraja';
 
   @override
-  String get toifaCatFirst => '1-toifa';
+  String get toifaCatFirst => '1-daraja';
 
   @override
-  String get toifaCatHighest => 'Oliy toifa';
+  String get toifaCatHighest => 'Oliy daraja';
 
   @override
   String get toifaTransitionNote =>
-      'Toifa testi — 2030-yilgacha amal qiladigan malaka toifasi tizimiga tayyorgarlik. 2027-yil 1-iyuldan davlat ro‘yxatidan o‘tkazish joriy etiladi; 2030-yilgacha berilgan toifalar amal qilish muddati tugaguncha o‘z kuchini saqlaydi (PF-192, 10.09.2026).';
+      'Bu bo‘lim malaka darajasini baholashga tayyorgarlikka yordam beradi. 2027-yil 1-iyuldan tibbiyot xodimlarini davlat ro‘yxatidan o‘tkazish joriy etiladi; 2030-yilgacha berilgan malaka darajalari amal qilish muddati tugaguncha o‘z kuchini saqlaydi (PF-192, 10.09.2026).';
 
   @override
   String get toifaCategoryHint =>
-      'Og‘zaki bilet shu toifa ro‘yxatidan tuziladi. Test savollari barcha toifalar uchun umumiy.';
+      'Og‘zaki bilet shu daraja ro‘yxatidan tuziladi. Test savollari barcha darajalar uchun umumiy.';
 
   @override
   String get toifaReadyTest => 'Test';
@@ -466,7 +466,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get toifaPrepare => 'Tayyorgarlik';
 
   @override
-  String get toifaTestTitle => 'Toifa testi';
+  String get toifaTestTitle => 'Baholash testi';
 
   @override
   String toifaTestRowSub(int count, int bank) {
@@ -490,7 +490,7 @@ class AppLocalizationsUz extends AppLocalizations {
   }
 
   @override
-  String get toifaOralRowPick => 'Avval toifangizni tanlang';
+  String get toifaOralRowPick => 'Avval darajangizni tanlang';
 
   @override
   String toifaOralRowActive(int done, int total) {
@@ -522,7 +522,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String toifaAboutList(int tests, int oral) {
-    return 'Ro‘yxatda $tests ta test va $oral ta og‘zaki savol (toifalar bo‘yicha takrorlar birlashtirilgan).';
+    return 'Ro‘yxatda $tests ta test va $oral ta og‘zaki savol (darajalar bo‘yicha takrorlar birlashtirilgan).';
   }
 
   @override
@@ -651,15 +651,15 @@ class AppLocalizationsUz extends AppLocalizations {
       'Yoki 1 ta og‘zaki bilet — qaysi biri oldin bajarilsa.';
 
   @override
-  String get toifaReminderTitle => 'NurseGuide · Toifa';
+  String get toifaReminderTitle => 'NurseGuide · Baholash';
 
   @override
   String toifaReminderBody(int count) {
-    return 'Bugungi toifa mashg‘uloti sizni kutmoqda — $count ta savol yoki 1 bilet';
+    return 'Bugungi baholash mashg‘uloti sizni kutmoqda — $count ta savol yoki 1 bilet';
   }
 
   @override
-  String get toifaReminderChannel => 'Toifa eslatmasi';
+  String get toifaReminderChannel => 'Baholash eslatmasi';
 
   @override
   String get toifaOfferTitle => 'Ertaga davom etamizmi?';
@@ -850,7 +850,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String toifaOralStep1(int count) {
-    return 'Toifangiz ro‘yxatidan tasodifiy $count ta savol.';
+    return 'Darajangiz ro‘yxatidan tasodifiy $count ta savol.';
   }
 
   @override
@@ -861,7 +861,7 @@ class AppLocalizationsUz extends AppLocalizations {
       'Javob rejasini ko‘rib, o‘zingizni baholang: bildim, qisman yoki bilmadim.';
 
   @override
-  String get toifaPickCategoryFirst => 'Avval toifani tanlang';
+  String get toifaPickCategoryFirst => 'Avval darajani tanlang';
 
   @override
   String get toifaDrawTicket => 'Bilet olish';
@@ -1034,7 +1034,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get toifaProgressPickCategory =>
-      'Og‘zaki natija toifangiz ro‘yxati bo‘yicha hisoblanadi — toifani tanlang:';
+      'Og‘zaki natija darajangiz ro‘yxati bo‘yicha hisoblanadi — darajani tanlang:';
 
   @override
   String get toifaRecentTests => 'So‘nggi testlar';
@@ -1217,7 +1217,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get dailySourceToifa =>
-      'Savollar toifa imtihonining rasmiy ro‘yxatidan olinadi — faqat kaliti NurseGuide tekshiruvidan o‘tganlari.';
+      'Savollar rasmiy ro‘yxatdan olinadi — faqat kaliti NurseGuide tekshiruvidan o‘tganlari.';
 
   @override
   String get dailyReminderTitle => 'NurseGuide: kunlik savol';
@@ -1293,7 +1293,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get shareKindExam => 'Mashq imtihoni';
 
   @override
-  String get shareKindToifa => 'Toifa testi mashqi';
+  String get shareKindToifa => 'Baholash testi mashqi';
 
   @override
   String get shareCorrectCaption => 'to‘g‘ri javob';
@@ -4064,7 +4064,7 @@ class AppLocalizationsUz extends AppLocalizations {
 
   @override
   String get topicTestSourcesNote =>
-      'Savollar faqat tekshirilgan manbalardan: kaliti tasdiqlangan rasmiy toifa savollari va manbasi ko‘rsatilgan mashq savollari.';
+      'Savollar faqat tekshirilgan manbalardan: kaliti tasdiqlangan rasmiy savollar va manbasi ko‘rsatilgan mashq savollari.';
 
   @override
   String get topicTestStart => 'Testni boshlash';
@@ -4503,7 +4503,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get generalTestSearchHint => 'Mavzuni qidiring (masalan, anemiya)';
 
   @override
-  String get generalSourceToifa => 'Toifa savollari';
+  String get generalSourceToifa => 'Baholash savollari';
 
   @override
   String get generalSourceToifaSub => 'Rasmiy ro‘yxat, kalitlari tekshirilgan';
@@ -4521,7 +4521,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get generalSourcePackSub => 'Mavzu guruhlari savollari';
 
   @override
-  String get generalSourceToifaShort => 'Toifa';
+  String get generalSourceToifaShort => 'Baholash';
 
   @override
   String get generalSourceLectureShort => 'Ma’ruza';
@@ -4959,7 +4959,7 @@ class AppLocalizationsUz extends AppLocalizations {
   String get actionUnsave => 'Saqlanganlardan olib tashlash';
 
   @override
-  String get toifaEmptyTitle => 'Toifa savollari topilmadi';
+  String get toifaEmptyTitle => 'Savollar topilmadi';
 
   @override
   String get toifaEmptyBody => 'Savollar yuklanmadi. Ilovani qayta oching.';

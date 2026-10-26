@@ -3290,6 +3290,26 @@ class AppLocalizationsRu extends AppLocalizations {
   String get lectureNext => 'Далее';
 
   @override
+  String get lectureAuto => 'Авто';
+
+  @override
+  String get lectureManual => 'Вручную';
+
+  @override
+  String get lecturePause => 'Пауза';
+
+  @override
+  String get lectureResume => 'Продолжить';
+
+  @override
+  String lectureAutoSeconds(int n) {
+    return '$n сек';
+  }
+
+  @override
+  String get lectureAutoTitle => 'Режим листания';
+
+  @override
   String get lectureGoals => 'Цель';
 
   @override

@@ -3236,6 +3236,26 @@ class AppLocalizationsUz extends AppLocalizations {
   String get lectureNext => 'Oldinga';
 
   @override
+  String get lectureAuto => 'Avto';
+
+  @override
+  String get lectureManual => 'Qo‘lda';
+
+  @override
+  String get lecturePause => 'Pauza';
+
+  @override
+  String get lectureResume => 'Davom etish';
+
+  @override
+  String lectureAutoSeconds(int n) {
+    return '$n soniya';
+  }
+
+  @override
+  String get lectureAutoTitle => 'Varaqlash rejimi';
+
+  @override
   String get lectureGoals => 'Maqsad';
 
   @override

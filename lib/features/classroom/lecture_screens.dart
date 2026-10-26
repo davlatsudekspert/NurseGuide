@@ -10,6 +10,7 @@ import '../../design/tokens.dart';
 import '../../design/widgets/lg_widgets.dart';
 import '../../l10n/gen/app_localizations.dart';
 import '../../core/device/device.dart';
+import '../../core/storage/kv_store.dart' show StoreKeys;
 import 'classroom_screens.dart';
 import 'curriculum.dart';
 import 'lecture_catalog.dart';
@@ -302,7 +303,8 @@ class LectureScreen extends StatefulWidget {
   State<LectureScreen> createState() => _LectureScreenState();
 }
 
-class _LectureScreenState extends State<LectureScreen> {
+class _LectureScreenState extends State<LectureScreen>
+    with WidgetsBindingObserver {
   int _index = 0;
   bool _notes = false;
 
@@ -317,6 +319,14 @@ class _LectureScreenState extends State<LectureScreen> {
   bool _immersive = false;
   bool _chrome = true;
   Timer? _chromeTimer;
+
+  // Avto varaqlash: rejim va tezlik qurilmada saqlanadi.
+  static const _autoSpeeds = [15, 30, 60];
+  bool _auto = false;
+  bool _autoPaused = false;
+  int _autoSecs = 30;
+  Timer? _autoTimer;
+  int _slideCount = 0;
 
   // Katalog decki (deckId bilan ochilganda).
   bool _catalogStarted = false;
@@ -388,6 +398,11 @@ class _LectureScreenState extends State<LectureScreen> {
   @override
   void initState() {
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
+    final store = context.services.store;
+    _auto = store.getString(StoreKeys.lectureAuto) == '1';
+    final secs = int.tryParse(store.getString(StoreKeys.lectureAutoSecs) ?? '');
+    if (secs != null && _autoSpeeds.contains(secs)) _autoSecs = secs;
     unawaited(AppDevice.screenAwake.set(on: true));
     // Mavzu testi tugmasi uchun katalog (ro'yxat ochilmagan bo'lsa).
     final bundle = context.services.curriculum.bundle ?? rootBundle;
@@ -432,6 +447,8 @@ class _LectureScreenState extends State<LectureScreen> {
 
   @override
   void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    _autoTimer?.cancel();
     unawaited(AppDevice.screenAwake.set(on: false));
     _chromeTimer?.cancel();
     // Ekran holati va tizim panellari har doim qaytariladi (orqaga, yopish).
@@ -441,8 +458,189 @@ class _LectureScreenState extends State<LectureScreen> {
   }
 
   void _go(int delta, int count) {
+    // Qo'lda varaqlash — avto vaqtincha to'xtaydi.
+    if (_auto && !_autoPaused) _pauseAuto();
     final next = (_index + delta).clamp(0, count - 1);
     if (next != _index) setState(() => _index = next);
+  }
+
+  // ---- Avto varaqlash ----
+
+  void _saveAuto() {
+    final store = context.services.store;
+    unawaited(store.setString(StoreKeys.lectureAuto, _auto ? '1' : '0'));
+    unawaited(store.setString(StoreKeys.lectureAutoSecs, '$_autoSecs'));
+  }
+
+  void _toggleAuto() {
+    setState(() {
+      _auto = !_auto;
+      _autoPaused = false;
+    });
+    _saveAuto();
+    if (_auto) {
+      unawaited(AppDevice.screenAwake.set(on: true));
+      _scheduleAuto();
+    } else {
+      _autoTimer?.cancel();
+      _autoTimer = null;
+    }
+  }
+
+  void _setAutoSecs(int secs) {
+    setState(() => _autoSecs = secs);
+    _saveAuto();
+    if (_auto && !_autoPaused) _scheduleAuto();
+  }
+
+  void _pauseAuto() {
+    _autoTimer?.cancel();
+    _autoTimer = null;
+    if (mounted) setState(() => _autoPaused = true);
+  }
+
+  void _toggleAutoPause() {
+    if (!_auto) return;
+    if (_autoPaused) {
+      setState(() => _autoPaused = false);
+      _scheduleAuto();
+    } else {
+      _pauseAuto();
+    }
+  }
+
+  /// Keyingi o'tishni rejalashtiradi (har slaydda bitta taymer).
+  void _scheduleAuto() {
+    _autoTimer?.cancel();
+    _autoTimer = null;
+    if (!_auto || _autoPaused || _slideCount == 0) return;
+    if (_index >= _slideCount - 1) {
+      _stopAutoAtEnd();
+      return;
+    }
+    _autoTimer = Timer(Duration(seconds: _autoSecs), _autoTick);
+  }
+
+  void _autoTick() {
+    _autoTimer = null;
+    if (!mounted || !_auto || _autoPaused) return;
+    setState(() => _index = (_index + 1).clamp(0, _slideCount - 1));
+    _scheduleAuto();
+  }
+
+  /// Oxirgi slaydda to'xtaydi (boshiga qaytmaydi); tanlov (saqlangan) o'zgarmaydi.
+  void _stopAutoAtEnd() {
+    _autoTimer?.cancel();
+    _autoTimer = null;
+    if (_auto) setState(() => _auto = false);
+  }
+
+  /// `_deck` har qurilganda: slaydlar soni va (kerak bo'lsa) taymer.
+  void _syncAuto(int count) {
+    _slideCount = count;
+    if (_auto && !_autoPaused && _autoTimer == null) {
+      WidgetsBinding.instance.addPostFrameCallback((_) {
+        if (mounted && _auto && !_autoPaused && _autoTimer == null) {
+          _scheduleAuto();
+        }
+      });
+    }
+  }
+
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state) {
+    if (state == AppLifecycleState.resumed) {
+      unawaited(AppDevice.screenAwake.set(on: true));
+      return;
+    }
+    // Fonga o'tdi: taymer bekor, ekran uyg'oq ushlash o'chadi; qaytganda avto
+    // pauzada (foydalanuvchi davom ettiradi).
+    if (_auto && !_autoPaused) _pauseAuto();
+    unawaited(AppDevice.screenAwake.set(on: false));
+  }
+
+  /// Yuqori boshqaruv: «Avto / Qo'lda» tugmasi; avtoda — tezlik (15/30/60 s)
+  /// va pauza/davom etish.
+  Widget _autoControls(BuildContext context) {
+    final l = AppLocalizations.of(context);
+    final p = LgPalette.of(context);
+    return Wrap(
+      spacing: 8,
+      runSpacing: 4,
+      crossAxisAlignment: WrapCrossAlignment.center,
+      children: [
+        Semantics(
+          label:
+              '${l.lectureAutoTitle}: ${_auto ? l.lectureAuto : l.lectureManual}',
+          button: true,
+          excludeSemantics: true,
+          onTap: _toggleAuto,
+          child: _tap48(
+            LgChoiceChip(
+              key: const ValueKey('lecture-auto-toggle'),
+              label: _auto ? l.lectureAuto : l.lectureManual,
+              selected: _auto,
+              onTap: _toggleAuto,
+            ),
+          ),
+        ),
+        if (_auto) ...[
+          for (final secs in _autoSpeeds)
+            _tap48(
+              LgChoiceChip(
+                key: ValueKey('lecture-auto-speed-$secs'),
+                label: l.lectureAutoSeconds(secs),
+                selected: _autoSecs == secs,
+                onTap: () => _setAutoSecs(secs),
+              ),
+            ),
+          TextButton.icon(
+            key: const ValueKey('lecture-auto-pause'),
+            style: TextButton.styleFrom(
+              minimumSize: const Size(48, 48),
+              foregroundColor: p.brand,
+            ),
+            icon: Icon(
+              _autoPaused ? Icons.play_arrow_rounded : Icons.pause_rounded,
+            ),
+            label: Text(_autoPaused ? l.lectureResume : l.lecturePause),
+            onPressed: _toggleAutoPause,
+          ),
+        ],
+      ],
+    );
+  }
+
+  Widget _tap48(Widget child) => ConstrainedBox(
+    constraints: const BoxConstraints(minWidth: 48, minHeight: 48),
+    child: child,
+  );
+
+  /// Pauza belgisi slayd ustida (bosilsa davom etadi).
+  Widget _pauseBadge(BuildContext context) {
+    final l = AppLocalizations.of(context);
+    return Positioned.fill(
+      child: IgnorePointer(
+        child: Center(
+          child: Semantics(
+            label: l.lecturePause,
+            child: Container(
+              key: const ValueKey('lecture-auto-paused'),
+              padding: const EdgeInsets.all(14),
+              decoration: BoxDecoration(
+                color: Colors.black.withValues(alpha: 0.5),
+                shape: BoxShape.circle,
+              ),
+              child: const Icon(
+                Icons.pause_rounded,
+                color: Colors.white,
+                size: 40,
+              ),
+            ),
+          ),
+        ),
+      ),
+    );
   }
 
   void _toggleAnswer(int i) => setState(
@@ -631,6 +829,7 @@ class _LectureScreenState extends State<LectureScreen> {
     String? title,
   ) {
     final size = MediaQuery.sizeOf(context);
+    _syncAuto(slides.length);
     final Widget body = switch (_view) {
       _View.present => _presentation(context, slides, i, title),
       _View.presenter => PresenterView(
@@ -688,42 +887,48 @@ class _LectureScreenState extends State<LectureScreen> {
       key: const ValueKey('lecture-slide-card'),
       behavior: HitTestBehavior.opaque,
       onHorizontalDragEnd: (d) => _swipe(d, slides.length),
-      child: DecoratedBox(
-        decoration: BoxDecoration(
-          borderRadius: BorderRadius.circular(16),
-          boxShadow: [
-            BoxShadow(
-              color: p.shadow.withValues(alpha: 0.16),
-              blurRadius: 18,
-              offset: const Offset(0, 4),
+      onTap: _auto ? _toggleAutoPause : null,
+      child: Stack(
+        children: [
+          DecoratedBox(
+            decoration: BoxDecoration(
+              borderRadius: BorderRadius.circular(16),
+              boxShadow: [
+                BoxShadow(
+                  color: p.shadow.withValues(alpha: 0.16),
+                  blurRadius: 18,
+                  offset: const Offset(0, 4),
+                ),
+              ],
             ),
-          ],
-        ),
-        // Karta foni sahifa foni bilan bir xil — yuqori va chap qirrasi
-        // "kesilgan"dek ko'rinmasin: har ikki mavzuda ingichka chegara.
-        position: DecorationPosition.background,
-        child: Container(
-          foregroundDecoration: BoxDecoration(
-            borderRadius: BorderRadius.circular(16),
-            border: Border.all(
-              color: Theme.of(context).brightness == Brightness.dark
-                  ? p.line
-                  : p.outline.withValues(alpha: 0.45),
-              width: 1.5,
+            // Karta foni sahifa foni bilan bir xil — yuqori va chap qirrasi
+            // "kesilgan"dek ko'rinmasin: har ikki mavzuda ingichka chegara.
+            position: DecorationPosition.background,
+            child: Container(
+              foregroundDecoration: BoxDecoration(
+                borderRadius: BorderRadius.circular(16),
+                border: Border.all(
+                  color: Theme.of(context).brightness == Brightness.dark
+                      ? p.line
+                      : p.outline.withValues(alpha: 0.45),
+                  width: 1.5,
+                ),
+              ),
+              child: ClipRRect(
+                borderRadius: BorderRadius.circular(16),
+                child: SlideCanvas(
+                  key: ValueKey('lecture-canvas-$i'),
+                  slide: slides[i],
+                  number: i + 1,
+                  total: slides.length,
+                  deckTitle: title,
+                  answerShown: _answers.contains(i),
+                ),
+              ),
             ),
           ),
-          child: ClipRRect(
-            borderRadius: BorderRadius.circular(16),
-            child: SlideCanvas(
-              key: ValueKey('lecture-canvas-$i'),
-              slide: slides[i],
-              number: i + 1,
-              total: slides.length,
-              deckTitle: title,
-              answerShown: _answers.contains(i),
-            ),
-          ),
-        ),
+          if (_auto && _autoPaused) _pauseBadge(context),
+        ],
       ),
     );
   }
@@ -984,6 +1189,13 @@ class _LectureScreenState extends State<LectureScreen> {
         child: Column(
           children: [
             _topBar(context, slides, i),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(16, 0, 16, 0),
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: _autoControls(context),
+              ),
+            ),
             Expanded(
               child: SingleChildScrollView(
                 padding: const EdgeInsets.fromLTRB(16, 8, 16, 12),
@@ -1022,6 +1234,13 @@ class _LectureScreenState extends State<LectureScreen> {
         child: Column(
           children: [
             _topBar(context, slides, i),
+            Padding(
+              padding: const EdgeInsets.fromLTRB(24, 0, 16, 0),
+              child: Align(
+                alignment: Alignment.centerLeft,
+                child: _autoControls(context),
+              ),
+            ),
             Expanded(
               child: Row(
                 crossAxisAlignment: CrossAxisAlignment.stretch,
@@ -1093,6 +1312,7 @@ class _LectureScreenState extends State<LectureScreen> {
                 behavior: HitTestBehavior.opaque,
                 onHorizontalDragEnd: (d) => _swipe(d, slides.length),
                 onTapUp: (d) {
+                  if (_auto) return _toggleAutoPause();
                   final w = MediaQuery.sizeOf(context).width;
                   if (d.localPosition.dx > w * 0.65) _go(1, slides.length);
                   if (d.localPosition.dx < w * 0.35) _go(-1, slides.length);
@@ -1146,6 +1366,13 @@ class _LectureScreenState extends State<LectureScreen> {
                   ),
                 ],
               ),
+            ),
+            if (_auto && _autoPaused) _pauseBadge(context),
+            Positioned(
+              left: 64,
+              right: 64,
+              bottom: 4,
+              child: Center(child: _autoControls(context)),
             ),
             Positioned(
               left: 4,
@@ -1294,6 +1521,11 @@ class _LectureScreenState extends State<LectureScreen> {
               behavior: HitTestBehavior.opaque,
               onHorizontalDragEnd: (d) => _swipe(d, slides.length),
               onTapUp: (d) {
+                if (_auto) {
+                  _toggleAutoPause();
+                  _showChrome();
+                  return;
+                }
                 final w = MediaQuery.sizeOf(context).width;
                 _go(d.localPosition.dx >= w / 2 ? 1 : -1, slides.length);
                 _showChrome();
@@ -1306,6 +1538,34 @@ class _LectureScreenState extends State<LectureScreen> {
                   total: slides.length,
                   deckTitle: title,
                   answerShown: _answers.contains(i),
+                ),
+              ),
+            ),
+          ),
+          if (_auto && _autoPaused) _pauseBadge(context),
+          Positioned(
+            left: 64,
+            right: 64,
+            bottom: 8,
+            child: IgnorePointer(
+              ignoring: !_chrome,
+              child: AnimatedOpacity(
+                opacity: _chrome ? 1 : 0,
+                duration: MediaQuery.disableAnimationsOf(context)
+                    ? Duration.zero
+                    : const Duration(milliseconds: 250),
+                child: Center(
+                  child: GestureDetector(
+                    onTap: _showChrome,
+                    child: Container(
+                      padding: const EdgeInsets.symmetric(horizontal: 8),
+                      decoration: BoxDecoration(
+                        color: Colors.black.withValues(alpha: 0.45),
+                        borderRadius: BorderRadius.circular(12),
+                      ),
+                      child: _autoControls(context),
+                    ),
+                  ),
                 ),
               ),
             ),

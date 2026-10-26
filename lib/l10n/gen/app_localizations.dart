@@ -5644,6 +5644,42 @@ abstract class AppLocalizations {
   /// **'Next'**
   String get lectureNext;
 
+  /// No description provided for @lectureAuto.
+  ///
+  /// In en, this message translates to:
+  /// **'Auto'**
+  String get lectureAuto;
+
+  /// No description provided for @lectureManual.
+  ///
+  /// In en, this message translates to:
+  /// **'Manual'**
+  String get lectureManual;
+
+  /// No description provided for @lecturePause.
+  ///
+  /// In en, this message translates to:
+  /// **'Pause'**
+  String get lecturePause;
+
+  /// No description provided for @lectureResume.
+  ///
+  /// In en, this message translates to:
+  /// **'Resume'**
+  String get lectureResume;
+
+  /// No description provided for @lectureAutoSeconds.
+  ///
+  /// In en, this message translates to:
+  /// **'{n} sec'**
+  String lectureAutoSeconds(int n);
+
+  /// No description provided for @lectureAutoTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Slide advance mode'**
+  String get lectureAutoTitle;
+
   /// No description provided for @lectureGoals.
   ///
   /// In en, this message translates to:

@@ -2117,6 +2117,19 @@
   },
   "lecturePrev": "Back",
   "lectureNext": "Next",
+  "lectureAuto": "Auto",
+  "lectureManual": "Manual",
+  "lecturePause": "Pause",
+  "lectureResume": "Resume",
+  "lectureAutoSeconds": "{n} sec",
+  "@lectureAutoSeconds": {
+    "placeholders": {
+      "n": {
+        "type": "int"
+      }
+    }
+  },
+  "lectureAutoTitle": "Slide advance mode",
   "lectureGoals": "Goals",
   "lectureKeyPoints": "Key concepts",
   "lectureQuestionN": "Question {n}",

@@ -3295,6 +3295,26 @@ class AppLocalizationsEn extends AppLocalizations {
   String get lectureNext => 'Next';
 
   @override
+  String get lectureAuto => 'Auto';
+
+  @override
+  String get lectureManual => 'Manual';
+
+  @override
+  String get lecturePause => 'Pause';
+
+  @override
+  String get lectureResume => 'Resume';
+
+  @override
+  String lectureAutoSeconds(int n) {
+    return '$n sec';
+  }
+
+  @override
+  String get lectureAutoTitle => 'Slide advance mode';
+
+  @override
   String get lectureGoals => 'Goals';
 
   @override

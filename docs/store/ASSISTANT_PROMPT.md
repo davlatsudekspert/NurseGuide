@@ -1,5 +1,7 @@
 # Prompt for the browser assistant — publish NurseGuide
 
+> Re-submission of the already prepared version 1.0 (new build + new screenshots): use `docs/store/SUBMIT_PROMPT.md`. The owner has approved submission there, so the "yubor" hard stop in Part C below applies only to this first-time publishing flow.
+
 Paste everything below the line into the browser assistant (Chrome with the owner's
 Cloudflare, GitHub and App Store Connect accounts already signed in).
 It contains no secret values. Never ask the owner to paste passwords, API keys or

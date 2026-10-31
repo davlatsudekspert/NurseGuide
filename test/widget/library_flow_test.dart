@@ -144,21 +144,14 @@ void main() {
       () => Future<void>.delayed(const Duration(milliseconds: 50)),
     );
     await tester.pumpAndSettle();
-    expect(find.text(_uz.litTextbooks), findsOneWidget);
-    // Sinov to'plamida faqat muolaja/atama bor (Inomov); savol banki soxta —
-    // unga tayangan manbalar (Ahmedova, rasmiy hujjatlar) bo'sh bo'lgani
-    // uchun umuman ko'rsatilmaydi.
-    expect(find.byKey(const ValueKey('lit-inomov2007')), findsOneWidget);
-    expect(find.byKey(const ValueKey('lit-ahmedova2015')), findsNothing);
+    // Faqat ochiq xorijiy manbalar: mahalliy darslik, rasmiy hujjat va o'quv
+    // to'plamlari bo'limlari ko'rinmaydi.
+    expect(find.text(_uz.litTextbooks), findsNothing);
     expect(find.text(_uz.litOfficial), findsNothing);
+    expect(find.text(_uz.litOther), findsNothing);
+    expect(find.byKey(const ValueKey('lit-inomov2007')), findsNothing);
+    expect(find.byKey(const ValueKey('lit-ahmedova2015')), findsNothing);
     // Hisob avtomatik: "0 ta" kabi bo'sh qatorlar yo'q.
     expect(find.textContaining(' 0 '), findsNothing);
-    await _tap(tester, find.byKey(const ValueKey('lit-inomov2007')));
-    await tester.runAsync(
-      () => Future<void>.delayed(const Duration(milliseconds: 50)),
-    );
-    await tester.pumpAndSettle();
-    // Inomov kitobiga tayangan muolajalar ro'yxati.
-    expect(find.text('Tozalovchi huqna'), findsWidgets);
   });
 }

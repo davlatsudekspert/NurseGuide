@@ -630,12 +630,9 @@ class LiteratureScreen extends StatelessWidget {
             final data = snap.data;
             if (data == null) return const SizedBox(height: 120);
             final usage = data.usage();
-            final groups = [
-              ('textbooks', l.litTextbooks),
-              ('official', l.litOfficial),
-              ('open', l.litOpen),
-              ('other', l.litOther),
-            ];
+            // Faqat ochiq (ruxsat berilgan) xorijiy manbalar ko'rsatiladi; mahalliy
+            // darslik, rasmiy hujjat va o'quv to'plamlari ro'yxatda yo'q.
+            final groups = [('open', l.litOpen)];
             return Column(
               crossAxisAlignment: CrossAxisAlignment.stretch,
               children: [

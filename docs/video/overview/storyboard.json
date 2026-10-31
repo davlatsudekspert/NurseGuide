@@ -1,0 +1,97 @@
+[
+ {
+  "id": "hook",
+  "frames": [
+   "01_home"
+  ],
+  "seconds": 4.29,
+  "voice_en": "Tests, oral answers and procedures. In one app?"
+ },
+ {
+  "id": "intro",
+  "frames": [
+   "01_home"
+  ],
+  "seconds": 6.0,
+  "voice_en": "NurseGuide is a study app for nurses and mid-level medical staff."
+ },
+ {
+  "id": "daily",
+  "frames": [
+   "11_daily"
+  ],
+  "seconds": 7.0,
+  "voice_en": "Five new questions every day, with an explanation and a source after each answer."
+ },
+ {
+  "id": "hub",
+  "frames": [
+   "02_hub"
+  ],
+  "seconds": 7.02,
+  "voice_en": "Knowledge and Skills Assessment: tests, oral tickets and work on your mistakes, all in one section."
+ },
+ {
+  "id": "test",
+  "frames": [
+   "03_test_setup",
+   "04_question"
+  ],
+  "seconds": 9.0,
+  "voice_en": "Choose your direction. Exam mode has a timer. Practice mode shows the answer right away."
+ },
+ {
+  "id": "oral",
+  "frames": [
+   "06_oral_plan"
+  ],
+  "seconds": 7.0,
+  "voice_en": "Draw an oral ticket and check yourself against the answer plan."
+ },
+ {
+  "id": "procedures",
+  "frames": [
+   "07_procedure"
+  ],
+  "seconds": 7.0,
+  "voice_en": "Step-by-step procedure guides, each with its source."
+ },
+ {
+  "id": "workplace",
+  "frames": [
+   "08_workplace"
+  ],
+  "seconds": 8.0,
+  "voice_en": "Pick your direction: nursing, midwifery, patronage, X-ray laboratory and more."
+ },
+ {
+  "id": "groups",
+  "frames": [
+   "10_group_results"
+  ],
+  "seconds": 7.0,
+  "voice_en": "Teachers create groups, assign tests and see the results."
+ },
+ {
+  "id": "sources",
+  "frames": [
+   "09_sources"
+  ],
+  "seconds": 6.0,
+  "voice_en": "Every item shows where it comes from."
+ },
+ {
+  "id": "languages",
+  "frames": [
+   "01_home"
+  ],
+  "seconds": 6.0,
+  "voice_en": "The interface is in Uzbek, Russian and English."
+ },
+ {
+  "id": "end",
+  "frames": [],
+  "seconds": 6.0,
+  "voice_en": "NurseGuide. Coming soon."
+ }
+]

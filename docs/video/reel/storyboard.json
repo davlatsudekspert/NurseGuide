@@ -1,0 +1,35 @@
+[
+ {
+  "id": "r-hook",
+  "frames": [
+   "11_daily"
+  ],
+  "seconds": 4
+ },
+ {
+  "id": "r-test",
+  "frames": [
+   "04_question"
+  ],
+  "seconds": 7
+ },
+ {
+  "id": "r-oral",
+  "frames": [
+   "06_oral_plan"
+  ],
+  "seconds": 7
+ },
+ {
+  "id": "r-proc",
+  "frames": [
+   "07_procedure"
+  ],
+  "seconds": 7
+ },
+ {
+  "id": "r-end",
+  "frames": [],
+  "seconds": 5
+ }
+]

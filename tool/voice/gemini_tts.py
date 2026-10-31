@@ -69,10 +69,19 @@ def via_generate_content(text):
     return wav_from_pcm(base64.b64decode(part['data']))
 
 
+ENGINE = os.environ.get('GEMINI_ENGINE', 'main')  # main | fallback | auto
+PACE = float(os.environ.get('GEMINI_PACE', '22'))  # bepul tarifda daqiqasiga 3 so'rov
+
+
 def synth(text):
+    # Bir rolikda ovoz aralashmasligi uchun standart: faqat asosiy usul (main). 'auto' — zaxiraga o'tadi.
+    if ENGINE == 'fallback':
+        return via_generate_content(text), f'{FB_MODEL}/{FB_VOICE}'
     try:
         return via_interactions(text), f'{MODEL}/{VOICE}'
     except Exception as e:
+        if ENGINE != 'auto':
+            raise
         print(f'  asosiy usul ishlamadi ({e}); zaxira: {FB_MODEL}/{FB_VOICE}')
         return via_generate_content(text), f'{FB_MODEL}/{FB_VOICE}'
 
@@ -93,7 +102,14 @@ def main():
             print('ovozlar ro‘yxati olinmadi:', e)
         lines = dict(list(lines.items())[:1])
     used = set()
+    first = True
     for sid, text in lines.items():
+        target = os.path.join(out, f'{sid}.wav')
+        if os.path.exists(target) and not test:
+            print(sid, 'bor, o‘tkazildi'); continue
+        if not first:
+            time.sleep(PACE)
+        first = False
         wav, used_model = synth(text)
         open(os.path.join(out, f'{sid}.wav'), 'wb').write(wav)
         used.add(used_model)

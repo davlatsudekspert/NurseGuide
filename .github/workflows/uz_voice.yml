@@ -1,0 +1,36 @@
+# O'zbekcha diktor ovozi (Gemini TTS) — PULLIK so'rovlar; faqat egasi qo'lda ishga tushiradi.
+# test=true: bitta gap va ovozlar ro'yxati (arzon sinov). Kalit: GitHub secret GEMINI_API_KEY.
+name: NurseGuide uz voice
+on:
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "true — faqat sinov (1 gap); false — hamma sahnalar"
+        type: boolean
+        default: true
+      voice:
+        description: "Ovoz nomi"
+        default: "Fola"
+      model:
+        description: "Model"
+        default: "gemini-3.8-flash-tts"
+permissions:
+  contents: read
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+      - name: Ovoz yaratish
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GEMINI_MODEL: ${{ inputs.model }}
+          GEMINI_VOICE: ${{ inputs.voice }}
+        run: |
+          python3 tool/voice/gemini_tts.py voice_out ${{ inputs.test && '--test' || '' }}
+      - uses: actions/upload-artifact@v5
+        with:
+          name: uz-voice
+          path: voice_out/
+          retention-days: 7

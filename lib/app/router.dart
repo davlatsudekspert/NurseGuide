@@ -7,6 +7,7 @@ import '../features/admin/admin_console_screens.dart';
 import '../features/admin/admin_pro_screen.dart';
 import '../features/auth/ui/account_required_screen.dart';
 import '../features/billing/paywall_screen.dart';
+import '../features/profile/my_profile_screen.dart';
 import '../features/admin/admin_screens.dart';
 import '../features/auth/ui/auth_screens.dart';
 import '../features/auth/ui/language_picker_screen.dart';
@@ -180,6 +181,10 @@ GoRouter buildRouter(
           GoRoute(
             path: 'theme',
             builder: (context, state) => const ThemeScreen(),
+          ),
+          GoRoute(
+            path: 'me',
+            builder: (context, state) => const MyProfileScreen(),
           ),
           GoRoute(
             path: 'privacy',

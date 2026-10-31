@@ -2069,6 +2069,63 @@ class AppLocalizationsUz extends AppLocalizations {
   String get profileRole => 'Rol';
 
   @override
+  String get profileMe => 'Mening profilim';
+
+  @override
+  String get profileMeSub => 'Rasm, ish joyi va ijtimoiy tarmoqlar';
+
+  @override
+  String get profilePhotoPick => 'Rasm tanlash';
+
+  @override
+  String get profilePhotoChange => 'Rasmni almashtirish';
+
+  @override
+  String get profilePhotoRemove => 'Rasmni olib tashlash';
+
+  @override
+  String get profileFieldName => 'Ism';
+
+  @override
+  String get profileWorkTitle => 'Ish joyi';
+
+  @override
+  String get profileFieldWorkplace => 'Ish joyi (muassasa)';
+
+  @override
+  String get profileFieldPosition => 'Lavozim';
+
+  @override
+  String get profileFieldCity => 'Shahar yoki tuman';
+
+  @override
+  String get profileSocialTitle => 'Ijtimoiy tarmoqlar';
+
+  @override
+  String get profileSocialHint => 'Foydalanuvchi nomi yoki havola';
+
+  @override
+  String get profileLocalNote =>
+      'Hammasi ixtiyoriy va faqat shu qurilmada saqlanadi — serverga yuborilmaydi.';
+
+  @override
+  String get profileSaved => 'Saqlandi';
+
+  @override
+  String profileLinkInvalid(String network) {
+    return '$network: to‘g‘ri nom yoki havola kiriting';
+  }
+
+  @override
+  String profileOpenLink(String network) {
+    return '$network sahifasini ochish';
+  }
+
+  @override
+  String get profileMeEmpty =>
+      'Rasm, ish joyi va ijtimoiy tarmoqlaringizni qo‘shing';
+
+  @override
   String get profileRoleSub => 'Bosh sahifa sizga moslashadi';
 
   @override

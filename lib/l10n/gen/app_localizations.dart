@@ -3580,6 +3580,108 @@ abstract class AppLocalizations {
   /// **'Role'**
   String get profileRole;
 
+  /// No description provided for @profileMe.
+  ///
+  /// In en, this message translates to:
+  /// **'My profile'**
+  String get profileMe;
+
+  /// No description provided for @profileMeSub.
+  ///
+  /// In en, this message translates to:
+  /// **'Photo, workplace and social links'**
+  String get profileMeSub;
+
+  /// No description provided for @profilePhotoPick.
+  ///
+  /// In en, this message translates to:
+  /// **'Choose photo'**
+  String get profilePhotoPick;
+
+  /// No description provided for @profilePhotoChange.
+  ///
+  /// In en, this message translates to:
+  /// **'Change photo'**
+  String get profilePhotoChange;
+
+  /// No description provided for @profilePhotoRemove.
+  ///
+  /// In en, this message translates to:
+  /// **'Remove photo'**
+  String get profilePhotoRemove;
+
+  /// No description provided for @profileFieldName.
+  ///
+  /// In en, this message translates to:
+  /// **'Name'**
+  String get profileFieldName;
+
+  /// No description provided for @profileWorkTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Workplace'**
+  String get profileWorkTitle;
+
+  /// No description provided for @profileFieldWorkplace.
+  ///
+  /// In en, this message translates to:
+  /// **'Workplace (facility)'**
+  String get profileFieldWorkplace;
+
+  /// No description provided for @profileFieldPosition.
+  ///
+  /// In en, this message translates to:
+  /// **'Position'**
+  String get profileFieldPosition;
+
+  /// No description provided for @profileFieldCity.
+  ///
+  /// In en, this message translates to:
+  /// **'City or district'**
+  String get profileFieldCity;
+
+  /// No description provided for @profileSocialTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Social links'**
+  String get profileSocialTitle;
+
+  /// No description provided for @profileSocialHint.
+  ///
+  /// In en, this message translates to:
+  /// **'Username or link'**
+  String get profileSocialHint;
+
+  /// No description provided for @profileLocalNote.
+  ///
+  /// In en, this message translates to:
+  /// **'Everything is optional and stored only on this device — it is not sent to the server.'**
+  String get profileLocalNote;
+
+  /// No description provided for @profileSaved.
+  ///
+  /// In en, this message translates to:
+  /// **'Saved'**
+  String get profileSaved;
+
+  /// No description provided for @profileLinkInvalid.
+  ///
+  /// In en, this message translates to:
+  /// **'{network}: enter a valid name or link'**
+  String profileLinkInvalid(String network);
+
+  /// No description provided for @profileOpenLink.
+  ///
+  /// In en, this message translates to:
+  /// **'Open {network}'**
+  String profileOpenLink(String network);
+
+  /// No description provided for @profileMeEmpty.
+  ///
+  /// In en, this message translates to:
+  /// **'Add your photo, workplace and social links'**
+  String get profileMeEmpty;
+
   /// No description provided for @profileRoleSub.
   ///
   /// In en, this message translates to:

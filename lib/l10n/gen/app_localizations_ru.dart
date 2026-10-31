@@ -2124,6 +2124,62 @@ class AppLocalizationsRu extends AppLocalizations {
   String get profileRole => 'Роль';
 
   @override
+  String get profileMe => 'Мой профиль';
+
+  @override
+  String get profileMeSub => 'Фото, место работы и соцсети';
+
+  @override
+  String get profilePhotoPick => 'Выбрать фото';
+
+  @override
+  String get profilePhotoChange => 'Сменить фото';
+
+  @override
+  String get profilePhotoRemove => 'Убрать фото';
+
+  @override
+  String get profileFieldName => 'Имя';
+
+  @override
+  String get profileWorkTitle => 'Место работы';
+
+  @override
+  String get profileFieldWorkplace => 'Место работы (учреждение)';
+
+  @override
+  String get profileFieldPosition => 'Должность';
+
+  @override
+  String get profileFieldCity => 'Город или район';
+
+  @override
+  String get profileSocialTitle => 'Соцсети';
+
+  @override
+  String get profileSocialHint => 'Имя пользователя или ссылка';
+
+  @override
+  String get profileLocalNote =>
+      'Всё необязательно и хранится только на этом устройстве — на сервер не отправляется.';
+
+  @override
+  String get profileSaved => 'Сохранено';
+
+  @override
+  String profileLinkInvalid(String network) {
+    return '$network: введите верное имя или ссылку';
+  }
+
+  @override
+  String profileOpenLink(String network) {
+    return 'Открыть $network';
+  }
+
+  @override
+  String get profileMeEmpty => 'Добавьте фото, место работы и соцсети';
+
+  @override
   String get profileRoleSub => 'Главная адаптируется под вас';
 
   @override

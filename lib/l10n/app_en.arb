@@ -1463,6 +1463,37 @@
   "profileGuestLocal": "Data stays on this device only",
   "profileDemoSession": "Demo session · debug build",
   "profileRole": "Role",
+  "profileMe": "My profile",
+  "profileMeSub": "Photo, workplace and social links",
+  "profilePhotoPick": "Choose photo",
+  "profilePhotoChange": "Change photo",
+  "profilePhotoRemove": "Remove photo",
+  "profileFieldName": "Name",
+  "profileWorkTitle": "Workplace",
+  "profileFieldWorkplace": "Workplace (facility)",
+  "profileFieldPosition": "Position",
+  "profileFieldCity": "City or district",
+  "profileSocialTitle": "Social links",
+  "profileSocialHint": "Username or link",
+  "profileLocalNote": "Everything is optional and stored only on this device — it is not sent to the server.",
+  "profileSaved": "Saved",
+  "profileLinkInvalid": "{network}: enter a valid name or link",
+  "@profileLinkInvalid": {
+    "placeholders": {
+      "network": {
+        "type": "String"
+      }
+    }
+  },
+  "profileOpenLink": "Open {network}",
+  "@profileOpenLink": {
+    "placeholders": {
+      "network": {
+        "type": "String"
+      }
+    }
+  },
+  "profileMeEmpty": "Add your photo, workplace and social links",
   "profileRoleSub": "Home adapts to your role",
   "profileLanguage": "Language",
   "profileAppearance": "Appearance",

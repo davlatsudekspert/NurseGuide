@@ -6,6 +6,7 @@ import 'package:flutter/services.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:http/http.dart' as http;
 import 'package:go_router/go_router.dart';
+import 'package:nurseguide/features/profile/profile_card.dart';
 import 'package:nurseguide/features/billing/billing_controller.dart';
 import 'package:nurseguide/app/app.dart';
 import 'package:nurseguide/app/app_scope.dart';
@@ -58,6 +59,15 @@ Future<void> loadAppFonts() async {
   await icons.load();
 }
 
+class _NoPhotos implements ProfilePhotoStorage {
+  @override
+  Future<Uint8List?> read() async => null;
+  @override
+  Future<void> write(Uint8List bytes) async {}
+  @override
+  Future<void> delete() async {}
+}
+
 /// Test uchun servislar: xotiradagi ombor, tasdiqlangan kontent yuklangan.
 Future<AppServices> makeServices(
   WidgetTester tester, {
@@ -87,6 +97,9 @@ Future<AppServices> makeServices(
   bool loadToifa = true,
   // Obuna (Pro) yoqilgan holatni sinash: berilmasa — o'chiq (hamma ochiq).
   bool billingEnabled = false,
+  // «Mening profilim»: soxta rasm ombori/tanlagich bilan sinash uchun.
+  ProfilePhotoStorage? profilePhotos,
+  ProfilePhotoPicker? profilePicker,
 }) async {
   final s = store ?? MemoryKeyValueStore();
   final services = createServices(
@@ -108,6 +121,11 @@ Future<AppServices> makeServices(
     billing: billingEnabled
         ? BillingController(store: s, enabled: true, now: clock)
         : null,
+    profileCard: ProfileCardController(
+      s,
+      photos: profilePhotos ?? _NoPhotos(),
+      picker: profilePicker ?? const GalleryProfilePhotoPicker(),
+    ),
   );
   if (languageChosen) {
     await services.settings.chooseLanguage(language);

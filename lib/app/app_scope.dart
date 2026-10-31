@@ -9,6 +9,7 @@ import '../core/backend/app_backend.dart';
 import '../core/storage/kv_store.dart';
 import '../features/auth/auth_controller.dart';
 import '../features/billing/billing_controller.dart';
+import '../features/profile/profile_card.dart';
 import '../features/classroom/classroom_local.dart';
 import '../features/classroom/curriculum.dart';
 import '../features/classroom/qr_scanner.dart';
@@ -66,6 +67,7 @@ class AppServices {
     required this.classroom,
     required this.topicTests,
     required this.billing,
+    required this.profileCard,
     this.qrScanner = const MobileQrScanner(),
   });
 
@@ -110,6 +112,9 @@ class AppServices {
 
   /// Mavzu testlari (taqdimot oxirida): tugallanmagan test va natijalar (qurilmada).
   final TopicTestController topicTests;
+
+  /// «Mening profilim»: rasm, ish joyi, ijtimoiy tarmoqlar (faqat qurilmada).
+  final ProfileCardController profileCard;
 
   /// Ilova ichidagi QR skaner (D-68; testlarda — soxta skaner).
   final QrScanner qrScanner;
@@ -172,6 +177,7 @@ class AppServices {
   /// holatni boshlang'ichga qaytaradi.
   Future<void> deleteLocalData(Iterable<Locale> systemLocales) async {
     await store.clear();
+    await profileCard.clear();
     await auth.signOut();
     access.clear();
     bookmarks.resetInMemory();

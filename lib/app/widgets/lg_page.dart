@@ -1,3 +1,5 @@
+import 'dart:typed_data';
+
 import 'package:flutter/rendering.dart';
 import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
@@ -514,11 +516,15 @@ class _TopBar extends StatelessWidget {
             const SizedBox(width: 8),
             const _LanguageButton(),
             if (showProfile)
-              _IconCircle(
-                icon: Icons.person_outline_rounded,
-                tooltip: l.actionProfile,
-                onTap: () => context.push('/profile'),
-                filled: false,
+              ListenableBuilder(
+                listenable: AppScope.of(context).profileCard,
+                builder: (context, _) => _IconCircle(
+                  icon: Icons.person_outline_rounded,
+                  image: AppScope.of(context).profileCard.photo,
+                  tooltip: l.actionProfile,
+                  onTap: () => context.push('/profile'),
+                  filled: false,
+                ),
               ),
           ],
         ),
@@ -623,8 +629,11 @@ class _IconCircle extends StatelessWidget {
     required this.tooltip,
     required this.onTap,
     this.filled = true,
+    this.image,
   });
 
+  /// Foydalanuvchi rasmi (profil tugmasida ikonka o'rniga).
+  final Uint8List? image;
   final IconData icon;
   final String tooltip;
   final VoidCallback onTap;
@@ -655,7 +664,19 @@ class _IconCircle extends StatelessWidget {
                 color: filled ? p.soft : Colors.transparent,
                 shape: BoxShape.circle,
               ),
-              child: Icon(icon, color: p.ink, size: 23),
+              child: image == null
+                  ? Icon(icon, color: p.ink, size: 23)
+                  : ClipOval(
+                      child: Image.memory(
+                        image!,
+                        width: 40,
+                        height: 40,
+                        fit: BoxFit.cover,
+                        gaplessPlayback: true,
+                        errorBuilder: (_, _, _) =>
+                            Icon(icon, color: p.ink, size: 23),
+                      ),
+                    ),
             ),
           ),
         ),

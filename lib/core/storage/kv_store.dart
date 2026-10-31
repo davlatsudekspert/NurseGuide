@@ -87,6 +87,12 @@ abstract final class StoreKeys {
   /// Slayd varaqlash rejimi: `1` — «Avto», yo'q/`0` — «Qo'lda»; tezlik —
   /// soniya (15/30/60). Faqat shu qurilmada.
   static const lectureAuto = 'lecture.auto';
+
+  /// «Mening profilim»: ixtiyoriy ma'lumotlar, faqat shu qurilmada.
+  static const profileName = 'profile.name';
+  static const profileWorkplace = 'profile.workplace';
+  static const profilePosition = 'profile.position';
+  static const profileCity = 'profile.city';
   static const lectureAutoSecs = 'lecture.autoSecs';
 
   /// Bosh sahifadagi “Davom ettirish”: oxirgi ochilgan taqdimot, mavzu testi
@@ -126,6 +132,15 @@ abstract final class StoreKeys {
     topicTests,
     lectureOrientation,
     lectureAuto,
+    profileName,
+    profileWorkplace,
+    profilePosition,
+    profileCity,
+    'profile.social.instagram',
+    'profile.social.telegram',
+    'profile.social.facebook',
+    'profile.social.youtube',
+    'profile.social.tiktok',
     lectureAutoSecs,
     homeResume,
     billingTier,

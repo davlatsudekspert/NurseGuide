@@ -11,6 +11,7 @@ import '../../design/widgets/lg_widgets.dart';
 import '../daily/daily_screens.dart' show DailyReminderSettings;
 import '../../l10n/gen/app_localizations.dart';
 import '../auth/auth_controller.dart';
+import 'my_profile_screen.dart';
 import '../auth/social_auth.dart';
 import '../auth/ui/role_screen.dart';
 import '../settings/settings_controller.dart';
@@ -117,6 +118,7 @@ class ProfileScreen extends StatelessWidget {
                 ],
               ),
             ),
+            const _MyProfileCard(),
             LgRow(
               title: l.profileRole,
               subtitle:
@@ -426,6 +428,68 @@ class PrivacyScreen extends StatelessWidget {
             divider: false,
           ),
       ],
+    );
+  }
+}
+
+/// «Mening profilim» kartasi: rasm, ism/ish joyi, ijtimoiy ikonlar.
+class _MyProfileCard extends StatelessWidget {
+  const _MyProfileCard();
+
+  @override
+  Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context);
+    final text = Theme.of(context).textTheme;
+    final card = AppScope.of(context).profileCard;
+    return ListenableBuilder(
+      listenable: card,
+      builder: (context, _) {
+        final lines = [
+          card.name,
+          [
+            card.position,
+            card.workplace,
+          ].where((e) => e.isNotEmpty).join(' · '),
+          card.city,
+        ].where((e) => e.isNotEmpty).toList();
+        return Padding(
+          padding: const EdgeInsets.symmetric(vertical: 8),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              InkWell(
+                key: const ValueKey('profile-me'),
+                onTap: () => context.push('/profile/me'),
+                child: ConstrainedBox(
+                  constraints: const BoxConstraints(minHeight: 56),
+                  child: Row(
+                    children: [
+                      ProfileAvatar(photo: card.photo, size: 56),
+                      const SizedBox(width: 14),
+                      Expanded(
+                        child: Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            Text(l.profileMe, style: text.titleMedium),
+                            Text(
+                              card.isEmpty
+                                  ? l.profileMeEmpty
+                                  : lines.join('\n'),
+                              style: text.bodySmall,
+                            ),
+                          ],
+                        ),
+                      ),
+                      const Icon(Icons.chevron_right_rounded),
+                    ],
+                  ),
+                ),
+              ),
+              if (card.networks.isNotEmpty) SocialIcons(card: card),
+            ],
+          ),
+        );
+      },
     );
   }
 }

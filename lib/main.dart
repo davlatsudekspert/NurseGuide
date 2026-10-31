@@ -7,6 +7,7 @@ import 'package:material_ui/material_ui.dart';
 import 'app/app.dart';
 import 'core/device/device_identity.dart';
 import 'features/billing/billing_controller.dart';
+import 'features/profile/profile_card.dart';
 import 'app/app_scope.dart';
 import 'core/backend/access_controller.dart';
 import 'core/backend/cloudflare_backend.dart';
@@ -70,6 +71,7 @@ AppServices createServices({
   SocialAuthService? socialAuth,
   QrScanner? qrScanner,
   BillingController? billing,
+  ProfileCardController? profileCard,
 }) {
   const config = AppConfig(appVersion: _appVersion, showDebugBadge: kDebugMode);
   final server = backend ?? _defaultBackend();
@@ -119,6 +121,7 @@ AppServices createServices({
     classroom: ClassroomLocal(store),
     topicTests: TopicTestController(store, clock: clock),
     billing: billing ?? BillingController(store: store, now: clock),
+    profileCard: profileCard ?? ProfileCardController(store),
     qrScanner: qrScanner ?? const MobileQrScanner(),
   )..watchAccess();
 }

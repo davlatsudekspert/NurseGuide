@@ -2122,6 +2122,62 @@ class AppLocalizationsEn extends AppLocalizations {
   String get profileRole => 'Role';
 
   @override
+  String get profileMe => 'My profile';
+
+  @override
+  String get profileMeSub => 'Photo, workplace and social links';
+
+  @override
+  String get profilePhotoPick => 'Choose photo';
+
+  @override
+  String get profilePhotoChange => 'Change photo';
+
+  @override
+  String get profilePhotoRemove => 'Remove photo';
+
+  @override
+  String get profileFieldName => 'Name';
+
+  @override
+  String get profileWorkTitle => 'Workplace';
+
+  @override
+  String get profileFieldWorkplace => 'Workplace (facility)';
+
+  @override
+  String get profileFieldPosition => 'Position';
+
+  @override
+  String get profileFieldCity => 'City or district';
+
+  @override
+  String get profileSocialTitle => 'Social links';
+
+  @override
+  String get profileSocialHint => 'Username or link';
+
+  @override
+  String get profileLocalNote =>
+      'Everything is optional and stored only on this device — it is not sent to the server.';
+
+  @override
+  String get profileSaved => 'Saved';
+
+  @override
+  String profileLinkInvalid(String network) {
+    return '$network: enter a valid name or link';
+  }
+
+  @override
+  String profileOpenLink(String network) {
+    return 'Open $network';
+  }
+
+  @override
+  String get profileMeEmpty => 'Add your photo, workplace and social links';
+
+  @override
   String get profileRoleSub => 'Home adapts to your role';
 
   @override

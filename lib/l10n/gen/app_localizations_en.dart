@@ -2122,6 +2122,16 @@ class AppLocalizationsEn extends AppLocalizations {
   String get profileRole => 'Role';
 
   @override
+  String get updateTitle => 'Update required';
+
+  @override
+  String get updateBody =>
+      'This version of the app is out of date. Install the new version to continue.';
+
+  @override
+  String get updateAction => 'Update';
+
+  @override
   String get profileMe => 'My profile';
 
   @override

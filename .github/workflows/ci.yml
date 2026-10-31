@@ -400,12 +400,12 @@ jobs:
             --build-number="${{ github.run_number }}" \
             --dart-define=LG_API_URL="$LG_API_URL" \
             --dart-define=LG_GOOGLE_CLIENT_ID="$LG_GOOGLE_CLIENT_ID" --dart-define=LG_GOOGLE_IOS_CLIENT_ID="$LG_GOOGLE_IOS_CLIENT_ID" \
-            --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN" --dart-define=NG_BILLING_ENABLED="$NG_BILLING_ENABLED"
+            --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN" --dart-define=NG_BILLING_ENABLED="$NG_BILLING_ENABLED" --dart-define=NG_BUILD="${{ github.run_number }}"
           if [ "${ANDROID_SIGNED:-false}" = true ]; then
             flutter build appbundle --release --build-number="${{ github.run_number }}" \
               --dart-define=LG_API_URL="$LG_API_URL" \
               --dart-define=LG_GOOGLE_CLIENT_ID="$LG_GOOGLE_CLIENT_ID" --dart-define=LG_GOOGLE_IOS_CLIENT_ID="$LG_GOOGLE_IOS_CLIENT_ID" \
-              --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN" --dart-define=NG_BILLING_ENABLED="$NG_BILLING_ENABLED"
+              --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN" --dart-define=NG_BILLING_ENABLED="$NG_BILLING_ENABLED" --dart-define=NG_BUILD="${{ github.run_number }}"
           fi
           cd build/app/outputs/flutter-apk
           VERSION=$(grep '^version:' "$GITHUB_WORKSPACE/pubspec.yaml" | sed 's/version: *//; s/+.*//')
@@ -571,7 +571,7 @@ jobs:
             --build-name="$IOS_VERSION" --build-number="$IOS_BUILD_NUMBER" \
             --dart-define=LG_API_URL="$LG_API_URL" \
             --dart-define=LG_GOOGLE_CLIENT_ID="$LG_GOOGLE_CLIENT_ID" --dart-define=LG_GOOGLE_IOS_CLIENT_ID="$LG_GOOGLE_IOS_CLIENT_ID" \
-            --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN=false --dart-define=NG_BILLING_ENABLED="$NG_BILLING_ENABLED"
+            --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN=false --dart-define=NG_BILLING_ENABLED="$NG_BILLING_ENABLED" --dart-define=NG_BUILD="$IOS_BUILD_NUMBER"
           APP=build/ios/iphoneos/Runner.app
           PB=/usr/libexec/PlistBuddy
           ID=$($PB -c 'Print :CFBundleIdentifier' "$APP/Info.plist")
@@ -966,7 +966,7 @@ jobs:
               --build-name="$IOS_VERSION" --build-number="$IOS_BUILD_NUMBER" \
               --dart-define=LG_API_URL="$LG_API_URL" \
               --dart-define=LG_GOOGLE_CLIENT_ID="$LG_GOOGLE_CLIENT_ID" --dart-define=LG_GOOGLE_IOS_CLIENT_ID="$LG_GOOGLE_IOS_CLIENT_ID" \
-              --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN" --dart-define=NG_BILLING_ENABLED="$NG_BILLING_ENABLED" \
+              --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN" --dart-define=NG_BILLING_ENABLED="$NG_BILLING_ENABLED" --dart-define=NG_BUILD="$IOS_BUILD_NUMBER" \
               --export-options-plist="$SIGN_DIR/ExportOptions.plist"
           else
             # Arxiv imzosiz; eksportda Xcode bulut sertifikati va avtomatik
@@ -975,7 +975,7 @@ jobs:
               --build-name="$IOS_VERSION" --build-number="$IOS_BUILD_NUMBER" \
               --dart-define=LG_API_URL="$LG_API_URL" \
               --dart-define=LG_GOOGLE_CLIENT_ID="$LG_GOOGLE_CLIENT_ID" --dart-define=LG_GOOGLE_IOS_CLIENT_ID="$LG_GOOGLE_IOS_CLIENT_ID" \
-              --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN" --dart-define=NG_BILLING_ENABLED="$NG_BILLING_ENABLED"
+              --dart-define=LG_APPLE_SERVICE_ID="$LG_APPLE_SERVICE_ID" --dart-define=LG_APPLE_SIGNIN="$LG_APPLE_SIGNIN" --dart-define=NG_BILLING_ENABLED="$NG_BILLING_ENABLED" --dart-define=NG_BUILD="$IOS_BUILD_NUMBER"
             xcodebuild -workspace ios/Runner.xcworkspace -scheme Runner \
               -configuration Release -destination 'generic/platform=iOS' \
               -archivePath build/ios/archive/Runner.xcarchive \

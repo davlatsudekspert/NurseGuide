@@ -2069,6 +2069,16 @@ class AppLocalizationsUz extends AppLocalizations {
   String get profileRole => 'Rol';
 
   @override
+  String get updateTitle => 'Yangilanish kerak';
+
+  @override
+  String get updateBody =>
+      'Ilovaning bu versiyasi eskirgan. Davom etish uchun yangi versiyani o‘rnating.';
+
+  @override
+  String get updateAction => 'Yangilash';
+
+  @override
   String get profileMe => 'Mening profilim';
 
   @override

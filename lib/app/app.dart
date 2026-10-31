@@ -1,6 +1,7 @@
 import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
 
+import '../core/update/update_gate.dart';
 import '../design/theme.dart';
 import '../features/daily/daily_screens.dart';
 import '../features/home/resume_history.dart';
@@ -130,14 +131,16 @@ class _NurseGuideAppState extends State<NurseGuideApp> {
           themeMode: _settings.themeMode,
           // Matn o'lchami sozlamasi: tizim masshtabiga ko'paytiriladi.
           builder: (context, child) {
+            // Eski versiya (saytdagi app-config.json bo'yicha) to'xtatiladi.
+            final gated = UpdateGate(child: child!);
             final factor = _settings.fontSize.factor;
-            if (factor == 1.0) return child!;
+            if (factor == 1.0) return gated;
             final mq = MediaQuery.of(context);
             return MediaQuery(
               data: mq.copyWith(
                 textScaler: _ScaledTextScaler(mq.textScaler, factor),
               ),
-              child: child!,
+              child: gated,
             );
           },
           // Mavzu almashganda ranglar silliq o'tadi (D-64).

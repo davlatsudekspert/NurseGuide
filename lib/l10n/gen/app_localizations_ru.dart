@@ -2124,6 +2124,16 @@ class AppLocalizationsRu extends AppLocalizations {
   String get profileRole => 'Роль';
 
   @override
+  String get updateTitle => 'Нужно обновление';
+
+  @override
+  String get updateBody =>
+      'Эта версия приложения устарела. Чтобы продолжить, установите новую версию.';
+
+  @override
+  String get updateAction => 'Обновить';
+
+  @override
   String get profileMe => 'Мой профиль';
 
   @override

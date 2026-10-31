@@ -3580,6 +3580,24 @@ abstract class AppLocalizations {
   /// **'Role'**
   String get profileRole;
 
+  /// No description provided for @updateTitle.
+  ///
+  /// In en, this message translates to:
+  /// **'Update required'**
+  String get updateTitle;
+
+  /// No description provided for @updateBody.
+  ///
+  /// In en, this message translates to:
+  /// **'This version of the app is out of date. Install the new version to continue.'**
+  String get updateBody;
+
+  /// No description provided for @updateAction.
+  ///
+  /// In en, this message translates to:
+  /// **'Update'**
+  String get updateAction;
+
   /// No description provided for @profileMe.
   ///
   /// In en, this message translates to:

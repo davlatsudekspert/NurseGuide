@@ -1,0 +1,29 @@
+# O'zbekcha diktor ovozi — Azure Speech (rasmiy), uz-UZ-MadinaNeural. Faqat qo'lda ishga tushiriladi.
+# Kalitlar: GitHub secrets AZURE_SPEECH_KEY, AZURE_SPEECH_REGION (bepul F0 tarif yetadi).
+name: NurseGuide uz voice (Azure)
+on:
+  workflow_dispatch:
+    inputs:
+      test:
+        description: "true — faqat sinov (1 gap)"
+        type: boolean
+        default: true
+permissions:
+  contents: read
+jobs:
+  voice:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v5
+      - name: Ovoz yaratish
+        env:
+          AZURE_SPEECH_KEY: ${{ secrets.AZURE_SPEECH_KEY }}
+          AZURE_SPEECH_REGION: ${{ secrets.AZURE_SPEECH_REGION }}
+        run: python3 tool/voice/azure_tts.py voice_out ${{ inputs.test && '--test' || '' }}
+      - uses: actions/upload-artifact@v5
+        if: always()
+        with:
+          name: uz-voice-azure
+          path: voice_out/
+          retention-days: 7

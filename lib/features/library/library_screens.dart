@@ -6,6 +6,7 @@ import 'package:material_ui/material_ui.dart';
 import '../../app/app_scope.dart';
 import '../../app/widgets/lg_page.dart';
 import '../../design/tokens.dart';
+import '../../design/widgets/cover_art.dart';
 import '../../design/widgets/lg_widgets.dart';
 import '../../l10n/gen/app_localizations.dart';
 import '../content/content_model.dart';
@@ -46,6 +47,7 @@ class LibraryScreen extends StatelessWidget {
           subtitle: l.libSubtitle,
           showBrand: true,
           children: [
+            const CoverArt('cover_library', height: 130),
             const _ContinueReadingCard(),
             if ((count ?? 0) > 0)
               _SearchEntry(

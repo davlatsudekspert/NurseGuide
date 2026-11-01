@@ -5,6 +5,7 @@ import 'package:material_ui/material_ui.dart';
 
 import '../../app/app_scope.dart';
 import '../../app/widgets/lg_page.dart';
+import '../../design/widgets/cover_art.dart';
 import '../../design/widgets/lg_widgets.dart';
 import '../../l10n/gen/app_localizations.dart';
 import '../daily/daily_picker.dart';
@@ -64,6 +65,7 @@ class WorkplaceScreen extends StatelessWidget {
           subtitle: l.workSub,
           showBrand: true,
           children: [
+            const CoverArt('cover_workplace', height: 130),
             LgSectionTitle(l.workDirTitle),
             Padding(
               padding: const EdgeInsets.only(bottom: 8),

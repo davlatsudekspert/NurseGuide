@@ -9,7 +9,7 @@ src, dst = sys.argv[1], sys.argv[2]
 a = np.array(Image.open(src).convert('RGB')).astype(int)
 H, W, _ = a.shape
 mn, sat = a.min(2), a.max(2) - a.min(2)
-cand = (mn >= 175) & (sat <= 18)  # fon yoki fon soyasi
+cand = (mn >= 175) & (sat <= (6 if '--strict' in sys.argv else 18))  # fon yoki fon soyasi
 mask = np.zeros((H, W), bool)
 q = deque()
 for x in range(W):
@@ -25,7 +25,8 @@ while q:
         if 0 <= ny < H and 0 <= nx < W and cand[ny, nx] and not mask[ny, nx]:
             mask[ny, nx] = True; q.append((ny, nx))
 # Yopiq ichki "teshiklar" (masalan, halqa ichidagi oq fon): katta sof-oq bo'laklar
-pure = (mn >= 244) & (sat <= 8) & ~mask
+HOLES = '--no-holes' not in sys.argv  # yopiq ichki oq joy bo'lmasa (kitob sahifasi kesilmasin) o'chiring
+pure = (mn >= 244) & (sat <= 8) & ~mask & HOLES
 seen = np.zeros((H, W), bool)
 for sy in range(0, H, 2):
     for sx in range(0, W, 2):

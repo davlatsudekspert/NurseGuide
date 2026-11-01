@@ -24,6 +24,23 @@ while q:
         ny, nx = y + dy, x + dx
         if 0 <= ny < H and 0 <= nx < W and cand[ny, nx] and not mask[ny, nx]:
             mask[ny, nx] = True; q.append((ny, nx))
+# Yopiq ichki "teshiklar" (masalan, halqa ichidagi oq fon): katta sof-oq bo'laklar
+pure = (mn >= 244) & (sat <= 8) & ~mask
+seen = np.zeros((H, W), bool)
+for sy in range(0, H, 2):
+    for sx in range(0, W, 2):
+        if not pure[sy, sx] or seen[sy, sx]:
+            continue
+        comp, q = [], deque([(sy, sx)])
+        seen[sy, sx] = True
+        while q:
+            y, x = q.popleft(); comp.append((y, x))
+            for dy, dx in ((1, 0), (-1, 0), (0, 1), (0, -1)):
+                ny, nx = y + dy, x + dx
+                if 0 <= ny < H and 0 <= nx < W and pure[ny, nx] and not seen[ny, nx]:
+                    seen[ny, nx] = True; q.append((ny, nx))
+        if len(comp) > 4000:
+            for y, x in comp: mask[y, x] = True
 alpha = np.full((H, W), 255, np.uint8)
 # fon: shaffof; soya: qora, alpha = qorayish miqdori
 shade = np.clip((255 - mn) / 255.0 * 1.35, 0, 1)

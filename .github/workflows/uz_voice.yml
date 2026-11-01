@@ -14,6 +14,9 @@ on:
       model:
         description: "Model"
         default: "gemini-3.8-flash-tts"
+      only:
+        description: "Faqat shu sahnalar (vergul bilan), bo'sh = hammasi"
+        default: ""
       engine:
         description: "main (asosiy) | auto (zaxiraga o'tadi) | fallback"
         default: "main"
@@ -31,6 +34,7 @@ jobs:
           GEMINI_MODEL: ${{ inputs.model }}
           GEMINI_VOICE: ${{ inputs.voice }}
           GEMINI_ENGINE: ${{ inputs.engine }}
+          GEMINI_ONLY: ${{ inputs.only }}
         run: |
           python3 tool/voice/gemini_tts.py voice_out ${{ inputs.test && '--test' || '' }}
       - uses: actions/upload-artifact@v5

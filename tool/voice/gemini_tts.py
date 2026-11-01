@@ -102,8 +102,11 @@ def main():
             print('ovozlar ro‘yxati olinmadi:', e)
         lines = dict(list(lines.items())[:1])
     used = set()
+    only = [x for x in os.environ.get('GEMINI_ONLY', '').split(',') if x.strip()]
     first = True
     for sid, text in lines.items():
+        if only and sid not in only:
+            continue
         target = os.path.join(out, f'{sid}.wav')
         if os.path.exists(target) and not test:
             print(sid, 'bor, o‘tkazildi'); continue

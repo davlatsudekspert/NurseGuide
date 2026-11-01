@@ -75,6 +75,27 @@ class AppLocalizationsEn extends AppLocalizations {
       'Guest mode is a preview: home, the procedures list, the workplace and the library. Tests, practice, daily questions, procedure details and groups open after you sign up.';
 
   @override
+  String get onbSlide1Title => 'Knowledge & Skills Assessment';
+
+  @override
+  String get onbSlide1Body =>
+      'Tests, oral tickets and mistake review — with sources.';
+
+  @override
+  String get onbSlide2Title => 'Your workplace';
+
+  @override
+  String get onbSlide2Body =>
+      'Daily questions and procedures for your direction.';
+
+  @override
+  String get onbSlide3Title => 'Results and sources';
+
+  @override
+  String get onbSlide3Body =>
+      'Track your progress; every answer shows where it comes from.';
+
+  @override
   String get stateLoading => 'Loading…';
 
   @override

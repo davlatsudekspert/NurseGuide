@@ -75,6 +75,27 @@ class AppLocalizationsUz extends AppLocalizations {
       'Mehmon rejimida faqat tanishib chiqish mumkin: bosh sahifa, manipulyatsiyalar ro‘yxati, ish joyi va kutubxona. Test, mashq, kunlik savol, manipulyatsiya tafsilotlari va guruhlar ro‘yxatdan o‘tgach ochiladi.';
 
   @override
+  String get onbSlide1Title => 'Bilim va malakani baholash';
+
+  @override
+  String get onbSlide1Body =>
+      'Test, og‘zaki bilet va xatolar tahlili — manba bilan.';
+
+  @override
+  String get onbSlide2Title => 'Ish joyingiz';
+
+  @override
+  String get onbSlide2Body =>
+      'Yo‘nalishingizga mos kunlik savollar va manipulyatsiyalar.';
+
+  @override
+  String get onbSlide3Title => 'Natija va manbalar';
+
+  @override
+  String get onbSlide3Body =>
+      'O‘sishingizni kuzating; har bir javob qayerdan olingani ko‘rinadi.';
+
+  @override
   String get stateLoading => 'Yuklanmoqda…';
 
   @override

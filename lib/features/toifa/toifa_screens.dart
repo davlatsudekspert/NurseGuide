@@ -8,6 +8,7 @@ import '../../app/app_scope.dart';
 import '../../app/shell.dart';
 import '../../app/widgets/lg_page.dart';
 import '../../design/tokens.dart';
+import '../../design/widgets/cover_art.dart';
 import '../../design/widgets/lg_widgets.dart';
 import '../../design/widgets/reveal_on_mount.dart';
 import '../../l10n/gen/app_localizations.dart';
@@ -394,6 +395,7 @@ class _ToifaHubScreenState extends State<ToifaHubScreen> {
       ];
     }
     return [
+      const CoverArt('cover_assessment'),
       if (_lang(context) != 'uz')
         LgNotice(
           l.toifaUzbekNotice,

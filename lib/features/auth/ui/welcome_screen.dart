@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:go_router/go_router.dart';
 import 'package:material_ui/material_ui.dart';
 
@@ -79,69 +81,108 @@ class LgLogoHero extends StatelessWidget {
   }
 }
 
-/// Welcome ekranidagi bitta afzallik: ikonka badge, kimga va nima.
-class _Benefit extends StatelessWidget {
-  const _Benefit({
-    required this.icon,
-    required this.title,
-    required this.body,
-    this.divider = true,
-  });
+/// Tanishtiruv: 3 ta surish mumkin bo'lgan slayd (rasm + qisqa matn).
+class _Showcase extends StatefulWidget {
+  const _Showcase();
 
-  final IconData icon;
-  final String title;
-  final String body;
-  final bool divider;
+  @override
+  State<_Showcase> createState() => _ShowcaseState();
+}
+
+class _ShowcaseState extends State<_Showcase> {
+  final _pc = PageController();
+  Timer? _timer;
+  int _i = 0;
+
+  @override
+  void didChangeDependencies() {
+    super.didChangeDependencies();
+    _timer?.cancel();
+    // Harakatni kamaytirish yoqilgan bo'lsa — o'zi aylanmaydi.
+    if (!MediaQuery.disableAnimationsOf(context)) {
+      _timer = Timer.periodic(const Duration(seconds: 5), (_) {
+        if (!mounted || !_pc.hasClients) return;
+        _pc.animateToPage(
+          (_i + 1) % 3,
+          duration: const Duration(milliseconds: 450),
+          curve: Curves.easeOutCubic,
+        );
+      });
+    }
+  }
+
+  @override
+  void dispose() {
+    _timer?.cancel();
+    _pc.dispose();
+    super.dispose();
+  }
 
   @override
   Widget build(BuildContext context) {
+    final l = AppLocalizations.of(context);
     final p = LgPalette.of(context);
     final text = Theme.of(context).textTheme;
-    return Semantics(
-      container: true,
-      child: Container(
-        padding: const EdgeInsets.symmetric(vertical: 10),
-        decoration: BoxDecoration(
-          border: divider
-              ? Border(bottom: BorderSide(color: p.line.withValues(alpha: 0.7)))
-              : null,
-        ),
-        child: Row(
-          crossAxisAlignment: CrossAxisAlignment.start,
-          children: [
-            ExcludeSemantics(
-              child: Container(
-                width: 40,
-                height: 40,
-                decoration: BoxDecoration(
-                  color: p.soft,
-                  borderRadius: BorderRadius.circular(13),
-                ),
-                child: Icon(icon, size: 21, color: p.brand),
-              ),
-            ),
-            const SizedBox(width: 14),
-            Expanded(
-              child: Column(
-                crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  Text(
-                    title,
-                    style: text.titleSmall!.copyWith(
-                      fontWeight: FontWeight.w600,
+    final slides = [
+      ('onb_1', l.onbSlide1Title, l.onbSlide1Body),
+      ('onb_2', l.onbSlide2Title, l.onbSlide2Body),
+      ('onb_3', l.onbSlide3Title, l.onbSlide3Body),
+    ];
+    return Column(
+      children: [
+        SizedBox(
+          height: 280,
+          child: PageView(
+            key: const ValueKey('welcome-showcase'),
+            controller: _pc,
+            onPageChanged: (v) => setState(() => _i = v),
+            children: [
+              for (final (img, title, body) in slides)
+                Column(
+                  children: [
+                    Expanded(
+                      child: ExcludeSemantics(
+                        child: Image.asset(
+                          'assets/images/art/$img.webp',
+                          fit: BoxFit.contain,
+                          errorBuilder: (_, _, _) => const SizedBox.shrink(),
+                        ),
+                      ),
                     ),
-                  ),
-                  const SizedBox(height: 2),
-                  Text(
-                    body,
-                    style: text.bodyMedium!.copyWith(fontSize: 13, height: 1.4),
-                  ),
-                ],
+                    const SizedBox(height: 8),
+                    Text(
+                      title,
+                      style: text.titleMedium,
+                      textAlign: TextAlign.center,
+                    ),
+                    const SizedBox(height: 2),
+                    Text(
+                      body,
+                      style: text.bodySmall,
+                      textAlign: TextAlign.center,
+                    ),
+                  ],
+                ),
+            ],
+          ),
+        ),
+        const SizedBox(height: 8),
+        Row(
+          mainAxisAlignment: MainAxisAlignment.center,
+          children: [
+            for (var k = 0; k < 3; k++)
+              Container(
+                width: k == _i ? 22 : 8,
+                height: 8,
+                margin: const EdgeInsets.symmetric(horizontal: 3),
+                decoration: BoxDecoration(
+                  color: k == _i ? p.brand : p.outline,
+                  borderRadius: BorderRadius.circular(4),
+                ),
               ),
-            ),
           ],
         ),
-      ),
+      ],
     );
   }
 }
@@ -165,35 +206,7 @@ class WelcomeScreen extends StatelessWidget {
         child: LgLogoHero(size: 88, halo: true),
       ),
       children: [
-        // Uchta afzallik — har biri rolga mos: birinchi ekrandayoq
-        // "bu ilova men uchunmi?" savoliga javob.
-        LgFadeIn(
-          delay: 0.15,
-          child: LgPanel(
-            padding: const EdgeInsets.fromLTRB(16, 4, 16, 4),
-            child: Column(
-              crossAxisAlignment: CrossAxisAlignment.start,
-              children: [
-                _Benefit(
-                  icon: Icons.badge_outlined,
-                  title: l.welcomeBenefitNurseTitle,
-                  body: l.welcomeBenefitNurseBody,
-                ),
-                _Benefit(
-                  icon: Icons.biotech_outlined,
-                  title: l.welcomeBenefitStudentTitle,
-                  body: l.welcomeBenefitStudentBody,
-                ),
-                _Benefit(
-                  icon: Icons.school_outlined,
-                  title: l.welcomeBenefitTeacherTitle,
-                  body: l.welcomeBenefitTeacherBody,
-                  divider: false,
-                ),
-              ],
-            ),
-          ),
-        ),
+        const LgFadeIn(delay: 0.05, child: _Showcase()),
         const SizedBox(height: 16),
         LgFadeIn(
           delay: 0.3,

@@ -84,6 +84,7 @@ flutter:
 
   assets:
     - assets/images/
+    - assets/images/art/
     - assets/brand/
     - assets/content/core/
     - assets/content/reference/

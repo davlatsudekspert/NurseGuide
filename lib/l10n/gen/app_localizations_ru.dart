@@ -75,6 +75,27 @@ class AppLocalizationsRu extends AppLocalizations {
       'Гостевой режим — это знакомство: главная, список манипуляций, рабочее место и библиотека. Тесты, практика, ежедневные вопросы, описания манипуляций и группы открываются после регистрации.';
 
   @override
+  String get onbSlide1Title => 'Проверка знаний и компетенций';
+
+  @override
+  String get onbSlide1Body =>
+      'Тесты, устные билеты и разбор ошибок — с источниками.';
+
+  @override
+  String get onbSlide2Title => 'Ваше рабочее место';
+
+  @override
+  String get onbSlide2Body =>
+      'Ежедневные вопросы и манипуляции под ваше направление.';
+
+  @override
+  String get onbSlide3Title => 'Результаты и источники';
+
+  @override
+  String get onbSlide3Body =>
+      'Следите за прогрессом; у каждого ответа указан источник.';
+
+  @override
   String get stateLoading => 'Загрузка…';
 
   @override

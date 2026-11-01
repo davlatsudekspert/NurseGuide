@@ -226,6 +226,42 @@ abstract class AppLocalizations {
   /// **'Guest mode is a preview: home, the procedures list, the workplace and the library. Tests, practice, daily questions, procedure details and groups open after you sign up.'**
   String get welcomeGuestNote;
 
+  /// No description provided for @onbSlide1Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Knowledge & Skills Assessment'**
+  String get onbSlide1Title;
+
+  /// No description provided for @onbSlide1Body.
+  ///
+  /// In en, this message translates to:
+  /// **'Tests, oral tickets and mistake review — with sources.'**
+  String get onbSlide1Body;
+
+  /// No description provided for @onbSlide2Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Your workplace'**
+  String get onbSlide2Title;
+
+  /// No description provided for @onbSlide2Body.
+  ///
+  /// In en, this message translates to:
+  /// **'Daily questions and procedures for your direction.'**
+  String get onbSlide2Body;
+
+  /// No description provided for @onbSlide3Title.
+  ///
+  /// In en, this message translates to:
+  /// **'Results and sources'**
+  String get onbSlide3Title;
+
+  /// No description provided for @onbSlide3Body.
+  ///
+  /// In en, this message translates to:
+  /// **'Track your progress; every answer shows where it comes from.'**
+  String get onbSlide3Body;
+
   /// No description provided for @stateLoading.
   ///
   /// In en, this message translates to:

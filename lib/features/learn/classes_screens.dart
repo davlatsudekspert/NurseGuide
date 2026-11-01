@@ -9,6 +9,7 @@ import '../../app/widgets/lg_page.dart';
 import '../../core/backend/backend_models.dart';
 import '../../core/backend/app_backend.dart' show AppBackend;
 import '../../design/tokens.dart';
+import '../../design/widgets/cover_art.dart';
 import '../../design/widgets/lg_widgets.dart';
 import '../../l10n/gen/app_localizations.dart';
 import '../classroom/general_test_screen.dart'
@@ -242,6 +243,7 @@ class _ClassesScreenState extends State<ClassesScreen> {
       title: l.classesTitle,
       subtitle: l.classesSubtitle,
       children: [
+        const CoverArt('cover_groups'),
         ClassesGate(
           child: ListenableBuilder(
             listenable: auth,

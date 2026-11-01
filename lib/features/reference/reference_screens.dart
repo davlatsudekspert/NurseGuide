@@ -7,6 +7,7 @@ import '../../app/widgets/links.dart';
 import '../../app/widgets/lg_page.dart';
 import '../../design/glass_art.dart';
 import '../../design/tokens.dart';
+import '../../design/widgets/cover_art.dart';
 import '../../design/widgets/lg_widgets.dart';
 import '../../l10n/gen/app_localizations.dart';
 import '../daily/daily_picker.dart';
@@ -52,6 +53,7 @@ class ProceduresScreen extends StatelessWidget {
       subtitle: l.procSub,
       showBrand: true,
       children: [
+        const CoverArt('cover_procedures'),
         FutureBuilder<ReferenceData>(
           future: ReferenceData.load(_bundle(context)),
           builder: (context, snap) {

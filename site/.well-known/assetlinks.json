@@ -1,0 +1,12 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "uz.nurseguide.app",
+      "sha256_cert_fingerprints": [
+        "14:BE:97:12:40:47:D7:87:E2:1C:76:F1:DE:AC:93:B2:7E:8B:5E:BE:8C:A2:4F:3C:F2:9D:55:78:C1:8F:8D:FE"
+      ]
+    }
+  }
+]

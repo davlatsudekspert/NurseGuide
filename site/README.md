@@ -37,9 +37,10 @@ Manzil oxiridagi `/` muhim: do‘kon maydonlariga doim sleshli manzilni yozing.
 
 ## Ilova havolalari (universal / app links)
 
-Android manifestida `https://nurseguide.nfcstore.uz/j` uchun `autoVerify` havolasi bor, lekin
-tekshiruv fayli (`/.well-known/assetlinks.json`) saytda HALI YO‘Q: u uchun release imzo
-sertifikatining SHA-256 barmoq izi kerak (Play App Signing bo‘lsa — Play Console → App integrity).
+Android manifestida `https://nurseguide.nfcstore.uz/j` uchun `autoVerify` havolasi bor; tekshiruv fayli
+`site/.well-known/assetlinks.json`. Unda yuklash (upload) kaliti SHA-256 bor; Play App Signing kaliti
+(Play Console → App integrity → App signing key certificate → SHA-256) ham ro‘yxatga qo‘shilishi shart,
+aks holda Play'dan o‘rnatilgan ilova uchun domen “tasdiqlanmagan” bo‘ladi.
 Fayl qo‘shilmaguncha havola oddiy brauzerda ochiladi va “Ilovada ochish” tugmasi
 (`nurseguide://app/j`) ishlaydi. iOS’da universal link yoqilmagan (Associated Domains
 imkoniyati va `apple-app-site-association` kerak bo‘lardi) — taklif faqat sahifadagi tugma va

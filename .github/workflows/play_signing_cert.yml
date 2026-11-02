@@ -1,0 +1,51 @@
+# Faqat O'QISH: Google Play App Signing sertifikatining ommaviy SHA-256 izi (assetlinks.json uchun).
+# Hech narsa yuklanmaydi va o'zgartirilmaydi. Secret: GOOGLE_PLAY_SERVICE_ACCOUNT_JSON.
+name: play_signing_cert
+on:
+  workflow_dispatch:
+    inputs:
+      version_code:
+        description: "Play'ga yuklangan versionCode (masalan 73)"
+        required: true
+        default: "73"
+permissions:
+  contents: read
+jobs:
+  cert:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Sertifikat izi
+        env:
+          PLAY_JSON: ${{ secrets.GOOGLE_PLAY_SERVICE_ACCOUNT_JSON }}
+          VC: ${{ inputs.version_code }}
+        run: |
+          pip install -q google-auth requests
+          python3 - <<'PY'
+          import os, json, base64
+          from google.oauth2 import service_account
+          from google.auth.transport.requests import AuthorizedSession
+          c = service_account.Credentials.from_service_account_info(
+              json.loads(os.environ['PLAY_JSON']),
+              scopes=['https://www.googleapis.com/auth/androidpublisher'])
+          s = AuthorizedSession(c)
+          pkg, vc = 'uz.nurseguide.app', os.environ['VC']
+          r = s.get(f'https://androidpublisher.googleapis.com/androidpublisher/v3/applications/{pkg}/generatedApks/{vc}')
+          print('HTTP', r.status_code)
+          if r.status_code != 200:
+              print(r.text[:600]); raise SystemExit(1)
+          hashes = set()
+          def walk(o):
+              if isinstance(o, dict):
+                  for k, v in o.items():
+                      if k == 'certificateSha256Hash': hashes.add(v)
+                      else: walk(v)
+              elif isinstance(o, list):
+                  for v in o: walk(v)
+          walk(r.json())
+          for h in sorted(hashes):
+              x = h.replace(':', '').upper()
+              if len(x) != 64:
+                  x = base64.b64decode(h).hex().upper()
+              print('SHA256:', ':'.join(x[i:i+2] for i in range(0, 64, 2)))
+          if not hashes: print(json.dumps(r.json())[:600])
+          PY
